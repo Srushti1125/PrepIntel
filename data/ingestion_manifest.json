@@ -1103,13 +1103,13 @@
       "pages": 3,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793655572.0486703,
+      "processed_at": 1793657802.192231,
       "text_sha256": "47f6456dffe734f4bbb554dd3cf36424bac729e25483063bcbdf8bf73a5a6c14",
       "status": "indexed",
       "chunks": 10,
       "insights": false,
       "experiences": 0,
-      "insights_error": "structured extraction failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m34ktp7dehwajs9h9xxjwwy8` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199141, Requested 2951. Please try again in 15m3.744s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      "insights_error": "structured extraction failed: Error calling model 'gemini-2.5-flash' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://ai.google.dev/gemini-api/docs/rate-limits.\\nPlease retry in 9h40m10.719951014s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'description': 'Generate content requests per day limit exceeded on Free Tier. See https://ai.google.dev/gemini-api/docs/rate-limits.', 'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '34810s'}]}}"
     },
     "2026/KPMG_2026/KPMG_Digital-enablement_Amogh Mathpati.pdf": {
       "sha256": "46b5f412b06e75b8e54a8e6fea0564103e77dc95036f9a8ae663e1f9ba506dc4",
@@ -1120,13 +1120,13 @@
       "pages": 3,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793655617.6472995,
+      "processed_at": 1793657991.1311364,
       "text_sha256": "7e54f39dac7ee4a7f91bb46bb4333d6b2ed14b59d4b75633ba0a0c8e4ece3dbe",
       "status": "indexed",
       "chunks": 10,
       "insights": false,
       "experiences": 0,
-      "insights_error": "structured extraction failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m34ktp7dehwajs9h9xxjwwy8` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199035, Requested 2508. Please try again in 11m6.576s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      "insights_error": "structured extraction failed: Error calling model 'gemini-2.5-flash' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://ai.google.dev/gemini-api/docs/rate-limits.\\nPlease retry in 9h37m2.589692053s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'description': 'Generate content requests per day limit exceeded on Free Tier. See https://ai.google.dev/gemini-api/docs/rate-limits.', 'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '34622s'}]}}"
     },
     "2026/KPMG_2026/KPMG_Digital_Tech_Enablemnet_Parnika_Das.pdf": {
       "sha256": "620f6a18cdf30c4016265859bb4fc7311620279cf583a422febd355bcd3fcd5d",

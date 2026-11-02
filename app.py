@@ -238,7 +238,7 @@ def brief_tip(text: str, word_limit: int = 24) -> str:
 def _canonical_duration(value: str, unit: str) -> str:
     """Convert equivalent hour/minute values to one compact human-readable form."""
     parts = re.split(r"\s*(?:[-–]|to)\s*", value)
-    numbers = [int(part) for part in parts]
+    numbers = [float(part) for part in parts]
     unit_is_hours = unit.lower().startswith("h")
     minutes = [number * 60 if unit_is_hours else number for number in numbers]
     if all(amount >= 120 and amount % 60 == 0 for amount in minutes):
@@ -247,13 +247,13 @@ def _canonical_duration(value: str, unit: str) -> str:
     else:
         shown = minutes
         shown_unit = "minute" if max(shown) == 1 else "minutes"
-    amount_text = "–".join(map(str, shown)) if len(shown) > 1 else str(shown[0])
+    amount_text = "–".join(f"{amount:g}" for amount in shown)
     return f"{amount_text} {shown_unit}"
 
 
 def normalize_time_units(text: str) -> str:
     """Standardize abbreviations and equivalent minute/hour expressions."""
-    pattern = re.compile(r"\b(\d+(?:\s*(?:[-–]|to)\s*\d+)?)\s*(minutes?|mins?|hours?|hrs?)\b", re.I)
+    pattern = re.compile(r"(?<![\d.])(\d+(?:\.\d+)?(?:\s*(?:[-–]|to)\s*\d+(?:\.\d+)?)?)\s*(minutes?|mins?|hours?|hrs?)\b", re.I)
     return pattern.sub(lambda match: _canonical_duration(match.group(1), match.group(2)), text)
 
 
@@ -261,7 +261,7 @@ def round_duration(text: str | None) -> str | None:
     """Pull a stated duration from the round account with standardized units."""
     if not text:
         return None
-    match = re.search(r"\b(\d+(?:\s*(?:[-–]|to)\s*\d+)?\s*(?:minutes?|mins?|hours?|hrs?))\b", text, re.I)
+    match = re.search(r"(?<![\d.])(\d+(?:\.\d+)?(?:\s*(?:[-–]|to)\s*\d+(?:\.\d+)?)?\s*(?:minutes?|mins?|hours?|hrs?))\b", text, re.I)
     return normalize_time_units(match.group(1)) if match else None
 
 
@@ -456,7 +456,7 @@ with tab_rounds:
 
                     def frequency_label(values, limit=3):
                         ordered = sorted(values.items(), key=lambda item: (-len(item[1]), item[0]))[:limit]
-                        return " · ".join(f"{name} ({len(ids)}/{report_count})" for name, ids in ordered) if ordered else "Not stated"
+                        return " · ".join(f"{name} ({len(ids)} reports)" for name, ids in ordered) if ordered else "Not stated"
 
                     st.caption(f"Round type across reports · {frequency_label(round_types)}")
                     metric_rows = [
@@ -474,25 +474,25 @@ with tab_rounds:
 
                     ordered_topics = sorted(topic_mentions.items(), key=lambda item: (-len(item[1]), item[0]))
                     if ordered_topics:
-                        top_topics = ", ".join(f"{name} ({len(ids)}/{report_count})" for name, ids in ordered_topics[:8])
+                        top_topics = ", ".join(f"{name} ({len(ids)} reports)" for name, ids in ordered_topics[:8])
                         st.markdown(f"**Overall insight:** Across {report_count} reports, this round most often covered {md_safe(top_topics)}. {len(question_mentions)} distinct questions were reported.")
                         topic_groups = {}
                         for name, ids in ordered_topics:
                             topic_groups.setdefault(topic_areas.get(name, "Other"), []).append((name, ids))
                         st.markdown("**Topics by area across experiences**")
                         for area, items in topic_groups.items():
-                            area_items = ", ".join(f"{md_safe(name)} ({len(ids)}/{report_count})" for name, ids in items[:8])
+                            area_items = ", ".join(f"{md_safe(name)} ({len(ids)} reports)" for name, ids in items[:8])
                             st.markdown(f"- **{md_safe(area)}:** {area_items}")
 
                     sections = sorted(assessment_sections_seen.items(), key=lambda item: (-len(item[1]), item[0]))
                     if sections:
                         st.markdown("**Assessment sections across reports**")
-                        st.markdown(" · ".join(f"{section} ({len(ids)}/{report_count})" for section, ids in sections))
+                        st.markdown(" · ".join(f"{section} ({len(ids)} reports)" for section, ids in sections))
                     facts = sorted(format_facts.values(), key=lambda item: (-len(item["experiences"]), item["text"].lower()))
                     if facts:
                         st.markdown("**Assessment format and rules reported**")
                         for fact in facts[:6]:
-                            st.markdown(f"- {md_safe(fact['text'])} ({len(fact['experiences'])}/{report_count} reports)")
+                            st.markdown(f"- {md_safe(fact['text'])} (reported in {len(fact['experiences'])} reports)")
 
                     if question_kinds:
                         kind_summary = " · ".join(f"{kind}: {len(ids)} experiences" for kind, ids in sorted(question_kinds.items(), key=lambda item: (-len(item[1]), item[0])))
@@ -501,11 +501,11 @@ with tab_rounds:
                     if ordered_questions:
                         st.markdown("**Reported question examples**")
                         for question in ordered_questions[:5]:
-                            st.markdown(f"- {md_safe(question['text'])} · reported in {len(question['experiences'])}/{report_count} experiences")
+                            st.markdown(f"- {md_safe(question['text'])} · reported in {len(question['experiences'])} experiences")
                         if len(ordered_questions) > 5:
                             with st.expander(f"Show {len(ordered_questions) - 5} more distinct questions"):
                                 for question in ordered_questions[5:]:
-                                    st.markdown(f"- {md_safe(question['text'])} · reported in {len(question['experiences'])}/{report_count} experiences")
+                                    st.markdown(f"- {md_safe(question['text'])} · reported in {len(question['experiences'])} experiences")
 
 # ------------------------------------------------------------------------------------ topics
 with tab_topics:
