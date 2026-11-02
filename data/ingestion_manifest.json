@@ -981,12 +981,13 @@
       "pages": 7,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793394263.8120625,
+      "processed_at": 1793655110.405815,
       "text_sha256": "4e61efb2fabf9ac05a23d04df185eb01d718e6e6fa3c1f159c1689ebb7fa27f1",
       "status": "indexed",
       "chunks": 16,
       "insights": false,
-      "experiences": 0
+      "experiences": 0,
+      "insights_error": "structured extraction failed: Error code: 400 - {'error': {'message': 'Failed to parse tool call arguments as JSON', 'type': 'invalid_request_error', 'code': 'tool_use_failed', 'failed_generation': '{\"name\": \"LLMExtraction\", \"arguments\": {\\n  \"experiences\": [\\n    {\\n      \"role\": \"Junior Software Engineer\",\\n      \"rounds\": [\\n        {\\n          \"name\": \"Online Assessment\",\\n          \"category\": \"Online Assessment\",\\n          \"description\": \"The first stage was an online assessment consisting of a single DSA question + 4 logic/Aptitude questions. The DSA question was mainly based on mathematical reasoning rather than complex data structures.\",\\n          \"pages\": [1],\\n          \"topics\": [\"DSA\", \"logic\", \"aptitude\"],\\n          \"questions\": []\\n        },\\n        {\\n          \"name\": \"Predictive Index Assessment\",\\n          \"category\": \"Other\",\\n          \"description\": \"The shortlisted candidates were asked to complete a Predictive Index assessment focused more on behavioural and personality evaluation rather than technical skills.\",\\n          \"pages\": [1],\\n          \"topics\": [],\\n          \"questions\": []\\n        },\\n        {\\n          \"name\": \"Technical Interview Round 1\",\\n          \"category\": \"Technical Interview\",\\n          \"description\": \"First technical round (online) focused on Core Java fundamentals, Java Collections Framework, Object-Oriented Programming concepts, DBMS basics, Data Structures and Algorithms. Two DSA problems were given: one Leetcode easy level and one medium difficulty.\",\\n          \"pages\": [1],\\n          \"topics\": [\"Core Java\", \"Java Collections Framework\", \"OOP\", \"DBMS\", \"Data Structures and Algorithms\"],\\n          \"questions\": [\\n            {\\n              \"text\": \"Leetcode easy level DSA problem\",\\n              \"kind\": \"coding\",\\n              \"page\": 1\\n            },\\n            {\\n              \"text\": \"Medium difficulty Leetcode style DSA problem\",\\n              \"kind\": \"coding\",\\n              \"page\": 1\\n            }\\n          ]\\n        },\\n        {\\n          \"name\": \"Technical Interview Round 2\",\\n          \"category\": \"Technical Interview\",\\n          \"description\": \"Onsite pen‑and‑paper coding round focusing heavily on OOP concepts and Java fundamentals, plus hackathon experiences and projects. Interviewer asked 4 DSA questions: Linked List delete node, Array second maximum, Integer stream presence query, Array partition with minimum sum difference.\",\\n          \"pages\": [2],\\n          \"topics\": [\"OOP\", \"Java\", \"Linked List\", \"Array\", \"Integer Stream\", \"Array Partition\"],\\n          \"questions\": [\\n            {\\n              \"text\": \"Delete a node in a singly linked list in constant time.\",\\n              \"kind\": \"coding\",\\n              \"page\": 2\\n            },\\n            {\\n              \"text\": \"Find the second maximum element in an array using one pass and constant space.\",\\n              \"kind\": \"coding\",\\n              \"page\": 2\\n            },\\n            {\\n              \"text\": \"Given a large stream of integers with consecutive difference always 1, answer queries whether a specific number x appeared, in constant time and space.\",\\n              \"kind\": \"coding\",\\n              \"page\": 2\\n            },\\n            {\\n              \"text\": \"Given an array, divide the elements into two arrays such that the difference between their sums is minimum (time complexity O(1)).\",\\n              \"kind\": \"coding\",\\n              \"page\": 2\\n            }\\n          ]\\n        },\\n        {\\n          \"name\": \"Technical Interview Round 3\",\\n          \"category\": \"Technical Interview\",\\n          \"description\": \"Onsite pen‑and‑paper round with Engineering Manager. Discussed Java Collections Framework and deep HashMap internals (key‑value storage, load factor, rehashing, collision handling before/after Java 8). Implemented a Student class and explained equals() and hashCode(). Covered Comparable vs Comparator, JDBC (admitted no experience), SQL joins, database indexing (B‑Trees). Two logical puzzles: 25 horses & 5 tracks (find top three fastest) and 2 eggs & 100 floors (determine highest safe floor).\",\\n          \"pages\": [3],\\n          \"topics\": [\"Java Collections Framework\", \"HashMap\", \"Student class\", \"equals()\", \"hashCode()\", \"Comparable\", \"Comparator\", \"JDBC\", \"SQL joins\", \"Database indexing\", \"B‑Trees\", \"Logical puzzles\"],\\n          \"questions\": [\\n            {\\n              \"text\": \"Explain how key‑value pairs are stored in HashMap.\",\\n              \"kind\": \"technical\",\\n              \"page\": 3\\n            },\\n            {\\n              \"text\": \"Write a Student class with attributes name, id, marks and implement constructor.\",\\n              \"kind\": \"coding\",\\n              \"page\": 3\\n            },\\n            {\\n              \"text\": \"Can this Student class be used directly as a key in a HashMap? Explain equals() and hashCode().\",\\n              \"kind\": \"technical\",\\n              \"page\": 3\\n            },\\n            {\\n              \"text\": \"Write a Comparable implementation for the Student class.\",\\n              \"kind\": \"coding\",\\n              \"page\": 3\\n            },\\n            {\\n              \"text\": \"Write a Comparator for a different custom sorting strategy.\",\\n              \"kind\": \"coding\",\\n              \"page\": 3\\n            },\\n            {\\n              \"text\": \"Puzzle 1: 25 Horses and 5 Tracks – find the top three fastest horses.\",\\n              \"kind\": \"other\",\\n              \"page\": 3\\n            },\\n            {\\n              \"text\": \"Puzzle 2: 2 Eggs and 100 Floors – determine the highest floor from which an egg can be dropped without breaking.\",\\n              \"kind\": \"other\",\\n              \"page\": 3\\n            }\\n          ]\\n        },\\n        {\\n          \"name\": \"Technical Interview Round 4\",\\n          \"category\": \"Technical Interview\",\\n          \"description\": \"Virtual round with two interviewers (senior engineering leader from US and potential manager). Discussed projects, hackathon experiences, admired product. Covered database concepts: relational vs non‑relational, MongoDB, Redis (used in project) and why Redis is not primary DB for large systems. Given a probability puzzle with 50 black and 50 white balls across two bags to maximize probability of drawing a black ball.\",\\n          \"pages\": [4, 5],\\n          \"topics\": [\"Projects\", \"Hackathon\", \"Database concepts\", \"Relational databases\", \"Non‑relational databases\", \"MongoDB\", \"Redis\", \"Probability puzzle\"],\\n          \"questions\": [\\n            {\\n              \"text\": \"Probability puzzle: 50 black balls and 50 white balls distributed across two bags, maximize probability of drawing a black ball.\",\\n              \"kind\": \"other\",\\n              \"page\": 5\\n            }\\n          ]\\n        },\\n        {\\n          \"name\": \"Technical Interview Round 5\",\\n          \"category\": \"Technical Interview\",\\n          \"description\": \"Online round with manager from Mumbai office. Focused on Java fundamentals and problem solving. Discussed internal working of HashMap. Given a DSA problem similar to Leetcode \\\\\"Search Suggestions System\\\\\"; candidate implemented sorting + string prefix matching solution (O(n^2)).\",\\n          \"pages\": [6],\\n          \"topics\": [\"HashMap\", \"Search Suggestions System\", \"Sorting\", \"String prefix matching\"],\\n          \"questions\": [\\n            {\\n              \"text\": \"Implement a solution for the \\\\\"Search Suggestions System\\\\\" problem (sorting + string prefix matching).\",\\n              \"kind\": \"coding\",\\n              \"page\": 6\\n            }\\n          ]\\n        },\\n        {\\n          \"name\": \"Technical Interview Round 6\",\\n          \"category\": \"Technical Interview\",\\n          \"description\": \"Online final technical round with senior engineer from US. Deep two‑way discussion about team, domains, systems, backend architecture. Candidate asked thoughtful questions; discussion lasted about one hour.\",\\n          \"pages\": [6],\\n          \"topics\": [\"Team domains\", \"System architecture\", \"Backend systems\"],\\n          \"questions\": []\\n        },\\n        {\\n          \"name\": \"HR Interview\",\\n          \"category\": \"HR Interview\",\\n          \"description\": \"Final HR discussion covering resume overview, family background, relocation, future plans, joining timeline, compensation, and introduction to potential manager with discussion of team goals and pre‑joining focus.\",\\n          \"pages\": [6],\\n          \"topics\": [],\\n          \"questions\": []\\n        }\\n      ],\\n      \"tips\": [\\n        {\\n          \"text\": \"Maintain cgpa above 7.5 or 7 at least, I wasn’t able to sit in many good companies for this reason.\",\\n          \"category\": \"Interview strategy\",\\n          \"page\": 7\\n        },\\n        {\\n          \"text\": \"2-3 good projects and in depth understanding of these projects.\",\\n          \"category\": \"Interview strategy\",\\n          \"page\": 7\\n        },\\n        {\\n          \"text\": \"DSA with any lang, but know the fundamentals and core of the lang well.\",\\n          \"category\": \"Technical preparation\",\\n          \"page\": 7\\n        },\\n        {\\n          \"text\": \"OOPS along with implementation. (You will not forget and understand better when you code).\",\\n          \"category\": \"Technical preparation\",\\n          \"page\": 7\\n        },\\n        {\\n          \"text\": \"SQL 50\",\\n          \"category\": \"Technical preparation\",\\n          \"page\": 7\\n        },\\n        {\\n          \"text\": \"DBMS\",\\n          \"category\": \"\"}'}}"
     },
     "2026/ISS_2026/ISS-STOXX_DataQuality_VedantKulkarni.pdf": {
       "sha256": "99e0ca7140a2fada5755ddae89a45146c460059f46073d056cbd9767e9e0981c",
@@ -997,12 +998,13 @@
       "pages": 3,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793394265.7474158,
+      "processed_at": 1793655253.6414459,
       "text_sha256": "fa792f0b20053b34af2688eca9f5d25a29e8ccce0638f3508007a721f2b61f29",
       "status": "indexed",
       "chunks": 10,
       "insights": false,
-      "experiences": 0
+      "experiences": 0,
+      "insights_error": "structured extraction failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m34ktp7dehwajs9h9xxjwwy8` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199877, Requested 2805. Please try again in 19m18.624s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
     },
     "2026/ISS_2026/ISS-STOXX_SDE_Aryan_Kanyawar.pdf": {
       "sha256": "4fb0663ced5fd1f878961f2739c8a97a9e86b81eccb4800525e49a7592a4fb10",
@@ -1013,12 +1015,13 @@
       "pages": 10,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793394266.8785255,
+      "processed_at": 1793655299.3073394,
       "text_sha256": "ae3a39d50458a7843f388c16ab44c31622ad212b3c039ec291fdb1393e144719",
       "status": "indexed",
       "chunks": 32,
       "insights": false,
-      "experiences": 0
+      "experiences": 0,
+      "insights_error": "structured extraction failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m34ktp7dehwajs9h9xxjwwy8` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199772, Requested 6342. Please try again in 44m1.248s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
     },
     "2026/ISS_2026/ISS-STOXX_SDE_PaarthDalvi.pdf": {
       "sha256": "17e4d6f76324d2c1cd36e48d4e4be1298d8a0d4c36d98a3e1c851a4e820de2fd",
@@ -1029,12 +1032,13 @@
       "pages": 4,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793394270.3083444,
+      "processed_at": 1793655344.827712,
       "text_sha256": "673c72bd45e448a6c8e565725ca7c594b8db5bed96d86143a01bef5145911ded",
       "status": "indexed",
       "chunks": 18,
       "insights": false,
-      "experiences": 0
+      "experiences": 0,
+      "insights_error": "structured extraction failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m34ktp7dehwajs9h9xxjwwy8` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199667, Requested 3714. Please try again in 24m20.592s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
     },
     "2026/ISS_2026/ISS-Stoxx_SDE_YashRawat.pdf": {
       "sha256": "bc49bed90db444d4b97292d8aa944ff768815c9024f4de9ad8a5b15737de7555",
@@ -1045,12 +1049,13 @@
       "pages": 7,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793394273.9186149,
+      "processed_at": 1793655390.61091,
       "text_sha256": "083fe82cd430df6e2ba3b5f4b068a571410f3878701b552d0c39b67883375fc1",
       "status": "indexed",
       "chunks": 31,
       "insights": false,
-      "experiences": 0
+      "experiences": 0,
+      "insights_error": "structured extraction failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m34ktp7dehwajs9h9xxjwwy8` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199560, Requested 5734. Please try again in 38m7.008s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
     },
     "2026/ISS_2026/ISS-Stoxx_STE_RashiLodha.pdf": {
       "sha256": "4d8863e729e19331e6d6ea9d14efd47fb99e0454bd599a231bf0f9463fe598b1",
@@ -1061,12 +1066,13 @@
       "pages": 5,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793394276.7619903,
+      "processed_at": 1793655436.0319269,
       "text_sha256": "3fcc585fb9236aae5d64df2dade012e330b7e782166cd7404e3cb89638b7b5f2",
       "status": "indexed",
       "chunks": 14,
       "insights": false,
-      "experiences": 0
+      "experiences": 0,
+      "insights_error": "structured extraction failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m34ktp7dehwajs9h9xxjwwy8` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199455, Requested 3404. Please try again in 20m35.088s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
     },
     "2026/ISS_2026/ISS_STOXX_SE_AlphaRane.pdf": {
       "sha256": "5a819b64a4b55f671126ad40e1b99d91dc7dbacc2df228de67e0bdc3bd7d20b3",
@@ -1077,12 +1083,13 @@
       "pages": 4,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793394279.3338397,
+      "processed_at": 1793655481.4045033,
       "text_sha256": "9f4b2710d612ed1aad61d9cc220e96ceb479ffe32cc4596d40d90b56ef331b6a",
       "status": "indexed",
       "chunks": 10,
       "insights": false,
-      "experiences": 0
+      "experiences": 0,
+      "insights_error": "structured extraction failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m34ktp7dehwajs9h9xxjwwy8` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199351, Requested 2990. Please try again in 16m51.312s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
     },
     "2026/ISS_2026/ISS_STOXX_SE_MohitKarande (2).pdf": {
       "sha256": "b08cbecca915d777a7b378472452b5144dc521d099bd8e7ea4b7874f81a5ebff",

@@ -202,12 +202,7 @@ with st.sidebar:
     docs = manifest.get("documents", {})
     docs = {k: v for k, v in docs.items() if v.get("year") == "2026"}
     indexed = sum(1 for d in docs.values() if d.get("status") == "indexed")
-    failed = {k: v for k, v in docs.items() if v.get("status") == "failed"}
     st.metric("Documents indexed", indexed)
-    if failed:
-        with st.expander(f"⚠️ {len(failed)} document(s) failed ingestion"):
-            for k, v in failed.items():
-                st.write(f"**{k}** — {v.get('error', 'unknown error')}")
 
 if not companies:
     st.markdown(
