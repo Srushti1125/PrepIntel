@@ -206,6 +206,874 @@
         5
       ],
       "content_sha256": "ab31bb2a6f4084b51ca214dd9db64e9943933c7b155ed2e13590be995c25a500"
+    },
+    {
+      "experience_id": "dolat_cap_2026-2026-e94a8f42-1",
+      "company": "Dolat_cap_2026",
+      "company_id": "dolat_cap_2026",
+      "year": "2026",
+      "role": "Quant Developer",
+      "rounds": [
+        {
+          "name": "Round 1 - Online Assessment",
+          "category": "Online Assessment",
+          "description": "The OA consisted of 5 sections and was conducted on Imocha safe assessment browser: C++ MCQs, Python MCQs (mainly NumPy and statistics-based), Aptitude MCQs (standard, mostly easy), Python coding, C++ coding. The coding questions were DSA/implementation based. Some candidates received harder problems, but mine were very straightforward.",
+          "topics": [
+            {
+              "original": "Python",
+              "canonical": "Python",
+              "category": "Programming languages"
+            },
+            {
+              "original": "C++",
+              "canonical": "C++",
+              "category": "Programming languages"
+            },
+            {
+              "original": "NumPy",
+              "canonical": "NumPy",
+              "category": "Other"
+            },
+            {
+              "original": "statistics",
+              "canonical": "Statistics",
+              "category": "Other"
+            },
+            {
+              "original": "Aptitude",
+              "canonical": "Quantitative Aptitude",
+              "category": "Aptitude"
+            },
+            {
+              "original": "DSA",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "implementation",
+              "canonical": "Implementation",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "You are given transaction data with categories and amounts. The task was to compute the total amount spent per category and print it as a float. Essentially, maintain a dictionary with category -> total amount.",
+              "kind": "coding",
+              "page": 1
+            },
+            {
+              "text": "Given an integer k and an array, compute the running average over the last k elements.",
+              "kind": "coding",
+              "page": 1
+            }
+          ],
+          "difficulty": "Easy/Medium",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Round 2 - Technical",
+          "category": "Technical Interview",
+          "description": "My panel was conducting 1-1.2 hrs of interviews, mostly focused around c++ (in depth), medium/hard dsa, and probability statistics. My interview was by far the longest i.e. 2 hrs. It started with my introduction, surprisingly they weren’t as interested in my projects and internship and only inquired basic information on it while also asking whether they are in c++ or not.",
+          "topics": [
+            {
+              "original": "C++",
+              "canonical": "C++",
+              "category": "Programming languages"
+            },
+            {
+              "original": "Python",
+              "canonical": "Python",
+              "category": "Programming languages"
+            },
+            {
+              "original": "DSA",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "Probability Stats",
+              "canonical": "Probability Stats",
+              "category": "Other"
+            },
+            {
+              "original": "OOPs",
+              "canonical": "Object-Oriented Programming",
+              "category": "OOPs"
+            },
+            {
+              "original": "polymorphism",
+              "canonical": "Object-Oriented Programming",
+              "category": "OOPs"
+            },
+            {
+              "original": "encapsulation",
+              "canonical": "Object-Oriented Programming",
+              "category": "OOPs"
+            },
+            {
+              "original": "templates",
+              "canonical": "Templates",
+              "category": "Other"
+            },
+            {
+              "original": "std::vector",
+              "canonical": "Std::Vector",
+              "category": "Other"
+            },
+            {
+              "original": "std::array",
+              "canonical": "Arrays",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "memory management",
+              "canonical": "Operating Systems",
+              "category": "Operating systems"
+            },
+            {
+              "original": "malloc",
+              "canonical": "Malloc",
+              "category": "Other"
+            },
+            {
+              "original": "new",
+              "canonical": "New",
+              "category": "Other"
+            },
+            {
+              "original": "smart pointers",
+              "canonical": "Smart Pointers",
+              "category": "Other"
+            },
+            {
+              "original": "mutexes",
+              "canonical": "Mutexes",
+              "category": "Other"
+            },
+            {
+              "original": "locks",
+              "canonical": "Locks",
+              "category": "Other"
+            },
+            {
+              "original": "spin lock",
+              "canonical": "Spin Lock",
+              "category": "Other"
+            },
+            {
+              "original": "OS CPU scheduling",
+              "canonical": "OS CPU scheduling",
+              "category": "Other"
+            },
+            {
+              "original": "deadlocks",
+              "canonical": "Operating Systems",
+              "category": "Operating systems"
+            },
+            {
+              "original": "TCP/UDP",
+              "canonical": "TCP/UDP",
+              "category": "Other"
+            },
+            {
+              "original": "min stack",
+              "canonical": "Stacks and Queues",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "detect cycle in linkedlist",
+              "canonical": "Detect Cycle In Linkedlist",
+              "category": "Other"
+            },
+            {
+              "original": "find the node starting the cycle",
+              "canonical": "Find The Node Starting The Cycle",
+              "category": "Other"
+            },
+            {
+              "original": "find the missing element",
+              "canonical": "Find The Missing Element",
+              "category": "Other"
+            },
+            {
+              "original": "linear regression",
+              "canonical": "Linear Regression",
+              "category": "Other"
+            },
+            {
+              "original": "uniform distribution",
+              "canonical": "Uniform Distribution",
+              "category": "Other"
+            },
+            {
+              "original": "PMF",
+              "canonical": "PMF",
+              "category": "Other"
+            },
+            {
+              "original": "PDFs",
+              "canonical": "PDFs",
+              "category": "Other"
+            },
+            {
+              "original": "Random Forest",
+              "canonical": "Random Forest",
+              "category": "Other"
+            },
+            {
+              "original": "decision trees",
+              "canonical": "Trees",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "Lasso",
+              "canonical": "Lasso",
+              "category": "Other"
+            },
+            {
+              "original": "Ridge",
+              "canonical": "Ridge",
+              "category": "Other"
+            },
+            {
+              "original": "gaussian distribution",
+              "canonical": "Gaussian Distribution",
+              "category": "Other"
+            },
+            {
+              "original": "expectation of x",
+              "canonical": "Expectation Of X",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "what's the difference between struct and a class",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "what's the difference between c and c++",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "what I know about oops in c++",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "which one I know the best",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "how compiler evaluates them",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "second best oops pillar that I know of",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "write code for the same",
+              "kind": "coding",
+              "page": 2
+            },
+            {
+              "text": "my favourite topic in c++",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "how the compiler evaluates templates",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "how and when std::vector resizes",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "how can we check when the vector resizes",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "size vs capacity in this context",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "implement it",
+              "kind": "coding",
+              "page": 3
+            },
+            {
+              "text": "difference between std::array and std::vector",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "difference between “malloc” and “new” keywords in c++",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "write some code about runtime polymorphism using the malloc keyword",
+              "kind": "coding",
+              "page": 3
+            },
+            {
+              "text": "why even bother using heap memory?",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "if I knew anything else in c++",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "whether I know about mutexes and locks",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "what is a spin lock?",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "whether some memory allocated in the constructor for a non member of the class, then when do we release it..",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "whether I knew about TCP/UDP",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "which core subject it belonged to",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "difference in TCP, UDP and an example where to use them",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "standard min stack question, given a stack, create a getMin with O(1) complexity",
+              "kind": "coding",
+              "page": 3
+            },
+            {
+              "text": "detect cycle in linkedlist",
+              "kind": "coding",
+              "page": 3
+            },
+            {
+              "text": "find the node starting the cycle",
+              "kind": "coding",
+              "page": 3
+            },
+            {
+              "text": "find the missing element",
+              "kind": "coding",
+              "page": 3
+            },
+            {
+              "text": "another approach",
+              "kind": "coding",
+              "page": 6
+            },
+            {
+              "text": "what's the complexity of that method",
+              "kind": "technical",
+              "page": 4
+            },
+            {
+              "text": "if I had done probability and statistics during my course",
+              "kind": "technical",
+              "page": 4
+            },
+            {
+              "text": "linear regression, asked me about it, and then gave me some data to perform it and evaluate it",
+              "kind": "technical",
+              "page": 4
+            },
+            {
+              "text": "uniform distribution",
+              "kind": "technical",
+              "page": 4
+            },
+            {
+              "text": "PMF and PDFs (in general what they are)",
+              "kind": "technical",
+              "page": 4
+            },
+            {
+              "text": "explanation on what I did in it",
+              "kind": "project",
+              "page": 4
+            },
+            {
+              "text": "Random forst and decision trees",
+              "kind": "technical",
+              "page": 4
+            },
+            {
+              "text": "how can I get which feature is most important",
+              "kind": "technical",
+              "page": 4
+            },
+            {
+              "text": "give an example decision tree based on my project",
+              "kind": "technical",
+              "page": 4
+            },
+            {
+              "text": "why use random forest over decision tree",
+              "kind": "technical",
+              "page": 4
+            },
+            {
+              "text": "some Classifier in tensorflow",
+              "kind": "technical",
+              "page": 4
+            },
+            {
+              "text": "Lasso and Ridge and what's difference between them",
+              "kind": "technical",
+              "page": 4
+            },
+            {
+              "text": "logical puzzle, given a revolver gun which has 6 slots and two bullets placed consecutively. Which is higher probability that next shot will fire the bullet?",
+              "kind": "other",
+              "page": 4
+            },
+            {
+              "text": "gaussian distribution",
+              "kind": "technical",
+              "page": 4
+            },
+            {
+              "text": "expectation of x general formula",
+              "kind": "technical",
+              "page": 4
+            },
+            {
+              "text": "gaussian distribution's PDF",
+              "kind": "technical",
+              "page": 4
+            }
+          ],
+          "difficulty": "Medium/Hard",
+          "pages": [
+            2,
+            3,
+            4,
+            6
+          ]
+        },
+        {
+          "name": "Round 3 - HR",
+          "category": "HR Interview",
+          "description": "The HR interview was short, also luckily I met the same HR who stayed with me in the OA. I started with my introduction, then I was asked about my parents' professions and whether I have siblings. I was also asked about 3 positives and 3 negatives about myself (classic strengths and weaknesses. I made a slight mistake that after recognizing this question I kept on saying \"strength\" and \"weakness\" instead of positive/negative as they said). Then they asked me why I'm pursuing this degree, whether I have plans for higher studies, how I would rate myself in c++ and python and finally if I have any questions for them. I answered all the questions citing story-type examples from my work experience and school and college life.",
+          "topics": [],
+          "questions": [
+            {
+              "text": "my introduction",
+              "kind": "hr",
+              "page": 4
+            },
+            {
+              "text": "my parents' professions",
+              "kind": "hr",
+              "page": 4
+            },
+            {
+              "text": "whether I have siblings",
+              "kind": "hr",
+              "page": 4
+            },
+            {
+              "text": "3 positives and 3 negatives about myself",
+              "kind": "hr",
+              "page": 4
+            },
+            {
+              "text": "why I'm pursuing this degree",
+              "kind": "hr",
+              "page": 4
+            },
+            {
+              "text": "whether I have plans for higher studies",
+              "kind": "hr",
+              "page": 4
+            },
+            {
+              "text": "how I would rate myself in c++ and python",
+              "kind": "hr",
+              "page": 4
+            },
+            {
+              "text": "if I have any questions for them",
+              "kind": "hr",
+              "page": 4
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            4
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "Maintain your composure at all times.",
+          "category": "Interview strategy",
+          "page": 5
+        },
+        {
+          "text": "I would recommend doing codeforces and leetcode contests as much as you can.",
+          "category": "Coding preparation",
+          "page": 5
+        },
+        {
+          "text": "Be 110% confident in yourself, chances are that then they will perceive you at 70%. (But please justify it too)",
+          "category": "Interview strategy",
+          "page": 5
+        },
+        {
+          "text": "I never made my introduction good to catch attention, I was only speaking about what I did. No one is interested in what you did. You need to communicate what you can do that can benefit them.",
+          "category": "Interview strategy",
+          "page": 5
+        },
+        {
+          "text": "Don't let any incorrect answer derail your confidence.",
+          "category": "Interview strategy",
+          "page": 5
+        },
+        {
+          "text": "Be humble. Placements are a humbling experience. The earlier you accept it, the easier it gets for you.",
+          "category": "Interview strategy",
+          "page": 5
+        },
+        {
+          "text": "Communicate your thoughts well, and remember it is a two way street.",
+          "category": "Interview strategy",
+          "page": 5
+        },
+        {
+          "text": "Have a good resume such that it looks filled completely, leaving any empty whitespaces signals that you haven’t done anything and memorize your resume on your fingertips so that any keyword or any related keyword is known to you and you can talk about it for a good 2 minutes at minimum.",
+          "category": "Interview strategy",
+          "page": 5
+        },
+        {
+          "text": "If you are short on time, I recommend you to look out on at least 25 common interview questions on each tech keyword you mention on your resume.",
+          "category": "Technical preparation",
+          "page": 5
+        },
+        {
+          "text": "Practice speaking a lot.",
+          "category": "Interview strategy",
+          "page": 5
+        },
+        {
+          "text": "Solving CF or LC contests can help with this.",
+          "category": "Coding preparation",
+          "page": 7
+        },
+        {
+          "text": "Research the company very well before giving any interview.",
+          "category": "Interview strategy",
+          "page": 6
+        },
+        {
+          "text": "Also have a look at the Companies Expert youtube for prepping on all those HR questions. HR questions sound stupid at first, but they are very psychological in nature. Understanding what questions mean to ask what is very very important.",
+          "category": "HR preparation",
+          "page": 6
+        },
+        {
+          "text": "The last lesson I would say is to keep persevering.",
+          "category": "Interview strategy",
+          "page": 6
+        },
+        {
+          "text": "Negative ones need to show your learning and how you overcame it, not that u still have it.",
+          "category": "HR preparation",
+          "page": 8
+        },
+        {
+          "text": "Also have at least 60-70% understanding on what company does and what they are.",
+          "category": "HR preparation",
+          "page": 8
+        },
+        {
+          "text": "I would say know about these topics well: Git, Java/Oops, Python, System design, General languages.",
+          "category": "Technical preparation",
+          "page": 8
+        },
+        {
+          "text": "Keep a deep understanding on every tech keyword you mention on your resume.",
+          "category": "Technical preparation",
+          "page": 8
+        },
+        {
+          "text": "Know about the final keyword on all classes, methods and variables.",
+          "category": "Technical preparation",
+          "page": 8
+        },
+        {
+          "text": "Know all ways to use super and this keyword.",
+          "category": "Technical preparation",
+          "page": 8
+        },
+        {
+          "text": "Know access modifiers.",
+          "category": "Technical preparation",
+          "page": 8
+        },
+        {
+          "text": "Know about Object class methods like hashCode(), toString(), etc.",
+          "category": "Technical preparation",
+          "page": 8
+        },
+        {
+          "text": "Know about deep and shallow copying (in all languages preferably, Python, Java and C++)",
+          "category": "Technical preparation",
+          "page": 8
+        },
+        {
+          "text": "instanceof operator",
+          "category": "Technical preparation",
+          "page": 8
+        },
+        {
+          "text": "Why and how string is immutable in java",
+          "category": "Technical preparation",
+          "page": 8
+        },
+        {
+          "text": "Composition vs Inheritance (vimp for interviews)",
+          "category": "Technical preparation",
+          "page": 8
+        },
+        {
+          "text": "Important to know about: ER diagrams, EER constructs.",
+          "category": "Technical preparation",
+          "page": 9
+        },
+        {
+          "text": "Plot out entities and just keep on joining them with relations.",
+          "category": "Technical preparation",
+          "page": 9
+        },
+        {
+          "text": "Be alert when making relationships and entity structure, you may get told to write a query for the same.",
+          "category": "Technical preparation",
+          "page": 9
+        }
+      ],
+      "resources": [
+        {
+          "title": "Vinh Gang youtube",
+          "url": null,
+          "description": null,
+          "topic": null,
+          "page": 5
+        },
+        {
+          "title": "Matt Huang youtube",
+          "url": null,
+          "description": null,
+          "topic": null,
+          "page": 5
+        },
+        {
+          "title": "codeforces",
+          "url": null,
+          "description": null,
+          "topic": "DSA",
+          "page": 6
+        },
+        {
+          "title": "Atcoder",
+          "url": null,
+          "description": null,
+          "topic": "DSA",
+          "page": 6
+        },
+        {
+          "title": "Leetcode",
+          "url": null,
+          "description": null,
+          "topic": "DSA",
+          "page": 6
+        },
+        {
+          "title": "Neetcode 150",
+          "url": null,
+          "description": null,
+          "topic": "DSA",
+          "page": 6
+        },
+        {
+          "title": "Striver sheet",
+          "url": null,
+          "description": null,
+          "topic": "DSA",
+          "page": 6
+        },
+        {
+          "title": "Striver A-Z course YouTube playlists",
+          "url": null,
+          "description": null,
+          "topic": "DSA",
+          "page": 6
+        },
+        {
+          "title": "CP 31 sheet",
+          "url": "https://www.tle-eliminators.com/cp-sheet",
+          "description": null,
+          "topic": "DSA",
+          "page": 7
+        },
+        {
+          "title": "CSES problemset",
+          "url": "https://cses.fi/problemset/",
+          "description": null,
+          "topic": "DSA",
+          "page": 7
+        },
+        {
+          "title": "Aptitude Preparation for Campus Placement - YouTube",
+          "url": null,
+          "description": "to gain basic understanding",
+          "topic": "Aptitude",
+          "page": 7
+        },
+        {
+          "title": "Quantitative Aptitude Tutorials - YouTube",
+          "url": null,
+          "description": "for very important topics like speed-dist, trains, mixtures, etc",
+          "topic": "Aptitude",
+          "page": 7
+        },
+        {
+          "title": "imran sir maths",
+          "url": null,
+          "description": "random trick videos",
+          "topic": "Aptitude",
+          "page": 7
+        },
+        {
+          "title": "indiabix",
+          "url": null,
+          "description": null,
+          "topic": "Aptitude",
+          "page": 7
+        },
+        {
+          "title": "SQL Tutorial - Full Database Course for Beginners",
+          "url": null,
+          "description": "start with this video and go in depth on joins, etc.",
+          "topic": "SQL",
+          "page": 7
+        },
+        {
+          "title": "Leetcode Sql 50 sheet",
+          "url": null,
+          "description": null,
+          "topic": "SQL",
+          "page": 7
+        },
+        {
+          "title": "chatgpt",
+          "url": null,
+          "description": "learned window functions from here",
+          "topic": "SQL",
+          "page": 7
+        },
+        {
+          "title": null,
+          "url": "https://www.interviewbit.com/hr-interview-questions/",
+          "description": null,
+          "topic": "HR questions",
+          "page": 8
+        },
+        {
+          "title": "perplexity deep research",
+          "url": null,
+          "description": null,
+          "topic": "Company Research",
+          "page": 6
+        },
+        {
+          "title": "Companies Expert youtube",
+          "url": null,
+          "description": null,
+          "topic": "HR questions",
+          "page": 6
+        },
+        {
+          "title": "perplexity pro",
+          "url": null,
+          "description": "to research about companies in one go",
+          "topic": "Company Research",
+          "page": 8
+        },
+        {
+          "title": "Gaurav Sen's youtube playlist",
+          "url": null,
+          "description": "more than enough",
+          "topic": "System design",
+          "page": 8
+        },
+        {
+          "title": "roadmap.sh",
+          "url": null,
+          "description": "for understanding depth on tech topics",
+          "topic": "General languages",
+          "page": 8
+        },
+        {
+          "title": null,
+          "url": "https://learnxinyminutes.com/",
+          "description": "for short and sweet",
+          "topic": "General languages",
+          "page": 8
+        },
+        {
+          "title": "JavaTpoint for OOPs in Java",
+          "url": null,
+          "description": "best resource for it, but takes time",
+          "topic": "OOPs",
+          "page": 8
+        }
+      ],
+      "filename": "DolatCapital_QuantDeveloper_NaufilAsar.pdf",
+      "source_path": "2026/Dolat_cap_2026/DolatCapital_QuantDeveloper_NaufilAsar.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "content_sha256": "e94a8f42fa9e246d9a9cf93f3524e3c8b62e8951ff2fd343cb807ffdc55610e1"
     }
   ]
 }

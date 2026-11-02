@@ -1,0 +1,757 @@
+{
+  "company_id": "incred_2026",
+  "year": "2026",
+  "experiences": [
+    {
+      "experience_id": "incred_2026-2026-fc3745b2-1",
+      "company": "InCred_2026",
+      "company_id": "incred_2026",
+      "year": "2026",
+      "role": "Business Analyst",
+      "rounds": [
+        {
+          "name": "Pen Paper Test",
+          "category": "Online Assessment",
+          "description": null,
+          "topics": [
+            {
+              "original": "coordinate geometry",
+              "canonical": "Coordinate Geometry",
+              "category": "Other"
+            },
+            {
+              "original": "speed-distance",
+              "canonical": "Speed-Distance",
+              "category": "Other"
+            },
+            {
+              "original": "work-time",
+              "canonical": "Work-Time",
+              "category": "Other"
+            },
+            {
+              "original": "number systems",
+              "canonical": "Number Systems",
+              "category": "Other"
+            },
+            {
+              "original": "Python Pseudo-code",
+              "canonical": "Python",
+              "category": "Programming languages"
+            },
+            {
+              "original": "SQL",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Predict the sum of the series: 0, 2, 6, 12, 20, 30...",
+              "kind": "aptitude",
+              "page": 1
+            },
+            {
+              "text": "-1, -1, 5, 19... – slightly tricky and I couldn't fully crack it",
+              "kind": "aptitude",
+              "page": 2
+            },
+            {
+              "text": "Avg/Max/Min marks per student",
+              "kind": "technical",
+              "page": 1
+            },
+            {
+              "text": "Second-highest marks",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Rank houses based on top performer",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "List test types and students who didn’t attempt them",
+              "kind": "technical",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            1,
+            2
+          ]
+        },
+        {
+          "name": "Final Round",
+          "category": "Other",
+          "description": null,
+          "topics": [],
+          "questions": [
+            {
+              "text": "Tell me about yourself",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "Resume walkthrough",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "Case Study: Improve profitability of a logistics company with 1000 trucks",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "Guesstimate: How many tennis balls can fit inside an airplane?",
+              "kind": "aptitude",
+              "page": 3
+            },
+            {
+              "text": "Generic HR: 5-year goals, Why InCred?, Why this role?",
+              "kind": "hr",
+              "page": 3
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            3
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "SQL: Leetcode Top 50 is enough",
+          "category": "OA preparation",
+          "page": 2
+        },
+        {
+          "text": "Apti: Practice from IndiaBIX",
+          "category": "OA preparation",
+          "page": 2
+        },
+        {
+          "text": "Python: Brush up number series logic & patterns",
+          "category": "OA preparation",
+          "page": 2
+        },
+        {
+          "text": "Don’t freeze. Presence of mind > perfection",
+          "category": "Interview strategy",
+          "page": 2
+        },
+        {
+          "text": "Strong SQL and Aptitude prep is non-negotiable",
+          "category": "OA preparation",
+          "page": 3
+        },
+        {
+          "text": "Practice number-based pseudo-code logic for Python",
+          "category": "OA preparation",
+          "page": 3
+        },
+        {
+          "text": "Read business articles, know macro trends & company backgrounds",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "Mock interviews + case cracking frameworks help",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "Always think out loud — it shows your reasoning",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "Be calm, even when stuck. Interviewers often help if they see effort.",
+          "category": "Interview strategy",
+          "page": 3
+        }
+      ],
+      "resources": [
+        {
+          "title": "Leetcode Top 50",
+          "url": null,
+          "description": "SQL: Leetcode Top 50 is enough",
+          "topic": null,
+          "page": 2
+        },
+        {
+          "title": "IndiaBIX",
+          "url": null,
+          "description": "Apti: Practice from IndiaBIX",
+          "topic": null,
+          "page": 2
+        }
+      ],
+      "filename": "InCred_BuisnessAnalyst_Jsh.pdf",
+      "source_path": "2026/InCred_2026/InCred_BuisnessAnalyst_Jsh.pdf",
+      "pages": [
+        1,
+        2,
+        3
+      ],
+      "content_sha256": "fc3745b20f54264bd00f29b65c27a320bfa50e263ccfd4c09720a6562fa064a0"
+    },
+    {
+      "experience_id": "incred_2026-2026-57b371c8-1",
+      "company": "InCred_2026",
+      "company_id": "incred_2026",
+      "year": "2026",
+      "role": "Business Analyst",
+      "rounds": [
+        {
+          "name": "Online Assessment (OA)",
+          "category": "Online Assessment",
+          "description": "This was a 60 minute exam with two sections: Quant and Coding. It was a pen and paper test with 8 questions of Quant which had a +3, -1 scheme; 2 questions of Python/pseudo code and 4 questions of SQL.",
+          "topics": [
+            {
+              "original": "Quant",
+              "canonical": "Quantitative Aptitude",
+              "category": "Aptitude"
+            },
+            {
+              "original": "Python/pseudo code",
+              "canonical": "Python/pseudo code",
+              "category": "Other"
+            },
+            {
+              "original": "SQL",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "pattern recognition skills",
+              "canonical": "Pattern Recognition Skills",
+              "category": "Other"
+            },
+            {
+              "original": "Select",
+              "canonical": "Select",
+              "category": "Other"
+            },
+            {
+              "original": "Join (Inner and Right)",
+              "canonical": "Join (Inner and Right)",
+              "category": "Other"
+            },
+            {
+              "original": "aggregate functions",
+              "canonical": "Aggregate Functions",
+              "category": "Other"
+            },
+            {
+              "original": "Window functions",
+              "canonical": "Window functions",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Find the age",
+              "kind": "aptitude",
+              "page": 2
+            },
+            {
+              "text": "work done and time taken",
+              "kind": "aptitude",
+              "page": 2
+            },
+            {
+              "text": "relative speed",
+              "kind": "aptitude",
+              "page": 2
+            },
+            {
+              "text": "probability",
+              "kind": "aptitude",
+              "page": 2
+            },
+            {
+              "text": "PnC",
+              "kind": "aptitude",
+              "page": 2
+            },
+            {
+              "text": "find the sum of n terms of the series given. The first one was easier and of 1 mark : 0, 2, 6, 12, 20, 30....... The second one was of 3 marks with the logic : [ x3 - (x+1)] : -1,-1, 5, 23, 59, 119...........",
+              "kind": "coding",
+              "page": 2
+            },
+            {
+              "text": "questions based on Select, Join (Inner and Right), aggregate functions and Window functions",
+              "kind": "technical",
+              "page": 2
+            }
+          ],
+          "difficulty": "medium",
+          "pages": [
+            1,
+            2
+          ]
+        },
+        {
+          "name": "Interview Round 1",
+          "category": "Technical Interview",
+          "description": "This round lasted 15-20 minutes per candidate with 3 panels of 2 people each: one HR and one technical expert.",
+          "topics": [
+            {
+              "original": "resume",
+              "canonical": "Resume",
+              "category": "Other"
+            },
+            {
+              "original": "projects",
+              "canonical": "Projects",
+              "category": "Projects"
+            },
+            {
+              "original": "position of responsibilities",
+              "canonical": "Position Of Responsibilities",
+              "category": "Other"
+            },
+            {
+              "original": "certifications",
+              "canonical": "Certifications",
+              "category": "Other"
+            },
+            {
+              "original": "co-curricular activities",
+              "canonical": "Co-Curricular Activities",
+              "category": "Other"
+            },
+            {
+              "original": "Python for data analysis",
+              "canonical": "Python",
+              "category": "Programming languages"
+            },
+            {
+              "original": "single linear regression",
+              "canonical": "Single Linear Regression",
+              "category": "Other"
+            },
+            {
+              "original": "multiple linear regression",
+              "canonical": "Multiple Linear Regression",
+              "category": "Other"
+            },
+            {
+              "original": "statistics",
+              "canonical": "Statistics",
+              "category": "Other"
+            },
+            {
+              "original": "Pandas",
+              "canonical": "Pandas",
+              "category": "Other"
+            },
+            {
+              "original": "Numpy",
+              "canonical": "Numpy",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "write down the formula for single linear regression and multiple linear regression",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "why I chose to do each project and what could be their applications",
+              "kind": "project",
+              "page": 2
+            },
+            {
+              "text": "concepts based on statistics",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "why I was interested in this role",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "how I know about this",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "how the use of AI can cause data security concerns",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "If I am selected for this role, what should my roadmap look like to help me be better prepared for when I join?",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "writing a simple code for Pandas or Numpy",
+              "kind": "coding",
+              "page": 3
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2,
+            3
+          ]
+        },
+        {
+          "name": "Interview Round 2",
+          "category": "Technical Interview",
+          "description": "This was a guesstimate based round.",
+          "topics": [
+            {
+              "original": "resume",
+              "canonical": "Resume",
+              "category": "Other"
+            },
+            {
+              "original": "Minors in Management",
+              "canonical": "Minors in Management",
+              "category": "Other"
+            },
+            {
+              "original": "projects",
+              "canonical": "Projects",
+              "category": "Projects"
+            },
+            {
+              "original": "committee experience",
+              "canonical": "Committee Experience",
+              "category": "Other"
+            },
+            {
+              "original": "case study competitions",
+              "canonical": "Case Study Competitions",
+              "category": "Other"
+            },
+            {
+              "original": "guesstimate",
+              "canonical": "Guesstimate",
+              "category": "Other"
+            },
+            {
+              "original": "electricity consumption",
+              "canonical": "Electricity Consumption",
+              "category": "Other"
+            },
+            {
+              "original": "Tier 1 cities in India",
+              "canonical": "Tier 1 cities in India",
+              "category": "Other"
+            },
+            {
+              "original": "factors for less electricity in tier 4 cities",
+              "canonical": "Factors For Less Electricity In Tier 4 Cities",
+              "category": "Other"
+            },
+            {
+              "original": "how to provide electricity to these cities",
+              "canonical": "How To Provide Electricity To These Cities",
+              "category": "Other"
+            },
+            {
+              "original": "factors to consider for power plants",
+              "canonical": "Factors To Consider For Power Plants",
+              "category": "Other"
+            },
+            {
+              "original": "AI and data security concerns",
+              "canonical": "AI and data security concerns",
+              "category": "Other"
+            },
+            {
+              "original": "GPay features",
+              "canonical": "GPay features",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "go through my resume in detail",
+              "kind": "project",
+              "page": 3
+            },
+            {
+              "text": "how many units of electricity are consumed in India in one year",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "Name 10 Tier 1 cities in India",
+              "kind": "other",
+              "page": 3
+            },
+            {
+              "text": "what could be the potential factors for less electricity in tier 4 cities",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "how I will provide electricity to these cities and what factors I will consider",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "how the use of AI can cause data security concerns",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "If I am selected for this role, what should my roadmap look like to help me be better prepared for when I join?",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "what features would you add in GPay to make it better?",
+              "kind": "technical",
+              "page": 3
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            3
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "The information you gather from the pre-placement talk is extremely crucial as it can make the difference between your selection and rejection.",
+          "category": "Interview strategy",
+          "page": 1
+        },
+        {
+          "text": "So take screenshots of the PPT, note down what points they talk about, and then try to think of questions to ask or topics to talk about based on your experience and their requirements.",
+          "category": "Interview strategy",
+          "page": 1
+        },
+        {
+          "text": "Make sure that you tailor your resume every time you apply for a different role.",
+          "category": "Interview strategy",
+          "page": 1
+        },
+        {
+          "text": "Make sure that your resume is consistent throughout (Avoid using different date formats, using different bullet types or using Bold or Italics randomly).",
+          "category": "Interview strategy",
+          "page": 1
+        },
+        {
+          "text": "After your resume is ready, check your ATS score from ‘Resume Worded’ : https://resumeworded.com/), anything above 65 is good enough.",
+          "category": "OA preparation",
+          "page": 1
+        },
+        {
+          "text": "To avoid such mistakes, make sure you read the questions at least twice, once before solving the question and once in between.",
+          "category": "OA preparation",
+          "page": 2
+        },
+        {
+          "text": "if such a situation arises, be very clear with them that you are not sure of the concept and take a short guess about what it could be. Do not waste their time by pretending to think or give an incorrect answer confidently.",
+          "category": "Interview strategy",
+          "page": 2
+        },
+        {
+          "text": "The best way to approach such resume based rounds is by taking charge or “breadcrumming”, where you end your introduction with a point that they would like to hear more about.",
+          "category": "Interview strategy",
+          "page": 2
+        },
+        {
+          "text": "After each answer, I tried to add a point in the end that will lead them to ask me a question about something I know the answer to.",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "make sure that you know each and every word of your resume, why it is important and if there are any alternatives.",
+          "category": "Technical preparation",
+          "page": 3
+        },
+        {
+          "text": "you must know several common ways to approach any problem.",
+          "category": "Technical preparation",
+          "page": 3
+        },
+        {
+          "text": "Interviewers care about how you approach any problem and not the exact answer - Just keep talking about why you are making any assumptions and what do you hope to achieve from it.",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "Keep asking questions regarding the things you are not sure about and make sure that you are confident in the approach you are taking.",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "Sometimes they may cross question you to judge your confidence, just justify your approach and make revisions if you think they made a good point.",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "This last question shows your excitement for the job and commitment to the company.",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "THE most important thing to remember is that there is always a luck factor involved in these processes - you might have done everything right but sometimes it just is not your day. You can either sulk and waste your time or try to learn from your mistakes, get an outside perspective and keep on learning.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Be prepared for the worst, the whole ‘placement season’ might be just 2 weeks but it might also be 6 months. Do not be anxious about the whole thing - just stay calm and hope for the best.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Practice your Interview skills a lot, even if you have excellent communication skills.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "The shortlist names are usually revealed just 15/16 hours before the interview or test, so you need to prepare without worrying about the results.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Practice generic HR questions - What are your short term and long term plans, plans for further studies (always SAY NO), etc",
+          "category": "HR preparation",
+          "page": 4
+        },
+        {
+          "text": "People either smile too much or don’t smile at all, or avoid eye contact. All of these can negatively affect your chances.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Be humble and show curiosity and eagerness to learn. Don’t let the interviewer think you are arrogant or a know-it-all.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Make a lot of projects - it is the BEST way to learn new concepts and it will allow you to pick and choose appropriate projects for each company to ensure you can put your best foot forward.",
+          "category": "Project preparation",
+          "page": 4
+        },
+        {
+          "text": "DO NOT TRY to do everything all at once. Almost all sources of studies/ projects are good enough if you complete them - but if you keep hopping from one source to another, you will end up with nothing done. Set strict deadlines to motivate yourself to finish your work.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Talk to your seniors in your target company, talk to people already working in your target industry, and talk to your TPCs, all of them can give you great insights and guidance not just for your placements but for your future career.",
+          "category": "Interview strategy",
+          "page": 4
+        }
+      ],
+      "resources": [
+        {
+          "title": "Resume Worded",
+          "url": "https://resumeworded.com/",
+          "description": null,
+          "topic": null,
+          "page": 1
+        },
+        {
+          "title": "Alex the Analyst - A complete Data Analyst Bootcamp",
+          "url": null,
+          "description": "enough to prepare you for most analyst roles. Completely free with a certificate as well!",
+          "topic": "Data Analytics",
+          "page": 5
+        },
+        {
+          "title": "SQL50",
+          "url": null,
+          "description": "to practice questions",
+          "topic": "SQL",
+          "page": 5
+        },
+        {
+          "title": "All Python Syntax in 25 Minutes – Tutorial",
+          "url": null,
+          "description": "For last minute Syntax revision",
+          "topic": "Python",
+          "page": 5
+        },
+        {
+          "title": "The Valuation School",
+          "url": null,
+          "description": "the BEST channel I can recommend, you can also make financial models to add in your portfolio.",
+          "topic": "Finance",
+          "page": 5
+        },
+        {
+          "title": "Investopedia",
+          "url": null,
+          "description": "read about terms from Finance",
+          "topic": "Finance",
+          "page": 5
+        },
+        {
+          "title": "R.S. Agarwal",
+          "url": null,
+          "description": "Shared in the Drive",
+          "topic": "Quantitative Aptitude",
+          "page": 5
+        },
+        {
+          "title": "IndiaBix",
+          "url": null,
+          "description": "practice from IndiaBix",
+          "topic": "Quantitative Aptitude",
+          "page": 5
+        },
+        {
+          "title": "Unstop",
+          "url": null,
+          "description": "participate in a LOT of competitions",
+          "topic": "Case Studies",
+          "page": 5
+        },
+        {
+          "title": "Case study books IIM",
+          "url": null,
+          "description": "You can get other books as well if you just Google",
+          "topic": "Case Studies",
+          "page": 5
+        },
+        {
+          "title": "TED-Ed",
+          "url": null,
+          "description": "watching riddles/puzzles since my first year",
+          "topic": "Puzzles",
+          "page": 5
+        },
+        {
+          "title": "GeeksForGeeks",
+          "url": null,
+          "description": "It is the best website to study anything related to coding or for Job prep.",
+          "topic": "Puzzles",
+          "page": 5
+        },
+        {
+          "title": "CodeForces",
+          "url": null,
+          "description": "it will help you develop logical reasoning - not necessary though.",
+          "topic": null,
+          "page": 5
+        }
+      ],
+      "filename": "IncredFinance_BusinessAnalyst_HarshKasliwal.pdf",
+      "source_path": "2026/InCred_2026/IncredFinance_BusinessAnalyst_HarshKasliwal.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "content_sha256": "57b371c8e7e12fe487a94e9e2bcf09a151c955d893fe8b92deabfd190eec07de"
+    }
+  ]
+}

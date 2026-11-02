@@ -988,6 +988,255 @@
         2
       ],
       "content_sha256": "3bf5c4bcc2f44342a6d568d855c6fedf0f832720705dcb22d20adc4e60d48914"
+    },
+    {
+      "experience_id": "browserstack_2026-2026-cde151e8-1",
+      "company": "BrowserStack_2026",
+      "company_id": "browserstack_2026",
+      "year": "2026",
+      "role": "Software Engineer Backend",
+      "rounds": [
+        {
+          "name": "Online MCQ Test",
+          "category": "Online Assessment",
+          "description": "This round was conducted on HackerEarth and consisted of 20 multiple-choice questions to be solved in 90 minutes. The questions were fairly easy and mostly based on fundamentals.",
+          "topics": [
+            {
+              "original": "HTML",
+              "canonical": "HTML",
+              "category": "Other"
+            },
+            {
+              "original": "CSS",
+              "canonical": "CSS",
+              "category": "Other"
+            },
+            {
+              "original": "JavaScript",
+              "canonical": "JavaScript",
+              "category": "Programming languages"
+            },
+            {
+              "original": "DBMS",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "Computer Networks",
+              "canonical": "Computer Networks",
+              "category": "Computer networks"
+            }
+          ],
+          "questions": [],
+          "difficulty": "easy",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Machine Coding Round",
+          "category": "Technical Interview",
+          "description": "This problem requires you to implement a log watching solution (similar to the tail -f command in UNIX). However, in this case, the log file is hosted on a remote machine (same machine as your server code). The log file is in append-only mode. You may implement the server in any programming language. You have to implement the following: 1. A server side program to monitor the given log file and capable of streaming updates that happen in it. This will run on the same machine as the log file. 2. A web based client (accessible via URL like http://localhost/log) that prints the updates in the file as and when they happen and NOT upon page refresh. The page should be loaded once and it should keep getting updated in real-time. 3. The user sees the last 10 lines in the file when they visit the page for the first time. Problem Constraints: The server should push updates to the clients as we have to be as real time as possible. Do this by Websokets in node you can use socket.io. Be aware that the log file may be several GB, how to optimise for retrieving the last 10 lines – Use list of last 10 lines and updates it when file changes and read file in reverse and load small chunk in buffer instead of loading complete file. The server should not retransmit the entire file every time. It should only send the updates. – Create event update (to get new lines) init (to get last 10 lines). The server should be able to handle multiple clients at the same time. They will be evaluating you for working solution, code efficiency, corner cases, etc.",
+          "topics": [],
+          "questions": [
+            {
+              "text": "Implement a log watching solution (similar to the tail -f command in UNIX). The log file is hosted on a remote machine (same machine as your server code) and is in append-only mode. Implement: 1. A server side program to monitor the given log file and capable of streaming updates. 2. A web based client (accessible via URL like http://localhost/log) that prints updates in real-time, not upon page refresh. 3. The user sees the last 10 lines when visiting the page for the first time. Constraints: Server pushes updates via WebSockets (e.g., socket.io). Optimize for retrieving last 10 lines of a multi-GB file (e.g., use a list of last 10 lines, read file in reverse, load small chunks). Server sends only updates, not entire file (e.g., 'update' event for new lines, 'init' for last 10 lines). Server handles multiple clients.",
+              "kind": "coding",
+              "page": 1
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Technical + HR Interview",
+          "category": "Technical Interview",
+          "description": "The interview began with a short introduction from both sides. Then we had an in-depth discussion about my project—why I built it, the tech stack used, and the reasoning behind the choices and features of project lasted about 20 minutes.",
+          "topics": [
+            {
+              "original": "monotonic stack",
+              "canonical": "Stacks and Queues",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "SQL",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "NoSQL",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "Process",
+              "canonical": "Process",
+              "category": "Other"
+            },
+            {
+              "original": "Thread",
+              "canonical": "Thread",
+              "category": "Other"
+            },
+            {
+              "original": "Troubleshooting",
+              "canonical": "Troubleshooting",
+              "category": "Other"
+            },
+            {
+              "original": "File handling",
+              "canonical": "File handling",
+              "category": "Other"
+            },
+            {
+              "original": "Parallel processing",
+              "canonical": "Parallel processing",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Next Greater Element – Using monotonic stack.",
+              "kind": "coding",
+              "page": 2
+            },
+            {
+              "text": "SQL vs NoSQL – Differences and use cases with real life example.",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Process vs Thread – Why processes are needed if threads exist.",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Troubleshooting – What to do if a website doesn't open or internet isn't working tell me all options for troubleshoot.",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "10 TB File Problem – Find the word “programmer” in a 10 TB file.",
+              "kind": "coding",
+              "page": 3
+            },
+            {
+              "text": "If I get selected, what would a typical day at BrowserStack look like?",
+              "kind": "hr",
+              "page": 3
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2,
+            3
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "Begin your placement preparation as early as possible. Focus on fundamental computer science subjects such as DBMS, Operating Systems, Computer Networks, and Object-Oriented Programming (OOPs). Make concise, revision-friendly notes for these subjects to help during the last-minute prep. Also, research frequently asked interview questions to become familiar with recurring patterns and concepts.",
+          "category": "Technical preparation",
+          "page": 3
+        },
+        {
+          "text": "Your resume should reflect your actual knowledge and experience. Avoid adding skills or technologies that you cannot explain if asked in the interview it may come off as dishonest and create a negative impression. At the very least, ensure you understand the basic concepts of everything mentioned. Tailor your resume slightly depending on the specific role you're applying for.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "The first step in most placement processes is usually a company presentation. Be attentive and note important details about the company’s history, products, services, and culture. If you have doubts about the roles and responsibilities, clarify them early. This will help you make an informed decision and also position yourself as someone who is genuinely interested in the company.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "For Online Assessments (OAs), consistent practice can make a big difference. Participate in coding contests and take timed tests to improve your problem solving speed and accuracy. This will also help you identify your weak areas and improve over time.",
+          "category": "OA preparation",
+          "page": 4
+        },
+        {
+          "text": "In interviews, focus on explaining your approach clearly rather than jumping to give the right answer immediately. Interviewers are more interested in your thought process and problem-solving skills. Staying calm and confident shows that you can perform under pressure, which is an essential trait for any role.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Finally, don’t lose hope if things don’t go as planned. Focus on how you can improve your chances of getting selected. Understand your strengths and weaknesses, and keep refining them throughout the placement season. Persistence and continuous improvement are key.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "You should give 60% time for DSA and 40% for Projects building.",
+          "category": "Coding preparation",
+          "page": 5
+        },
+        {
+          "text": "You can’t do only dsa or projects you need to do both.",
+          "category": "Coding preparation",
+          "page": 5
+        },
+        {
+          "text": "Try to give leetcode or codeforces weekly contest so you will learn time management.",
+          "category": "Coding preparation",
+          "page": 5
+        },
+        {
+          "text": "This was my 3rd Inteview I saw my friends gave more interviews than and not selected so be patient so keep grinding you will definitely get results.",
+          "category": "Interview strategy",
+          "page": 5
+        },
+        {
+          "text": "It is not too late or early start hardwork from as soon as possible.",
+          "category": "Interview strategy",
+          "page": 5
+        },
+        {
+          "text": "Please don’t cheat in placement process it will affect whole college due to you.",
+          "category": "Interview strategy",
+          "page": 5
+        }
+      ],
+      "resources": [
+        {
+          "title": "Striver A 2 Z Sheet",
+          "url": null,
+          "description": null,
+          "topic": "DSA",
+          "page": 5
+        },
+        {
+          "title": "IndiaBix",
+          "url": null,
+          "description": null,
+          "topic": "OA",
+          "page": 5
+        },
+        {
+          "title": "Leetcode Top 50",
+          "url": null,
+          "description": null,
+          "topic": "SQL",
+          "page": 5
+        },
+        {
+          "title": "Telusko",
+          "url": null,
+          "description": null,
+          "topic": "JAVA",
+          "page": 5
+        }
+      ],
+      "filename": "BrowserStack_Software Engineer-Backend_Aniket_Paraswar_CE_2023301011.pdf",
+      "source_path": "2026/BrowserStack_2026/BrowserStack_Software Engineer-Backend_Aniket_Paraswar_CE_2023301011.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "content_sha256": "cde151e8aa19a0c7505830d99ec2ed8a70c92ee1ad955792e9179f8878ab94a8"
     }
   ]
 }

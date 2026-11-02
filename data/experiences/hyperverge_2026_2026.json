@@ -1,0 +1,425 @@
+{
+  "company_id": "hyperverge_2026",
+  "year": "2026",
+  "experiences": [
+    {
+      "experience_id": "hyperverge_2026-2026-0e2bb293-1",
+      "company": "HyperVerge_2026",
+      "company_id": "hyperverge_2026",
+      "year": "2026",
+      "role": "Associate Product Manager Intern",
+      "rounds": [
+        {
+          "name": "Case Study Round",
+          "category": "Other",
+          "description": "We were provided with a Notion file containing two problem statements. The final deliverables for both were: A presentation deck (PDF format) and A short video presentation (max 5 mins) that shows both you and the deck. In the video explain your approach to problem framing and how you developed the solution. We had to choose one among the two problem statements.",
+          "topics": [],
+          "questions": [
+            {
+              "text": "Problem Statement 1: Design a Lightweight KYC App for Bharat. Context: You are the Associate Product Manager at a tech startup building digital onboarding solutions. Your company is launching a mobile app targeting rural and semi-urban India, where smartphone specs are low-end, bandwidth is limited and users may not be digitally literate. The app must support: Digilocker-based KYC, Document-based KYC (Aadhaar, PAN, DL, VoterID), Face authentication (liveness, facematch checks), Integration with other client apps (SDK integration, web-redirection, etc.), Offline & retry-friendly mode. Your Task: Design the KYC solution end-to-end, keeping in mind the following: 1. Product Design & UX: How will the app work for users with low digital literacy? What will the user flow look like (screens, guidance, fail-safes)? Create wireframes. What offline/low-network support will you offer? 2. Features: Suggest and implement 2-3 innovative features to improve trust or ease of use using LLMs. How will you prioritise which features to build? Create a Prioritisation Matrix. 3. Technical Architecture: How will you optimize SDK size? What trade-offs will you make between on-device vs server-side processing (e.g., facematch, liveness)? How will you handle low bandwidth and retry/resume flows? 4. Miscellaneous: How would you measure the success of the app? Any security concerns and how you’ll solve them?",
+              "kind": "other",
+              "page": 2
+            },
+            {
+              "text": "Problem Statement 2: AI‑Enabled Loan Underwriting Agent for Rural and Semi‑Urban India. Context: You are an Associate Product Manager at a tech startup developing lending solutions. Your company is launching a mobile app designed for rural and semi‑urban India. The app must work reliably on low‑spec smartphones, work with limited bandwidth, and be user‑friendly for individuals with low digital literacy. The app must support: Instant Personal Loans, AI enabled underwriting and lending, Low customer default rates. Your Task: Design an end‑to‑end Loan Underwriting solution taking into account the following key areas: Features: What specific problems will your solution address? How will you prioritise the most important problems? Create two to three innovative features powered by LLMs( Eg: AI agents, Dynamic orchestrators) that can improve underwriting accuracy or ease of use. How will you decide which features should be built first? Provide a clear prioritisation matrix. Product Design and User Experience: How will the app accommodate users with low digital literacy? Describe the user flow for every step of the journey (To be created for every feature). Create Wireframes showcasing this solution (To be created for every feature). Technical Architecture: Present a high level system design architecture that supports your AI enabled underwriting feature. Explain how you will handle low bandwidth environments, especially retry and resume logic to ensure a seamless experience. Additional Considerations: How will you define and measure success for the app (including key performance indicators)? What security concerns must you address, and how will you mitigate them?",
+              "kind": "other",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            1,
+            2
+          ]
+        },
+        {
+          "name": "Domain Knowledge Interviews",
+          "category": "Technical Interview",
+          "description": "The interviewer began by introducing himself and then asked me to introduce myself. The interview involved a case study discussion, prioritization and metrics questions, business & market thinking, a puzzle question, and a guesstimate question.",
+          "topics": [
+            {
+              "original": "core product management concepts",
+              "canonical": "Core Product Management Concepts",
+              "category": "Other"
+            },
+            {
+              "original": "redesigns and new feature ideas for commonly used apps",
+              "canonical": "Redesigns And New Feature Ideas For Commonly Used Apps",
+              "category": "Other"
+            },
+            {
+              "original": "trade-off questions",
+              "canonical": "Trade-Off Questions",
+              "category": "Other"
+            },
+            {
+              "original": "puzzle questions",
+              "canonical": "Logical Reasoning",
+              "category": "Aptitude"
+            },
+            {
+              "original": "guesstimates",
+              "canonical": "Guesstimates",
+              "category": "Other"
+            },
+            {
+              "original": "SDK",
+              "canonical": "SDK",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Being a computer science student with so many hackathon experiences, why product management?",
+              "kind": "hr",
+              "page": 6
+            },
+            {
+              "text": "What is an SDK, and why would a company use it instead of building one themselves?",
+              "kind": "technical",
+              "page": 6
+            },
+            {
+              "text": "If you had to choose between two features : photo verification vs offline-first, which would you prioritize as a PM, and on what basis?",
+              "kind": "technical",
+              "page": 6
+            },
+            {
+              "text": "If you had to take a ride, would you choose Ola or Uber? State three metrics.",
+              "kind": "technical",
+              "page": 7
+            },
+            {
+              "text": "101 coins, one counterfeit, identify in two weighings if it’s lighter or heavier.",
+              "kind": "other",
+              "page": 7
+            },
+            {
+              "text": "How many fine dining restaurants are there in Mumbai?",
+              "kind": "other",
+              "page": 7
+            },
+            {
+              "text": "Product managers are often called the CEO of a product, but what do they actually own? What are their responsibilities?",
+              "kind": "hr",
+              "page": 7
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            6,
+            7
+          ]
+        },
+        {
+          "name": "Culture Fit Round",
+          "category": "HR Interview",
+          "description": "The interview was online on Google Meet, lasting around 45 minutes. The interviewer emphasized that he wanted honest answers, so don't take much time and say whatever comes to you naturally. The interviewer asked me to describe my journey from the start.",
+          "topics": [
+            {
+              "original": "passion for design",
+              "canonical": "System Design",
+              "category": "System design"
+            },
+            {
+              "original": "UI/UX",
+              "canonical": "UI/UX",
+              "category": "Other"
+            },
+            {
+              "original": "freelance projects",
+              "canonical": "Projects",
+              "category": "Projects"
+            },
+            {
+              "original": "internships",
+              "canonical": "Internships",
+              "category": "Other"
+            },
+            {
+              "original": "hackathon experiences",
+              "canonical": "Hackathon Experiences",
+              "category": "Other"
+            },
+            {
+              "original": "Head of Events at WIE-IEEE",
+              "canonical": "Head of Events at WIE-IEEE",
+              "category": "Other"
+            },
+            {
+              "original": "stakeholder needs",
+              "canonical": "Stakeholder Needs",
+              "category": "Other"
+            },
+            {
+              "original": "prioritization",
+              "canonical": "Prioritization",
+              "category": "Other"
+            },
+            {
+              "original": "strengths and weaknesses",
+              "canonical": "HR and Behavioral Questions",
+              "category": "HR and behavioral"
+            },
+            {
+              "original": "user research",
+              "canonical": "User Research",
+              "category": "Other"
+            },
+            {
+              "original": "product strategy",
+              "canonical": "Product Strategy",
+              "category": "Other"
+            },
+            {
+              "original": "design decisions",
+              "canonical": "System Design",
+              "category": "System design"
+            },
+            {
+              "original": "UI improvement",
+              "canonical": "UI improvement",
+              "category": "Other"
+            },
+            {
+              "original": "CGPA",
+              "canonical": "CGPA",
+              "category": "Other"
+            },
+            {
+              "original": "least and most favorite subject",
+              "canonical": "Least And Most Favorite Subject",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "You’ve done 5 internships in 6 months , why so many? Wasn’t one enough?How did you prioritize tasks? Wasn’t it overburdening?",
+              "kind": "hr",
+              "page": 8
+            },
+            {
+              "text": "Tell me about your best friend in college, what would they say about your strengths and weaknesses?",
+              "kind": "hr",
+              "page": 8
+            },
+            {
+              "text": "As a product manager, what would you like to spend most of your time doing?",
+              "kind": "hr",
+              "page": 8
+            },
+            {
+              "text": "If you had abundant money, would you still want to work? If yes, what would you do?",
+              "kind": "hr",
+              "page": 8
+            },
+            {
+              "text": "Looking at our website, what would you improve in its UI?",
+              "kind": "technical",
+              "page": 9
+            },
+            {
+              "text": "With so many skills and achievements, why is your CGPA 8 and not higher?",
+              "kind": "hr",
+              "page": 9
+            },
+            {
+              "text": "Which is your least and most favorite subject?",
+              "kind": "hr",
+              "page": 9
+            },
+            {
+              "text": "What would my typical day look like as a product manager?",
+              "kind": "hr",
+              "page": 9
+            },
+            {
+              "text": "What are the top three skills required to contribute effectively as a product manager?",
+              "kind": "hr",
+              "page": 9
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            8,
+            9
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "Avoid long paragraphs; use bullet points for clarity.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Choose neat, professional fonts that are easy to read.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Use icons and images wherever possible to make slides lively and colorful.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Add light-colored background boxes behind text to differentiate sections on a page.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Maintain a consistent heading style on every slide.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Stick to a uniform color palette throughout to give a cohesive look.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Start with a minimalist Canva template to save time.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Avoid wasting time on animations — since the final submission is PDF, animations won’t be visible and take extra effort to set up.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Use varied slide layouts for different sections to keep it engaging.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Include as many icons as possible for better visibility and quick understanding.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Record in a proper environment: Wear a formal shirt and present in a quiet place with no disturbance.",
+          "category": "Interview strategy",
+          "page": 5
+        },
+        {
+          "text": "Do not leave this task for the last minute – it looks short but can take multiple takes to get right.",
+          "category": "Interview strategy",
+          "page": 5
+        },
+        {
+          "text": "Be prepared for technical issues: You may face network problems, mic glitches, or recording errors, so keep buffer time.",
+          "category": "Interview strategy",
+          "page": 5
+        },
+        {
+          "text": "Keep your delivery natural: Don’t write or read a script – it’s obvious and makes you sound robotic.",
+          "category": "Interview strategy",
+          "page": 5
+        },
+        {
+          "text": "If needed, keep a small note of points to maintain flow instead of memorizing word-for-word.",
+          "category": "Interview strategy",
+          "page": 5
+        },
+        {
+          "text": "Speak calmly, explain your thought process, and pitch the product naturally.",
+          "category": "Interview strategy",
+          "page": 5
+        },
+        {
+          "text": "Focus on the flow of content: In 5 minutes, highlight why you chose this approach and how it impacts the problem statement.",
+          "category": "Interview strategy",
+          "page": 5
+        },
+        {
+          "text": "Do not just read from the PPT – explain rather than narrate slides.",
+          "category": "Interview strategy",
+          "page": 5
+        },
+        {
+          "text": "Keep it conversational but structured so it feels confident and authentic.",
+          "category": "Interview strategy",
+          "page": 5
+        },
+        {
+          "text": "Watch your timing carefully: Practice summarizing to stay within 5 minutes.",
+          "category": "Interview strategy",
+          "page": 5
+        },
+        {
+          "text": "Always prepare 2–3 thoughtful questions beforehand, never say “no,” as it shows lack of interest.",
+          "category": "Interview strategy",
+          "page": 7
+        },
+        {
+          "text": "Believe in timing. Even after multiple rejections, the right role will come at the right time.",
+          "category": "Interview strategy",
+          "page": 10
+        },
+        {
+          "text": "Keep your LinkedIn profile updated — companies really do check it.",
+          "category": "Interview strategy",
+          "page": 10
+        },
+        {
+          "text": "Be thoroughly familiar with your resume — every point should be something you can explain confidently.",
+          "category": "Interview strategy",
+          "page": 10
+        },
+        {
+          "text": "For puzzles and brainteasers, practicing from GeeksforGeeks puzzles is more than enough",
+          "category": "Coding preparation",
+          "page": 10
+        },
+        {
+          "text": "During the interview, stay calm and confident — don’t overthink or try to be someone you’re not.",
+          "category": "Interview strategy",
+          "page": 10
+        },
+        {
+          "text": "Be yourself — authenticity leaves a lasting impression.",
+          "category": "Interview strategy",
+          "page": 10
+        }
+      ],
+      "resources": [
+        {
+          "title": "Top 100 Puzzles Asked In Interviews",
+          "url": null,
+          "description": null,
+          "topic": "Puzzles",
+          "page": 10
+        },
+        {
+          "title": "Guesstimate Framework",
+          "url": null,
+          "description": null,
+          "topic": "Guesstimates",
+          "page": 10
+        },
+        {
+          "title": "Complete APM Tools Study Guide",
+          "url": null,
+          "description": "don't read the entire doc (it’s way too long and bloated) just take a glance and see those only those topics which you need to study",
+          "topic": "Product Management Tools",
+          "page": 10
+        }
+      ],
+      "filename": "HyperVerge_APM_HeenalPatel.pdf",
+      "source_path": "2026/HyperVerge_2026/HyperVerge_APM_HeenalPatel.pdf",
+      "pages": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "content_sha256": "0e2bb293060bf6d43b0fb8c8d94d0ec34827d1f2b82718ab22ce9e4494c3777f"
+    }
+  ]
+}

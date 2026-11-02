@@ -1,0 +1,629 @@
+{
+  "company_id": "interactivebrokers_2026",
+  "year": "2026",
+  "experiences": [
+    {
+      "experience_id": "interactivebrokers_2026-2026-71ca3430-1",
+      "company": "InteractiveBrokers_2026",
+      "company_id": "interactivebrokers_2026",
+      "year": "2026",
+      "role": "Junior Software Engineer",
+      "rounds": [
+        {
+          "name": "Online Assessment",
+          "category": "Online Assessment",
+          "description": "The first stage was an online assessment consisting of a single DSA question + 4 logic/Aptitude questions. The DSA question was mainly based on mathematical reasoning rather than complex data structures.",
+          "topics": [
+            {
+              "original": "DSA",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "mathematical reasoning",
+              "canonical": "Logical Reasoning",
+              "category": "Aptitude"
+            },
+            {
+              "original": "logic",
+              "canonical": "Logic",
+              "category": "Other"
+            },
+            {
+              "original": "Aptitude",
+              "canonical": "Quantitative Aptitude",
+              "category": "Aptitude"
+            }
+          ],
+          "questions": [],
+          "difficulty": null,
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Predictive Index Assessment",
+          "category": "Other",
+          "description": "The shortlisted candidates were asked to complete a Predictive Index assessment the following day. This assessment was focused more on behavioural and personality evaluation rather than technical skills.",
+          "topics": [
+            {
+              "original": "behavioural evaluation",
+              "canonical": "HR and Behavioral Questions",
+              "category": "HR and behavioral"
+            },
+            {
+              "original": "personality evaluation",
+              "canonical": "Personality Evaluation",
+              "category": "Other"
+            }
+          ],
+          "questions": [],
+          "difficulty": null,
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Technical Interview Round 1 (Online)",
+          "category": "Technical Interview",
+          "description": "The first technical round was conducted online on a coding platform called Meetl. The interview focused on: Core Java fundamentals, Java Collections Framework, Object-Oriented Programming concepts, DBMS basics, Data Structures and Algorithms. I was given two DSA problems: One was Leetcode easy level. The second problem was of medium difficulty (roughly LeetCode medium level). I had to write the code for both problems and explain the logic clearly.",
+          "topics": [
+            {
+              "original": "Core Java fundamentals",
+              "canonical": "Java",
+              "category": "Programming languages"
+            },
+            {
+              "original": "Java Collections Framework",
+              "canonical": "Java",
+              "category": "Programming languages"
+            },
+            {
+              "original": "Object-Oriented Programming concepts",
+              "canonical": "Object-Oriented Programming",
+              "category": "OOPs"
+            },
+            {
+              "original": "DBMS basics",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "Data Structures and Algorithms",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            }
+          ],
+          "questions": [],
+          "difficulty": null,
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Technical Interview Round 2 (Onsite)",
+          "category": "Technical Interview",
+          "description": "This round was conducted onsite at the company office and was a pen-and-paper coding round. This interview again focused heavily on OOP concepts and Java fundamentals.",
+          "topics": [
+            {
+              "original": "OOP concepts",
+              "canonical": "Object-Oriented Programming",
+              "category": "OOPs"
+            },
+            {
+              "original": "Java fundamentals",
+              "canonical": "Java",
+              "category": "Programming languages"
+            },
+            {
+              "original": "Linked List",
+              "canonical": "Linked Lists",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "Array Problem",
+              "canonical": "Arrays",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "Integer Stream Problem",
+              "canonical": "Integer Stream Problem",
+              "category": "Other"
+            },
+            {
+              "original": "Array Partition",
+              "canonical": "Arrays",
+              "category": "DSA and coding"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Explanation of Parent p = new Child() and Child c = new Parent() along with reasoning.",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Typecasting in objects.",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Lambda functions in Java.",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Streams in Java.",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Serializable interface.",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Questions about my hackathon experiences and projects.",
+              "kind": "project",
+              "page": 2
+            },
+            {
+              "text": "Delete a node in a singly linked list in constant time.",
+              "kind": "coding",
+              "page": 2
+            },
+            {
+              "text": "Find the second maximum element in an array using one pass and constant space.",
+              "kind": "coding",
+              "page": 2
+            },
+            {
+              "text": "The interviewer described a scenario where a large stream of integers flows into a queue throughout the day, with the constraint that the difference between consecutive numbers is always 1. At the end of the day, we need to answer q queries asking whether a specific number x appeared in the stream, and the requirement was to answer queries in constant time and constant space.",
+              "kind": "coding",
+              "page": 2
+            },
+            {
+              "text": "Given an array, divide the elements into two arrays such that the difference between their sums is minimum . ( time complexity of order 1 )",
+              "kind": "coding",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Technical Interview Round 3 (Senior Engineering Manager)",
+          "category": "Technical Interview",
+          "description": "This round was again conducted onsite and a pen-and-paper round. The interviewer was an Engineering Manager who had been with the company for around 11 years. The round began with questions on the Java Collections Framework, after which the discussion went deep into HashMap internals.",
+          "topics": [
+            {
+              "original": "Java Collections Framework",
+              "canonical": "Java",
+              "category": "Programming languages"
+            },
+            {
+              "original": "HashMap internals",
+              "canonical": "Hashing",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "equals()",
+              "canonical": "Equals()",
+              "category": "Other"
+            },
+            {
+              "original": "hashCode()",
+              "canonical": "hashCode()",
+              "category": "Other"
+            },
+            {
+              "original": "Comparable",
+              "canonical": "Comparable",
+              "category": "Other"
+            },
+            {
+              "original": "Comparator",
+              "canonical": "Comparator",
+              "category": "Other"
+            },
+            {
+              "original": "JDBC",
+              "canonical": "JDBC",
+              "category": "Other"
+            },
+            {
+              "original": "SQL concepts",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "Database indexing",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "B-Trees",
+              "canonical": "Trees",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "logical puzzles",
+              "canonical": "Logical Reasoning",
+              "category": "Aptitude"
+            }
+          ],
+          "questions": [
+            {
+              "text": "How key-value pairs are stored",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "Load factor",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "Rehashing",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "Collision handling",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "How collision handling worked before Java 8 and after Java 8",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "write a Student class with attributes: name, id, marks",
+              "kind": "coding",
+              "page": 3
+            },
+            {
+              "text": "whether we could directly use this class as a key in a HashMap.",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "The default implementations provided by the Object class",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "How they compare memory references",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "Why overriding them is necessary for logical equality",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "implement equals() using student id",
+              "kind": "coding",
+              "page": 3
+            },
+            {
+              "text": "implement hashCode() accordingly",
+              "kind": "coding",
+              "page": 3
+            },
+            {
+              "text": "what would happen if we did not override these methods.",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "Comparable vs Comparator",
+              "kind": "technical",
+              "page": 4
+            },
+            {
+              "text": "Writing a Comparable implementation",
+              "kind": "coding",
+              "page": 4
+            },
+            {
+              "text": "Writing a Comparator for a different custom sorting strategy",
+              "kind": "coding",
+              "page": 4
+            },
+            {
+              "text": "What the return values -1, 0, and 1 represent",
+              "kind": "technical",
+              "page": 4
+            },
+            {
+              "text": "Different types of joins",
+              "kind": "technical",
+              "page": 4
+            },
+            {
+              "text": "Database indexing",
+              "kind": "technical",
+              "page": 4
+            },
+            {
+              "text": "Data structures used in indexing (B-Trees)",
+              "kind": "technical",
+              "page": 4
+            },
+            {
+              "text": "25 Horses and 5 Tracks: Find the top three fastest horses.",
+              "kind": "other",
+              "page": 4
+            },
+            {
+              "text": "2 Eggs and 100 Floors: Determine the highest floor from which an egg can be dropped without breaking.",
+              "kind": "other",
+              "page": 4
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            3,
+            4
+          ]
+        },
+        {
+          "name": "Technical Interview Round 4 ( Online )",
+          "category": "Technical Interview",
+          "description": "This round was conducted virtually and had two interviewers: One senior engineering leader from the US, One engineer from the Mumbai office. This round was more conversational compared to previous rounds. We started with a discussion about my projects and hackathon experiences.",
+          "topics": [
+            {
+              "original": "projects",
+              "canonical": "Projects",
+              "category": "Projects"
+            },
+            {
+              "original": "hackathon experiences",
+              "canonical": "Hackathon Experiences",
+              "category": "Other"
+            },
+            {
+              "original": "database concepts",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "Relational databases",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "Non-relational databases",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "MongoDB",
+              "canonical": "MongoDB",
+              "category": "Other"
+            },
+            {
+              "original": "Redis",
+              "canonical": "Redis",
+              "category": "Other"
+            },
+            {
+              "original": "probability puzzle",
+              "canonical": "Logical Reasoning",
+              "category": "Aptitude"
+            }
+          ],
+          "questions": [
+            {
+              "text": "most challenging aspects of my projects and how I approached solving them.",
+              "kind": "project",
+              "page": 4
+            },
+            {
+              "text": "a product in the market that I admire or would like to work on",
+              "kind": "other",
+              "page": 4
+            },
+            {
+              "text": "Relational vs Non-relational databases",
+              "kind": "technical",
+              "page": 5
+            },
+            {
+              "text": "MongoDB",
+              "kind": "technical",
+              "page": 5
+            },
+            {
+              "text": "Redis ( Since I had used in my project )",
+              "kind": "technical",
+              "page": 5
+            },
+            {
+              "text": "Why Redis, despite being very fast, is usually not used as a primary database for large systems",
+              "kind": "technical",
+              "page": 5
+            },
+            {
+              "text": "a probability puzzle involving 50 black balls and 50 white balls distributed across two bags, where the goal was to maximize the probability of drawing a black ball.",
+              "kind": "other",
+              "page": 5
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            4,
+            5
+          ]
+        },
+        {
+          "name": "Technical Interview Round 5 ( Online )",
+          "category": "Technical Interview",
+          "description": "The fifth round was conducted by a manager from the Mumbai office with around 7 years of experience. The interview was relatively short and focused mainly on Java fundamentals and problem solving.",
+          "topics": [
+            {
+              "original": "Java fundamentals",
+              "canonical": "Java",
+              "category": "Programming languages"
+            },
+            {
+              "original": "HashMap internal working",
+              "canonical": "Hashing",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "problem solving",
+              "canonical": "Problem Solving",
+              "category": "Other"
+            },
+            {
+              "original": "Search Suggestions System",
+              "canonical": "Search Suggestions System",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "internal working of HashMap, where I explained buckets, key-value storage, hashCode(), equals() , collisions, collision handling, etc.",
+              "kind": "technical",
+              "page": 5
+            },
+            {
+              "text": "a DSA problem similar to the “Search Suggestions System” problem on LeetCode.",
+              "kind": "coding",
+              "page": 5
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            5
+          ]
+        },
+        {
+          "name": "Technical Interview Round 6 ( Online )",
+          "category": "Technical Interview",
+          "description": "The sixth and final technical round was with a senior engineer from the US team who had around 15 years of experience. This round was very different from the previous ones. It was not focused on coding or rapid-fire technical questions. Instead, it was more of a deep two-way discussion about the team, their domains, systems, and the type of work they do.",
+          "topics": [
+            {
+              "original": "team structure",
+              "canonical": "Team Structure",
+              "category": "Other"
+            },
+            {
+              "original": "backend systems",
+              "canonical": "Backend Systems",
+              "category": "Other"
+            },
+            {
+              "original": "domain",
+              "canonical": "Domain",
+              "category": "Other"
+            }
+          ],
+          "questions": [],
+          "difficulty": null,
+          "pages": [
+            6
+          ]
+        },
+        {
+          "name": "HR round",
+          "category": "HR Interview",
+          "description": "The HR round mainly covered resume overview, family background, relocation, future plans, joining timeline, and compensation discussion.",
+          "topics": [
+            {
+              "original": "resume overview",
+              "canonical": "Resume Overview",
+              "category": "Other"
+            },
+            {
+              "original": "family background",
+              "canonical": "Family Background",
+              "category": "Other"
+            },
+            {
+              "original": "relocation",
+              "canonical": "Relocation",
+              "category": "Other"
+            },
+            {
+              "original": "future plans",
+              "canonical": "Future Plans",
+              "category": "Other"
+            },
+            {
+              "original": "joining timeline",
+              "canonical": "Joining Timeline",
+              "category": "Other"
+            },
+            {
+              "original": "compensation",
+              "canonical": "Compensation",
+              "category": "Other"
+            }
+          ],
+          "questions": [],
+          "difficulty": null,
+          "pages": [
+            6
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "Maintain cgpa above 7.5 or 7 at least, I wasn’t able to sit in many good companies for this reason .",
+          "category": "Interview strategy",
+          "page": 7
+        },
+        {
+          "text": "2-3 good projects and in depth understanding of these projects .",
+          "category": "Project preparation",
+          "page": 7
+        },
+        {
+          "text": "DSA with any lang , but know the fundamentals and core of the lang well .",
+          "category": "Coding preparation",
+          "page": 7
+        },
+        {
+          "text": "OOPS along with implementation. ( You will not forget and understand better when you code ) .",
+          "category": "Technical preparation",
+          "page": 7
+        },
+        {
+          "text": "SQL 50",
+          "category": "Technical preparation",
+          "page": 7
+        },
+        {
+          "text": "DBMS",
+          "category": "Technical preparation",
+          "page": 7
+        },
+        {
+          "text": "OS , CCN are asked less comparatively , do them after above topics .",
+          "category": "Technical preparation",
+          "page": 7
+        }
+      ],
+      "resources": [],
+      "filename": "IB-SWE-HarshChhallani.pdf",
+      "source_path": "2026/InteractiveBrokers_2026/IB-SWE-HarshChhallani.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "content_sha256": "71ca3430ef4a0f3ae78910fb6321e941d5a1a688eeb6644d2654296cd0a2c219"
+    }
+  ]
+}

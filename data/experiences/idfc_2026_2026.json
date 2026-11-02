@@ -1143,6 +1143,3514 @@
         4
       ],
       "content_sha256": "19fcf59083bd3642e67d12d86ed0e1bb783a988c21f7f207d3e36a0ff582cd31"
+    },
+    {
+      "experience_id": "idfc_2026-2026-dfc4a715-1",
+      "company": "IDFC_2026",
+      "company_id": "idfc_2026",
+      "year": "2026",
+      "role": null,
+      "rounds": [
+        {
+          "name": "Online Assessment Round",
+          "category": "Online Assessment",
+          "description": "This was the initial screening phase which consisted of three sections: a. Aptitude Section (15 questions) b. CS Fundamentals (20-30 questions) c. Coding Section (2 questions)",
+          "topics": [
+            {
+              "original": "pattern recognition",
+              "canonical": "Pattern Recognition",
+              "category": "Other"
+            },
+            {
+              "original": "profit and loss",
+              "canonical": "Profit And Loss",
+              "category": "Other"
+            },
+            {
+              "original": "ratios",
+              "canonical": "Ratios",
+              "category": "Other"
+            },
+            {
+              "original": "statistics",
+              "canonical": "Statistics",
+              "category": "Other"
+            },
+            {
+              "original": "Core CS",
+              "canonical": "Core CS",
+              "category": "Other"
+            },
+            {
+              "original": "DBMS",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "OS",
+              "canonical": "Operating Systems",
+              "category": "Operating systems"
+            },
+            {
+              "original": "SQL",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Given an array of integers, find out which numbers would be at the same place and which numbers would have changed positions after sorting the array.",
+              "kind": "coding",
+              "page": 1
+            },
+            {
+              "text": "Given a range of numbers X, Y you had to find the sum of all golden numbers. A golden number would be defined such that the sum of its digits - maximum digit out of all digits is equal to the maximum digit. (eg: 3003: sum = 6, max_digit = 3, sum - max_digit = 3).",
+              "kind": "coding",
+              "page": 1
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Technical Round 1",
+          "category": "Technical Interview",
+          "description": null,
+          "topics": [
+            {
+              "original": "Python",
+              "canonical": "Python",
+              "category": "Programming languages"
+            },
+            {
+              "original": "C++",
+              "canonical": "C++",
+              "category": "Programming languages"
+            },
+            {
+              "original": "Operating Systems",
+              "canonical": "Operating Systems",
+              "category": "Operating systems"
+            },
+            {
+              "original": "DBMS",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "Schema design",
+              "canonical": "System Design",
+              "category": "System design"
+            },
+            {
+              "original": "SQL",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "multithreading",
+              "canonical": "Operating Systems",
+              "category": "Operating systems"
+            },
+            {
+              "original": "processes",
+              "canonical": "Processes",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "take him through my resume",
+              "kind": "project",
+              "page": 2
+            },
+            {
+              "text": "break, continue & pass",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "list vs tuple",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "lambdas",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "docstring",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "memory management",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "garbage collection in python",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "virtual functions",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "friend keyword",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "multiple inheritance and the diamond problem",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "how to run a python program on a UNIX server",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "thrashing in an OS",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "design the schema for a hotel which took bookings from customers on their own website and aggregators like MakeMyTrip, TripAdvisor etc.",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "write an SQL query to find the number of room bookings in each quarter",
+              "kind": "coding",
+              "page": 2
+            },
+            {
+              "text": "update this to find the percentage occupancy in each quarter",
+              "kind": "coding",
+              "page": 2
+            },
+            {
+              "text": "if I got a call from a customer saying that they had booked a room and made the payment but did not receive a confirmation what would I do.",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "booking type being a third party aggregator and the booking of the customer was the next day. I connected this with a situation which I had actually faced during the Coldplay concert in Ahmedabad where our hotel denied us the online booking we had done after reaching there.",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "questions based on the company",
+              "kind": "other",
+              "page": 2
+            },
+            {
+              "text": "about the GenAI and ML projects that the company had been working on and would be undertaking for internal tools as well as consumer facing tools.",
+              "kind": "other",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Technical Round 2",
+          "category": "Technical Interview",
+          "description": null,
+          "topics": [
+            {
+              "original": "Data Structures",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "HashMap",
+              "canonical": "Hashing",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "B-Trees",
+              "canonical": "Trees",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "OOPs",
+              "canonical": "Object-Oriented Programming",
+              "category": "OOPs"
+            },
+            {
+              "original": "Java",
+              "canonical": "Java",
+              "category": "Programming languages"
+            },
+            {
+              "original": "Exception Handling",
+              "canonical": "Exception Handling",
+              "category": "Other"
+            },
+            {
+              "original": "checked exceptions",
+              "canonical": "Checked Exceptions",
+              "category": "Other"
+            },
+            {
+              "original": "unchecked exceptions",
+              "canonical": "Unchecked Exceptions",
+              "category": "Other"
+            },
+            {
+              "original": "try catch",
+              "canonical": "Try Catch",
+              "category": "Other"
+            },
+            {
+              "original": "custom exceptions",
+              "canonical": "Custom Exceptions",
+              "category": "Other"
+            },
+            {
+              "original": "Object class",
+              "canonical": "Object class",
+              "category": "Other"
+            },
+            {
+              "original": "equals method",
+              "canonical": "Equals Method",
+              "category": "Other"
+            },
+            {
+              "original": "Llama2 Model",
+              "canonical": "Llama2 Model",
+              "category": "Other"
+            },
+            {
+              "original": "Git",
+              "canonical": "Git",
+              "category": "Other"
+            },
+            {
+              "original": "GitHub",
+              "canonical": "GitHub",
+              "category": "Other"
+            },
+            {
+              "original": "branches",
+              "canonical": "Branches",
+              "category": "Other"
+            },
+            {
+              "original": "merge conflicts",
+              "canonical": "Merge Conflicts",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Introduce yourself",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "scenarios and told me to identify what data structures would be used in those scenarios. The first scenario was that there were usernames and each had details which would have to be accessed so what DS would be used",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "updated the scenario such that the details of the user would need to be updated constantly",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "write one or two codes in Java",
+              "kind": "coding",
+              "page": 3
+            },
+            {
+              "text": "what Exception Handling was in Java",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "if it was possible to create custom exceptions in Java",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "write code for a custom exception",
+              "kind": "coding",
+              "page": 3
+            },
+            {
+              "text": "difference between Exception and RuntimeException and why I inherited the RuntimeException class in my custom exception class",
+              "kind": "technical",
+              "page": 4
+            },
+            {
+              "text": "questions on Object class of Java",
+              "kind": "technical",
+              "page": 4
+            },
+            {
+              "text": "what equals method is in Java",
+              "kind": "technical",
+              "page": 4
+            },
+            {
+              "text": "why I used the Llama2 Model in my internship",
+              "kind": "project",
+              "page": 4
+            },
+            {
+              "text": "main difference between Git and GitHub",
+              "kind": "technical",
+              "page": 4
+            },
+            {
+              "text": "situation where there are two branches one is the main branch and another is the dev branch where a feature was being developed. Say a developer was working on a feature in the dev branch and a constraint was to be created that they could push the code automatically once there were no merge conflicts.",
+              "kind": "technical",
+              "page": 4
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            3,
+            4
+          ]
+        },
+        {
+          "name": "HR Round",
+          "category": "HR Interview",
+          "description": "This was your typical HR interview where the interviewer was trying to get to know you and understand if your values aligned with that of the company’s.",
+          "topics": [],
+          "questions": [
+            {
+              "text": "purpose of this HR interview",
+              "kind": "hr",
+              "page": 4
+            },
+            {
+              "text": "tell her about my resume and something that wasn’t in it",
+              "kind": "hr",
+              "page": 4
+            },
+            {
+              "text": "challenges I have overcome",
+              "kind": "hr",
+              "page": 4
+            },
+            {
+              "text": "what my ideal company would look like where I would enjoy working at",
+              "kind": "hr",
+              "page": 4
+            },
+            {
+              "text": "my ideal manager who I would love to work with",
+              "kind": "hr",
+              "page": 4
+            },
+            {
+              "text": "what I knew about IDFC and why I wanted to work there",
+              "kind": "hr",
+              "page": 4
+            },
+            {
+              "text": "Work from home vs Work from office question",
+              "kind": "hr",
+              "page": 4
+            },
+            {
+              "text": "situation where I was the team lead for a project for a very important stakeholder who had given us a hard deadline but I found out that it would be impossible to deliver at that date. What would be my approach to this, providing a buggy software which would work for a few days and the client would be happy for now and then it would break down at a later date or do you delay the launch and take the heat but deliver the complete software.",
+              "kind": "hr",
+              "page": 4
+            },
+            {
+              "text": "situation where my manager does not assign me to any important projects or any meaningful work for that matter so what would be my approach to this.",
+              "kind": "hr",
+              "page": 4
+            },
+            {
+              "text": "what if he/she doesn’t give me the time of day to confront them.",
+              "kind": "hr",
+              "page": 4
+            },
+            {
+              "text": "my experience at Oculus as a Marketing head and what challenges I faced while leading such a large team.",
+              "kind": "hr",
+              "page": 4
+            },
+            {
+              "text": "my weakness",
+              "kind": "hr",
+              "page": 4
+            },
+            {
+              "text": "what if my manager was someone who micromanaged me constantly and check in every 10 minutes what I would do.",
+              "kind": "hr",
+              "page": 5
+            },
+            {
+              "text": "questions",
+              "kind": "other",
+              "page": 5
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            4,
+            5
+          ]
+        },
+        {
+          "name": "Final Screening Round",
+          "category": "Technical Interview",
+          "description": "This interview was taken by the senior management of IDFC and it was more of a formality but still do not take this lightly as one student was eliminated in this round.",
+          "topics": [
+            {
+              "original": "Selenium",
+              "canonical": "Selenium",
+              "category": "Other"
+            },
+            {
+              "original": "time complexity analysis",
+              "canonical": "Time Complexity Analysis",
+              "category": "Other"
+            },
+            {
+              "original": "big O notation",
+              "canonical": "big O notation",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "take him through my resume",
+              "kind": "project",
+              "page": 5
+            },
+            {
+              "text": "what Selenium was",
+              "kind": "technical",
+              "page": 5
+            },
+            {
+              "text": "what was its use case in my project",
+              "kind": "project",
+              "page": 5
+            },
+            {
+              "text": "how I usually approached any problem I was given",
+              "kind": "other",
+              "page": 5
+            },
+            {
+              "text": "what time complexity analysis was",
+              "kind": "technical",
+              "page": 5
+            },
+            {
+              "text": "purpose of the big O notation",
+              "kind": "technical",
+              "page": 5
+            },
+            {
+              "text": "if I had to find the time complexity of an algorithm how I would approach that",
+              "kind": "technical",
+              "page": 5
+            },
+            {
+              "text": "a couple of questions which I do not remember",
+              "kind": "other",
+              "page": 5
+            },
+            {
+              "text": "questions",
+              "kind": "other",
+              "page": 5
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            5
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "Time management is the most important aspect of an OA. You must attempt easy and especially short questions first and then go to longer ones. Understand what the question is asking before jumping to the answer and sometimes just try option elimination if nothing works.",
+          "category": "OA preparation",
+          "page": 2
+        },
+        {
+          "text": "Keep 30-45 seconds at the end reserved for unattempted questions. This time is basically for those questions that you have absolutely no idea how to answer. You quickly select random options for these and since there are no -ve marks make sure to attempt each question.",
+          "category": "OA preparation",
+          "page": 2
+        },
+        {
+          "text": "For aptitude questions refer to IndiaBix and make sure to study up on statistics formulas as they are usually asked in IDFC OAs.",
+          "category": "OA preparation",
+          "page": 2
+        },
+        {
+          "text": "For the coding section, the questions for any company are never straightforward; they will give some kind of a pointless story which will take you a minute or two to read and some more minutes to comprehend. These won’t be your typical LeetCode questions. I would suggest that toward the end of your preparation phase practice a few of these questions by asking ChatGPT to generate such lengthy story based company OA style questions.",
+          "category": "Coding preparation",
+          "page": 2
+        },
+        {
+          "text": "Make ChatGPT your friend as there is no better tool for interview preparations.",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "Know your resume forwards and backwards without missing a single piece of information. Also prepare for in-depth questions for each part of the resume. Sometimes an interview might take a point in your resume and ask very in-depth questions to test your understanding. Use ChatGPT for this and ask it to give curveball questions too.",
+          "category": "Project preparation",
+          "page": 3
+        },
+        {
+          "text": "Make sure to keep the points in your resume as honest as possible and don’t mention something you lack understanding in. If extremely necessary to include a part you might not know about, make sure to understand it in-depth one day before the interview. Keep in mind that the interviewer is sitting with a laptop and you’re not.",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "I would advise that you learn OOPs concepts in Java as a lot of companies have Java as a requirement or at least have some projects of Java in their systems. Then learn those same concepts in your preferred language.",
+          "category": "Technical preparation",
+          "page": 3
+        },
+        {
+          "text": "For each language you mention in your resume, go through its interview questions from GFG because a lot of times they cover almost everything about the language.",
+          "category": "Technical preparation",
+          "page": 3
+        },
+        {
+          "text": "Technical Interviews are as much a psychological game as they are about your technical skills. The interviewers will ask you questions on what you have mentioned in your resume and based on what you answer. Make sure to drop hints of where you want to lead them. A lot of the time they might end up asking exactly that.",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "Be confident and honest in your answers and if you are asked something you don’t know or to write a code whose syntax you do not recall, try explaining the concept and approach and related concepts you know. Most of the time that is what interviewers are looking for. If there comes a point where you have absolutely no clue of what you are asked, just be straight with them and say that you haven’t learnt or worked with this particular concept instead of making up a useless explanation.",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "This is to be followed for all interviews and this is one of the most important aspects of an interview, keep a good eye contact with the interviewer. This might not seem like anything but it conveys that you are confident in your abilities and your answers, otherwise you come across as underconfident especially during HR interviews.",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "Prepare a clear introduction of yourself well before the interviews. Don't ever think that you can wing it, but at the same time do not rote the intro, prepare points that you want to convey and define a clear flow.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Keep your introduction short but make it a story where each point connects to the next and relate it to the role. Also set clear boundaries about what you do and don’t know in the intro itself. For example I had used Python for ML and data projects, C++ for DSA and recently learnt Java only for OOPs so I made this very clear in the introduction. This ensures that the interviewer doesn’t ask you anything out of scope. The more generalized your introduction is, the more curveballs you could potentially face.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Think of HR round as a chess match where you have to constantly think, react and plan ahead for every move you make, with the addition that your moves are being constantly judged. My interviewer was someone who was in the HR industry for 15 years and yours would also probably be someone with the same experience so they know people very well, so always be on your guard and say things that actually do align with what you believe in.",
+          "category": "HR preparation",
+          "page": 5
+        },
+        {
+          "text": "Be honest but not too honest. This might seem confusing but HR representatives can usually identify when you’re lying very easily. Now for the not too honest part, whatever you answer though the actual reason might be something else, mention that, but additionally connect it to the company’s values and requirements. For example, for the work from home question some of you might prefer that but the company has work from office policy so align your answer such that you believe in work from home but are open to work from office.",
+          "category": "HR preparation",
+          "page": 5
+        },
+        {
+          "text": "Align your answers with the company values and your own experiences. Why this is important is because when you just state facts as an answer but you connect it with an actual experience, it becomes a story which always has great value in interviews not just HR but technical ones too.",
+          "category": "HR preparation",
+          "page": 5
+        },
+        {
+          "text": "Another important tip which will help you navigate HR easily is not to keep it one way where they ask and you answer. Try keeping it two-way where you ask them questions based on their questions and your answers and if you are confident enough try adding in a funny remark or two to make the atmosphere less tense.",
+          "category": "HR preparation",
+          "page": 5
+        },
+        {
+          "text": "Remember the names of your previous interviewers as it might be asked during HR and it is also a good practice to know it if you do get selected. Usually each interviewer introduces themselves at the start itself but in case someone does not, make it a practice to ask their names at the end of the interview.",
+          "category": "HR preparation",
+          "page": 5
+        },
+        {
+          "text": "Let's start with the preparation phase before the placement season. The most important part is DSA this will help you clear a lot of Online Assessments for all the major companies. Start as early as possible, the earlier the better. Also what is more important than starting early is maintaining consistency. I was one of the first people to start DSA during the start of 3rd year but then left it midway for almost the entire Sem 5. Do not make this mistake, once you start make it a habit to do DSA everyday even if it is just one question.",
+          "category": "Coding preparation",
+          "page": 5
+        },
+        {
+          "text": "You can follow a sheet like Striver’s A2Z Sheet or NeetCode or do a combination of both like I did. Start with Striver’s SDE Sheet or NeetCode 150 whichever you are comfortable with if you feel confident about Data Structures or go for A2Z Sheet or NeetCode 250 if your basics aren’t clear. For Recursion, DP and Graphs make sure to strictly follow Striver and his respective playlists on the topics as it is the best resource on the internet for these topics. The rest you can do from either.",
+          "category": "Coding preparation",
+          "page": 6
+        },
+        {
+          "text": "Another aspect of DSA is explaining your approach. You may be amazing at DSA but if you cannot explain your approach none of it is any use. When practicing LeetCode, although this might take additional time, but try explaining your approach in your head while you are solving the question",
+          "category": "Coding preparation",
+          "page": 6
+        },
+        {
+          "text": "Try to do LeetCode contests if you have the time or you complete DSA early enough to practice time management and make sure to practice company style story based questions for OA practice using ChatGPT. You can also experiment with CP if you enjoy doing LeetCode and DSA although I wouldn’t recommend it for those of y’all who are doing it for the sake of placements like I was.",
+          "category": "Coding preparation",
+          "page": 6
+        },
+        {
+          "text": "Next comes SQL, this may seem like an easy topic but this is very crucial as it is asked in almost all interviews. Start with a basic crash course of SQL like Apna College or some other channel to learn basic topics like GROUP BY, ORDER BY, SELECT, JOINS and other basics. Once you have a basic understanding of these jump directly to SQL 50 from LeetCode as the more you practice the better you will be. For each question in SQL 50 if you don’t get the solution, go through the solutions of other people or the editorial by LeetCode if given. Do not directly move to ChatGPT that won’t help you understand and explore.",
+          "category": "Technical preparation",
+          "page": 6
+        },
+        {
+          "text": "For OOPS follow Kunal Kuswaha’s playlist for OOPs that is the best there is. There is nothing additional required. If you are also working with some other language like C++ or Python refer to OOPs in those languages through ChatGPT and Google. Do preparation for OOPs toward the end of the preparation phase with 2-3 weeks left for the placement season so as to remember the concepts better. After all of this try doing some OS and CCN if time permits.",
+          "category": "Technical preparation",
+          "page": 6
+        },
+        {
+          "text": "I would recommend doing an internship or two and if you have already done one, make sure to present it well in your resume as this carries a lot of weight. It basically shows the interviewer that other companies also decided to work with you and you have already worked in a professional environment. Even if you do not have an internship, add 3-4 good and diverse projects in your resume so that you can stand out from the crowd. Keep in mind that everyone is going to do normal web dev projects, so to stand you must do different projects that integrate multiple things and try to do a project that includes an AI workflow.",
+          "category": "Project preparation",
+          "page": 6
+        },
+        {
+          "text": "Make sure that you know each of your resume projects inside out and you can talk about them for hours with the interviewer. Try to only add projects that you have actually worked on and even if you do add a project right from the internet which I wouldn’t recommend but in extreme cases if you do make sure that you put it into ChatGPT or CoPilot and know every aspect of it.",
+          "category": "Project preparation",
+          "page": 6
+        },
+        {
+          "text": "Now for the interview part, once you clear the OA try to get a good night’s sleep before the interview day but in case it is your first interview and you have a habit and can manage with less sleep, I would recommend that you prepare well the night before if there is something you haven’t. Again I would only recommend this if you have done it a lot of times over the years during exams. I did this exact thing and I was a bit sleepy on the D-Day but it was worth it otherwise I wouldn’t have been well prepared, so manage your risk accordingly.",
+          "category": "Interview strategy",
+          "page": 6
+        },
+        {
+          "text": "On the day of the interview, there can be a possibility that your interview might be scheduled later in the day so during this time keep talking to people around you or do some last minute revision but do not overthink and get tensed about your interview. Even if your friends aren’t with you, talk to other people so that you get engaged and it takes the edge off.",
+          "category": "Interview strategy",
+          "page": 6
+        },
+        {
+          "text": "Lastly remember that no matter how much you prepare there will always be situations that work against you like curveball questions you hadn’t expected or a stubborn interviewer or any other situation that you did not expect so always be ready for such things. Also be mentally prepared to face ample rejections before you even get an interview or get placed. I got my first interview after facing more than 6-7 OAs and faced 3 interviews before I got placed and for each of these I managed to reach the final round and then got rejected. Keep in mind that this is a part of the placement proces and always be ready to get up and move on.",
+          "category": "Interview strategy",
+          "page": 7
+        }
+      ],
+      "resources": [
+        {
+          "title": "IndiaBix",
+          "url": null,
+          "description": "Good for topics including (percentages, ratios, time-distance).",
+          "topic": "OA & Aptitude",
+          "page": 7
+        },
+        {
+          "title": "Striver’s A2Z DSA Sheet",
+          "url": null,
+          "description": "Understanding patterns is crucial. Always spend 30-45 mins before looking at the solution.I had solved around 75% of the SDE sheet.",
+          "topic": "DSA",
+          "page": 7
+        },
+        {
+          "title": "Kunal Kushwaha Playlist",
+          "url": null,
+          "description": "If you have time, go through the entire playlist as it is very extensive",
+          "topic": "Java OOPs",
+          "page": 7
+        },
+        {
+          "title": "GFG Notes",
+          "url": null,
+          "description": null,
+          "topic": "Java OOPs",
+          "page": 7
+        },
+        {
+          "title": "GFG",
+          "url": null,
+          "description": "Supplement lecture notes with these for fast review.",
+          "topic": "DBMS",
+          "page": 7
+        },
+        {
+          "title": "Code-Help Babbar",
+          "url": null,
+          "description": "Supplement lecture notes with these for fast review.",
+          "topic": "DBMS",
+          "page": 7
+        },
+        {
+          "title": "GFG CN Notes",
+          "url": null,
+          "description": "Supplement lecture notes with these for fast review.",
+          "topic": "CN",
+          "page": 7
+        },
+        {
+          "title": "GFG OS Notes",
+          "url": null,
+          "description": "Supplement lecture notes with these for fast review.",
+          "topic": "OS",
+          "page": 7
+        },
+        {
+          "title": "Leetcode 50 questions",
+          "url": null,
+          "description": "This should be enough for most of the on campus roles.",
+          "topic": "SQL",
+          "page": 7
+        },
+        {
+          "title": "ChatGPT",
+          "url": null,
+          "description": "Quick and reliable tool to research company background, tech stack, and everything related to your resume or interview answers.",
+          "topic": "Interview Prep",
+          "page": 7
+        },
+        {
+          "title": "Indiabix",
+          "url": null,
+          "description": "Use them to prepare for general HR questions. Use LLMs to tailor your answers according to company values.",
+          "topic": "HR",
+          "page": 7
+        },
+        {
+          "title": "ChatGPT",
+          "url": null,
+          "description": "Use them to prepare for general HR questions. Use LLMs to tailor your answers according to company values.",
+          "topic": "HR",
+          "page": 7
+        }
+      ],
+      "filename": "Application_Engineer_IDFC_Nimit_Sheth.pdf",
+      "source_path": "2026/IDFC_2026/Application_Engineer_IDFC_Nimit_Sheth.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "content_sha256": "dfc4a7150e16c3a7427400a71976e3c2bfe46b1d25fa9776e9e42b1575bdbafe"
+    },
+    {
+      "experience_id": "idfc_2026-2026-d6cf4f19-1",
+      "company": "IDFC_2026",
+      "company_id": "idfc_2026",
+      "year": "2026",
+      "role": "Application Engineer",
+      "rounds": [
+        {
+          "name": "Assessment Round",
+          "category": "Online Assessment",
+          "description": "This was conducted on the HirePro platform.",
+          "topics": [
+            {
+              "original": "general aptitude / reasoning",
+              "canonical": "Logical Reasoning",
+              "category": "Aptitude"
+            },
+            {
+              "original": "Core cs fundamentals",
+              "canonical": "Core cs fundamentals",
+              "category": "Other"
+            },
+            {
+              "original": "Coding Section",
+              "canonical": "Coding Section",
+              "category": "Other"
+            },
+            {
+              "original": "DBMS",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "OS",
+              "canonical": "Operating Systems",
+              "category": "Operating systems"
+            },
+            {
+              "original": "SQL",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "DSA",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            }
+          ],
+          "questions": [
+            {
+              "text": "How many elements are correctly sorted. Correct place means Rightly indexed when seen from a Sorted perspective. Ex: 1 3 2 4 5 sorted is 1 2 3 4 5 1 and 4 are in the correct place , whereas 3 and 2 are not in the correct place. So the result would be 2, 3 Since 2 are incorrect and 3 are correct",
+              "kind": "coding",
+              "page": 1
+            },
+            {
+              "text": "Had to find the number of golden number in a given range where the golden number meant the sum of the digits of a number - max number = max number Ex: 325 is a golden number (3+2+5) - 5 = 5",
+              "kind": "coding",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            1,
+            2
+          ]
+        },
+        {
+          "name": "Technical Round 1",
+          "category": "Technical Interview",
+          "description": "The interview started with the interviewer asking me about my family background and where I originally come from. He then asked me for my introduction, which I had prepared in advance.",
+          "topics": [
+            {
+              "original": "RAG (Retrieval-Augmented Generation)",
+              "canonical": "RAG (Retrieval-Augmented Generation)",
+              "category": "Other"
+            },
+            {
+              "original": "Java",
+              "canonical": "Java",
+              "category": "Programming languages"
+            },
+            {
+              "original": "in-memory key-value cache",
+              "canonical": "In-Memory Key-Value Cache",
+              "category": "Other"
+            },
+            {
+              "original": "TTL (time to live)",
+              "canonical": "TTL (time to live)",
+              "category": "Other"
+            },
+            {
+              "original": "lambda expressions in Java",
+              "canonical": "Java",
+              "category": "Programming languages"
+            },
+            {
+              "original": "PriorityQueue",
+              "canonical": "PriorityQueue",
+              "category": "Other"
+            },
+            {
+              "original": "object-oriented programming",
+              "canonical": "Object-Oriented Programming",
+              "category": "OOPs"
+            },
+            {
+              "original": "abstraction",
+              "canonical": "Object-Oriented Programming",
+              "category": "OOPs"
+            },
+            {
+              "original": "abstract classes",
+              "canonical": "Abstract Classes",
+              "category": "Other"
+            },
+            {
+              "original": "interfaces",
+              "canonical": "Interfaces",
+              "category": "Other"
+            },
+            {
+              "original": "patents",
+              "canonical": "Patents",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "The interviewer then asked me to explain how RAG (Retrieval-Augmented Generation) works, as it was mentioned on my resume. I had worked on RAG as part of my internship.",
+              "kind": "project",
+              "page": 2
+            },
+            {
+              "text": "He asked me what I was good at. I mentioned Java as my primary language.",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Implementation of an in-memory key-value cache where each element has a TTL (time to live), and once the TTL expires, the element is automatically evicted. I provided a Java implementation for the same.",
+              "kind": "coding",
+              "page": 2
+            },
+            {
+              "text": "How do lambda expressions work in Java? I was unable to answer this question.",
+              "kind": "technical",
+              "page": 5
+            },
+            {
+              "text": "Internal implementation of a PriorityQueue.",
+              "kind": "technical",
+              "page": 5
+            },
+            {
+              "text": "What are the four pillars of object-oriented programming, and what is abstraction?",
+              "kind": "technical",
+              "page": 5
+            },
+            {
+              "text": "Why do we extend abstract classes, and why do we implement interfaces? The answer was later provided by the interviewer: interfaces are contracts—you can implement a contract, but extending a contract does not make sense.",
+              "kind": "technical",
+              "page": 5
+            },
+            {
+              "text": "I had carried my patent along with my resume. I presented it to the interviewer, based on which he asked me some questions.",
+              "kind": "project",
+              "page": 5
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2,
+            5
+          ]
+        },
+        {
+          "name": "Technical Round 2",
+          "category": "Technical Interview",
+          "description": "The second technical round began with the interviewer asking me to introduce myself.",
+          "topics": [
+            {
+              "original": "binary tree",
+              "canonical": "Trees",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "DFS",
+              "canonical": "Graphs",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "BST (binary search tree)",
+              "canonical": "Trees",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "SQL",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "distributed computing",
+              "canonical": "Distributed Computing",
+              "category": "Other"
+            },
+            {
+              "original": "master-slave architecture",
+              "canonical": "Master-Slave Architecture",
+              "category": "Other"
+            },
+            {
+              "original": "patents",
+              "canonical": "Patents",
+              "category": "Other"
+            },
+            {
+              "original": "AI in job description",
+              "canonical": "AI in job description",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "I was asked to code the right view of a binary tree on their laptop.",
+              "kind": "coding",
+              "page": 5
+            },
+            {
+              "text": "The interviewer then asked me to solve the same problem without using a Queue, suggesting a DFS approach.",
+              "kind": "coding",
+              "page": 5
+            },
+            {
+              "text": "I was asked to write a function to verify whether a given tree is a BST(binary search tree). All elements to the left must be smaller than the root and all elements to the right must be greater than the root.",
+              "kind": "coding",
+              "page": 6
+            },
+            {
+              "text": "Next, I was given a SQL question involving two tables: employees and customers, each having id, name, salary, and department. Since departments could be common across both tables, the task was to find the employee name and salary, with the maximum salary from each department from both tables.",
+              "kind": "coding",
+              "page": 6
+            },
+            {
+              "text": "The discussion then moved to distributed computing, specifically the master-slave architecture, based on one of the projects mentioned on my resume.",
+              "kind": "project",
+              "page": 7
+            },
+            {
+              "text": "I was also asked about my patents.",
+              "kind": "project",
+              "page": 7
+            },
+            {
+              "text": "I raised a question about the absence of AI in the job description, considering I come from the CSE AIML branch.",
+              "kind": "hr",
+              "page": 7
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "name": "HR round",
+          "category": "HR Interview",
+          "description": "The interview began with a standard self-introduction prompt, followed by the question, \"Why should we hire you?\" To prepare for this, I researched the company's values and culture using Perplexity Pro a day in advance, which helped me tailor my response to align with their mission and expectations.",
+          "topics": [
+            {
+              "original": "company's values and culture",
+              "canonical": "Company'S Values And Culture",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Why should we hire you?",
+              "kind": "hr",
+              "page": 7
+            },
+            {
+              "text": "If your manager is extremely busy and unable to assign you a project, how would you proceed?",
+              "kind": "hr",
+              "page": 8
+            },
+            {
+              "text": "You’ve invested significant time and effort into a project, but your manager decides to scrap it and reassign you. How do you respond?",
+              "kind": "hr",
+              "page": 8
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            7,
+            8
+          ]
+        },
+        {
+          "name": "Technical Round 3",
+          "category": "Technical Interview",
+          "description": "This round took place online around 8.45 PM from home. It was a short round of around 10 minutes. It started with the interviewer asking me about myself. As always I responded with the introduction I had prepared beforehand.",
+          "topics": [
+            {
+              "original": "stack and heap memory",
+              "canonical": "Stacks and Queues",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "Garbage collection in Java",
+              "canonical": "Java",
+              "category": "Programming languages"
+            },
+            {
+              "original": "clustering",
+              "canonical": "Clustering",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "What is stack and heap memory.",
+              "kind": "technical",
+              "page": 8
+            },
+            {
+              "text": "Garbage collection in Java (different types of memories- old gen, new gen, permgen, metaspace)",
+              "kind": "technical",
+              "page": 8
+            },
+            {
+              "text": "What is clustering",
+              "kind": "technical",
+              "page": 8
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            8
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "Always ask questions at the end of an interview.",
+          "category": "Interview strategy",
+          "page": 5
+        },
+        {
+          "text": "If the interviewer does not introduce themselves, always ask for their name, as it might be asked in the next round.",
+          "category": "Interview strategy",
+          "page": 5
+        },
+        {
+          "text": "Always remember to ask for the interviewer's name if they don't introduce themselves, as it might be asked in a subsequent round.",
+          "category": "Interview strategy",
+          "page": 7
+        }
+      ],
+      "resources": [
+        {
+          "title": "Topic wise quantitative aptitude",
+          "url": "https://www.indiabix.com/aptitude/questions-and-answers/",
+          "description": null,
+          "topic": "quantitative aptitude",
+          "page": 8
+        },
+        {
+          "title": null,
+          "url": "https://www.geeksforgeeks.org/aptitude/aptitude-questions-and-answers/",
+          "description": null,
+          "topic": "aptitude",
+          "page": 8
+        },
+        {
+          "title": "Aptitude time tests",
+          "url": "https://www.indiabix.com/online-test/categories/",
+          "description": "refer for data interpretation problems and for practice",
+          "topic": "aptitude",
+          "page": 8
+        },
+        {
+          "title": "Aptitude preparation (youtube)(prioritize career ride)",
+          "url": "https://www.youtube.com/watch?v=hlyal4sR0m8&list=PL8p2I9GklV454LdGfDOw0KkNazKuA-6B2",
+          "description": null,
+          "topic": "aptitude",
+          "page": 8
+        },
+        {
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=tnc9ojITRg4&list=PLpyc33gOcbVA4qXMoQ5vmhefTruk5t9lt",
+          "description": null,
+          "topic": "aptitude",
+          "page": 8
+        },
+        {
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=BSVKUk58K6U&list=PL9gnSGHSqcno1G3XjUbwzXHL8_EttOuKk",
+          "description": null,
+          "topic": "JAVA",
+          "page": 9
+        },
+        {
+          "title": "Common interview questions in JAVA",
+          "url": "https://drive.google.com/drive/folders/1pB0VVklXksdpDpRxzSdvWzJwC1BNM-4k?usp=sharing",
+          "description": null,
+          "topic": "JAVA",
+          "page": 9
+        },
+        {
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=dl00fOOYLOM&t=248s",
+          "description": null,
+          "topic": "DBMS",
+          "page": 9
+        },
+        {
+          "title": "strivers a2z dsa course sheet 2",
+          "url": "https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/",
+          "description": null,
+          "topic": "DSA",
+          "page": 9
+        },
+        {
+          "title": "top sql 50",
+          "url": "https://leetcode.com/studyplan/top-sql-50/",
+          "description": null,
+          "topic": "SQL",
+          "page": 9
+        },
+        {
+          "title": null,
+          "url": "https://www.geeksforgeeks.org/sql/sql-query-interview-questions/",
+          "description": null,
+          "topic": "SQL",
+          "page": 9
+        },
+        {
+          "title": null,
+          "url": "https://www.geeksforgeeks.org/sql/sql-interview-questions/",
+          "description": null,
+          "topic": "SQL",
+          "page": 9
+        }
+      ],
+      "filename": "IDFC_ApplicationEngineer_MaazMalik.pdf",
+      "source_path": "2026/IDFC_2026/IDFC_ApplicationEngineer_MaazMalik.pdf",
+      "pages": [
+        1,
+        2,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "content_sha256": "d6cf4f1954a5231c8dac38346e9861d998ba04e5bd835bdfab481fb07bfd8640"
+    },
+    {
+      "experience_id": "idfc_2026-2026-33cc8a50-1",
+      "company": "IDFC_2026",
+      "company_id": "idfc_2026",
+      "year": "2026",
+      "role": "Application Engineer",
+      "rounds": [
+        {
+          "name": "Online Assessment",
+          "category": "Online Assessment",
+          "description": "This round was conducted on the campus, it was around 1hr 15 minutes test. The criteria for this round was on the basis of branches. EXTC was not allowed to sit for the process and were informed almost 10-15 minutes prior to the OA. The test consisted of 3 sections, General aptitude, CS fundamentals, DSA.",
+          "topics": [
+            {
+              "original": "General aptitude",
+              "canonical": "Quantitative Aptitude",
+              "category": "Aptitude"
+            },
+            {
+              "original": "CS fundamentals",
+              "canonical": "CS fundamentals",
+              "category": "Other"
+            },
+            {
+              "original": "DSA",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "probability",
+              "canonical": "Probability",
+              "category": "Other"
+            },
+            {
+              "original": "profit loss",
+              "canonical": "Profit Loss",
+              "category": "Other"
+            },
+            {
+              "original": "worker problem",
+              "canonical": "Worker Problem",
+              "category": "Other"
+            },
+            {
+              "original": "speed and time",
+              "canonical": "Speed And Time",
+              "category": "Other"
+            },
+            {
+              "original": "DBMS",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "OS",
+              "canonical": "Operating Systems",
+              "category": "Operating systems"
+            },
+            {
+              "original": "CCN",
+              "canonical": "CCN",
+              "category": "Other"
+            },
+            {
+              "original": "OOPS",
+              "canonical": "Object-Oriented Programming",
+              "category": "OOPs"
+            }
+          ],
+          "questions": [
+            {
+              "text": "The first problem was that we needed to find the sum of good numbers from a range [l, r], a good number is a number in which the difference between the sum of all the digits in the number and the largest digit is exactly equal to the largest digit. Eg 3003 ((3+0+0+3)-3 == 3).",
+              "kind": "coding",
+              "page": 2
+            },
+            {
+              "text": "The second problem was to find out that after sorting an array how many elements did not change their position.",
+              "kind": "coding",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            1,
+            2
+          ]
+        },
+        {
+          "name": "Technical Round 1",
+          "category": "Technical Interview",
+          "description": "This round mainly focused on the core CS knowledge of the candidates like basic data structures, OOPS, Schema Design, etc. The round lasted around 45-50 minutes.",
+          "topics": [
+            {
+              "original": "basic data structures",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "OOPS",
+              "canonical": "Object-Oriented Programming",
+              "category": "OOPs"
+            },
+            {
+              "original": "Schema Design",
+              "canonical": "System Design",
+              "category": "System design"
+            },
+            {
+              "original": "linear data structures",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "non-linear data structures",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "stacks",
+              "canonical": "Stacks and Queues",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "queues",
+              "canonical": "Stacks and Queues",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "linked lists",
+              "canonical": "Linked Lists",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "polymorphism",
+              "canonical": "Object-Oriented Programming",
+              "category": "OOPs"
+            },
+            {
+              "original": "inheritance",
+              "canonical": "Object-Oriented Programming",
+              "category": "OOPs"
+            },
+            {
+              "original": "diamond problem of multiple inheritance",
+              "canonical": "Object-Oriented Programming",
+              "category": "OOPs"
+            },
+            {
+              "original": "friend functions and classes",
+              "canonical": "Friend Functions And Classes",
+              "category": "Other"
+            },
+            {
+              "original": "user behaviour data",
+              "canonical": "User Behaviour Data",
+              "category": "Other"
+            },
+            {
+              "original": "machine learning",
+              "canonical": "Machine Learning",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "what are the types of data structures (linear, non-linear)",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "what is stacks and queues",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "how will you implement stack using queues and vice-versa",
+              "kind": "coding",
+              "page": 2
+            },
+            {
+              "text": "what are linked lists and their types",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "explain every concept with respect to both of the languages (C++ and Java) and highlight the differences between them",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "polymorphism",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "inheritance",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "the diamond problem of multiple inheritance and how it is handled in Java and C++",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "friend functions and classes with their counterparts in Java",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "When to use Java, when to use C++",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "how I would design the schema of this platform (online shopping) and handle the categories of products",
+              "kind": "project",
+              "page": 3
+            },
+            {
+              "text": "how I will make the foreign key relations, what kind of attributes I store and how many tables would I require",
+              "kind": "project",
+              "page": 3
+            },
+            {
+              "text": "find products of a particular category, a particular brand, and above a particular rating",
+              "kind": "coding",
+              "page": 3
+            },
+            {
+              "text": "how I track the trends of the customers who visited the platform",
+              "kind": "project",
+              "page": 3
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2,
+            3
+          ]
+        },
+        {
+          "name": "Technical Round 2",
+          "category": "Technical Interview",
+          "description": "This round focused on core development knowledge, system design and problem solving. This round lasted around 45 minutes and was fast paced. We were expected to answer quickly like a rapid fire round, the interviewer did not show any kind of expression from which students could make out whether they were satisfied with the answer or not.",
+          "topics": [
+            {
+              "original": "development knowledge",
+              "canonical": "Development Knowledge",
+              "category": "Other"
+            },
+            {
+              "original": "system design",
+              "canonical": "System Design",
+              "category": "System design"
+            },
+            {
+              "original": "problem solving",
+              "canonical": "Problem Solving",
+              "category": "Other"
+            },
+            {
+              "original": "DSA",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "palindromic substring",
+              "canonical": "Palindromic Substring",
+              "category": "Other"
+            },
+            {
+              "original": "puzzles",
+              "canonical": "Logical Reasoning",
+              "category": "Aptitude"
+            },
+            {
+              "original": "coin denominations",
+              "canonical": "Coin Denominations",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "what is actually nodejs and why it was developed",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "how would you scale a system if a lot of users came to your application",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "find the longest palindromic substring in a given string",
+              "kind": "coding",
+              "page": 4
+            },
+            {
+              "text": "I have coins of denominations {1,2,5} and had to make a sum by taking at least one coin from every denomination.",
+              "kind": "other",
+              "page": 4
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            3,
+            4
+          ]
+        },
+        {
+          "name": "HR Round",
+          "category": "HR Interview",
+          "description": "The HR round was pretty chill. She was taking around 45 minute interviews of the candidates but due to time constraints (it was past 6 in the evening), she took the remaining candidates' interviews for about 15-20 minutes each. The candidates who got shortlisted for the HR round were most probably guaranteed of the job, so the HR round was not very serious.",
+          "topics": [
+            {
+              "original": "behavioral and situational questions",
+              "canonical": "HR and Behavioral Questions",
+              "category": "HR and behavioral"
+            }
+          ],
+          "questions": [
+            {
+              "text": "how my day was, when I came to college for the interviews and how was the interview process in general",
+              "kind": "hr",
+              "page": 4
+            },
+            {
+              "text": "where I stay and asked what my parents do",
+              "kind": "hr",
+              "page": 4
+            },
+            {
+              "text": "what if the manager is out of reach and does not reply, what will you do",
+              "kind": "hr",
+              "page": 4
+            },
+            {
+              "text": "what if the manager micro-manages you, what will you do in this scenario",
+              "kind": "hr",
+              "page": 4
+            },
+            {
+              "text": "what would be my melting point (the point where you feel you will leave the company)",
+              "kind": "hr",
+              "page": 5
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            4,
+            5
+          ]
+        },
+        {
+          "name": "Business Round",
+          "category": "Other",
+          "description": "This round was like a mere formality in the beginning as we have come a long way in clearing three intense interviews throughout the day. The interview was about 30 minutes and this was conducted in online mode because it was too late in the evening. The round for me turned out to be another technical round.",
+          "topics": [
+            {
+              "original": "favorite subjects",
+              "canonical": "Favorite Subjects",
+              "category": "Other"
+            },
+            {
+              "original": "DBMS",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "OS",
+              "canonical": "Operating Systems",
+              "category": "Operating systems"
+            },
+            {
+              "original": "Distributed Computing",
+              "canonical": "Distributed Computing",
+              "category": "Other"
+            },
+            {
+              "original": "system scalability",
+              "canonical": "System Scalability",
+              "category": "Other"
+            },
+            {
+              "original": "design patterns",
+              "canonical": "System Design",
+              "category": "System design"
+            },
+            {
+              "original": "concurrency in distributed systems",
+              "canonical": "Concurrency In Distributed Systems",
+              "category": "Other"
+            },
+            {
+              "original": "frontend and backend",
+              "canonical": "Frontend And Backend",
+              "category": "Other"
+            },
+            {
+              "original": "UI/UX",
+              "canonical": "UI/UX",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "my favorite subjects in college",
+              "kind": "hr",
+              "page": 5
+            },
+            {
+              "text": "system scalability",
+              "kind": "technical",
+              "page": 5
+            },
+            {
+              "text": "design patterns",
+              "kind": "technical",
+              "page": 5
+            },
+            {
+              "text": "concurrency in the case of distributed systems",
+              "kind": "technical",
+              "page": 5
+            },
+            {
+              "text": "the difference between frontend and backend",
+              "kind": "technical",
+              "page": 5
+            },
+            {
+              "text": "the difference between UI/UX and some other jargon",
+              "kind": "technical",
+              "page": 5
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            5
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "I recommend practicing aptitude and do not skip it like I did because solving aptitude along with DSA will help you get an edge over others.",
+          "category": "OA preparation",
+          "page": 2
+        },
+        {
+          "text": "Do leetcode, codeforces, codechef or any other platform that you like, DO NOT skip over any advanced DSA topic however difficult it may seem (cost me my phonepe interview had I known lifting beforehand). Solving advanced DSA problems helps you build the instinct where you do not have to put efforts into coming up with a solution.",
+          "category": "Coding preparation",
+          "page": 2
+        },
+        {
+          "text": "I would suggest when you are definitely clear with the answer, make some stories and tell, do not tell directly, this allows you to cover time and list down some extra points in front of the interviewer which many candidates would not have mentioned had they been in a hurry.",
+          "category": "Interview strategy",
+          "page": 2
+        },
+        {
+          "text": "For the technical round, I would suggest having a strong knowledge of the CS fundamentals and programming languages on your finger tips.",
+          "category": "Technical preparation",
+          "page": 3
+        },
+        {
+          "text": "Be calm in the interview and answer every question to the point, by making some stories to sugarcoat your answer.",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "If you absolutely know the answer to a question, cook the response as much as you can, do not give straightforward answers like some AI or a robot.",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "Keep your theory knowledge crisp with reasons for every fact, you need to know what is happening and why something is made in a certain way.",
+          "category": "Technical preparation",
+          "page": 3
+        },
+        {
+          "text": "Be prepared to face tougher situations as the purpose of further rounds is to test how mentally strong you are.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "DO NOT MELT IN FRONT OF THE INTERVIEWER HOWEVER RUDE OR UNINTERESTED THEY MAY SEEM.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "If the interviewer interrupts you in between, take it as a positive point because you were already on the right track and they got it, that is why they change the questions.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Have confidence in yourself and do not underestimate yourself, if you are sure of something then do argue with the interviewer, sometimes they are also at fault.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Prepare for the HR round by chatGPT.",
+          "category": "HR preparation",
+          "page": 5
+        },
+        {
+          "text": "They ask pretty standard questions and you are expected to give their standard answers as well, like a viva.",
+          "category": "HR preparation",
+          "page": 5
+        },
+        {
+          "text": "Try to stay calm and smile in front of the HR",
+          "category": "Interview strategy",
+          "page": 5
+        },
+        {
+          "text": "Be ready for surprises as this round was not initially planned.",
+          "category": "Interview strategy",
+          "page": 5
+        },
+        {
+          "text": "Also do not assume that if you have come this far then it is absolutely guaranteed that you will get selected, as one candidate was not selected after these 4 rigorous interview rounds.",
+          "category": "Interview strategy",
+          "page": 5
+        },
+        {
+          "text": "Start early with DSA and development. It gives you a very strong edge over others.",
+          "category": "Coding preparation",
+          "page": 5
+        },
+        {
+          "text": "Do not be stuck in the “Dev or DSA” hell. YOU MUST HAVE BOTH OF THEM AT A PRETTY GOOD LEVEL.",
+          "category": "Coding preparation",
+          "page": 6
+        },
+        {
+          "text": "Nowadays everybody knows the MERN stack and it has become the new normal, do not limit yourself to only one technology. Explore other technologies as well like Java Development, Spring boot, etc.",
+          "category": "Technical preparation",
+          "page": 6
+        },
+        {
+          "text": "Make some projects which actually solve real world problems, not just a CRUD application with some eye-catching UI which is made by vercel v0 or claude.",
+          "category": "Project preparation",
+          "page": 6
+        },
+        {
+          "text": "Participate in hackathons and solve their problem statements, even if you cannot win the hackathon do not stop building the application for the problem. You will anyways have a solid project with you if you keep on working with the statement.",
+          "category": "Project preparation",
+          "page": 6
+        },
+        {
+          "text": "Do not ignore system design. It is now becoming common to ask system design to freshers and may happen that it will become a part of your process like DSA. At least know the basics of HLD, LLD and have a knowledge about the famous questions of system design.",
+          "category": "Technical preparation",
+          "page": 6
+        },
+        {
+          "text": "Give leetcode/codeforces/codechef/atcoder contests, they help you keep your mind in the correct momentum which is needed during the placement season. You cannot stop your mind midway through the season.",
+          "category": "Coding preparation",
+          "page": 6
+        },
+        {
+          "text": "Having internships with proper firms gives you an edge, because nowadays everybody has some kind of internship experience. If you do not have an internship, then you have to work a little more to compete with the ones having internships.",
+          "category": "Interview strategy",
+          "page": 6
+        },
+        {
+          "text": "Do not get inferiority complex with the people who have summer internships or any other. Hard work and consistency makes a lot of difference.",
+          "category": "Interview strategy",
+          "page": 6
+        },
+        {
+          "text": "DO NOT EXPECT THE PLACEMENT SEASON TO BE VERY SMOOTH. You have to be mentally strong for this and rejections are a part of it.",
+          "category": "Interview strategy",
+          "page": 6
+        },
+        {
+          "text": "Do not think that advanced topics are not required for freshers. You never know what is waiting for you.",
+          "category": "Coding preparation",
+          "page": 6
+        },
+        {
+          "text": "Do not follow just one DSA sheet. One sheet may have concepts which the other may not. Go with striver, babbar for DSA.",
+          "category": "Coding preparation",
+          "page": 6
+        },
+        {
+          "text": "For CS fundamentals use Babbar, Kunal Kushwaha for OOPS.",
+          "category": "Technical preparation",
+          "page": 6
+        },
+        {
+          "text": "Do competitive programming, use TLE eliminators for that. Use TLE post contest discussion, they usually have solutions of up to 4-5 problems. Even if you have a low rating, watch and solve the later problems as they involve some good concepts which can sometimes pop up in front of you, and your mind gets trained to handle tougher problems.",
+          "category": "Coding preparation",
+          "page": 6
+        },
+        {
+          "text": "Keep your CGPA good enough, at least try to keep it above 8, it will help you to sit for all the companies.",
+          "category": "Interview strategy",
+          "page": 6
+        },
+        {
+          "text": "Sometimes the outcome is not in your hands, you may not pass the OA even after completely solving all the questions (happened to me with Zeta). Just make peace with it and look for the next company. Don’t give a second thought to what is in the past. Don’t let it bother you.",
+          "category": "Interview strategy",
+          "page": 6
+        },
+        {
+          "text": "Keep working and you will make it where you deserve. Hard work can never go in vain. Do not fall into that hardwork vs smartwork and all that superficial stuff. Keep it simple and drag yourself through it. Do not jumble yourself in tutorial hell, how to give interviews, how to smartly approach a problem, bla bla bla. Just be you and practice hard.",
+          "category": "Interview strategy",
+          "page": 6
+        }
+      ],
+      "resources": [
+        {
+          "title": "indiabix website",
+          "url": null,
+          "description": null,
+          "topic": "aptitude",
+          "page": 1
+        },
+        {
+          "title": "Babbar’s youtube channel",
+          "url": null,
+          "description": null,
+          "topic": "DBMS, OS",
+          "page": 1
+        },
+        {
+          "title": "Kunal Kushwaha",
+          "url": null,
+          "description": null,
+          "topic": "OOPS",
+          "page": 1
+        },
+        {
+          "title": "Aryan Mittal",
+          "url": null,
+          "description": null,
+          "topic": "system design",
+          "page": 6
+        },
+        {
+          "title": "striver",
+          "url": null,
+          "description": null,
+          "topic": "DSA",
+          "page": 6
+        },
+        {
+          "title": "babbar",
+          "url": null,
+          "description": null,
+          "topic": "DSA",
+          "page": 6
+        },
+        {
+          "title": "Babbar",
+          "url": null,
+          "description": null,
+          "topic": "CS fundamentals",
+          "page": 6
+        },
+        {
+          "title": "Kunal Kushwaha",
+          "url": null,
+          "description": null,
+          "topic": "OOPS",
+          "page": 6
+        },
+        {
+          "title": "TLE eliminators",
+          "url": null,
+          "description": null,
+          "topic": "competitive programming",
+          "page": 6
+        },
+        {
+          "title": "TLE post contest discussion",
+          "url": null,
+          "description": null,
+          "topic": "competitive programming",
+          "page": 6
+        }
+      ],
+      "filename": "IDFC_ApplicationEngineer_RitvikSharma.pdf",
+      "source_path": "2026/IDFC_2026/IDFC_ApplicationEngineer_RitvikSharma.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "content_sha256": "33cc8a50f0e09305c1107069e3f93e273b405093a326198f4c606348c7253311"
+    },
+    {
+      "experience_id": "idfc_2026-2026-7e05e72e-1",
+      "company": "IDFC_2026",
+      "company_id": "idfc_2026",
+      "year": "2026",
+      "role": "Application Engineer",
+      "rounds": [
+        {
+          "name": "Online Assesment",
+          "category": "Online Assessment",
+          "description": "This was conducted on the HirePro platform & duration was for 75mins. The test consisted of 3 sections, each with a time limit. The first section had 15 questions and was aptitude based wherein general questions on logical reasoning were asked. The second section had 25 technical questions based on Excel, CCN, OS, OOPs and Basic Statistics. The third section had 2 coding questions which were quite easy.",
+          "topics": [
+            {
+              "original": "aptitude",
+              "canonical": "Quantitative Aptitude",
+              "category": "Aptitude"
+            },
+            {
+              "original": "logical reasoning",
+              "canonical": "Logical Reasoning",
+              "category": "Aptitude"
+            },
+            {
+              "original": "Excel",
+              "canonical": "Excel",
+              "category": "Other"
+            },
+            {
+              "original": "CCN",
+              "canonical": "CCN",
+              "category": "Other"
+            },
+            {
+              "original": "OS",
+              "canonical": "Operating Systems",
+              "category": "Operating systems"
+            },
+            {
+              "original": "OOPs",
+              "canonical": "Object-Oriented Programming",
+              "category": "OOPs"
+            },
+            {
+              "original": "Basic Statistics",
+              "canonical": "Basic Statistics",
+              "category": "Other"
+            },
+            {
+              "original": "coding",
+              "canonical": "Coding",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "How many elements are correctly sorted. Correct place means Rightly indexed when seen from a Sorted perspective. Ex: 1 3 2 4 5 sorted is 1 2 3 4 5 1 and 4 are in the correct place , whereas 3 and 2 are not in the correct place. So the result would be 2, 3 Since 2 are incorrect and 3 are correct",
+              "kind": "coding",
+              "page": 1
+            },
+            {
+              "text": "Had to find the number of golden number in a given range where the golden number meant the sum of the digits of a number - max number = max number Ex: 325 is a golden number (3+2+5) - 5 = 5",
+              "kind": "coding",
+              "page": 1
+            }
+          ],
+          "difficulty": "easy",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Technical Round 1",
+          "category": "Technical Interview",
+          "description": "This round lasted for me around 45 mins to 1hr. I was the 1st person that was to be interviewed in my panel. It started with my introduction and then he directly jumped into a DSA problem it was related to cache so we had a buffer size of N and whenever we pushed an element it had a certain TTL (time_to_live) so suppose an element entered the buffer at 10:20 and its TTL was 2mins then at 10:23 it was supposed to be popped out of the cache and make room for other elements to enter. Initially i started with a hashmap solution but as soon as i started explaining i got the Priority Queue solution using heap here since my primary language was python he was checking my syntax or the function that i was mentioning with GFG and since in GFG the priority queue implementation was not the one using heap he started asking what is heap, heapify and balanced binary tree which i was able to explain it all. Then he started grilling me on GenAI and bit of ML since my entire resume was based on that",
+          "topics": [
+            {
+              "original": "DSA",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "cache",
+              "canonical": "Cache",
+              "category": "Other"
+            },
+            {
+              "original": "hashmap",
+              "canonical": "Hashing",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "Priority Queue",
+              "canonical": "Heaps",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "heap",
+              "canonical": "Heaps",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "heapify",
+              "canonical": "Heapify",
+              "category": "Other"
+            },
+            {
+              "original": "balanced binary tree",
+              "canonical": "Trees",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "GenAI",
+              "canonical": "GenAI",
+              "category": "Other"
+            },
+            {
+              "original": "ML",
+              "canonical": "ML",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "DSA problem it was related to cache so we had a buffer size of N and whenever we pushed an element it had a certain TTL (time_to_live) so suppose an element entered the buffer at 10:20 and its TTL was 2mins then at 10:23 it was supposed to be popped out of the cache and make room for other elements to enter.",
+              "kind": "coding",
+              "page": 1
+            },
+            {
+              "text": "what is heap, heapify and balanced binary tree",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Difference between GenAI and unsupervised learning (Generates new content and solely revolves around the input to find structure)",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "What is the output of unsupervised learning models (Clusters, Dimensionality Reduction)",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Architecture of GenAI (Input layer + Tokenization + Embedding + Transformer + Attention Mechanism+ Decoder/output generator)",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "How does its matches the user context and generates an appropriate content (Semantic Similarity)",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "What is RAG",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "In a glimpse explain what is prompt engineering",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Since i had explained RAG with the example of a medical chatbot he asked if a user prompts and says he cant concentrate in his work but the bot doesn't have any idea, as concentrate is not there in its DB then what will i do to give a proper response, initially i had said if at any point the bot cannot give a proper advice then i would have a default response wherein it will provide a general physician and he can take his concern forward with him but this wasn't what he had expected he said that the chatbot should ask few more questions on what he i feeling so that he can reach a conclusion and then provide a solution",
+              "kind": "technical",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            1,
+            2
+          ]
+        },
+        {
+          "name": "Technical Round 2",
+          "category": "Technical Interview",
+          "description": "This round lasted for around 40 mins for me. Here i didnt even feel i would get selected as the people who had went previous to me were all coming out demotivated since they were asked questions based on system design, AWS, CCN and i hadnt prepared in that terms at all but i was lucky since i was not asked such Qs",
+          "topics": [
+            {
+              "original": "DSA",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "data analytics",
+              "canonical": "Data Analytics",
+              "category": "Other"
+            },
+            {
+              "original": "SQL",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "Jupyter Notebook",
+              "canonical": "Jupyter Notebook",
+              "category": "Other"
+            },
+            {
+              "original": "PyCharm",
+              "canonical": "PyCharm",
+              "category": "Other"
+            },
+            {
+              "original": "IDEs",
+              "canonical": "IDEs",
+              "category": "Other"
+            },
+            {
+              "original": "OS",
+              "canonical": "Operating Systems",
+              "category": "Operating systems"
+            },
+            {
+              "original": "linux commands",
+              "canonical": "Linux Commands",
+              "category": "Other"
+            },
+            {
+              "original": "python",
+              "canonical": "Python",
+              "category": "Programming languages"
+            },
+            {
+              "original": "exception handling",
+              "canonical": "Exception Handling",
+              "category": "Other"
+            },
+            {
+              "original": "system design",
+              "canonical": "System Design",
+              "category": "System design"
+            },
+            {
+              "original": "AWS",
+              "canonical": "AWS",
+              "category": "Other"
+            },
+            {
+              "original": "CCN",
+              "canonical": "CCN",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "DSA : Valid Parenthesis",
+              "kind": "coding",
+              "page": 2
+            },
+            {
+              "text": "Asked me to explain one of my data analytics project it was dashboard based then asked few questions based on that",
+              "kind": "project",
+              "page": 2
+            },
+            {
+              "text": "Since I had SQL in my resume they asked me what kind of projects I have done. I explained one, then they asked few simple queries based on the project explained, they were based on aggregate, group by and one subquery related cant remember the exact questions but all of them was very easy.",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "What is Jupyter Notebook and why use it when you have PyCharm or other IDEs",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Then they asked which OS did i use since OS was mentioned in my resume (I had said windows on my personal laptop and it was ubuntu on college PC) so they started asking some linux commands and more related to that",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Since my primary language was python they asked few questions based on that like types of exception handling in python and revolved around that more",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "Then they gave me a usecase kinda question like suppose there would be finger scanner for storing many peoples data what all would be your approaches. This was kind of an open ended question they wanted to see my how i would approach it (Here i would say ask whatever question you can possibly ask, coz more than the answer they want to see what you think so i asked what kind of data will be stored they said 0s and 1s i instantly started thinking in terms of FOSIP though i couldnt think much but mentioned few of the things that i could remember like grayscaling image optimization, thresholding and RLE and as i kept answering i even asked do we need to even process on the storage part for that they said you may so i mentioned a bit about the server and load balancing since they had said millions of data will be there and so on to retrieve as and when needed so but this a gist there was a detailed conversation on this)",
+              "kind": "technical",
+              "page": 3
+            }
+          ],
+          "difficulty": "very easy",
+          "pages": [
+            2,
+            3
+          ]
+        },
+        {
+          "name": "HR",
+          "category": "HR Interview",
+          "description": "This round for me was only for around 20 mins since it was getting really late they had to finish it and take another round online but for starting 3 or 2 people they took it for almost 1 hr. Unlike other rounds this wasnt that restrictive it was pretty much chill and the HR was also kind and friendly. She started by asking me to introduce myself without any tech aspect and anything which is not there in my resume (So here i would say try speaking something which would be cool and might impress them so i spoke about my part in my schools kho kho team and about my bharatnatyam career)",
+          "topics": [],
+          "questions": [
+            {
+              "text": "introduce myself without any tech aspect and anything which is not there in my resume",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "Being a women if your idea didnt reach the higher management what would you do",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "Have you ever reached a meltingPoint, if yes then how did you deal with it",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "Why did you take CSE-AIML",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "A policy that you would want to be made compulsory by the company for all the women working",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "In 5 or 10 years where do you see yourself",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "few more women based situationship based question",
+              "kind": "hr",
+              "page": 3
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            3
+          ]
+        },
+        {
+          "name": "Technical (Online)",
+          "category": "Technical Interview",
+          "description": "So they decided to take another round online and this was again pretty much chill",
+          "topics": [
+            {
+              "original": "PowerBI",
+              "canonical": "PowerBI",
+              "category": "Other"
+            },
+            {
+              "original": "techs mentioned in resume",
+              "canonical": "Techs Mentioned In Resume",
+              "category": "Other"
+            },
+            {
+              "original": "fundamentals",
+              "canonical": "Fundamentals",
+              "category": "Other"
+            },
+            {
+              "original": "projects",
+              "canonical": "Projects",
+              "category": "Projects"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Introduce yourself",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "Why havent you done an internship",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "Was asked to explain one of my PowerBI project",
+              "kind": "project",
+              "page": 3
+            },
+            {
+              "text": "Then asked where was each of the techs mentioned was used in the 3 of the projects that was there in your resume",
+              "kind": "project",
+              "page": 3
+            },
+            {
+              "text": "Was all the mentioned fundamentals a part of your curriculum and if not which all",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "Timeline of my mentioned projects",
+              "kind": "project",
+              "page": 3
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            3
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "One thing i would advice is before asking your question first think properly if it is a proper question for your interviewer it would be kind of weird moment for you if he/she wont be able to answer.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "In all your interviewees keep on asking their name coz though it didnt happen for me but for few they had asked who had interviewed them before",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Be at your best behaviour and without realizing we end up doing those faces, like whenever we dont know an answer or even when we are definitely sure of an answer coz they do judge on basis of everything so keep a control on that as well.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Be well versed with your intro and the question to be asked be ready with that try to match it with your interest or the companies tech related, i always asked some question that was AI related or some projects where they were including AI or something like that so be prepared for that as well.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Whatever i had learnt i initially didnt make notes be it for my DSA or SQL or anything keep it ready so as soon as a company comes you then give time to prepare for researching about the company or anything extra you might need for preparing and not wasting on learning something which you had already did before.",
+          "category": "Technical preparation",
+          "page": 4
+        },
+        {
+          "text": "And for internship here i was able to give a reason but it might not be acceptable for many people i thought if its unpaid then i might not get to learn anything its not true, but for that sake dont even pay for those fake internship there you get to do only those projects which are available on the youtube you get no industrial level experience",
+          "category": "HR preparation",
+          "page": 4
+        },
+        {
+          "text": "Before your interview dont keep on mugging up things coz when you try to learn in the last moment you end up messing other things which you would be well versed with, so calm down listen to some music and just revise whatever you have learnt so far.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "And mainly i repeat dont get sad because you couldnt clear the interview ofc there you should have strong fundamentals but it also depends on luck too the only thing in your hand is to clear the OA the rest of the things you cant predict what happens next.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Keep practicing don't let your one failure mess up your other possible victory.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "stay calm if you have put in your efforts then there is definitely a good company waiting for you.",
+          "category": "Interview strategy",
+          "page": 5
+        }
+      ],
+      "resources": [
+        {
+          "title": "neetcode sheet",
+          "url": null,
+          "description": null,
+          "topic": "DSA",
+          "page": 4
+        },
+        {
+          "title": "striver",
+          "url": null,
+          "description": null,
+          "topic": "DSA",
+          "page": 4
+        },
+        {
+          "title": "leetcode 50",
+          "url": null,
+          "description": null,
+          "topic": "SQL",
+          "page": 4
+        },
+        {
+          "title": "Extra",
+          "url": "https://www.interviewbit.com/courses/databases/sql-queries/",
+          "description": null,
+          "topic": "SQL",
+          "page": 4
+        },
+        {
+          "title": "SQL Window Function | How to write SQL Query using RANK, DENSE RANK, LEAD/LAG | SQL …",
+          "url": null,
+          "description": "For Advance SQL",
+          "topic": "SQL",
+          "page": 4
+        },
+        {
+          "title": "50 Puzzles Commonly asked in HR Interviews",
+          "url": null,
+          "description": null,
+          "topic": "Puzzles",
+          "page": 5
+        },
+        {
+          "title": null,
+          "url": "https://www.geeksforgeeks.org/aptitude/puzzles/",
+          "description": "More detailed and contains many more wont advice you to complete it all",
+          "topic": "Puzzles",
+          "page": 5
+        },
+        {
+          "title": "Guesstimate Interview Question | Estimate Google Maps Storage | Technomanagers",
+          "url": null,
+          "description": "Not required for this role",
+          "topic": "Guesstimates",
+          "page": 5
+        },
+        {
+          "title": "What is JDK, JVM, JRE, javac, Byte code, JIT ? Complete Execution Process !",
+          "url": null,
+          "description": null,
+          "topic": "JAVA",
+          "page": 5
+        },
+        {
+          "title": null,
+          "url": "https://www.geeksforgeeks.org/java/output-of-java-program-set-4/",
+          "description": "For OA) similar look at the rest of the sets and also of CPP based on the OA questions",
+          "topic": "JAVA",
+          "page": 5
+        },
+        {
+          "title": null,
+          "url": "https://whimsical.com/5-aptitude-Ar4hZFm8c8HnuReyBL9f4R",
+          "description": "Contains all the links to indiabix and youtube videos necessary for clearing any logical, verbal reasoning kind of questions and it is more than enough",
+          "topic": "OA",
+          "page": 5
+        },
+        {
+          "title": null,
+          "url": "https://whimsical.com/object-oriented-programming-cheatsheet-by-love-babbar-YbSgLatbWQ4R5paV7EgqFw",
+          "description": "contains of both CPP and JAVA",
+          "topic": "OOPs",
+          "page": 5
+        },
+        {
+          "title": "chatgpt",
+          "url": null,
+          "description": null,
+          "topic": null,
+          "page": 5
+        }
+      ],
+      "filename": "IDFC_ApplicationEngineer_VaishnaviChettiar.pdf",
+      "source_path": "2026/IDFC_2026/IDFC_ApplicationEngineer_VaishnaviChettiar.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "content_sha256": "7e05e72e9e5d2a4a6c3a533702d9619bfdd3d8656946023e46d4f8f6d2a7e4ba"
+    },
+    {
+      "experience_id": "idfc_2026-2026-21c84726-1",
+      "company": "IDFC_2026",
+      "company_id": "idfc_2026",
+      "year": "2026",
+      "role": "Application Developer",
+      "rounds": [
+        {
+          "name": "Online Assessment",
+          "category": "Online Assessment",
+          "description": "The OA had a few sections: Logical Aptitude, Technical Questions, and a final DSA section. Each section had its own timer. It's all about being choosy and smart enough to identify which questions are the low-hanging fruit for you.",
+          "topics": [
+            {
+              "original": "Logical Aptitude",
+              "canonical": "Quantitative Aptitude",
+              "category": "Aptitude"
+            },
+            {
+              "original": "Technical Questions",
+              "canonical": "Technical Questions",
+              "category": "Other"
+            },
+            {
+              "original": "DSA",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Coding-Decoding Analogy: If “FADE” is “GBWR” then follow the same pattern for some “xyzw” type of string",
+              "kind": "aptitude",
+              "page": 2
+            },
+            {
+              "text": "Number Theory: how many pairs(a,b) are there wherein division of a/b is not an integer {1,2,3,4…16} something like this.",
+              "kind": "aptitude",
+              "page": 2
+            },
+            {
+              "text": "Logical Reasoning Passage:A big 3-4 questions passage (Some 6 people , given word-equations(ratio etc) of relations of their savings and salaries) and then follow up questions (easy but time consuming)",
+              "kind": "aptitude",
+              "page": 2
+            },
+            {
+              "text": "Statistics: Mean , Variance , Standard deviation , Coefficient of Variation type of questions.(Mean of 10 students is 3 , but then some student has mark correction and then find new mean)",
+              "kind": "aptitude",
+              "page": 2
+            },
+            {
+              "text": "Basic Probability types question (12 box , 3 has trap , so P(no trap))",
+              "kind": "aptitude",
+              "page": 2
+            },
+            {
+              "text": "Question like how many pair of letters are there for “HERITAGE” having as many letters as there in english alphabet series (something like this)",
+              "kind": "aptitude",
+              "page": 2
+            },
+            {
+              "text": "Profit % types question",
+              "kind": "aptitude",
+              "page": 2
+            },
+            {
+              "text": "Pipe-work time types question",
+              "kind": "aptitude",
+              "page": 2
+            },
+            {
+              "text": "Proper Loops (do-while etc) as a figure , and then interpret the figure and tell how many times is the code running.",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Some oops (basic) questions",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Standard OS,CCN,DBMS,SQL questions",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Port , Ping , Router , Queues , Quick sort , static keyword numerical , pointers numerical int arr[]= {10,20,30,40,50,60,70} then something like int *r=arr…. *r1=arr+2 …. *r2= arr+5… and then cout<< something related with r1, r2 etc",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Binary search tree array ={4,1,2,16,8,33,62,76} something like this , what is left child of root.",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Queue <int> of size 4, some position of front , rear pointers , removing 3 elements , and then MCQ based on the state of the queue.",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "2D matrix figure based manipulation question (flowchart based)",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Mysql type question (easy)",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "OOPS (conceptual easy question) of inheritance , output based , etc",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "One crazy question about OS of CISCO organization for switches",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Basic data structure type question (medium gate level question) : output based",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "How many times the flowchart’s loop is running.",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "How many elements are there which are in the correct place and not in the correct place. Correct place means Rightly indexed when seen from a Sorted perspective. (easy isn't it?) ex: 1 3 2 4 sorted is 1 2 3 4 1 and 4 are in the correct place , whereas 3 and 2 are not in the correct place.",
+              "kind": "coding",
+              "page": 3
+            },
+            {
+              "text": "Given int x, int y and then count special numbers from x and y. Special number means SUM(DIGITS) == 2*(highest digit). Easy??",
+              "kind": "coding",
+              "page": 3
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "name": "Technical Round 1",
+          "category": "Technical Interview",
+          "description": "Taken by 2 interviewers",
+          "topics": [
+            {
+              "original": "Projects",
+              "canonical": "Projects",
+              "category": "Projects"
+            },
+            {
+              "original": "Skills",
+              "canonical": "Skills",
+              "category": "Other"
+            },
+            {
+              "original": "Tech Stack",
+              "canonical": "Stacks and Queues",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "DSA",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "Bellman-ford algorithm",
+              "canonical": "Bellman-ford algorithm",
+              "category": "Other"
+            },
+            {
+              "original": "Cloud",
+              "canonical": "Cloud",
+              "category": "Other"
+            },
+            {
+              "original": "Proxy Server",
+              "canonical": "Proxy Server",
+              "category": "Other"
+            },
+            {
+              "original": "SQL",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "MongoDB",
+              "canonical": "MongoDB",
+              "category": "Other"
+            },
+            {
+              "original": "Abstraction",
+              "canonical": "Object-Oriented Programming",
+              "category": "OOPs"
+            },
+            {
+              "original": "Stack",
+              "canonical": "Stacks and Queues",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "Queue",
+              "canonical": "Stacks and Queues",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "Tree",
+              "canonical": "Trees",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "Graph",
+              "canonical": "Graphs",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "MySQL",
+              "canonical": "MySQL",
+              "category": "Other"
+            },
+            {
+              "original": "AIML",
+              "canonical": "AIML",
+              "category": "Other"
+            },
+            {
+              "original": "Random Forest",
+              "canonical": "Random Forest",
+              "category": "Other"
+            },
+            {
+              "original": "Logistic Regression",
+              "canonical": "Logistic Regression",
+              "category": "Other"
+            },
+            {
+              "original": "Pipelines",
+              "canonical": "Pipelines",
+              "category": "Other"
+            },
+            {
+              "original": "ML Model",
+              "canonical": "ML Model",
+              "category": "Other"
+            },
+            {
+              "original": "Indexing in Databases",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "Varchar",
+              "canonical": "Varchar",
+              "category": "Other"
+            },
+            {
+              "original": "Triggers in SQL",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "Python libraries",
+              "canonical": "Python",
+              "category": "Programming languages"
+            },
+            {
+              "original": "Docker",
+              "canonical": "Docker",
+              "category": "Other"
+            },
+            {
+              "original": "Kubernetes",
+              "canonical": "Kubernetes",
+              "category": "Other"
+            },
+            {
+              "original": "Trie with Bits",
+              "canonical": "Trie with Bits",
+              "category": "Other"
+            },
+            {
+              "original": "Maximum XOR",
+              "canonical": "Maximum XOR",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Introduce yourself",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "Was asked question on my projects",
+              "kind": "project",
+              "page": 3
+            },
+            {
+              "text": "Specify about Skills , Tech Stack that you have practiced",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "DSA Question (Revolving around Bellman-ford algorithm)",
+              "kind": "coding",
+              "page": 3
+            },
+            {
+              "text": "What is a cloud? Proxy Server?",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "SQL vs Mongodb , which I have used in the project ? Why? Why not?",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "Real word Application for Abstraction , Stack , Queue and Tree and Graph",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "Port number of Mysql",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "Heavy discussion on my projects (AIML based) (Maths behind Random Forest , Logistic Regression). Focus on Pipelines and Flow of building an ML Model (decide , Train , test , tune etc etc)",
+              "kind": "project",
+              "page": 3
+            },
+            {
+              "text": "Indexing in Databases",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "Varchar in SQL , why varchar ? How to change the Varchar (LENGTH) once the table is already created.",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "Triggers in SQL",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "Library in Python which I have used (numpy , nltk , pandas , sci-kit ,openCV)",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "Docker ? Kubernetes (I didn't know Kubernetes Technicality)",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "Was Asked about my approach to the latest DSA problem which I had solved (it was about Trie with Bits and finding the Maximum XOR )",
+              "kind": "coding",
+              "page": 4
+            },
+            {
+              "text": "Final question for the interviewer?",
+              "kind": "hr",
+              "page": 4
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            3,
+            4
+          ]
+        },
+        {
+          "name": "Technical Round 2",
+          "category": "Technical Interview",
+          "description": "Taken by 2 interviewers",
+          "topics": [
+            {
+              "original": "DSA",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "Binary search",
+              "canonical": "Sorting and Searching",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "Indexing in Database",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "SQL query optimization",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "Projects",
+              "canonical": "Projects",
+              "category": "Projects"
+            },
+            {
+              "original": "OOPS",
+              "canonical": "Object-Oriented Programming",
+              "category": "OOPs"
+            },
+            {
+              "original": "Compile-time polymorphism",
+              "canonical": "Object-Oriented Programming",
+              "category": "OOPs"
+            },
+            {
+              "original": "run-time polymorphism",
+              "canonical": "Object-Oriented Programming",
+              "category": "OOPs"
+            },
+            {
+              "original": "overloading",
+              "canonical": "Overloading",
+              "category": "Other"
+            },
+            {
+              "original": "overriding",
+              "canonical": "Overriding",
+              "category": "Other"
+            },
+            {
+              "original": "constructor",
+              "canonical": "Constructor",
+              "category": "Other"
+            },
+            {
+              "original": "public",
+              "canonical": "Public",
+              "category": "Other"
+            },
+            {
+              "original": "private",
+              "canonical": "Private",
+              "category": "Other"
+            },
+            {
+              "original": "inheritance",
+              "canonical": "Object-Oriented Programming",
+              "category": "OOPs"
+            },
+            {
+              "original": "Abstraction",
+              "canonical": "Object-Oriented Programming",
+              "category": "OOPs"
+            },
+            {
+              "original": "encapsulation",
+              "canonical": "Object-Oriented Programming",
+              "category": "OOPs"
+            },
+            {
+              "original": "LLD design",
+              "canonical": "System Design",
+              "category": "System design"
+            },
+            {
+              "original": "Bank system",
+              "canonical": "Bank system",
+              "category": "Other"
+            },
+            {
+              "original": "classes",
+              "canonical": "Classes",
+              "category": "Other"
+            },
+            {
+              "original": "interfaces",
+              "canonical": "Interfaces",
+              "category": "Other"
+            },
+            {
+              "original": "controller",
+              "canonical": "Controller",
+              "category": "Other"
+            },
+            {
+              "original": "methods",
+              "canonical": "Methods",
+              "category": "Other"
+            },
+            {
+              "original": "clean code",
+              "canonical": "Clean Code",
+              "category": "Other"
+            },
+            {
+              "original": "RBI class",
+              "canonical": "RBI class",
+              "category": "Other"
+            },
+            {
+              "original": "IDFC bank",
+              "canonical": "IDFC bank",
+              "category": "Other"
+            },
+            {
+              "original": "SBI bank",
+              "canonical": "SBI bank",
+              "category": "Other"
+            },
+            {
+              "original": "Protocols",
+              "canonical": "Protocols",
+              "category": "Other"
+            },
+            {
+              "original": "headers",
+              "canonical": "Headers",
+              "category": "Other"
+            },
+            {
+              "original": "packets",
+              "canonical": "Packets",
+              "category": "Other"
+            },
+            {
+              "original": "CCN",
+              "canonical": "CCN",
+              "category": "Other"
+            },
+            {
+              "original": "keys",
+              "canonical": "Keys",
+              "category": "Other"
+            },
+            {
+              "original": "normalization",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "MongoDB",
+              "canonical": "MongoDB",
+              "category": "Other"
+            },
+            {
+              "original": "Trigger (After Insert)",
+              "canonical": "Trigger (After Insert)",
+              "category": "Other"
+            },
+            {
+              "original": "Stored Procedures",
+              "canonical": "Stored Procedures",
+              "category": "Other"
+            },
+            {
+              "original": "HSS-Psychology course",
+              "canonical": "HSS-Psychology course",
+              "category": "Other"
+            },
+            {
+              "original": "Data analytics",
+              "canonical": "Data analytics",
+              "category": "Other"
+            },
+            {
+              "original": "QGIS",
+              "canonical": "QGIS",
+              "category": "Other"
+            },
+            {
+              "original": "Hackathon experience",
+              "canonical": "Hackathon experience",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Introduce yourself",
+              "kind": "hr",
+              "page": 4
+            },
+            {
+              "text": "One DSA code to be written on an online compiler. Mine was an easy question: Find peak element in an (increasing and then decreasing type) of array (Binary search) , just ask a clarifying question , what if n==1?==2? and then what if len(decreasing part)==0?",
+              "kind": "coding",
+              "page": 4
+            },
+            {
+              "text": "Indexing in Database (but advanced level)",
+              "kind": "technical",
+              "page": 4
+            },
+            {
+              "text": "SQL query optimization, I was asked to first tell Select * from table with name like “T%” and then to optimize this query. (even if you don't know , just try to deliver a valid logic)",
+              "kind": "technical",
+              "page": 4
+            },
+            {
+              "text": "Again Applicability for all projects, WHY this ? WHY not that?",
+              "kind": "project",
+              "page": 4
+            },
+            {
+              "text": "OOPS: Compile-time and run-time polymorphism (overloading , overriding ,constructor , public , private , inheritance , Abstraction , encapsulation ) All these in real-life",
+              "kind": "technical",
+              "page": 4
+            },
+            {
+              "text": "LLD design for Bank system , make classes , interfaces , controller(if you don't know , then study it beforehand) , methods , etc , clean code for RBI class (parent class) and then subclasses like IDFC bank , SBI bank etc , and each having some rules, compliance rules, seniorcitizen_Age etc , revolving around inheritance etc.",
+              "kind": "technical",
+              "page": 4
+            },
+            {
+              "text": "What happens when you type a message in whatsapp to your friend? what happens when you click on “send message” button.",
+              "kind": "technical",
+              "page": 4
+            },
+            {
+              "text": "How do you think messages travel from your phone to your friends phone? Protocols, headers , packets , trivial CCN stuff.",
+              "kind": "technical",
+              "page": 5
+            },
+            {
+              "text": "What are keys , why keys , normalization , MongoDB familiarity?",
+              "kind": "technical",
+              "page": 5
+            },
+            {
+              "text": "Code for Trigger (After Insert) , just insert the curTime in logs",
+              "kind": "coding",
+              "page": 5
+            },
+            {
+              "text": "Was asked about familiarity with Stored Procedures",
+              "kind": "technical",
+              "page": 5
+            },
+            {
+              "text": "Asked about HSS-Psychology course",
+              "kind": "other",
+              "page": 5
+            },
+            {
+              "text": "Was asked about Data analytics and my QGIS findings of land cover change",
+              "kind": "project",
+              "page": 5
+            },
+            {
+              "text": "Was asked about my (Airavat,Flipkart grid) Hackathon experience , projects etc",
+              "kind": "project",
+              "page": 5
+            },
+            {
+              "text": "Final question for interviewers?",
+              "kind": "hr",
+              "page": 5
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            4,
+            5
+          ]
+        },
+        {
+          "name": "HR Round",
+          "category": "HR Interview",
+          "description": "This was a fairly relaxed round, and the HR representative was very friendly and made me feel comfortable.",
+          "topics": [],
+          "questions": [
+            {
+              "text": "Something cool about me which I have not written on resume (I told about my love for chess)",
+              "kind": "hr",
+              "page": 5
+            },
+            {
+              "text": "Why do you want to join IDFC bank ? (Reality: Along with coding , I could know about ITR, finance , economics , equity , IPO , banking sector etc.)",
+              "kind": "hr",
+              "page": 5
+            },
+            {
+              "text": "Dream company apart from IDFC bank? (I told about my love for space , stars and ISRO)",
+              "kind": "hr",
+              "page": 5
+            },
+            {
+              "text": "How do you deal with rejections (on-campus 8 times )?",
+              "kind": "hr",
+              "page": 5
+            },
+            {
+              "text": "What if I wasn't selected today also? (Grind for the best opportunity)",
+              "kind": "hr",
+              "page": 5
+            },
+            {
+              "text": "Any creative Application ideas for HR? (I first bulleted the answer but she told me to think again and come up with a brilliant idea, so i presented my idea for emotion-detection-AI powered priority wise scheduler chatbot/employee-HR relation management site with color coding feature ). She was really impressed by this idea thought in a shorter timespan. Like she told me such an application is being used by her and that this idea was amazing.",
+              "kind": "hr",
+              "page": 5
+            },
+            {
+              "text": "Where do I live ? What do I do in my travel time to college?",
+              "kind": "hr",
+              "page": 5
+            },
+            {
+              "text": "Some behavioral question and that’s it",
+              "kind": "hr",
+              "page": 5
+            },
+            {
+              "text": "Any final question for her :- I asked her about the Location for internship and then placement, She told that bootcamp may be in Banglore and then Joining for placement maybe in Mumbai.(most likely)",
+              "kind": "hr",
+              "page": 5
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            5
+          ]
+        },
+        {
+          "name": "Business Round",
+          "category": "Technical Interview",
+          "description": "Taken by 1 interviewer. It was an online round on Teams. My interviewer was a senior architect. He was really very chill and made me feel comfortable even after facing some technical issues (wifi problem at 8:05 pm).",
+          "topics": [
+            {
+              "original": "Resume",
+              "canonical": "Resume",
+              "category": "Other"
+            },
+            {
+              "original": "skills",
+              "canonical": "Skills",
+              "category": "Other"
+            },
+            {
+              "original": "projects",
+              "canonical": "Projects",
+              "category": "Projects"
+            },
+            {
+              "original": "architecture",
+              "canonical": "Architecture",
+              "category": "Other"
+            },
+            {
+              "original": "mathematics behind projects",
+              "canonical": "Projects",
+              "category": "Projects"
+            },
+            {
+              "original": "online transactions on mobile without internet",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Hey Tushar , Introduce yourself",
+              "kind": "hr",
+              "page": 6
+            },
+            {
+              "text": "Discussed about my projects (the one with the most impact driven cause to be discussed along with full flow , architecture , why this and why not that , the mathematics behind this-that , the impact it is having)",
+              "kind": "project",
+              "page": 6
+            },
+            {
+              "text": "Final questions for him?",
+              "kind": "hr",
+              "page": 6
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            6
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "Be calm",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "Manage time smartly",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "Attack on low-hanging fruits first",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "Attempt questions which you are familiar first",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "Learn to leave lengthy questions",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "Don't get zoned out , every 1 minute has the same value :)",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "Never give up while giving interview",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Even if you don't know, try to struggle with the question , tell the interviewers about your perspective, they are really interested more on how you think about approaching a problem , if you succeed in this way then this is really impressive",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Sometimes you may even get a question that “hey AIML project is all about templates etc ”, that’s where you must say that while making a project it is also about proper lifecycle of development and building model , which task? Which model? Why this? Why not that etc ?",
+          "category": "Project preparation",
+          "page": 4
+        },
+        {
+          "text": "Never say anything negative , it may backfire you during the interview.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Don't break down,if your interviewer is an expert in a field like (cloud computing) and you have zero idea on that field , just be real-self.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Try to maintain a good CGPA , Mine was 9.86/10 which was quite impressive (in all 4 rounds)",
+          "category": "Interview strategy",
+          "page": 6
+        },
+        {
+          "text": "Never say that I don't know , Try to understand any question , ask clarifying doubts and Try to connect the dots (It will really have a good impressive ,trust me)",
+          "category": "Interview strategy",
+          "page": 6
+        },
+        {
+          "text": "Before your placement season starts , even if you code in X language(cpp) , learn about oops in Y (java) , Know about LLD , HLD also (system design).",
+          "category": "Technical preparation",
+          "page": 6
+        },
+        {
+          "text": "Instead of depending on short notes for DBMS, CCN, OS etc , Study from standard Books (foreign authors like Korth , Navathe , Kurose , Tanenbaum or refer GATE lectures on YT ). Trust me it will really make you unique.",
+          "category": "Technical preparation",
+          "page": 6
+        },
+        {
+          "text": "If given a chance to be back in time , I would focus on real time deployment , Cloud , Ports (Socket programming) and docker+kubernetes.",
+          "category": "Technical preparation",
+          "page": 7
+        },
+        {
+          "text": "SQL QUESTIONS for Interviews (Do both Databases) just like Leetcode , Trust me you’ll like it , It has solutions section also.",
+          "category": "Technical preparation",
+          "page": 7
+        },
+        {
+          "text": "Friendship with Language if you haven’t done DSA ever",
+          "category": "Coding preparation",
+          "page": 7
+        },
+        {
+          "text": "Conceptual Clarity? if you know about your programming language.",
+          "category": "Technical preparation",
+          "page": 7
+        },
+        {
+          "text": "If you know the drill of DSA : then Give Biweekly and weekly Leetcode contests, Never go for ratings, Never solve daily questions just for FOMO or BADGES , be real and truthful atleast with yourself.",
+          "category": "Coding preparation",
+          "page": 7
+        },
+        {
+          "text": "JAVA and OOPS if you really want to answer with confident in interviews",
+          "category": "Technical preparation",
+          "page": 7
+        },
+        {
+          "text": "If you want to crack your interview in one go ,(Study different System) : LLD Start with Snakes and Ladder and increase the complexity. Know about classes, interfaces , Getter , Setter, Constructor , extends , implements. Show modularity of code , try to write clean code and congrats you will never be rejected.",
+          "category": "Technical preparation",
+          "page": 7
+        },
+        {
+          "text": "I have seen people doing Striver sheet etc , you may do it for DSA in your First year or second year.",
+          "category": "Coding preparation",
+          "page": 7
+        },
+        {
+          "text": "Make sure to check Puzzles , as you may encounter them (sometimes)",
+          "category": "Interview strategy",
+          "page": 7
+        },
+        {
+          "text": "It’s never late !?… Set time t=0 , and Start having “ honest consistency “ , GFG problem of the day? or Leetcode daily challenges (Or do daily problems but have a delay of 2 months like if today is 1 August 2025 , then solve the daily challenge problem of 1 June 2025).",
+          "category": "Coding preparation",
+          "page": 8
+        },
+        {
+          "text": "Write code on pen-paper, Dry run , Draw recursive trees for DP. Follow one thing with full stewardship. Don't watch youtube lectures blindly.",
+          "category": "Coding preparation",
+          "page": 8
+        }
+      ],
+      "resources": [
+        {
+          "title": "Korth-Navathe",
+          "url": null,
+          "description": null,
+          "topic": "DBMS",
+          "page": 7
+        },
+        {
+          "title": "Jim Kurose",
+          "url": null,
+          "description": null,
+          "topic": "CCN",
+          "page": 7
+        },
+        {
+          "title": "Silberschatz",
+          "url": null,
+          "description": null,
+          "topic": "OS",
+          "page": 7
+        },
+        {
+          "title": "Tanenbaum",
+          "url": null,
+          "description": "Basic understanding for HLD",
+          "topic": "distributed systems",
+          "page": 7
+        },
+        {
+          "title": "GATE lectures",
+          "url": null,
+          "description": null,
+          "topic": null,
+          "page": 6
+        },
+        {
+          "title": "Leetcode",
+          "url": null,
+          "description": null,
+          "topic": "SQL",
+          "page": 7
+        },
+        {
+          "title": "Leetcode contests",
+          "url": null,
+          "description": null,
+          "topic": "DSA",
+          "page": 7
+        },
+        {
+          "title": "Striver sheet",
+          "url": null,
+          "description": null,
+          "topic": "DSA",
+          "page": 7
+        },
+        {
+          "title": "GFG problem of the day",
+          "url": null,
+          "description": null,
+          "topic": null,
+          "page": 8
+        },
+        {
+          "title": "Leetcode daily challenges",
+          "url": null,
+          "description": null,
+          "topic": null,
+          "page": 8
+        },
+        {
+          "title": "My LinkedIn",
+          "url": null,
+          "description": null,
+          "topic": null,
+          "page": 8
+        }
+      ],
+      "filename": "IDFC_TusharRaja_ApplicationEngineer.pdf",
+      "source_path": "2026/IDFC_2026/IDFC_TusharRaja_ApplicationEngineer.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "content_sha256": "21c847261cc5f8c9261409d5b75928cda1cb38800fdf1c3b47df9d4f487ef51f"
     }
   ]
 }

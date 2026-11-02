@@ -132,6 +132,40 @@ def card(title: str, body: str) -> None:
 def md_safe(text: str) -> str:
     return text.replace("`", "'")
 
+def canonical_role(role: str | None) -> str:
+    """Normalize common title variants into role families across every company."""
+    raw = (role or "").strip()
+    name = re.sub(r"[^a-z0-9]+", " ", raw.lower()).strip()
+    if not name or name == "role not mentioned":
+        return "Role not mentioned"
+
+    if re.search(r"\b(?:aladdin|alladin)\b", name) and re.search(r"\bdata\b", name):
+        return "Aladdin Data"
+    if "global marketing" in name:
+        return "Global Marketing"
+
+    # Normalize equivalent software development titles, seniority labels, and specializations.
+    if re.search(r"\b(?:sde|swe)\b", name) or (
+        re.search(r"\bsoftware\b", name)
+        and re.search(r"\b(?:engineer|engineering|developer|development)\b", name)
+    ):
+        return "Software Engineer"
+    if re.search(r"\bapplication\b", name) and re.search(r"\b(?:engineer|developer)\b", name):
+        return "Application Engineer"
+    if re.search(r"\bdigital technology\b", name):
+        return "Digital Technology Intern" if re.search(r"\b(?:intern|internship|dti)\b", name) else "Digital Technology"
+    if re.search(r"\bassociate product manager\b", name):
+        return "Associate Product Manager"
+    if re.search(r"\bsummer intern(?:ship)?\b", name) or name in {"intern", "internship"}:
+        return "Intern"
+
+    # Drop common level/employment suffixes while retaining the functional title.
+    name = re.sub(r"\b(?:internship|intern|graduate|trainee|entry level|junior|senior)\b", " ", name)
+    name = re.sub(r"\b(?:level )?\d+[a-z]?\b", " ", name)
+    name = re.sub(r"\s+", " ", name).strip()
+    return name.title() if name else "Role not mentioned"
+
+
 def description_points(text: str) -> list[str]:
     """Turn an extracted round narrative into readable sentence-level bullets."""
     cleaned = " ".join((text or "").split())
@@ -281,85 +315,92 @@ with tab_rounds:
     else:
         st.markdown('<div class="cp-note">Quick view of the rounds and questions candidates reported. Difficulty is shown only when it was stated in the source.</div>', unsafe_allow_html=True)
         experiences = sorted(exps, key=lambda x: (x.year, x.filename), reverse=True)
-        for idx, e in enumerate(experiences):
-            role = e.role or "Role not mentioned"
-            label = f"{role} · {e.filename} · {len(e.rounds)} round{'s' if len(e.rounds) != 1 else ''}"
-            with st.expander(label, expanded=(idx == 0)):
-                if not e.rounds:
-                    st.caption("No interview rounds were extracted from this experience.")
-                for r in e.rounds:
-                    with st.container(border=True):
-                        st.markdown(f"#### {md_safe(r.name)}")
-                        topics = list(dict.fromkeys(t.canonical for t in r.topics))
-                        questions = r.questions
-                        duration = round_duration(r.description)
-                        difficulty = round_difficulty(r)
-                        metric_rows = [("Duration", duration or "Not stated"),
-                                       ("Difficulty", difficulty or "Not stated"),
-                                       ("Focus areas", str(len(topics))),
-                                       ("Questions reported", str(len(questions)))]
-                        stat_cards = "".join(
-                            f'<div class="cp-round-stat"><div class="cp-round-stat-label">{html.escape(label)}</div>'
-                            f'<div class="cp-round-stat-value">{html.escape(value)}</div></div>'
-                            for label, value in metric_rows
-                        )
-                        st.markdown(f'<div class="cp-round-stats">{stat_cards}</div>', unsafe_allow_html=True)
-                        topic_summary = ", ".join(topics[:8]) if topics else "no specific topics were listed"
-                        if len(topics) > 8:
-                            topic_summary += f" and {len(topics) - 8} more"
-                        duration_text = f"lasted {duration}" if duration else "has no stated duration"
-                        st.markdown(f"**Round insight:** This {r.category.lower()} round {duration_text} and covered {md_safe(topic_summary)}. The record includes {len(questions)} reported question{'s' if len(questions) != 1 else ''}.")
+        role_groups = {}
+        for experience in experiences:
+            role_groups.setdefault(canonical_role(experience.role), []).append(experience)
+        for role_index, role_name in enumerate(sorted(role_groups)):
+            role_experiences = role_groups[role_name]
+            total_rounds = sum(len(experience.rounds) for experience in role_experiences)
+            st.markdown(f"### {html.escape(role_name)}")
+            st.caption(f"{len(role_experiences)} candidate experience{'s' if len(role_experiences) != 1 else ''} · {total_rounds} reported rounds")
+            for experience_index, e in enumerate(role_experiences):
+                label = f"{e.filename} · {len(e.rounds)} round{'s' if len(e.rounds) != 1 else ''}"
+                with st.expander(label, expanded=(role_index == 0 and experience_index == 0)):
+                    if not e.rounds:
+                        st.caption("No interview rounds were extracted from this experience.")
+                    for r in e.rounds:
+                        with st.container(border=True):
+                            st.markdown(f"#### {md_safe(r.name)}")
+                            topics = list(dict.fromkeys(t.canonical for t in r.topics))
+                            questions = r.questions
+                            duration = round_duration(r.description)
+                            difficulty = round_difficulty(r)
+                            metric_rows = [("Duration", duration or "Not stated"),
+                                           ("Difficulty", difficulty or "Not stated"),
+                                           ("Focus areas", str(len(topics))),
+                                           ("Questions reported", str(len(questions)))]
+                            stat_cards = "".join(
+                                f'<div class="cp-round-stat"><div class="cp-round-stat-label">{html.escape(label)}</div>'
+                                f'<div class="cp-round-stat-value">{html.escape(value)}</div></div>'
+                                for label, value in metric_rows
+                            )
+                            st.markdown(f'<div class="cp-round-stats">{stat_cards}</div>', unsafe_allow_html=True)
+                            topic_summary = ", ".join(topics[:8]) if topics else "no specific topics were listed"
+                            if len(topics) > 8:
+                                topic_summary += f" and {len(topics) - 8} more"
+                            duration_text = f"lasted {duration}" if duration else "has no stated duration"
+                            st.markdown(f"**Round insight:** This {r.category.lower()} round {duration_text} and covered {md_safe(topic_summary)}. The record includes {len(questions)} reported question{'s' if len(questions) != 1 else ''}.")
 
-                        format_facts = assessment_format(r)
-                        sections = assessment_sections(r)
-                        if sections:
-                            st.markdown("**Assessment sections**  ")
-                            st.markdown(" · ".join(f"**{section}**" for section in sections))
-                        if format_facts:
-                            st.markdown("**Assessment format and rules**")
-                            for fact in format_facts:
-                                st.markdown(f"- {md_safe(fact)}")
-                        outcomes = assessment_outcomes(r)
-                        if outcomes:
-                            st.markdown("**Candidate-reported attempt**")
-                            for outcome in outcomes:
-                                st.markdown(f"- {md_safe(outcome)}")
+                            format_facts = assessment_format(r)
+                            sections = assessment_sections(r)
+                            if sections:
+                                st.markdown("**Assessment sections**  ")
+                                st.markdown(" · ".join(f"**{section}**" for section in sections))
+                            if format_facts:
+                                st.markdown("**Assessment format and rules**")
+                                for fact in format_facts:
+                                    st.markdown(f"- {md_safe(fact)}")
+                            outcomes = assessment_outcomes(r)
+                            if outcomes:
+                                st.markdown("**Candidate-reported attempt**")
+                                for outcome in outcomes:
+                                    st.markdown(f"- {md_safe(outcome)}")
 
-                        topic_groups = {}
-                        for topic in r.topics:
-                            topic_groups.setdefault(topic.category or "Other", [])
-                            if topic.canonical not in topic_groups[topic.category or "Other"]:
-                                topic_groups[topic.category or "Other"].append(topic.canonical)
-                        if topic_groups:
-                            st.markdown("**Topics covered by area**")
-                            for area, names in topic_groups.items():
-                                st.markdown(f"- **{md_safe(area)}:** {', '.join(md_safe(name) for name in names)}")
+                            topic_groups = {}
+                            for topic in r.topics:
+                                topic_groups.setdefault(topic.category or "Other", [])
+                                if topic.canonical not in topic_groups[topic.category or "Other"]:
+                                    topic_groups[topic.category or "Other"].append(topic.canonical)
+                            if topic_groups:
+                                st.markdown("**Topics covered by area**")
+                                for area, names in topic_groups.items():
+                                    st.markdown(f"- **{md_safe(area)}:** {', '.join(md_safe(name) for name in names)}")
 
-                        kind_counts = {}
-                        for question in questions:
-                            kind = (question.kind or "other").replace("_", " ").title()
-                            kind_counts[kind] = kind_counts.get(kind, 0) + 1
-                        if kind_counts:
-                            mix = " · ".join(f"{kind}: {count}" for kind, count in kind_counts.items())
-                            st.caption(f"Question mix · {mix}")
+                            kind_counts = {}
+                            for question in questions:
+                                kind = (question.kind or "other").replace("_", " ").title()
+                                kind_counts[kind] = kind_counts.get(kind, 0) + 1
+                            if kind_counts:
+                                mix = " · ".join(f"{kind}: {count}" for kind, count in kind_counts.items())
+                                st.caption(f"Question mix · {mix}")
 
-                        if r.description:
-                            with st.expander("Read the candidate's full account"):
-                                st.write(r.description)
-                        if questions:
-                            st.markdown("**Reported questions**")
-                            for q in questions[:5]:
-                                st.markdown(f"- {md_safe(q.text)}")
-                                st.caption(dash.src(e.filename, q.page))
-                            if len(questions) > 5:
-                                with st.expander(f"Show {len(questions) - 5} more reported questions"):
-                                    for q in questions[5:]:
-                                        st.markdown(f"- {md_safe(q.text)}")
-                                        st.caption(dash.src(e.filename, q.page))
-                        else:
-                            st.caption("No specific questions were extracted for this round.")
-                        pages = ", ".join(map(str, r.pages)) or "not listed"
-                        st.caption(f"Source: {e.filename} · pages {pages}")
+                            if r.description:
+                                with st.expander("Read the candidate's full account"):
+                                    st.write(r.description)
+                            if questions:
+                                st.markdown("**Reported questions**")
+                                for q in questions[:5]:
+                                    st.markdown(f"- {md_safe(q.text)}")
+                                    st.caption(dash.src(e.filename, q.page))
+                                if len(questions) > 5:
+                                    with st.expander(f"Show {len(questions) - 5} more reported questions"):
+                                        for q in questions[5:]:
+                                            st.markdown(f"- {md_safe(q.text)}")
+                                            st.caption(dash.src(e.filename, q.page))
+                            else:
+                                st.caption("No specific questions were extracted for this round.")
+                            pages = ", ".join(map(str, r.pages)) or "not listed"
+                            st.caption(f"Source: {e.filename} · pages {pages}")
 
 # ------------------------------------------------------------------------------------ topics
 with tab_topics:
