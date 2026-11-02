@@ -1100,12 +1100,13 @@
       "pages": 3,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793394281.2721705,
+      "processed_at": 1793655526.770266,
       "text_sha256": "6c827b084a994ab603290f5359858dbab196da193035892ca86fb5f728d4d904",
       "status": "indexed",
       "chunks": 9,
       "insights": false,
-      "experiences": 0
+      "experiences": 0,
+      "insights_error": "structured extraction failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m34ktp7dehwajs9h9xxjwwy8` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199246, Requested 2789. Please try again in 14m39.12s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
     },
     "2026/JPMC_2026/CIB - AtharvaDahegaonkar (2).pdf": {
       "sha256": "6359e680155917ce45d16e33121f847c1a40b405e8cc5cfe2b7f0d0cc3472a7a",
@@ -1116,12 +1117,13 @@
       "pages": 3,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793394283.0032296,
+      "processed_at": 1793655572.0486703,
       "text_sha256": "47f6456dffe734f4bbb554dd3cf36424bac729e25483063bcbdf8bf73a5a6c14",
       "status": "indexed",
       "chunks": 10,
       "insights": false,
-      "experiences": 0
+      "experiences": 0,
+      "insights_error": "structured extraction failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m34ktp7dehwajs9h9xxjwwy8` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199141, Requested 2951. Please try again in 15m3.744s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
     },
     "2026/KPMG_2026/KPMG_Digital-enablement_Amogh Mathpati.pdf": {
       "sha256": "46b5f412b06e75b8e54a8e6fea0564103e77dc95036f9a8ae663e1f9ba506dc4",
@@ -1132,12 +1134,13 @@
       "pages": 3,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793394285.2568605,
+      "processed_at": 1793655617.6472995,
       "text_sha256": "7e54f39dac7ee4a7f91bb46bb4333d6b2ed14b59d4b75633ba0a0c8e4ece3dbe",
       "status": "indexed",
       "chunks": 10,
       "insights": false,
-      "experiences": 0
+      "experiences": 0,
+      "insights_error": "structured extraction failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m34ktp7dehwajs9h9xxjwwy8` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199035, Requested 2508. Please try again in 11m6.576s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
     },
     "2026/KPMG_2026/KPMG_Digital_Tech_Enablemnet_Parnika_Das.pdf": {
       "sha256": "620f6a18cdf30c4016265859bb4fc7311620279cf583a422febd355bcd3fcd5d",
@@ -1148,12 +1151,13 @@
       "pages": 5,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793394287.042493,
+      "processed_at": 1793655662.9204059,
       "text_sha256": "8130b011c513ff4d767d2677208261873470db084436c63dc325ebf99d1c34ea",
       "status": "indexed",
       "chunks": 20,
       "insights": false,
-      "experiences": 0
+      "experiences": 0,
+      "insights_error": "structured extraction failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m34ktp7dehwajs9h9xxjwwy8` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198930, Requested 3856. Please try again in 20m3.552s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
     },
     "2026/Mahindra_Finance_2026/Akshata_MahindraFinance_CT.pdf": {
       "sha256": "f1f7e153e18cf85b91169f091afb1c85f29f7d621699c2a7e0fcda8c6171c0b2",
@@ -1164,12 +1168,13 @@
       "pages": 4,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793394288.911194,
+      "processed_at": 1793655708.231303,
       "text_sha256": "6110c552b31c8d0fecf144d6f6005fc75097a729c5278039ac8ec42390eaba91",
       "status": "indexed",
       "chunks": 23,
       "insights": false,
-      "experiences": 0
+      "experiences": 0,
+      "insights_error": "structured extraction failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m34ktp7dehwajs9h9xxjwwy8` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198825, Requested 4132. Please try again in 21m17.424s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
     },
     "2026/Mahindra_Finance_2026/kanishka_mahindra_finance_experience.pdf": {
       "sha256": "10ade4522ec57fe3e01bf5cbad1aae3a6e3b19d832cc6383de336ce0c35c6c4c",

@@ -66,6 +66,13 @@ div[data-testid="stDataFrame"] {border:1px solid #e3e9f2;border-radius:12px;over
 .cp-resource-title {color:#19375e;font-size:1rem;font-weight:750;line-height:1.4;}
 .cp-resource-description {color:#52647d;font-size:.88rem;line-height:1.55;margin-top:.35rem;}
 .cp-resource-source {color:#718096;font-size:.76rem;margin-top:.65rem;padding-top:.55rem;border-top:1px solid #edf1f6;}
+
+.cp-top-topic {display:grid;grid-template-columns:2rem minmax(0,1fr) auto;align-items:center;gap:.8rem;background:#fff;border:1px solid #e4eaf2;border-radius:13px;padding:.8rem 1rem;margin:.45rem 0;box-shadow:0 3px 12px rgba(23,32,51,.025);}
+.cp-top-topic-rank {display:grid;place-items:center;width:1.8rem;height:1.8rem;border-radius:9px;background:#eaf1fc;color:#28588f;font-size:.82rem;font-weight:750;}
+.cp-top-topic-name {color:#203a5d;font-size:1rem;font-weight:700;}
+.cp-top-topic-count {color:#64748b;font-size:.82rem;font-weight:650;white-space:nowrap;}
+.cp-top-topic-track {height:5px;border-radius:999px;background:#edf1f6;margin-top:.45rem;overflow:hidden;}
+.cp-top-topic-fill {height:100%;border-radius:999px;background:linear-gradient(90deg,#3478c8,#75a7e6);}
 .cp-topic-group {background:#fff;border:1px solid #e2e9f2;border-radius:14px;padding:.9rem 1rem;margin:.45rem 0;box-shadow:0 3px 12px rgba(23,32,51,.025);}
 .cp-topic-group-title {font-size:1rem;font-weight:750;color:#19375e;margin-bottom:.55rem;}
 .cp-topic-item {display:flex;justify-content:space-between;gap:.6rem;align-items:center;padding:.38rem 0;border-bottom:1px solid #f0f3f7;color:#33445c;font-size:.9rem;}
@@ -337,63 +344,25 @@ with tab_topics:
     if not exps:
         st.write("No structured topics available.")
     else:
-        st.markdown(f'<div class="cp-note"><b>Metric:</b> {dash.TOPIC_METRIC_LABEL}. {dash.TOPIC_DISCLAIMER}</div>', unsafe_allow_html=True)
-        cats = ["All"] + dash.categories_present(exps)
-        cat = st.selectbox("Topic category", cats, key="topic_cat")
-        stats = dash.topic_stats(exps, cat)
-        if stats.empty:
-            st.write("No topics in this category.")
+        st.markdown("### Top 10 topics to prepare")
+        st.caption("Ranked by the number of distinct 2026 interview experiences that mentioned each topic. This is historical frequency, not a prediction of what will be asked.")
+        top_topics = dash.topic_stats(exps).head(10)
+        if top_topics.empty:
+            st.info("No topics were extracted for this company yet.")
         else:
-            st.markdown("#### Most frequently mentioned topics")
-            st.caption("Counts are distinct experiences per topic. Topics can co-occur in one experience, so pie slices show each topic's share of the summed counts.")
-            records = stats.to_dict(orient="records")
-            top_records = records[:8]
-            pie_rows = [{"Topic": row["Topic"], "Experiences": int(row["Experiences"])} for row in top_records]
-            remaining = sum(int(row["Experiences"]) for row in records[8:])
-            if remaining:
-                pie_rows.append({"Topic": "Other topics", "Experiences": remaining})
-            pie_spec = {
-                "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-                "title": {"text": "Topic mentions across reported experiences", "anchor": "start", "fontSize": 16},
-                "mark": {"type": "arc", "innerRadius": 55, "stroke": "white", "tooltip": True},
-                "encoding": {
-                    "theta": {"field": "Experiences", "type": "quantitative", "stack": True},
-                    "color": {"field": "Topic", "type": "nominal", "sort": {"field": "Experiences", "op": "sum", "order": "descending"}, "legend": {"title": None, "orient": "right"}},
-                    "order": {"field": "Experiences", "type": "quantitative", "sort": "descending"},
-                    "tooltip": [
-                        {"field": "Topic", "type": "nominal", "title": "Topic"},
-                        {"field": "Experiences", "type": "quantitative", "title": "Experiences"},
-                    ],
-                },
-                "view": {"stroke": None},
-            }
-            st.vega_lite_chart(pie_rows, pie_spec, width="stretch", height=390, key=f"topic_pie_{company_id}_{cat}")
-
-            st.markdown("#### Similar topics grouped by area")
-            grouped_topics = {}
-            for row in records:
-                grouped_topics.setdefault(row["Category"] or "Other", []).append(row)
-            for area, items in grouped_topics.items():
-                with st.container(border=True):
-                    st.markdown(f'<div class="cp-topic-group-title">{html.escape(area)}</div>', unsafe_allow_html=True)
-                    cols = st.columns(2, gap="small")
-                    for index, row in enumerate(items):
-                        topic = html.escape(str(row["Topic"]))
-                        count = html.escape(str(row["Experiences"]))
-                        share = html.escape(str(row["Share of experiences"]))
-                        cols[index % 2].markdown(
-                            f'<div class="cp-topic-item"><span>{topic}</span>'
-                            f'<span class="cp-topic-count">{count} exp · {share}</span></div>',
-                            unsafe_allow_html=True,
-                        )
-        st.markdown("#### Sample questions reported")
-        kinds = ["All", "coding", "technical", "project", "hr", "aptitude", "other"]
-        kind = st.selectbox("Question type", kinds, key="q_kind")
-        qs = dash.sample_questions(exps, kind)
-        if not qs:
-            st.write("No questions of this type were extracted.")
-        for q in qs[:25]:
-            st.markdown(f"- {md_safe(q['question'])}  \n  <sub>{html.escape(q['category'])} · {html.escape(q['year'])} · {html.escape(q['source'])}</sub>", unsafe_allow_html=True)
+            highest_count = max(int(value) for value in top_topics["Experiences"])
+            for rank, row in enumerate(top_topics.to_dict(orient="records"), start=1):
+                topic = html.escape(str(row["Topic"]))
+                count = int(row["Experiences"])
+                share = html.escape(str(row["Share of experiences"]))
+                bar_width = max(4, round(count / highest_count * 100))
+                st.markdown(
+                    f'<div class="cp-top-topic"><div class="cp-top-topic-rank">{rank}</div>'
+                    f'<div><div class="cp-top-topic-name">{topic}</div>'
+                    f'<div class="cp-top-topic-track"><div class="cp-top-topic-fill" style="width:{bar_width}%"></div></div></div>'
+                    f'<div class="cp-top-topic-count">{count} experiences · {share}</div></div>',
+                    unsafe_allow_html=True,
+                )
 
 # ------------------------------------------------------------------------------------ tips
 with tab_tips:
