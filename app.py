@@ -16,6 +16,7 @@ except ImportError:
     pass
 
 import html
+import re
 
 import streamlit as st
 
@@ -48,6 +49,15 @@ div[data-testid="stChatMessage"] {border:1px solid #e7edf5;border-radius:16px;pa
 div[data-testid="stChatMessage"] [data-testid="stMarkdownContainer"] {line-height:1.7;}
 div[data-testid="stChatInput"] textarea {border-radius:14px;}
 div[data-testid="stDataFrame"] {border:1px solid #e3e9f2;border-radius:12px;overflow:hidden;}
+.cp-tip-section {margin:1.4rem 0 1rem;padding:.2rem 0 .65rem;border-bottom:1px solid #e2e8f0;}
+.cp-tip-heading {display:flex;align-items:center;gap:.65rem;color:#19375e;font-size:1.18rem;font-weight:750;}
+.cp-tip-count {display:inline-block;background:#e8f0fc;color:#275895;border-radius:999px;padding:.18rem .62rem;font-size:.74rem;font-weight:700;}
+.cp-tip-card {height:100%;background:#fff;border:1px solid #e2e9f2;border-radius:15px;padding:1rem 1.1rem;margin:.3rem 0 .8rem;box-shadow:0 4px 14px rgba(23,32,51,.035);}
+.cp-tip-card:before {content:"“";display:block;color:#7ba4dc;font-family:Georgia,serif;font-size:2rem;line-height:.8;margin-bottom:.45rem;}
+.cp-tip-text {color:#263b58;line-height:1.7;font-size:.97rem;}
+.cp-tip-meta {border-top:1px solid #edf1f6;margin-top:.8rem;padding-top:.65rem;color:#718096;font-size:.78rem;}
+.cp-tip-tag {display:inline-block;background:#edf6f1;color:#28734b;border-radius:999px;padding:.15rem .55rem;margin-right:.4rem;font-weight:650;}
+
 @media (max-width:700px) {.block-container{padding:1rem .8rem 3rem}.cp-title{font-size:1.65rem}}
 </style>
 """
@@ -71,6 +81,11 @@ def card(title: str, body: str) -> None:
 
 def md_safe(text: str) -> str:
     return text.replace("`", "'")
+
+def description_points(text: str) -> list[str]:
+    """Turn an extracted round narrative into readable sentence-level bullets."""
+    cleaned = " ".join((text or "").split())
+    return [point.strip() for point in re.split(r"(?<=[.!?])\s+(?=[A-Z0-9])", cleaned) if point.strip()]
 
 
 @st.cache_resource(show_spinner="Loading embedding model and vector index (first run only)…")
@@ -165,7 +180,9 @@ with tab_rounds:
                         category_col.markdown(f"**Round type**  \n{md_safe(r.category)}")
                         difficulty_col.markdown(f"**Difficulty**  \n{md_safe(r.difficulty) if r.difficulty else 'Not stated'}")
                         if r.description:
-                            st.write(r.description)
+                            st.markdown("**Round summary**")
+                            for point in description_points(r.description):
+                                st.markdown(f"- {md_safe(point)}")
                         if r.topics:
                             st.markdown("**Key topics:** " + " · ".join(f"{md_safe(t.canonical)}" for t in r.topics))
                         questions = r.questions
@@ -215,14 +232,29 @@ with tab_topics:
 # ------------------------------------------------------------------------------------ tips
 with tab_tips:
     grouped = dash.tips_by_category(exps)
-    st.markdown('<div class="cp-note">Everything on this page is <b>candidate-reported</b> and copied from the source PDFs. '
-                "AI-generated suggestions only appear in the chat, where they are labelled “Inference:”.</div>", unsafe_allow_html=True)
+    st.markdown('<div class="cp-note">These are preparation tips shared by candidates in the source PDFs. Browse them by interview stage; each card includes its source.</div>', unsafe_allow_html=True)
     if not grouped:
-        st.write("No preparation tips were extracted for this company.")
+        st.info("No preparation tips were extracted for this company yet.")
+    icons = {
+        "OA preparation": "🧩", "Technical preparation": "💻",
+        "Coding preparation": "⌨️", "Project preparation": "🛠️",
+        "HR preparation": "🤝", "Interview strategy": "🎯",
+    }
     for category, tips in grouped.items():
-        st.markdown(f"#### {category}")
-        for t in tips:
-            st.markdown(f"- {md_safe(t['text'])}  \n  <sub>Candidate-reported · {html.escape(t['year'])} · {html.escape(t['source'])}</sub>", unsafe_allow_html=True)
+        st.markdown(
+            f'<div class="cp-tip-section"><div class="cp-tip-heading">{icons.get(category, "💡")} '
+            f'{html.escape(category)} <span class="cp-tip-count">{len(tips)} tip{"s" if len(tips) != 1 else ""}</span></div></div>',
+            unsafe_allow_html=True,
+        )
+        cols = st.columns(2, gap="medium")
+        for index, tip in enumerate(tips):
+            source = html.escape(f'{tip["year"]} · {tip["source"]}')
+            body = html.escape(tip["text"])
+            cols[index % 2].markdown(
+                f'<div class="cp-tip-card"><div class="cp-tip-text">{body}</div>'
+                f'<div class="cp-tip-meta"><span class="cp-tip-tag">Candidate-reported</span>{source}</div></div>',
+                unsafe_allow_html=True,
+            )
 
 # ------------------------------------------------------------------------------------ resources
 with tab_res:
