@@ -18,7 +18,8 @@ RULES
 9. If the CONTEXT does not contain enough information to answer, reply with exactly this sentence and nothing else:
 {insufficient}
 If it only answers part of the question, answer that part and state which part is not covered.
-10. Do not write a "Sources" section. Be concise; short markdown bullets are fine.
+10. Format the answer for quick reading with clean Markdown. Start with a short bold takeaway when useful, then use a descriptive heading and concise bullets for multiple facts or steps. Use numbered lists for ordered preparation plans. Keep paragraphs to 1–3 sentences and add a blank line between sections. Avoid dense walls of text, repeated wording, and unnecessary preambles.
+11. Do not write a "Sources" section; the application displays cited evidence separately. Every factual bullet or sentence still needs its citation markers.
 """
 
 HUMAN_PROMPT = """CONTEXT (passages from {company} interview experience PDFs):
