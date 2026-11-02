@@ -987,13 +987,12 @@
       "pages": 3,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793655253.6414459,
+      "processed_at": 1793656842.4551601,
       "text_sha256": "fa792f0b20053b34af2688eca9f5d25a29e8ccce0638f3508007a721f2b61f29",
       "status": "indexed",
       "chunks": 10,
-      "insights": false,
-      "experiences": 0,
-      "insights_error": "structured extraction failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m34ktp7dehwajs9h9xxjwwy8` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199877, Requested 2805. Please try again in 19m18.624s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      "insights": true,
+      "experiences": 1
     },
     "2026/ISS_2026/ISS-STOXX_SDE_Aryan_Kanyawar.pdf": {
       "sha256": "4fb0663ced5fd1f878961f2739c8a97a9e86b81eccb4800525e49a7592a4fb10",
@@ -1004,13 +1003,12 @@
       "pages": 10,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793655299.3073394,
+      "processed_at": 1793656940.6259353,
       "text_sha256": "ae3a39d50458a7843f388c16ab44c31622ad212b3c039ec291fdb1393e144719",
       "status": "indexed",
       "chunks": 32,
-      "insights": false,
-      "experiences": 0,
-      "insights_error": "structured extraction failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m34ktp7dehwajs9h9xxjwwy8` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199772, Requested 6342. Please try again in 44m1.248s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      "insights": true,
+      "experiences": 5
     },
     "2026/ISS_2026/ISS-STOXX_SDE_PaarthDalvi.pdf": {
       "sha256": "17e4d6f76324d2c1cd36e48d4e4be1298d8a0d4c36d98a3e1c851a4e820de2fd",
@@ -1021,13 +1019,12 @@
       "pages": 4,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793655344.827712,
+      "processed_at": 1793656999.8918335,
       "text_sha256": "673c72bd45e448a6c8e565725ca7c594b8db5bed96d86143a01bef5145911ded",
       "status": "indexed",
       "chunks": 18,
-      "insights": false,
-      "experiences": 0,
-      "insights_error": "structured extraction failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m34ktp7dehwajs9h9xxjwwy8` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199667, Requested 3714. Please try again in 24m20.592s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      "insights": true,
+      "experiences": 1
     },
     "2026/ISS_2026/ISS-Stoxx_SDE_YashRawat.pdf": {
       "sha256": "bc49bed90db444d4b97292d8aa944ff768815c9024f4de9ad8a5b15737de7555",
