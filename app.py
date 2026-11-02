@@ -265,6 +265,19 @@ def round_duration(text: str | None) -> str | None:
     return normalize_time_units(match.group(1)) if match else None
 
 
+def normalize_difficulty_label(value: str) -> str:
+    """Standardize common difficulty wording while preserving ranges."""
+    text = re.sub(r"\s+", " ", value.strip().lower())
+    text = re.sub(r"\s*(?:to|[-/])\s*", "–", text)
+    text = re.sub(r"\bhigh\b", "hard", text)
+    text = re.sub(r"\bmedium\b", "moderate", text)
+    text = re.sub(r"\b(?:tough|difficult|challenging|very hard|very tough|very difficult)\b", "hard", text)
+    text = re.sub(r"\b(?:very easy|relatively easy)\b", "easy", text)
+    text = re.sub(r"\b(?:slightly higher|moderate level and balanced)\b", "moderate", text)
+    labels = {"easy": "Easy", "moderate": "Moderate", "hard": "Hard"}
+    return "–".join(labels.get(part.strip(), part.strip().title()) for part in text.split("–"))
+
+
 def round_difficulty(round_info) -> str | None:
     """Use a normalized explicitly stored or stated difficulty label, when available."""
     qualifier = ""
