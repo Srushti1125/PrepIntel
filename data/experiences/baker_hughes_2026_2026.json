@@ -1,0 +1,1613 @@
+{
+  "company_id": "baker_hughes_2026",
+  "year": "2026",
+  "experiences": [
+    {
+      "experience_id": "baker_hughes_2026-2026-715108ba-1",
+      "company": "Baker_Hughes_2026",
+      "company_id": "baker_hughes_2026",
+      "year": "2026",
+      "role": "Digital Technology Intern",
+      "rounds": [
+        {
+          "name": "Online Assessment",
+          "category": "Online Assessment",
+          "description": "Platform: Microsoft Forms (Proctored) Questions: 20 (MCQs) Time: 30 mins",
+          "topics": [
+            {
+              "original": "DBMS",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "CCN",
+              "canonical": "CCN",
+              "category": "Other"
+            },
+            {
+              "original": "OS",
+              "canonical": "Operating Systems",
+              "category": "Operating systems"
+            },
+            {
+              "original": "OOPS (guess the output)",
+              "canonical": "Object-Oriented Programming",
+              "category": "OOPs"
+            },
+            {
+              "original": "Programming (Java and C++ and I think 1 question was from C too)",
+              "canonical": "Java",
+              "category": "Programming languages"
+            },
+            {
+              "original": "Quantitative Aptitude",
+              "canonical": "Quantitative Aptitude",
+              "category": "Aptitude"
+            },
+            {
+              "original": "Logical Reasoning",
+              "canonical": "Logical Reasoning",
+              "category": "Aptitude"
+            },
+            {
+              "original": "English (basic grammar, synonyms, antonyms)",
+              "canonical": "Verbal Ability",
+              "category": "Aptitude"
+            }
+          ],
+          "questions": [],
+          "difficulty": null,
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Digital Interview",
+          "category": "HR Interview",
+          "description": "Platform: HireVue Type of Questions: Typical HR and behavioural questions. Time per question: Max 3 mins per question. You can stop the recording once done. Preparation time: 30 seconds before the 3 mins start.",
+          "topics": [
+            {
+              "original": "HR and behavioural questions",
+              "canonical": "HR and Behavioral Questions",
+              "category": "HR and behavioral"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Why did you choose your current degree program?",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "What do you aim to gain from this internship?",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "Tell us about a challenging project experience.",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "How did you manage multiple priorities and time?",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "Tell us about a time when you realized you have a weakness and how did you try to overcome that?",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "What'd you like us to know more about you?",
+              "kind": "hr",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Oncampus F2F Interview: Technical Round",
+          "category": "Technical Interview",
+          "description": "There were 2 panelists. One of them was fully Technical and the other was both Technical and HR (I think).",
+          "topics": [
+            {
+              "original": "Java OOPs",
+              "canonical": "Java",
+              "category": "Programming languages"
+            },
+            {
+              "original": "Abstraction",
+              "canonical": "Object-Oriented Programming",
+              "category": "OOPs"
+            },
+            {
+              "original": "Internship",
+              "canonical": "Internship",
+              "category": "Other"
+            },
+            {
+              "original": "GenAI",
+              "canonical": "GenAI",
+              "category": "Other"
+            },
+            {
+              "original": "DSA",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "recursion",
+              "canonical": "Recursion and Backtracking",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "projects",
+              "canonical": "Projects",
+              "category": "Projects"
+            },
+            {
+              "original": "conflict resolution",
+              "canonical": "Conflict Resolution",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "introduce myself",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "explain in detail, what is OOPs, what the pillars are, and give me examples for each with code.",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "take this Car example only and all the remaining pillars!",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "what I did, what was my project (high level explanation followed by technical details), how was the experience, what learnings I got from it",
+              "kind": "project",
+              "page": 3
+            },
+            {
+              "text": "what is the current status and how are they going to proceed with it (as I had completed my tenure there).",
+              "kind": "project",
+              "page": 3
+            },
+            {
+              "text": "Given a string, delete the minimum number of characters, such that the string becomes a Palindrome. Return this minimum number. You need not return the palindrome string, just the number is enough.",
+              "kind": "coding",
+              "page": 3
+            },
+            {
+              "text": "about my projects. They went really in-depth about every project both from a technical and a business perspective. They also asked about the challenges that I faced in these projects and how I overcame them.",
+              "kind": "project",
+              "page": 4
+            },
+            {
+              "text": "whether any of these projects are deployed.",
+              "kind": "project",
+              "page": 4
+            },
+            {
+              "text": "have you worked in a team?",
+              "kind": "hr",
+              "page": 4
+            },
+            {
+              "text": "What will you do where there is a conflict in the team?",
+              "kind": "hr",
+              "page": 4
+            },
+            {
+              "text": "What if you don’t like your seniors' approach and you think you have a better way?",
+              "kind": "hr",
+              "page": 4
+            },
+            {
+              "text": "How is Baker Hughes as an Energy Tech Company using AI? How is AI helping? Any specific projects on which AI is being used?",
+              "kind": "other",
+              "page": 4
+            },
+            {
+              "text": "How has Baker Hughes contributed to your personal and professional growth?",
+              "kind": "other",
+              "page": 4
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            3,
+            4
+          ]
+        },
+        {
+          "name": "Oncampus F2F Interview: Techno HR Round",
+          "category": "HR Interview",
+          "description": "there was only 1 panelist and she was the HR I think.",
+          "topics": [
+            {
+              "original": "conflict resolution",
+              "canonical": "Conflict Resolution",
+              "category": "Other"
+            },
+            {
+              "original": "AI",
+              "canonical": "AI",
+              "category": "Other"
+            },
+            {
+              "original": "Baker Hughes",
+              "canonical": "Baker Hughes",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "introduction",
+              "kind": "hr",
+              "page": 5
+            },
+            {
+              "text": "if I have worked in a team, how was the team, were there any conflicts, how did I resolve them, what was my role in the team etc.",
+              "kind": "hr",
+              "page": 5
+            },
+            {
+              "text": "Imagine you are working in a team and you are the lead. Now one of your teammates is intentionally not working at the speed which was required, you have to deliver the project to the client tomorrow morning. So you have 1 night, what will you do? How will you handle your team, the client and that one teammate?",
+              "kind": "hr",
+              "page": 5
+            },
+            {
+              "text": "According to your knowledge about AI from your Internship and projects and your knowledge about Baker Hughes, where do you think Baker Hughes might be using AI?",
+              "kind": "technical",
+              "page": 5
+            },
+            {
+              "text": "why I want to join Baker Hughes",
+              "kind": "hr",
+              "page": 5
+            },
+            {
+              "text": "same question I asked in the previous interview",
+              "kind": "other",
+              "page": 5
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            5
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "Keep your basics for these subjects crystal clear. Start preparing for core subjects and aptitude 3-4 months before the season starts.",
+          "category": "OA preparation",
+          "page": 1
+        },
+        {
+          "text": "Revision is the key here. I had made notes in my 2nd year about those subjects. Also I had made formula sheets about Aptitude which helped. So I just revised these things and went for the OA.",
+          "category": "OA preparation",
+          "page": 1
+        },
+        {
+          "text": "One important thing I noticed is that the questions were not section-wise so be prepared to see an aptitude question just after an oops question.",
+          "category": "OA preparation",
+          "page": 1
+        },
+        {
+          "text": "Please focus on speaking and articulating your thoughts well. Try to think how you will structure your answer in the given 30 seconds.",
+          "category": "Interview strategy",
+          "page": 2
+        },
+        {
+          "text": "Do not make any scripts, or use GPT in any form for making these answers, because that will completely look unnatural.",
+          "category": "Interview strategy",
+          "page": 2
+        },
+        {
+          "text": "I think they did observe the body language and eye contact with the camera. So try to maintain a good posture, hand movements and good eye contact with the camera. Keep a decent smile (don’t overdo) on your face while speaking the answers. Visualize as if you are speaking to a real person, it helps.",
+          "category": "Interview strategy",
+          "page": 2
+        },
+        {
+          "text": "Know your Resume INSIDE OUT: Make sure you have at least some idea about each and every word written on your resume. Please don’t write anything that you have no idea about, it will create a very bad impression",
+          "category": "Interview strategy",
+          "page": 6
+        },
+        {
+          "text": "DSA is Important: Though I was not asked about complex DSA, it is always good to be prepared about anything and everything. I started my DSA (leetcode) prep after my 2nd year ended, and I followed Striver’s A2Z DSA course for it. Though it prepared me for all sorts of patterns and topics, I still lacked the intuition. I can solve questions when they are related to some patterns, but it takes a fairly large amount of time to decode the problem when it is something completely new. Therefore, I feel you should have both Intuition and Pattern recognition. I will suggest starting with Leetcode daily questions to build your intuition starting from your 3rd sem. Gradually from there, transition into topics and their questions and then start with the sheet. This will make sure you have both the Intuition and Pattern Recognition.",
+          "category": "Coding preparation",
+          "page": 6
+        },
+        {
+          "text": "Internship experience adds value: My interview had good questions about my internship. It’s important to clearly explain what you worked on, what you learnt and what impact you had.",
+          "category": "Project preparation",
+          "page": 6
+        },
+        {
+          "text": "Build Projects that have some value: Do not build generic projects, try to see what real-world problems can you solve and try to solve that in your projects. It may not be perfect, but is still way better than something too generic.",
+          "category": "Project preparation",
+          "page": 6
+        },
+        {
+          "text": "Communication is super important: See I have some friends who have a great technical profile but are rejected because of their soft skills. You may be a genius, but if you can’t make the world aware about it, then what’s the point? Hence try to focus on being vocal about your thought process, maintain good eye contact, a sincere smile, practice articulating your thoughts well, don’t speak too fast or too slow or too vague. Take pauses wherever required, try to structure your answers. THAT’S IT, there’s no Rocket Science in it! If possible and time permits, try to do a couple of mock Interviews, it will greatly help.",
+          "category": "Interview strategy",
+          "page": 6
+        },
+        {
+          "text": "Consistency and Discipline over EVERYTHING: Whatever you do, stay consistent with it. I remember, when starting out, I used to get anxious when I couldn’t solve a problem, but with time and effort, I did manage to solve those.",
+          "category": "Interview strategy",
+          "page": 6
+        },
+        {
+          "text": "Sometimes, it’s not your fault: See, you are about to have a completely new experience in your life. There will be times when things will just not work out, no matter how much effort you put in, something undesirable will happen. It is 60% skills and 40% LUCK according to me! I lost opportunities in MSCI, UBS because the test platform had some issues. I lost Barclays. I lost IDFC First Bank because I was asked something that was not in my knowledge and I got anxious answering that (that’s a different story altogether haha) Then I had prepared for Hyperverge so well, I spent almost 2-2.5 days, still was not shortlisted. It is what it is! These are the times you should stay calm, trust your efforts, spend time with your loved ones, trust whichever god you believe in. Don’t take too much stress, don’t let it take a toll on your health.",
+          "category": "Interview strategy",
+          "page": 6
+        }
+      ],
+      "resources": [
+        {
+          "title": "Striver's A2Z DSA Sheet",
+          "url": null,
+          "description": "it's structured, beginner-friendly, and covers all essential topics and patterns. Do some daily questions before starting this (as mentioned above)",
+          "topic": "DSA",
+          "page": 7
+        },
+        {
+          "title": "LeetCode's Top 50 SQL Questions",
+          "url": null,
+          "description": "great for query writing and real interview problems.",
+          "topic": "SQL",
+          "page": 7
+        },
+        {
+          "title": "DBMS video",
+          "url": null,
+          "description": "it covers everything you need for interviews.",
+          "topic": "DBMS",
+          "page": 7
+        },
+        {
+          "title": "GeeksforGeeks",
+          "url": null,
+          "description": "it's sufficient for brushing up on the most asked concepts in interviews.",
+          "topic": "Core Subjects (OS, CN, OOPs)",
+          "page": 7
+        },
+        {
+          "title": "Kunal Kushwaha",
+          "url": null,
+          "description": "for Java OOPs if you have time.",
+          "topic": "Java OOPs",
+          "page": 7
+        },
+        {
+          "title": "Networks Cheatsheet by Love Babbar",
+          "url": null,
+          "description": "covers almost everything in CN plus mostly asked questions",
+          "topic": "CN",
+          "page": 7
+        },
+        {
+          "title": "OS in one video by Anuj Bhaiya",
+          "url": null,
+          "description": null,
+          "topic": "OS",
+          "page": 7
+        },
+        {
+          "title": "System Design Article",
+          "url": null,
+          "description": "You can skim through it and skip advanced topics like Kafka.",
+          "topic": "System Design",
+          "page": 7
+        },
+        {
+          "title": "Tech Cheatsheet",
+          "url": null,
+          "description": "I got this from my senior — it includes useful resources across key topics. Feel free to use and share!",
+          "topic": null,
+          "page": 7
+        }
+      ],
+      "filename": "BakerHughes_DTI_HarshalVhatkar.pdf",
+      "source_path": "2026/Baker_Hughes_2026/BakerHughes_DTI_HarshalVhatkar.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "content_sha256": "715108ba835df689a43608296cb402ce142567195bc9da2ebb305dc7a42f7d65"
+    },
+    {
+      "experience_id": "baker_hughes_2026-2026-866347a4-1",
+      "company": "Baker_Hughes_2026",
+      "company_id": "baker_hughes_2026",
+      "year": "2026",
+      "role": "Digital Technology Intern",
+      "rounds": [
+        {
+          "name": "Online Assessment",
+          "category": "Online Assessment",
+          "description": "Platform - Microsoft forms (proctored), Time - 30mins, Questions - 25 questions",
+          "topics": [
+            {
+              "original": "DBMS",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "CCN",
+              "canonical": "CCN",
+              "category": "Other"
+            },
+            {
+              "original": "OS",
+              "canonical": "Operating Systems",
+              "category": "Operating systems"
+            },
+            {
+              "original": "OOPS",
+              "canonical": "Object-Oriented Programming",
+              "category": "OOPs"
+            },
+            {
+              "original": "DSA",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "Cloud Computing",
+              "canonical": "Cloud Computing",
+              "category": "Other"
+            },
+            {
+              "original": "Programming questions (guess the output type) in Python",
+              "canonical": "Python",
+              "category": "Programming languages"
+            },
+            {
+              "original": "Java",
+              "canonical": "Java",
+              "category": "Programming languages"
+            },
+            {
+              "original": "Quantitative aptitude questions (work and time, pipe and tank, basic math questions)",
+              "canonical": "Quantitative Aptitude",
+              "category": "Aptitude"
+            },
+            {
+              "original": "Verbal questions (antonyms, synonyms, phrases)",
+              "canonical": "Verbal Ability",
+              "category": "Aptitude"
+            }
+          ],
+          "questions": [],
+          "difficulty": "relatively easy",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Digital Interview",
+          "category": "HR Interview",
+          "description": "Platform - HireVue, Questions - 6 HR-behavorial questions, Time - a maximum of 3 mins per question",
+          "topics": [],
+          "questions": [
+            {
+              "text": "Why did you choose your current degree program?",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "What do you aim to gain from this internship?",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "Tell us about a challenging project experience.",
+              "kind": "project",
+              "page": 2
+            },
+            {
+              "text": "How did you manage multiple priorities and time?",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "Tell us about a time when you realized you have a weakness and how did you try to overcome that?",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "What'd you like us to know more about you?",
+              "kind": "hr",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            1,
+            2
+          ]
+        },
+        {
+          "name": "Technical Interview",
+          "category": "Technical Interview",
+          "description": "My interview lasted for approximately 40 minutes. I had two interviewers on my panel: a Product Manager and a Data Scientist at Baker Hughes.",
+          "topics": [
+            {
+              "original": "Smart India Hackathon win",
+              "canonical": "Smart India Hackathon win",
+              "category": "Other"
+            },
+            {
+              "original": "hackathons",
+              "canonical": "Hackathons",
+              "category": "Other"
+            },
+            {
+              "original": "conference paper",
+              "canonical": "Conference Paper",
+              "category": "Other"
+            },
+            {
+              "original": "SIH project system architecture",
+              "canonical": "Projects",
+              "category": "Projects"
+            },
+            {
+              "original": "data flow",
+              "canonical": "Data Flow",
+              "category": "Other"
+            },
+            {
+              "original": "LLMs",
+              "canonical": "LLMs",
+              "category": "Other"
+            },
+            {
+              "original": "transformers (encoder–decoder structure, embeddings, self-attention, multi-head attention, layer normalization, feedforward layers)",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "Python (difference between arrays, sets, and lists)",
+              "canonical": "Arrays",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "OOPS (difference between object-oriented programming and procedural programming, what OOPS is, why it is needed)",
+              "canonical": "Object-Oriented Programming",
+              "category": "OOPs"
+            },
+            {
+              "original": "internships",
+              "canonical": "Internships",
+              "category": "Other"
+            },
+            {
+              "original": "leadership experience",
+              "canonical": "Leadership Experience",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "introduce myself",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "explaining the entire system architecture and data flow",
+              "kind": "project",
+              "page": 2
+            },
+            {
+              "text": "explain how transformers work",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "difference between arrays, sets, and lists",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "give examples of when I would use each",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "difference between object-oriented programming and procedural programming",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "explain what OOPS is and why it is needed",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "discussing my internships, my contribution in each",
+              "kind": "project",
+              "page": 3
+            },
+            {
+              "text": "my leadership experience as the Vice Chair of IEEE-SPIT",
+              "kind": "hr",
+              "page": 3
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2,
+            3
+          ]
+        },
+        {
+          "name": "HR Interview",
+          "category": "HR Interview",
+          "description": "It was quite short, lasting no more than 15 minutes.",
+          "topics": [
+            {
+              "original": "projects",
+              "canonical": "Projects",
+              "category": "Projects"
+            },
+            {
+              "original": "situational questions",
+              "canonical": "HR and Behavioral Questions",
+              "category": "HR and behavioral"
+            }
+          ],
+          "questions": [
+            {
+              "text": "introduce myself",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "a few questions about my projects",
+              "kind": "project",
+              "page": 3
+            },
+            {
+              "text": "What would you do if a client disapproved of a project you had been working on for months and asked you to redo it?",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "What would you do if you were at a hackathon and your project didn’t work during the final demo?",
+              "kind": "hr",
+              "page": 3
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            3
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "I suggest preparing for CS fundamentals a month prior to placements and having handy notes to revise whenever required. It may get exhausting studying the same concepts over and over again but trust me it’s worth it.",
+          "category": "OA preparation",
+          "page": 1
+        },
+        {
+          "text": "Time management is key here, dont be stuck on any question for too long.",
+          "category": "OA preparation",
+          "page": 1
+        },
+        {
+          "text": "I suggest being as natural as possible throughout the interview and staying confident. It is okay if you fumble a little — just be confident enough to recover from it and don’t let it affect your overall presence.",
+          "category": "Interview strategy",
+          "page": 2
+        },
+        {
+          "text": "Wear formal attire.",
+          "category": "Interview strategy",
+          "page": 2
+        },
+        {
+          "text": "Sit in a quiet, secluded room with no disturbances.",
+          "category": "Interview strategy",
+          "page": 2
+        },
+        {
+          "text": "Use headphones to ensure good sound quality.",
+          "category": "Interview strategy",
+          "page": 2
+        },
+        {
+          "text": "My suggestion here would be to mention things you are very confident about, as the first few questions are usually follow-ups to your introduction. You are the one who decides the flow of the interview so answer thoughtfully and only discuss topics you know inside out.",
+          "category": "Interview strategy",
+          "page": 2
+        },
+        {
+          "text": "My biggest advice here is to carefully understand the question and, if possible, relate it to a past experience.",
+          "category": "HR preparation",
+          "page": 3
+        },
+        {
+          "text": "The key is to stay calm and confident, and most importantly, be yourself. They are not looking for textbook answers; they want authentic, personal responses. So be honest and answer with confidence.",
+          "category": "HR preparation",
+          "page": 3
+        },
+        {
+          "text": "Firstly, placements are a lengthy process, and a lot of it is luck-based, so don’t lose hope and always keep pushing for the next opportunity. There will be one company where your skills match, and your luck will shine as well, so always be at your A-game and don’t miss any opportunities. Don't be disheartened by rejections, there are better opportunities waiting for you.",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "KNOW YOUR RESUME INSIDE OUT – I cannot stress this enough. It is absolutely crucial to know every single word you have mentioned on your resume. Please do not lie on it—having a smaller set of skills that you know thoroughly is far better than listing 20 skills that you only know at a surface level.",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "Also, be thorough with your projects: understand how they work, the challenges you faced, and why you chose that particular tech stack.",
+          "category": "Project preparation",
+          "page": 3
+        },
+        {
+          "text": "Find a DSA sheet that works for you and just start with it—don’t spend too much time looking for the “right material,” because there isn’t one. Just pick something and start solving it consistently. I started focusing dedicatedly on DSA in sem 6, and that was quite late, to be honest, so I suggest starting a little earlier.",
+          "category": "Coding preparation",
+          "page": 3
+        },
+        {
+          "text": "Solve aptitude questions from indiabix.",
+          "category": "OA preparation",
+          "page": 4
+        },
+        {
+          "text": "Understand and practice OOPS questions and its applications since it’s a very commonly asked topic.",
+          "category": "Technical preparation",
+          "page": 4
+        },
+        {
+          "text": "Understand topics well enough that you can teach them to anyone. Use active recall since that really helped me.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Try to maintain a good CGPA (preferably above 8. But a minimum of 7.5) mine was 7.77 and I did regret not having a better CGPA.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "If you’re from EXTC, there are already a few companies you won’t be eligible for, so be prepared for that and don’t get discouraged too quickly.",
+          "category": "Interview strategy",
+          "page": 4
+        }
+      ],
+      "resources": [
+        {
+          "title": "neetcode",
+          "url": null,
+          "description": null,
+          "topic": "DSA",
+          "page": 4
+        },
+        {
+          "title": "striver’s sheet",
+          "url": null,
+          "description": null,
+          "topic": "DSA",
+          "page": 4
+        },
+        {
+          "title": "indiabix",
+          "url": null,
+          "description": null,
+          "topic": "aptitude",
+          "page": 4
+        }
+      ],
+      "filename": "BakerHughes_DTI_ShrutikaYeole.pdf",
+      "source_path": "2026/Baker_Hughes_2026/BakerHughes_DTI_ShrutikaYeole.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "content_sha256": "866347a4ad86341a5705f00b1e1efe8d05d592e9f7c9657694a952c9a88c1b14"
+    },
+    {
+      "experience_id": "baker_hughes_2026-2026-f62f2448-1",
+      "company": "Baker_Hughes_2026",
+      "company_id": "baker_hughes_2026",
+      "year": "2026",
+      "role": "Digital Technology Intern (DTI)",
+      "rounds": [
+        {
+          "name": "OA",
+          "category": "Online Assessment",
+          "description": "165 Per Seating arrangement. Platform: Microsoft Forms (Proctored). There was no auto submit, so make sure to click the submit button before the time ends.",
+          "topics": [
+            {
+              "original": "Java",
+              "canonical": "Java",
+              "category": "Programming languages"
+            },
+            {
+              "original": "Python",
+              "canonical": "Python",
+              "category": "Programming languages"
+            },
+            {
+              "original": "C",
+              "canonical": "C",
+              "category": "Programming languages"
+            },
+            {
+              "original": "C++",
+              "canonical": "C++",
+              "category": "Programming languages"
+            },
+            {
+              "original": "OS",
+              "canonical": "Operating Systems",
+              "category": "Operating systems"
+            },
+            {
+              "original": "CCN",
+              "canonical": "CCN",
+              "category": "Other"
+            },
+            {
+              "original": "guess-output",
+              "canonical": "Guess-Output",
+              "category": "Other"
+            },
+            {
+              "original": "general Aptitude",
+              "canonical": "Quantitative Aptitude",
+              "category": "Aptitude"
+            },
+            {
+              "original": "DBMS",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "LLMs",
+              "canonical": "LLMs",
+              "category": "Other"
+            },
+            {
+              "original": "API",
+              "canonical": "API",
+              "category": "Other"
+            }
+          ],
+          "questions": [],
+          "difficulty": null,
+          "pages": [
+            1
+          ]
+        }
+      ],
+      "tips": [],
+      "resources": [],
+      "filename": "BakerHughes_DTI_YaddhnyeshChoudhari.pdf",
+      "source_path": "2026/Baker_Hughes_2026/BakerHughes_DTI_YaddhnyeshChoudhari.pdf",
+      "pages": [
+        1
+      ],
+      "content_sha256": "f62f244821e8d26651022d620b61c90b77ff1097ecf8f4e1691516a847fec1e8"
+    },
+    {
+      "experience_id": "baker_hughes_2026-2026-41b40aae-1",
+      "company": "Baker_Hughes_2026",
+      "company_id": "baker_hughes_2026",
+      "year": "2026",
+      "role": "Digital Technology Intern",
+      "rounds": [
+        {
+          "name": "OA Round",
+          "category": "Online Assessment",
+          "description": "Invigilation was done by the company. Platform: Microsoft forms. Duration: 30 mins. No. of questions: 25.",
+          "topics": [
+            {
+              "original": "SQL",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "output based questions (python/Java)",
+              "canonical": "output based questions (python/Java)",
+              "category": "Other"
+            },
+            {
+              "original": "Aptitude",
+              "canonical": "Quantitative Aptitude",
+              "category": "Aptitude"
+            },
+            {
+              "original": "OS",
+              "canonical": "Operating Systems",
+              "category": "Operating systems"
+            },
+            {
+              "original": "CCN",
+              "canonical": "CCN",
+              "category": "Other"
+            },
+            {
+              "original": "DSA",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "Cloud Computing",
+              "canonical": "Cloud Computing",
+              "category": "Other"
+            }
+          ],
+          "questions": [],
+          "difficulty": null,
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Digital Interview",
+          "category": "HR Interview",
+          "description": "Conducted on the Hire Vue platform. An AI takes the interview. Question displayed on screen, 30 secs to prepare, record answer for 3 mins. Basic HR questions. Company's people evaluate later.",
+          "topics": [],
+          "questions": [
+            {
+              "text": "Why did you choose your current degree program?",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "What do you aim to gain from this internship?",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "Tell us about a challenging project experience.",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "How did you manage multiple priorities and time?",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "Tell us about a time when you realized you have a weakness and how did you try to overcome that?",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "What'd you like us to know more about you?",
+              "kind": "hr",
+              "page": 3
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2,
+            3
+          ]
+        },
+        {
+          "name": "Technical Round",
+          "category": "Technical Interview",
+          "description": "Offline interview, divided into 6 panels. My panel consisted of two people, one sir from AIML domain and one ma'am specializing in DevOps. Lasted for about an hour.",
+          "topics": [
+            {
+              "original": "AIML",
+              "canonical": "AIML",
+              "category": "Other"
+            },
+            {
+              "original": "DevOps",
+              "canonical": "DevOps",
+              "category": "Other"
+            },
+            {
+              "original": "projects",
+              "canonical": "Projects",
+              "category": "Projects"
+            },
+            {
+              "original": "EcoVerse",
+              "canonical": "EcoVerse",
+              "category": "Other"
+            },
+            {
+              "original": "ecofriendly alternatives",
+              "canonical": "Ecofriendly Alternatives",
+              "category": "Other"
+            },
+            {
+              "original": "keyword based retrieval",
+              "canonical": "Keyword Based Retrieval",
+              "category": "Other"
+            },
+            {
+              "original": "semantic similarity",
+              "canonical": "Semantic Similarity",
+              "category": "Other"
+            },
+            {
+              "original": "KNN algorithm",
+              "canonical": "KNN algorithm",
+              "category": "Other"
+            },
+            {
+              "original": "K-means",
+              "canonical": "K-means",
+              "category": "Other"
+            },
+            {
+              "original": "OCR",
+              "canonical": "OCR",
+              "category": "Other"
+            },
+            {
+              "original": "React",
+              "canonical": "React",
+              "category": "Other"
+            },
+            {
+              "original": "Angular",
+              "canonical": "Angular",
+              "category": "Other"
+            },
+            {
+              "original": "MongoDB",
+              "canonical": "MongoDB",
+              "category": "Other"
+            },
+            {
+              "original": "SQL",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "drop and truncate",
+              "canonical": "Drop And Truncate",
+              "category": "Other"
+            },
+            {
+              "original": "delete or truncate",
+              "canonical": "Delete Or Truncate",
+              "category": "Other"
+            },
+            {
+              "original": "unique row",
+              "canonical": "Unique Row",
+              "category": "Other"
+            },
+            {
+              "original": "unique values",
+              "canonical": "Unique Values",
+              "category": "Other"
+            },
+            {
+              "original": "distinct keyword",
+              "canonical": "Distinct Keyword",
+              "category": "Other"
+            },
+            {
+              "original": "rank and dense rank",
+              "canonical": "Rank And Dense Rank",
+              "category": "Other"
+            },
+            {
+              "original": "DSA",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "OS",
+              "canonical": "Operating Systems",
+              "category": "Operating systems"
+            },
+            {
+              "original": "CCN",
+              "canonical": "CCN",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "how I was feeling and how was the process till now for me?",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "introduction",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "explain my first project, EcoVerse",
+              "kind": "project",
+              "page": 3
+            },
+            {
+              "text": "what if product category was not included in the dataset, then how would you classify the items, considering the same product can have different names with different brands, and also told me it was a large dataset which would simultaneously add new products on the fly.",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "come up with an approach that doesn’t include a labelled dataset",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "explain the entire algorithm",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "what OCR does",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "what challenges I will face if I worked on a real world dataset",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "what would I do if I were to get assigned to a monotonous task in the project?",
+              "kind": "hr",
+              "page": 4
+            },
+            {
+              "text": "why React and not Angular?",
+              "kind": "technical",
+              "page": 4
+            },
+            {
+              "text": "why did I approach influencers as judges because in this generation anyone can be an influencer.",
+              "kind": "hr",
+              "page": 4
+            },
+            {
+              "text": "if I had ever come across a situation where there was dispute in a group project and how did I handle it, what was my mindset?",
+              "kind": "hr",
+              "page": 4
+            },
+            {
+              "text": "why I used MongoDB in my project and what was the need for it and its schema.",
+              "kind": "technical",
+              "page": 4
+            },
+            {
+              "text": "difference between drop and truncate.",
+              "kind": "technical",
+              "page": 4
+            },
+            {
+              "text": "which is faster delete or truncate.",
+              "kind": "technical",
+              "page": 4
+            },
+            {
+              "text": "what if delete didn’t have any condition then which would be faster",
+              "kind": "technical",
+              "page": 4
+            },
+            {
+              "text": "how I would retrieve a unique row",
+              "kind": "technical",
+              "page": 4
+            },
+            {
+              "text": "unique values",
+              "kind": "technical",
+              "page": 4
+            },
+            {
+              "text": "difference between rank and dense rank.",
+              "kind": "technical",
+              "page": 4
+            },
+            {
+              "text": "if I had any questions for them.",
+              "kind": "hr",
+              "page": 4
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            3,
+            4
+          ]
+        },
+        {
+          "name": "Leadership Round",
+          "category": "Managerial Interview",
+          "description": "Called in within an hour of finishing the first round.",
+          "topics": [
+            {
+              "original": "previous experiences",
+              "canonical": "Previous Experiences",
+              "category": "Other"
+            },
+            {
+              "original": "favourite project",
+              "canonical": "Projects",
+              "category": "Projects"
+            },
+            {
+              "original": "product management",
+              "canonical": "Product Management",
+              "category": "Other"
+            },
+            {
+              "original": "deadlines",
+              "canonical": "Deadlines",
+              "category": "Other"
+            },
+            {
+              "original": "transparency",
+              "canonical": "Transparency",
+              "category": "Other"
+            },
+            {
+              "original": "reliable product delivery",
+              "canonical": "Reliable Product Delivery",
+              "category": "Other"
+            },
+            {
+              "original": "Power BI",
+              "canonical": "Power BI",
+              "category": "Other"
+            },
+            {
+              "original": "data analysis",
+              "canonical": "Data Analysis",
+              "category": "Other"
+            },
+            {
+              "original": "power apps",
+              "canonical": "Power Apps",
+              "category": "Other"
+            },
+            {
+              "original": "UPI app features",
+              "canonical": "UPI app features",
+              "category": "Other"
+            },
+            {
+              "original": "frauds on apps",
+              "canonical": "Frauds On Apps",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "how my initial rounds of interviews went.",
+              "kind": "hr",
+              "page": 4
+            },
+            {
+              "text": "why I had this mindset",
+              "kind": "hr",
+              "page": 4
+            },
+            {
+              "text": "what changed now.",
+              "kind": "hr",
+              "page": 4
+            },
+            {
+              "text": "explain my favourite project",
+              "kind": "project",
+              "page": 4
+            },
+            {
+              "text": "how many people were a part of it",
+              "kind": "project",
+              "page": 4
+            },
+            {
+              "text": "what I would do if my teammate was not cooperating.",
+              "kind": "hr",
+              "page": 4
+            },
+            {
+              "text": "if I were the product manager and the tech team has informed me that they won’t be able to deliver the product in the given deadline, how would I handle this situation?",
+              "kind": "hr",
+              "page": 4
+            },
+            {
+              "text": "if the client was not ready to extend the deadline what would you do?",
+              "kind": "hr",
+              "page": 4
+            },
+            {
+              "text": "explain Power BI",
+              "kind": "technical",
+              "page": 4
+            },
+            {
+              "text": "if I knew any other power apps",
+              "kind": "technical",
+              "page": 4
+            },
+            {
+              "text": "which upi app I used and why",
+              "kind": "hr",
+              "page": 4
+            },
+            {
+              "text": "if I could add one more feature on it, what would it be",
+              "kind": "hr",
+              "page": 5
+            },
+            {
+              "text": "technical question related to frauds happening on such apps and how would I handle them.",
+              "kind": "technical",
+              "page": 5
+            },
+            {
+              "text": "ask about her experience working for Baker Hughes",
+              "kind": "hr",
+              "page": 5
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            4,
+            5
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "Don’t do this, always keep your answer to the point and crisp.",
+          "category": "Interview strategy",
+          "page": 1
+        },
+        {
+          "text": "if you’re unsure, be upfront so the interviewer can move on to areas you’re confident in.",
+          "category": "Interview strategy",
+          "page": 1
+        },
+        {
+          "text": "keep your attitude professional and avoid interrupting others.",
+          "category": "Interview strategy",
+          "page": 1
+        },
+        {
+          "text": "Always revise core topics at least a day before the interview.",
+          "category": "Technical preparation",
+          "page": 2
+        },
+        {
+          "text": "Time management is key so attempt confident questions first, then move to elimination or educated guesses.",
+          "category": "OA preparation",
+          "page": 2
+        },
+        {
+          "text": "make sure to cover these areas as well.",
+          "category": "OA preparation",
+          "page": 2
+        },
+        {
+          "text": "don’t lose hope until results are declared ;)",
+          "category": "Interview strategy",
+          "page": 2
+        },
+        {
+          "text": "Try to include as many keywords of the company's values as possible.",
+          "category": "HR preparation",
+          "page": 3
+        },
+        {
+          "text": "give answers from personal experiences.",
+          "category": "HR preparation",
+          "page": 3
+        },
+        {
+          "text": "Don’t try to read it from script, speak naturally.",
+          "category": "HR preparation",
+          "page": 3
+        },
+        {
+          "text": "if you live in a PG, inform your roommates beforehand and handle distractions like the doorbell early on.",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "choose the quietest spot possible and keep your phone on silent.",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "Remember guys your introduction decides the flow for the rest of the interview, it should include your name, branch, proficiency in which languages, and your interest.",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "Including unique projects on your resume helps divert their attention there more, so try building such projects.",
+          "category": "Project preparation",
+          "page": 4
+        },
+        {
+          "text": "know the in and out about everything mentioned in your resume, even though it’s a group project, it's important to know the entire flow of the project.",
+          "category": "Project preparation",
+          "page": 4
+        },
+        {
+          "text": "Remember transparency and reliable product delivery are the core company values so answer these questions in that regard.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "For OA practice Aptitude from IndiaBix",
+          "category": "OA preparation",
+          "page": 5
+        },
+        {
+          "text": "OS: https://www.youtube.com/watch?v=8XBtAjKwCm4&t=249s",
+          "category": "OA preparation",
+          "page": 5
+        },
+        {
+          "text": "OOPS:https://youtube.com/playlist?list=PL9gnSGHSqcno1G3XjUbwzXHL8_EttOuKk&si=gci49GVO2WGW2osZ",
+          "category": "OA preparation",
+          "page": 5
+        },
+        {
+          "text": "DSA strivers A-Z sheet",
+          "category": "OA preparation",
+          "page": 5
+        },
+        {
+          "text": "SQL Leetcode 50 should be more than enough",
+          "category": "OA preparation",
+          "page": 5
+        },
+        {
+          "text": "CCN, DBMS refer to GFG.",
+          "category": "OA preparation",
+          "page": 5
+        },
+        {
+          "text": "For Digital Interview, practice answering in front of a mirror or with a friend to build confidence and get a second perspective.",
+          "category": "HR preparation",
+          "page": 5
+        },
+        {
+          "text": "For tech rounds, be thorough with your resume, know answers to questions like why, how and what for all your projects.",
+          "category": "Technical preparation",
+          "page": 5
+        },
+        {
+          "text": "Keep answers ready for questions related to the choice of your tech stack and implementation, challenges and if you were to scale this project further what would you do?",
+          "category": "Technical preparation",
+          "page": 5
+        },
+        {
+          "text": "remember only to use those technological terms while answering that you are sure about, if you say OCR be prepared for questions related to it.",
+          "category": "Technical preparation",
+          "page": 5
+        },
+        {
+          "text": "be prepared for it as well as schema design related questions.",
+          "category": "Technical preparation",
+          "page": 5
+        },
+        {
+          "text": "For the HR round, familiarize yourself with standard questions.",
+          "category": "HR preparation",
+          "page": 5
+        },
+        {
+          "text": "Maintain good body language and develop communication skills as it really affects the entire interview process.",
+          "category": "Interview strategy",
+          "page": 5
+        },
+        {
+          "text": "Research about the company well beforehand, this will show your eagerness to join.",
+          "category": "Interview strategy",
+          "page": 5
+        },
+        {
+          "text": "Don’t allow awkward silence ever, keep the interview as engaging as possible.",
+          "category": "Interview strategy",
+          "page": 5
+        },
+        {
+          "text": "Don’t get demotivated by rejections, it’s okay to be sad for that day, but you gotta pick yourself up and prepare for the next companies.",
+          "category": "Interview strategy",
+          "page": 5
+        },
+        {
+          "text": "Try to not be that hard on yourself and take short breaks in between to avoid burn outs.",
+          "category": "Interview strategy",
+          "page": 5
+        },
+        {
+          "text": "Know what works for you and maintain your physical as well as mental health.",
+          "category": "Interview strategy",
+          "page": 5
+        },
+        {
+          "text": "do your best and leave the rest to God.",
+          "category": "Interview strategy",
+          "page": 5
+        }
+      ],
+      "resources": [
+        {
+          "title": "IndiaBix",
+          "url": null,
+          "description": null,
+          "topic": "Aptitude",
+          "page": 5
+        },
+        {
+          "title": null,
+          "url": "https://www.youtube.com/watch?v=8XBtAjKwCm4&t=249s",
+          "description": null,
+          "topic": "OS",
+          "page": 5
+        },
+        {
+          "title": null,
+          "url": "https://youtube.com/playlist?list=PL9gnSGHSqcno1G3XjUbwzXHL8_EttOuKk&si=gci49GVO2WGW2osZ",
+          "description": null,
+          "topic": "OOPS",
+          "page": 5
+        },
+        {
+          "title": "Strivers A-Z sheet",
+          "url": null,
+          "description": null,
+          "topic": "DSA",
+          "page": 5
+        },
+        {
+          "title": "Leetcode 50",
+          "url": null,
+          "description": null,
+          "topic": "SQL",
+          "page": 5
+        },
+        {
+          "title": "GFG",
+          "url": null,
+          "description": null,
+          "topic": "CCN, DBMS",
+          "page": 5
+        }
+      ],
+      "filename": "Digital_Technology_Intern_Shloka_Mardikar.pdf",
+      "source_path": "2026/Baker_Hughes_2026/Digital_Technology_Intern_Shloka_Mardikar.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "content_sha256": "41b40aaefd1d68dad673b4f483e4da9732efbfb4626661d26b6c165990b4f807"
+    }
+  ]
+}

@@ -1,0 +1,2319 @@
+{
+  "company_id": "barclays_summer_interns",
+  "year": "2026",
+  "experiences": [
+    {
+      "experience_id": "barclays_summer_interns-2026-5f250687-1",
+      "company": "Barclays_Summer_Interns",
+      "company_id": "barclays_summer_interns",
+      "year": "2026",
+      "role": "Summer Intern 2025",
+      "rounds": [
+        {
+          "name": "Online Assessment",
+          "category": "Online Assessment",
+          "description": "This was an online round, conducted offline at the college, with a duration of 1.5 hours. It consisted of 14 questions: 1 medium-level DSA coding question, 1 easy-level SQL query, and 12 MCQs. The MCQs focused on fundamental concepts of Java, OOPS, and DBMS.",
+          "topics": [
+            {
+              "original": "DSA",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "SQL",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "Java",
+              "canonical": "Java",
+              "category": "Programming languages"
+            },
+            {
+              "original": "OOPS",
+              "canonical": "Object-Oriented Programming",
+              "category": "OOPs"
+            },
+            {
+              "original": "DBMS",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            }
+          ],
+          "questions": [
+            {
+              "text": "1 medium-level DSA coding question",
+              "kind": "coding",
+              "page": 1
+            },
+            {
+              "text": "1 easy-level SQL query",
+              "kind": "coding",
+              "page": 1
+            },
+            {
+              "text": "12 MCQs",
+              "kind": "technical",
+              "page": 1
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Technical Interview",
+          "category": "Technical Interview",
+          "description": "In this round, the interviewer focused mainly on my resume, and the interview lasted about 20 minutes.",
+          "topics": [
+            {
+              "original": "resume",
+              "canonical": "Resume",
+              "category": "Other"
+            },
+            {
+              "original": "projects",
+              "canonical": "Projects",
+              "category": "Projects"
+            },
+            {
+              "original": "APIs",
+              "canonical": "APIs",
+              "category": "Other"
+            },
+            {
+              "original": "machine learning models",
+              "canonical": "Machine Learning Models",
+              "category": "Other"
+            },
+            {
+              "original": "security layers",
+              "canonical": "Security Layers",
+              "category": "Other"
+            },
+            {
+              "original": "Flutter framework",
+              "canonical": "Flutter framework",
+              "category": "Other"
+            },
+            {
+              "original": "Firebase",
+              "canonical": "Firebase",
+              "category": "Other"
+            },
+            {
+              "original": "NoSQL databases",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "AWS",
+              "canonical": "AWS",
+              "category": "Other"
+            },
+            {
+              "original": "Kafka",
+              "canonical": "Kafka",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "share something about myself that wasn’t included in my resume.",
+              "kind": "hr",
+              "page": 1
+            },
+            {
+              "text": "explain each project listed on my resume and the motivation behind them.",
+              "kind": "project",
+              "page": 1
+            },
+            {
+              "text": "What are APIs?",
+              "kind": "technical",
+              "page": 1
+            },
+            {
+              "text": "What are API response codes?",
+              "kind": "technical",
+              "page": 1
+            },
+            {
+              "text": "What is an API token and why is it important?",
+              "kind": "technical",
+              "page": 1
+            },
+            {
+              "text": "Have you built an API?",
+              "kind": "project",
+              "page": 1
+            },
+            {
+              "text": "how I would implement security layers in each project.",
+              "kind": "project",
+              "page": 2
+            },
+            {
+              "text": "if a transaction occurred in Mumbai at 11:20, followed by another in Pune 20 minutes later, how would I detect fraud?",
+              "kind": "technical",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            1,
+            2
+          ]
+        },
+        {
+          "name": "HR Interview Round",
+          "category": "HR Interview",
+          "description": "This round was mainly HR-focused, but the interviewer also asked some basic technical questions. It lasted about 20-25 minutes.",
+          "topics": [
+            {
+              "original": "programming languages",
+              "canonical": "Programming Languages",
+              "category": "Other"
+            },
+            {
+              "original": "Object-Oriented Programming",
+              "canonical": "Object-Oriented Programming",
+              "category": "OOPs"
+            },
+            {
+              "original": "polymorphism",
+              "canonical": "Object-Oriented Programming",
+              "category": "OOPs"
+            },
+            {
+              "original": "internship challenges",
+              "canonical": "Internship Challenges",
+              "category": "Other"
+            },
+            {
+              "original": "company values",
+              "canonical": "Company Values",
+              "category": "Other"
+            },
+            {
+              "original": "conflict resolution",
+              "canonical": "Conflict Resolution",
+              "category": "Other"
+            },
+            {
+              "original": "team leadership",
+              "canonical": "Team Leadership",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "which programming languages I’ve worked with.",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "explain Object-Oriented Programming",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "what polymorphism is",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "where I’ve implemented it",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "the difference between the two types of polymorphism.",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "what challenges I faced during my internship.",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "why I chose Barclays",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "What would I do if a superior said something rude to me in a meeting?",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "how I would handle it if a junior told me I had spoken rudely to them",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "how I would manage two team members arguing during a meeting if I were the team leader.",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "describe a situation where I experienced conflict with teammates",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "share an experience where I led a team.",
+              "kind": "hr",
+              "page": 3
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2,
+            3
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "Make sure to review the core concepts of OOPS, DBMS, and basic SQL queries.",
+          "category": "OA preparation",
+          "page": 1
+        },
+        {
+          "text": "For the coding question, submit your code even if it only passes partial test cases.",
+          "category": "Coding preparation",
+          "page": 1
+        },
+        {
+          "text": "For this round, it's important to answer honestly. You’re not expected to know everything, but relate what you do know to the topic.",
+          "category": "Interview strategy",
+          "page": 2
+        },
+        {
+          "text": "For HR questions, it's important to understand the company’s values and tailor your answers accordingly.",
+          "category": "HR preparation",
+          "page": 3
+        },
+        {
+          "text": "Be confident and answer in a structured manner.",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "Make sure to be thorough with your resume.",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "Research the company beforehand and adjust your resume and answers to fit their requirements. (Barclays expects proficiency in Java and SQL.)",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "Reassure the interviewer that even if you're unfamiliar with a certain topic, you're eager and ready to learn it.",
+          "category": "Interview strategy",
+          "page": 3
+        }
+      ],
+      "resources": [],
+      "filename": "Barclays_Summer Intern_Mridula Raul.pdf",
+      "source_path": "2026/Barclays_Summer_Interns/Barclays_Summer Intern_Mridula Raul.pdf",
+      "pages": [
+        1,
+        2,
+        3
+      ],
+      "content_sha256": "5f25068764d239c6f7be671f45d67b941143d5a8019e25317ea8a3edea007a30"
+    },
+    {
+      "experience_id": "barclays_summer_interns-2026-4bf61956-1",
+      "company": "Barclays_Summer_Interns",
+      "company_id": "barclays_summer_interns",
+      "year": "2026",
+      "role": "Summer Intern 2025",
+      "rounds": [
+        {
+          "name": "Technical Round",
+          "category": "Technical Interview",
+          "description": null,
+          "topics": [
+            {
+              "original": "CS core subjects",
+              "canonical": "CS core subjects",
+              "category": "Other"
+            },
+            {
+              "original": "OOPs",
+              "canonical": "Object-Oriented Programming",
+              "category": "OOPs"
+            },
+            {
+              "original": "DBMS",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "DS",
+              "canonical": "DS",
+              "category": "Other"
+            },
+            {
+              "original": "CCN",
+              "canonical": "CCN",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "introduce yourself",
+              "kind": "hr",
+              "page": 1
+            },
+            {
+              "text": "CS fundamentals in different subjects",
+              "kind": "technical",
+              "page": 1
+            },
+            {
+              "text": "my favourite problem that I had solved",
+              "kind": "coding",
+              "page": 1
+            },
+            {
+              "text": "explain some of the projects on my resume",
+              "kind": "project",
+              "page": 1
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Techno-HR Round",
+          "category": "Technical Interview",
+          "description": "This round was purely HR for some, and was a mix of techno-HR for others. The technical questions were not too different from what were asked in the first round, but some of the HR questions were very tricky. In my case, no matter how I answered, the interviewer seemed to dislike my answer, and would try to debate with me about it.",
+          "topics": [],
+          "questions": [],
+          "difficulty": null,
+          "pages": [
+            2
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "refreshing all the CS core subjects you have studied in earlier sems.",
+          "category": "Technical preparation",
+          "page": 1
+        },
+        {
+          "text": "prepare a good introduction for yourself and to present it confidently.",
+          "category": "Interview strategy",
+          "page": 1
+        },
+        {
+          "text": "Ideally, it would include your academic background, achievements, and something personal like your hobbies.",
+          "category": "Interview strategy",
+          "page": 1
+        },
+        {
+          "text": "They might ask a few questions about your hobbies, so be prepared to answer the same.",
+          "category": "HR preparation",
+          "page": 1
+        },
+        {
+          "text": "You need to answer these confidently, and seek no validation from the interviewer.",
+          "category": "Interview strategy",
+          "page": 1
+        },
+        {
+          "text": "do not panic if your interviewer gives no reaction at all beyond a 'yes' or an 'okay' to all my answers",
+          "category": "Interview strategy",
+          "page": 1
+        },
+        {
+          "text": "Make sure to review all your projects before going, as they do ask some very intricate questions regarding those.",
+          "category": "Project preparation",
+          "page": 1
+        },
+        {
+          "text": "Try to convey as much information as possible in your answers, and for the umpteenth time, be confident.",
+          "category": "Interview strategy",
+          "page": 1
+        },
+        {
+          "text": "You don't have to agree with the interviewer on every single point they raise, but be polite if you want to express that you disagree.",
+          "category": "Interview strategy",
+          "page": 2
+        },
+        {
+          "text": "If you did well on the technical questions in the round, you should mostly be fine even if the HR section was not that great.",
+          "category": "Interview strategy",
+          "page": 2
+        }
+      ],
+      "resources": [],
+      "filename": "Barclays_Summer_Inter_Siddhesh_Shrawne.pdf",
+      "source_path": "2026/Barclays_Summer_Interns/Barclays_Summer_Inter_Siddhesh_Shrawne.pdf",
+      "pages": [
+        1,
+        2
+      ],
+      "content_sha256": "4bf61956daaa2adff55fb19d28a1c878e3402cd85b08de1924916b602cc2b51f"
+    },
+    {
+      "experience_id": "barclays_summer_interns-2026-c211b182-1",
+      "company": "Barclays_Summer_Interns",
+      "company_id": "barclays_summer_interns",
+      "year": "2026",
+      "role": "Summer Intern 2025",
+      "rounds": [
+        {
+          "name": "Technical Round",
+          "category": "Technical Interview",
+          "description": "To prepare for this round, I focused on reviewing the core languages and technologies listed on my resume, including Java basics, SQL queries, and Django\n’s GET, POST, and PUT requests. I also ensured a strong understanding of Object-Oriented Programming (OOP) concepts. The interview lasted around 30 minutes, and the interviewer asked about my projects to assess my technical expertise. They explored various skills from my resume, particularly backend technologies like JWT, OAuth, Java, SQL, and Django. I answered most of the questions confidently, but I identified areas for improvement, particularly in more detailed aspects of web security such as JWT and OAuth.",
+          "topics": [
+            {
+              "original": "Java basics",
+              "canonical": "Java",
+              "category": "Programming languages"
+            },
+            {
+              "original": "SQL queries",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "Django\n’s GET, POST, and PUT requests",
+              "canonical": "Django\n’s GET, POST, and PUT requests",
+              "category": "Other"
+            },
+            {
+              "original": "Object-Oriented Programming (OOP) concepts",
+              "canonical": "Object-Oriented Programming",
+              "category": "OOPs"
+            },
+            {
+              "original": "JWT",
+              "canonical": "JWT",
+              "category": "Other"
+            },
+            {
+              "original": "OAuth",
+              "canonical": "OAuth",
+              "category": "Other"
+            },
+            {
+              "original": "Java",
+              "canonical": "Java",
+              "category": "Programming languages"
+            },
+            {
+              "original": "SQL",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "Django",
+              "canonical": "Django",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "about my projects",
+              "kind": "project",
+              "page": 1
+            },
+            {
+              "text": "writing SQL queries",
+              "kind": "coding",
+              "page": 1
+            },
+            {
+              "text": "explaining Java fundamentals",
+              "kind": "technical",
+              "page": 1
+            },
+            {
+              "text": "demonstrating how to handle different HTTP requests (GET, POST, PUT) in Django",
+              "kind": "technical",
+              "page": 1
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "HR Round",
+          "category": "HR Interview",
+          "description": "The HR round assessed both my technical background and interpersonal skills. This round focused on my values and decision-making, with an emphasis on teamwork, leadership, and adaptability. It was a good opportunity to demonstrate my communication skills and highlight my ability to collaborate in different environments.",
+          "topics": [
+            {
+              "original": "technical background",
+              "canonical": "Technical Background",
+              "category": "Other"
+            },
+            {
+              "original": "interpersonal skills",
+              "canonical": "Interpersonal Skills",
+              "category": "Other"
+            },
+            {
+              "original": "values",
+              "canonical": "Values",
+              "category": "Other"
+            },
+            {
+              "original": "decision-making",
+              "canonical": "Decision-Making",
+              "category": "Other"
+            },
+            {
+              "original": "teamwork",
+              "canonical": "Teamwork",
+              "category": "Other"
+            },
+            {
+              "original": "leadership",
+              "canonical": "Leadership",
+              "category": "Other"
+            },
+            {
+              "original": "adaptability",
+              "canonical": "Adaptability",
+              "category": "Other"
+            },
+            {
+              "original": "communication skills",
+              "canonical": "Communication Skills",
+              "category": "Other"
+            },
+            {
+              "original": "collaboration",
+              "canonical": "Collaboration",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "share something not included in my resume",
+              "kind": "hr",
+              "page": 1
+            },
+            {
+              "text": "discuss my technical achievements",
+              "kind": "hr",
+              "page": 1
+            },
+            {
+              "text": "explain how I resolved issues in previous projects",
+              "kind": "hr",
+              "page": 1
+            },
+            {
+              "text": "how I approach unfamiliar frameworks",
+              "kind": "hr",
+              "page": 1
+            },
+            {
+              "text": "how I work within diverse teams",
+              "kind": "hr",
+              "page": 1
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            1
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "Brush Up on Core Concepts: Before interviews, review the core technologies and languages on your resume, especially Java, SQL, and backend tools like Django. Be prepared to explain the basics as well as practical applications.",
+          "category": "Technical preparation",
+          "page": 1
+        },
+        {
+          "text": "Master HTTP Methods in Web Development: If your profile includes backend technologies, be comfortable explaining the difference between GET, POST, and PUT requests in frameworks like Django. Know how these methods work in real projects.",
+          "category": "Technical preparation",
+          "page": 1
+        },
+        {
+          "text": "Know Your Tools: If you list tools like Postman or Swagger on your resume, ensure you're familiar with their use cases. Being able to demonstrate practical knowledge of these tools can set you apart.",
+          "category": "Technical preparation",
+          "page": 2
+        },
+        {
+          "text": "Prepare for Behavioral Questions: HR interviews may focus on soft skills like teamwork, leadership, and adaptability. Reflect on past experiences where you demonstrated these qualities.",
+          "category": "HR preparation",
+          "page": 2
+        },
+        {
+          "text": "Confidence and Clarity: It's okay if you don’t know every answer. Be confident in explaining your thought process, and be transparent about areas where you're still learning.",
+          "category": "Interview strategy",
+          "page": 2
+        }
+      ],
+      "resources": [
+        {
+          "title": "Javatpoint",
+          "url": null,
+          "description": null,
+          "topic": "Object-Oriented Programming (OOP) concepts",
+          "page": 1
+        },
+        {
+          "title": "GeeksforGeeks",
+          "url": null,
+          "description": null,
+          "topic": "Object-Oriented Programming (OOP) concepts",
+          "page": 1
+        }
+      ],
+      "filename": "Barclays_summer_intern_2025_ASIM.pdf",
+      "source_path": "2026/Barclays_Summer_Interns/Barclays_summer_intern_2025_ASIM.pdf",
+      "pages": [
+        1,
+        2
+      ],
+      "content_sha256": "c211b182defcce7354372977f05fee6fd0e9adf91133a82d15a29801bdd59b57"
+    },
+    {
+      "experience_id": "barclays_summer_interns-2026-8089e284-1",
+      "company": "Barclays_Summer_Interns",
+      "company_id": "barclays_summer_interns",
+      "year": "2026",
+      "role": "Summer Intern 2025",
+      "rounds": [
+        {
+          "name": "Technical Round",
+          "category": "Technical Interview",
+          "description": "During the 30-minute interview, the interviewer asked detailed questions about my projects, including an in-depth explanation of the algorithms used in one of them. Additionally, I was asked technical questions related to various databases and the software development process. I also explained the tools mentioned on my resume. The questions were primarily based on the content of my resume, which for me involved web development and machine learning.",
+          "topics": [
+            {
+              "original": "programming languages",
+              "canonical": "Programming Languages",
+              "category": "Other"
+            },
+            {
+              "original": "Object-Oriented Programming (OOP)",
+              "canonical": "Object-Oriented Programming",
+              "category": "OOPs"
+            },
+            {
+              "original": "Database Management Systems (DBMS)",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "algorithms",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "databases",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "software development process",
+              "canonical": "Software Development Process",
+              "category": "Other"
+            },
+            {
+              "original": "web development",
+              "canonical": "Web Development",
+              "category": "Other"
+            },
+            {
+              "original": "machine learning",
+              "canonical": "Machine Learning",
+              "category": "Other"
+            }
+          ],
+          "questions": [],
+          "difficulty": null,
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "HR Round",
+          "category": "HR Interview",
+          "description": "This interview focused on assessing both my technical knowledge and soft skills. In addition to questions related to my projects, the interviewer also tested my understanding of operating systems and Object-Oriented Programming (OOP).",
+          "topics": [
+            {
+              "original": "operating systems",
+              "canonical": "Operating Systems",
+              "category": "Operating systems"
+            },
+            {
+              "original": "Object-Oriented Programming (OOP)",
+              "canonical": "Object-Oriented Programming",
+              "category": "OOPs"
+            },
+            {
+              "original": "projects",
+              "canonical": "Projects",
+              "category": "Projects"
+            }
+          ],
+          "questions": [
+            {
+              "text": "What is defragmentation?",
+              "kind": "technical",
+              "page": 1
+            },
+            {
+              "text": "How does file allocation work?",
+              "kind": "technical",
+              "page": 1
+            },
+            {
+              "text": "How would you copy an object?",
+              "kind": "technical",
+              "page": 1
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            1
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "Know your resume thoroughly and include only the tech stack you are confident in.",
+          "category": "Interview strategy",
+          "page": 2
+        },
+        {
+          "text": "Revise key concepts in Operating Systems (OS), Object-Oriented Programming (OOP), Data Structures and Algorithms (DSA), and Database Management Systems (DBMS).",
+          "category": "Technical preparation",
+          "page": 2
+        },
+        {
+          "text": "Understand the alternatives to the tech stack used in your projects and be prepared to explain why your chosen stack is the best option.",
+          "category": "Project preparation",
+          "page": 2
+        },
+        {
+          "text": "If you don't know something, be honest and express your willingness to learn.",
+          "category": "Interview strategy",
+          "page": 2
+        }
+      ],
+      "resources": [],
+      "filename": "Barclays_Summer_Intern_Maureen_Miranda.pdf",
+      "source_path": "2026/Barclays_Summer_Interns/Barclays_Summer_Intern_Maureen_Miranda.pdf",
+      "pages": [
+        1,
+        2
+      ],
+      "content_sha256": "8089e284c3d13d2aba05811e297734bb76d7a652c57197d38b11c9d1b81c92f1"
+    },
+    {
+      "experience_id": "barclays_summer_interns-2026-7fdba2d5-1",
+      "company": "Barclays_Summer_Interns",
+      "company_id": "barclays_summer_interns",
+      "year": "2026",
+      "role": "Summer Intern 2025",
+      "rounds": [
+        {
+          "name": "Online Assessment",
+          "category": "Online Assessment",
+          "description": "This was an online test conducted at college consisting of 14 questions. Among these, one was a coding question that carried maximum weightage, one was an SQL and rest 13 focused on CS fundamentals with a significant emphasis on DBMS and OOPS.",
+          "topics": [
+            {
+              "original": "OOPS",
+              "canonical": "Object-Oriented Programming",
+              "category": "OOPs"
+            },
+            {
+              "original": "DBMS",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "CN",
+              "canonical": "Computer Networks",
+              "category": "Computer networks"
+            },
+            {
+              "original": "OS",
+              "canonical": "Operating Systems",
+              "category": "Operating systems"
+            },
+            {
+              "original": "DSA",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "SQL",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "CS fundamentals",
+              "canonical": "CS fundamentals",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "one coding question",
+              "kind": "coding",
+              "page": 1
+            },
+            {
+              "text": "one SQL question",
+              "kind": "technical",
+              "page": 1
+            },
+            {
+              "text": "13 questions focused on CS fundamentals with a significant emphasis on DBMS and OOPS",
+              "kind": "technical",
+              "page": 1
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Technical Interview",
+          "category": "Technical Interview",
+          "description": "This round lasted for about 25-30 minutes. The process began with the interviewer asking me to introduce myself, followed by a few questions related to my resume. Since I'm from Jammu and currently studying in Mumbai, they asked why I chose to come so far for my education. They also inquired about my interest in the IT sector and whether I genuinely wanted to pursue a career in this field. This was a brief conversation before the technical questions started. Next, I was asked to explain one of the projects I had listed on my resume. I selected a project and went into detail about it. The interviewer asked why I chose specific technologies for the project (e.g., \"Why did you use Next.js instead of React?\"). They also wanted to understand the relevance of the project: whether it had any real-life application and if it was solving a real-world problem. After that, we moved on to questions related to computer science fundamentals. I was given real-life scenarios and asked how I would solve certain problems. One question I remember was about withdrawing money from an ATM. The question was: If money is debited from your account but not dispensed by the ATM, what could be the issue and how would you resolve it? Another technical question involved synchronizing two APIs: If the result of the first API is used as input for the second, how would you avoid any errors or overlaps during this process?. Then, the interviewer asked few questions on OOPS and DBMS.",
+          "topics": [
+            {
+              "original": "resume",
+              "canonical": "Resume",
+              "category": "Other"
+            },
+            {
+              "original": "projects",
+              "canonical": "Projects",
+              "category": "Projects"
+            },
+            {
+              "original": "computer science fundamentals",
+              "canonical": "Computer Science Fundamentals",
+              "category": "Other"
+            },
+            {
+              "original": "OOPS",
+              "canonical": "Object-Oriented Programming",
+              "category": "OOPs"
+            },
+            {
+              "original": "DBMS",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            }
+          ],
+          "questions": [
+            {
+              "text": "introduce myself",
+              "kind": "hr",
+              "page": 1
+            },
+            {
+              "text": "questions related to my resume",
+              "kind": "project",
+              "page": 1
+            },
+            {
+              "text": "why I chose to come so far for my education",
+              "kind": "hr",
+              "page": 1
+            },
+            {
+              "text": "my interest in the IT sector and whether I genuinely wanted to pursue a career in this field",
+              "kind": "hr",
+              "page": 1
+            },
+            {
+              "text": "explain one of the projects I had listed on my resume",
+              "kind": "project",
+              "page": 1
+            },
+            {
+              "text": "Why did you use Next.js instead of React?",
+              "kind": "project",
+              "page": 1
+            },
+            {
+              "text": "relevance of the project: whether it had any real-life application and if it was solving a real-world problem",
+              "kind": "project",
+              "page": 1
+            },
+            {
+              "text": "If money is debited from your account but not dispensed by the ATM, what could be the issue and how would you resolve it?",
+              "kind": "technical",
+              "page": 1
+            },
+            {
+              "text": "If the result of the first API is used as input for the second, how would you avoid any errors or overlaps during this process?",
+              "kind": "technical",
+              "page": 1
+            },
+            {
+              "text": "few questions on OOPS and DBMS",
+              "kind": "technical",
+              "page": 1
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "HR",
+          "category": "HR Interview",
+          "description": "The interview started with the typical question: “Introduce yourself.” After that, I was asked a series of behavioral and personal questions, including: When did you take a position of responsibility? What challenges did you face, and how did you overcome them? How many members are there in your family? Do you often have conflicts with your siblings? Can you share an experience where you worked in a team, and there were differences in opinions? How did you resolve the conflict or handle clashes between your views and those of your team members? The interviewer also wanted to assess my general awareness and asked for my opinion on the current situation in Gaza and the Israel conflict. This round lasted around 20-25 minutes.",
+          "topics": [
+            {
+              "original": "behavioral questions",
+              "canonical": "HR and Behavioral Questions",
+              "category": "HR and behavioral"
+            },
+            {
+              "original": "personal questions",
+              "canonical": "Personal Questions",
+              "category": "Other"
+            },
+            {
+              "original": "general awareness",
+              "canonical": "General Awareness",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Introduce yourself.",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "When did you take a position of responsibility? What challenges did you face, and how did you overcome them?",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "How many members are there in your family? Do you often have conflicts with your siblings?",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "Can you share an experience where you worked in a team, and there were differences in opinions? How did you resolve the conflict or handle clashes between your views and those of your team members?",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "my opinion on the current situation in Gaza and the Israel conflict",
+              "kind": "hr",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "To clear this round, it’s important to be thoroughly prepared with your resume and solid in your understanding of computer science fundamentals.",
+          "category": "Technical preparation",
+          "page": 2
+        },
+        {
+          "text": "I wasn’t fully prepared for this type of questioning, but I stayed honest and answered each question based on the STAR (Situation, Task, Action, Result) approach.",
+          "category": "HR preparation",
+          "page": 2
+        },
+        {
+          "text": "It’s crucial to stay calm and composed.",
+          "category": "Interview strategy",
+          "page": 2
+        },
+        {
+          "text": "Even if you don’t have an immediate answer, take a moment to think it through and respond confidently.",
+          "category": "Interview strategy",
+          "page": 2
+        },
+        {
+          "text": "It’s always a good idea to practice these types of questions beforehand with friends or family through mock interviews. This helps you prepare and handle such rounds more smoothly.",
+          "category": "HR preparation",
+          "page": 2
+        },
+        {
+          "text": "Be thorough with your resume. If you've mentioned something, ensure you can provide detailed answers if asked about it. Self-assess by asking yourself, “If I am asked this, will I be able to answer?”",
+          "category": "Interview strategy",
+          "page": 2
+        },
+        {
+          "text": "Have in-depth knowledge of core subjects like DBMS, OOPS, OS, and Computer Networks (CN).",
+          "category": "Technical preparation",
+          "page": 2
+        },
+        {
+          "text": "Utilize various online resources such as Javatpoint and GeeksForGeeks.",
+          "category": "Technical preparation",
+          "page": 2
+        },
+        {
+          "text": "Practice problems on platforms like LeetCode and GeeksForGeeks.",
+          "category": "Coding preparation",
+          "page": 2
+        },
+        {
+          "text": "You can follow structured preparation sheets like the Striver Sheet and participate in coding contests.",
+          "category": "Coding preparation",
+          "page": 2
+        },
+        {
+          "text": "This will help you develop skills to solve problems in a time-constrained environment.",
+          "category": "Coding preparation",
+          "page": 2
+        },
+        {
+          "text": "For HR interviews, maintain confidence.",
+          "category": "HR preparation",
+          "page": 2
+        },
+        {
+          "text": "It’s beneficial to be prepared for common behavioral questions to help you respond effectively.",
+          "category": "HR preparation",
+          "page": 2
+        }
+      ],
+      "resources": [
+        {
+          "title": "Leetcode",
+          "url": null,
+          "description": null,
+          "topic": "DSA problems",
+          "page": 1
+        },
+        {
+          "title": "Javatpoint",
+          "url": null,
+          "description": null,
+          "topic": "core subjects",
+          "page": 2
+        },
+        {
+          "title": "GeeksForGeeks",
+          "url": null,
+          "description": null,
+          "topic": "core subjects",
+          "page": 2
+        },
+        {
+          "title": "LeetCode",
+          "url": null,
+          "description": null,
+          "topic": "practice problems",
+          "page": 2
+        },
+        {
+          "title": "GeeksForGeeks",
+          "url": null,
+          "description": null,
+          "topic": "practice problems",
+          "page": 2
+        },
+        {
+          "title": "Striver Sheet",
+          "url": null,
+          "description": null,
+          "topic": "structured preparation",
+          "page": 2
+        }
+      ],
+      "filename": "Barclays_Summer_Intern_Nitish_Sharma.pdf",
+      "source_path": "2026/Barclays_Summer_Interns/Barclays_Summer_Intern_Nitish_Sharma.pdf",
+      "pages": [
+        1,
+        2
+      ],
+      "content_sha256": "7fdba2d5dd464ae8ae3f323f1d1e4188cb3284b2bcb5d4b736b08eb1ce4d989d"
+    },
+    {
+      "experience_id": "barclays_summer_interns-2026-f5694dc8-1",
+      "company": "Barclays_Summer_Interns",
+      "company_id": "barclays_summer_interns",
+      "year": "2026",
+      "role": "Summer Intern 2025",
+      "rounds": [
+        {
+          "name": "Online Assessment",
+          "category": "Online Assessment",
+          "description": "This was an online test conducted at college consisting of 14 questions. Among these, one was a coding question that carried maximum weightage, one was an SQL and rest 13 focused on CS fundamentals with a significant emphasis on DBMS and OOPS.",
+          "topics": [
+            {
+              "original": "OOPS",
+              "canonical": "Object-Oriented Programming",
+              "category": "OOPs"
+            },
+            {
+              "original": "DBMS",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "CN",
+              "canonical": "Computer Networks",
+              "category": "Computer networks"
+            },
+            {
+              "original": "OS",
+              "canonical": "Operating Systems",
+              "category": "Operating systems"
+            },
+            {
+              "original": "DSA",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "SQL",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            }
+          ],
+          "questions": [
+            {
+              "text": "one coding question that carried maximum weightage (n<=10^3)",
+              "kind": "coding",
+              "page": 1
+            },
+            {
+              "text": "one SQL question",
+              "kind": "technical",
+              "page": 1
+            },
+            {
+              "text": "13 questions focused on CS fundamentals with a significant emphasis on DBMS and OOPS",
+              "kind": "technical",
+              "page": 1
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Technical Interview",
+          "category": "Technical Interview",
+          "description": "This round lasted for about 25-30 minutes. The process began with the interviewer asking me to introduce myself, followed by a few questions related to my resume. In introduction only I helped myself by saying my favourite subject is DSA and them the interviewer asked me some basic DSA question like (swapping 2 number without extra variable, pattern print, linked list, etc) . Afterwards he shifted towards project asked about backend part which I was prepared then he went to grill me on DBMS and asked about why Normalisation is necessary , asked some SQL queries (I will suggest you to do 50 sql questions on Leetcode) .",
+          "topics": [
+            {
+              "original": "DSA",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "resume",
+              "canonical": "Resume",
+              "category": "Other"
+            },
+            {
+              "original": "project",
+              "canonical": "Projects",
+              "category": "Projects"
+            },
+            {
+              "original": "DBMS",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "Normalisation",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "SQL",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            }
+          ],
+          "questions": [
+            {
+              "text": "introduce myself",
+              "kind": "other",
+              "page": 1
+            },
+            {
+              "text": "questions related to my resume",
+              "kind": "project",
+              "page": 1
+            },
+            {
+              "text": "swapping 2 number without extra variable",
+              "kind": "coding",
+              "page": 1
+            },
+            {
+              "text": "pattern print",
+              "kind": "coding",
+              "page": 1
+            },
+            {
+              "text": "linked list",
+              "kind": "coding",
+              "page": 1
+            },
+            {
+              "text": "backend part (of project)",
+              "kind": "project",
+              "page": 1
+            },
+            {
+              "text": "why Normalisation is necessary",
+              "kind": "technical",
+              "page": 1
+            },
+            {
+              "text": "SQL queries",
+              "kind": "technical",
+              "page": 1
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "HR",
+          "category": "HR Interview",
+          "description": "The interview started with the typical question: “Introduce yourself.” After that, I was asked a series of behavioral and personal questions. Overall the HR interview was chill, it mostly tries to find if you are a good person and can fit in their company .",
+          "topics": [
+            {
+              "original": "behavioral",
+              "canonical": "HR and Behavioral Questions",
+              "category": "HR and behavioral"
+            },
+            {
+              "original": "personal",
+              "canonical": "Personal",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Introduce yourself.",
+              "kind": "hr",
+              "page": 1
+            },
+            {
+              "text": "Why Barclays?",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "What was the reason behind every project you built?",
+              "kind": "project",
+              "page": 2
+            },
+            {
+              "text": "What is your favourite subject and most hated subject?",
+              "kind": "hr",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            1,
+            2
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "To prepare for this round, I thoroughly revised the concepts of OOPS, DBMS, CN, OS and DSA.",
+          "category": "OA preparation",
+          "page": 1
+        },
+        {
+          "text": "I practiced DSA problems on LEETCODE , CODEFORCES and also had participated in many contests.",
+          "category": "Coding preparation",
+          "page": 1
+        },
+        {
+          "text": "One tip to ace this round will be to see constraints because our DSA question had n<=10^3 which I Did by brute force (n^2).",
+          "category": "Coding preparation",
+          "page": 1
+        },
+        {
+          "text": "To clear this round, it’s important to be thoroughly prepared with your resume and solid in your understanding of computer science fundamentals.",
+          "category": "Interview strategy",
+          "page": 1
+        },
+        {
+          "text": "I will suggest you to do 50 sql questions on Leetcode",
+          "category": "Technical preparation",
+          "page": 1
+        },
+        {
+          "text": "Be thorough with your resume. If you've mentioned something, ensure you can provide detailed answers if asked about it. Self-assess by asking yourself, “If I am asked this, will I be able to answer?”",
+          "category": "Interview strategy",
+          "page": 2
+        },
+        {
+          "text": "Have in-depth knowledge of core subjects like DBMS, OOPS, OS, and Computer Networks (CN).",
+          "category": "Technical preparation",
+          "page": 2
+        },
+        {
+          "text": "Practice problems on platforms CODEFORCES, LEETCODE and also try to give time to questions . I never used to see solution until I have no approaches but still sometimes I Used to give 1 -2 day for a problem .",
+          "category": "Coding preparation",
+          "page": 2
+        },
+        {
+          "text": "Students should not focus on more fancy things like GENAI etc, focus on basics, core subjects no student had any project solely based on core subjects ) .",
+          "category": "Interview strategy",
+          "page": 2
+        },
+        {
+          "text": "I will say if you say you are proficient in C++ or java have at least project in that language.",
+          "category": "Project preparation",
+          "page": 2
+        }
+      ],
+      "resources": [
+        {
+          "title": "JAVATPOINT",
+          "url": null,
+          "description": "Utilize various online resources such as JAVATPOINT and GEEKSFORGEEKS.",
+          "topic": "core subjects",
+          "page": 2
+        },
+        {
+          "title": "GEEKSFORGEEKS",
+          "url": null,
+          "description": "Utilize various online resources such as JAVATPOINT and GEEKSFORGEEKS.",
+          "topic": "core subjects",
+          "page": 2
+        }
+      ],
+      "filename": "Barclays_Summer_Intern_Sumit_Patel.pdf",
+      "source_path": "2026/Barclays_Summer_Interns/Barclays_Summer_Intern_Sumit_Patel.pdf",
+      "pages": [
+        1,
+        2
+      ],
+      "content_sha256": "f5694dc819ba5a3aa32978dd9fd41fe68ebb4e568e282a8c98a8141a52518c6b"
+    },
+    {
+      "experience_id": "barclays_summer_interns-2026-6ce15190-1",
+      "company": "Barclays_Summer_Interns",
+      "company_id": "barclays_summer_interns",
+      "year": "2026",
+      "role": "Summer Intern 2025",
+      "rounds": [
+        {
+          "name": "Online Assessment",
+          "category": "Online Assessment",
+          "description": "This was an online test conducted at college consisting of 14 questions of total marks 100. Among these, one was a coding question with 10 test cases for 50 marks that carried maximum weightage, one was an SQL query question for 10 marks and the rest 12 focused on CS fundamentals with a significant emphasis on DBMS and OOPS.",
+          "topics": [
+            {
+              "original": "coding",
+              "canonical": "Coding",
+              "category": "Other"
+            },
+            {
+              "original": "SQL",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "CS fundamentals",
+              "canonical": "CS fundamentals",
+              "category": "Other"
+            },
+            {
+              "original": "DBMS",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "OOPS",
+              "canonical": "Object-Oriented Programming",
+              "category": "OOPs"
+            },
+            {
+              "original": "CN",
+              "canonical": "Computer Networks",
+              "category": "Computer networks"
+            },
+            {
+              "original": "OS",
+              "canonical": "Operating Systems",
+              "category": "Operating systems"
+            },
+            {
+              "original": "DSA",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            }
+          ],
+          "questions": [
+            {
+              "text": "coding question with 10 test cases",
+              "kind": "coding",
+              "page": 1
+            },
+            {
+              "text": "SQL query question",
+              "kind": "technical",
+              "page": 1
+            },
+            {
+              "text": "12 questions focused on CS fundamentals with a significant emphasis on DBMS and OOPS",
+              "kind": "technical",
+              "page": 1
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Technical Interview",
+          "category": "Technical Interview",
+          "description": "The interview lasted for about 30-40 minutes. It started with the interviewer asking me to introduce myself. After hearing my introduction, he focused on my interest in machine learning and asked me to explain what machine learning is.Next, he asked how machine learning actually works and what \"data\" is. After that he gave me a scenario: \"What if some wrong or extreme values are included in the dataset? How would you make sure the machine still gives accurate results?\". After discussing machine learning, the interviewer moved on to DBMS. He gave me a table and asked me to normalize it step by step, explaining how to make the table more efficient by reducing redundancy. He also asked me about DML and DDL commands.Then he asked me one numerical question on all types of join. Next, we shifted to data structures and problem-solving. He asked me a few questions about linked lists, including how to write code to detect if there’s a cycle in a linked list and how to swap two nodes. He also asked how to swap two numbers without using extra variables. There was a pattern-printing question as well, where I had to write code to print a specific design using loops.Toward the end, the interviewer asked about my experience with competitive programming and rating as mentioned on my resume. At the end he asked about Git and GitHub.",
+          "topics": [
+            {
+              "original": "machine learning",
+              "canonical": "Machine Learning",
+              "category": "Other"
+            },
+            {
+              "original": "DBMS",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "data structures",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "problem-solving",
+              "canonical": "Problem-Solving",
+              "category": "Other"
+            },
+            {
+              "original": "linked lists",
+              "canonical": "Linked Lists",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "competitive programming",
+              "canonical": "Competitive Programming",
+              "category": "Other"
+            },
+            {
+              "original": "Git",
+              "canonical": "Git",
+              "category": "Other"
+            },
+            {
+              "original": "GitHub",
+              "canonical": "GitHub",
+              "category": "Other"
+            },
+            {
+              "original": "resume",
+              "canonical": "Resume",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "introduce myself",
+              "kind": "hr",
+              "page": 1
+            },
+            {
+              "text": "explain what machine learning is",
+              "kind": "technical",
+              "page": 1
+            },
+            {
+              "text": "how machine learning actually works",
+              "kind": "technical",
+              "page": 1
+            },
+            {
+              "text": "what \"data\" is",
+              "kind": "technical",
+              "page": 1
+            },
+            {
+              "text": "What if some wrong or extreme values are included in the dataset? How would you make sure the machine still gives accurate results?",
+              "kind": "technical",
+              "page": 1
+            },
+            {
+              "text": "normalize a table step by step, explaining how to make the table more efficient by reducing redundancy",
+              "kind": "technical",
+              "page": 1
+            },
+            {
+              "text": "DML and DDL commands",
+              "kind": "technical",
+              "page": 1
+            },
+            {
+              "text": "one numerical question on all types of join",
+              "kind": "technical",
+              "page": 1
+            },
+            {
+              "text": "how to write code to detect if there’s a cycle in a linked list",
+              "kind": "coding",
+              "page": 1
+            },
+            {
+              "text": "how to swap two nodes",
+              "kind": "coding",
+              "page": 1
+            },
+            {
+              "text": "how to swap two numbers without using extra variables",
+              "kind": "coding",
+              "page": 1
+            },
+            {
+              "text": "pattern-printing question, where I had to write code to print a specific design using loops",
+              "kind": "coding",
+              "page": 1
+            },
+            {
+              "text": "experience with competitive programming and rating as mentioned on my resume",
+              "kind": "other",
+              "page": 1
+            },
+            {
+              "text": "Git and GitHub",
+              "kind": "technical",
+              "page": 1
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "HR Interview",
+          "category": "HR Interview",
+          "description": "The interview started with the typical question: “Introduce yourself.” After that, I was asked a series of behavioral and personal questions, including: Tell me about your experience during your last internship, and what challenges did you face? What were your learnings from this? Why do you want to join Barclays as an intern? Can you share an experience where you worked in a team, and there were differences in opinions? How did you resolve the conflict or handle clashes between your views and those of your team members? After these questions, the interviewer shifted focus to more specific topics related to the role. He noted my interest in machine learning but mentioned that the internship might involve work in different domains. They asked if I would be willing to work in another area.He also asked whether I had completed any projects using core languages like C or C++.",
+          "topics": [
+            {
+              "original": "behavioral questions",
+              "canonical": "HR and Behavioral Questions",
+              "category": "HR and behavioral"
+            },
+            {
+              "original": "personal questions",
+              "canonical": "Personal Questions",
+              "category": "Other"
+            },
+            {
+              "original": "internship experience",
+              "canonical": "Internship Experience",
+              "category": "Other"
+            },
+            {
+              "original": "machine learning",
+              "canonical": "Machine Learning",
+              "category": "Other"
+            },
+            {
+              "original": "C",
+              "canonical": "C",
+              "category": "Programming languages"
+            },
+            {
+              "original": "C++",
+              "canonical": "C++",
+              "category": "Programming languages"
+            },
+            {
+              "original": "career goals",
+              "canonical": "Career Goals",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Introduce yourself.",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "Tell me about your experience during your last internship, and what challenges did you face?",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "What were your learnings from this?",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "Why do you want to join Barclays as an intern?",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "Can you share an experience where you worked in a team, and there were differences in opinions? How did you resolve the conflict or handle clashes between your views and those of your team members?",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "if I would be willing to work in another area",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "whether I had completed any projects using core languages like C or C++",
+              "kind": "project",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "Be thorough with your resume. If you've mentioned something, ensure you can provide detailed answers when asked about it.",
+          "category": "Interview strategy",
+          "page": 2
+        },
+        {
+          "text": "Have in-depth knowledge of core subjects like DBMS, OOPS, Operating Systems, and Computer Networks.",
+          "category": "Technical preparation",
+          "page": 2
+        },
+        {
+          "text": "Practice solving problems on platforms like Codeforces, CodeChef, and LeetCode. Also, participate in coding contests to enhance your ability to solve problems under time constraints.",
+          "category": "Coding preparation",
+          "page": 2
+        },
+        {
+          "text": "For HR interviews, maintain confidence and honesty. It’s helpful to be prepared for common behavioral questions to respond more effectively.",
+          "category": "HR preparation",
+          "page": 2
+        },
+        {
+          "text": "During the technical round, I was advised to write down my answers on rough paper before explaining them, which helped organize my thoughts.",
+          "category": "Interview strategy",
+          "page": 2
+        },
+        {
+          "text": "The interviewer also emphasized the importance of sticking to the basics.",
+          "category": "Interview strategy",
+          "page": 2
+        }
+      ],
+      "resources": [
+        {
+          "title": "Javatpoint",
+          "url": null,
+          "description": null,
+          "topic": "core subjects",
+          "page": 2
+        },
+        {
+          "title": "GeeksforGeeks",
+          "url": null,
+          "description": null,
+          "topic": "core subjects",
+          "page": 2
+        },
+        {
+          "title": "Codeforces",
+          "url": null,
+          "description": null,
+          "topic": "problem solving",
+          "page": 2
+        },
+        {
+          "title": "CodeChef",
+          "url": null,
+          "description": null,
+          "topic": "problem solving",
+          "page": 2
+        },
+        {
+          "title": "LeetCode",
+          "url": null,
+          "description": null,
+          "topic": "problem solving",
+          "page": 2
+        }
+      ],
+      "filename": "Barclays_Summer_Intern_Vikas_Singh.pdf",
+      "source_path": "2026/Barclays_Summer_Interns/Barclays_Summer_Intern_Vikas_Singh.pdf",
+      "pages": [
+        1,
+        2
+      ],
+      "content_sha256": "6ce15190fbf7da7e9f60b3de8bdde0dfd7a6f7d3fbb0541713fcf40965774618"
+    },
+    {
+      "experience_id": "barclays_summer_interns-2026-d59d6140-1",
+      "company": "Barclays_Summer_Interns",
+      "company_id": "barclays_summer_interns",
+      "year": "2026",
+      "role": "Intern",
+      "rounds": [
+        {
+          "name": "Online assessment",
+          "category": "Online Assessment",
+          "description": "The first round was an online assessment held in the college lab. Despite being an online test, it was monitored closely to ensure fairness.",
+          "topics": [
+            {
+              "original": "data structures",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "algorithms",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "aptitude",
+              "canonical": "Quantitative Aptitude",
+              "category": "Aptitude"
+            },
+            {
+              "original": "programming logic",
+              "canonical": "Programming Logic",
+              "category": "Other"
+            },
+            {
+              "original": "SQL",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            }
+          ],
+          "questions": [
+            {
+              "text": "12 multiple-choice questions (MCQs) on topics such as data structures, algorithms, and aptitude.",
+              "kind": "aptitude",
+              "page": 1
+            },
+            {
+              "text": "1 coding question, which required solving a problem using programming logic.",
+              "kind": "coding",
+              "page": 1
+            },
+            {
+              "text": "1 SQL question, where candidates had to write a query based on a given dataset.",
+              "kind": "technical",
+              "page": 1
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Technical Interview",
+          "category": "Technical Interview",
+          "description": "After the online assessment, 35 candidates were shortlisted for the technical interview, which was conducted offline the next day. This round involved in-depth questions about: Your technical knowledge of programming languages, data structures, and algorithms. Problem-solving skills, where you might be asked to solve problems on a whiteboard or explain your thought process. Questions about projects listed on your resume, with particular emphasis on your role, challenges faced, and how you overcame them.",
+          "topics": [
+            {
+              "original": "programming languages",
+              "canonical": "Programming Languages",
+              "category": "Other"
+            },
+            {
+              "original": "data structures",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "algorithms",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "problem-solving skills",
+              "canonical": "Problem-Solving Skills",
+              "category": "Other"
+            },
+            {
+              "original": "projects",
+              "canonical": "Projects",
+              "category": "Projects"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Your technical knowledge of programming languages, data structures, and algorithms.",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Problem-solving skills, where you might be asked to solve problems on a whiteboard or explain your thought process.",
+              "kind": "coding",
+              "page": 2
+            },
+            {
+              "text": "Questions about projects listed on your resume, with particular emphasis on your role, challenges faced, and how you overcame them.",
+              "kind": "project",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "HR Interview",
+          "category": "HR Interview",
+          "description": "The final round was an HR interview, conducted offline in the evening of the same day. In this round, the HR panel focused on: Behavioral questions to assess your personality, teamwork skills, and how you handle pressure. Questions about your career goals, strengths, weaknesses, and why you’re interested in the company. Situational questions, where you may be asked how you would handle a particular scenario in the workplace.",
+          "topics": [
+            {
+              "original": "personality",
+              "canonical": "Personality",
+              "category": "Other"
+            },
+            {
+              "original": "teamwork skills",
+              "canonical": "Teamwork Skills",
+              "category": "Other"
+            },
+            {
+              "original": "handling pressure",
+              "canonical": "Handling Pressure",
+              "category": "Other"
+            },
+            {
+              "original": "career goals",
+              "canonical": "Career Goals",
+              "category": "Other"
+            },
+            {
+              "original": "strengths",
+              "canonical": "Strengths",
+              "category": "Other"
+            },
+            {
+              "original": "weaknesses",
+              "canonical": "Weaknesses",
+              "category": "Other"
+            },
+            {
+              "original": "company interest",
+              "canonical": "Company Interest",
+              "category": "Other"
+            },
+            {
+              "original": "situational questions",
+              "canonical": "HR and Behavioral Questions",
+              "category": "HR and behavioral"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Behavioral questions to assess your personality, teamwork skills, and how you handle pressure.",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "Questions about your career goals, strengths, weaknesses, and why you’re interested in the company.",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "Situational questions, where you may be asked how you would handle a particular scenario in the workplace.",
+              "kind": "hr",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "For the MCQs, focus on core subjects like data structures, algorithms, and basic aptitude.",
+          "category": "OA preparation",
+          "page": 1
+        },
+        {
+          "text": "The coding question required a solid understanding of programming. Practice coding problems from competitive platforms and make sure to brush up on common algorithms.",
+          "category": "Coding preparation",
+          "page": 1
+        },
+        {
+          "text": "Prepare SQL queries and database management concepts, as SQL questions often focus on real-world applications.",
+          "category": "OA preparation",
+          "page": 1
+        },
+        {
+          "text": "On the day of the test, ensure you manage time efficiently between the MCQs and the coding questions.",
+          "category": "Interview strategy",
+          "page": 1
+        },
+        {
+          "text": "Double-check your SQL query for syntax and logic errors.",
+          "category": "OA preparation",
+          "page": 1
+        },
+        {
+          "text": "Highlight projects involving coding, data structures, and databases.",
+          "category": "Project preparation",
+          "page": 1
+        },
+        {
+          "text": "Include any relevant certifications in programming or SQL that demonstrate your skills.",
+          "category": "Technical preparation",
+          "page": 1
+        },
+        {
+          "text": "Review your resume thoroughly, especially the projects and technologies you mentioned.",
+          "category": "Project preparation",
+          "page": 2
+        },
+        {
+          "text": "Practice explaining complex technical concepts in simple terms. Mock interviews can help with this.",
+          "category": "Interview strategy",
+          "page": 2
+        },
+        {
+          "text": "Prepare for questions on problem-solving using DSA (Data Structures and Algorithms) by solving problems from LeetCode and InterviewBit.",
+          "category": "Technical preparation",
+          "page": 2
+        },
+        {
+          "text": "On the day of the interview, stay calm, maintain clarity in your answers, and don't hesitate to ask for clarification if needed.",
+          "category": "Interview strategy",
+          "page": 2
+        },
+        {
+          "text": "Always explain your thought process when solving problems.",
+          "category": "Interview strategy",
+          "page": 2
+        },
+        {
+          "text": "Practice answering common HR questions like \"Tell me about yourself\", \"Where do you see yourself in 5 years?\", and \"Why should we hire you?\".",
+          "category": "HR preparation",
+          "page": 2
+        },
+        {
+          "text": "Be honest about your strengths and weaknesses, and give examples that show how you've worked on improving your weaknesses.",
+          "category": "HR preparation",
+          "page": 2
+        },
+        {
+          "text": "Ensure you are well-versed with the company’s background, culture, and the role you’re applying for.",
+          "category": "HR preparation",
+          "page": 2
+        },
+        {
+          "text": "On the day of the HR interview, be confident, maintain good body language, and ensure your answers reflect a positive attitude and willingness to learn.",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "Consistent preparation is key. Make sure you practice a variety of problems, especially focusing on coding and SQL.",
+          "category": "Coding preparation",
+          "page": 3
+        },
+        {
+          "text": "During technical interviews, always communicate your approach clearly, even if you're unsure of the solution. Interviewers appreciate seeing your thought process.",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "For the HR round, focus on presenting yourself as a well-rounded candidate with both technical and soft skills.",
+          "category": "HR preparation",
+          "page": 3
+        },
+        {
+          "text": "Time management during the online assessment is crucial—practice timed tests beforehand to get used to the pressure.",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "Stay confident, be well-prepared, and don’t hesitate to clarify doubts during the interview.",
+          "category": "Interview strategy",
+          "page": 3
+        }
+      ],
+      "resources": [
+        {
+          "title": "GeeksforGeeks",
+          "url": null,
+          "description": null,
+          "topic": "data structures and algorithms",
+          "page": 1
+        },
+        {
+          "title": "LeetCode",
+          "url": null,
+          "description": null,
+          "topic": "coding practice",
+          "page": 1
+        },
+        {
+          "title": "HackerRank",
+          "url": null,
+          "description": null,
+          "topic": "coding practice",
+          "page": 1
+        },
+        {
+          "title": "InterviewBit",
+          "url": null,
+          "description": null,
+          "topic": "DSA",
+          "page": 2
+        },
+        {
+          "title": "SQLZoo",
+          "url": null,
+          "description": null,
+          "topic": "SQL practice",
+          "page": 3
+        },
+        {
+          "title": "W3Schools",
+          "url": null,
+          "description": null,
+          "topic": "SQL practice",
+          "page": 3
+        }
+      ],
+      "filename": "Barclays_Summer_Internship_Saachi.pdf",
+      "source_path": "2026/Barclays_Summer_Interns/Barclays_Summer_Internship_Saachi.pdf",
+      "pages": [
+        1,
+        2,
+        3
+      ],
+      "content_sha256": "d59d61406da1babd8d52e5e222292322619504b0dc01b85f07245320af0d4a20"
+    },
+    {
+      "experience_id": "barclays_summer_interns-2026-717cd314-1",
+      "company": "Barclays_Summer_Interns",
+      "company_id": "barclays_summer_interns",
+      "year": "2026",
+      "role": "Summer Intern 2025",
+      "rounds": [
+        {
+          "name": "Technical Round",
+          "category": "Technical Interview",
+          "description": "There were Questions about OOP, Databases, Docker, AWS majority of which were used in my projects that i mentioned.",
+          "topics": [
+            {
+              "original": "OOP",
+              "canonical": "Object-Oriented Programming",
+              "category": "OOPs"
+            },
+            {
+              "original": "Databases",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "Docker",
+              "canonical": "Docker",
+              "category": "Other"
+            },
+            {
+              "original": "AWS",
+              "canonical": "AWS",
+              "category": "Other"
+            },
+            {
+              "original": "Python",
+              "canonical": "Python",
+              "category": "Programming languages"
+            },
+            {
+              "original": "API",
+              "canonical": "API",
+              "category": "Other"
+            },
+            {
+              "original": "AWS Cloud basics(EC2, S3 Bucket)",
+              "canonical": "AWS Cloud basics(EC2, S3 Bucket)",
+              "category": "Other"
+            },
+            {
+              "original": "Docker (API Specifically used in my Docker monitoring tool)",
+              "canonical": "Docker (API Specifically used in my Docker monitoring tool)",
+              "category": "Other"
+            },
+            {
+              "original": "Databases (Structured & Non Structured)",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            }
+          ],
+          "questions": [],
+          "difficulty": null,
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "HR Round",
+          "category": "HR Interview",
+          "description": "In this round Situational and Technical Questions were asked as for technical questions i had already prepared for round 1 it same process was repeated and as for the Situational based questions they had to be answered honestly as they were based on what was my personal Opinion/Action that i would have taken or will take in case xyz Situation happened.",
+          "topics": [
+            {
+              "original": "Situational based Questions",
+              "canonical": "HR and Behavioral Questions",
+              "category": "HR and behavioral"
+            },
+            {
+              "original": "company values",
+              "canonical": "Company Values",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "What are values of Barclays(RISES)",
+              "kind": "hr",
+              "page": 1
+            },
+            {
+              "text": "Why Barclays ?",
+              "kind": "hr",
+              "page": 1
+            },
+            {
+              "text": "When did I lose my Integrity in any situation?",
+              "kind": "hr",
+              "page": 1
+            },
+            {
+              "text": "What is Risk ?",
+              "kind": "hr",
+              "page": 1
+            },
+            {
+              "text": "What if Risk is going to cost us loss? What will be my action ?",
+              "kind": "hr",
+              "page": 1
+            },
+            {
+              "text": "If there are 2 ropes burning uneven thickness taking 1 hr to burn from start to end i had to measure the 45 min mark.",
+              "kind": "other",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            1,
+            2
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "Read your Resume before Entering Interview.",
+          "category": "Interview strategy",
+          "page": 2
+        },
+        {
+          "text": "Try to have a Conversation with the interviewer about whatever questions are asked.",
+          "category": "Interview strategy",
+          "page": 2
+        },
+        {
+          "text": "Ask Questions to identify edge cases in the Questions asked or to get Clarity.",
+          "category": "Interview strategy",
+          "page": 2
+        },
+        {
+          "text": "Dont Bluff If you don't know about something just say no i don't know and move to different question.",
+          "category": "Interview strategy",
+          "page": 2
+        },
+        {
+          "text": "Mention your Knowledge or some achievement you have related to the Company's interest.",
+          "category": "Interview strategy",
+          "page": 2
+        },
+        {
+          "text": "Go with the Flow of the interview.",
+          "category": "Interview strategy",
+          "page": 2
+        }
+      ],
+      "resources": [
+        {
+          "title": "GeekForGeek",
+          "url": null,
+          "description": "Situational based Questions that i had prepared form online forums and Websites like GeekForGeek, Javatpoint, etc",
+          "topic": null,
+          "page": 1
+        },
+        {
+          "title": "Javatpoint",
+          "url": null,
+          "description": "Situational based Questions that i had prepared form online forums and Websites like GeekForGeek, Javatpoint, etc",
+          "topic": null,
+          "page": 1
+        },
+        {
+          "title": "official website of Barclays",
+          "url": null,
+          "description": "companies like what are the Values of Barclays (RISES) these had to be studied from the official website & Wikipedia of Barclays.",
+          "topic": "company values",
+          "page": 1
+        },
+        {
+          "title": "Wikipedia of Barclays",
+          "url": null,
+          "description": "companies like what are the Values of Barclays (RISES) these had to be studied from the official website & Wikipedia of Barclays.",
+          "topic": "company values",
+          "page": 1
+        }
+      ],
+      "filename": "Interview Experience Nimesh Katudia.pdf",
+      "source_path": "2026/Barclays_Summer_Interns/Interview Experience Nimesh Katudia.pdf",
+      "pages": [
+        1,
+        2
+      ],
+      "content_sha256": "717cd314928e08ee2594fd5ddc7c28dcd09cb1a14d9b7eebac12d8e3c93453da"
+    }
+  ]
+}

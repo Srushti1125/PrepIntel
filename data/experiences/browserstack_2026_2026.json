@@ -1,0 +1,993 @@
+{
+  "company_id": "browserstack_2026",
+  "year": "2026",
+  "experiences": [
+    {
+      "experience_id": "browserstack_2026-2026-e87c7bf5-1",
+      "company": "BrowserStack_2026",
+      "company_id": "browserstack_2026",
+      "year": "2026",
+      "role": "Software Engineer - Backend",
+      "rounds": [
+        {
+          "name": "Online Assessment (MCQ Round)",
+          "category": "Online Assessment",
+          "description": "Platform : HackerEarth. Eligibility: CE and CSE (For the 2025 passout batch, EXTC was also eligible, so for 2027, anything could happen.). There was a 7.5+ CGPA criteria to apply. There were 21 technical MCQs and 50 mins were given, but 15–20 mins were more than enough to complete everything.",
+          "topics": [
+            {
+              "original": "recursion",
+              "canonical": "Recursion and Backtracking",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "Anonymous FTP",
+              "canonical": "Anonymous FTP",
+              "category": "Other"
+            },
+            {
+              "original": "CORS",
+              "canonical": "CORS",
+              "category": "Other"
+            },
+            {
+              "original": "lazy loading",
+              "canonical": "Lazy Loading",
+              "category": "Other"
+            },
+            {
+              "original": "HTML tag selection (ID)",
+              "canonical": "HTML tag selection (ID)",
+              "category": "Other"
+            },
+            {
+              "original": "HTTP status codes",
+              "canonical": "Computer Networks",
+              "category": "Computer networks"
+            },
+            {
+              "original": "DHCP",
+              "canonical": "DHCP",
+              "category": "Other"
+            },
+            {
+              "original": "operator precedence",
+              "canonical": "Operator Precedence",
+              "category": "Other"
+            },
+            {
+              "original": "JavaScript event loop (Promises, setTimeout)",
+              "canonical": "JavaScript",
+              "category": "Programming languages"
+            },
+            {
+              "original": "Ping protocol",
+              "canonical": "Ping protocol",
+              "category": "Other"
+            },
+            {
+              "original": "SQL joins",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            }
+          ],
+          "questions": [
+            {
+              "text": "In VB-style, -1 is true and 0 is false",
+              "kind": "technical",
+              "page": 1
+            },
+            {
+              "text": "Output-based question on recursion",
+              "kind": "coding",
+              "page": 1
+            },
+            {
+              "text": "What is Anonymous FTP",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "What is CORS",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "What is lazy loading",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "How to select an HTML tag using ID",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Questions based on HTTP status codes – so study all status codes",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "DHCP is an application-level protocol",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "One question was on operator precedence – had to evaluate an expression",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "There was a question asking for the order from bottom to top for elements (terms like relative, absolute, z-index were mentioned)",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Again, a question on order of console.log() means asking for output which involved Promises and setTimeout – basically question on event loop (Study the event loop in JS - one of the favorite interview questions when it comes to JS)",
+              "kind": "coding",
+              "page": 2
+            },
+            {
+              "text": "Ping does not use port",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Valid ping command – remember all octets must be numbers between 0 to 255, other options had URLs so were invalid",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "One SQL question on joins – options had actual SQL queries",
+              "kind": "technical",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            1,
+            2
+          ]
+        },
+        {
+          "name": "Machine Coding Round",
+          "category": "Technical Interview",
+          "description": "7 candidates appeared for this round. Offline. 2hrs. It’s just a problem statement, and you need to provide a solution. BrowserStack has been using the same problem statement for the last 3-4 years. The problem involves implementing Socket.IO for real-time updates, so make sure you’re comfortable with it. We were called to BrowserStack’s office in Goregaon for the machine coding round and interview. HR called every selected candidate 2 days before the interview to invite us to their Goregaon office. On the call, she mentioned there would be 2 rounds: machine coding and then an interview. She also said the machine coding problem statement requires knowledge of Socket.IO and suggested practicing for the machine coding round. Candidates were divided into batches, with 5 candidates per batch and one mentor per batch. On the same day, there were candidates from other colleges too. I think there were about 12 batches in total. I was in Batch 1 with 5 candidates, all from our college. The other 2 candidates from our college were in Batch 2 with 3 candidates from a different college.",
+          "topics": [
+            {
+              "original": "Socket.IO",
+              "canonical": "Socket.IO",
+              "category": "Other"
+            },
+            {
+              "original": "real-time updates",
+              "canonical": "Real-Time Updates",
+              "category": "Other"
+            },
+            {
+              "original": "log-watching solution",
+              "canonical": "Log-Watching Solution",
+              "category": "Other"
+            },
+            {
+              "original": "tail -f command (UNIX)",
+              "canonical": "tail -f command (UNIX)",
+              "category": "Other"
+            },
+            {
+              "original": "server-side programming",
+              "canonical": "Server-Side Programming",
+              "category": "Other"
+            },
+            {
+              "original": "web-based client",
+              "canonical": "Web-Based Client",
+              "category": "Other"
+            },
+            {
+              "original": "code quality",
+              "canonical": "Code Quality",
+              "category": "Other"
+            },
+            {
+              "original": "testability",
+              "canonical": "Testability",
+              "category": "Other"
+            },
+            {
+              "original": "modularity",
+              "canonical": "Modularity",
+              "category": "Other"
+            },
+            {
+              "original": "handling of corner cases",
+              "canonical": "Handling Of Corner Cases",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Implement a log-watching solution (similar to the tail -f command in UNIX). The log file is hosted on a remote machine (same machine as your server code). The log file is in append-only mode. Implement a server-side program to monitor the given log file and stream updates as they happen using Socket.IO for real-time communication. Implement a web-based client (accessible via a URL like http://localhost/log) that displays updates in the file in real-time, without requiring a page refresh. The page should load once and keep updating. On initial load, the user should see the last 10 lines of the file.",
+              "kind": "coding",
+              "page": 3
+            },
+            {
+              "text": "The server must push updates to clients in real-time using Socket.IO.",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "The log file could be several GBs. How do you optimize retrieving the last 10 lines?",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "The server should not retransmit the entire file every time; it should only send updates.",
+              "kind": "technical",
+              "page": 4
+            },
+            {
+              "text": "The server must handle multiple clients simultaneously.",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "The web page should not stay in a loading state after the first load and should not reload thereafter.",
+              "kind": "technical",
+              "page": 4
+            },
+            {
+              "text": "You may not use off-the-shelf external libraries or tools to read the file or provide tail-like functionalities (except Socket.IO for real-time updates).",
+              "kind": "technical",
+              "page": 4
+            },
+            {
+              "text": "Browser automation without using automation frameworks.",
+              "kind": "coding",
+              "page": 4
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "name": "Interview Round",
+          "category": "Technical Interview",
+          "description": "3 candidates appeared for this round. 50-55 min in my case. The interviewer was the Director of Engineering. He kicked things off by introducing himself and then asked about my CET, SSC, and HSC scores, and why I chose SPIT. After that, he asked me to give a quick introduction about myself. Then, he asked about my internship experience, specifically what I did during it and what kind of work I handled. I shared details about my role, the tasks I contributed to, and the impact I made, like leading development or solving specific challenges. Once I was done, he explained the interview flow: first, we’d dive into my projects, and then he’d test my problem-solving skills.",
+          "topics": [
+            {
+              "original": "Next.js",
+              "canonical": "Next.js",
+              "category": "Other"
+            },
+            {
+              "original": "React.js",
+              "canonical": "React.js",
+              "category": "Other"
+            },
+            {
+              "original": "SQL",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "NoSQL",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "PostgreSQL",
+              "canonical": "PostgreSQL",
+              "category": "Other"
+            },
+            {
+              "original": "MySQL",
+              "canonical": "MySQL",
+              "category": "Other"
+            },
+            {
+              "original": "project scaling",
+              "canonical": "Projects",
+              "category": "Projects"
+            },
+            {
+              "original": "project deployment",
+              "canonical": "Projects",
+              "category": "Projects"
+            },
+            {
+              "original": "monitoring",
+              "canonical": "Monitoring",
+              "category": "Other"
+            },
+            {
+              "original": "Vercel",
+              "canonical": "Vercel",
+              "category": "Other"
+            },
+            {
+              "original": "NeonDB",
+              "canonical": "NeonDB",
+              "category": "Other"
+            },
+            {
+              "original": "DSA",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "Monotonic Stack",
+              "canonical": "Stacks and Queues",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "Web Basics",
+              "canonical": "Web Basics",
+              "category": "Other"
+            },
+            {
+              "original": "Networking Basics",
+              "canonical": "Computer Networks",
+              "category": "Computer networks"
+            },
+            {
+              "original": "image download in browser",
+              "canonical": "Image Download In Browser",
+              "category": "Other"
+            },
+            {
+              "original": "URL processing",
+              "canonical": "URL processing",
+              "category": "Other"
+            },
+            {
+              "original": "debugging page load",
+              "canonical": "Debugging Page Load",
+              "category": "Other"
+            },
+            {
+              "original": "request journey",
+              "canonical": "Request Journey",
+              "category": "Other"
+            },
+            {
+              "original": "HTTP vs HTTPS",
+              "canonical": "Computer Networks",
+              "category": "Computer networks"
+            },
+            {
+              "original": "TCP vs UDP",
+              "canonical": "TCP vs UDP",
+              "category": "Other"
+            },
+            {
+              "original": "HTTP status codes",
+              "canonical": "Computer Networks",
+              "category": "Computer networks"
+            },
+            {
+              "original": "HTTP headers",
+              "canonical": "Computer Networks",
+              "category": "Computer networks"
+            },
+            {
+              "original": "Database",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "System Design",
+              "canonical": "System Design",
+              "category": "System design"
+            },
+            {
+              "original": "SQL (HAVING vs WHERE)",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "REST API",
+              "canonical": "REST API",
+              "category": "Other"
+            },
+            {
+              "original": "SOAP",
+              "canonical": "SOAP",
+              "category": "Other"
+            },
+            {
+              "original": "logs",
+              "canonical": "Logs",
+              "category": "Other"
+            },
+            {
+              "original": "huge file handling",
+              "canonical": "Huge File Handling",
+              "category": "Other"
+            },
+            {
+              "original": "word occurrences",
+              "canonical": "Word Occurrences",
+              "category": "Other"
+            },
+            {
+              "original": "MapReduce",
+              "canonical": "MapReduce",
+              "category": "Other"
+            },
+            {
+              "original": "messaging queues",
+              "canonical": "Stacks and Queues",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "Concurrency",
+              "canonical": "Concurrency",
+              "category": "Other"
+            },
+            {
+              "original": "Processes",
+              "canonical": "Processes",
+              "category": "Other"
+            },
+            {
+              "original": "Threads",
+              "canonical": "Operating Systems",
+              "category": "Operating systems"
+            },
+            {
+              "original": "async",
+              "canonical": "Async",
+              "category": "Other"
+            },
+            {
+              "original": "parallelism",
+              "canonical": "Parallelism",
+              "category": "Other"
+            },
+            {
+              "original": "Testing",
+              "canonical": "Testing",
+              "category": "Other"
+            },
+            {
+              "original": "Deployment",
+              "canonical": "Deployment",
+              "category": "Other"
+            },
+            {
+              "original": "onboarding flow design",
+              "canonical": "System Design",
+              "category": "System design"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Tell me about a project where you faced a lot of difficulties and challenges.",
+              "kind": "project",
+              "page": 4
+            },
+            {
+              "text": "Why did I pick Next.js over React.js for my project?",
+              "kind": "technical",
+              "page": 5
+            },
+            {
+              "text": "Why SQL over NoSQL? Then, in SQL, why PostgreSQL over MySQL? What was the reason behind these choices?",
+              "kind": "technical",
+              "page": 5
+            },
+            {
+              "text": "What if I had used a NoSQL database for the same project? How would it have impacted things?",
+              "kind": "technical",
+              "page": 5
+            },
+            {
+              "text": "How would I scale up my existing project?",
+              "kind": "technical",
+              "page": 5
+            },
+            {
+              "text": "What factors did I consider when deploying my project?",
+              "kind": "technical",
+              "page": 5
+            },
+            {
+              "text": "How was I monitoring things post-deployment, and why did I choose Vercel for deployment?",
+              "kind": "technical",
+              "page": 5
+            },
+            {
+              "text": "Since I used NeonDB (PostgreSQL), what features did NeonDB provide that helped throughout my project?",
+              "kind": "technical",
+              "page": 5
+            },
+            {
+              "text": "Daily Temperatures",
+              "kind": "coding",
+              "page": 5
+            },
+            {
+              "text": "How does the internet work?",
+              "kind": "technical",
+              "page": 5
+            },
+            {
+              "text": "How does an image get downloaded in a browser?",
+              "kind": "technical",
+              "page": 5
+            },
+            {
+              "text": "What happens behind the scenes when you enter a URL in a browser?",
+              "kind": "technical",
+              "page": 5
+            },
+            {
+              "text": "If you type google.com and the page doesn’t load, how would you debug it?",
+              "kind": "technical",
+              "page": 5
+            },
+            {
+              "text": "How does google.com work?",
+              "kind": "technical",
+              "page": 5
+            },
+            {
+              "text": "Describe the journey of a request.",
+              "kind": "technical",
+              "page": 5
+            },
+            {
+              "text": "HTTP vs HTTPS.",
+              "kind": "technical",
+              "page": 5
+            },
+            {
+              "text": "TCP vs UDP.",
+              "kind": "technical",
+              "page": 5
+            },
+            {
+              "text": "Study all HTTP status codes.",
+              "kind": "technical",
+              "page": 5
+            },
+            {
+              "text": "Headers in HTTP requests and responses.",
+              "kind": "technical",
+              "page": 5
+            },
+            {
+              "text": "HAVING vs WHERE in SQL.",
+              "kind": "technical",
+              "page": 5
+            },
+            {
+              "text": "What is a REST API?",
+              "kind": "technical",
+              "page": 5
+            },
+            {
+              "text": "What is SOAP?",
+              "kind": "technical",
+              "page": 5
+            },
+            {
+              "text": "All types of logs used while building a system.",
+              "kind": "technical",
+              "page": 5
+            },
+            {
+              "text": "Huge file handling: You have a 1TB file and need to count word occurrences with only 8GB of RAM. How would you process it?",
+              "kind": "technical",
+              "page": 5
+            },
+            {
+              "text": "What are messaging queues?",
+              "kind": "technical",
+              "page": 6
+            },
+            {
+              "text": "Process vs Thread.",
+              "kind": "technical",
+              "page": 6
+            },
+            {
+              "text": "Difference between async, concurrency, and parallelism.",
+              "kind": "technical",
+              "page": 6
+            },
+            {
+              "text": "Testing before deployment.",
+              "kind": "technical",
+              "page": 6
+            },
+            {
+              "text": "How would you design the onboarding flow for your favorite product?",
+              "kind": "technical",
+              "page": 6
+            },
+            {
+              "text": "Daily Temperatures",
+              "kind": "coding",
+              "page": 6
+            },
+            {
+              "text": "Move Zeroes",
+              "kind": "coding",
+              "page": 6
+            },
+            {
+              "text": "Add Two Numbers",
+              "kind": "coding",
+              "page": 6
+            },
+            {
+              "text": "Longest Substring Without Repeating Characters",
+              "kind": "coding",
+              "page": 6
+            },
+            {
+              "text": "3Sum",
+              "kind": "coding",
+              "page": 6
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            4,
+            5,
+            6
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "They evaluate not just your MCQ score but also shortlist based on your resume, so ensure it highlights solid development skills.",
+          "category": "Interview strategy",
+          "page": 2
+        },
+        {
+          "text": "Know every single line of your code and why you wrote it, as the mentor will ask about your logic and the reasoning behind specific lines, especially how you implemented Socket.IO for real-time updates.",
+          "category": "Coding preparation",
+          "page": 4
+        },
+        {
+          "text": "OOPS: Study on GeeksforGeeks (GFG) Best Resource for OOPS.",
+          "category": "Technical preparation",
+          "page": 6
+        },
+        {
+          "text": "Puzzles: Practice GFG’s Top 100 Puzzles.",
+          "category": "Coding preparation",
+          "page": 6
+        },
+        {
+          "text": "SQL: Check Drive link PDF for overlooked SQL topics.",
+          "category": "Technical preparation",
+          "page": 6
+        },
+        {
+          "text": "Project Architecture: Know your project’s design and choices.",
+          "category": "Project preparation",
+          "page": 6
+        },
+        {
+          "text": "Database Scaling & CAP Theorem: Understand scaling and trade-offs.",
+          "category": "Technical preparation",
+          "page": 6
+        },
+        {
+          "text": "Rate Limiting: Learn API rate limiting basics.",
+          "category": "Technical preparation",
+          "page": 6
+        },
+        {
+          "text": "Pagination: Study efficient data handling.",
+          "category": "Technical preparation",
+          "page": 6
+        },
+        {
+          "text": "JWT Authentication: Know how JWT works for APIs.",
+          "category": "Technical preparation",
+          "page": 6
+        },
+        {
+          "text": "JavaScript: Master Event Loop, Fetch API, debouncing, throttling.",
+          "category": "Technical preparation",
+          "page": 6
+        },
+        {
+          "text": "Node.js Concurrency: Explain how single-threaded Node.js handles concurrency.",
+          "category": "Technical preparation",
+          "page": 6
+        },
+        {
+          "text": "MVC Architecture: Understand Model-View-Controller basics.",
+          "category": "Technical preparation",
+          "page": 6
+        },
+        {
+          "text": "React.js: Study Virtual DOM, state management, hooks, component lifecycle.",
+          "category": "Technical preparation",
+          "page": 6
+        },
+        {
+          "text": "Java: Learn JDK, JRE, JVM flow, garbage collection, stack/heap memory.",
+          "category": "Technical preparation",
+          "page": 6
+        }
+      ],
+      "resources": [
+        {
+          "title": "GeeksforGeeks (GFG)",
+          "url": null,
+          "description": "Best Resource for OOPS.",
+          "topic": "OOPS",
+          "page": 6
+        },
+        {
+          "title": "GFG’s Top 100 Puzzles",
+          "url": null,
+          "description": null,
+          "topic": "Puzzles",
+          "page": 6
+        },
+        {
+          "title": "Drive link PDF",
+          "url": null,
+          "description": "for overlooked SQL topics.",
+          "topic": "SQL",
+          "page": 6
+        },
+        {
+          "title": "Drive Link",
+          "url": null,
+          "description": "for additional materials like PDFs.",
+          "topic": null,
+          "page": 6
+        }
+      ],
+      "filename": "BrowserStack_Kunal_Bhoi.pdf",
+      "source_path": "2026/BrowserStack_2026/BrowserStack_Kunal_Bhoi.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "content_sha256": "e87c7bf52c567614c9d4c16b7c5ab9935311e02543442dec23a7214ea35fd2bb"
+    },
+    {
+      "experience_id": "browserstack_2026-2026-3bf5c4bc-1",
+      "company": "BrowserStack_2026",
+      "company_id": "browserstack_2026",
+      "year": "2026",
+      "role": "Software Developer: Backend",
+      "rounds": [
+        {
+          "name": "OA round",
+          "category": "Online Assessment",
+          "description": "21 MCQ questions were asked in 50 min, primary HTML CSS JS SQL CCN questions were asked. The test was proctored and offline. The questions were easy to medium level. If you have built projects using JS it would be a piece of cake and the entire test could be completed in 30 mins max. Accuracy matters over here for clearing the cutoff.",
+          "topics": [
+            {
+              "original": "HTML",
+              "canonical": "HTML",
+              "category": "Other"
+            },
+            {
+              "original": "CSS",
+              "canonical": "CSS",
+              "category": "Other"
+            },
+            {
+              "original": "JS",
+              "canonical": "JavaScript",
+              "category": "Programming languages"
+            },
+            {
+              "original": "SQL",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "CCN",
+              "canonical": "CCN",
+              "category": "Other"
+            }
+          ],
+          "questions": [],
+          "difficulty": "easy to medium",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Machine Coding Round",
+          "category": "Technical Interview",
+          "description": "It was conducted in Batches offline in the BrowserStack office in Oberoi Commerz 2. Due to the limited number of students they had confined a single batch for SPIT. The PS for the machine coding round is shared below: This problem requires you to implement a log-watching solution (similar to the tail -f command in UNIX). However, the log file is hosted on a remote machine (same machine as your server code). The log file is in append-only mode. You need to implement the following: A server-side program to monitor the given log file and stream updates as they happen using Socket.IO for real-time communication. This will run on the same machine as the log file. You can use any programming language for the server. A web-based client (accessible via a URL like http://localhost/log) that displays updates in the file in real-time, without requiring a page refresh. The page should load once and keep updating. On initial load, the user should see the last 10 lines of the file. Problem Constraints: The server must push updates to clients in real-time using Socket.IO. The log file could be several GBs. How do you optimize retrieving the last 10 lines? The server should not retransmit the entire file every time; it should only send updates. The server must handle multiple clients simultaneously. The web page should not stay in a loading state after the first load and should not reload thereafter. You may not use off-the-shelf external libraries or tools to read the file or provide tail-like functionalities (except Socket.IO for real-time updates). You’ll be evaluated on code quality, testability, modularity, and handling of corner cases. The Machine coding round began at 10:30 AM and we were given roughly 2 hrs to build the backend server. You may find the solutions online, but an optimal solution that caters to the edge cases of the invigilator is preferred. You are not allowed to use any AI agents or LLMs or medium articles during this round, our invigilator was right beside us. You may refer to the documentation for development. You can interact with the invigilator during the round. Primary goal is to develop the solution using Socket.IO , I preferred NODE for the backend and socket implementation to display logs realtime with a confined Buffer to prevent parsing the logs. The invigilator would test it on multiple edge cases, like real time parsing, multiple browser compatibility with realtime logs and order in which they appear or cases where ‘\n’ appears while parsing logs. If it passes all the cases and you are able to explain your code really well then you would be moved forward to the next round.",
+          "topics": [
+            {
+              "original": "log-watching solution",
+              "canonical": "Log-Watching Solution",
+              "category": "Other"
+            },
+            {
+              "original": "Socket.IO",
+              "canonical": "Socket.IO",
+              "category": "Other"
+            },
+            {
+              "original": "real-time communication",
+              "canonical": "Real-Time Communication",
+              "category": "Other"
+            },
+            {
+              "original": "server-side programming",
+              "canonical": "Server-Side Programming",
+              "category": "Other"
+            },
+            {
+              "original": "web-based client",
+              "canonical": "Web-Based Client",
+              "category": "Other"
+            },
+            {
+              "original": "file handling",
+              "canonical": "File Handling",
+              "category": "Other"
+            },
+            {
+              "original": "optimization",
+              "canonical": "Optimization",
+              "category": "Other"
+            },
+            {
+              "original": "code quality",
+              "canonical": "Code Quality",
+              "category": "Other"
+            },
+            {
+              "original": "testability",
+              "canonical": "Testability",
+              "category": "Other"
+            },
+            {
+              "original": "modularity",
+              "canonical": "Modularity",
+              "category": "Other"
+            },
+            {
+              "original": "handling of corner cases",
+              "canonical": "Handling Of Corner Cases",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Implement a log-watching solution (similar to the tail -f command in UNIX). However, the log file is hosted on a remote machine (same machine as your server code). The log file is in append-only mode. You need to implement the following: A server-side program to monitor the given log file and stream updates as they happen using Socket.IO for real-time communication. This will run on the same machine as the log file. You can use any programming language for the server. A web-based client (accessible via a URL like http://localhost/log) that displays updates in the file in real-time, without requiring a page refresh. The page should load once and keep updating. On initial load, the user should see the last 10 lines of the file. Problem Constraints: The server must push updates to clients in real-time using Socket.IO. The log file could be several GBs. How do you optimize retrieving the last 10 lines? The server should not retransmit the entire file every time; it should only send updates. The server must handle multiple clients simultaneously. The web page should not stay in a loading state after the first load and should not reload thereafter. You may not use off-the-shelf external libraries or tools to read the file or provide tail-like functionalities (except Socket.IO for real-time updates).",
+              "kind": "coding",
+              "page": 1
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            1,
+            2
+          ]
+        },
+        {
+          "name": "Director Of Engineering Round",
+          "category": "Technical Interview",
+          "description": "Mine was an interesting one, I was the only one who had an online interview with the Senior Director in the office for 30 mins. He read my resume and given that I had worked with a corporation with exposure to multiple hacks and techstacks, was exempted from basic questions. I was asked about one of my favourite projects and what role did I play in that project. Then moved on to internship experiences, what tasks did I perform in Russell Investments as Summer Intern, what project did I work on. He asked if I had exposure to Prod and deployment which I explained pretty well. I was quickly moved to behavioral questions like how will I tackle Deadlines, How will I deal with my teammate who differs in an opinion. It was the most fun director round.",
+          "topics": [
+            {
+              "original": "projects",
+              "canonical": "Projects",
+              "category": "Projects"
+            },
+            {
+              "original": "internship experiences",
+              "canonical": "Internship Experiences",
+              "category": "Other"
+            },
+            {
+              "original": "Prod",
+              "canonical": "Prod",
+              "category": "Other"
+            },
+            {
+              "original": "deployment",
+              "canonical": "Deployment",
+              "category": "Other"
+            },
+            {
+              "original": "deadlines",
+              "canonical": "Deadlines",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "one of my favourite projects and what role did I play in that project",
+              "kind": "project",
+              "page": 2
+            },
+            {
+              "text": "what tasks did I perform in Russell Investments as Summer Intern",
+              "kind": "project",
+              "page": 2
+            },
+            {
+              "text": "what project did I work on",
+              "kind": "project",
+              "page": 2
+            },
+            {
+              "text": "if I had exposure to Prod and deployment",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "how will I tackle Deadlines",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "How will I deal with my teammate who differs in an opinion",
+              "kind": "hr",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "Participate in Hacks",
+          "category": "Interview strategy",
+          "page": 2
+        },
+        {
+          "text": "Get exposure (DSA helps but DEV is important :) )",
+          "category": "Technical preparation",
+          "page": 2
+        },
+        {
+          "text": "Pursue internships that help you learn and offcourse Paid one",
+          "category": "Interview strategy",
+          "page": 2
+        },
+        {
+          "text": "Don’t Stress",
+          "category": "Interview strategy",
+          "page": 2
+        }
+      ],
+      "resources": [
+        {
+          "title": null,
+          "url": "https://www.linkedin.com/in/paramgogia/",
+          "description": "You can connect with me via linkedin",
+          "topic": null,
+          "page": 2
+        }
+      ],
+      "filename": "BrowserStack_Param_Gogia.pdf",
+      "source_path": "2026/BrowserStack_2026/BrowserStack_Param_Gogia.pdf",
+      "pages": [
+        1,
+        2
+      ],
+      "content_sha256": "3bf5c4bcc2f44342a6d568d855c6fedf0f832720705dcb22d20adc4e60d48914"
+    }
+  ]
+}

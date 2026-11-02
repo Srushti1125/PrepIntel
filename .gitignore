@@ -1,0 +1,26 @@
+# secrets
+.env
+.streamlit/secrets.toml
+
+# private source material - never commit the raw PDFs
+Interview_Experiences/
+*.pdf
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# NOTE: chroma_db/ and data/ are intentionally NOT ignored so a prebuilt index can be
+# deployed to Streamlit Community Cloud. They contain passages copied from the PDFs.
+# If the interview material is private, uncomment the next two lines and use a hosted
+# vector store (see README -> "Storage strategy").
+# chroma_db/
+# data/experiences/*.json

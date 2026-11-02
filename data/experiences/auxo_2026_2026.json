@@ -1,0 +1,1619 @@
+{
+  "company_id": "auxo_2026",
+  "year": "2026",
+  "experiences": [
+    {
+      "experience_id": "auxo_2026-2026-58d1ead8-1",
+      "company": "Auxo_2026",
+      "company_id": "auxo_2026",
+      "year": "2026",
+      "role": "AI Engineer",
+      "rounds": [
+        {
+          "name": "Online Assessment",
+          "category": "Online Assessment",
+          "description": "The OA lasted 60 minutes. There were 20 MCQs and 4 coding questions. The catch was once you submit a question, you can’t revisit it — this put some pressure on me. I solved 2 coding questions completely. The MCQs were easy to medium, but because I spent time on coding, I couldn’t solve all MCQs. Java wasn’t available as a language, but since I usually code in C++, it wasn’t a problem for me.",
+          "topics": [
+            {
+              "original": "MCQs",
+              "canonical": "MCQs",
+              "category": "Other"
+            },
+            {
+              "original": "coding",
+              "canonical": "Coding",
+              "category": "Other"
+            },
+            {
+              "original": "DSA",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "gradient descent",
+              "canonical": "Gradient Descent",
+              "category": "Other"
+            },
+            {
+              "original": "stack",
+              "canonical": "Stacks and Queues",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "arrays",
+              "canonical": "Arrays",
+              "category": "DSA and coding"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Check if the previous element is smaller than the current element; if yes return true, else false.",
+              "kind": "coding",
+              "page": 1
+            },
+            {
+              "text": "Previous Greater Element problem",
+              "kind": "coding",
+              "page": 1
+            },
+            {
+              "text": "Some DSA question related to gradient descent",
+              "kind": "coding",
+              "page": 1
+            },
+            {
+              "text": "Rotate array by 2, then you get a string, and if you find any element from that string in your array, replace it with the given element.",
+              "kind": "coding",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            1,
+            2
+          ]
+        },
+        {
+          "name": "Technical Interview Round 1",
+          "category": "Technical Interview",
+          "description": "I started by introducing myself. They immediately dived deep into my projects, which I had prepared for. Then they gave me the Best Time to Buy and Sell Stock II problem. I already knew it from Striver’s DP sheet, so I explained the DP approach confidently. They then asked for the O(n) linear approach — I explained but made a small mistake. They kindly corrected me and said, “You’re on the right track.” That encouragement boosted my confidence mid-interview. They also asked me about the difference between React and normal HTML/CSS and some questions related to my resume . Then came a rapid-fire round: factorial (loop & recursion), recursion issues (I said TLE), which DS recursion uses (Stack), why use DP, assigning priority to objects (I said priority queue). I liked this part because it felt like a fun quiz rather than grilling. Some other candidates were asked to open Google Colab do some visualizations/operations on dataset; I wasn’t asked that. Overall, my interview went well.",
+          "topics": [
+            {
+              "original": "projects",
+              "canonical": "Projects",
+              "category": "Projects"
+            },
+            {
+              "original": "DP",
+              "canonical": "Dynamic Programming",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "React",
+              "canonical": "React",
+              "category": "Other"
+            },
+            {
+              "original": "HTML/CSS",
+              "canonical": "HTML/CSS",
+              "category": "Other"
+            },
+            {
+              "original": "recursion",
+              "canonical": "Recursion and Backtracking",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "Stack",
+              "canonical": "Stacks and Queues",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "priority queue",
+              "canonical": "Heaps",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "data visualization",
+              "canonical": "Data Visualization",
+              "category": "Other"
+            },
+            {
+              "original": "dataset operations",
+              "canonical": "Dataset Operations",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Best Time to Buy and Sell Stock II problem",
+              "kind": "coding",
+              "page": 2
+            },
+            {
+              "text": "difference between React and normal HTML/CSS",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "factorial (loop & recursion)",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "recursion issues",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "which DS recursion uses",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "why use DP",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "assigning priority to objects",
+              "kind": "technical",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Technical Interview Round 2",
+          "category": "Technical Interview",
+          "description": "We started again with a quick intro and discussion of one of my hackathon projects. Then they gave me a case study: “You’re a Senior Data Analyst at AuxoAI. Microsoft needs 1000 applicants for a job. You have job seeker data from your client. How would you select 1000 candidates for that job role?” I gave some thought then I said I’d parse resumes using pyresparser and extract features like skills, education, location, and experience, and a few more features that I don’t clearly remember now.. My output would be “Eligible/Not Eligible.” I initially said Naive Bayes for the model. Then they asked how I’d handle candidates backing out at the last moment. At first, I overcomplicated it — I said I would check factors like college tier (if someone is from a top college, they might get better offers), location preferences, salary expectations, and experience level. I thought of approaching it with regression, reasoning that more experienced candidates usually want better opportunities. But they immediately pointed out that this is actually a classification problem. At that moment, I realized my mistake, smiled, and corrected myself: “In that case, I will use Logistic Regression to classify whether a candidate is likely to back out or not.” I felt like I redeemed myself here by being honest and flexible. Other candidates were asked guesstimates — so be ready for that too.",
+          "topics": [
+            {
+              "original": "hackathon projects",
+              "canonical": "Projects",
+              "category": "Projects"
+            },
+            {
+              "original": "case study",
+              "canonical": "Case Study",
+              "category": "Other"
+            },
+            {
+              "original": "feature extraction",
+              "canonical": "Feature Extraction",
+              "category": "Other"
+            },
+            {
+              "original": "skills",
+              "canonical": "Skills",
+              "category": "Other"
+            },
+            {
+              "original": "education",
+              "canonical": "Education",
+              "category": "Other"
+            },
+            {
+              "original": "location",
+              "canonical": "Location",
+              "category": "Other"
+            },
+            {
+              "original": "Naive Bayes",
+              "canonical": "Naive Bayes",
+              "category": "Other"
+            },
+            {
+              "original": "classification",
+              "canonical": "Classification",
+              "category": "Other"
+            },
+            {
+              "original": "regression",
+              "canonical": "Regression",
+              "category": "Other"
+            },
+            {
+              "original": "Logistic Regression",
+              "canonical": "Logistic Regression",
+              "category": "Other"
+            },
+            {
+              "original": "guesstimates",
+              "canonical": "Guesstimates",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "How would you select 1000 candidates for that job role?",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "how I’d handle candidates backing out at the last moment",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "guesstimates",
+              "kind": "other",
+              "page": 3
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2,
+            3
+          ]
+        },
+        {
+          "name": "HR Round",
+          "category": "HR Interview",
+          "description": "This was just a casual chat. They asked about my family, where I stay, etc. It lasted 5–10 minutes. After such heavy technical rounds, this felt like a breather.",
+          "topics": [],
+          "questions": [
+            {
+              "text": "about my family",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "where I stay",
+              "kind": "hr",
+              "page": 3
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            3
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "For aptitude, use Indiabix and Career Ride YouTube channel.",
+          "category": "OA preparation",
+          "page": 4
+        },
+        {
+          "text": "For coding, Striver’s sheet (especially DP) + LeetCode.",
+          "category": "Coding preparation",
+          "page": 4
+        },
+        {
+          "text": "For SQL, do 50 questions on LeetCode and 50 general SQL problems.",
+          "category": "Technical preparation",
+          "page": 4
+        },
+        {
+          "text": "For ML, Krish Naik’s channel is excellent.",
+          "category": "Technical preparation",
+          "page": 4
+        },
+        {
+          "text": "Be ready for case studies — think aloud, they like your approach even if it’s not perfect.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Don’t panic if your language isn’t available — have C++ or Python as backup.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Be honest if you make mistakes — it’s better than faking an answer.",
+          "category": "Interview strategy",
+          "page": 4
+        }
+      ],
+      "resources": [
+        {
+          "title": "Indiabix",
+          "url": null,
+          "description": null,
+          "topic": "aptitude",
+          "page": 4
+        },
+        {
+          "title": "Career Ride YouTube channel",
+          "url": null,
+          "description": null,
+          "topic": "aptitude",
+          "page": 4
+        },
+        {
+          "title": "Striver’s sheet",
+          "url": null,
+          "description": null,
+          "topic": "coding",
+          "page": 4
+        },
+        {
+          "title": "LeetCode",
+          "url": null,
+          "description": null,
+          "topic": "coding",
+          "page": 4
+        },
+        {
+          "title": "LeetCode",
+          "url": null,
+          "description": null,
+          "topic": "SQL",
+          "page": 4
+        },
+        {
+          "title": "Krish Naik’s channel",
+          "url": null,
+          "description": null,
+          "topic": "ML",
+          "page": 4
+        }
+      ],
+      "filename": "AUXOAI_AIEngineer_Ayesha_Siddiqui.pdf",
+      "source_path": "2026/Auxo_2026/AUXOAI_AIEngineer_Ayesha_Siddiqui.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "content_sha256": "58d1ead822963c39301c122ed8528d77cfe4421d3c1777559826ed7f38baac4e"
+    },
+    {
+      "experience_id": "auxo_2026-2026-1ccfcf7c-1",
+      "company": "Auxo_2026",
+      "company_id": "auxo_2026",
+      "year": "2026",
+      "role": "AI Engineer",
+      "rounds": [
+        {
+          "name": "Resume Shortlisting",
+          "category": "Other",
+          "description": "In the resume shortlisting round, we were evaluated on our resumes based on the job description provided by the company. Around 50 students were selected after this round.",
+          "topics": [],
+          "questions": [],
+          "difficulty": null,
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Online Assessment",
+          "category": "Online Assessment",
+          "description": "The test was conducted on campus in the afternoon ( around 4pm). The duration of the test was 60 minutes,and there were 2 sections : 1. Aptitude section (20 questions) ,2. Coding section ( 4 questions). Navigation was strict(once you visited a question , you could not visit it again).",
+          "topics": [
+            {
+              "original": "speed-time problems",
+              "canonical": "Speed-Time Problems",
+              "category": "Other"
+            },
+            {
+              "original": "simple interest-compound interest",
+              "canonical": "Simple Interest-Compound Interest",
+              "category": "Other"
+            },
+            {
+              "original": "trigonometry",
+              "canonical": "Trigonometry",
+              "category": "Other"
+            },
+            {
+              "original": "ratios",
+              "canonical": "Ratios",
+              "category": "Other"
+            },
+            {
+              "original": "string traversal",
+              "canonical": "Strings",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "Rotate Array",
+              "canonical": "Arrays",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "previous smaller element",
+              "canonical": "Previous Smaller Element",
+              "category": "Other"
+            },
+            {
+              "original": "Logistic regression",
+              "canonical": "Logistic regression",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "A basic string traversal question",
+              "kind": "coding",
+              "page": 2
+            },
+            {
+              "text": "A question similar to Rotate Array - LeetCode.",
+              "kind": "coding",
+              "page": 2
+            },
+            {
+              "text": "A question on finding previous smaller element ( Can be implemented using a stack).",
+              "kind": "coding",
+              "page": 2
+            },
+            {
+              "text": "Implementing Logistic regression from scratch.",
+              "kind": "coding",
+              "page": 2
+            }
+          ],
+          "difficulty": "moderate to high",
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Technical Round 1",
+          "category": "Technical Interview",
+          "description": "I introduced myself to the panel and then they asked me to select a project on which a deep dive could be possible . I chose the first project on my resume(It was a LSTM+ XGBOOST hybrid model ) , where I explained in detail the methodology of the project .They proceeded by asking the information about the columns used and why only those were selected, the source of the data , the number of rows present , and related questions. They then asked me to tell the metrics of the model (R2_SCORE and the MSE error) and inquired about the mathematical formulas of the metrics and the intuition behind them.(Some questions such as “explain R2_score to a layman” were also asked. Then I was asked in detail (bohot depth me gaye) about XGBOOST and LSTM and the mathematical intuition behind them .I answered almost all the questions correctly and they were pleased with my fundamentals.They asked me about the gradient descent algorithm and how it works and its mathematical intricacies(fundamental understanding of coordinate geometry and curves is needed). Finally I was asked a bit about GEN-AI . To wrap up the interview , I was asked a simple DSA question.( Sieve of Eratosthenes) . The expectation was to write a working code . I explained the brute force solution and then explained in detail the optimal approach . I coded the solution (easy tha) and they were pleased by it(it seemed) .Next I was asked about the TC and the SC of the solution ,and I correctly answered it. The interview concluded with me asking a question to the panel . The round lasted around 40 minutes.",
+          "topics": [
+            {
+              "original": "LSTM",
+              "canonical": "LSTM",
+              "category": "Other"
+            },
+            {
+              "original": "XGBOOST",
+              "canonical": "XGBOOST",
+              "category": "Other"
+            },
+            {
+              "original": "R2_SCORE",
+              "canonical": "R2_SCORE",
+              "category": "Other"
+            },
+            {
+              "original": "MSE error",
+              "canonical": "MSE error",
+              "category": "Other"
+            },
+            {
+              "original": "gradient descent algorithm",
+              "canonical": "Gradient Descent Algorithm",
+              "category": "Other"
+            },
+            {
+              "original": "GEN-AI",
+              "canonical": "GEN-AI",
+              "category": "Other"
+            },
+            {
+              "original": "DSA",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "Sieve of Eratosthenes",
+              "canonical": "Sieve of Eratosthenes",
+              "category": "Other"
+            },
+            {
+              "original": "Time Complexity",
+              "canonical": "Time Complexity",
+              "category": "Other"
+            },
+            {
+              "original": "machine learning",
+              "canonical": "Machine Learning",
+              "category": "Other"
+            },
+            {
+              "original": "mathematics",
+              "canonical": "Mathematics",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "information about the columns used and why only those were selected",
+              "kind": "project",
+              "page": 2
+            },
+            {
+              "text": "the source of the data",
+              "kind": "project",
+              "page": 2
+            },
+            {
+              "text": "the number of rows present",
+              "kind": "project",
+              "page": 2
+            },
+            {
+              "text": "metrics of the model (R2_SCORE and the MSE error)",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "mathematical formulas of the metrics and the intuition behind them",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "explain R2_score to a layman",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "XGBOOST and LSTM and the mathematical intuition behind them",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "gradient descent algorithm and how it works and its mathematical intricacies",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "a bit about GEN-AI",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "Sieve of Eratosthenes",
+              "kind": "coding",
+              "page": 3
+            },
+            {
+              "text": "TC and the SC of the solution",
+              "kind": "technical",
+              "page": 3
+            }
+          ],
+          "difficulty": "easy",
+          "pages": [
+            2,
+            3
+          ]
+        },
+        {
+          "name": "Technical Round 2",
+          "category": "Technical Interview",
+          "description": "The interview started with my introduction to the panel and another discussion on my projects ensued. They asked many questions on the projects , the technical difficulties and the non technical difficulties which I faced (This was a group project). I was asked about gradient descent and was able to answer almost all the follow up questions on it . Following this, I was asked to design a chatbot for some application (I think this was to check the understanding of the software development cycle ). While I initially stumbled , I was able to rectify and refine my approach iteratively . Finally I was asked a guesstimate on the number of pizzas eaten on a Saturday night in India. The round lasted around 30 minutes.",
+          "topics": [
+            {
+              "original": "projects",
+              "canonical": "Projects",
+              "category": "Projects"
+            },
+            {
+              "original": "technical difficulties",
+              "canonical": "Technical Difficulties",
+              "category": "Other"
+            },
+            {
+              "original": "non technical difficulties",
+              "canonical": "Non Technical Difficulties",
+              "category": "Other"
+            },
+            {
+              "original": "gradient descent",
+              "canonical": "Gradient Descent",
+              "category": "Other"
+            },
+            {
+              "original": "chatbot design",
+              "canonical": "System Design",
+              "category": "System design"
+            },
+            {
+              "original": "software development cycle",
+              "canonical": "Software Development Cycle",
+              "category": "Other"
+            },
+            {
+              "original": "guesstimate",
+              "canonical": "Guesstimate",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "questions on the projects , the technical difficulties and the non technical difficulties which I faced",
+              "kind": "project",
+              "page": 3
+            },
+            {
+              "text": "gradient descent",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "design a chatbot for some application",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "guesstimate on the number of pizzas eaten on a Saturday night in India",
+              "kind": "other",
+              "page": 3
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            3
+          ]
+        },
+        {
+          "name": "HR ROUND",
+          "category": "HR Interview",
+          "description": "This was an informal round conducted by the MD of the company. It lasted around 10 minutes for me .It was just an informal chat wherein he asked me about my day , how do I feel about the situation and just some information on the company .",
+          "topics": [],
+          "questions": [
+            {
+              "text": "about my day",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "how do I feel about the situation",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "some information on the company",
+              "kind": "hr",
+              "page": 3
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            3
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "Since this is an AIML role, I would suggest that you should have all the projects in the field of AIML. Please try not to include development projects (if possible).",
+          "category": "Project preparation",
+          "page": 1
+        },
+        {
+          "text": "I would recommend including 1–2 projects on your resume where you have developed machine learning models from scratch. These projects highlight your ability to code from scratch and demonstrate a strong fundamental understanding of concepts.",
+          "category": "Project preparation",
+          "page": 2
+        },
+        {
+          "text": "Work experience is always appreciated. Try to have an internship before the placement season starts.",
+          "category": "Interview strategy",
+          "page": 2
+        },
+        {
+          "text": "Try to have C++ or Python as your primary language and then study OOPS in Java for a well-rounded knowledge base.",
+          "category": "Coding preparation",
+          "page": 2
+        },
+        {
+          "text": "The aptitude section for AuxoAI was of a moderate to high difficulty level .I personally used my strong intuition of mathematics to solve the questions.While I had all the time in the world to solve the questions , it won’t always be the same .I solved 18-19 questions .",
+          "category": "OA preparation",
+          "page": 2
+        },
+        {
+          "text": "Have strong fundamentals of machine learning and mathematics.",
+          "category": "Technical preparation",
+          "page": 3
+        },
+        {
+          "text": "Be calm.",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "In the guesstimate, I did all the calculations mentally , rather than on paper. This can help you . Also it is important to break the problem statement into smaller parts and then find the solution.",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "A calm mind is the need of the hour .You might be put in unknown and extreme high pressure situations throughout the whole placement process and it is important to not lose your sense of reasoning .",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "Prepare answers for standard HR questions beforehand (jot down the main points) and then try to relate all these points to weave a story .",
+          "category": "HR preparation",
+          "page": 3
+        },
+        {
+          "text": "Have a strong group of people around you who genuinely wish for your success.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Believe in God’s plan.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "it is fine to take a break of 1-2 days after a rejection and then have a fresh start leaving everything behind .",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Patience is something which is quite underrated in this journey. While people around you might be in a hurry to get placed, it is important to keep calm, think rationally, and then take any decision.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Luck and the importance of timing cannot be understated in this journey. While consistently getting the toughest questions in OAs (randomized questions in OA) broke me , I was really lucky that AuxoAI came for hiring. Luck evens out in the end (law of averages) but for luck to be on your side, you should be ready to work really hard even in adversity.",
+          "category": "Interview strategy",
+          "page": 4
+        }
+      ],
+      "resources": [
+        {
+          "title": "PROBABILITY in 1 Shot | From Zero to Hero | JEE Main & Advanced",
+          "url": null,
+          "description": "This video is a goldmine for probability.",
+          "topic": "probability",
+          "page": 2
+        },
+        {
+          "title": "100 Days of Machine Learning",
+          "url": null,
+          "description": "CampusX has the best playlist on YT.",
+          "topic": "Machine Learning",
+          "page": 3
+        },
+        {
+          "title": "100 Days of Deep Learning",
+          "url": null,
+          "description": "CampusX has the best playlist on YT.",
+          "topic": "Deep Learning",
+          "page": 3
+        },
+        {
+          "title": "3BLUE1BROWN",
+          "url": null,
+          "description": "YT channel has some playlists on mathematics.",
+          "topic": "mathematics",
+          "page": 4
+        },
+        {
+          "title": "GFG",
+          "url": null,
+          "description": "for top 100 puzzles. puzzles would be asked mostly on probability(like coins and cards)",
+          "topic": "puzzles",
+          "page": 4
+        },
+        {
+          "title": "Striver’s sheet",
+          "url": null,
+          "description": null,
+          "topic": "DSA",
+          "page": 4
+        }
+      ],
+      "filename": "AUXOAI_AIEngineer_DhruvDeshpande.pdf",
+      "source_path": "2026/Auxo_2026/AUXOAI_AIEngineer_DhruvDeshpande.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "content_sha256": "1ccfcf7c3a47449c97e863fd419849d064a11e0354159f03cf0ddb70dfcb8b7d"
+    },
+    {
+      "experience_id": "auxo_2026-2026-e692e5d1-1",
+      "company": "Auxo_2026",
+      "company_id": "auxo_2026",
+      "year": "2026",
+      "role": "Associate Consultant",
+      "rounds": [
+        {
+          "name": "Online Assesment Round",
+          "category": "Online Assessment",
+          "description": "The online assessment round was conducted on the HackerRank platform. It consisted of 36 questions to be solved in 120 minutes, covering topics from Computer Networking, Operating Systems, SQL, Logical Reasoning, Probability, and Puzzles, along with two DSA questions based on sliding windows and trees. The sliding window problem was easy, while the tree problem was of medium difficulty. There were also multiple SQL query-based questions that tested the basics of joins, aggregate functions, and constraints. The non-technical questions focused on aptitude and logical reasoning, which included probability-based problems and short analytical puzzles. We had to take the test from home due to heavy rainfall, which made it impossible to conduct the online assessment on campus that day.",
+          "topics": [
+            {
+              "original": "Computer Networking",
+              "canonical": "Computer Networks",
+              "category": "Computer networks"
+            },
+            {
+              "original": "Operating Systems",
+              "canonical": "Operating Systems",
+              "category": "Operating systems"
+            },
+            {
+              "original": "SQL",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "Logical Reasoning",
+              "canonical": "Logical Reasoning",
+              "category": "Aptitude"
+            },
+            {
+              "original": "Probability",
+              "canonical": "Probability",
+              "category": "Other"
+            },
+            {
+              "original": "Puzzles",
+              "canonical": "Logical Reasoning",
+              "category": "Aptitude"
+            },
+            {
+              "original": "DSA",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "sliding windows",
+              "canonical": "Sliding Windows",
+              "category": "Other"
+            },
+            {
+              "original": "trees",
+              "canonical": "Trees",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "joins",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "aggregate functions",
+              "canonical": "Aggregate Functions",
+              "category": "Other"
+            },
+            {
+              "original": "constraints",
+              "canonical": "Constraints",
+              "category": "Other"
+            },
+            {
+              "original": "aptitude",
+              "canonical": "Quantitative Aptitude",
+              "category": "Aptitude"
+            }
+          ],
+          "questions": [
+            {
+              "text": "two DSA questions based on sliding windows and trees",
+              "kind": "coding",
+              "page": 1
+            },
+            {
+              "text": "multiple SQL query-based questions that tested the basics of joins, aggregate functions, and constraints",
+              "kind": "technical",
+              "page": 1
+            },
+            {
+              "text": "non-technical questions focused on aptitude and logical reasoning, which included probability-based problems and short analytical puzzles",
+              "kind": "aptitude",
+              "page": 1
+            }
+          ],
+          "difficulty": "slightly higher",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Technical Interview I",
+          "category": "Technical Interview",
+          "description": "The interviews began soon after the pre-placement talk ended at around 12:00 p.m. I was allotted to Panel 1, and I was the second candidate from my panel to be interviewed. As soon as I entered the room, the interviewer greeted me, offered me a seat, and asked me to introduce myself. After my introduction, he went through my resume and asked about the first project mentioned in it. He then questioned some of my technical choices, such as why I used JavaScript for the project, why I didn’t use Next.js, and how I would convince him to use React instead of Next.js. Since I had used a Sentence Transformer model in my project, he asked me whether I was familiar with NLP. I told him that NLP is one of my core subjects this semester. His focus then shifted to NLP-related questions. Then his focus shifted to DSA, and he gave me a question on valid anagrams to solve. I wrote the pseudocode for it on paper, and the interviewer seemed quietly satisfied with my approach. After that, he asked me to write code to sort a string, which I implemented using bubble sort. Next, the discussion moved to DBMS and SQL. He also questioned me about candidate keys, primary keys, and foreign keys. Since I had mentioned MongoDB in my technical section, he asked me how to fetch the second-highest salary using MongoDB. After that, he moved to OOPs concepts and asked me to elaborate on the four pillars of OOPs with real-life examples. As my primary programming language is C++, he still asked whether multiple inheritance is supported in Java, along with some basic questions on memory management in Java. He then shifted to React, asking about Hooks, followed by some basic questions on Postman, Thunder Client, Git, and GitHub. At the end of the interview, he asked if I had any questions for him. I inquired about the type of work involved in the role and the training process. The entire round lasted for about 40–45 minutes.",
+          "topics": [
+            {
+              "original": "JavaScript",
+              "canonical": "JavaScript",
+              "category": "Programming languages"
+            },
+            {
+              "original": "Next.js",
+              "canonical": "Next.js",
+              "category": "Other"
+            },
+            {
+              "original": "React",
+              "canonical": "React",
+              "category": "Other"
+            },
+            {
+              "original": "NLP",
+              "canonical": "NLP",
+              "category": "Other"
+            },
+            {
+              "original": "vectorization",
+              "canonical": "Vectorization",
+              "category": "Other"
+            },
+            {
+              "original": "tokenization",
+              "canonical": "Tokenization",
+              "category": "Other"
+            },
+            {
+              "original": "sentiment analysis",
+              "canonical": "Sentiment Analysis",
+              "category": "Other"
+            },
+            {
+              "original": "stopwords",
+              "canonical": "Stopwords",
+              "category": "Other"
+            },
+            {
+              "original": "RAG",
+              "canonical": "RAG",
+              "category": "Other"
+            },
+            {
+              "original": "LLM",
+              "canonical": "LLM",
+              "category": "Other"
+            },
+            {
+              "original": "DSA",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "valid anagrams",
+              "canonical": "Valid Anagrams",
+              "category": "Other"
+            },
+            {
+              "original": "DBMS",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "SQL",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "second-highest salary",
+              "canonical": "Second-Highest Salary",
+              "category": "Other"
+            },
+            {
+              "original": "average salary department-wise",
+              "canonical": "Average Salary Department-Wise",
+              "category": "Other"
+            },
+            {
+              "original": "SQL and NoSQL",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "database optimization",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "partitioning",
+              "canonical": "Partitioning",
+              "category": "Other"
+            },
+            {
+              "original": "sharding",
+              "canonical": "Sharding",
+              "category": "Other"
+            },
+            {
+              "original": "vertical partitioning",
+              "canonical": "Vertical Partitioning",
+              "category": "Other"
+            },
+            {
+              "original": "horizontal partitioning",
+              "canonical": "Horizontal Partitioning",
+              "category": "Other"
+            },
+            {
+              "original": "candidate keys",
+              "canonical": "Candidate Keys",
+              "category": "Other"
+            },
+            {
+              "original": "primary keys",
+              "canonical": "Primary Keys",
+              "category": "Other"
+            },
+            {
+              "original": "foreign keys",
+              "canonical": "Foreign Keys",
+              "category": "Other"
+            },
+            {
+              "original": "MongoDB",
+              "canonical": "MongoDB",
+              "category": "Other"
+            },
+            {
+              "original": "OOPs",
+              "canonical": "Object-Oriented Programming",
+              "category": "OOPs"
+            },
+            {
+              "original": "four pillars of OOPs",
+              "canonical": "Object-Oriented Programming",
+              "category": "OOPs"
+            },
+            {
+              "original": "multiple inheritance",
+              "canonical": "Object-Oriented Programming",
+              "category": "OOPs"
+            },
+            {
+              "original": "Java",
+              "canonical": "Java",
+              "category": "Programming languages"
+            },
+            {
+              "original": "memory management",
+              "canonical": "Operating Systems",
+              "category": "Operating systems"
+            },
+            {
+              "original": "Hooks",
+              "canonical": "Hooks",
+              "category": "Other"
+            },
+            {
+              "original": "Postman",
+              "canonical": "Postman",
+              "category": "Other"
+            },
+            {
+              "original": "Thunder Client",
+              "canonical": "Thunder Client",
+              "category": "Other"
+            },
+            {
+              "original": "Git",
+              "canonical": "Git",
+              "category": "Other"
+            },
+            {
+              "original": "GitHub",
+              "canonical": "GitHub",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "introduce myself",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "about the first project mentioned in it",
+              "kind": "project",
+              "page": 2
+            },
+            {
+              "text": "why I used JavaScript for the project",
+              "kind": "project",
+              "page": 2
+            },
+            {
+              "text": "why I didn’t use Next.js",
+              "kind": "project",
+              "page": 2
+            },
+            {
+              "text": "how I would convince him to use React instead of Next.js",
+              "kind": "project",
+              "page": 2
+            },
+            {
+              "text": "whether I was familiar with NLP",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "vectorization",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "tokenization",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "sentiment analysis",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "stopwords",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "the difference between RAG and LLM",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "a question on valid anagrams to solve",
+              "kind": "coding",
+              "page": 2
+            },
+            {
+              "text": "write code to sort a string",
+              "kind": "coding",
+              "page": 2
+            },
+            {
+              "text": "write a query to find the second-highest salary",
+              "kind": "coding",
+              "page": 2
+            },
+            {
+              "text": "average salary department-wise",
+              "kind": "coding",
+              "page": 2
+            },
+            {
+              "text": "the difference between SQL and NoSQL",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "how to optimize a database",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "the difference between partitioning and sharding",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "between vertical and horizontal partitioning",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "candidate keys, primary keys, and foreign keys",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "how to fetch the second-highest salary using MongoDB",
+              "kind": "coding",
+              "page": 2
+            },
+            {
+              "text": "elaborate on the four pillars of OOPs with real-life examples",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "whether multiple inheritance is supported in Java",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "some basic questions on memory management in Java",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Hooks",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "some basic questions on Postman, Thunder Client, Git, and GitHub",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "any questions for him",
+              "kind": "hr",
+              "page": 3
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2,
+            3
+          ]
+        },
+        {
+          "name": "Technical-Interview II",
+          "category": "Technical Interview",
+          "description": "For this round, I was the second candidate in my panel to be interviewed. This round was purely focused on databases and lasted for around 50–55 minutes. All the questions were based on SQL, MongoDB, and Database Management Systems (DBMS). The interviewer first asked me to introduce myself, and then, similar to the first round, he asked me to explain my first project. He also asked me to design the schema of my project on paper. While designing, I explained my approach, discussed how I chose the primary keys, the cardinalities, and the relationships between tables. After that, he asked me to write several SQL queries—around 7 to 8 in total—and I was able to solve all of them. There were also some output prediction questions. He asked me the difference between DROP, TRUNCATE, and DELETE commands, and in which scenarios DELETE is used. I explained that DELETE is used with the WHERE condition. Then he gave me the query DELETE FROM table; and asked whether it would work without a WHERE condition. I answered that it would work, but it would be slower than DROP since it deletes the rows one by one. Next, he asked about ACID properties, deadlocks, and the types of SQL commands. I mentioned DDL, DML, DCL, and TCL. He then asked me to elaborate on TCL commands, and I explained COMMIT, ROLLBACK, and SAVEPOINT. He also asked a scenario-based question related to SAVEPOINT, which I was not completely sure about, so I politely told him that I was not very familiar with that concept. Then he moved on to ask the difference between functions and procedures, gave me a query to write a trigger, and followed up with multiple questions on views, joins, aggregate functions, procedures, UNION, and UNION ALL. He also asked about cursors in databases—which I honestly didn’t know—and several questions on indexing, including the difference between clustered and non-clustered indexes, and whether indexing would be effective for a table with millions of rows, along with a few scenario-based questions.",
+          "topics": [
+            {
+              "original": "databases",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "SQL",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "MongoDB",
+              "canonical": "MongoDB",
+              "category": "Other"
+            },
+            {
+              "original": "Database Management Systems (DBMS)",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "schema design",
+              "canonical": "System Design",
+              "category": "System design"
+            },
+            {
+              "original": "primary keys",
+              "canonical": "Primary Keys",
+              "category": "Other"
+            },
+            {
+              "original": "cardinalities",
+              "canonical": "Cardinalities",
+              "category": "Other"
+            },
+            {
+              "original": "relationships between tables",
+              "canonical": "Relationships Between Tables",
+              "category": "Other"
+            },
+            {
+              "original": "DROP",
+              "canonical": "DROP",
+              "category": "Other"
+            },
+            {
+              "original": "TRUNCATE",
+              "canonical": "TRUNCATE",
+              "category": "Other"
+            },
+            {
+              "original": "DELETE",
+              "canonical": "DELETE",
+              "category": "Other"
+            },
+            {
+              "original": "ACID properties",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "deadlocks",
+              "canonical": "Operating Systems",
+              "category": "Operating systems"
+            },
+            {
+              "original": "SQL commands",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "DDL",
+              "canonical": "DDL",
+              "category": "Other"
+            },
+            {
+              "original": "DML",
+              "canonical": "DML",
+              "category": "Other"
+            },
+            {
+              "original": "DCL",
+              "canonical": "DCL",
+              "category": "Other"
+            },
+            {
+              "original": "TCL",
+              "canonical": "TCL",
+              "category": "Other"
+            },
+            {
+              "original": "COMMIT",
+              "canonical": "COMMIT",
+              "category": "Other"
+            },
+            {
+              "original": "ROLLBACK",
+              "canonical": "ROLLBACK",
+              "category": "Other"
+            },
+            {
+              "original": "SAVEPOINT",
+              "canonical": "SAVEPOINT",
+              "category": "Other"
+            },
+            {
+              "original": "functions",
+              "canonical": "Functions",
+              "category": "Other"
+            },
+            {
+              "original": "procedures",
+              "canonical": "Procedures",
+              "category": "Other"
+            },
+            {
+              "original": "trigger",
+              "canonical": "Trigger",
+              "category": "Other"
+            },
+            {
+              "original": "views",
+              "canonical": "Views",
+              "category": "Other"
+            },
+            {
+              "original": "joins",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "aggregate functions",
+              "canonical": "Aggregate Functions",
+              "category": "Other"
+            },
+            {
+              "original": "UNION",
+              "canonical": "UNION",
+              "category": "Other"
+            },
+            {
+              "original": "UNION ALL",
+              "canonical": "UNION ALL",
+              "category": "Other"
+            },
+            {
+              "original": "cursors",
+              "canonical": "Cursors",
+              "category": "Other"
+            },
+            {
+              "original": "indexing",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "clustered indexes",
+              "canonical": "Clustered Indexes",
+              "category": "Other"
+            },
+            {
+              "original": "non-clustered indexes",
+              "canonical": "Non-Clustered Indexes",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "introduce myself",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "explain my first project",
+              "kind": "project",
+              "page": 3
+            },
+            {
+              "text": "design the schema of my project on paper",
+              "kind": "project",
+              "page": 3
+            },
+            {
+              "text": "write several SQL queries—around 7 to 8 in total",
+              "kind": "coding",
+              "page": 3
+            },
+            {
+              "text": "output prediction questions",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "the difference between DROP, TRUNCATE, and DELETE commands",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "in which scenarios DELETE is used",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "DELETE FROM table; and asked whether it would work without a WHERE condition",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "ACID properties",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "deadlocks",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "the types of SQL commands",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "elaborate on TCL commands",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "a scenario-based question related to SAVEPOINT",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "the difference between functions and procedures",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "a query to write a trigger",
+              "kind": "coding",
+              "page": 3
+            },
+            {
+              "text": "multiple questions on views, joins, aggregate functions, procedures, UNION, and UNION ALL",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "cursors in databases",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "indexing",
+              "kind": "technical",
+              "page": 4
+            },
+            {
+              "text": "the difference between clustered and non-clustered indexes",
+              "kind": "technical",
+              "page": 4
+            },
+            {
+              "text": "whether indexing would be effective for a table with millions of rows",
+              "kind": "technical",
+              "page": 4
+            },
+            {
+              "text": "a few scenario-based questions",
+              "kind": "technical",
+              "page": 4
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            3,
+            4
+          ]
+        },
+        {
+          "name": "HR Round",
+          "category": "HR Interview",
+          "description": "This round was more of a casual discussion and confirmation round, but I was quite nervous before it began. When I entered the room, the HR interviewer noticed my nervousness and kindly asked me to take a few deep breaths to relax. This round lasted for about 7–8 minutes.",
+          "topics": [],
+          "questions": [
+            {
+              "text": "about my nationality",
+              "kind": "hr",
+              "page": 4
+            },
+            {
+              "text": "strengths and weaknesses",
+              "kind": "hr",
+              "page": 4
+            },
+            {
+              "text": "my extracurricular activities",
+              "kind": "hr",
+              "page": 4
+            },
+            {
+              "text": "who my favorite cricket player was",
+              "kind": "hr",
+              "page": 4
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            4
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "It is not necessary to give the correct answer to every question the interviewer asks. The key is to stay confident throughout.",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "If you don’t know the answer to a question, avoid directly saying “I don’t know.” Instead, try to relate the question to some relevant concepts and explain your thought process. If the interviewer is still not satisfied, you can politely say, “I’m not completely sure about this, but I’ll definitely look into it.”",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "I strongly suggest maintaining a good CGPA throughout your academics. Try to keep it above 7.5, but to maximize your chances of getting shortlisted by most companies, aim for a CGPA of 8 or higher.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "So, along with DSA, make sure to practice aptitude questions regularly.",
+          "category": "OA preparation",
+          "page": 4
+        }
+      ],
+      "resources": [
+        {
+          "title": "Striver’s A2Z SDE Sheet",
+          "url": null,
+          "description": null,
+          "topic": "DSA",
+          "page": 4
+        },
+        {
+          "title": "GeeksforGeeks articles",
+          "url": null,
+          "description": null,
+          "topic": "Computer Fundamentals",
+          "page": 4
+        },
+        {
+          "title": "IndiaBix",
+          "url": null,
+          "description": null,
+          "topic": "Aptitude",
+          "page": 4
+        },
+        {
+          "title": "GeeksforGeeks",
+          "url": null,
+          "description": "prepared interview questions on DBMS, SQL, Operating Systems, Computer Networks, OOPs, JavaScript, React, and other technical skills mentioned in my resume",
+          "topic": null,
+          "page": 5
+        }
+      ],
+      "filename": "OFSS_AssociateConsultant_PushapRaina.pdf",
+      "source_path": "2026/Auxo_2026/OFSS_AssociateConsultant_PushapRaina.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "content_sha256": "e692e5d118b52b6687dd6f6d10e6bfd067d82c8ddc58045c5525056b6f4e1839"
+    }
+  ]
+}

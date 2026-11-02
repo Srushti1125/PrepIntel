@@ -1,0 +1,30 @@
+streamlit>=1.50,<2
+pandas>=2.2
+
+# PDF + text
+pymupdf>=1.24
+langchain-text-splitters>=1.0
+
+# RAG / orchestration
+langchain-core>=1.0
+langchain-chroma>=1.0
+chromadb>=1.0
+langgraph>=1.0
+langchain-google-genai>=3.0
+langchain-groq>=1.0
+
+# Local CPU embeddings (no external embedding API)
+langchain-huggingface>=1.0
+sentence-transformers>=3.0
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch>=2.2
+
+pydantic>=2.7
+python-dotenv>=1.0
+
+# Streamlit Cloud sometimes ships an old sqlite3 that chromadb rejects
+pysqlite3-binary>=0.5; sys_platform == "linux"
+
+# Optional OCR for scanned PDFs (also needs the Tesseract binary), ingestion only:
+# pytesseract>=0.3
+# pillow>=10
