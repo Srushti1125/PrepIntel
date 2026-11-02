@@ -102,6 +102,18 @@ def brief_tip(text: str, word_limit: int = 24) -> str:
     return preview
 
 
+def round_duration(text: str | None) -> str | None:
+    """Pull a stated duration from the round account when one is present."""
+    if not text:
+        return None
+    match = re.search(r"\b(\d+(?:\s*(?:[-–]|to)\s*\d+)?\s*(?:minutes?|mins?|hours?|hrs?))\b", text, re.I)
+    if not match:
+        return None
+    duration = re.sub(r"\s*(?:[-–]|to)\s*", "–", match.group(1), flags=re.I)
+    duration = re.sub(r"\bmins?\b", "minutes", duration, flags=re.I)
+    return re.sub(r"\bhrs?\b", "hours", duration, flags=re.I)
+
+
 @st.cache_resource(show_spinner="Loading embedding model and vector index (first run only)…")
 def load_services():
     from backend.services import get_services
@@ -192,18 +204,29 @@ with tab_rounds:
                     st.caption("No interview rounds were extracted from this experience.")
                 for r in e.rounds:
                     with st.container(border=True):
-                        title_col, category_col, difficulty_col = st.columns([3, 2, 2])
-                        title_col.markdown(f"#### {md_safe(r.name)}")
-                        category_col.markdown(f"**Round type**  \n{md_safe(r.category)}")
-                        difficulty_col.markdown(f"**Difficulty**  \n{md_safe(r.difficulty) if r.difficulty else 'Not stated'}")
-                        if r.description:
-                            points = "".join(f"<li>{html.escape(point)}</li>" for point in description_points(r.description))
-                            st.markdown(f'<div class="cp-round-summary"><strong>Round summary</strong><ul>{points}</ul></div>', unsafe_allow_html=True)
-                        if r.topics:
-                            st.markdown("**Key topics:** " + " · ".join(f"{md_safe(t.canonical)}" for t in r.topics))
+                        st.markdown(f"#### {md_safe(r.name)}")
+                        topics = list(dict.fromkeys(t.canonical for t in r.topics))
                         questions = r.questions
+                        duration = round_duration(r.description)
+                        metric_cols = st.columns(4)
+                        metric_cols[0].metric("Duration", duration or "Not stated")
+                        metric_cols[1].metric("Difficulty", r.difficulty or "Not stated")
+                        metric_cols[2].metric("Focus areas", len(topics))
+                        metric_cols[3].metric("Questions reported", len(questions))
+                        topic_summary = ", ".join(topics[:8]) if topics else "no specific topics were listed"
+                        if len(topics) > 8:
+                            topic_summary += f" and {len(topics) - 8} more"
+                        duration_text = f"lasted {duration}" if duration else "has no stated duration"
+                        question_text = f"{len(questions)} reported question{'s' if len(questions) != 1 else ''}"
+                        st.markdown(f"**Quick insight:** This {r.category.lower()} round {duration_text}, covered {md_safe(topic_summary)}, and included {question_text}.")
+                        if topics:
+                            st.markdown("**Focus areas**")
+                            st.markdown(" · ".join(f"**{md_safe(t)}**" for t in topics))
+                        if r.description:
+                            with st.expander("Read the candidate's full account"):
+                                st.write(r.description)
                         if questions:
-                            st.markdown("**Questions reported**")
+                            st.markdown("**Reported questions**")
                             for q in questions[:5]:
                                 st.markdown(f"- {md_safe(q.text)}")
                                 st.caption(dash.src(e.filename, q.page))

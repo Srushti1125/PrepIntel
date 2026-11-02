@@ -181,6 +181,446 @@
         3
       ],
       "content_sha256": "90f7261e7f20041b02eb1329d431952b120c15c7ffbb221fe03dd8faff729a2b"
+    },
+    {
+      "experience_id": "general_mills_summer_interns_2026-2026-a7aea740-1",
+      "company": "General_Mills_Summer_Interns_2026",
+      "company_id": "general_mills_summer_interns_2026",
+      "year": "2026",
+      "role": "Software Developer",
+      "rounds": [
+        {
+          "name": "Round 1 Online Assessment",
+          "category": "Online Assessment",
+          "description": "The online assessment round consisted of 60 questions and had a duration of 1 hour and 10 minutes. There were three sections: logical reasoning, language proficiency and technical questions.",
+          "topics": [
+            {
+              "original": "logical reasoning",
+              "canonical": "Logical Reasoning",
+              "category": "Aptitude"
+            },
+            {
+              "original": "language proficiency",
+              "canonical": "Language Proficiency",
+              "category": "Other"
+            },
+            {
+              "original": "Database Management System",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "Computer Communication and Networks",
+              "canonical": "Computer Networks",
+              "category": "Computer networks"
+            },
+            {
+              "original": "Object Oriented Programming",
+              "canonical": "Object-Oriented Programming",
+              "category": "OOPs"
+            },
+            {
+              "original": "Operating Systems",
+              "canonical": "Operating Systems",
+              "category": "Operating systems"
+            },
+            {
+              "original": "Data Structures and Algorithms",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            }
+          ],
+          "questions": [],
+          "difficulty": null,
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Technical Round",
+          "category": "Technical Interview",
+          "description": "Case study to design an app, discussing scalability, Firebase data storage, BCNF and normalization, and basics of microservices.",
+          "topics": [
+            {
+              "original": "App development",
+              "canonical": "App development",
+              "category": "Other"
+            },
+            {
+              "original": "Firebase",
+              "canonical": "Firebase",
+              "category": "Other"
+            },
+            {
+              "original": "BCNF",
+              "canonical": "BCNF",
+              "category": "Other"
+            },
+            {
+              "original": "normalization",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "microservices",
+              "canonical": "Microservices",
+              "category": "Other"
+            },
+            {
+              "original": "scalability",
+              "canonical": "Scalability",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Which subject excites me the most?",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Design an app case study (requirements gathering, architecture, scaling from 3,000 to 30,000 users).",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "How to store large amounts of data using Firebase and handle scalability issues?",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Explain concepts like BCNF and normalization.",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Discuss basics of microservices.",
+              "kind": "technical",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "HR- Based Round",
+          "category": "HR Interview",
+          "description": "HR interview covering personal introduction, family background, alternative career path, five‑year vision, friends' description, decision making, project brief, and motivation to join General Mills.",
+          "topics": [
+            {
+              "original": "career path",
+              "canonical": "Career Path",
+              "category": "Other"
+            },
+            {
+              "original": "next five years",
+              "canonical": "Next Five Years",
+              "category": "Other"
+            },
+            {
+              "original": "friends description",
+              "canonical": "Friends Description",
+              "category": "Other"
+            },
+            {
+              "original": "project",
+              "canonical": "Projects",
+              "category": "Projects"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Introduce yourself and share a bit about your family background.",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "If you hadn’t chosen engineering, what other career path would you have taken?",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "Where do you see yourself in the next five years?",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "How would your friends describe you?",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "What is the easiest decision you have taken so far in life?",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "What is the most difficult decision you have taken so far in life?",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "Explain one of your projects in brief.",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "Why do you want to join General Mills?",
+              "kind": "hr",
+              "page": 3
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2,
+            3
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "Know your basic concepts: Be well‑versed in the fundamentals of CCN (Computer Communication Networks), OS (Operating Systems), DBMS (Database Management Systems), and Data Structures.",
+          "category": "Technical preparation",
+          "page": 3
+        },
+        {
+          "text": "Aptitude practice: Practice sequences, patterns, and work‑related problems on various aptitude websites to sharpen your problem‑solving skills.",
+          "category": "OA preparation",
+          "page": 3
+        },
+        {
+          "text": "Focus on DBMS: Pay special attention to normalization in DBMS as it is a key concept often discussed.",
+          "category": "Technical preparation",
+          "page": 3
+        },
+        {
+          "text": "Prepare for technical rounds: Be thorough with the projects mentioned in your resume and be ready to explain them in detail.",
+          "category": "Technical preparation",
+          "page": 3
+        },
+        {
+          "text": "Master the basics: Ensure you have a strong understanding of core concepts, even in areas outside your projects.",
+          "category": "Technical preparation",
+          "page": 3
+        },
+        {
+          "text": "Curiosity matters: If you're unsure about an answer, show curiosity and eagerness to learn more about it.",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "Be engaged and eager: Show genuine interest in whatever the interviewers explain and ask thoughtful follow‑up questions.",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "Stay confident: Maintain confidence throughout the interview, as it can leave a lasting impression.",
+          "category": "Interview strategy",
+          "page": 3
+        }
+      ],
+      "resources": [],
+      "filename": "GeneralMills_Summer_Intern_Keerti_Mehta.pdf",
+      "source_path": "2026/General_Mills_Summer_Interns_2026/GeneralMills_Summer_Intern_Keerti_Mehta.pdf",
+      "pages": [
+        1,
+        2,
+        3
+      ],
+      "content_sha256": "a7aea7400480fb97321ed69c5c61172d4b795521e947e32c3b2d35f4726acd20"
+    },
+    {
+      "experience_id": "general_mills_summer_interns_2026-2026-9b234c00-1",
+      "company": "General_Mills_Summer_Interns_2026",
+      "company_id": "general_mills_summer_interns_2026",
+      "year": "2026",
+      "role": "Summer Internship 2025",
+      "rounds": [
+        {
+          "name": "Online Assessment",
+          "category": "Online Assessment",
+          "description": "The online assessment round consisted of 60 questions and had a duration of 1 hour and 10 minutes. There were three sections: logical reasoning, language proficiency, and technical questions. The aptitude section consisted of 15 basic questions on topics like time-work problems and general math, to be completed in 20 minutes... The language proficiency section consisted of 15 questions in 15 minutes... The technical section included questions on object-oriented programming, computer networks, operating systems, SQL, and DBMS.",
+          "topics": [
+            {
+              "original": "logical reasoning",
+              "canonical": "Logical Reasoning",
+              "category": "Aptitude"
+            },
+            {
+              "original": "language proficiency",
+              "canonical": "Language Proficiency",
+              "category": "Other"
+            },
+            {
+              "original": "technical questions",
+              "canonical": "Technical Questions",
+              "category": "Other"
+            },
+            {
+              "original": "time-work problems",
+              "canonical": "Time-Work Problems",
+              "category": "Other"
+            },
+            {
+              "original": "general math",
+              "canonical": "Quantitative Aptitude",
+              "category": "Aptitude"
+            },
+            {
+              "original": "object-oriented programming",
+              "canonical": "Object-Oriented Programming",
+              "category": "OOPs"
+            },
+            {
+              "original": "computer networks",
+              "canonical": "Computer Networks",
+              "category": "Computer networks"
+            },
+            {
+              "original": "operating systems",
+              "canonical": "Operating Systems",
+              "category": "Operating systems"
+            },
+            {
+              "original": "SQL",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "DBMS",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            }
+          ],
+          "questions": [],
+          "difficulty": null,
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Technical Interview",
+          "category": "Technical Interview",
+          "description": "The technical interview lasted 50 minutes to an hour, focusing heavily on my internship experience and projects, particularly in machine learning and web development... presented with a case study... The technical portion covered a range of topics: database choices, machine learning algorithms, specific SQL questions, neural networks, programming languages, favorite college subjects.",
+          "topics": [
+            {
+              "original": "machine learning",
+              "canonical": "Machine Learning",
+              "category": "Other"
+            },
+            {
+              "original": "web development",
+              "canonical": "Web Development",
+              "category": "Other"
+            },
+            {
+              "original": "database choices",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "machine learning algorithms",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "SQL",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "neural networks",
+              "canonical": "Computer Networks",
+              "category": "Computer networks"
+            },
+            {
+              "original": "programming languages",
+              "canonical": "Programming Languages",
+              "category": "Other"
+            },
+            {
+              "original": "college subjects",
+              "canonical": "College Subjects",
+              "category": "Other"
+            }
+          ],
+          "questions": [],
+          "difficulty": null,
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "HR Interview",
+          "category": "HR Interview",
+          "description": "In my HR round, I was primarily asked personal questions, with a focus on my interests and experiences outside of academics... asked me to \"sell\" General Mills to them... committees and extracurricular activities... interests beyond my degree... future aspirations... reading habits... how my friends perceive me.",
+          "topics": [
+            {
+              "original": "personal questions",
+              "canonical": "Personal Questions",
+              "category": "Other"
+            },
+            {
+              "original": "interests",
+              "canonical": "Interests",
+              "category": "Other"
+            },
+            {
+              "original": "extracurricular activities",
+              "canonical": "Extracurricular Activities",
+              "category": "Other"
+            },
+            {
+              "original": "future aspirations",
+              "canonical": "Future Aspirations",
+              "category": "Other"
+            },
+            {
+              "original": "reading habits",
+              "canonical": "Reading Habits",
+              "category": "Other"
+            },
+            {
+              "original": "friends perception",
+              "canonical": "Friends Perception",
+              "category": "Other"
+            }
+          ],
+          "questions": [],
+          "difficulty": null,
+          "pages": [
+            2
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "To succeed in this selection process, focus on your core computer science fundamentals such as computer networks, object-oriented programming, operating systems, SQL, and aptitude.",
+          "category": "OA preparation",
+          "page": 2
+        },
+        {
+          "text": "For the technical interviews, ensure that you know your projects and internships thoroughly. Be prepared to discuss your contributions, the tech stack you used, and your reasoning behind specific choices. SQL and DBMS will often be revisited, so make sure to revise those topics, along with basic data structures and algorithms (DSA).",
+          "category": "Technical preparation",
+          "page": 2
+        },
+        {
+          "text": "When it comes to the HR round, honesty, clarity, and genuineness go a long way. Research the company extensively before the interview so you’re ready to talk about it, and make sure you're prepared to discuss your interests outside of academics.",
+          "category": "HR preparation",
+          "page": 3
+        }
+      ],
+      "resources": [],
+      "filename": "GeneralMills_Summer_Intern_Shreya_Rathod.pdf",
+      "source_path": "2026/General_Mills_Summer_Interns_2026/GeneralMills_Summer_Intern_Shreya_Rathod.pdf",
+      "pages": [
+        1,
+        2,
+        3
+      ],
+      "content_sha256": "9b234c0050bf1a3436de5c55668f46534407454de3d88628c4dcc449d9233bb3"
     }
   ]
 }

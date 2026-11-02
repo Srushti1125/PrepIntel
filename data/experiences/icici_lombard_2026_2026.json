@@ -1,0 +1,260 @@
+{
+  "company_id": "icici_lombard_2026",
+  "year": "2026",
+  "experiences": [
+    {
+      "experience_id": "icici_lombard_2026-2026-609c32cd-1",
+      "company": "Icici_Lombard_2026",
+      "company_id": "icici_lombard_2026",
+      "year": "2026",
+      "role": "Trainee Software Engineer",
+      "rounds": [
+        {
+          "name": "Online Assessment",
+          "category": "Online Assessment",
+          "description": "Aptitude and Technical Test (90 mins) covering aptitude, technical multiple-choice questions and a coding DP question.",
+          "topics": [
+            {
+              "original": "aptitude",
+              "canonical": "Quantitative Aptitude",
+              "category": "Aptitude"
+            },
+            {
+              "original": "technical MCQs",
+              "canonical": "technical MCQs",
+              "category": "Other"
+            },
+            {
+              "original": "coding",
+              "canonical": "Coding",
+              "category": "Other"
+            },
+            {
+              "original": "DP",
+              "canonical": "Dynamic Programming",
+              "category": "DSA and coding"
+            }
+          ],
+          "questions": [],
+          "difficulty": null,
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Technical Interview 1",
+          "category": "Technical Interview",
+          "description": "Resume discussion, project on multi AI-agents, system architecture AWS/Docker/Kafka, authentication & security (JWT), OOPS fundamentals, SQL & Database concepts.",
+          "topics": [
+            {
+              "original": "AI agents",
+              "canonical": "AI agents",
+              "category": "Other"
+            },
+            {
+              "original": "AWS",
+              "canonical": "AWS",
+              "category": "Other"
+            },
+            {
+              "original": "Docker",
+              "canonical": "Docker",
+              "category": "Other"
+            },
+            {
+              "original": "Kafka",
+              "canonical": "Kafka",
+              "category": "Other"
+            },
+            {
+              "original": "JWT",
+              "canonical": "JWT",
+              "category": "Other"
+            },
+            {
+              "original": "OOPS",
+              "canonical": "Object-Oriented Programming",
+              "category": "OOPs"
+            },
+            {
+              "original": "SQL",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            }
+          ],
+          "questions": [],
+          "difficulty": null,
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Technical Interview 2",
+          "category": "Technical Interview",
+          "description": "Project discussion, internship and achievements, hackathon experiences.",
+          "topics": [
+            {
+              "original": "project",
+              "canonical": "Projects",
+              "category": "Projects"
+            },
+            {
+              "original": "internship",
+              "canonical": "Internship",
+              "category": "Other"
+            },
+            {
+              "original": "hackathon",
+              "canonical": "Hackathon",
+              "category": "Other"
+            }
+          ],
+          "questions": [],
+          "difficulty": null,
+          "pages": [
+            3
+          ]
+        },
+        {
+          "name": "HR Interview",
+          "category": "HR Interview",
+          "description": "Generic HR questions about background, interest in insurance, and scenario about users ghosting the platform and business expansion.",
+          "topics": [],
+          "questions": [
+            {
+              "text": "Where do I belong from",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "Where do I currently stay",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "How many family members I have and what they do",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "Why I am interested in an insurance firm",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "Scenario: users are ghosting the platform and how I would expand the business across geographies",
+              "kind": "hr",
+              "page": 3
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            3
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "Be mindful of time management, especially during the aptitude section.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Stay calm and maintain focus, as the ability to navigate freely in technical sections can be both a benefit and a distraction.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Be confident when explaining your projects and concepts.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Review common questions related to your resume and skills.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Keep giving mock interviews, either online or with friends, to build confidence and improve your performance.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Maintain a positive attitude, smile, and stay composed throughout.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "If you’re unsure about something, it’s okay to pause and collect your thoughts before answering.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Just don’t lose hope; patience is the key.",
+          "category": "Interview strategy",
+          "page": 4
+        }
+      ],
+      "resources": [
+        {
+          "title": "DSA playlist",
+          "url": "https://youtube.com/playlist?list=PLfqMhTWNBTe137I_EPQd34TsgV6IO55pt&si=Pn4HCfKdsUizLItS",
+          "description": null,
+          "topic": null,
+          "page": 4
+        },
+        {
+          "title": "Strivers A2Z DSA Sheet",
+          "url": "https://takeuforward.org/dsa/strivers-a2z-sheet-learn-dsa-a-to-z",
+          "description": null,
+          "topic": null,
+          "page": 4
+        },
+        {
+          "title": "Leetcode Top 50 SQL Questions",
+          "url": "https://leetcode.com/studyplan/top-sql-50/",
+          "description": null,
+          "topic": null,
+          "page": 4
+        },
+        {
+          "title": "Aptitude questions",
+          "url": "https://www.indiabix.com/aptitude/questions-and-answers/",
+          "description": null,
+          "topic": null,
+          "page": 4
+        },
+        {
+          "title": "HR Questions",
+          "url": "https://www.indiabix.com/hr-interview/questions-and-answers/",
+          "description": null,
+          "topic": null,
+          "page": 4
+        },
+        {
+          "title": "Guesstimates Book - Volume 1",
+          "url": null,
+          "description": null,
+          "topic": null,
+          "page": 4
+        },
+        {
+          "title": "Puzzles playlist",
+          "url": "https://youtube.com/playlist?list=PL6ZdH9C1KeueFazoYwshjYuao2pL9ihqY&si=o3KseMNJVWMWIIal",
+          "description": null,
+          "topic": null,
+          "page": 4
+        }
+      ],
+      "filename": "ICICILombard_SoftwareEngineer_ManishJadhav.pdf",
+      "source_path": "2026/Icici_Lombard_2026/ICICILombard_SoftwareEngineer_ManishJadhav.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "content_sha256": "609c32cd1eb2a34838b51654354afb9e22233b66ea105642cc9b063d8cbcc0c7"
+    }
+  ]
+}

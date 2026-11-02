@@ -1,0 +1,404 @@
+{
+  "company_id": "idfc_2026",
+  "year": "2026",
+  "experiences": [
+    {
+      "experience_id": "idfc_2026-2026-75a7c776-1",
+      "company": "IDFC_2026",
+      "company_id": "idfc_2026",
+      "year": "2026",
+      "role": "Application Engineer",
+      "rounds": [
+        {
+          "name": "Online Assessment",
+          "category": "Online Assessment",
+          "description": "The OA consisted of 3 Sections: Logical reasoning (20 mins), Aptitude (20 mins) and DSA (40 mins, 2 questions). MCQs covered OOPS, SQL, basics of development, aptitude. DSA had two questions, one about sorting and another easy‑medium level problem.",
+          "topics": [
+            {
+              "original": "Logical reasoning",
+              "canonical": "Logical Reasoning",
+              "category": "Aptitude"
+            },
+            {
+              "original": "Aptitude",
+              "canonical": "Quantitative Aptitude",
+              "category": "Aptitude"
+            },
+            {
+              "original": "DSA",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "OOPs",
+              "canonical": "Object-Oriented Programming",
+              "category": "OOPs"
+            },
+            {
+              "original": "SQL",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "Basics of development",
+              "canonical": "Basics of development",
+              "category": "Other"
+            },
+            {
+              "original": "sorting",
+              "canonical": "Sorting and Searching",
+              "category": "DSA and coding"
+            }
+          ],
+          "questions": [
+            {
+              "text": "First DSA question was about sorting.",
+              "kind": "coding",
+              "page": 1
+            },
+            {
+              "text": "Second DSA question was similar to Leetcode easy‑medium problems.",
+              "kind": "coding",
+              "page": 1
+            }
+          ],
+          "difficulty": "easy",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Technical Interview 1",
+          "category": "Technical Interview",
+          "description": "Two interviewers. Started with \"Tell me about yourself\". Questions covered authentication vs authorization scenario, OOPS concepts, projects, and system design of a URL shortener.",
+          "topics": [
+            {
+              "original": "Authentication",
+              "canonical": "Authentication",
+              "category": "Other"
+            },
+            {
+              "original": "Authorization",
+              "canonical": "Authorization",
+              "category": "Other"
+            },
+            {
+              "original": "OOPs",
+              "canonical": "Object-Oriented Programming",
+              "category": "OOPs"
+            },
+            {
+              "original": "multiple inheritance",
+              "canonical": "Object-Oriented Programming",
+              "category": "OOPs"
+            },
+            {
+              "original": "diamond problem",
+              "canonical": "Diamond Problem",
+              "category": "Other"
+            },
+            {
+              "original": "private constructors",
+              "canonical": "Private Constructors",
+              "category": "Other"
+            },
+            {
+              "original": "Singleton",
+              "canonical": "Singleton",
+              "category": "Other"
+            },
+            {
+              "original": "abstraction",
+              "canonical": "Object-Oriented Programming",
+              "category": "OOPs"
+            },
+            {
+              "original": "C++",
+              "canonical": "C++",
+              "category": "Programming languages"
+            },
+            {
+              "original": "Java",
+              "canonical": "Java",
+              "category": "Programming languages"
+            },
+            {
+              "original": "Firebase",
+              "canonical": "Firebase",
+              "category": "Other"
+            },
+            {
+              "original": "MongoDB",
+              "canonical": "MongoDB",
+              "category": "Other"
+            },
+            {
+              "original": "React",
+              "canonical": "React",
+              "category": "Other"
+            },
+            {
+              "original": "API",
+              "canonical": "API",
+              "category": "Other"
+            },
+            {
+              "original": "URL shortener",
+              "canonical": "URL shortener",
+              "category": "Other"
+            },
+            {
+              "original": "system design",
+              "canonical": "System Design",
+              "category": "System design"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Difference between Authentication and Authorization with a scenario involving admin and student access.",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "OOPS: multiple inheritance, diamond problem, private constructors (Singleton), abstraction, C++ vs Java differences.",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Project: implemented user authentication using Firebase, choice of MongoDB vs SQL, why React, use of APIs.",
+              "kind": "project",
+              "page": 2
+            },
+            {
+              "text": "System design of a URL shortener (data structures and flow).",
+              "kind": "technical",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Technical Round 2",
+          "category": "Technical Interview",
+          "description": "Two interviewers again. Covered new vs malloc, destructors and copy constructors, Fibonacci series check, OOPS pseudo‑code, project keywords, and schema design with SQL queries.",
+          "topics": [
+            {
+              "original": "new vs malloc",
+              "canonical": "New Vs Malloc",
+              "category": "Other"
+            },
+            {
+              "original": "destructors",
+              "canonical": "Destructors",
+              "category": "Other"
+            },
+            {
+              "original": "copy constructors",
+              "canonical": "Copy Constructors",
+              "category": "Other"
+            },
+            {
+              "original": "Fibonacci series",
+              "canonical": "Fibonacci series",
+              "category": "Other"
+            },
+            {
+              "original": "OOPs",
+              "canonical": "Object-Oriented Programming",
+              "category": "OOPs"
+            },
+            {
+              "original": "pseudo code",
+              "canonical": "Pseudo Code",
+              "category": "Other"
+            },
+            {
+              "original": "JWT Auth",
+              "canonical": "JWT Auth",
+              "category": "Other"
+            },
+            {
+              "original": "API",
+              "canonical": "API",
+              "category": "Other"
+            },
+            {
+              "original": "DB storage",
+              "canonical": "DB storage",
+              "category": "Other"
+            },
+            {
+              "original": "schema design",
+              "canonical": "System Design",
+              "category": "System design"
+            },
+            {
+              "original": "SQL queries",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            }
+          ],
+          "questions": [
+            {
+              "text": "New vs malloc (Java and C++), which is faster/better.",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Destructors and copy constructors.",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Check if 4181 belongs to the Fibonacci series.",
+              "kind": "coding",
+              "page": 3
+            },
+            {
+              "text": "Write pseudo code for OOPS concepts (classes, objects, keywords).",
+              "kind": "coding",
+              "page": 3
+            },
+            {
+              "text": "Explain project keywords such as JWT Auth, APIs, DB storage.",
+              "kind": "project",
+              "page": 3
+            },
+            {
+              "text": "Design schema for scaling scenarios and write SQL queries.",
+              "kind": "technical",
+              "page": 3
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2,
+            3
+          ]
+        },
+        {
+          "name": "HR Round",
+          "category": "HR Interview",
+          "description": "Initially an hour, later 20‑25 minutes. Focus on being yourself, aligning with company policies (Always You First) and giving real‑life examples.",
+          "topics": [
+            {
+              "original": "company policies",
+              "canonical": "Company Policies",
+              "category": "Other"
+            },
+            {
+              "original": "real life examples",
+              "canonical": "Real Life Examples",
+              "category": "Other"
+            }
+          ],
+          "questions": [],
+          "difficulty": null,
+          "pages": [
+            3
+          ]
+        },
+        {
+          "name": "Fitment/Tech round",
+          "category": "Technical Interview",
+          "description": "Started late evening. Discussed favourite subjects, soft computing (neural networks), difference between neural networks and machine learning, and overview of all projects.",
+          "topics": [
+            {
+              "original": "soft computing",
+              "canonical": "Soft Computing",
+              "category": "Other"
+            },
+            {
+              "original": "neural networks",
+              "canonical": "Computer Networks",
+              "category": "Computer networks"
+            },
+            {
+              "original": "machine learning",
+              "canonical": "Machine Learning",
+              "category": "Other"
+            },
+            {
+              "original": "projects",
+              "canonical": "Projects",
+              "category": "Projects"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Discuss favourite subjects; mentioned soft computing (neural networks).",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "Difference between neural networks and machine learning.",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "Provide an overview of all projects.",
+              "kind": "project",
+              "page": 4
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            3,
+            4
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "Hard work is important, but preparing smart for an interview is also really important, reading through interview experiences and prepping accordingly is important.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "There is a high possibility that even though you are the smartest, you might not end up with a good offer, and that's alright because placement has a huge chunk of luck on your side.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Be true to yourself; copying projects or lying won't land you anywhere. Consistent knowledge building over time is essential.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Keep your mind open during interviews so you can think of new examples and answers; when the interviewer reaches your strongest point, dive deep into it.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Consistently do DSA; in the last 1‑2 months you can prepare for other stuff.",
+          "category": "OA preparation",
+          "page": 4
+        },
+        {
+          "text": "Make your projects with a purpose, and if not, keep an answer ready that ties the project to a real‑world scenario.",
+          "category": "Project preparation",
+          "page": 4
+        },
+        {
+          "text": "Losing hope and feeling demotivated is normal; believe in yourself, stay fit, eat well and sleep well during the preparation period.",
+          "category": "Interview strategy",
+          "page": 5
+        }
+      ],
+      "resources": [],
+      "filename": "IDFC_Application_Engineer_Trishna_Tiwari.pdf",
+      "source_path": "2026/IDFC_2026/IDFC_Application_Engineer_Trishna_Tiwari.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "content_sha256": "75a7c7769db965da1a91fddea9bbc55b4f460da33d667645fc2221c22babcce6"
+    }
+  ]
+}
