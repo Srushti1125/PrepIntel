@@ -115,8 +115,8 @@ div[data-testid="stMetric"] {background:white;border:1px solid #e3e9f2;border-ra
 div[data-testid="stMetricLabel"] p {color:#64748b;font-weight:600;}
 div[data-testid="stMetricValue"] {color:#183b69;font-weight:750;}
 button[data-baseweb="tab"] {font-weight:650;}
-div[data-testid="stTabs"] [role="tablist"] {gap:.3rem;border-bottom:1px solid #e2e8f0;}
-div[data-testid="stTabs"] button[role="tab"] {padding:.8rem .95rem;}
+div[data-testid="stTabs"] [data-baseweb="tab-list"] {gap:.7rem!important;border-bottom:1px solid #e2e8f0;overflow-x:auto;scrollbar-width:thin;}
+div[data-testid="stTabs"] button[role="tab"] {flex:0 0 auto;white-space:nowrap;padding:.8rem 1rem!important;}
 div[data-testid="stChatMessage"] {border:1px solid #e7edf5;border-radius:16px;padding:.35rem .85rem;margin:.65rem 0;background:#fff;}
 div[data-testid="stChatMessage"] [data-testid="stMarkdownContainer"] {line-height:1.7;}
 div[data-testid="stChatInput"] textarea {border-radius:14px;}
@@ -161,6 +161,7 @@ div[data-testid="stDataFrame"] {border:1px solid #e3e9f2;border-radius:12px;over
 
 
 @media (max-width:700px) {.block-container{padding:1rem .8rem 3rem}.cp-title{font-size:1.65rem}}
+@media (max-width:700px) {div[data-testid="stTabs"] [data-baseweb="tab-list"] {gap:.35rem!important}div[data-testid="stTabs"] button[role="tab"] {padding:.75rem .8rem!important}}
 </style>
 """
 st.markdown(CSS, unsafe_allow_html=True)
