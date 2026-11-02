@@ -57,6 +57,10 @@ div[data-testid="stDataFrame"] {border:1px solid #e3e9f2;border-radius:12px;over
 .cp-tip-text {color:#263b58;line-height:1.7;font-size:.97rem;}
 .cp-tip-meta {border-top:1px solid #edf1f6;margin-top:.8rem;padding-top:.65rem;color:#718096;font-size:.78rem;}
 .cp-tip-tag {display:inline-block;background:#edf6f1;color:#28734b;border-radius:999px;padding:.15rem .55rem;margin-right:.4rem;font-weight:650;}
+.cp-round-summary {color:#263b58;line-height:1.45;}
+.cp-round-summary ul {margin:.2rem 0 .35rem;padding-left:1.25rem;}
+.cp-round-summary li {margin:.04rem 0;line-height:1.35;padding:0;}
+
 
 @media (max-width:700px) {.block-container{padding:1rem .8rem 3rem}.cp-title{font-size:1.65rem}}
 </style>
@@ -88,6 +92,16 @@ def description_points(text: str) -> list[str]:
     return [point.strip() for point in re.split(r"(?<=[.!?])\s+(?=[A-Z0-9])", cleaned) if point.strip()]
 
 
+def brief_tip(text: str, word_limit: int = 24) -> str:
+    """Show one concise, extractive tip preview without changing its meaning."""
+    sentences = description_points(text)
+    preview = sentences[0] if sentences else " ".join((text or "").split())
+    words = preview.split()
+    if len(words) > word_limit:
+        preview = " ".join(words[:word_limit]).rstrip(" ,;:") + "…"
+    return preview
+
+
 @st.cache_resource(show_spinner="Loading embedding model and vector index (first run only)…")
 def load_services():
     from backend.services import get_services
@@ -99,8 +113,11 @@ companies = dash.load_companies(settings.data_dir)
 manifest = dash.load_manifest(settings.data_dir)
 
 # This deployment is intentionally scoped to the current 2026 records.
-companies = [dict(c, years=[y for y in c.get("years", []) if y == "2026"])
-             for c in companies if "2026" in c.get("years", [])]
+companies = [
+    dict(c, years=[y for y in c.get("years", []) if y == "2026"],
+         name=re.sub(r"\s+2026$", "", c["name"]))
+    for c in companies if "2026" in c.get("years", [])
+]
 st.markdown('<div class="cp-hero"><div class="cp-eyebrow">Campus placement intelligence · 2026</div>'
             '<div class="cp-title">🎓 CampusPrep AI</div>'
             '<div class="cp-sub">Explore candidate-reported interview rounds, topics, preparation tips and resources.</div></div>',
@@ -157,7 +174,7 @@ else:
     st.caption("Roles: " + (", ".join(ov["roles"]) if ov["roles"] else "no role was mentioned in the source documents"))
 
 tab_rounds, tab_topics, tab_tips, tab_res, tab_chat = st.tabs(
-    ["Interview Rounds", "Topic Intelligence", "Preparation Tips", "Resources", "💬 Ask CampusPrep AI"]
+    ["Rounds", "Topic Intelligence", "Preparation Tips", "Resources", "💬 Ask CampusPrep AI"]
 )
 
 # ------------------------------------------------------------------------------------ rounds
@@ -180,9 +197,8 @@ with tab_rounds:
                         category_col.markdown(f"**Round type**  \n{md_safe(r.category)}")
                         difficulty_col.markdown(f"**Difficulty**  \n{md_safe(r.difficulty) if r.difficulty else 'Not stated'}")
                         if r.description:
-                            st.markdown("**Round summary**")
-                            for point in description_points(r.description):
-                                st.markdown(f"- {md_safe(point)}")
+                            points = "".join(f"<li>{html.escape(point)}</li>" for point in description_points(r.description))
+                            st.markdown(f'<div class="cp-round-summary"><strong>Round summary</strong><ul>{points}</ul></div>', unsafe_allow_html=True)
                         if r.topics:
                             st.markdown("**Key topics:** " + " · ".join(f"{md_safe(t.canonical)}" for t in r.topics))
                         questions = r.questions
@@ -249,12 +265,16 @@ with tab_tips:
         cols = st.columns(2, gap="medium")
         for index, tip in enumerate(tips):
             source = html.escape(f'{tip["year"]} · {tip["source"]}')
-            body = html.escape(tip["text"])
-            cols[index % 2].markdown(
-                f'<div class="cp-tip-card"><div class="cp-tip-text">{body}</div>'
+            preview = html.escape(brief_tip(tip["text"]))
+            col = cols[index % 2]
+            col.markdown(
+                f'<div class="cp-tip-card"><div class="cp-tip-text">{preview}</div>'
                 f'<div class="cp-tip-meta"><span class="cp-tip-tag">Candidate-reported</span>{source}</div></div>',
                 unsafe_allow_html=True,
             )
+            if brief_tip(tip["text"]) != " ".join(tip["text"].split()):
+                with col.expander("Read full tip"):
+                    st.write(tip["text"])
 
 # ------------------------------------------------------------------------------------ resources
 with tab_res:

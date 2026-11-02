@@ -1,0 +1,211 @@
+{
+  "company_id": "dolat_cap_2026",
+  "year": "2026",
+  "experiences": [
+    {
+      "experience_id": "dolat_cap_2026-2026-ab31bb2a-1",
+      "company": "Dolat_cap_2026",
+      "company_id": "dolat_cap_2026",
+      "year": "2026",
+      "role": "Quant Developer",
+      "rounds": [
+        {
+          "name": "Online Assessment (OA)",
+          "category": "Online Assessment",
+          "description": null,
+          "topics": [],
+          "questions": [
+            {
+              "text": "C++ MCQs: questions were quite tricky, some based on concepts like the static and volatile keywords. Example: class Person{ string name; Person(string name){ name=name; // what will happen here } };",
+              "kind": "technical",
+              "page": 1
+            },
+            {
+              "text": "Python MCQs: basic syntax like for loops and array slicing (e.g., arr[:-1]).",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Python Coding Question: remove outliers from a given array. An outlier is any element greater than upper = mean + standard_deviation or less than lower = mean - standard_deviation. Used NumPy's np.mean() and np.std().",
+              "kind": "coding",
+              "page": 2
+            },
+            {
+              "text": "C++ Coding Question: design a parking system. Pricing logic: 1 vehicle → ₹100 per car, 2 vehicles → ₹200 per car, 3+ vehicles → ₹300 per car. Input examples (A 10 20, B 10 20, ...). Output cost calculations.",
+              "kind": "coding",
+              "page": 2
+            },
+            {
+              "text": "Aptitude: mix of easy and tough problems.",
+              "kind": "aptitude",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            1,
+            2
+          ]
+        },
+        {
+          "name": "Interview Round 1 (In-Office)",
+          "category": "Technical Interview",
+          "description": null,
+          "topics": [],
+          "questions": [
+            {
+              "text": "What is abstraction? Explain the concept and provide a code example, detailing how virtual functions work internally.",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "Difference between struct and class in C++. Example struct Node { int data; Node* next; }; Members of struct are public by default, class members are private by default.",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "Linked List Reordering: reorder a linked list to connect the i-th node to the (n-i)-th node. Input: 1 -> 2 -> 3 -> 4. Output: 1 -> 4 -> 2 -> 3.",
+              "kind": "coding",
+              "page": 3
+            },
+            {
+              "text": "Expected value of a fair six-sided die? (Answer: 3.5).",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "Expected number of rolls to get a 6? (Answer: 6).",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "Write a recurrence relation for the expected number of rolls to get a 5 followed immediately by a 6.",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "Name some common distributions: Binomial, Normal, Uniform.",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "Provide PDF and CDF for each of the mentioned distributions.",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "Derive the distribution of N₃ = N₁ + N₂ where N₁ and N₂ are independent normal distributions.",
+              "kind": "technical",
+              "page": 3
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            3
+          ]
+        },
+        {
+          "name": "HR Interview",
+          "category": "HR Interview",
+          "description": null,
+          "topics": [],
+          "questions": [
+            {
+              "text": "Tell me about yourself.",
+              "kind": "hr",
+              "page": 4
+            },
+            {
+              "text": "What is your CGPA?",
+              "kind": "hr",
+              "page": 4
+            },
+            {
+              "text": "Tell me about your family background.",
+              "kind": "hr",
+              "page": 4
+            },
+            {
+              "text": "What are 3 of your greatest strengths and 3 of your weaknesses?",
+              "kind": "hr",
+              "page": 4
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            4
+          ]
+        },
+        {
+          "name": "Interview Round 3 (Online C++ Round)",
+          "category": "Technical Interview",
+          "description": null,
+          "topics": [],
+          "questions": [
+            {
+              "text": "Implement a Data Structure: class with add(a) to add a number to a stream and avg() to return the average of the last k numbers. Follow‑up: update(new_k) to change k, suggested using a std::vector and prefix sum array.",
+              "kind": "coding",
+              "page": 4
+            },
+            {
+              "text": "Delete a Node in a Doubly Linked List: write struct Node { int data; Node* next; Node* prev; }; and function void deleteNode(Node* ptr) to delete given node.",
+              "kind": "coding",
+              "page": 4
+            },
+            {
+              "text": "Explain what a memory leak is.",
+              "kind": "technical",
+              "page": 5
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            4,
+            5
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "To clear the assessment, focus on the Python and C++ coding questions. The test cases seemed limited, so even a brute-force solution could potentially pass.",
+          "category": "OA preparation",
+          "page": 2
+        },
+        {
+          "text": "Focus on advanced C++ concepts: OOPs principles (especially virtual functions), Templates, Multithreading (e.g., spinlocks), Smart Pointers (unique_ptr, shared_ptr), implementing your own string and vector classes.",
+          "category": "Technical preparation",
+          "page": 5
+        },
+        {
+          "text": "The most challenging part of the process is the OA because you need to know basic Python for the coding question. Learned required Python syntax in 4‑5 days by solving problems on HackerRank.",
+          "category": "OA preparation",
+          "page": 5
+        },
+        {
+          "text": "Overall, this is a very achievable company to crack; they never ask about your projects.",
+          "category": "Interview strategy",
+          "page": 5
+        }
+      ],
+      "resources": [
+        {
+          "title": "YouTube playlist by Keerti Purswani",
+          "url": null,
+          "description": "Recommended for advanced C++ topics.",
+          "topic": null,
+          "page": 5
+        }
+      ],
+      "filename": "Interview Experience Template._sumit_patel.pdf",
+      "source_path": "2026/Dolat_cap_2026/Interview Experience Template._sumit_patel.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "content_sha256": "ab31bb2a6f4084b51ca214dd9db64e9943933c7b155ed2e13590be995c25a500"
+    }
+  ]
+}

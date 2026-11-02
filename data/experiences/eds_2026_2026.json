@@ -1,0 +1,412 @@
+{
+  "company_id": "eds_2026",
+  "year": "2026",
+  "experiences": [
+    {
+      "experience_id": "eds_2026-2026-c9603333-1",
+      "company": "EDS_2026",
+      "company_id": "eds_2026",
+      "year": "2026",
+      "role": "SDE",
+      "rounds": [
+        {
+          "name": "Round 1 – Online Assessment",
+          "category": "Online Assessment",
+          "description": "Aptitude Test with 15 questions covering Areas, Simple and Compound Interest, Probability, Permutations & Combinations, Boats and Streams. Technical Test focusing on fundamental concepts of OOPs and DBMS/SQL.",
+          "topics": [
+            {
+              "original": "Areas",
+              "canonical": "Areas",
+              "category": "Other"
+            },
+            {
+              "original": "Simple and Compound Interest",
+              "canonical": "Simple and Compound Interest",
+              "category": "Other"
+            },
+            {
+              "original": "Probability",
+              "canonical": "Probability",
+              "category": "Other"
+            },
+            {
+              "original": "Permutations & Combinations",
+              "canonical": "Permutations & Combinations",
+              "category": "Other"
+            },
+            {
+              "original": "Boats and Streams",
+              "canonical": "Boats and Streams",
+              "category": "Other"
+            },
+            {
+              "original": "OOPs",
+              "canonical": "Object-Oriented Programming",
+              "category": "OOPs"
+            },
+            {
+              "original": "DBMS/SQL",
+              "canonical": "DBMS/SQL",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Aptitude Test covering Areas, Simple and Compound Interest, Probability, Permutations & Combinations, Boats and Streams.",
+              "kind": "aptitude",
+              "page": 1
+            },
+            {
+              "text": "Technical Test focusing on fundamental concepts of OOPs and DBMS/SQL.",
+              "kind": "technical",
+              "page": 1
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Round 2 - Technical Interview 1",
+          "category": "Technical Interview",
+          "description": "Interview began with project questions, a code debugging task, an SQL query using OFFSET and LIMIT, a basic DSA question solved in C++, an optimized version in JavaScript, JavaScript fundamentals questions, and a puzzle.",
+          "topics": [
+            {
+              "original": "projects",
+              "canonical": "Projects",
+              "category": "Projects"
+            },
+            {
+              "original": "code debugging",
+              "canonical": "Code Debugging",
+              "category": "Other"
+            },
+            {
+              "original": "SQL",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "OFFSET",
+              "canonical": "OFFSET",
+              "category": "Other"
+            },
+            {
+              "original": "LIMIT",
+              "canonical": "LIMIT",
+              "category": "Other"
+            },
+            {
+              "original": "DSA",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "C++",
+              "canonical": "C++",
+              "category": "Programming languages"
+            },
+            {
+              "original": "JavaScript",
+              "canonical": "JavaScript",
+              "category": "Programming languages"
+            },
+            {
+              "original": "JavaScript fundamentals",
+              "canonical": "JavaScript",
+              "category": "Programming languages"
+            },
+            {
+              "original": "puzzle",
+              "canonical": "Logical Reasoning",
+              "category": "Aptitude"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Questions about my projects.",
+              "kind": "project",
+              "page": 2
+            },
+            {
+              "text": "Code debugging task to identify and fix an error.",
+              "kind": "coding",
+              "page": 2
+            },
+            {
+              "text": "Write an SQL query using OFFSET and LIMIT clauses.",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Basic Data Structures and Algorithms (DSA) question.",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Write a more optimized version of the DSA solution in JavaScript.",
+              "kind": "coding",
+              "page": 2
+            },
+            {
+              "text": "JavaScript fundamentals questions.",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Puzzle question.",
+              "kind": "other",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Round 3-Technical Interview 2",
+          "category": "Technical Interview",
+          "description": "SQL query based on JOINS and subqueries, basic DSA questions, approximately 10 fundamental JavaScript questions, discussion on difference between SQL and NoSQL databases, system architecture drawing and explanation, basic HTML and CSS coding.",
+          "topics": [
+            {
+              "original": "SQL JOINS",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "subqueries",
+              "canonical": "Subqueries",
+              "category": "Other"
+            },
+            {
+              "original": "DSA",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "JavaScript",
+              "canonical": "JavaScript",
+              "category": "Programming languages"
+            },
+            {
+              "original": "system architecture",
+              "canonical": "System Architecture",
+              "category": "Other"
+            },
+            {
+              "original": "HTML",
+              "canonical": "HTML",
+              "category": "Other"
+            },
+            {
+              "original": "CSS",
+              "canonical": "CSS",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "SQL query based on JOINS and subqueries.",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Basic DSA questions.",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "Fundamental JavaScript questions (~10).",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Explain the difference between SQL and NoSQL databases.",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "Draw and explain system architecture of one of my projects.",
+              "kind": "project",
+              "page": 3
+            },
+            {
+              "text": "Write basic HTML code and apply relevant CSS properties.",
+              "kind": "coding",
+              "page": 3
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2,
+            3
+          ]
+        },
+        {
+          "name": "Round 4-HR Interview",
+          "category": "HR Interview",
+          "description": "Standard HR questions such as \"Why do you want to join EDS?\" and \"How was your overall interview experience?\", questions about future plans, strengths and weaknesses, family background, and why not leverage father's connection at IBM.",
+          "topics": [
+            {
+              "original": "motivation",
+              "canonical": "Motivation",
+              "category": "Other"
+            },
+            {
+              "original": "interview experience",
+              "canonical": "Interview Experience",
+              "category": "Other"
+            },
+            {
+              "original": "future plans",
+              "canonical": "Future Plans",
+              "category": "Other"
+            },
+            {
+              "original": "higher studies",
+              "canonical": "Higher Studies",
+              "category": "Other"
+            },
+            {
+              "original": "strengths",
+              "canonical": "Strengths",
+              "category": "Other"
+            },
+            {
+              "original": "weaknesses",
+              "canonical": "Weaknesses",
+              "category": "Other"
+            },
+            {
+              "original": "family background",
+              "canonical": "Family Background",
+              "category": "Other"
+            },
+            {
+              "original": "father's IBM connection",
+              "canonical": "father's IBM connection",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Why do you want to join EDS?",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "How was your overall interview experience?",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "Future plans and intention to pursue higher studies.",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "Strengths and weaknesses.",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "Family background and question about father's role at IBM.",
+              "kind": "hr",
+              "page": 3
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            3
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "Practice aptitude questions on IndiaBix and refer to the “1000 Sanfoundry MCQs” focused on OOPs and Java.",
+          "category": "OA preparation",
+          "page": 4
+        },
+        {
+          "text": "Ensure fundamentals in JavaScript and SQL are clear, as questions from these areas are commonly asked.",
+          "category": "Technical preparation",
+          "page": 4
+        },
+        {
+          "text": "Have complete clarity about your projects—know every detail thoroughly.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Only mention technologies or features on your resume that you have actually worked on.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Maintain confidence, good body language, composure, and wear a smile throughout the interview process.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "If you realize an answer is incorrect, acknowledge it politely and assure the interviewer you will work on it.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Treat the interview as a win‑win situation to gain experience even if you don’t get placed.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Never lose hope; one chance can break through and lead to placement.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Never underestimate yourself; patience and staying calm are key during placement season.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Stay motivated and talk to someone if you feel overwhelmed or stressed.",
+          "category": "Interview strategy",
+          "page": 4
+        }
+      ],
+      "resources": [
+        {
+          "title": "IndiaBix",
+          "url": null,
+          "description": "Aptitude practice platform",
+          "topic": null,
+          "page": 4
+        },
+        {
+          "title": "1000 Sanfoundry MCQs",
+          "url": null,
+          "description": "MCQ collection focused on OOPs and Java",
+          "topic": null,
+          "page": 4
+        },
+        {
+          "title": "LinkedIn profile",
+          "url": null,
+          "description": null,
+          "topic": null,
+          "page": null
+        }
+      ],
+      "filename": "EDS_SDE_Kush Nhayade.pdf",
+      "source_path": "2026/EDS_2026/EDS_SDE_Kush Nhayade.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "content_sha256": "c960333377d4f5a0581a6b5b9598b519909c3ebf96b6ff3b647d0d11684f7c9e"
+    }
+  ]
+}

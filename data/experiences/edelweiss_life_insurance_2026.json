@@ -1,0 +1,156 @@
+{
+  "company_id": "edelweiss_life_insurance",
+  "year": "2026",
+  "experiences": [
+    {
+      "experience_id": "edelweiss_life_insurance-2026-99d62b61-1",
+      "company": "Edelweiss Life Insurance",
+      "company_id": "edelweiss_life_insurance",
+      "year": "2026",
+      "role": "SDE 1",
+      "rounds": [
+        {
+          "name": "Aptitude",
+          "category": "Online Assessment",
+          "description": null,
+          "topics": [
+            {
+              "original": "Reasoning",
+              "canonical": "Logical Reasoning",
+              "category": "Aptitude"
+            },
+            {
+              "original": "Aptitude",
+              "canonical": "Quantitative Aptitude",
+              "category": "Aptitude"
+            },
+            {
+              "original": "Verbal",
+              "canonical": "Verbal Ability",
+              "category": "Aptitude"
+            },
+            {
+              "original": "Emotional Intelligence",
+              "canonical": "Emotional Intelligence",
+              "category": "Other"
+            },
+            {
+              "original": "compound interest",
+              "canonical": "Compound Interest",
+              "category": "Other"
+            },
+            {
+              "original": "speed and distance",
+              "canonical": "Speed And Distance",
+              "category": "Other"
+            },
+            {
+              "original": "ratios",
+              "canonical": "Ratios",
+              "category": "Other"
+            },
+            {
+              "original": "seating arrangements",
+              "canonical": "Seating Arrangements",
+              "category": "Other"
+            }
+          ],
+          "questions": [],
+          "difficulty": null,
+          "pages": []
+        },
+        {
+          "name": "Technical round",
+          "category": "Technical Interview",
+          "description": null,
+          "topics": [
+            {
+              "original": "OOP pillars",
+              "canonical": "Object-Oriented Programming",
+              "category": "OOPs"
+            },
+            {
+              "original": "NoSQL",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "SQL",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "system design",
+              "canonical": "System Design",
+              "category": "System design"
+            },
+            {
+              "original": "PolicyBazaar clone",
+              "canonical": "PolicyBazaar clone",
+              "category": "Other"
+            },
+            {
+              "original": "React",
+              "canonical": "React",
+              "category": "Other"
+            },
+            {
+              "original": ".NET",
+              "canonical": ".NET",
+              "category": "Other"
+            },
+            {
+              "original": "PostgreSQL",
+              "canonical": "PostgreSQL",
+              "category": "Other"
+            },
+            {
+              "original": "S3",
+              "canonical": "S3",
+              "category": "Other"
+            }
+          ],
+          "questions": [],
+          "difficulty": null,
+          "pages": []
+        }
+      ],
+      "tips": [
+        {
+          "text": "Practicing from IndiaBix is more than sufficient for this round. Focus on time management and attempt easier questions first. Regular practice on compound interest, ratios, and seating arrangements is recommended.",
+          "category": "OA preparation",
+          "page": 1
+        },
+        {
+          "text": "Be confident and conversational. Know your resume thoroughly, especially your projects - be ready to explain what problem each project solves in simple terms. Research the company beforehand so you can speak about their work culture with some awareness.",
+          "category": "HR preparation",
+          "page": 2
+        },
+        {
+          "text": "Revise OOP concepts (Encapsulation, Abstraction, Inheritance, Polymorphism) and have a concrete example from your own project ready for each. Be comfortable explaining your projects and internship work end-to-end. Practice basic system design - especially around databases, storage, and API design - as scenario-based questions are common.",
+          "category": "Technical preparation",
+          "page": 2
+        },
+        {
+          "text": "Listen actively and ask thoughtful questions about the role, team structure, or learning opportunities. This is your chance to show genuine interest in the company.",
+          "category": "HR preparation",
+          "page": 3
+        },
+        {
+          "text": "Even though this round feels relaxed, remain professional. Show enthusiasm about the opportunity and the company. Asking one or two genuine questions about the role or the team leaves a positive impression.",
+          "category": "Interview strategy",
+          "page": 3
+        }
+      ],
+      "resources": [],
+      "filename": "EdelweissSDERuswin.pdf",
+      "source_path": "2026/Edelweiss Life Insurance/EdelweissSDERuswin.pdf",
+      "pages": [
+        1,
+        2,
+        3
+      ],
+      "content_sha256": "99d62b613a694d048935133ac1099e4d3a4196f74f9432b9f36c6f61ce435cdd"
+    }
+  ]
+}

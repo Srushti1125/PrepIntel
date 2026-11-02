@@ -1,0 +1,186 @@
+{
+  "company_id": "general_mills_summer_interns_2026",
+  "year": "2026",
+  "experiences": [
+    {
+      "experience_id": "general_mills_summer_interns_2026-2026-90f7261e-1",
+      "company": "General_Mills_Summer_Interns_2026",
+      "company_id": "general_mills_summer_interns_2026",
+      "year": "2026",
+      "role": "Software Developer (Internship)",
+      "rounds": [
+        {
+          "name": "Round 1 Online Assessment",
+          "category": "Online Assessment",
+          "description": "The First round (60 Questions) was the online assessment having 3 sections (No Negative Marking): Section 1 – Logical based thinking, Section 2 – English Language based, Section 3 – Technical Based covering OOP, DBMS, Computer Communication Networks, DSA etc.",
+          "topics": [],
+          "questions": [],
+          "difficulty": "easy to moderate",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Round 2: Technical Interview Round",
+          "category": "Technical Interview",
+          "description": "45‑60 minute interview focusing on depth of knowledge, resume, projects, situational questions, data analytics, cloud computing, DBMS, SQL schema design, queries, HAVING vs WHERE.",
+          "topics": [],
+          "questions": [
+            {
+              "text": "Introduce yourself.",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Explain your projects and work experience in depth.",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Were these collaborative projects? If yes and a conflict arose then how would you manage it?",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "If some of your team mates were not on the same page then what would you do?",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "How would you approach people when you had to build a project on a tech stack that you don’t know?",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "What is cloud computing?",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Design a schema for a School.",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "SQL Queries on the schema.",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Difference between the HAVING and the WHERE clause.",
+              "kind": "technical",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Round 3 – HR Based Round",
+          "category": "HR Interview",
+          "description": "Purely HR based round with common questions, walking through resume, focusing on NGO experience and alignment with company values.",
+          "topics": [],
+          "questions": [
+            {
+              "text": "Where do you see yourself in 5 years?",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "If not engineering then what will you be doing? And why?",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "One impression – good and bad that your friends will have about you? Why would they have that?",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "What do you know about General Mills?",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "Why choose General Mills?",
+              "kind": "hr",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "Questions might appear tricky. Since this will be the first section you will be attempting - the key part here is to balance your time as 15 minutes is less for this section. Go through all the questions and solve according to easiest to difficult strategy.",
+          "category": "OA preparation",
+          "page": 1
+        },
+        {
+          "text": "Section is straight forward with the basic level of English you will be able to crack this easily. Time is not an issue here, just have to think calmy.",
+          "category": "OA preparation",
+          "page": 1
+        },
+        {
+          "text": "Questions here were of easy to moderate level. A key part here is to take the smart guess when not sure. Some of them are objective based theory while some will be solving according to a data structure or so.",
+          "category": "OA preparation",
+          "page": 1
+        },
+        {
+          "text": "The best tip would be to remain calm and smile in this situation.",
+          "category": "Interview strategy",
+          "page": 1
+        },
+        {
+          "text": "The key is to keep calm and have a smile on your face and then give the reply to best of your ability. Highlighting points relevant to the company is always beneficial as they see that your goals align with theirs.",
+          "category": "HR preparation",
+          "page": 3
+        },
+        {
+          "text": "Computer Fundamentals: Keep learning and practicing OOP, DBMS, DSA, and CCN.",
+          "category": "Technical preparation",
+          "page": 3
+        },
+        {
+          "text": "Do your homework: Research the company you're interviewing with.",
+          "category": "HR preparation",
+          "page": 3
+        },
+        {
+          "text": "Be clear and confident: Focus on explaining your ideas clearly.",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "Be yourself: Honesty and authenticity are important in the HR round.",
+          "category": "HR preparation",
+          "page": 3
+        },
+        {
+          "text": "Know your stuff: Be ready to talk about your work experience projects and technical skills.",
+          "category": "Technical preparation",
+          "page": 3
+        },
+        {
+          "text": "Format your resume: It is always a good practice to tailor your resume according to the company and the important points in your resume should be highlighted.",
+          "category": "Interview strategy",
+          "page": 3
+        }
+      ],
+      "resources": [],
+      "filename": "GeneralMills_Summer_Intern_Hrishikesh_Dalal.pdf",
+      "source_path": "2026/General_Mills_Summer_Interns_2026/GeneralMills_Summer_Intern_Hrishikesh_Dalal.pdf",
+      "pages": [
+        1,
+        2,
+        3
+      ],
+      "content_sha256": "90f7261e7f20041b02eb1329d431952b120c15c7ffbb221fe03dd8faff729a2b"
+    }
+  ]
+}
