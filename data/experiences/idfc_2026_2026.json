@@ -399,6 +399,750 @@
         5
       ],
       "content_sha256": "75a7c7769db965da1a91fddea9bbc55b4f460da33d667645fc2221c22babcce6"
+    },
+    {
+      "experience_id": "idfc_2026-2026-62f1a3dd-1",
+      "company": "IDFC_2026",
+      "company_id": "idfc_2026",
+      "year": "2026",
+      "role": "Application Engineer",
+      "rounds": [
+        {
+          "name": "Online Assessment",
+          "category": "Online Assessment",
+          "description": "The OA had 3 sections: Aptitude (20 mins), Computer Fundamentals (30 mins), Coding (40 mins). Coding questions were super direct and easy.",
+          "topics": [
+            {
+              "original": "Aptitude",
+              "canonical": "Quantitative Aptitude",
+              "category": "Aptitude"
+            },
+            {
+              "original": "Computer Fundamentals",
+              "canonical": "Computer Fundamentals",
+              "category": "Other"
+            },
+            {
+              "original": "Coding",
+              "canonical": "Coding",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Find numbers between X and Y whose sum of digits is equal to the highest digit of the number. (E.g., 100: 1+0+0 = 1, and highest digit is also 1)",
+              "kind": "coding",
+              "page": 1
+            },
+            {
+              "text": "Return the count of elements whose position changed after sorting and whose position remained same. (E.g., 2 1 3 4 → 1 2 3 4 → Count = 2, 2)",
+              "kind": "coding",
+              "page": 1
+            }
+          ],
+          "difficulty": "easy",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Technical Interview 1",
+          "category": "Technical Interview",
+          "description": "Started with a quick intro exchange. Interviewer asked about familiar data structures, then asked LRU Cache (logic) and Reverse Linked List (coded live). Followed by OOPs pillars, REST API basics, idempotency, PUT vs PATCH, and project discussion.",
+          "topics": [
+            {
+              "original": "LRU Cache",
+              "canonical": "LRU Cache",
+              "category": "Other"
+            },
+            {
+              "original": "Linked List",
+              "canonical": "Linked Lists",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "OOPs",
+              "canonical": "Object-Oriented Programming",
+              "category": "OOPs"
+            },
+            {
+              "original": "REST API",
+              "canonical": "REST API",
+              "category": "Other"
+            },
+            {
+              "original": "idempotency",
+              "canonical": "Idempotency",
+              "category": "Other"
+            },
+            {
+              "original": "PUT vs PATCH",
+              "canonical": "PUT vs PATCH",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "LRU Cache (just the logic was enough)",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Reverse Linked List (this had to be coded live)",
+              "kind": "coding",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Technical Interview 2",
+          "category": "Technical Interview",
+          "description": "Two interviewers. Discussed strongest skills (DBMS, SQL, Java). Asked MySQL/PostgreSQL port numbers, sharding, partitioning, database optimization, SQL query to count students with same name grouped by year, Java function to put/get with multi‑type values, database indexes and B‑tree, JWT tokens.",
+          "topics": [
+            {
+              "original": "DBMS",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "SQL",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "Java",
+              "canonical": "Java",
+              "category": "Programming languages"
+            },
+            {
+              "original": "Sharding",
+              "canonical": "Sharding",
+              "category": "Other"
+            },
+            {
+              "original": "Partitioning",
+              "canonical": "Partitioning",
+              "category": "Other"
+            },
+            {
+              "original": "Database optimization",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "Database indexes",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "B-tree",
+              "canonical": "Trees",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "JWT tokens",
+              "canonical": "JWT tokens",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Port numbers of MySQL and PostgreSQL",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Write an SQL to count students with the same name grouped by year",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Java function to put(key, value) and get(key), where value can be any type (int, string, etc.) using HashMap",
+              "kind": "coding",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "HR round",
+          "category": "HR Interview",
+          "description": "Friendly chat style. Questions about day, location, something not in resume, what you look for beyond salary, and several situational questions.",
+          "topics": [],
+          "questions": [
+            {
+              "text": "How was your day?",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "Where do you stay?",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "Tell me something not in your resume.",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "Apart from salary, what do you look for in a company?",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "What would you do if ICICI gave you a job offer with the same pay?",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "What if your teammate is not cooperating on a project?",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "What would you do if your manager calls you out during a team meeting?",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "What quality in a person irritates you the most?",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "What if your manager has those traits that irritate you?",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "How do you handle conflict or disagreement in a team?",
+              "kind": "hr",
+              "page": 3
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            3
+          ]
+        },
+        {
+          "name": "Business Round",
+          "category": "Other",
+          "description": "Casual conversation with senior executive. Discussed hobbies (aviation), projects, and basic questions on work.",
+          "topics": [
+            {
+              "original": "Projects",
+              "canonical": "Projects",
+              "category": "Projects"
+            }
+          ],
+          "questions": [],
+          "difficulty": null,
+          "pages": [
+            3
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "If you're giving results (Eg. reduced response time by 80%) in your projects, make sure they’re real and not simulated.",
+          "category": "Technical preparation",
+          "page": 2
+        },
+        {
+          "text": "Stay calm even if you miss something. Don’t panic. Just be honest and smile through it.",
+          "category": "Interview strategy",
+          "page": 2
+        },
+        {
+          "text": "Stick to your answer unless you're really wrong.",
+          "category": "Interview strategy",
+          "page": 2
+        },
+        {
+          "text": "Keep your answers honest but aligned with company values. Also, prepare a few things that aren’t in your resume — hobbies, side projects, values, or personal traits.",
+          "category": "HR preparation",
+          "page": 3
+        },
+        {
+          "text": "Be curious and genuine. If you don’t know something, say it confidently.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Clarify doubts before jumping into answers, they appreciate it.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Practice DSA, OOPs, DBMS, and be ready for project deep-dives.",
+          "category": "Technical preparation",
+          "page": 4
+        },
+        {
+          "text": "Go for an internship, even if it’s unpaid, the experience really helps.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Explore different technologies in depth, not just at the surface level.",
+          "category": "Technical preparation",
+          "page": 4
+        },
+        {
+          "text": "Make sure you have a strong understanding of everything on your resume every single detail.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Stay calm and positive, even if something goes wrong.",
+          "category": "Interview strategy",
+          "page": 4
+        }
+      ],
+      "resources": [
+        {
+          "title": "DSA - Striver",
+          "url": null,
+          "description": "If not all atleast do the imp ones",
+          "topic": null,
+          "page": 4
+        },
+        {
+          "title": "OOPS - GFG",
+          "url": null,
+          "description": null,
+          "topic": null,
+          "page": 4
+        },
+        {
+          "title": "DBMS - Notes or YouTube",
+          "url": null,
+          "description": null,
+          "topic": null,
+          "page": 4
+        },
+        {
+          "title": "SQL - YouTube",
+          "url": null,
+          "description": null,
+          "topic": null,
+          "page": 4
+        },
+        {
+          "title": "ChatGPT",
+          "url": null,
+          "description": "Honorable mention",
+          "topic": null,
+          "page": 4
+        },
+        {
+          "title": "Grok",
+          "url": null,
+          "description": "Honorable mention",
+          "topic": null,
+          "page": 4
+        }
+      ],
+      "filename": "IDFC_ApplicationEngineer_AnuragNair.pdf",
+      "source_path": "2026/IDFC_2026/IDFC_ApplicationEngineer_AnuragNair.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "content_sha256": "62f1a3dd5a52d00907562701abaa85f5217842e3dfd3a9ab9e226b2ab4afa05f"
+    },
+    {
+      "experience_id": "idfc_2026-2026-19fcf590-1",
+      "company": "IDFC_2026",
+      "company_id": "idfc_2026",
+      "year": "2026",
+      "role": "Application Engineer",
+      "rounds": [
+        {
+          "name": "Online Assessment",
+          "category": "Online Assessment",
+          "description": "First round consisting of 3 sections: general aptitude/reasoning (20 min), Core CS fundamentals (30 min), Coding Section (40 min). Core CS fundamentals involved MCQs based on code snippets/flowcharts, DBMS, OS, SQL. Coding section had two easy questions.",
+          "topics": [
+            {
+              "original": "general aptitude",
+              "canonical": "Quantitative Aptitude",
+              "category": "Aptitude"
+            },
+            {
+              "original": "reasoning",
+              "canonical": "Logical Reasoning",
+              "category": "Aptitude"
+            },
+            {
+              "original": "Core CS fundamentals",
+              "canonical": "Core CS fundamentals",
+              "category": "Other"
+            },
+            {
+              "original": "DBMS",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "OS",
+              "canonical": "Operating Systems",
+              "category": "Operating systems"
+            },
+            {
+              "original": "SQL",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "coding",
+              "canonical": "Coding",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Given an array of integers, return the count of correctly placed and incorrectly placed integers if the array was sorted.",
+              "kind": "coding",
+              "page": 1
+            },
+            {
+              "text": "Given 2 integers that represent a range from x to y, find the sum of all the golden numbers where a golden number is defined as a number whose sum of digits - maximum digit is equal to maximum digit.",
+              "kind": "coding",
+              "page": 1
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Technical Round 1",
+          "category": "Technical Interview",
+          "description": "Round focused on basics of OOP and core subjects (OS and CCN) and schema design. Included OOP fundamentals in C++, questions on friend functions, virtual keyword, multiple inheritance, destructors, OS, CCN, basics of Cloud computing, schema design for e‑commerce platform, recommendation system, SQL query with joins, system design scaling, database choices, brute‑force attack prevention using Redis.",
+          "topics": [
+            {
+              "original": "OOP",
+              "canonical": "Object-Oriented Programming",
+              "category": "OOPs"
+            },
+            {
+              "original": "OS",
+              "canonical": "Operating Systems",
+              "category": "Operating systems"
+            },
+            {
+              "original": "CCN",
+              "canonical": "CCN",
+              "category": "Other"
+            },
+            {
+              "original": "schema design",
+              "canonical": "System Design",
+              "category": "System design"
+            },
+            {
+              "original": "SQL",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "system design",
+              "canonical": "System Design",
+              "category": "System design"
+            },
+            {
+              "original": "Redis",
+              "canonical": "Redis",
+              "category": "Other"
+            }
+          ],
+          "questions": [],
+          "difficulty": null,
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Technical Round 2",
+          "category": "Technical Interview",
+          "description": "Round focused on resume and Low Level Design (LLD). Discussed a single project, config files, Docker images, Kubernetes, databases (MongoDB, MySQL, vector DB, key‑value DB like Redis). Designed low‑level design of a cab booking system (Ola/Uber) using OOP, data structures, algorithms, Dijkstra’s algorithm, priority queue, radius based driver search, lock implementation, edge‑case handling.",
+          "topics": [
+            {
+              "original": "Low Level Design",
+              "canonical": "System Design",
+              "category": "System design"
+            },
+            {
+              "original": "LLD",
+              "canonical": "System Design",
+              "category": "System design"
+            },
+            {
+              "original": "cab booking system",
+              "canonical": "Cab Booking System",
+              "category": "Other"
+            },
+            {
+              "original": "OOP",
+              "canonical": "Object-Oriented Programming",
+              "category": "OOPs"
+            },
+            {
+              "original": "data structures",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "algorithms",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "Dijkstra’s",
+              "canonical": "Dijkstra’s",
+              "category": "Other"
+            },
+            {
+              "original": "priority queue",
+              "canonical": "Heaps",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "Docker",
+              "canonical": "Docker",
+              "category": "Other"
+            },
+            {
+              "original": "Kubernetes",
+              "canonical": "Kubernetes",
+              "category": "Other"
+            },
+            {
+              "original": "config files",
+              "canonical": "Config Files",
+              "category": "Other"
+            },
+            {
+              "original": "MongoDB",
+              "canonical": "MongoDB",
+              "category": "Other"
+            },
+            {
+              "original": "MySQL",
+              "canonical": "MySQL",
+              "category": "Other"
+            },
+            {
+              "original": "vector DB",
+              "canonical": "vector DB",
+              "category": "Other"
+            },
+            {
+              "original": "Redis",
+              "canonical": "Redis",
+              "category": "Other"
+            }
+          ],
+          "questions": [],
+          "difficulty": null,
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "HR Round",
+          "category": "HR Interview",
+          "description": "Classic HR conversation round. Questions about motivation to join IDFC, situational questions, cultural fit, and personal experiences.",
+          "topics": [],
+          "questions": [
+            {
+              "text": "What one thing could piss you off at work?",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "How would you deal with a team mate who is not coordinating/communicating?",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "If you’re a manager and supposed to give a best team member award, what criteria would you consider before deciding the winner apart from tech/development?",
+              "kind": "hr",
+              "page": 3
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            3
+          ]
+        },
+        {
+          "name": "Online Screening Round",
+          "category": "Technical Interview",
+          "description": "Fitment round where candidate explained projects to a senior interviewer for ~15 mins, sent repo link, discussed subjects and coursework.",
+          "topics": [
+            {
+              "original": "project explanation",
+              "canonical": "Projects",
+              "category": "Projects"
+            },
+            {
+              "original": "subjects",
+              "canonical": "Subjects",
+              "category": "Other"
+            },
+            {
+              "original": "coursework",
+              "canonical": "Coursework",
+              "category": "Other"
+            }
+          ],
+          "questions": [],
+          "difficulty": null,
+          "pages": [
+            4
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "Time management is very important in the first 2 sections. Questions are doable but the decision to attempt or skip a particular question based upon time is more important.",
+          "category": "OA preparation",
+          "page": 1
+        },
+        {
+          "text": "Many python users faced issues in this round and this was seen in PhonePe as well, so if you’ve enough time consider shifting to cpp/java.",
+          "category": "OA preparation",
+          "page": 1
+        },
+        {
+          "text": "Make sure you are clear with the basics of your first language and have some idea of OOP in Java too if java isn’t your first language. Also never ignore OOP in your first language.",
+          "category": "Technical preparation",
+          "page": 2
+        },
+        {
+          "text": "Candidates whose first language is Java were also asked about development in Java (Springboot related) so be prepared.",
+          "category": "Technical preparation",
+          "page": 2
+        },
+        {
+          "text": "Design problems are to check how you approach a problem so take your time and think in 360 degree, ask genuine questions related to company tech at the end.",
+          "category": "Technical preparation",
+          "page": 2
+        },
+        {
+          "text": "Yes surprisingly most of us were never asked about DSA problems.",
+          "category": "Technical preparation",
+          "page": 3
+        },
+        {
+          "text": "For all your projects make a google doc with all the important points/features, their implementation and tech stack as it becomes really easy to revise.",
+          "category": "Technical preparation",
+          "page": 3
+        },
+        {
+          "text": "Add to it what problems did you face and how did you resolve them as it is a check question if you’ve done the project yourself.",
+          "category": "Technical preparation",
+          "page": 3
+        },
+        {
+          "text": "Whenever you feel confused, communicate with the interviewer, they’ll surely help you out.",
+          "category": "Technical preparation",
+          "page": 3
+        },
+        {
+          "text": "Try to connect answers with company values. Read about their vision/mission, tagline, history.",
+          "category": "HR preparation",
+          "page": 3
+        },
+        {
+          "text": "There might be some trick questions which play on our psychology so it is always safer to answer honestly.",
+          "category": "HR preparation",
+          "page": 3
+        },
+        {
+          "text": "Be friendly with the interviewer and reflect your true personality.",
+          "category": "HR preparation",
+          "page": 3
+        },
+        {
+          "text": "Prepare basics really well, not being able to answer them gives a bad impression.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Don’t consider DSA as the only way to conquer placements. Balance dev/DSA and start revising core subjects early.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Basic web dev projects won’t be enough; explore basics of devops or app dev.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Many companies were asking LLD/system design, so allocate time to these topics.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Give mock interviews with friends or seniors to build confidence and identify weak sections.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Never let rejections bring you down; focus on what you can control.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Get an internship even if it's unpaid!!!",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Consider learning LLD/system design early on.",
+          "category": "Interview strategy",
+          "page": 4
+        }
+      ],
+      "resources": [
+        {
+          "title": "System Design Roadmap",
+          "url": null,
+          "description": "Complete System Design Roadmap with Videos for SDEs - Interviews",
+          "topic": "System Design",
+          "page": 4
+        },
+        {
+          "title": "Low Level Design (LLD)",
+          "url": null,
+          "description": "Low Level Design | System Design | codeWithAryan",
+          "topic": "Low Level Design",
+          "page": 4
+        }
+      ],
+      "filename": "IDFC_ApplicationEngineer_ShrihariJoshi.pdf",
+      "source_path": "2026/IDFC_2026/IDFC_ApplicationEngineer_ShrihariJoshi.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "content_sha256": "19fcf59083bd3642e67d12d86ed0e1bb783a988c21f7f207d3e36a0ff582cd31"
     }
   ]
 }

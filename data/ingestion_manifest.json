@@ -831,13 +831,12 @@
       "pages": 4,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793440269.6161807,
+      "processed_at": 1793654400.0363815,
       "text_sha256": "85e2f148ecdb3103a7d6cbb849e8ed98c115bb7e9a3d55f6f30324f1136c5e0a",
       "status": "indexed",
       "chunks": 10,
-      "insights": false,
-      "experiences": 0,
-      "insights_error": "structured extraction failed: Error calling model 'gemini-2.5-flash' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://ai.google.dev/gemini-api/docs/rate-limits.\\nPlease retry in 21h6m57.692961622s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'description': 'Generate content requests per day limit exceeded on Free Tier. See https://ai.google.dev/gemini-api/docs/rate-limits.', 'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '76017s'}]}}"
+      "insights": true,
+      "experiences": 1
     },
     "2026/IDFC_2026/IDFC_ApplicationEngineer_MaazMalik.pdf": {
       "sha256": "d6cf4f1954a5231c8dac38346e9861d998ba04e5bd835bdfab481fb07bfd8640",
@@ -848,13 +847,13 @@
       "pages": 9,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793440383.179839,
+      "processed_at": 1793654486.733131,
       "text_sha256": "135e0cdfdce274174da33440a3b64c928d16ab6a2a4fab5230194f86ec3b68cb",
       "status": "indexed",
       "chunks": 12,
       "insights": false,
       "experiences": 0,
-      "insights_error": "structured extraction failed: [Errno 11004] getaddrinfo failed"
+      "insights_error": "structured extraction failed: Error code: 400 - {'error': {'message': 'Failed to parse tool call arguments as JSON', 'type': 'invalid_request_error', 'code': 'tool_use_failed', 'failed_generation': '{\"name\": \"LLMExtraction\", \"arguments\": {\\n  \"experiences\": [\\n    {\\n      \"role\": \"Application Engineer\",\\n      \"rounds\": [\\n        {\\n          \"name\": \"OA Round\",\\n          \"category\": \"Online Assessment\",\\n          \"pages\": [1],\\n          \"topics\": [\\n            \"general aptitude / reasoning\",\\n            \"Core cs fundamentals\",\\n            \"Coding Section\",\\n            \"DSA\"\\n          ],\\n          \"questions\": [\\n            {\\n              \"text\": \"How many elements are correctly sorted. Correct place means Rightly indexed when seen from a Sorted perspective. Ex: 1 3 2 4 5 sorted is 1 2 3 4 5. 1 and 4 are in the correct place , whereas 3 and 2 are not in the correct place. So the result would be 2, 3 Since 2 are incorrect and 3 are correct\",\\n              \"kind\": \"coding\",\\n              \"page\": 2\\n            },\\n            {\\n              \"text\": \"Had to find the number of golden number in a given range where the golden number meant the sum of the digits of a number - max number = max number Ex: 325 is a golden number (3+2+5) - 5 = 5\",\\n              \"kind\": \"coding\",\\n              \"page\": 2\\n            }\\n          ]\\n        },\\n        {\\n          \"name\": \"Technical Round 1\",\\n          \"category\": \"Technical Interview\",\\n          \"pages\": [2, 3],\\n          \"topics\": [\\n            \"RAG\",\\n            \"Java\",\\n            \"in-memory key-value cache\",\\n            \"lambda expressions\",\\n            \"PriorityQueue\",\\n            \"four pillars of object-oriented programming\",\\n            \"abstraction\",\\n            \"abstract classes\",\\n            \"interfaces\",\\n            \"patent\"\\n          ],\\n          \"questions\": [\\n            {\\n              \"text\": \"Explain how RAG (Retrieval-Augmented Generation) works.\",\\n              \"kind\": \"technical\",\\n              \"page\": 2\\n            },\\n            {\\n              \"text\": \"Implementation of an in-memory key-value cache where each element has a TTL (time to live), and once the TTL expires, the element is automatically evicted. Provide a Java implementation for the same.\",\\n              \"kind\": \"coding\",\\n              \"page\": 2\\n            },\\n            {\\n              \"text\": \"How do lambda expressions work in Java?\",\\n              \"kind\": \"technical\",\\n              \"page\": 5\\n            },\\n            {\\n              \"text\": \"Internal implementation of a PriorityQueue.\",\\n              \"kind\": \"technical\",\\n              \"page\": 5\\n            },\\n            {\\n              \"text\": \"What are the four pillars of object-oriented programming, and what is abstraction?\",\\n              \"kind\": \"technical\",\\n              \"page\": 5\\n            },\\n            {\\n              \"text\": \"Why do we extend abstract classes, and why do we implement interfaces?\",\\n              \"kind\": \"technical\",\\n              \"page\": 5\\n            },\\n            {\\n              \"text\": \"Questions related to the patent presented on the resume.\",\\n              \"kind\": \"technical\",\\n              \"page\": 5\\n            }\\n          ]\\n        },\\n        {\\n          \"name\": \"Technical Round 2\",\\n          \"category\": \"Technical Interview\",\\n          \"pages\": [5, 6],\\n          \"topics\": [\\n            \"binary tree right view\",\\n            \"DFS approach\",\\n            \"BST verification\",\\n            \"SQL\",\\n            \"distributed computing master-slave architecture\",\\n            \"patent\",\\n            \"AI job description\"\\n          ],\\n          \"questions\": [\\n            {\\n              \"text\": \"Code the right view of a binary tree on the laptop.\",\\n              \"kind\": \"coding\",\\n              \"page\": 5\\n            },\\n            {\\n              \"text\": \"Solve the same binary tree right view problem without using a Queue, suggesting a DFS approach.\",\\n              \"kind\": \"coding\",\\n              \"page\": 5\\n            },\\n            {\\n              \"text\": \"Write a function to verify whether a given tree is a BST (binary search tree).\",\\n              \"kind\": \"coding\",\\n              \"page\": 5\\n            },\\n            {\\n              \"text\": \"SQL question involving two tables (employees and customers) to find the employee name and salary with the maximum salary from each department across both tables.\",\\n              \"kind\": \"technical\",\\n              \"page\": 6\\n            },\\n            {\\n              \"text\": \"Discussion on distributed computing, specifically the master‑slave architecture, based on a project mentioned on the resume.\",\\n              \"kind\": \"technical\",\\n              \"page\": 6\\n            },\\n            {\\n              \"text\": \"Questions about the patent presented on the resume.\",\\n              \"kind\": \"technical\",\\n              \"page\": 6\\n            },\\n            {\\n              \"text\": \"Raised a question about the absence of AI in the job description, considering the CSE AIML background.\",\\n              \"kind\": \"technical\",\\n              \"page\": 6\\n            }\\n          ]\\n        },\\n        {\\n          \"name\": \"HR round\",\\n          \"category\": \"HR Interview\",\\n          \"pages\": [7, 8],\\n          \"topics\": [\\n            \"self‑introduction\",\\n            \"Why should we hire you?\",\\n            \"manager extremely busy scenario\",\\n            \"project scrapped scenario\"\\n          ],\\n          \"questions\": [\\n            {\\n              \"text\": \"Standard self‑introduction prompt.\",\\n              \"kind\": \"hr\",\\n              \"page\": 7\\n            },\\n            {\\n              \"text\": \"Why should we hire you?\",\\n              \"kind\": \"hr\",\\n              \"page\": 7\\n            },\\n            {\\n              \"text\": \"If your manager is extremely busy and unable to assign you a project, how would you proceed?\",\\n              \"kind\": \"hr\",\\n              \"page\": 8\\n            },\\n            {\\n              \"text\": \"You’ve invested significant time and effort into a project, but your manager decides to scrap it and reassign you. How do you respond?\",\\n              \"kind\": \"hr\",\\n              \"page\": 8\\n            }\\n          ]\\n        },\\n        {\\n          \"name\": \"Technical Round 3\",\\n          \"category\": \"Technical Interview\",\\n          \"pages\": [8],\\n          \"topics\": [\\n            \"stack and heap memory\",\\n            \"Garbage collection in Java\",\\n            \"clustering\"\\n          ],\\n          \"questions\": [\\n            {\\n              \"text\": \"What is stack and heap memory.\",\\n              \"kind\": \"technical\",\\n              \"page\": 8\\n            },\\n            {\\n              \"text\": \"Garbage collection in Java (different types of memories‑ old gen, new gen, permgen, metaspace).\",\\n              \"kind\": \"technical\",\\n              \"page\": 8\\n            },\\n            {\\n              \"text\": \"What is clustering.\",\\n              \"kind\": \"technical\",\\n              \"page\": 8\\n            }\\n          ]\\n        }\\n      ],\\n      \"tips\": [\\n        {\\n          \"text\": \"Always ask questions at the end of an interview. I asked him why there wasn’t any mention of AI in the job description, since I am from the CSE AIML branch.\",\\n          \"category\": \"Interview strategy\",\\n          \"page\": 5\\n        },\\n        {\\n          \"text\": \"If the interviewer does not introduce themselves, always ask for their name, as it might be asked in the next round.\",\\n          \"category\": \"Interview strategy\",\\n          \"page\": 5\\n        },\\n        {\\n          \"text\": \"Tip: Always remember to ask for the interviewer\\'s name if they don\\'t introduce themselves, as it might be asked in a subsequent round.\",\\n          \"category\": \"Interview strategy\",\\n          \"page\": 7\\n        }\\n      ],\\n      \"resources\": [\\n        {\\n          \"title\": \"Topic wise quantitative aptitude\",\\n         \"}'}}"
     },
     "2026/IDFC_2026/IDFC_ApplicationEngineer_RitvikSharma.pdf": {
       "sha256": "33cc8a50f0e09305c1107069e3f93e273b405093a326198f4c606348c7253311",
@@ -865,12 +864,13 @@
       "pages": 6,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793394243.1553276,
+      "processed_at": 1793654671.8963032,
       "text_sha256": "e82b0098afb2c97ecc8ef3c2d1698320e0c35c149586fcb11539a1c7f0affb28",
       "status": "indexed",
       "chunks": 27,
       "insights": false,
-      "experiences": 0
+      "experiences": 0,
+      "insights_error": "structured extraction failed: Error code: 413 - {'error': {'message': 'Request too large for model `openai/gpt-oss-120b` in organization `org_01m34ktp7dehwajs9h9xxjwwy8` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Requested 8049, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
     },
     "2026/IDFC_2026/IDFC_ApplicationEngineer_ShrihariJoshi.pdf": {
       "sha256": "19fcf59083bd3642e67d12d86ed0e1bb783a988c21f7f207d3e36a0ff582cd31",
@@ -881,12 +881,12 @@
       "pages": 4,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793394248.8010342,
+      "processed_at": 1793654717.2063284,
       "text_sha256": "02eff29263f46bae9302cfed29e7b72d90b4da4909eb586ab3179fa1b74d04c9",
       "status": "indexed",
       "chunks": 16,
-      "insights": false,
-      "experiences": 0
+      "insights": true,
+      "experiences": 1
     },
     "2026/IDFC_2026/IDFC_ApplicationEngineer_VaishnaviChettiar.pdf": {
       "sha256": "7e05e72e9e5d2a4a6c3a533702d9619bfdd3d8656946023e46d4f8f6d2a7e4ba",
@@ -897,12 +897,13 @@
       "pages": 5,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793394253.2107923,
+      "processed_at": 1793654798.6743326,
       "text_sha256": "ad012399d4723d56a46abb8093ec240c663021c3e5ea88a1e5c60d2ea1b85397",
       "status": "indexed",
       "chunks": 19,
       "insights": false,
-      "experiences": 0
+      "experiences": 0,
+      "insights_error": "structured extraction failed: Error code: 400 - {'error': {'message': 'Failed to parse tool call arguments as JSON', 'type': 'invalid_request_error', 'code': 'tool_use_failed', 'failed_generation': '{\"name\": \"LLMExtraction\", \"arguments\": {\\n  \"experiences\": [\\n    {\\n      \"role\": \"Application Engineer\",\\n      \"rounds\": [\\n        {\\n          \"name\": \"Online Assessment\",\\n          \"category\": \"Online Assessment\",\\n          \"pages\": [1],\\n          \"topics\": [\\n            \"aptitude\",\\n            \"Excel\",\\n            \"CCN\",\\n            \"OS\",\\n            \"OOPs\",\\n            \"Basic Statistics\",\\n            \"coding\"\\n          ],\\n          \"questions\": [\\n            {\\n              \"text\": \"How many elements are correctly sorted. Correct place means Rightly indexed when seen from a Sorted perspective. Ex: 1 3 2 4 5 sorted is 1 2 3 4 5 1 and 4 are in the correct place , whereas 3 and 2 are not in the correct place. So the result would be 2, 3 Since 2 are incorrect and 3 are correct\",\\n              \"kind\": \"coding\",\\n              \"page\": 1\\n            },\\n            {\\n              \"text\": \"Had to find the number of golden number in a given range where the golden number meant the sum of the digits of a number - max number = max number Ex: 325 is a golden number (3+2+5) - 5 = 5\",\\n              \"kind\": \"coding\",\\n              \"page\": 1\\n            }\\n          ]\\n        },\\n        {\\n          \"name\": \"Technical Round 1\",\\n          \"category\": \"Technical Interview\",\\n          \"pages\": [2],\\n          \"topics\": [\\n            \"DSA\",\\n            \"cache\",\\n            \"TTL\",\\n            \"Priority Queue\",\\n            \"heap\",\\n            \"GenAI\",\\n            \"unsupervised learning\",\\n            \"clusters\",\\n            \"dimensionality reduction\",\\n            \"Transformer\",\\n            \"Attention Mechanism\",\\n            \"RAG\",\\n            \"prompt engineering\"\\n          ],\\n          \"questions\": [\\n            {\\n              \"text\": \"DSA problem related to cache: we had a buffer size of N and whenever we pushed an element it had a certain TTL (time_to_live). Example: element entered at 10:20 with TTL 2 mins, should be popped at 10:23.\",\\n              \"kind\": \"coding\",\\n              \"page\": 2\\n            },\\n            {\\n              \"text\": \"Difference between GenAI and unsupervised learning (Generates new content and solely revolves around the input to find structure)\",\\n              \"kind\": \"technical\",\\n              \"page\": 2\\n            },\\n            {\\n              \"text\": \"What is the output of unsupervised learning models (Clusters, Dimensionality Reduction)\",\\n              \"kind\": \"technical\",\\n              \"page\": 2\\n            },\\n            {\\n              \"text\": \"Architecture of GenAI (Input layer + Tokenization + Embedding + Transformer + Attention Mechanism+ Decoder/output generator)\",\\n              \"kind\": \"technical\",\\n              \"page\": 2\\n            },\\n            {\\n              \"text\": \"How does its matches the user context and generates an appropriate content (Semantic Similarity)\",\\n              \"kind\": \"technical\",\\n              \"page\": 2\\n            },\\n            {\\n              \"text\": \"What is RAG\",\\n              \"kind\": \"technical\",\\n              \"page\": 2\\n            },\\n            {\\n              \"text\": \"In a glimpse explain what is prompt engineering\",\\n              \"kind\": \"technical\",\\n              \"page\": 2\\n            },\\n            {\\n              \"text\": \"If a chatbot cannot give a proper advice, what would you do? (candidate suggested default response, interviewer expected asking more questions to reach conclusion)\",\\n              \"kind\": \"technical\",\\n              \"page\": 2\\n            }\\n          ]\\n        },\\n        {\\n          \"name\": \"Technical Round 2\",\\n          \"category\": \"Technical Interview\",\\n          \"pages\": [2, 3],\\n          \"topics\": [\\n            \"DSA\",\\n            \"Valid Parenthesis\",\\n            \"data analytics\",\\n            \"dashboard\",\\n            \"SQL\",\\n            \"aggregate\",\\n            \"group by\",\\n            \"subquery\",\\n            \"Jupyter Notebook\",\\n            \"OS\",\\n            \"Linux\",\\n            \"python\",\\n            \"exception handling\",\\n            \"finger scanner\",\\n            \"image optimization\",\\n            \"grayscaling\",\\n            \"thresholding\",\\n            \"RLE\",\\n            \"load balancing\"\\n          ],\\n          \"questions\": [\\n            {\\n              \"text\": \"DSA: Valid Parenthesis\",\\n              \"kind\": \"coding\",\\n              \"page\": 3\\n            },\\n            {\\n              \"text\": \"Explain one of my data analytics project (dashboard based) and answer follow‑up questions.\",\\n              \"kind\": \"project\",\\n              \"page\": 3\\n            },\\n            {\\n              \"text\": \"SQL queries\"}'}}"
     },
     "2026/IDFC_2026/IDFC_TusharRaja_ApplicationEngineer.pdf": {
       "sha256": "21c847261cc5f8c9261409d5b75928cda1cb38800fdf1c3b47df9d4f487ef51f",
@@ -913,12 +914,13 @@
       "pages": 8,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793394255.2353344,
+      "processed_at": 1793654934.4196672,
       "text_sha256": "599f9e745ab9c2c9a2e2ce82605f5d3b3220f2b3fa9c4ab7323724ca1de0f05f",
       "status": "indexed",
       "chunks": 23,
       "insights": false,
-      "experiences": 0
+      "experiences": 0,
+      "insights_error": "structured extraction failed: Error code: 413 - {'error': {'message': 'Request too large for model `openai/gpt-oss-120b` in organization `org_01m34ktp7dehwajs9h9xxjwwy8` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Requested 10236, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
     },
     "2026/IDfy_2026/IDfy_SoftwareEngineer_PalashMahajan.pdf": {
       "sha256": "b3e92cf375bccf497954966d680f39a63b29060ad5591e0f7b58e2f08a3deed1",
@@ -929,12 +931,12 @@
       "pages": 5,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793394258.1139708,
+      "processed_at": 1793654979.7652097,
       "text_sha256": "585b7bb24d37caf67e8ee34a47ab7cf63ba7e44591864b2e3ea96e43b75c8e0b",
       "status": "indexed",
       "chunks": 14,
-      "insights": false,
-      "experiences": 0
+      "insights": true,
+      "experiences": 1
     },
     "2026/InCred_2026/InCred_BuisnessAnalyst_Jsh.pdf": {
       "sha256": "fc3745b20f54264bd00f29b65c27a320bfa50e263ccfd4c09720a6562fa064a0",
@@ -945,12 +947,13 @@
       "pages": 3,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793394259.8789766,
+      "processed_at": 1793654985.8367214,
       "text_sha256": "7e965f34f6e7ab3e144b64a5374d4a983c2b410e144447991f5d10e55091d725",
       "status": "indexed",
       "chunks": 4,
       "insights": false,
-      "experiences": 0
+      "experiences": 0,
+      "insights_error": "structured extraction failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m34ktp7dehwajs9h9xxjwwy8` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 196817, Requested 3885. Please try again in 5m3.264s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
     },
     "2026/InCred_2026/IncredFinance_BusinessAnalyst_HarshKasliwal.pdf": {
       "sha256": "57b371c8e7e12fe487a94e9e2bcf09a151c955d893fe8b92deabfd190eec07de",
@@ -961,12 +964,13 @@
       "pages": 5,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793394261.8762789,
+      "processed_at": 1793655064.4400992,
       "text_sha256": "924cc8bc2b70628bd3691c2d902d15bfa0c862ca057f7e46cad4932f661b9c37",
       "status": "indexed",
       "chunks": 21,
       "insights": false,
-      "experiences": 0
+      "experiences": 0,
+      "insights_error": "structured extraction failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m34ktp7dehwajs9h9xxjwwy8` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 196712, Requested 6081. Please try again in 20m6.576s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
     },
     "2026/InteractiveBrokers_2026/IB-SWE-HarshChhallani.pdf": {
       "sha256": "71ca3430ef4a0f3ae78910fb6321e941d5a1a688eeb6644d2654296cd0a2c219",

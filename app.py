@@ -57,6 +57,23 @@ div[data-testid="stDataFrame"] {border:1px solid #e3e9f2;border-radius:12px;over
 .cp-tip-text {color:#263b58;line-height:1.7;font-size:.97rem;}
 .cp-tip-meta {border-top:1px solid #edf1f6;margin-top:.8rem;padding-top:.65rem;color:#718096;font-size:.78rem;}
 .cp-tip-tag {display:inline-block;background:#edf6f1;color:#28734b;border-radius:999px;padding:.15rem .55rem;margin-right:.4rem;font-weight:650;}
+
+.cp-round-stats {display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:.55rem;margin:.35rem 0 .85rem;}
+.cp-round-stat {min-width:0;background:#f7f9fc;border:1px solid #e8edf4;border-radius:10px;padding:.5rem .7rem;}
+
+
+.cp-resource-card {background:#fff;border:1px solid #e2e9f2;border-radius:14px;padding:.95rem 1rem;margin:.3rem 0 .55rem;box-shadow:0 3px 12px rgba(23,32,51,.025);}
+.cp-resource-title {color:#19375e;font-size:1rem;font-weight:750;line-height:1.4;}
+.cp-resource-description {color:#52647d;font-size:.88rem;line-height:1.55;margin-top:.35rem;}
+.cp-resource-source {color:#718096;font-size:.76rem;margin-top:.65rem;padding-top:.55rem;border-top:1px solid #edf1f6;}
+.cp-topic-group {background:#fff;border:1px solid #e2e9f2;border-radius:14px;padding:.9rem 1rem;margin:.45rem 0;box-shadow:0 3px 12px rgba(23,32,51,.025);}
+.cp-topic-group-title {font-size:1rem;font-weight:750;color:#19375e;margin-bottom:.55rem;}
+.cp-topic-item {display:flex;justify-content:space-between;gap:.6rem;align-items:center;padding:.38rem 0;border-bottom:1px solid #f0f3f7;color:#33445c;font-size:.9rem;}
+.cp-topic-item:last-child {border-bottom:0;}
+.cp-topic-count {white-space:nowrap;color:#63758e;font-size:.78rem;font-weight:650;}
+.cp-round-stat-label {color:#718096;font-size:.74rem;font-weight:650;letter-spacing:.035em;text-transform:uppercase;line-height:1.3;}
+.cp-round-stat-value {color:#263b58;font-size:1rem;font-weight:700;line-height:1.35;margin-top:.14rem;overflow-wrap:anywhere;}
+@media (max-width:700px) {.cp-round-stats{grid-template-columns:repeat(2,minmax(0,1fr));}}
 .cp-round-summary {color:#263b58;line-height:1.45;}
 .cp-round-summary ul {margin:.2rem 0 .35rem;padding-left:1.25rem;}
 .cp-round-summary li {margin:.04rem 0;line-height:1.35;padding:0;}
@@ -112,6 +129,50 @@ def round_duration(text: str | None) -> str | None:
     duration = re.sub(r"\s*(?:[-–]|to)\s*", "–", match.group(1), flags=re.I)
     duration = re.sub(r"\bmins?\b", "minutes", duration, flags=re.I)
     return re.sub(r"\bhrs?\b", "hours", duration, flags=re.I)
+
+
+def round_difficulty(round_info) -> str | None:
+    """Use an explicitly stored or stated difficulty label, when available."""
+    if round_info.difficulty:
+        return round_info.difficulty
+    for sentence in description_points(round_info.description or ""):
+        match = re.search(r"\b(easy\s+to\s+(?:medium|hard)|medium\s+to\s+hard|very\s+easy|easy|medium|hard|difficult|challenging)\b", sentence, re.I)
+        if match:
+            value = match.group(1).lower()
+            value = value[0].upper() + value[1:]
+            if re.search(r"\bmcqs?\b", sentence, re.I):
+                value += " (MCQs)"
+            return value
+    return None
+
+
+def assessment_outcomes(round_info) -> list[str]:
+    """Keep candidate-reported attempt or completion details visible for OAs."""
+    if not re.search(r"online assessment|\bOA\b|assessment", f"{round_info.name} {round_info.category}", re.I):
+        return []
+    pattern = re.compile(r"\b(?:solved|completed|attempted|couldn't solve|could not solve|was able to solve|unable to solve)\b", re.I)
+    return [sentence for sentence in description_points(round_info.description or "") if pattern.search(sentence)]
+
+
+def assessment_sections(round_info) -> list[str]:
+    """List assessment sections explicitly named in its source account or extracted topics."""
+    text = round_info.description or ""
+    sections = []
+    if re.search(r"\bmcqs?\b|multiple.choice", text, re.I):
+        sections.append("MCQs")
+    if re.search(r"\bcoding\b", text, re.I):
+        sections.append("Coding")
+    if re.search(r"\b(?:aptitude|quantitative|logical reasoning|verbal reasoning)\b", text, re.I):
+        sections.append("Aptitude / reasoning")
+    return sections
+
+
+def assessment_format(round_info) -> list[str]:
+    """Extract source sentences that describe OA timing, sections, and rules."""
+    if not re.search(r"online assessment|\bOA\b|assessment", f"{round_info.name} {round_info.category}", re.I):
+        return []
+    pattern = re.compile(r"\b(?:lasted|duration|minutes?|mins?|hours?|hrs?|there (?:were|was)|consisted of|sections?|submit|revisit|available as a language|time limit)\b", re.I)
+    return [sentence for sentence in description_points(round_info.description or "") if pattern.search(sentence)]
 
 
 @st.cache_resource(show_spinner="Loading embedding model and vector index (first run only)…")
@@ -208,20 +269,56 @@ with tab_rounds:
                         topics = list(dict.fromkeys(t.canonical for t in r.topics))
                         questions = r.questions
                         duration = round_duration(r.description)
-                        metric_cols = st.columns(4)
-                        metric_cols[0].metric("Duration", duration or "Not stated")
-                        metric_cols[1].metric("Difficulty", r.difficulty or "Not stated")
-                        metric_cols[2].metric("Focus areas", len(topics))
-                        metric_cols[3].metric("Questions reported", len(questions))
+                        difficulty = round_difficulty(r)
+                        metric_rows = [("Duration", duration or "Not stated"),
+                                       ("Difficulty", difficulty or "Not stated"),
+                                       ("Focus areas", str(len(topics))),
+                                       ("Questions reported", str(len(questions)))]
+                        stat_cards = "".join(
+                            f'<div class="cp-round-stat"><div class="cp-round-stat-label">{html.escape(label)}</div>'
+                            f'<div class="cp-round-stat-value">{html.escape(value)}</div></div>'
+                            for label, value in metric_rows
+                        )
+                        st.markdown(f'<div class="cp-round-stats">{stat_cards}</div>', unsafe_allow_html=True)
                         topic_summary = ", ".join(topics[:8]) if topics else "no specific topics were listed"
                         if len(topics) > 8:
                             topic_summary += f" and {len(topics) - 8} more"
                         duration_text = f"lasted {duration}" if duration else "has no stated duration"
-                        question_text = f"{len(questions)} reported question{'s' if len(questions) != 1 else ''}"
-                        st.markdown(f"**Quick insight:** This {r.category.lower()} round {duration_text}, covered {md_safe(topic_summary)}, and included {question_text}.")
-                        if topics:
-                            st.markdown("**Focus areas**")
-                            st.markdown(" · ".join(f"**{md_safe(t)}**" for t in topics))
+                        st.markdown(f"**Round insight:** This {r.category.lower()} round {duration_text} and covered {md_safe(topic_summary)}. The record includes {len(questions)} reported question{'s' if len(questions) != 1 else ''}.")
+
+                        format_facts = assessment_format(r)
+                        sections = assessment_sections(r)
+                        if sections:
+                            st.markdown("**Assessment sections**  ")
+                            st.markdown(" · ".join(f"**{section}**" for section in sections))
+                        if format_facts:
+                            st.markdown("**Assessment format and rules**")
+                            for fact in format_facts:
+                                st.markdown(f"- {md_safe(fact)}")
+                        outcomes = assessment_outcomes(r)
+                        if outcomes:
+                            st.markdown("**Candidate-reported attempt**")
+                            for outcome in outcomes:
+                                st.markdown(f"- {md_safe(outcome)}")
+
+                        topic_groups = {}
+                        for topic in r.topics:
+                            topic_groups.setdefault(topic.category or "Other", [])
+                            if topic.canonical not in topic_groups[topic.category or "Other"]:
+                                topic_groups[topic.category or "Other"].append(topic.canonical)
+                        if topic_groups:
+                            st.markdown("**Topics covered by area**")
+                            for area, names in topic_groups.items():
+                                st.markdown(f"- **{md_safe(area)}:** {', '.join(md_safe(name) for name in names)}")
+
+                        kind_counts = {}
+                        for question in questions:
+                            kind = (question.kind or "other").replace("_", " ").title()
+                            kind_counts[kind] = kind_counts.get(kind, 0) + 1
+                        if kind_counts:
+                            mix = " · ".join(f"{kind}: {count}" for kind, count in kind_counts.items())
+                            st.caption(f"Question mix · {mix}")
+
                         if r.description:
                             with st.expander("Read the candidate's full account"):
                                 st.write(r.description)
@@ -253,12 +350,47 @@ with tab_topics:
             st.write("No topics in this category.")
         else:
             st.markdown("#### Most frequently mentioned topics")
-            st.bar_chart(stats.head(15).set_index("Topic")["Experiences"], horizontal=True, color="#2563EB")
-            st.dataframe(stats, width="stretch", hide_index=True)
-        st.markdown("#### Topics by round category")
-        by_round = dash.topic_by_round(exps)
-        if not by_round.empty:
-            st.dataframe(by_round, width="stretch")
+            st.caption("Counts are distinct experiences per topic. Topics can co-occur in one experience, so pie slices show each topic's share of the summed counts.")
+            records = stats.to_dict(orient="records")
+            top_records = records[:8]
+            pie_rows = [{"Topic": row["Topic"], "Experiences": int(row["Experiences"])} for row in top_records]
+            remaining = sum(int(row["Experiences"]) for row in records[8:])
+            if remaining:
+                pie_rows.append({"Topic": "Other topics", "Experiences": remaining})
+            pie_spec = {
+                "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+                "title": {"text": "Topic mentions across reported experiences", "anchor": "start", "fontSize": 16},
+                "mark": {"type": "arc", "innerRadius": 55, "stroke": "white", "tooltip": True},
+                "encoding": {
+                    "theta": {"field": "Experiences", "type": "quantitative", "stack": True},
+                    "color": {"field": "Topic", "type": "nominal", "sort": {"field": "Experiences", "op": "sum", "order": "descending"}, "legend": {"title": None, "orient": "right"}},
+                    "order": {"field": "Experiences", "type": "quantitative", "sort": "descending"},
+                    "tooltip": [
+                        {"field": "Topic", "type": "nominal", "title": "Topic"},
+                        {"field": "Experiences", "type": "quantitative", "title": "Experiences"},
+                    ],
+                },
+                "view": {"stroke": None},
+            }
+            st.vega_lite_chart(pie_rows, pie_spec, width="stretch", height=390, key=f"topic_pie_{company_id}_{cat}")
+
+            st.markdown("#### Similar topics grouped by area")
+            grouped_topics = {}
+            for row in records:
+                grouped_topics.setdefault(row["Category"] or "Other", []).append(row)
+            for area, items in grouped_topics.items():
+                with st.container(border=True):
+                    st.markdown(f'<div class="cp-topic-group-title">{html.escape(area)}</div>', unsafe_allow_html=True)
+                    cols = st.columns(2, gap="small")
+                    for index, row in enumerate(items):
+                        topic = html.escape(str(row["Topic"]))
+                        count = html.escape(str(row["Experiences"]))
+                        share = html.escape(str(row["Share of experiences"]))
+                        cols[index % 2].markdown(
+                            f'<div class="cp-topic-item"><span>{topic}</span>'
+                            f'<span class="cp-topic-count">{count} exp · {share}</span></div>',
+                            unsafe_allow_html=True,
+                        )
         st.markdown("#### Sample questions reported")
         kinds = ["All", "coding", "technical", "project", "hr", "aptitude", "other"]
         kind = st.selectbox("Question type", kinds, key="q_kind")
@@ -303,11 +435,42 @@ with tab_tips:
 with tab_res:
     res = dash.resource_rows(exps)
     if res.empty:
-        st.write("No resources were mentioned in the interview experiences.")
+        st.info("No resources were mentioned in the interview experiences.")
     else:
-        st.caption("Only resources explicitly mentioned in the PDFs. URLs are shown only if they are well-formed and appear verbatim in the source.")
-        st.dataframe(res, width="stretch", hide_index=True,
-                     column_config={"URL": st.column_config.LinkColumn("URL")})
+        st.markdown('<div class="cp-note">Resources explicitly mentioned in the interview experiences, grouped by topic. Links are shown only when verified in the source PDFs.</div>', unsafe_allow_html=True)
+        grouped_resources = {}
+        for row in res.to_dict(orient="records"):
+            raw_topic = row.get("Topic")
+            topic = raw_topic.strip() if isinstance(raw_topic, str) and raw_topic.strip() and raw_topic.strip() != "—" else "General resources"
+            key = topic.casefold()
+            if key not in grouped_resources:
+                grouped_resources[key] = {"topic": topic, "items": []}
+            grouped_resources[key]["items"].append(row)
+        ordered_groups = sorted(grouped_resources.values(), key=lambda group: (group["topic"] == "General resources", group["topic"].casefold()))
+        for group_index, group in enumerate(ordered_groups):
+            topic = group["topic"]
+            items = group["items"]
+            with st.expander(f"📚 {topic} · {len(items)} resource{'s' if len(items) != 1 else ''}", expanded=(group_index == 0)):
+                cols = st.columns(2, gap="medium")
+                for index, item in enumerate(items):
+                    col = cols[index % 2]
+                    title = item.get("Resource")
+                    title = title if isinstance(title, str) and title.strip() else "Untitled resource"
+                    description = item.get("Description")
+                    description = description if isinstance(description, str) and description.strip() and description != "—" else ""
+                    source = item.get("Source")
+                    source = source if isinstance(source, str) and source.strip() else "Source not listed"
+                    col.markdown(
+                        f'<div class="cp-resource-card"><div class="cp-resource-title">{html.escape(title)}</div>'
+                        + (f'<div class="cp-resource-description">{html.escape(description)}</div>' if description else "")
+                        + f'<div class="cp-resource-source">Mentioned in · {html.escape(source)}</div></div>',
+                        unsafe_allow_html=True,
+                    )
+                    url = item.get("URL")
+                    if isinstance(url, str) and url.startswith(("http://", "https://")):
+                        col.link_button("Open resource", url, key=f"resource_{company_id}_{group_index}_{index}")
+                    else:
+                        col.caption("No verified link in the source")
 
 # ------------------------------------------------------------------------------------ chat
 with tab_chat:

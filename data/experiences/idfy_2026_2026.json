@@ -1,0 +1,232 @@
+{
+  "company_id": "idfy_2026",
+  "year": "2026",
+  "experiences": [
+    {
+      "experience_id": "idfy_2026-2026-b3e92cf3-1",
+      "company": "IDfy_2026",
+      "company_id": "idfy_2026",
+      "year": "2026",
+      "role": "SDE",
+      "rounds": [
+        {
+          "name": "Online Assessment",
+          "category": "Online Assessment",
+          "description": "Test conducted on Hackerrank for 90 minutes with 3 sections: 1 DSA, 2 SQL, 2 REST API questions. DSA question: check whether a password was strong or weak. SQL section with two complex queries. REST API section required creating a GET method from scratch.",
+          "topics": [
+            {
+              "original": "DSA",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "SQL",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "REST API",
+              "canonical": "REST API",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Check whether a password is strong or weak based on conditions like containing only lowercase or uppercase letters, only numericals, or containing a substring present in a banned_words list.",
+              "kind": "coding",
+              "page": 1
+            },
+            {
+              "text": "Create a GET method using any language (C, C++, Java, JavaScript, Python) from scratch, hit a URL to get data, apply a given filter and return the filtered data.",
+              "kind": "coding",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            1,
+            2
+          ]
+        },
+        {
+          "name": "Technical Round",
+          "category": "Technical Interview",
+          "description": "Three‑panel interview focusing on technical skills, projects and internships. Questions covered OOP concepts in Java, a DSA transaction‑validation problem, SQL queries on Employee and Department schemas, JWT, REST API methods, and project details.",
+          "topics": [
+            {
+              "original": "OOPs",
+              "canonical": "Object-Oriented Programming",
+              "category": "OOPs"
+            },
+            {
+              "original": "Java",
+              "canonical": "Java",
+              "category": "Programming languages"
+            },
+            {
+              "original": "DSA",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "SQL",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "JWT",
+              "canonical": "JWT",
+              "category": "Other"
+            },
+            {
+              "original": "REST API",
+              "canonical": "REST API",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Explain polymorphism, diamond problem, how interfaces solve the diamond problem, static keyword, differences between static variables and static methods in Java.",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "Given a list of transactions (description, credit, debit, current balance) with an initial balance, flag any transactions where the current balance is incorrect. Use string functions like split and parseInt.",
+              "kind": "coding",
+              "page": 3
+            },
+            {
+              "text": "Write three SQL queries on Employee and Department schemas using joins, group by, aggregate functions, and subqueries (WITH clause).",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "Describe JWT, its structure, and how it was implemented in the candidate’s project.",
+              "kind": "technical",
+              "page": 4
+            },
+            {
+              "text": "Explain differences between GET, PUT, and POST REST API methods and whether a new entry can be created using a GET request.",
+              "kind": "technical",
+              "page": 4
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            3,
+            4
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "Maintain a good CGPA (at least 8) to be shortlisted for the OA.",
+          "category": "OA preparation",
+          "page": 1
+        },
+        {
+          "text": "Pay attention in PPT and interact with the company employees so that they remember you.",
+          "category": "Interview strategy",
+          "page": 1
+        },
+        {
+          "text": "PLEASE TAKE SQL SERIOUSLY, IT SEEMS EASY UNTIL IT ISN’T, SO PRACTISING SQL IS VERY IMPORTANT.",
+          "category": "Technical preparation",
+          "page": 2
+        },
+        {
+          "text": "Prepare a good 1‑2 min introduction beforehand, use ChatGPT or other AI tools to refine it.",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "Follow Striver’s sheet for DSA, give contests on LeetCode, CodeChef, Codeforces to build habit of solving under time pressure.",
+          "category": "Technical preparation",
+          "page": 4
+        },
+        {
+          "text": "Aptitude is very important; practice timed tests to mimic the test environment.",
+          "category": "OA preparation",
+          "page": 5
+        },
+        {
+          "text": "Practice puzzles from GeeksForGeeks to improve critical thinking.",
+          "category": "Technical preparation",
+          "page": 5
+        },
+        {
+          "text": "Practice system design questions from GeeksForGeeks.",
+          "category": "Technical preparation",
+          "page": 5
+        },
+        {
+          "text": "Practice giving answers in front of a mirror or do mock interviews with friends to improve communication skills.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "During interviews, maintain eye contact, stay calm, and ask for help if required.",
+          "category": "Interview strategy",
+          "page": 5
+        },
+        {
+          "text": "Remember to fill all required application forms while applying; missing forms can disqualify you.",
+          "category": "Interview strategy",
+          "page": 5
+        },
+        {
+          "text": "Keep an eye on hackathons (e.g., Nomura, JPMC, Morgan Stanley, Adobe) as many companies hire through them.",
+          "category": "Interview strategy",
+          "page": 5
+        }
+      ],
+      "resources": [
+        {
+          "title": "Leetcode SQL 50",
+          "url": null,
+          "description": null,
+          "topic": "SQL",
+          "page": 2
+        },
+        {
+          "title": "CodeChef",
+          "url": null,
+          "description": null,
+          "topic": "SQL",
+          "page": 2
+        },
+        {
+          "title": "Hackerrank",
+          "url": null,
+          "description": null,
+          "topic": "SQL",
+          "page": 2
+        },
+        {
+          "title": "Striver’s sheet for DSA",
+          "url": null,
+          "description": null,
+          "topic": "DSA",
+          "page": 4
+        },
+        {
+          "title": "GeeksForGeeks",
+          "url": null,
+          "description": "Puzzles, system design, and other interview preparation material",
+          "topic": "General",
+          "page": 5
+        }
+      ],
+      "filename": "IDfy_SoftwareEngineer_PalashMahajan.pdf",
+      "source_path": "2026/IDfy_2026/IDfy_SoftwareEngineer_PalashMahajan.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "content_sha256": "b3e92cf375bccf497954966d680f39a63b29060ad5591e0f7b58e2f08a3deed1"
+    }
+  ]
+}
