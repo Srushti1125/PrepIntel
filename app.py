@@ -24,7 +24,25 @@ from backend import dashboard as dash
 from backend.citations import page_label
 from backend.config import load_settings
 
-st.set_page_config(page_title="CampusPrep AI", page_icon="🎓", layout="wide")
+st.set_page_config(page_title="CampusPrep AI", page_icon=":material/school:", layout="wide")
+
+
+ICON_PATHS = {
+    "school": '<path d="m3 9 9-5 9 5-9 5-9-5Z"/><path d="M7 11.2v4.1c3 2.3 7 2.3 10 0v-4.1"/><path d="M21 9v6"/>',
+    "clipboard": '<rect x="5" y="4" width="14" height="17" rx="2"/><path d="M9 4.5h6M8 10h8M8 14h8M8 18h5"/>',
+    "laptop": '<rect x="3" y="4" width="18" height="13" rx="2"/><path d="M2 20h20M8 9l-2 2 2 2m4-4 2 2-2 2m5-4v4"/>',
+    "code": '<path d="m8 8-4 4 4 4m8-8 4 4-4 4m-2-10-4 12"/>',
+    "folder": '<path d="M3 6a2 2 0 0 1 2-2h5l2 2h7a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6Z"/><path d="M3 9h18"/>',
+    "users": '<path d="M16 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="10" cy="7" r="4"/><path d="M20 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/>',
+    "target": '<circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/>',
+    "lightbulb": '<path d="M9 18h6m-5 4h4m-5-7a7 7 0 1 1 6 0c-.8.6-1 1.1-1 3h-4c0-1.9-.2-2.4-1-3Z"/>',
+    "chat": '<path d="M21 11.5a8.4 8.4 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.4 8.4 0 0 1-3.8-.9L3 21l1.9-5.7a8.4 8.4 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.4 8.4 0 0 1 3.8-.9h.5a8.5 8.5 0 0 1 8 8v.5Z"/>',
+}
+
+
+def svg_icon(name: str, size: int = 20) -> str:
+    path = ICON_PATHS.get(name, ICON_PATHS["lightbulb"])
+    return f'<svg aria-hidden="true" width="{size}" height="{size}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">{path}</svg>'
 
 CSS = """
 <style>
@@ -32,7 +50,9 @@ CSS = """
 .block-container {padding:2rem 2.4rem 4rem;max-width:1380px;}
 .cp-hero {padding:1.4rem 1.7rem;border-radius:20px;margin-bottom:1.4rem;background:linear-gradient(120deg,#102a56,#1e4d8d 58%,#3277c8);color:white;box-shadow:0 12px 32px rgba(24,55,102,.16);}
 .cp-eyebrow {font-size:.76rem;letter-spacing:.13em;text-transform:uppercase;opacity:.78;font-weight:700;}
-.cp-title {font-size:2rem;font-weight:760;color:white;margin:.25rem 0 0;letter-spacing:-.03em;}
+.cp-title {display:flex;align-items:center;gap:.65rem;font-size:2rem;font-weight:760;color:white;margin:.25rem 0 0;letter-spacing:-.03em;}
+.cp-title-icon {display:inline-flex;color:#dceaff;}
+.cp-title-icon svg {width:1.8rem;height:1.8rem;}
 .cp-sub {color:#e2edff;font-size:1rem;margin:.2rem 0 0;}
 .cp-section {color:#182944;font-weight:750;letter-spacing:-.02em;}
 .cp-card {background:#fff;border:1px solid #e3e9f2;border-radius:16px;padding:1rem 1.2rem;margin:.3rem 0 .9rem;box-shadow:0 4px 14px rgba(23,32,51,.035);}
@@ -51,6 +71,7 @@ div[data-testid="stChatInput"] textarea {border-radius:14px;}
 div[data-testid="stDataFrame"] {border:1px solid #e3e9f2;border-radius:12px;overflow:hidden;}
 .cp-tip-section {margin:1.4rem 0 1rem;padding:.2rem 0 .65rem;border-bottom:1px solid #e2e8f0;}
 .cp-tip-heading {display:flex;align-items:center;gap:.65rem;color:#19375e;font-size:1.18rem;font-weight:750;}
+.cp-tip-icon {display:inline-flex;align-items:center;justify-content:center;width:2rem;height:2rem;border-radius:10px;background:#eaf1fc;color:#28588f;}
 .cp-tip-count {display:inline-block;background:#e8f0fc;color:#275895;border-radius:999px;padding:.18rem .62rem;font-size:.74rem;font-weight:700;}
 .cp-tip-card {height:100%;background:#fff;border:1px solid #e2e9f2;border-radius:15px;padding:1rem 1.1rem;margin:.3rem 0 .8rem;box-shadow:0 4px 14px rgba(23,32,51,.035);}
 .cp-tip-card:before {content:"“";display:block;color:#7ba4dc;font-family:Georgia,serif;font-size:2rem;line-height:.8;margin-bottom:.45rem;}
@@ -67,12 +88,11 @@ div[data-testid="stDataFrame"] {border:1px solid #e3e9f2;border-radius:12px;over
 .cp-resource-description {color:#52647d;font-size:.88rem;line-height:1.55;margin-top:.35rem;}
 .cp-resource-source {color:#718096;font-size:.76rem;margin-top:.65rem;padding-top:.55rem;border-top:1px solid #edf1f6;}
 
-.cp-top-topic {display:grid;grid-template-columns:2rem minmax(0,1fr) auto;align-items:center;gap:.8rem;background:#fff;border:1px solid #e4eaf2;border-radius:13px;padding:.8rem 1rem;margin:.45rem 0;box-shadow:0 3px 12px rgba(23,32,51,.025);}
+.cp-top-topic {display:grid;grid-template-columns:2rem minmax(0,1fr) auto;align-items:start;gap:.8rem;background:#fff;border:1px solid #e4eaf2;border-radius:13px;padding:.9rem 1rem;margin:.5rem 0;box-shadow:0 3px 12px rgba(23,32,51,.025);}
 .cp-top-topic-rank {display:grid;place-items:center;width:1.8rem;height:1.8rem;border-radius:9px;background:#eaf1fc;color:#28588f;font-size:.82rem;font-weight:750;}
-.cp-top-topic-name {color:#203a5d;font-size:1rem;font-weight:700;}
+.cp-top-topic-name {color:#203a5d;font-size:1.02rem;font-weight:750;}
 .cp-top-topic-count {color:#64748b;font-size:.82rem;font-weight:650;white-space:nowrap;}
-.cp-top-topic-track {height:5px;border-radius:999px;background:#edf1f6;margin-top:.45rem;overflow:hidden;}
-.cp-top-topic-fill {height:100%;border-radius:999px;background:linear-gradient(90deg,#3478c8,#75a7e6);}
+.cp-top-topic-subtopics {color:#566982;font-size:.88rem;line-height:1.5;margin-top:.32rem;}
 .cp-topic-group {background:#fff;border:1px solid #e2e9f2;border-radius:14px;padding:.9rem 1rem;margin:.45rem 0;box-shadow:0 3px 12px rgba(23,32,51,.025);}
 .cp-topic-group-title {font-size:1rem;font-weight:750;color:#19375e;margin-bottom:.55rem;}
 .cp-topic-item {display:flex;justify-content:space-between;gap:.6rem;align-items:center;padding:.38rem 0;border-bottom:1px solid #f0f3f7;color:#33445c;font-size:.9rem;}
@@ -81,6 +101,8 @@ div[data-testid="stDataFrame"] {border:1px solid #e3e9f2;border-radius:12px;over
 .cp-round-stat-label {color:#718096;font-size:.74rem;font-weight:650;letter-spacing:.035em;text-transform:uppercase;line-height:1.3;}
 .cp-round-stat-value {color:#263b58;font-size:1rem;font-weight:700;line-height:1.35;margin-top:.14rem;overflow-wrap:anywhere;}
 @media (max-width:700px) {.cp-round-stats{grid-template-columns:repeat(2,minmax(0,1fr));}}
+.cp-chat-intro {display:flex;align-items:flex-start;gap:.55rem;color:#415570;line-height:1.5;}
+.cp-chat-intro svg {flex:none;color:#3268a8;margin-top:.1rem;}
 .cp-round-summary {color:#263b58;line-height:1.45;}
 .cp-round-summary ul {margin:.2rem 0 .35rem;padding-left:1.25rem;}
 .cp-round-summary li {margin:.04rem 0;line-height:1.35;padding:0;}
@@ -199,7 +221,7 @@ companies = [
     for c in companies if "2026" in c.get("years", [])
 ]
 st.markdown('<div class="cp-hero"><div class="cp-eyebrow">Campus placement intelligence · 2026</div>'
-            '<div class="cp-title">🎓 CampusPrep AI</div>'
+            f'<div class="cp-title"><span class="cp-title-icon">{svg_icon("school", 32)}</span>CampusPrep AI</div>'
             '<div class="cp-sub">Explore candidate-reported interview rounds, topics, preparation tips and resources.</div></div>',
             unsafe_allow_html=True)
 
@@ -249,7 +271,7 @@ else:
     st.caption("Roles: " + (", ".join(ov["roles"]) if ov["roles"] else "no role was mentioned in the source documents"))
 
 tab_rounds, tab_topics, tab_tips, tab_res, tab_chat = st.tabs(
-    ["Rounds", "Topic Intelligence", "Preparation Tips", "Resources", "💬 Ask CampusPrep AI"]
+    ["Rounds", "Topic Intelligence", "Preparation Tips", "Resources", "Ask CampusPrep AI"]
 )
 
 # ------------------------------------------------------------------------------------ rounds
@@ -350,17 +372,29 @@ with tab_topics:
         if top_topics.empty:
             st.info("No topics were extracted for this company yet.")
         else:
-            highest_count = max(int(value) for value in top_topics["Experiences"])
+            related_by_topic = {}
+            for experience in exps:
+                for round_info in experience.rounds:
+                    round_topics = list(dict.fromkeys(topic.canonical for topic in round_info.topics))
+                    for main_topic in round_topics:
+                        related = related_by_topic.setdefault(main_topic, {})
+                        for related_topic in round_topics:
+                            if related_topic != main_topic:
+                                related.setdefault(related_topic, set()).add(experience.experience_id)
             for rank, row in enumerate(top_topics.to_dict(orient="records"), start=1):
-                topic = html.escape(str(row["Topic"]))
+                topic_name = str(row["Topic"])
+                topic = html.escape(topic_name)
                 count = int(row["Experiences"])
-                share = html.escape(str(row["Share of experiences"]))
-                bar_width = max(4, round(count / highest_count * 100))
+                related = sorted(related_by_topic.get(topic_name, {}).items(), key=lambda item: (-len(item[1]), item[0]))[:5]
+                if related:
+                    subtopics = " · ".join(f"{html.escape(name)}" for name, _ in related)
+                    subtopic_line = f'<div class="cp-top-topic-subtopics"><b>Related subtopics asked:</b> {subtopics}</div>'
+                else:
+                    subtopic_line = '<div class="cp-top-topic-subtopics">No related subtopics were extracted from these rounds.</div>'
                 st.markdown(
                     f'<div class="cp-top-topic"><div class="cp-top-topic-rank">{rank}</div>'
-                    f'<div><div class="cp-top-topic-name">{topic}</div>'
-                    f'<div class="cp-top-topic-track"><div class="cp-top-topic-fill" style="width:{bar_width}%"></div></div></div>'
-                    f'<div class="cp-top-topic-count">{count} experiences · {share}</div></div>',
+                    f'<div><div class="cp-top-topic-name">{topic}</div>{subtopic_line}</div>'
+                    f'<div class="cp-top-topic-count">{count} experiences</div></div>',
                     unsafe_allow_html=True,
                 )
 
@@ -371,13 +405,13 @@ with tab_tips:
     if not grouped:
         st.info("No preparation tips were extracted for this company yet.")
     icons = {
-        "OA preparation": "🧩", "Technical preparation": "💻",
-        "Coding preparation": "⌨️", "Project preparation": "🛠️",
-        "HR preparation": "🤝", "Interview strategy": "🎯",
+        "OA preparation": "clipboard", "Technical preparation": "laptop",
+        "Coding preparation": "code", "Project preparation": "folder",
+        "HR preparation": "users", "Interview strategy": "target",
     }
     for category, tips in grouped.items():
         st.markdown(
-            f'<div class="cp-tip-section"><div class="cp-tip-heading">{icons.get(category, "💡")} '
+            f'<div class="cp-tip-section"><div class="cp-tip-heading"><span class="cp-tip-icon">{svg_icon(icons.get(category, "lightbulb"))}</span> '
             f'{html.escape(category)} <span class="cp-tip-count">{len(tips)} tip{"s" if len(tips) != 1 else ""}</span></div></div>',
             unsafe_allow_html=True,
         )
@@ -414,7 +448,7 @@ with tab_res:
         for group_index, group in enumerate(ordered_groups):
             topic = group["topic"]
             items = group["items"]
-            with st.expander(f"📚 {topic} · {len(items)} resource{'s' if len(items) != 1 else ''}", expanded=(group_index == 0)):
+            with st.expander(f"{topic} · {len(items)} resource{'s' if len(items) != 1 else ''}", expanded=(group_index == 0), icon=":material/menu_book:"):
                 cols = st.columns(2, gap="medium")
                 for index, item in enumerate(items):
                     col = cols[index % 2]
@@ -442,7 +476,7 @@ with tab_chat:
     history = histories.setdefault(company_id, [])   # one history per company; never shared
 
     head, btn = st.columns([5, 1])
-    head.markdown(f"Ask follow-up questions about **{company_name}**. Answers are grounded in its 2026 interview PDFs and include supporting citations.")
+    head.markdown(f'<div class="cp-chat-intro">{svg_icon("chat", 20)}<span>Ask follow-up questions about <b>{html.escape(company_name)}</b>. Answers are grounded in its 2026 interview PDFs and include supporting citations.</span></div>', unsafe_allow_html=True)
     if btn.button("New chat", key="new_chat", width="stretch"):
         histories[company_id] = []
         st.rerun()

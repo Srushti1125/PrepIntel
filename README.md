@@ -11,7 +11,7 @@ Interview_Experiences/<year>/<company>/*.pdf
         ▼
  PyMuPDF (page-by-page, scanned-page detection, optional Tesseract OCR) ── PII redaction (emails/phones)
         ├─► round-aware chunks (RecursiveCharacterTextSplitter) ─► local CPU embeddings (all-MiniLM-L6-v2) ─► ChromaDB
-        └─► Gemini structured extraction (Pydantic) ─► grounding filter ─► data/experiences/<company>_<year>.json
+        └─► Gemini/Groq structured extraction (round-robin; rate-limit fallback) ─► grounding filter ─► data/experiences/<company>_<year>.json
                                                                            data/companies.json, ingestion_manifest.json
  app.py (Streamlit)
    ├─ dashboard  ◄── JSON only (no LLM, no vector search): overview, rounds, topics, tips, resources
@@ -57,6 +57,7 @@ Additions to the requested layout: `ingestion/pipeline.py` (orchestration used b
 python -m venv .venv && source .venv/bin/activate        # Windows: .venv\Scripts\activate
 pip install -r requirements.txt                           # CPU-only torch via the extra index in the file
 cp .env.example .env                                      # then set GEMINI_API_KEY (and optionally GEMINI_MODEL)
+# Set GROQ_API_KEY too to alternate providers and fall back automatically on rate limits during ingestion.
 ```
 
 ## Ingest the PDFs

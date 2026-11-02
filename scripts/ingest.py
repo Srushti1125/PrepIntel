@@ -32,9 +32,9 @@ def main() -> int:
     llm = None
     if not args.skip_insights:
         try:
-            from backend.services import get_llm
+            from backend.services import get_ingestion_llm
 
-            llm = get_llm(settings)
+            llm = get_ingestion_llm(settings)
         except Exception as e:
             print(f"! LLM unavailable ({e}). Continuing with --skip-insights behaviour; dashboard data will be empty.")
 
