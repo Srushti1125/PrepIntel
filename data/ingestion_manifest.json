@@ -1035,13 +1035,13 @@
       "pages": 7,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793655390.61091,
+      "processed_at": 1793657019.239928,
       "text_sha256": "083fe82cd430df6e2ba3b5f4b068a571410f3878701b552d0c39b67883375fc1",
       "status": "indexed",
       "chunks": 31,
       "insights": false,
       "experiences": 0,
-      "insights_error": "structured extraction failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m34ktp7dehwajs9h9xxjwwy8` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199560, Requested 5734. Please try again in 38m7.008s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      "insights_error": "structured extraction failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m34ktp7dehwajs9h9xxjwwy8` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199006, Requested 5940. Please try again in 35m36.672s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
     },
     "2026/ISS_2026/ISS-Stoxx_STE_RashiLodha.pdf": {
       "sha256": "4d8863e729e19331e6d6ea9d14efd47fb99e0454bd599a231bf0f9463fe598b1",
@@ -1052,13 +1052,13 @@
       "pages": 5,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793655436.0319269,
+      "processed_at": 1793657210.0114937,
       "text_sha256": "3fcc585fb9236aae5d64df2dade012e330b7e782166cd7404e3cb89638b7b5f2",
       "status": "indexed",
       "chunks": 14,
       "insights": false,
       "experiences": 0,
-      "insights_error": "structured extraction failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m34ktp7dehwajs9h9xxjwwy8` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199455, Requested 3404. Please try again in 20m35.088s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      "insights_error": "structured extraction failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m34ktp7dehwajs9h9xxjwwy8` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198574, Requested 3305. Please try again in 13m31.728s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
     },
     "2026/ISS_2026/ISS_STOXX_SE_AlphaRane.pdf": {
       "sha256": "5a819b64a4b55f671126ad40e1b99d91dc7dbacc2df228de67e0bdc3bd7d20b3",
@@ -1069,13 +1069,13 @@
       "pages": 4,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793655481.4045033,
+      "processed_at": 1793657396.4198616,
       "text_sha256": "9f4b2710d612ed1aad61d9cc220e96ceb479ffe32cc4596d40d90b56ef331b6a",
       "status": "indexed",
       "chunks": 10,
       "insights": false,
       "experiences": 0,
-      "insights_error": "structured extraction failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m34ktp7dehwajs9h9xxjwwy8` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199351, Requested 2990. Please try again in 16m51.312s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      "insights_error": "structured extraction failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m34ktp7dehwajs9h9xxjwwy8` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198136, Requested 3004. Please try again in 8m12.48s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
     },
     "2026/ISS_2026/ISS_STOXX_SE_MohitKarande (2).pdf": {
       "sha256": "b08cbecca915d777a7b378472452b5144dc521d099bd8e7ea4b7874f81a5ebff",

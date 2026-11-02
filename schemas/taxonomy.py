@@ -82,11 +82,84 @@ def _clean(text: str) -> str:
     return re.sub(r"\s+", " ", text).strip()
 
 
+_DISPLAY_TOPIC_ALIASES = {
+    "aiml": "AI/ML", "ai ml": "AI/ML", "ai/ml": "AI/ML", "ml": "Machine Learning",
+    "genai": "Generative AI", "gen ai": "Generative AI", "generative ai": "Generative AI",
+    "numpy": "NumPy", "powerbi": "Power BI", "postgresql": "PostgreSQL",
+    "hashmaps": "Hashing", "hash maps": "Hashing",
+    "group by": "GROUP BY", "order by": "ORDER BY", "join": "JOIN", "limit": "LIMIT",
+    "logistic regression": "Logistic Regression", "problem solving": "Problem Solving",
+    "date functions": "Date Functions", "data interpretation": "Data Interpretation",
+    "data analytics": "Data Analytics", "file handling": "File Handling", "linux commands": "Linux Commands",
+    "hackathon experience": "Hackathon Experience", "core cs fundamentals": "Core CS Fundamentals",
+    "equals method": ".Equals() Method", "rag retrieval augmented generation": "RAG (Retrieval-Augmented Generation)",
+    "binary trees/bsts": "Binary Trees/BSTs", "mysql": "MySQL", "api": "API", "apis": "API",
+    "llm": "LLM", "llms": "LLM", "react js": "React", "jwt tokens": "JWT Authentication",
+    "jwt authentication": "JWT Authentication", "jwt auth": "JWT Authentication",
+    "simple interest compound interest": "Simple and Compound Interest",
+    "simple and compound interest": "Simple and Compound Interest",
+}
+
+
+def display_topic_name(value: str) -> str:
+    """Return a consistent display label for known spelling and punctuation variants."""
+    key = _clean(value)
+    return _DISPLAY_TOPIC_ALIASES.get(key, _ALIAS.get(key, value.strip()))
+
+
+def canonical_resource_topics(value: str | None) -> list[str]:
+    """Map free-form or multi-topic resource labels to consistent topic groups."""
+    text = (value or "").strip()
+    if not text or _clean(text) in {"general", "general resources"}:
+        return ["General resources"]
+    rules = (
+        (r"\b(?:data structures and algorithms|dsa)\b", "Data Structures and Algorithms"),
+        (r"\b(?:competitive programming)\b", "Competitive Programming"),
+        (r"\b(?:coding practice|coding problems?|coding questions?|coding)\b", "Coding"),
+        (r"\b(?:aptitude|quantitative|quants?)\b", "Aptitude"),
+        (r"\b(?:puzzles?|logical reasoning|logic building)\b", "Logical Reasoning"),
+        (r"\b(?:guesstimates?)\b", "Guesstimates"),
+        (r"\b(?:probability)\b", "Probability"),
+        (r"\b(?:mathematics|maths?)\b", "Mathematics"),
+        (r"\b(?:sql)\b", "SQL"),
+        (r"\b(?:dbms|database management)\b", "Database Management Systems"),
+        (r"\b(?:operating systems?|os)\b", "Operating Systems"),
+        (r"\b(?:computer networks?|ccn|cn)\b", "Computer Networks"),
+        (r"\b(?:oops?|oop|object oriented(?: programming)?)\b", "OOPs"),
+        (r"\b(?:java)\b", "Java"),
+        (r"\b(?:javascript|js)\b", "JavaScript"),
+        (r"(?<![a-z0-9])(?:c\+\+|cpp)(?![a-z0-9])", "C++"),
+        (r"\b(?:objective c|objective-c)\b", "Objective-C"),
+        (r"\b(?:python)\b", "Python"),
+        (r"\b(?:react(?:\.js|js)?)\b", "React"),
+        (r"\b(?:system design|low level design|high level design|lld|hld)\b", "System Design"),
+        (r"\b(?:oa|online assessment|assessment|mcqs?)\b", "Assessment and MCQs"),
+        (r"\b(?:machine learning|deep learning|\bml\b|ai/ml|aiml|genai|generative ai|ai tools?)\b", "AI/ML and Data Science"),
+        (r"\b(?:finance|investment banking)\b", "Finance"),
+        (r"\b(?:case studies|case study)\b", "Case Studies"),
+        (r"\b(?:hr|hr questions?|human resources|behavioral)\b", "HR and Behavioral"),
+        (r"\b(?:company research|company values|company fit)\b", "Company Research"),
+        (r"\b(?:resume|ats)\b", "Resume and ATS"),
+        (r"\b(?:product management|product manager)\b", "Product Management"),
+        (r"\b(?:core subjects?|core cs|cs fundamentals|computer fundamentals)\b", "Core CS Fundamentals"),
+        (r"\b(?:strings?|string generation)\b", "Strings"),
+        (r"\b(?:problem solving)\b", "Problem Solving"),
+        (r"\b(?:interview prep|interview preparation)\b", "Interview Preparation"),
+        (r"\b(?:research)\b", "Research"),
+        (r"\b(?:data analytics|data analysis)\b", "Data Analytics"),
+    )
+    found = [label for pattern, label in rules if re.search(pattern, text, re.I)]
+    return list(dict.fromkeys(found)) or [display_topic_name(text)]
+
+
 def normalize_topic(original: str) -> tuple[str, str]:
     """Return ``(canonical_name, category)``. Unknown topics keep their own (title-cased) name."""
     key = _clean(original)
     if not key:
         return original.strip(), "Other"
+    display_alias = _DISPLAY_TOPIC_ALIASES.get(key)
+    if display_alias:
+        return display_alias, _CANON.get(display_alias, ("Other", []))[0]
     canon = _ALIAS.get(key)
     if canon is None:
         padded = f" {key} "

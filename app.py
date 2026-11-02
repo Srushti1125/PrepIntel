@@ -23,6 +23,7 @@ import streamlit as st
 from backend import dashboard as dash
 from backend.citations import page_label
 from backend.config import load_settings
+from schemas.taxonomy import canonical_resource_topics, display_topic_name
 
 st.set_page_config(page_title="CampusPrep AI", page_icon=":material/school:", layout="wide")
 
@@ -166,30 +167,6 @@ def canonical_role(role: str | None) -> str:
     return name.title() if name else "Role not mentioned"
 
 
-def canonical_round_name(round_info) -> str:
-    """Merge common round-label variants into a comparable round stage."""
-    name = re.sub(r"[^a-z0-9]+", " ", (round_info.name or "").lower()).strip()
-    category = (round_info.category or "").lower()
-    if "online assessment" in category or re.search(r"\boa\b|online assessment", name):
-        return "Online Assessment"
-    if "hr interview" in category or re.search(r"\bhr\b", name):
-        return "HR Interview"
-    if "managerial interview" in category:
-        base = "Managerial Interview"
-    elif "technical interview" in category:
-        base = "Technical Interview"
-    elif "group discussion" in category:
-        return "Group Discussion"
-    else:
-        cleaned = re.sub(r"\b(?:round|interview)\b", " ", name)
-        return re.sub(r"\s+", " ", cleaned).strip().title() or (round_info.name or "Interview Round")
-
-    number_match = re.search(r"\b(?:round|interview)\s*(?:no\.?\s*)?(\d+|first|second|third|fourth|i{1,3}|iv)\b", name)
-    if number_match:
-        value = number_match.group(1)
-        number = {"first": 1, "second": 2, "third": 3, "fourth": 4, "i": 1, "ii": 2, "iii": 3, "iv": 4}.get(value, value)
-        return f"{base} · Round {number}"
-    return base
 
 
 def description_points(text: str) -> list[str]:
@@ -208,39 +185,56 @@ def brief_tip(text: str, word_limit: int = 24) -> str:
     return preview
 
 
+def _canonical_duration(value: str, unit: str) -> str:
+    """Convert equivalent hour/minute values to one compact human-readable form."""
+    parts = re.split(r"\s*(?:[-–]|to)\s*", value)
+    numbers = [int(part) for part in parts]
+    unit_is_hours = unit.lower().startswith("h")
+    minutes = [number * 60 if unit_is_hours else number for number in numbers]
+    if all(amount >= 120 and amount % 60 == 0 for amount in minutes):
+        shown = [amount // 60 for amount in minutes]
+        shown_unit = "hour" if max(shown) == 1 else "hours"
+    else:
+        shown = minutes
+        shown_unit = "minute" if max(shown) == 1 else "minutes"
+    amount_text = "–".join(map(str, shown)) if len(shown) > 1 else str(shown[0])
+    return f"{amount_text} {shown_unit}"
+
+
+def normalize_time_units(text: str) -> str:
+    """Standardize abbreviations and equivalent minute/hour expressions."""
+    pattern = re.compile(r"\b(\d+(?:\s*(?:[-–]|to)\s*\d+)?)\s*(minutes?|mins?|hours?|hrs?)\b", re.I)
+    return pattern.sub(lambda match: _canonical_duration(match.group(1), match.group(2)), text)
+
+
 def round_duration(text: str | None) -> str | None:
-    """Pull a stated duration from the round account when one is present."""
+    """Pull a stated duration from the round account with standardized units."""
     if not text:
         return None
     match = re.search(r"\b(\d+(?:\s*(?:[-–]|to)\s*\d+)?\s*(?:minutes?|mins?|hours?|hrs?))\b", text, re.I)
-    if not match:
-        return None
-    duration = re.sub(r"\s*(?:[-–]|to)\s*", "–", match.group(1), flags=re.I)
-    duration = re.sub(r"\bmins?\b", "minutes", duration, flags=re.I)
-    return re.sub(r"\bhrs?\b", "hours", duration, flags=re.I)
+    return normalize_time_units(match.group(1)) if match else None
 
 
 def round_difficulty(round_info) -> str | None:
-    """Use an explicitly stored or stated difficulty label, when available."""
+    """Use a normalized explicitly stored or stated difficulty label, when available."""
+    qualifier = ""
     if round_info.difficulty:
-        return round_info.difficulty
+        raw = round_info.difficulty
+        if re.search(r"\bmcqs?\b", raw, re.I):
+            qualifier = " (MCQs)"
+        return normalize_difficulty_label(raw) + qualifier
+    patterns = (
+        r"\b(?:easy|moderate|medium)\s*(?:to|[-/])\s*(?:medium|moderate|hard|high)\b",
+        r"\b(?:moderate level and balanced|slightly higher|relatively easy|very easy|very hard|very tough|very difficult)\b",
+        r"\b(?:easy|moderate|medium|hard|tough|difficult|challenging)\b",
+    )
     for sentence in description_points(round_info.description or ""):
-        match = re.search(r"\b(easy\s+to\s+(?:medium|hard)|medium\s+to\s+hard|very\s+easy|easy|medium|hard|difficult|challenging)\b", sentence, re.I)
-        if match:
-            value = match.group(1).lower()
-            value = value[0].upper() + value[1:]
-            if re.search(r"\bmcqs?\b", sentence, re.I):
-                value += " (MCQs)"
-            return value
+        for pattern in patterns:
+            match = re.search(pattern, sentence, re.I)
+            if match:
+                qualifier = " (MCQs)" if re.search(r"\bmcqs?\b", sentence, re.I) else ""
+                return normalize_difficulty_label(match.group(0)) + qualifier
     return None
-
-
-def assessment_outcomes(round_info) -> list[str]:
-    """Keep candidate-reported attempt or completion details visible for OAs."""
-    if not re.search(r"online assessment|\bOA\b|assessment", f"{round_info.name} {round_info.category}", re.I):
-        return []
-    pattern = re.compile(r"\b(?:solved|completed|attempted|couldn't solve|could not solve|was able to solve|unable to solve)\b", re.I)
-    return [sentence for sentence in description_points(round_info.description or "") if pattern.search(sentence)]
 
 
 def assessment_sections(round_info) -> list[str]:
@@ -351,15 +345,17 @@ with tab_rounds:
             st.caption(f"Combined from {len(role_experiences)} candidate experiences")
             round_groups = {}
             for experience in role_experiences:
-                for round_info in experience.rounds:
-                    label = canonical_round_name(round_info)
-                    round_groups.setdefault(label, []).append((experience, round_info))
+                for round_number, round_info in enumerate(experience.rounds, start=1):
+                    round_groups.setdefault(round_number, []).append((experience, round_info))
 
-            for round_label, entries in sorted(round_groups.items()):
+            for round_number, entries in sorted(round_groups.items()):
                 unique_experiences = {experience.experience_id: experience for experience, _ in entries}
                 report_count = len(unique_experiences)
                 with st.container(border=True):
-                    st.markdown(f"#### {html.escape(round_label)}")
+                    st.markdown(f"#### Round {round_number}")
+                    round_types = {}
+                    for experience, round_info in entries:
+                        round_types.setdefault(round_info.category or "Other", set()).add(experience.experience_id)
                     durations = {}
                     difficulties = {}
                     topic_mentions = {}
@@ -378,8 +374,9 @@ with tab_rounds:
                         if difficulty:
                             difficulties.setdefault(difficulty, set()).add(eid)
                         for topic in round_info.topics:
-                            topic_mentions.setdefault(topic.canonical, set()).add(eid)
-                            topic_areas[topic.canonical] = topic.category or "Other"
+                            topic_name = display_topic_name(topic.canonical)
+                            topic_mentions.setdefault(topic_name, set()).add(eid)
+                            topic_areas[topic_name] = topic.category or "Other"
                         for question in round_info.questions:
                             question_key = re.sub(r"[^a-z0-9]+", " ", question.text.lower()).strip()
                             if question_key:
@@ -387,6 +384,7 @@ with tab_rounds:
                                 kind = (question.kind or "other").replace("_", " ").title()
                                 question_kinds.setdefault(kind, set()).add(eid)
                         for fact in assessment_format(round_info):
+                            fact = normalize_time_units(fact)
                             fact_key = re.sub(r"[^a-z0-9]+", " ", fact.lower()).strip()
                             if fact_key:
                                 format_facts.setdefault(fact_key, {"text": fact, "experiences": set()})["experiences"].add(eid)
@@ -397,6 +395,7 @@ with tab_rounds:
                         ordered = sorted(values.items(), key=lambda item: (-len(item[1]), item[0]))[:limit]
                         return " · ".join(f"{name} ({len(ids)}/{report_count})" for name, ids in ordered) if ordered else "Not stated"
 
+                    st.caption(f"Round type across reports · {frequency_label(round_types)}")
                     metric_rows = [
                         ("Experiences", str(report_count)),
                         ("Duration", frequency_label(durations)),
@@ -459,7 +458,7 @@ with tab_topics:
             related_by_topic = {}
             for experience in exps:
                 for round_info in experience.rounds:
-                    round_topics = list(dict.fromkeys(topic.canonical for topic in round_info.topics))
+                    round_topics = list(dict.fromkeys(display_topic_name(topic.canonical) for topic in round_info.topics))
                     for main_topic in round_topics:
                         related = related_by_topic.setdefault(main_topic, {})
                         for related_topic in round_topics:
@@ -523,11 +522,12 @@ with tab_res:
         grouped_resources = {}
         for row in res.to_dict(orient="records"):
             raw_topic = row.get("Topic")
-            topic = raw_topic.strip() if isinstance(raw_topic, str) and raw_topic.strip() and raw_topic.strip() != "—" else "General resources"
-            key = topic.casefold()
-            if key not in grouped_resources:
-                grouped_resources[key] = {"topic": topic, "items": []}
-            grouped_resources[key]["items"].append(row)
+            topics = canonical_resource_topics(raw_topic if isinstance(raw_topic, str) and raw_topic.strip() != "—" else None)
+            for topic in topics:
+                key = topic.casefold()
+                if key not in grouped_resources:
+                    grouped_resources[key] = {"topic": topic, "items": []}
+                grouped_resources[key]["items"].append(row)
         ordered_groups = sorted(grouped_resources.values(), key=lambda group: (group["topic"] == "General resources", group["topic"].casefold()))
         for group_index, group in enumerate(ordered_groups):
             topic = group["topic"]

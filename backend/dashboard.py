@@ -9,7 +9,7 @@ import pandas as pd
 
 from ingestion.insight_extractor import is_valid_url
 from schemas.experience import ExperienceRecord
-from schemas.taxonomy import TIP_CATEGORIES, TOPIC_CATEGORIES
+from schemas.taxonomy import TIP_CATEGORIES, TOPIC_CATEGORIES, display_topic_name
 
 TOPIC_METRIC_LABEL = "Number of distinct experiences mentioning the topic"
 TOPIC_DISCLAIMER = (
@@ -45,7 +45,7 @@ def src(filename: str, page: int | None) -> str:
 def overview(exps: list[ExperienceRecord]) -> dict:
     years = sorted({e.year for e in exps})
     roles = sorted({e.role for e in exps if e.role})
-    topics = {t.canonical for e in exps for r in e.rounds for t in r.topics}
+    topics = {display_topic_name(t.canonical) for e in exps for r in e.rounds for t in r.topics}
     return {
         "experiences": len(exps),
         "years": years,
@@ -80,7 +80,7 @@ def round_rows(exps: list[ExperienceRecord]) -> pd.DataFrame:
         for r in e.rounds:
             rows.append({
                 "Year": e.year, "Role": e.role or "—", "Round": r.name, "Category": r.category,
-                "Topics": ", ".join(t.canonical for t in r.topics) or "—",
+                "Topics": ", ".join(display_topic_name(t.canonical) for t in r.topics) or "—",
                 "Questions": len(r.questions), "Difficulty (stated)": r.difficulty or "—",
                 "Source": e.filename, "Pages": ", ".join(map(str, r.pages)) or "—",
             })
@@ -94,8 +94,9 @@ def _topic_sets(exps):
         d = defaultdict(lambda: ["Other", set()])
         for r in e.rounds:
             for t in r.topics:
-                d[t.canonical][0] = t.category
-                d[t.canonical][1].add(t.original)
+                canon = display_topic_name(t.canonical)
+                d[canon][0] = t.category
+                d[canon][1].add(t.original)
         result[e.experience_id] = d
     return result
 
@@ -124,7 +125,7 @@ def topic_by_round(exps: list[ExperienceRecord]) -> pd.DataFrame:
     for e in exps:
         for r in e.rounds:
             for t in r.topics:
-                seen[(t.canonical, r.category)].add(e.experience_id)
+                seen[(display_topic_name(t.canonical), r.category)].add(e.experience_id)
     if not seen:
         return pd.DataFrame()
     df = pd.DataFrame([{"Topic": t, "Round category": c, "Experiences": len(v)} for (t, c), v in seen.items()])
