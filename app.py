@@ -23,7 +23,57 @@ import streamlit as st
 from backend import dashboard as dash
 from backend.citations import page_label
 from backend.config import load_settings
-from schemas.taxonomy import canonical_resource_topics, display_topic_name
+try:
+    from schemas.taxonomy import canonical_resource_topics, display_topic_name
+except ImportError:  # compatibility with deployments that have an older taxonomy module
+    _TOPIC_LABELS = {
+        "aiml": "AI/ML", "ai ml": "AI/ML", "genai": "Generative AI", "gen ai": "Generative AI",
+        "numpy": "NumPy", "powerbi": "Power BI", "postgresql": "PostgreSQL", "ml": "Machine Learning",
+        "group by": "GROUP BY", "order by": "ORDER BY", "join": "JOIN", "limit": "LIMIT",
+        "problem solving": "Problem Solving", "date functions": "Date Functions",
+        "data analytics": "Data Analytics", "data interpretation": "Data Interpretation",
+        "file handling": "File Handling", "linux commands": "Linux Commands",
+        "hashmaps": "Hashing", "hash maps": "Hashing", "react js": "React",
+        "rag retrieval augmented generation": "RAG (Retrieval-Augmented Generation)",
+    }
+
+    def display_topic_name(value: str) -> str:
+        key = re.sub(r"[^a-z0-9+#/ ]+", " ", value.lower().replace("-", " "))
+        key = re.sub(r"\s+", " ", key).strip()
+        return _TOPIC_LABELS.get(key, value.strip())
+
+    def canonical_resource_topics(value: str | None) -> list[str]:
+        text = (value or "").strip()
+        if not text or text.casefold() in {"general", "general resources", "—"}:
+            return ["General resources"]
+        rules = (
+            (r"\b(?:data structures and algorithms|dsa)\b", "Data Structures and Algorithms"),
+            (r"\bcompetitive programming\b", "Competitive Programming"),
+            (r"\b(?:coding practice|coding problems?|coding questions?|coding)\b", "Coding"),
+            (r"\b(?:aptitude|quantitative|quants?)\b", "Aptitude"),
+            (r"\b(?:puzzles?|logical reasoning|logic building)\b", "Logical Reasoning"),
+            (r"\bguesstimates?\b", "Guesstimates"),
+            (r"\bprobability\b", "Probability"), (r"\bsql\b", "SQL"),
+            (r"\b(?:dbms|database management)\b", "Database Management Systems"),
+            (r"\b(?:operating systems?|os)\b", "Operating Systems"),
+            (r"\b(?:computer networks?|ccn|cn)\b", "Computer Networks"),
+            (r"\b(?:oops?|oop|object oriented(?: programming)?)\b", "OOPs"),
+            (r"\bjava\b", "Java"), (r"\bjavascript\b", "JavaScript"),
+            (r"(?<![a-z0-9])(?:c\+\+|cpp)(?![a-z0-9])", "C++"),
+            (r"\bpython\b", "Python"), (r"\breact(?:\.js|js)?\b", "React"),
+            (r"\b(?:system design|low level design|high level design|lld|hld)\b", "System Design"),
+            (r"\b(?:oa|online assessment|assessment|mcqs?)\b", "Assessment and MCQs"),
+            (r"\b(?:machine learning|deep learning|ml|ai/ml|aiml|genai|generative ai)\b", "AI/ML and Data Science"),
+            (r"\b(?:finance|investment banking)\b", "Finance"),
+            (r"\bcase studies?\b", "Case Studies"),
+            (r"\b(?:hr|human resources|behavioral)\b", "HR and Behavioral"),
+            (r"\b(?:company research|company values|company fit)\b", "Company Research"),
+            (r"\b(?:resume|ats)\b", "Resume and ATS"),
+            (r"\b(?:core subjects?|core cs|cs fundamentals|computer fundamentals)\b", "Core CS Fundamentals"),
+            (r"\b(?:strings?|string generation)\b", "Strings"),
+        )
+        found = [label for pattern, label in rules if re.search(pattern, text, re.I)]
+        return list(dict.fromkeys(found)) or [display_topic_name(text)]
 
 st.set_page_config(page_title="CampusPrep AI", page_icon=":material/school:", layout="wide")
 
