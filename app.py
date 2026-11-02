@@ -17,6 +17,7 @@ except ImportError:
 
 import html
 import re
+from urllib.parse import urlparse
 
 import streamlit as st
 
@@ -589,32 +590,74 @@ with tab_res:
             for topic in topics:
                 key = topic.casefold()
                 if key not in grouped_resources:
-                    grouped_resources[key] = {"topic": topic, "items": []}
-                grouped_resources[key]["items"].append(row)
+                    grouped_resources[key] = {"topic": topic, "resources": {}}
+                title = row.get("Resource")
+                title = title if isinstance(title, str) and title.strip() else "Untitled resource"
+                url = row.get("URL")
+                url = url.strip() if isinstance(url, str) and url.startswith(("http://", "https://")) else ""
+                normalized_title = re.sub(r"[^a-z0-9]+", "", title.casefold())
+                brand_aliases = (
+                    ("indiabix", "IndiaBix"), ("geeksforgeeks", "GeeksforGeeks"),
+                    ("gfg", "GeeksforGeeks"), ("leetcode", "LeetCode"),
+                    ("hackerrank", "HackerRank"), ("hackerearth", "HackerEarth"),
+                    ("interviewbit", "InterviewBit"), ("striver", "Striver"),
+                    ("lovebabbar", "Love Babbar / CodeHelp"), ("babbar", "Love Babbar / CodeHelp"),
+                    ("codehelp", "Love Babbar / CodeHelp"), ("javatpoint", "JavaTpoint"),
+                    ("codeforces", "Codeforces"), ("codechef", "CodeChef"),
+                    ("atcoder", "AtCoder"), ("cses", "CSES Problem Set"),
+                    ("sanfoundry", "Sanfoundry"), ("careerride", "CareerRide"),
+                )
+                canonical_title = next((brand for alias, brand in brand_aliases if alias in normalized_title), None)
+                if canonical_title is None and url:
+                    host = (urlparse(url).hostname or "").lower().removeprefix("www.")
+                    canonical_title = {
+                        "indiabix.com": "IndiaBix", "geeksforgeeks.org": "GeeksforGeeks",
+                        "leetcode.com": "LeetCode", "hackerrank.com": "HackerRank",
+                        "hackerearth.com": "HackerEarth",
+                    }.get(host)
+                canonical_title = canonical_title or title.strip()
+                resource_key = re.sub(r"[^a-z0-9]+", "", canonical_title.casefold())
+                resources = grouped_resources[key]["resources"]
+                if resource_key not in resources:
+                    resources[resource_key] = {
+                        "Resource": canonical_title, "URLs": set(), "Descriptions": set(), "Sources": set(),
+                    }
+                resource = resources[resource_key]
+                if url:
+                    resource["URLs"].add(url)
+                description = row.get("Description")
+                if isinstance(description, str) and description.strip() and description != "—":
+                    resource["Descriptions"].add(description.strip())
+                source = row.get("Source")
+                if isinstance(source, str) and source.strip():
+                    resource["Sources"].add(source.strip())
         ordered_groups = sorted(grouped_resources.values(), key=lambda group: (group["topic"] == "General resources", group["topic"].casefold()))
         for group_index, group in enumerate(ordered_groups):
             topic = group["topic"]
-            items = group["items"]
+            items = sorted(group["resources"].values(), key=lambda item: item["Resource"].casefold())
             with st.expander(f"{topic} · {len(items)} resource{'s' if len(items) != 1 else ''}", expanded=(group_index == 0), icon=":material/menu_book:"):
                 cols = st.columns(2, gap="medium")
                 for index, item in enumerate(items):
                     col = cols[index % 2]
-                    title = item.get("Resource")
-                    title = title if isinstance(title, str) and title.strip() else "Untitled resource"
-                    description = item.get("Description")
-                    description = description if isinstance(description, str) and description.strip() and description != "—" else ""
-                    source = item.get("Source")
-                    source = source if isinstance(source, str) and source.strip() else "Source not listed"
+                    title = item["Resource"]
+                    description = " · ".join(sorted(item["Descriptions"]))
+                    sources = sorted(item["Sources"])
+                    source_documents = {source.split(" · p.", 1)[0] for source in sources}
                     col.markdown(
                         f'<div class="cp-resource-card"><div class="cp-resource-title">{html.escape(title)}</div>'
                         + (f'<div class="cp-resource-description">{html.escape(description)}</div>' if description else "")
-                        + f'<div class="cp-resource-source">Mentioned in · {html.escape(source)}</div></div>',
+                        + f'<div class="cp-resource-source">Mentioned in {len(source_documents)} experience{"s" if len(source_documents) != 1 else ""}</div></div>',
                         unsafe_allow_html=True,
                     )
-                    url = item.get("URL")
-                    if isinstance(url, str) and url.startswith(("http://", "https://")):
-                        col.link_button("Open resource", url, key=f"resource_{company_id}_{group_index}_{index}")
-                    else:
+                    if sources:
+                        with col.expander("View source reports"):
+                            for source in sources:
+                                st.markdown(f"- {md_safe(source)}")
+                    urls = sorted(item["URLs"])
+                    for link_index, url in enumerate(urls):
+                        link_label = "Open resource" if len(urls) == 1 else f"Open link {link_index + 1}"
+                        col.link_button(link_label, url, key=f"resource_{company_id}_{group_index}_{index}_{link_index}")
+                    if not urls:
                         col.caption("No verified link in the source")
 
 # ------------------------------------------------------------------------------------ chat
