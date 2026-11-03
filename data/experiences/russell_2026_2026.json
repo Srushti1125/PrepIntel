@@ -1,0 +1,1077 @@
+{
+  "company_id": "russell_2026",
+  "year": "2026",
+  "experiences": [
+    {
+      "experience_id": "russell_2026-2026-73a97b6a-1",
+      "company": "Russell_2026",
+      "company_id": "russell_2026",
+      "year": "2026",
+      "role": "Technology Intern (Application Developer)",
+      "rounds": [
+        {
+          "name": "Written Assessment",
+          "category": "Online Assessment",
+          "description": "Pen-and-paper, 40 minutes total, weightage 5 marks. Note: the test was explicitly not eliminatory.",
+          "topics": [
+            {
+              "original": "aptitude",
+              "canonical": "Quantitative Aptitude",
+              "category": "Aptitude"
+            },
+            {
+              "original": "DBMS",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "SQL",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "OS",
+              "canonical": "Operating Systems",
+              "category": "Operating systems"
+            },
+            {
+              "original": "networking basics",
+              "canonical": "Computer Networks",
+              "category": "Computer networks"
+            },
+            {
+              "original": "OOP/OO design",
+              "canonical": "System Design",
+              "category": "System design"
+            },
+            {
+              "original": "stacks",
+              "canonical": "Stacks and Queues",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "arrays",
+              "canonical": "Arrays",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "binary search",
+              "canonical": "Sorting and Searching",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "bit tricks",
+              "canonical": "Bit Tricks",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Valid parentheses (stack application).",
+              "kind": "coding",
+              "page": 3
+            },
+            {
+              "text": "Missing number in an array of size n−1 containing numbers 1..n (classic sum/XOR trick).",
+              "kind": "coding",
+              "page": 3
+            },
+            {
+              "text": "Binary-search style problem.",
+              "kind": "coding",
+              "page": 3
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            3
+          ]
+        },
+        {
+          "name": "Technical interview 1",
+          "category": "Technical Interview",
+          "description": "About 50-60 minutes, weightage 10 marks, in a room with a senior technical panel.",
+          "topics": [
+            {
+              "original": "Firebase",
+              "canonical": "Firebase",
+              "category": "Other"
+            },
+            {
+              "original": "authentication",
+              "canonical": "Authentication",
+              "category": "Other"
+            },
+            {
+              "original": "database structure",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "NoSQL",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "SQL",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "system design",
+              "canonical": "System Design",
+              "category": "System design"
+            },
+            {
+              "original": "scalability",
+              "canonical": "Scalability",
+              "category": "Other"
+            },
+            {
+              "original": "caching",
+              "canonical": "Caching",
+              "category": "Other"
+            },
+            {
+              "original": "Linked Lists",
+              "canonical": "Linked Lists",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "Stacks",
+              "canonical": "Stacks and Queues",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "SQL query",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "indexes",
+              "canonical": "Indexes",
+              "category": "Other"
+            },
+            {
+              "original": "stored procedure",
+              "canonical": "Stored Procedure",
+              "category": "Other"
+            },
+            {
+              "original": "trigger",
+              "canonical": "Trigger",
+              "category": "Other"
+            },
+            {
+              "original": "cloud",
+              "canonical": "Cloud",
+              "category": "Other"
+            },
+            {
+              "original": "deployment",
+              "canonical": "Deployment",
+              "category": "Other"
+            },
+            {
+              "original": "CI/CD pipelines",
+              "canonical": "CI/CD pipelines",
+              "category": "Other"
+            },
+            {
+              "original": "dockers",
+              "canonical": "Dockers",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Why I chose Firebase, how I implemented authentication, how I structured the database, how I handled sync/real-time aspects, and where I would change things for scale.",
+              "kind": "project",
+              "page": 4
+            },
+            {
+              "text": "How to design an auth flow, how to approach scalability, where to put the session store, and how to handle concurrent users.",
+              "kind": "technical",
+              "page": 4
+            },
+            {
+              "text": "Cloud feels slow — how would you improve performance?",
+              "kind": "technical",
+              "page": 4
+            },
+            {
+              "text": "Two easy to med DSA problems were asked (Linked Lists and Stacks were explicitly covered).",
+              "kind": "coding",
+              "page": 5
+            },
+            {
+              "text": "A simple SQL query was asked (a simple JOIN query with some conditions).",
+              "kind": "technical",
+              "page": 5
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            4,
+            5
+          ]
+        },
+        {
+          "name": "Hiring Manager Round",
+          "category": "Managerial Interview",
+          "description": "Intentionally more conversational and lasted around 25–30 minutes with the Director.",
+          "topics": [
+            {
+              "original": "use cases",
+              "canonical": "Use Cases",
+              "category": "Other"
+            },
+            {
+              "original": "SDLC",
+              "canonical": "SDLC",
+              "category": "Other"
+            },
+            {
+              "original": "DevOps",
+              "canonical": "DevOps",
+              "category": "Other"
+            },
+            {
+              "original": "pipelines",
+              "canonical": "Pipelines",
+              "category": "Other"
+            },
+            {
+              "original": "infrastructure",
+              "canonical": "Infrastructure",
+              "category": "Other"
+            },
+            {
+              "original": "monitoring",
+              "canonical": "Monitoring",
+              "category": "Other"
+            },
+            {
+              "original": "release strategies",
+              "canonical": "Release Strategies",
+              "category": "Other"
+            },
+            {
+              "original": "behavioral scenarios",
+              "canonical": "HR and Behavioral Questions",
+              "category": "HR and behavioral"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Break down end-to-end use cases and how I would approach them from design to deployment.",
+              "kind": "technical",
+              "page": 7
+            },
+            {
+              "text": "Explain the SDLC and the phases where I’d focus depending on a product’s maturity.",
+              "kind": "technical",
+              "page": 7
+            },
+            {
+              "text": "Discuss DevOps basics — pipelines, infrastructure, monitoring, and release strategies.",
+              "kind": "technical",
+              "page": 7
+            },
+            {
+              "text": "Handle behavioral scenarios: working under deadlines, facing ambiguity, collaborating with non-tech stakeholders.",
+              "kind": "hr",
+              "page": 7
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            7
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "Make sure to have a refined resume, a good cgpa (I’d recommend having 8+, but try to keep at least 7.5+ otherwise you’ll miss out on a few), some achievements to get shortlisted.",
+          "category": "Interview strategy",
+          "page": 1
+        },
+        {
+          "text": "Along with a good resume also try to keep linkedin and github maintained.",
+          "category": "Interview strategy",
+          "page": 1
+        },
+        {
+          "text": "Regular aptitude practice (IndiaBix, common OA Questions) and brushing up on core CS topics (DBMS, OS basics, OOP) is sufficient.",
+          "category": "OA preparation",
+          "page": 3
+        },
+        {
+          "text": "For the coding questions, having a command of stacks, arrays, binary search and basic bit tricks helps, you can extrapolate to covering linear structures and basic sorting algorithms.",
+          "category": "Coding preparation",
+          "page": 3
+        },
+        {
+          "text": "Be ready to explain the what, how, and why for each project — not just what you implemented but design tradeoffs and alternate approaches.",
+          "category": "Project preparation",
+          "page": 4
+        },
+        {
+          "text": "Do not pretend to know an optimized solution even if you do — state the brute-force first, then show how you would improve it.",
+          "category": "Coding preparation",
+          "page": 5
+        },
+        {
+          "text": "DO NOT SAY ANY THINGS THAT YOU ARE NOT AWARE OF. It is always good to say that you don’t know rather than saying something wrong or the interviewer sensing that you are not much aware of the topic.",
+          "category": "Interview strategy",
+          "page": 5
+        },
+        {
+          "text": "Think out loud, ask for constraints, write the brute force approach and then optimize, and write pseudo-code once the approach is agreed upon. Test your solution with 1 example.",
+          "category": "Coding preparation",
+          "page": 6
+        },
+        {
+          "text": "Be crisp about your projects. When you mention an implementation detail casually, the panel will latch on to it and probe deeper — so be deliberate with your words.",
+          "category": "Project preparation",
+          "page": 6
+        },
+        {
+          "text": "Explain tradeoffs instead of one-line answers.",
+          "category": "Technical preparation",
+          "page": 6
+        }
+      ],
+      "resources": [
+        {
+          "title": "NeetCode",
+          "url": null,
+          "description": null,
+          "topic": "DSA",
+          "page": 12
+        },
+        {
+          "title": "Striver",
+          "url": null,
+          "description": null,
+          "topic": "DSA",
+          "page": 12
+        },
+        {
+          "title": "W3Schools",
+          "url": null,
+          "description": null,
+          "topic": "SQL",
+          "page": 12
+        },
+        {
+          "title": "LC SQL 50 problems",
+          "url": null,
+          "description": null,
+          "topic": "SQL",
+          "page": 12
+        },
+        {
+          "title": "Head First Design Patterns",
+          "url": null,
+          "description": null,
+          "topic": "Design patterns & architecture",
+          "page": 12
+        },
+        {
+          "title": "IndiaBix",
+          "url": null,
+          "description": null,
+          "topic": "Aptitude",
+          "page": 12
+        }
+      ],
+      "filename": "Russell_ApplicationDeveloper_SanjeevRatnani.pdf",
+      "source_path": "2026/Russell_2026/Russell_ApplicationDeveloper_SanjeevRatnani.pdf",
+      "pages": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        12
+      ],
+      "content_sha256": "73a97b6aee00d370b69a5931fc974c927c88c8883f5aa6a5f0aed3088ec5b47b"
+    },
+    {
+      "experience_id": "russell_2026-2026-156db98c-1",
+      "company": "Russell_2026",
+      "company_id": "russell_2026",
+      "year": "2026",
+      "role": "Application Developer Intern",
+      "rounds": [
+        {
+          "name": "Resume Shortlisting",
+          "category": "Other",
+          "description": "Application and shortlisting were entirely run by Russell Investments on Workday.",
+          "topics": [],
+          "questions": [],
+          "difficulty": null,
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Written Test",
+          "category": "Online Assessment",
+          "description": "Pen paper test, with 10 Technical MCQs on CS Fundamentals, 10 Aptitude MCQs, and 3 DSA problems.",
+          "topics": [
+            {
+              "original": "DBMS",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "CCN",
+              "canonical": "CCN",
+              "category": "Other"
+            },
+            {
+              "original": "OS",
+              "canonical": "Operating Systems",
+              "category": "Operating systems"
+            },
+            {
+              "original": "OOPS",
+              "canonical": "Object-Oriented Programming",
+              "category": "OOPs"
+            },
+            {
+              "original": "Data Structures",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "Aptitude",
+              "canonical": "Quantitative Aptitude",
+              "category": "Aptitude"
+            },
+            {
+              "original": "DSA",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Implementation of the Bubble Sort Algorithm",
+              "kind": "coding",
+              "page": 2
+            },
+            {
+              "text": "Find the duplicate in an array in O(n) and by using O(1) extra space",
+              "kind": "coding",
+              "page": 2
+            },
+            {
+              "text": "Check if a given string is valid, given certain heuristics (Valid Parentheses problem)",
+              "kind": "coding",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Technical Interview I",
+          "category": "Technical Interview",
+          "description": "Interview with a panel of 2 extremely experienced professionals (app developer and DevOps engineer).",
+          "topics": [
+            {
+              "original": "DSA",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "Arrays",
+              "canonical": "Arrays",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "Linked Lists",
+              "canonical": "Linked Lists",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "Stacks",
+              "canonical": "Stacks and Queues",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "Queues",
+              "canonical": "Stacks and Queues",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "DBMS",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "CCN",
+              "canonical": "CCN",
+              "category": "Other"
+            },
+            {
+              "original": "REST APIs",
+              "canonical": "REST APIs",
+              "category": "Other"
+            },
+            {
+              "original": "Embedded systems",
+              "canonical": "Embedded systems",
+              "category": "Other"
+            },
+            {
+              "original": "BLE",
+              "canonical": "BLE",
+              "category": "Other"
+            },
+            {
+              "original": "System Design",
+              "canonical": "System Design",
+              "category": "System design"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Have you studied DSA? What data structures are you comfortable with?",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "How would you reverse this array in-place?",
+              "kind": "coding",
+              "page": 3
+            },
+            {
+              "text": "Walk through your implementations for all 3 codes from the written test.",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "Find the smallest window in the article text that contains all the query words.",
+              "kind": "coding",
+              "page": 3
+            },
+            {
+              "text": "A JOIN Query (joining 3 tables)",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "Do you know what a view is?",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "What's an index?",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "Find the Top-N Highest Salary",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "TCP vs UDP",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "What happens when you click a URL?",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "What's a REST API?",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "You've mentioned a RESTful API. What's that?",
+              "kind": "technical",
+              "page": 4
+            },
+            {
+              "text": "How does BLE connection establishment normally work?",
+              "kind": "technical",
+              "page": 4
+            },
+            {
+              "text": "Why did you need a custom three-way handshake instead of relying on BLE's built-in connection mechanisms?",
+              "kind": "technical",
+              "page": 4
+            },
+            {
+              "text": "How did you measure the 74% reduction in sync issues?",
+              "kind": "technical",
+              "page": 4
+            },
+            {
+              "text": "System design for Percy, an AI-driven system optimizing CI/CD pipelines",
+              "kind": "technical",
+              "page": 4
+            },
+            {
+              "text": "What is an AST, and how did it help in documentation generation?",
+              "kind": "technical",
+              "page": 4
+            },
+            {
+              "text": "What's the difference between on-prem and cloud servers?",
+              "kind": "technical",
+              "page": 6
+            },
+            {
+              "text": "What you'd have to take care of in an on-prem server which cloud providers cover for you",
+              "kind": "technical",
+              "page": 5
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        {
+          "name": "Interview With the Director",
+          "category": "Managerial Interview",
+          "description": "Techno HR interview with a senior director with a focus on tech and experience.",
+          "topics": [
+            {
+              "original": "SQL",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "On-prem versus cloud",
+              "canonical": "On-prem versus cloud",
+              "category": "Other"
+            },
+            {
+              "original": "Cultural fit",
+              "canonical": "Cultural fit",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Write a simple SQL query to find all entries for October 2024, sorted by day, given that each entry was in DATE format in SQL.",
+              "kind": "coding",
+              "page": 5
+            },
+            {
+              "text": "On-prem versus cloud",
+              "kind": "technical",
+              "page": 6
+            },
+            {
+              "text": "How data is stored in a financial firm",
+              "kind": "technical",
+              "page": 6
+            },
+            {
+              "text": "Tell me a situation where you were frustrated with a team mate. How did you work past the frustration?",
+              "kind": "hr",
+              "page": 6
+            },
+            {
+              "text": "What, according to you, is the most challenging part of working with a team?",
+              "kind": "hr",
+              "page": 6
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            1,
+            5,
+            6
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "Keep a calm and collected mind, and to practice writing code by hand. Do not use ChatGPT while writing code in your primary language as much as you can avoid it.",
+          "category": "Coding preparation",
+          "page": 2
+        },
+        {
+          "text": "Always smile. Be graceful about your mistakes.",
+          "category": "Interview strategy",
+          "page": 6
+        },
+        {
+          "text": "Do not claim to know something you do not know. That is a massive red flag.",
+          "category": "Interview strategy",
+          "page": 6
+        },
+        {
+          "text": "Practice Aptitude. It never hurts.",
+          "category": "OA preparation",
+          "page": 7
+        },
+        {
+          "text": "Keep your primary language your primary language. If you do DSA in C++, please know the ins-and-outs of the language.",
+          "category": "Coding preparation",
+          "page": 7
+        },
+        {
+          "text": "Write code on paper. That notebook is the OG IDE.",
+          "category": "Coding preparation",
+          "page": 7
+        }
+      ],
+      "resources": [
+        {
+          "title": "DataQuest",
+          "url": null,
+          "description": "For LMR SQL",
+          "topic": "SQL",
+          "page": 6
+        },
+        {
+          "title": "SQLZoo",
+          "url": null,
+          "description": "For a one sitting full syllabus study",
+          "topic": "SQL",
+          "page": 6
+        },
+        {
+          "title": "Leetcode SQL",
+          "url": null,
+          "description": "Practice if syntax and application of certain functions tends to slip from your mind",
+          "topic": "SQL",
+          "page": 6
+        },
+        {
+          "title": "CSES Problemset",
+          "url": null,
+          "description": "If you have the time and you love coding",
+          "topic": "DSA",
+          "page": 6
+        },
+        {
+          "title": "InterviewBit OS Overview",
+          "url": null,
+          "description": "Overview for OS preparation",
+          "topic": "OS",
+          "page": 6
+        }
+      ],
+      "filename": "Russell_ApplicationDeveloperIntern_AditiRao.pdf",
+      "source_path": "2026/Russell_2026/Russell_ApplicationDeveloperIntern_AditiRao.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "content_sha256": "156db98c655f9cb2d2bcb6d23e7890c006684ef7166885e2703c16d9ee627ccf"
+    },
+    {
+      "experience_id": "russell_2026-2026-ab37f4fb-1",
+      "company": "Russell_2026",
+      "company_id": "russell_2026",
+      "year": "2026",
+      "role": "Technology Intern",
+      "rounds": [
+        {
+          "name": "Written Test",
+          "category": "Online Assessment",
+          "description": null,
+          "topics": [
+            {
+              "original": "Aptitude",
+              "canonical": "Quantitative Aptitude",
+              "category": "Aptitude"
+            },
+            {
+              "original": "CS Fundamental",
+              "canonical": "CS Fundamental",
+              "category": "Other"
+            },
+            {
+              "original": "coding",
+              "canonical": "Coding",
+              "category": "Other"
+            },
+            {
+              "original": "Valid Parenthesis",
+              "canonical": "Valid Parenthesis",
+              "category": "Other"
+            },
+            {
+              "original": "Binary Search",
+              "canonical": "Sorting and Searching",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "Second Max Element",
+              "canonical": "Second Max Element",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Valid Parenthesis",
+              "kind": "coding",
+              "page": 1
+            },
+            {
+              "text": "Binary Search Pseudo code",
+              "kind": "coding",
+              "page": 1
+            },
+            {
+              "text": "Find Second Max Element in array",
+              "kind": "coding",
+              "page": 1
+            }
+          ],
+          "difficulty": "easy",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Technical Interview 1",
+          "category": "Technical Interview",
+          "description": "This interview was conducted by a Frontend Developer and Devops Engineer. The interview focused mainly on my resume. The discussion was regarding my internship and my projects.",
+          "topics": [
+            {
+              "original": "resume",
+              "canonical": "Resume",
+              "category": "Other"
+            },
+            {
+              "original": "internship",
+              "canonical": "Internship",
+              "category": "Other"
+            },
+            {
+              "original": "projects",
+              "canonical": "Projects",
+              "category": "Projects"
+            },
+            {
+              "original": "strings",
+              "canonical": "Strings",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "database",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            }
+          ],
+          "questions": [
+            {
+              "text": "find common elements in 2 strings",
+              "kind": "coding",
+              "page": 1
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Technical Round 2",
+          "category": "Technical Interview",
+          "description": "This round was conducted by the Director of Application Development. The interviewer focused on my resume. He asked me questions about my projects from a business perspective. Like why would organizations choose my applications above other companies or build it in house. I was questioned about SDLC and Testing. Apart from that, I was asked about my interests.",
+          "topics": [
+            {
+              "original": "resume",
+              "canonical": "Resume",
+              "category": "Other"
+            },
+            {
+              "original": "projects",
+              "canonical": "Projects",
+              "category": "Projects"
+            },
+            {
+              "original": "SDLC",
+              "canonical": "SDLC",
+              "category": "Other"
+            },
+            {
+              "original": "Testing",
+              "canonical": "Testing",
+              "category": "Other"
+            },
+            {
+              "original": "business perspective",
+              "canonical": "Business Perspective",
+              "category": "Other"
+            }
+          ],
+          "questions": [],
+          "difficulty": null,
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Technical Interview 3",
+          "category": "Technical Interview",
+          "description": "This round was conducted by Application Development Manager in the Automation Team on Microsoft Teams.",
+          "topics": [
+            {
+              "original": "arrays",
+              "canonical": "Arrays",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "SQL",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "joins",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "OOP",
+              "canonical": "Object-Oriented Programming",
+              "category": "OOPs"
+            },
+            {
+              "original": "sorting algorithm",
+              "canonical": "Sorting and Searching",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "Merge Sort Algorithm",
+              "canonical": "Merge Sort Algorithm",
+              "category": "Other"
+            },
+            {
+              "original": "CCN",
+              "canonical": "CCN",
+              "category": "Other"
+            },
+            {
+              "original": "HTTP",
+              "canonical": "Computer Networks",
+              "category": "Computer networks"
+            },
+            {
+              "original": "Rest APIs",
+              "canonical": "Rest APIs",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "write an efficient sorting algorithm that sorts the array till a particular index only",
+              "kind": "coding",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Managerial Round",
+          "category": "Managerial Interview",
+          "description": "This round was taken by the Head of Automation online a week after the previous interview.",
+          "topics": [
+            {
+              "original": "C++",
+              "canonical": "C++",
+              "category": "Programming languages"
+            },
+            {
+              "original": "DSA",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "CP",
+              "canonical": "CP",
+              "category": "Other"
+            },
+            {
+              "original": "pointers",
+              "canonical": "Pointers",
+              "category": "Other"
+            },
+            {
+              "original": "Java",
+              "canonical": "Java",
+              "category": "Programming languages"
+            },
+            {
+              "original": "games",
+              "canonical": "Games",
+              "category": "Other"
+            }
+          ],
+          "questions": [],
+          "difficulty": null,
+          "pages": [
+            2
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "DSA: It is asked by most companies in Online Assessments and Interviews. Without DSA, you won’t be able to clear OA and appear for interviews. Apart from doing DSA sheets also give contests to practice solving questions randomly with a time limit. If possible, do CP.",
+          "category": "Coding preparation",
+          "page": 2
+        },
+        {
+          "text": "Aptitude: Some companies ask aptitude questions in OA. I did not explicitly practise as I was confident about it but do practise if you are not sure.",
+          "category": "OA preparation",
+          "page": 3
+        },
+        {
+          "text": "CS Fundamentals: These are very important for interviews and OA. OOPS in Java (and your preferred language as well), SQL, DBMS are most important. OS, CCN and system design are also important.",
+          "category": "Technical preparation",
+          "page": 3
+        },
+        {
+          "text": "Resume: You should know your resume well. Have 2 good projects in your resume. It's good to have internships but not necessary.",
+          "category": "Project preparation",
+          "page": 3
+        },
+        {
+          "text": "Communication is very important in interviews and be prepared for HR Type questions as well.",
+          "category": "HR preparation",
+          "page": 3
+        }
+      ],
+      "resources": [],
+      "filename": "Russell_DataAutomationIntern_AtharvaTamhankar.pdf",
+      "source_path": "2026/Russell_2026/Russell_DataAutomationIntern_AtharvaTamhankar.pdf",
+      "pages": [
+        1,
+        2,
+        3
+      ],
+      "content_sha256": "ab37f4fbb0548932a6ea716702e35b0d267375b19c004dfb54c8c0895f650f1c"
+    }
+  ]
+}

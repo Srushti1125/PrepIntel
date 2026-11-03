@@ -734,7 +734,7 @@
       "pages": 2,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793701676.0147462,
+      "processed_at": 1793706089.901246,
       "status": "failed",
       "error": "no extractable text"
     },
@@ -1195,13 +1195,12 @@
       "pages": 7,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793701883.990435,
+      "processed_at": 1793706090.43913,
       "text_sha256": "d1a56ce485106b119cf7731eb6577029180fe7f05b7f81c2757f8a49866779db",
       "status": "indexed",
       "chunks": 19,
-      "insights": false,
-      "experiences": 0,
-      "insights_error": "structured extraction failed: Error code: 400 - {'error': {'message': 'Tool choice is required, but model did not call a tool', 'type': 'invalid_request_error', 'code': 'tool_use_failed', 'failed_generation': '{\\n  \"experiences\": [\\n    {\\n      \"role\": \"Technology and Data Operations Intern\",\\n      \"rounds\": [\\n        {\\n          \"name\": \"Online Assessment\",\\n          \"category\": \"Online Assessment\",\\n          \"description\": \"75‑minute assessment on HackerRank with three questions: two DSA‑based and one SQL. Questions were randomly selected from a pool, with most being LeetCode easy to medium level.\",\\n          \"difficulty\": null,\\n          \"pages\": [1],\\n          \"questions\": [\\n            {\\n              \"kind\": \"coding\",\\n              \"page\": 1,\\n              \"text\": \"DSA Q1: Slowest Key – LeetCode – Given a list of keypress logs as pairs (key, time), determine which key took the longest to press.\"\\n            },\\n            {\\n              \"kind\": \"coding\",\\n              \"page\": 1,\\n              \"text\": \"DSA Q2: Distance Between \\\\\"programmer\\\\\" Substrings – Given a string containing exactly two non‑overlapping occurrences of the word \\\\\"programmer\\\\\", determine the number of characters strictly between the first full \\\\\"programmer\\\\\" from the left and the last full \\\\\"programmer\\\\\" from the right.\"\\n            },\\n            {\\n              \"kind\": \"technical\",\\n              \"page\": 2,\\n              \"text\": \"SQL Q3: Time and Amount Aggregation with Joins – Involved 2–3 tables testing JOINs, GROUP BY, aggregations, summing durations and converting to HH:MM:SS using SEC_TO_TIME, and converting cumulative amounts into billions.\"\\n            }\\n          ],\\n          \"topics\": [\"DSA\", \"SQL\"]\\n        },\\n        {\\n          \"name\": \"Offline Technical Round 1\",\\n          \"category\": \"Technical Interview\",\\n          \"description\": \"30‑minute interview. Started with an introduction, discussion of three projects, then two SQL questions followed by two easy DSA questions and a few theory questions.\",\\n          \"difficulty\": null,\\n          \"pages\": [2, 3, 4],\\n          \"questions\": [\\n            {\\n              \"kind\": \"technical\",\\n              \"page\": 3,\\n              \"text\": \"Q.1 Find user IDs of users who have ordered products from more than one category – Use GROUP BY user_id and HAVING COUNT(DISTINCT category) > 1.\"\\n            },\\n            {\\n              \"kind\": \"technical\",\\n              \"page\": 3,\\n              \"text\": \"Q.2 For each category, find the product that was sold the most (by total quantity ordered) – Use a window function to rank products within each category and filter the top‑ranked product.\"\\n            },\\n            {\\n              \"kind\": \"coding\",\\n              \"page\": 4,\\n              \"text\": \"Q1. First Non‑Repeating Character – LeetCode – Brute‑force two‑loop approach, then optimized using a frequency vector.\"\\n            },\\n            {\\n              \"kind\": \"coding\",\\n              \"page\": 4,\\n              \"text\": \"Q2. Climbing Stairs – LeetCode – Explained recursive and DP approaches, implemented space‑optimized solution using two variables.\"\\n            },\\n            {\\n              \"kind\": \"technical\",\\n              \"page\": 4,\\n              \"text\": \"Theory question on encapsulation in OOP.\"\\n            },\\n            {\\n              \"kind\": \"technical\",\\n              \"page\": 4,\\n              \"text\": \"Theory question on indexing in databases.\"\\n            }\\n          ],\\n          \"topics\": [\"SQL\", \"DSA\", \"OOP\", \"Databases\"]\\n        },\\n        {\\n          \"name\": \"Offline Technical Round 2\",\\n          \"category\": \"Technical Interview\",\\n          \"description\": \"45‑minute interview focusing on practical developer thinking, future plans, AI role, deep dive into projects, technical decisions (MongoDB vs SQL, vector database Qdrant), theoretical questions (difference between database and data warehouse, alternate key), and time‑complexity discussion.\",\\n          \"difficulty\": null,\\n          \"pages\": [4, 5],\\n          \"questions\": [],\\n          \"topics\": [\"AI\", \"MongoDB\", \"Qdrant\", \"Databases\", \"Data Warehouse\", \"Alternate Key\", \"Time Complexity\"]\\n        },\\n        {\\n          \"name\": \"Online HR Round\",\\n          \"category\": \"HR Interview\",\\n          \"description\": \"15‑minute relaxed conversation about personality, family background, hobbies, knowledge of MSCI, willingness to work in different domains, and questions about learning scope and growth opportunities.\",\\n          \"difficulty\": null,\\n          \"pages\": [5, 6],\\n          \"questions\": [],\\n          \"topics\": []\\n        }\\n      ],\\n      \"tips\": [\\n        {\\n          \"category\": \"Interview strategy\",\\n          \"page\": 2,\\n          \"text\": \"A strong intro is important—it sets the tone and flow of the interview. Practice it in front of someone beforehand, to make it smooth and confident.\"\\n        },\\n        {\\n          \"category\": \"Interview strategy\",\\n          \"page\": 5,\\n          \"text\": \"In college or hackathon projects, we often neglect the feasibility and scalability aspects. It\\'s still important to have a basic theoretical understanding of these, even if you don’t have practical experience.\"\\n        },\\n        {\\n          \"category\": \"HR preparation\",\\n          \"page\": 6,\\n          \"text\": \"Don’t overlook the HR round. Be well‑prepared with common HR questions and think through different scenarios in advance.\"\\n        },\\n        {\\n          \"category\": \"Interview strategy\",\\n          \"page\": 6,\\n          \"text\": \"Placement is 30% luck, 70% smart work. Focus on what you can control—be well‑prepared when the opportunity comes.\"\\n        },\\n        {\\n          \"category\": \"Interview strategy\",\\n          \"page\": 6,\\n          \"text\": \"Give contests and mock interviews even if you feel underprepared. They help you assess your level and improve.\"\\n        },\\n        {\\n          \"category\": \"Interview strategy\",\\n          \"page\": 6,\\n          \"text\": \"Don’t fear early failures; better to fail in practice than in interviews.\"\\n        },\\n        {\\n          \"category\": \"Interview strategy\",\\n          \"page\": 6,\\n          \"text\": \"Focus on one company at a time, give your best, and if it doesn’t work out—learn, move on, and stay resilient.\"\\n        },\\n        {\\n          \"category\": \"Interview strategy\",\\n          \"page\": 7,\\n          \"text\": \"Research the company thoroughly—memorize key facts & values but also understand their meaning and relevance to your profile.\"\\n        },\\n        {\\n          \"category\": \"Interview strategy\",\\n          \"page\": 7,\\n          \"text\": \"Soft skills are crucial. Even if my answers weren’t perfect, I spoke with confidence, used technical terms, and explained with clear, relatable examples.\"\\n        },\\n        {\\n          \"category\": \"Interview strategy\",\\n          \"page\": 7,\\n          \"text\": \"For almost a month, I reviewed past interview experiences and practiced answering questions out loud, refining them for clarity and impact.\"\\n        }\\n      ],\\n      \"resources\": [\\n        {\\n          \"title\": \"IndiaBix\",\\n          \"description\": \"OA - Aptitude: Questions are straightforward and frequently repeated. Focus on revising formulas and practicing key topics (percentages, ratios, time‑distance).\",\\n          \"page\": 7,\\n          \"url\": null\\n        },\\n        {\\n          \"title\": \"Striver’s A2Z DSA Sheet\",\\n          \"description\": \"DSA: Prioritize understanding patterns and logic over memorization. Covers almost all major company patterns and builds strong problem‑solving skills.\",\\n          \"page\": 7,\\n          \"url\": null\\n        },\\n        {\\n          \"title\": \"Pick any YouTube Lectures & GFG Notes\",\\n          \"description\": \"Core Subjects: Watch one‑shot, complete‑topic lectures for efficient learning and take handwritten notes. Use GFG\\'s Last Minute Notes for quick revision.\",\\n          \"page\": 7,\\n          \"url\": null\\n        },\\n        {\\n          \"title\": \"GFG DBMS Notes\",\\n          \"description\": \"DBMS: Supplement lecture notes with these for fast review.\",\\n          \"page\": 7,\\n          \"url\": null\\n        },\\n        {\\n          \"title\": \"GFG CN Notes\",\\n          \"description\": \"CN: Supplement lecture notes with these for fast review.\",\\n          \"page\": 7,\\n          \"url\": null\\n        },\\n        {\\n          \"title\": \"GFG OS Notes\",\\n          \"description\": \"OS: Supplement lecture notes with these for fast review.\",\\n          \"page\": 7,\\n          \"url\": null\\n        },\\n        {\\n          \"title\": \"Gemini\",\\n          \"description\": \"AI Tools – Recall: Use its voice assistant feature to simulate quick mock interviews on technical topics for active recall practice.\",\\n          \"page\": 7,\\n          \"url\": null\\n        },\\n        {\\n          \"title\": \"Perplexity\",\\n          \"description\": \"AI Tools – Research: A fast, reliable tool for researching company backgrounds, recent news, tech stacks, and interview experiences.\",\\n          \"page\": 7,\\n          \"url\": null\\n        },\\n        {\\n          \"title\": \"LinkedIn Profile\",\\n          \"description\": \"Feel free to reach out to me on LinkedIn if you have any questions or need any help—I’ll be happy to support you.\",\\n          \"page\": 7,\\n          \"url\": \"https://in.linkedin.com/in/shubham-karampure\"\\n        }\\n      ]\\n    }\\n  ]\\n}'}}"
+      "insights": true,
+      "experiences": 1
     },
     "2026/MSCI_2026/MSCI_Technology&DataOpsIntern_ Aroosh.pdf": {
       "sha256": "8f5bd6e98c7b8075a097f6dc467accd9f45416576fa05abe39390b8535c163a9",
@@ -1244,13 +1243,12 @@
       "pages": 6,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793702287.3727891,
+      "processed_at": 1793706097.2166934,
       "text_sha256": "c385ee300860987e84cc209fb20ab0272259596e78072401696dd9c4687ff431",
       "status": "indexed",
       "chunks": 18,
-      "insights": false,
-      "experiences": 0,
-      "insights_error": "structured extraction failed: Error code: 400 - {'error': {'message': 'Failed to parse tool call arguments as JSON', 'type': 'invalid_request_error', 'code': 'tool_use_failed', 'failed_generation': '{\"name\": \"LLMExtraction\", \"arguments\": {\\n  \"experiences\": [\\n    {\\n      \"role\": \"Technology & Data Operations Intern\",\\n      \"rounds\": [\\n        {\\n          \"name\": \"Online Assessment\",\\n          \"category\": \"Online Assessment\",\\n          \"pages\": [1],\\n          \"questions\": [\\n            {\\n              \"text\": \"Given an array of integers, find the sum of elements of all possible subarrays of the array.\",\\n              \"kind\": \"coding\",\\n              \"page\": 1\\n            },\\n            {\\n              \"text\": \"Given an array of integers, the task was to reach the end of the array while\"}'}}"
+      "insights": true,
+      "experiences": 1
     },
     "2026/Nomura_2026/Nomura_CDO_Aashay_Jadhav.pdf": {
       "sha256": "01b2f126e176ed4fae43147d454cdadac3c7c5b6400186025de697c336f45b6b",
@@ -1359,7 +1357,7 @@
         4
       ],
       "ocr_used": false,
-      "processed_at": 1793702584.4042716,
+      "processed_at": 1793706104.4398196,
       "status": "failed",
       "error": "no extractable text (scanned/image-only pages detected; enable OCR with --ocr)"
     },
@@ -1468,13 +1466,12 @@
       "pages": 4,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793702720.2368522,
+      "processed_at": 1793706104.5032983,
       "text_sha256": "1c35280786af5d251977c0ed1c407c5756e7ee866592b418ac2f0e0bd4a97d63",
       "status": "indexed",
       "chunks": 14,
-      "insights": false,
-      "experiences": 0,
-      "insights_error": "structured extraction failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m34ktp7dehwajs9h9xxjwwy8` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198935, Requested 2923. Please try again in 13m22.656s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      "insights": true,
+      "experiences": 1
     },
     "2026/PhonePe_2026/PhonePe_SDE_Aditya_Tiwari.pdf": {
       "sha256": "3184fb3893c84c2fbe4456c4ac05e3f0c54f772bc66b997a384aa0140c951ea5",
@@ -1485,13 +1482,12 @@
       "pages": 11,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793702915.3405402,
+      "processed_at": 1793706108.7688522,
       "text_sha256": "8928b537e9e704d9d965d6034fb021af1f40b9ed248cdbde4e3e16a01699cca9",
       "status": "indexed",
       "chunks": 36,
-      "insights": false,
-      "experiences": 0,
-      "insights_error": "structured extraction failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m34ktp7dehwajs9h9xxjwwy8` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198484, Requested 6189. Please try again in 33m38.736s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      "insights": true,
+      "experiences": 1
     },
     "2026/PhonePe_2026/PhonePe_SDE_HarshPandey.pdf": {
       "sha256": "87d4cea17c75f95f2d9e28ed2258d89643250a990be70f297ff09448ae07afde",
@@ -1502,13 +1498,12 @@
       "pages": 6,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793703108.4983168,
+      "processed_at": 1793706115.2999432,
       "text_sha256": "dffed61d2dd2083b38ed57126f93ebe7b758ca3ac57fec44cbff99265631f3e4",
       "status": "indexed",
       "chunks": 23,
-      "insights": false,
-      "experiences": 0,
-      "insights_error": "structured extraction failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m34ktp7dehwajs9h9xxjwwy8` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198039, Requested 4810. Please try again in 20m30.768s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      "insights": true,
+      "experiences": 1
     },
     "2026/PhonePe_2026/PhonePe_SDE_SwaroopVaze.pdf": {
       "sha256": "3e0cf0c0ed0c9d84f4534c915d894023bf8d6f445c7b836b0568e38520526739",
@@ -1519,12 +1514,12 @@
       "pages": 5,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793394356.4715014,
+      "processed_at": 1793706122.339356,
       "text_sha256": "ddadd0daadb8d56827448c01db263c6008e7934da7eb8b4530e45640923152a2",
       "status": "indexed",
       "chunks": 13,
-      "insights": false,
-      "experiences": 0
+      "insights": true,
+      "experiences": 1
     },
     "2026/PhonePe_2026/PhonePe_SDE_TabishShaikh.pdf": {
       "sha256": "36dae98c996e82534fed621e9ecee184b99d1dfcf7c2ac720da9dce04fd36c58",
@@ -1535,12 +1530,12 @@
       "pages": 6,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793394357.8370314,
+      "processed_at": 1793706127.5742266,
       "text_sha256": "79d9187b27d09c63e38318599a2516360d865e85e196e20da85cd5ff5e43ab29",
       "status": "indexed",
       "chunks": 23,
-      "insights": false,
-      "experiences": 0
+      "insights": true,
+      "experiences": 1
     },
     "2026/PhonePe_2026/PhonePe_SDE_TalhaNaik.pdf": {
       "sha256": "c9048b5759476b45693ab72eacbd60f9adcfbd7aa230b1622cb1e0fb79e07148",
@@ -1551,12 +1546,12 @@
       "pages": 5,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793394360.4861975,
+      "processed_at": 1793706134.263173,
       "text_sha256": "059edccc7c96fa378c9170d81e3161387d14debeae996208fd4f30b3932c706d",
       "status": "indexed",
       "chunks": 14,
-      "insights": false,
-      "experiences": 0
+      "insights": true,
+      "experiences": 1
     },
     "2026/PhonePe_2026/PhonePe_SDE_VedantShah.pdf": {
       "sha256": "f8310620d9ccd2a2393d0587b30ecd495df99a4d4b225e429333dcf153442b45",
@@ -1567,12 +1562,12 @@
       "pages": 4,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793394364.12165,
+      "processed_at": 1793706138.8271575,
       "text_sha256": "de99df90032ac1905f1cdace701b20be7d7f27e811a6d6476d1f050c5825a959",
       "status": "indexed",
       "chunks": 19,
-      "insights": false,
-      "experiences": 0
+      "insights": true,
+      "experiences": 1
     },
     "2026/PhonePe_2026/PhonePe_SDE_VenishaKalola.pdf": {
       "sha256": "2f10b18ad92900ed25055d4b0abd51b760a924579833146373244df1e520c7bb",
@@ -1583,12 +1578,12 @@
       "pages": 6,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793394367.2917194,
+      "processed_at": 1793706145.8263092,
       "text_sha256": "d7417fe774137e1885f78e44f2e2871539d7b42c52c63a1b8dca73aade8b3cb2",
       "status": "indexed",
       "chunks": 21,
-      "insights": false,
-      "experiences": 0
+      "insights": true,
+      "experiences": 1
     },
     "2026/Quantiphi_2026/Quantiphi_BA_Hardik Aneja (3).pdf": {
       "sha256": "49143c1557ba47894a424c68675a45359993278a11a66b1cf73421366d062982",
@@ -1599,12 +1594,12 @@
       "pages": 2,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793394371.8299894,
+      "processed_at": 1793706151.0180392,
       "text_sha256": "fa932043bdd44fcc28540d129e7d96f7132af8014cfb3f69159218fa706a2bc5",
       "status": "indexed",
       "chunks": 9,
-      "insights": false,
-      "experiences": 0
+      "insights": true,
+      "experiences": 1
     },
     "2026/Quantiphi_2026/Quantiphi_FE_DeepakKumarYadav.pdf": {
       "sha256": "5d52c433439d6c9819d578f52246fdadf8ead6751fe6db439d90637cf5280e3a",
@@ -1615,12 +1610,12 @@
       "pages": 5,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793394374.3749337,
+      "processed_at": 1793706155.5349822,
       "text_sha256": "18f0ca3d1dbb95f0a5a1d2b1f52c7115bc03ffb05637f2f1ef14a5460b18f003",
       "status": "indexed",
       "chunks": 15,
-      "insights": false,
-      "experiences": 0
+      "insights": true,
+      "experiences": 1
     },
     "2026/Quantiphi_2026/Quantiphi_FE_RonakWalinjkar.pdf": {
       "sha256": "2e84422744fe0ef95729ec7a34da4cc62d1d60dedbed16cf8408eaf9b70d15a5",
@@ -1631,12 +1626,12 @@
       "pages": 5,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793394377.3211496,
+      "processed_at": 1793706161.2502563,
       "text_sha256": "2015591533aae66dcb4959981eb58197cec8aa70c633846055c0369b933e690a",
       "status": "indexed",
       "chunks": 11,
-      "insights": false,
-      "experiences": 0
+      "insights": true,
+      "experiences": 1
     },
     "2026/Quantiphi_2026/Quantiphi_MLE_HarshDugar.pdf": {
       "sha256": "c2ff54d6e5af95118493a03e3efd0264583e94c3d7ec65b26e2862c863013328",
@@ -1647,12 +1642,12 @@
       "pages": 5,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793394380.6226225,
+      "processed_at": 1793706167.6179485,
       "text_sha256": "bc1ea38e2181120ab15a2eaed4253e02eaf3ce1b8865b82ea41536c693c846a1",
       "status": "indexed",
       "chunks": 18,
-      "insights": false,
-      "experiences": 0
+      "insights": true,
+      "experiences": 1
     },
     "2026/Russell_2026/Russell_ApplicationDeveloper_SanjeevRatnani.pdf": {
       "sha256": "73a97b6aee00d370b69a5931fc974c927c88c8883f5aa6a5f0aed3088ec5b47b",
@@ -1663,12 +1658,12 @@
       "pages": 12,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793394384.4731941,
+      "processed_at": 1793706174.038802,
       "text_sha256": "864aee9d867b7bbfee7a7cebeffdd11bdcb1f130c09b54cfdd56eee86b1499a3",
       "status": "indexed",
       "chunks": 30,
-      "insights": false,
-      "experiences": 0
+      "insights": true,
+      "experiences": 1
     },
     "2026/Russell_2026/Russell_ApplicationDeveloperIntern_AditiRao.pdf": {
       "sha256": "156db98c655f9cb2d2bcb6d23e7890c006684ef7166885e2703c16d9ee627ccf",
@@ -1679,12 +1674,12 @@
       "pages": 7,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793394387.883676,
+      "processed_at": 1793706179.4879236,
       "text_sha256": "3b7cbb39cc4ee5e066e2c4858f6c8aec7b59d931a7b964b0320b8255fbec5b24",
       "status": "indexed",
       "chunks": 20,
-      "insights": false,
-      "experiences": 0
+      "insights": true,
+      "experiences": 1
     },
     "2026/Russell_2026/Russell_DataAutomationIntern_AtharvaTamhankar.pdf": {
       "sha256": "ab37f4fbb0548932a6ea716702e35b0d267375b19c004dfb54c8c0895f650f1c",
@@ -1695,12 +1690,12 @@
       "pages": 3,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793394391.914897,
+      "processed_at": 1793706185.1041121,
       "text_sha256": "3d2f82efad6e7963e4a6a54ccf46f5ac5f007ee677e91c669412af93a2912b49",
       "status": "indexed",
       "chunks": 11,
-      "insights": false,
-      "experiences": 0
+      "insights": true,
+      "experiences": 1
     },
     "2026/Smowcode/Smowcode_BDE_Vivek_Interview_experience.pdf": {
       "sha256": "c71f55715a469a12270362c864e5d6c622e2fc05b0b1b49f244f6438654e468a",
@@ -1711,12 +1706,12 @@
       "pages": 4,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793394394.8969896,
+      "processed_at": 1793706195.3629975,
       "text_sha256": "219ac0a5b1007a257528e66c1c5b730704ca6791078851a40c0115e8d8d8e456",
       "status": "indexed",
       "chunks": 8,
-      "insights": false,
-      "experiences": 0
+      "insights": true,
+      "experiences": 1
     },
     "2026/TransBnk_2026/TransBnk_SDE_Mohit_Jangale.pdf": {
       "sha256": "0d4438a8f0ff0b3c7994ea5b23dfd4ed37761d6428f1668c0a85f0473999608c",
@@ -1727,12 +1722,12 @@
       "pages": 3,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793394396.863669,
+      "processed_at": 1793706230.2451692,
       "text_sha256": "56e29534e6ba25d7436497b4272846479f588031b0a869ba1a5b7f920f71ced9",
       "status": "indexed",
       "chunks": 12,
-      "insights": false,
-      "experiences": 0
+      "insights": true,
+      "experiences": 1
     },
     "2026/TransBnk_2026/TransBnk_SDE_Sheeba_Shaikh.pdf": {
       "sha256": "df825c2e2939eff247c1047c62567bca8a119552f8190151e5ee37fb22ced4bd",
@@ -1743,12 +1738,12 @@
       "pages": 4,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793394399.5109339,
+      "processed_at": 1793706234.780027,
       "text_sha256": "3bb2508b3e33a5fa76133c8b11f3f333ecfd856aafdd077f28d1e081861d4482",
       "status": "indexed",
       "chunks": 11,
-      "insights": false,
-      "experiences": 0
+      "insights": true,
+      "experiences": 1
     },
     "2026/TransUnion_2026/TransUnion_Aarya_Deshmukh.pdf": {
       "sha256": "1cc65d443186dd9ee1a3b0fa6bcdc40ef4575465e3ee47240b99cbda14567bb3",
@@ -1759,12 +1754,12 @@
       "pages": 4,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793394401.7948046,
+      "processed_at": 1793706239.5275855,
       "text_sha256": "e0d9eefff1057a00811dadcc46e1a3083376aac93c2012f5723a359bb3acb8c9",
       "status": "indexed",
       "chunks": 11,
-      "insights": false,
-      "experiences": 0
+      "insights": true,
+      "experiences": 1
     },
     "2026/TransUnion_2026/TransUnion_Dev-QE_PraveenVishwakarma.pdf": {
       "sha256": "7608d466409a76b6909dcbbe414fc9d34407e2c76da486f8db00febf6ca53c71",
@@ -1775,12 +1770,12 @@
       "pages": 2,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793394404.228861,
+      "processed_at": 1793706245.3549201,
       "text_sha256": "8c0c77ebc7f5da1735b18de05330f612afc523708a00b8efbe42db329969f979",
       "status": "indexed",
       "chunks": 8,
-      "insights": false,
-      "experiences": 0
+      "insights": true,
+      "experiences": 1
     },
     "2026/TransUnion_2026/TransUnion_ITD-QE_DhruvBaljekar.pdf": {
       "sha256": "4d6367d4d50c64083071bc87e6a78b153cdf070b9bc262ee56fb20e3b22cfe2a",
@@ -1791,12 +1786,12 @@
       "pages": 5,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793394406.7934208,
+      "processed_at": 1793706273.9242775,
       "text_sha256": "caaba49e482365abf898d3e20bc0fa27c7a3be48a536fd0ad17e5456ed624834",
       "status": "indexed",
       "chunks": 17,
-      "insights": false,
-      "experiences": 0
+      "insights": true,
+      "experiences": 1
     },
     "2026/TransUnion_2026/TransUnion_softwareEngineer_Jagdish_Aade.pdf": {
       "sha256": "34b14e32ab573f391e5afbb81767e0a2a4511aaa8cba4d81c20b43a18b7dbc70",
@@ -1807,12 +1802,12 @@
       "pages": 5,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793394410.1233087,
+      "processed_at": 1793706281.378853,
       "text_sha256": "9b5a526d7f59a5006dd0da3f15381ae0ad69d5825ddd522a97fcc5860d9690d3",
       "status": "indexed",
       "chunks": 17,
-      "insights": false,
-      "experiences": 0
+      "insights": true,
+      "experiences": 1
     },
     "2026/TransUnion_2026/TransUnion_Soham_Vichare_InterviewExp.pdf": {
       "sha256": "1158f6cbc32dd83fe8a34a636c784830cfbfe446d1bbc6a5e85fe6b19dacaf37",
@@ -1823,12 +1818,12 @@
       "pages": 2,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793394413.5782743,
+      "processed_at": 1793706289.3109543,
       "text_sha256": "9017b6c992ed1b5cd15b9f9490be0ebe08a4ca7369de7cad7b84698f920e4b69",
       "status": "indexed",
       "chunks": 7,
-      "insights": false,
-      "experiences": 0
+      "insights": true,
+      "experiences": 1
     },
     "2026/TransUnion_2026/TransUnion_Varsha_Bojja.pdf": {
       "sha256": "c5353acfa0d42aba272eae2f882d640f63e746b268a1d6147b07387f597035f5",
@@ -1839,12 +1834,12 @@
       "pages": 3,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793394416.3376112,
+      "processed_at": 1793706293.6957574,
       "text_sha256": "f52d180c40bd24520cfaa1e26160cc0e47419b0e3e08535c09dac452e2a07125",
       "status": "indexed",
       "chunks": 6,
-      "insights": false,
-      "experiences": 0
+      "insights": true,
+      "experiences": 1
     },
     "2026/UBS_2026/UBS_GOTOIntern_ApurvaKhangal.pdf": {
       "sha256": "80764f17f73c0e34686ea5593b61480382c7bdfa61aa7765a7cd98a1182cb511",
@@ -1855,12 +1850,12 @@
       "pages": 3,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793394418.2517464,
+      "processed_at": 1793706297.8603814,
       "text_sha256": "3d5c1d769273c56da54053ec9fcfb3c1dc2c26534b7bf1ae0f358b1f02e0295f",
       "status": "indexed",
       "chunks": 10,
-      "insights": false,
-      "experiences": 0
+      "insights": true,
+      "experiences": 1
     },
     "2026/UBS_2026/UBS_GOTOIntern_HeetShah.pdf": {
       "sha256": "378a6cc8538fde4e60075a464cc9a49ba56e436434c9b22e24b4c643c85d6f3a",
@@ -1871,12 +1866,12 @@
       "pages": 3,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793394420.69597,
+      "processed_at": 1793706303.1218252,
       "text_sha256": "6331ddb593f32ffdb986c4f99df5b73c06789bbdffc45bb381e39eb203be4ce3",
       "status": "indexed",
       "chunks": 8,
-      "insights": false,
-      "experiences": 0
+      "insights": true,
+      "experiences": 1
     },
     "2026/UBS_2026/UBS_Graduate_Trainee_Khushi_Parekh.pdf": {
       "sha256": "b54f40fa6ab5b1c300f822b4894e8fd8dd248f55cfe686767e0e1ba290fdc88b",
@@ -1887,12 +1882,12 @@
       "pages": 5,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793394423.7428465,
+      "processed_at": 1793706307.3047545,
       "text_sha256": "53e8ff8c3e101328e074e9b00c24a3c0ba691eb6aae7bcd13876d430bb888043",
       "status": "indexed",
       "chunks": 14,
-      "insights": false,
-      "experiences": 0
+      "insights": true,
+      "experiences": 1
     },
     "2026/UBS_2026/UBS_Graduate_Trainee_Riva_Rodrigues.pdf": {
       "sha256": "11a4058018e40cfecab1f3e296777fb016711eab0fb1bc0cd350fc0603d809ee",
@@ -1903,12 +1898,12 @@
       "pages": 4,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793394427.247878,
+      "processed_at": 1793706318.6378107,
       "text_sha256": "b56102f67a3ac960f4d5452ca39a5f98423ae660830a7f2d40fd74ae24fc7c9b",
       "status": "indexed",
       "chunks": 14,
-      "insights": false,
-      "experiences": 0
+      "insights": true,
+      "experiences": 1
     },
     "2026/UBS_2026/UBS_Graduate_Trainee_Sahil_Patil.pdf": {
       "sha256": "68a4fd91272735cdbdad68a05d965193aa818dda92e14d55bca503e02c2fb104",
@@ -1919,12 +1914,12 @@
       "pages": 4,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793394430.422293,
+      "processed_at": 1793706323.5986185,
       "text_sha256": "e629d86e7b6efee23077783ad1349881413dea28e0eab17c88d6b78a0d588c31",
       "status": "indexed",
       "chunks": 12,
-      "insights": false,
-      "experiences": 0
+      "insights": true,
+      "experiences": 1
     },
     "2026/UBS_2026/UBS_Graduate_Trainee_Zaid.pdf": {
       "sha256": "754ac4f1ee37b722b6dfa88a8f4a811469abfa099393284e839809432b1ed3e1",
@@ -1935,12 +1930,12 @@
       "pages": 3,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793394433.6153138,
+      "processed_at": 1793706333.6944344,
       "text_sha256": "d50d9c9bb03d691c9ced7ff8682ac0efbd4911f162fe7e0d9b74406a1c0df2cd",
       "status": "indexed",
       "chunks": 7,
-      "insights": false,
-      "experiences": 0
+      "insights": true,
+      "experiences": 1
     },
     "2026/UBS_2026/UBS_GraduateTrainee_AditiPillai.pdf": {
       "sha256": "77649f6c4fa1f508041f72c9e7e0af162909910346934a14171cd42869e95406",
@@ -1951,12 +1946,12 @@
       "pages": 3,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793394436.4970202,
+      "processed_at": 1793706341.4496,
       "text_sha256": "2cee893f4ab845cd1c2154dfb76d70b5afa8dcd8ee71d05d982b8b7c0052e30c",
       "status": "indexed",
       "chunks": 9,
-      "insights": false,
-      "experiences": 0
+      "insights": true,
+      "experiences": 1
     },
     "2026/UBS_2026/UBS_GraduateTrainee_PiyanshuGehani.pdf": {
       "sha256": "094f60d9a03015c79e796ec272433d2e24ff2d1fb5d5f7892dff63d8c569a407",
@@ -1967,12 +1962,12 @@
       "pages": 3,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793394439.2719877,
+      "processed_at": 1793706346.5735343,
       "text_sha256": "83f36dfedfa84532a91a53cc8f05c2bfd4c491bba92b3b96cd5ebfd194ed0d32",
       "status": "indexed",
       "chunks": 10,
-      "insights": false,
-      "experiences": 0
+      "insights": true,
+      "experiences": 1
     },
     "2026/WorkIndia_2026/WorkIndia_SDE_MananKher.pdf": {
       "sha256": "7afe6b4b0c4b7655f1345dcce2082338ff6fdb73f22d5a3e21ea73ac4f652e96",
@@ -1983,12 +1978,12 @@
       "pages": 6,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793394442.3228939,
+      "processed_at": 1793706352.1683352,
       "text_sha256": "3c26525135940947a2642655712d9930513ce7c30333c469cff2a2f29e1d3544",
       "status": "indexed",
       "chunks": 25,
-      "insights": false,
-      "experiences": 0
+      "insights": true,
+      "experiences": 1
     },
     "2026/WorkIndia_2026/WorkIndia_SDE_NinadMaadhavi.pdf": {
       "sha256": "fbbe89bc63b2db0a5af47a5d85b2e873c788523630f2a6ecd47c84ae230479ce",
@@ -1999,12 +1994,12 @@
       "pages": 5,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793394446.0286152,
+      "processed_at": 1793706358.885909,
       "text_sha256": "a84955f30a4568711585ffb3bec1d71e30e21d387bc20061a087991af3dcab6c",
       "status": "indexed",
       "chunks": 15,
-      "insights": false,
-      "experiences": 0
+      "insights": true,
+      "experiences": 1
     },
     "2027/Interview_Experience_2027/AspectRatio_2027/AspectRatio_Analyst_Anirudh.pdf": {
       "sha256": "a5ee80f69040be2075c4ce41f5b06bd1070e718574ecdf0740ffd39ce02c30f4",
@@ -2015,12 +2010,12 @@
       "pages": 3,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793394449.2475786,
+      "processed_at": 1793706366.01608,
       "text_sha256": "aa3790b0b222c38ddbe066df1d8b6be2e3840c0ece8cf87a51909bcdf8e7d1d5",
       "status": "indexed",
       "chunks": 13,
-      "insights": false,
-      "experiences": 0
+      "insights": true,
+      "experiences": 1
     },
     "2027/Interview_Experience_2027/Auxo_2027/AUXO_AI_DEV_RAI.pdf": {
       "sha256": "cc551b245a0ef09d9994c2b655977c09bac2a5496df90f5849a348090db7657b",
@@ -2031,12 +2026,12 @@
       "pages": 16,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793394452.4228048,
+      "processed_at": 1793706372.95206,
       "text_sha256": "3676acf6d347819d2ad3d9f825cab7edd1730e6810865d3231fd8b39cb9f3296",
       "status": "indexed",
       "chunks": 52,
-      "insights": false,
-      "experiences": 0
+      "insights": true,
+      "experiences": 1
     },
     "2027/Interview_Experience_2027/Auxo_2027/AUXO_AI_Harsh_Zaveri.pdf": {
       "sha256": "73468d6bfb32a2fbb09c22dd2c43004ffe83e7a32b1baf404afc8b183940200a",
@@ -2047,12 +2042,12 @@
       "pages": 5,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793394458.2802436,
+      "processed_at": 1793706381.3440971,
       "text_sha256": "3647a498ee35b7b545cc40e3e3d79e1578f9ba5a68e5b922885aafc50ab9e470",
       "status": "indexed",
       "chunks": 18,
-      "insights": false,
-      "experiences": 0
+      "insights": true,
+      "experiences": 1
     },
     "2027/Interview_Experience_2027/Auxo_2027/AUXO_AI_Namrata_Dalvi.pdf": {
       "sha256": "254215f362a9818e26d9132129bac6137d088805df3da64980c21cc1e4ba9c7d",
@@ -2063,12 +2058,12 @@
       "pages": 8,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793394460.9453871,
+      "processed_at": 1793706387.4261785,
       "text_sha256": "f9a21fbd7552a90ccff96d302553c6c978e4dc213e017f5536aa79116b29f2e2",
       "status": "indexed",
       "chunks": 21,
-      "insights": false,
-      "experiences": 0
+      "insights": true,
+      "experiences": 1
     },
     "2027/Interview_Experience_2027/Auxo_2027/AUXO_AI_Viraj_Salunke.pdf": {
       "sha256": "9b4a175db91c33a6e8f7e1fb6d53802c9530134573caf4f81da83f11a9656054",
@@ -2079,12 +2074,12 @@
       "pages": 5,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793394465.666715,
+      "processed_at": 1793706398.8583286,
       "text_sha256": "70ab6e60b2831596d4c2aebe7ce14598af3a3a3a75e0e3bd0a064eed62698cf4",
       "status": "indexed",
       "chunks": 15,
-      "insights": false,
-      "experiences": 0
+      "insights": true,
+      "experiences": 1
     },
     "2027/Interview_Experience_2027/Auxo_2027/AuxoAI_Nitin_Gawde.pdf": {
       "sha256": "a632319af22be1fd4a9fecbad616dcc0fd1c31367070618faa9d82b26914fc25",
@@ -2095,12 +2090,12 @@
       "pages": 4,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793394468.7437694,
+      "processed_at": 1793706404.5136302,
       "text_sha256": "0dd0f714b8336cdc62f99922dae70ca99d862ad3fdb44218a1f9644c6a7c0b0e",
       "status": "indexed",
       "chunks": 16,
-      "insights": false,
-      "experiences": 0
+      "insights": true,
+      "experiences": 1
     },
     "2027/Interview_Experience_2027/AxisMutualFunds_2027/Axis Mutual Fund_Managment Trainee Digital Technology_Soham Kher.pdf": {
       "sha256": "0c09f86bcd586a42b3cfded8b003d90c4f0551a5e8a59380cbcaf5a96f542bc1",

@@ -1,0 +1,2203 @@
+{
+  "company_id": "phonepe_2026",
+  "year": "2026",
+  "experiences": [
+    {
+      "experience_id": "phonepe_2026-2026-3184fb38-1",
+      "company": "PhonePe_2026",
+      "company_id": "phonepe_2026",
+      "year": "2026",
+      "role": "Software Development Engineer (SDE) Intern+FTE",
+      "rounds": [
+        {
+          "name": "Online Assessment",
+          "category": "Online Assessment",
+          "description": "90-minute test conducted on DOSelect platform with 4 problems.",
+          "topics": [
+            {
+              "original": "graphs",
+              "canonical": "Graphs",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "DFS",
+              "canonical": "Graphs",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "recursive backtracking",
+              "canonical": "Recursion and Backtracking",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "memoization",
+              "canonical": "Memoization",
+              "category": "Other"
+            },
+            {
+              "original": "bit manipulation",
+              "canonical": "Bit Manipulation",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Given a list of integer pairs representing friendships, determine the minimum number of additional friendships required to make all people directly or indirectly friends with each other.",
+              "kind": "coding",
+              "page": 1
+            },
+            {
+              "text": "Given an array with some pre-assigned elements and a constraint k, find the number of valid ways to assign the remaining elements such that the difference between adjacent elements is at most k.",
+              "kind": "coding",
+              "page": 2
+            },
+            {
+              "text": "From an array, pick two numbers whose sum is exactly s such that the total of positions of set bits in both numbers is less than or equal to k. Count the number of such pairs.",
+              "kind": "coding",
+              "page": 2
+            },
+            {
+              "text": "Given friend pairs and their house preferences with limits, assign each student a house such that friends don't get the same house and house limits are respected.",
+              "kind": "coding",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            1,
+            2
+          ]
+        },
+        {
+          "name": "Round 2 – Technical Interview (First Tech Round)",
+          "category": "Technical Interview",
+          "description": null,
+          "topics": [
+            {
+              "original": "trees",
+              "canonical": "Trees",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "BFS",
+              "canonical": "Graphs",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "arrays",
+              "canonical": "Arrays",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "max-heap",
+              "canonical": "Heaps",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "min-heap",
+              "canonical": "Heaps",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "HashSet",
+              "canonical": "HashSet",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Find Minimum Number of Operations to Sort a Binary Tree by Level",
+              "kind": "coding",
+              "page": 3
+            },
+            {
+              "text": "Find the K-th Smallest Sum of a Matrix With Sorted Rows",
+              "kind": "coding",
+              "page": 3
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            3
+          ]
+        },
+        {
+          "name": "Round 3 – Technical Interview (Final Tech Round)",
+          "category": "Technical Interview",
+          "description": null,
+          "topics": [
+            {
+              "original": "matrices",
+              "canonical": "Matrices",
+              "category": "Other"
+            },
+            {
+              "original": "graphs",
+              "canonical": "Graphs",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "Dijkstra's Algorithm",
+              "canonical": "Dijkstra's Algorithm",
+              "category": "Other"
+            },
+            {
+              "original": "dynamic programming",
+              "canonical": "Dynamic Programming",
+              "category": "DSA and coding"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Given a matrix where each element represents heat removed from a lava brick, reach (n-1, m-1) from (0, 0) with minimum total heat loss moving exactly 3 steps in one direction before changing direction without reversing.",
+              "kind": "coding",
+              "page": 5
+            },
+            {
+              "text": "Painting the Walls",
+              "kind": "coding",
+              "page": 5
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            5
+          ]
+        },
+        {
+          "name": "Round 4 – Hiring Manager Interview",
+          "category": "Managerial Interview",
+          "description": null,
+          "topics": [
+            {
+              "original": "project schemas",
+              "canonical": "Projects",
+              "category": "Projects"
+            },
+            {
+              "original": "GenAI",
+              "canonical": "Generative AI",
+              "category": "Other"
+            },
+            {
+              "original": "RAG architecture",
+              "canonical": "RAG architecture",
+              "category": "Other"
+            },
+            {
+              "original": "prompt tuning",
+              "canonical": "Prompt Tuning",
+              "category": "Other"
+            },
+            {
+              "original": "API design",
+              "canonical": "System Design",
+              "category": "System design"
+            },
+            {
+              "original": "authentication",
+              "canonical": "Authentication",
+              "category": "Other"
+            },
+            {
+              "original": "JWT tokens",
+              "canonical": "JWT Authentication",
+              "category": "Other"
+            },
+            {
+              "original": "hash functions",
+              "canonical": "Hashing",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "System Design",
+              "canonical": "System Design",
+              "category": "System design"
+            },
+            {
+              "original": "load balancing",
+              "canonical": "Load Balancing",
+              "category": "Other"
+            },
+            {
+              "original": "horizontal scaling",
+              "canonical": "Horizontal Scaling",
+              "category": "Other"
+            },
+            {
+              "original": "recommendation system",
+              "canonical": "Recommendation System",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Walk through your most exciting and challenging project.",
+              "kind": "project",
+              "page": 7
+            },
+            {
+              "text": "List down the tables and their schemas for the project.",
+              "kind": "technical",
+              "page": 7
+            },
+            {
+              "text": "Explain how you integrated GenAI and RAG architecture.",
+              "kind": "technical",
+              "page": 7
+            },
+            {
+              "text": "What do hallucinations in GenAI mean?",
+              "kind": "technical",
+              "page": 7
+            },
+            {
+              "text": "Where is the hash code stored?",
+              "kind": "technical",
+              "page": 7
+            },
+            {
+              "text": "Explain how YouTube APIs and system design work.",
+              "kind": "technical",
+              "page": 8
+            },
+            {
+              "text": "How would you handle video feeds and decide which videos to send in a newly launched YouTube without ML?",
+              "kind": "technical",
+              "page": 8
+            },
+            {
+              "text": "How has choosing CSE in SPIT changed your personality?",
+              "kind": "hr",
+              "page": 8
+            },
+            {
+              "text": "What would you do in case of a conflict with a manager or teammate?",
+              "kind": "hr",
+              "page": 9
+            },
+            {
+              "text": "How have the past 6 months been for you?",
+              "kind": "hr",
+              "page": 9
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            7,
+            8,
+            9
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "THINK OUT LOUD during the interview.",
+          "category": "Interview strategy",
+          "page": 10
+        },
+        {
+          "text": "Solve a lot of DSA. Start with neetcode.io, then move on to Striver’s A2Z sheet.",
+          "category": "Coding preparation",
+          "page": 10
+        },
+        {
+          "text": "Don’t just run behind getting the correct solution—explore the wrong solutions also.",
+          "category": "Coding preparation",
+          "page": 10
+        },
+        {
+          "text": "A correct code/approach in the interview does not guarantee your selection, nor does a wrong one deny you. It's all about how well you are able to explain and articulate your thoughts.",
+          "category": "Interview strategy",
+          "page": 10
+        },
+        {
+          "text": "Revise your resume and projects thoroughly: Be ready to discuss your contributions, system design choices, and technical decisions.",
+          "category": "Project preparation",
+          "page": 11
+        },
+        {
+          "text": "Stay calm and composed during interviews: Your attitude matters as much as your answers.",
+          "category": "Interview strategy",
+          "page": 11
+        },
+        {
+          "text": "Avoid comparing yourself to others on the interview day.",
+          "category": "Interview strategy",
+          "page": 11
+        },
+        {
+          "text": "Be humble and helpful to everyone around you.",
+          "category": "Interview strategy",
+          "page": 11
+        },
+        {
+          "text": "Take notes during the Pre-Placement Talk.",
+          "category": "Interview strategy",
+          "page": 11
+        },
+        {
+          "text": "Be mindful of your grooming and energy: Wear formals, get a good haircut, get enough sleep, and arrive on time.",
+          "category": "HR preparation",
+          "page": 11
+        },
+        {
+          "text": "Don't take failure personally.",
+          "category": "Interview strategy",
+          "page": 11
+        },
+        {
+          "text": "Believe. Trust that everything happens in its own time.",
+          "category": "Interview strategy",
+          "page": 11
+        }
+      ],
+      "resources": [
+        {
+          "title": "CSES Problem Set",
+          "url": null,
+          "description": "Used for solving the graph section.",
+          "topic": "graphs",
+          "page": 10
+        },
+        {
+          "title": "neetcode.io",
+          "url": null,
+          "description": "Used for starting DSA preparation.",
+          "topic": "DSA",
+          "page": 10
+        },
+        {
+          "title": "Striver’s A2Z sheet",
+          "url": null,
+          "description": "Used for DP, Arrays, and Binary Search preparation.",
+          "topic": "DSA",
+          "page": 10
+        },
+        {
+          "title": null,
+          "url": "https://www.youtube.com/@codestorywithMIK",
+          "description": "Followed for graph problems.",
+          "topic": "graphs",
+          "page": 10
+        }
+      ],
+      "filename": "PhonePe_SDE_Aditya_Tiwari.pdf",
+      "source_path": "2026/PhonePe_2026/PhonePe_SDE_Aditya_Tiwari.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "content_sha256": "3184fb3893c84c2fbe4456c4ac05e3f0c54f772bc66b997a384aa0140c951ea5"
+    },
+    {
+      "experience_id": "phonepe_2026-2026-87d4cea1-1",
+      "company": "PhonePe_2026",
+      "company_id": "phonepe_2026",
+      "year": "2026",
+      "role": "SDE",
+      "rounds": [
+        {
+          "name": "Online Assessment",
+          "category": "Online Assessment",
+          "description": "Total 4 Questions were there in this Round and duration was 90 Minutes (1 and Half Hour)",
+          "topics": [
+            {
+              "original": "Connected Components in an Undirected Graph",
+              "canonical": "Graphs",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "Array Description",
+              "canonical": "Arrays",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "Bit positions",
+              "canonical": "Bit positions",
+              "category": "Other"
+            },
+            {
+              "original": "M-Coloring Problem",
+              "canonical": "M-Coloring Problem",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Figure out the Number of Connected Components and print the final cost where cost was 1 for connecting 2 different components.",
+              "kind": "coding",
+              "page": 1
+            },
+            {
+              "text": "Array Description similar to CSES with at max difference till k instead of 1.",
+              "kind": "coding",
+              "page": 1
+            },
+            {
+              "text": "Print the number of pairs where sum of two elements was equal to s and sum of bit positions of 1 of those numbers should be less than or equal to k.",
+              "kind": "coding",
+              "page": 2
+            },
+            {
+              "text": "M-Coloring Problem with proper story plot.",
+              "kind": "coding",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            1,
+            2
+          ]
+        },
+        {
+          "name": "Technical Round 1",
+          "category": "Technical Interview",
+          "description": "Interviewer did not look at resume and directly started with the problem.",
+          "topics": [
+            {
+              "original": "Binary Tree",
+              "canonical": "Trees",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "Minimum number of swaps",
+              "canonical": "Minimum number of swaps",
+              "category": "Other"
+            },
+            {
+              "original": "Merge Sort",
+              "canonical": "Merge Sort",
+              "category": "Other"
+            },
+            {
+              "original": "DSU",
+              "canonical": "DSU",
+              "category": "Other"
+            },
+            {
+              "original": "Coordinate Compression",
+              "canonical": "Coordinate Compression",
+              "category": "Other"
+            },
+            {
+              "original": "Maximum Sum Combination",
+              "canonical": "Maximum Sum Combination",
+              "category": "Other"
+            },
+            {
+              "original": "Priority Queue",
+              "canonical": "Heaps",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "n arrays",
+              "canonical": "Arrays",
+              "category": "DSA and coding"
+            }
+          ],
+          "questions": [
+            {
+              "text": "You are given a Binary Tree and for each level you have to find minimum number of swaps to sort nodes of that particular level and at the end you have to return the total number of swaps required for all the levels of tree.",
+              "kind": "coding",
+              "page": 3
+            },
+            {
+              "text": "Maximum Sum Combination where there can be n arrays not necessarily 2 arrays.",
+              "kind": "coding",
+              "page": 3
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            3
+          ]
+        },
+        {
+          "name": "Hiring Manager Round",
+          "category": "Managerial Interview",
+          "description": "Highly focused on resume, projects, leadership qualities, system design, and behavioral questions.",
+          "topics": [
+            {
+              "original": "Projects",
+              "canonical": "Projects",
+              "category": "Projects"
+            },
+            {
+              "original": "Leadership qualities",
+              "canonical": "Leadership qualities",
+              "category": "Other"
+            },
+            {
+              "original": "System Design",
+              "canonical": "System Design",
+              "category": "System design"
+            },
+            {
+              "original": "Architecture",
+              "canonical": "Architecture",
+              "category": "Other"
+            },
+            {
+              "original": "Youtube Recommendation system",
+              "canonical": "Youtube Recommendation system",
+              "category": "Other"
+            },
+            {
+              "original": "Behavioral questions",
+              "canonical": "HR and Behavioral Questions",
+              "category": "HR and behavioral"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Explain your One project on which you were confident enough (Test My Case Project - Chrome Extension for Codeforces).",
+              "kind": "project",
+              "page": 3
+            },
+            {
+              "text": "Why did you make this project?",
+              "kind": "project",
+              "page": 3
+            },
+            {
+              "text": "Questions on leadership qualities, role as Executive in IETE.",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "What is your most frequent used App?",
+              "kind": "technical",
+              "page": 4
+            },
+            {
+              "text": "How does Youtube Recommendation system work?",
+              "kind": "technical",
+              "page": 4
+            },
+            {
+              "text": "What is your weakness?",
+              "kind": "hr",
+              "page": 4
+            },
+            {
+              "text": "Tell me a Reason why we should not hire you.",
+              "kind": "hr",
+              "page": 4
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            3,
+            4
+          ]
+        },
+        {
+          "name": "Technical Round 2",
+          "category": "Technical Interview",
+          "description": "Started with DSA questions including graph and DP problems.",
+          "topics": [
+            {
+              "original": "Drunken Maze",
+              "canonical": "Drunken Maze",
+              "category": "Other"
+            },
+            {
+              "original": "Graphs",
+              "canonical": "Graphs",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "Painting the Walls",
+              "canonical": "Painting the Walls",
+              "category": "Other"
+            },
+            {
+              "original": "DP",
+              "canonical": "Dynamic Programming",
+              "category": "DSA and coding"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Drunken Maze with direction condition.",
+              "kind": "coding",
+              "page": 4
+            },
+            {
+              "text": "Painting the Walls (Leetcode problem). Give different recursive functions and approach using specific DP states.",
+              "kind": "coding",
+              "page": 4
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            4
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "Stop using Templates at least one month before Placement.",
+          "category": "Coding preparation",
+          "page": 1
+        },
+        {
+          "text": "Learn DSU as it is favourite Topic of every PBC.",
+          "category": "Technical preparation",
+          "page": 1
+        },
+        {
+          "text": "Never sit Blank in Interview even if you know that your Approach is complete wrong.",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "Do CP as a lot of Codeforces and Algorithmic Questions were there. If you have not done CP, try to do CP 31 sheet from TLE Eliminators at least till 1500 Rating starting from 1100.",
+          "category": "Coding preparation",
+          "page": 5
+        },
+        {
+          "text": "Have Practice of explaining solutions that is more Important than actually Solving the Problem.",
+          "category": "Interview strategy",
+          "page": 5
+        },
+        {
+          "text": "Try to do time bound Practice for OA. You can try Virtual Contests on Codeforces and Leetcode.",
+          "category": "OA preparation",
+          "page": 5
+        },
+        {
+          "text": "Make sure to revise standard DSA questions (Striver's SDE sheet Highly Recommended). Star mark the ones which you felt a lot tougher and make notes.",
+          "category": "Technical preparation",
+          "page": 5
+        },
+        {
+          "text": "Try to learn some Advanced concept as well as Topics: Binary Lifting, Tries, DP (digit DP and DP with Bitmasking).",
+          "category": "Technical preparation",
+          "page": 5
+        },
+        {
+          "text": "Have some good projects on Resume on which you are strong enough to talk on even for hours. Try to solve some real world problem.",
+          "category": "Project preparation",
+          "page": 5
+        },
+        {
+          "text": "Specifically for PhonePe make sure to learn System Design of Any app as this is for sure guaranteed question in HR Round.",
+          "category": "HR preparation",
+          "page": 5
+        },
+        {
+          "text": "Just make sure to give your 100% Best so that you don't have Anything to Regret.",
+          "category": "Interview strategy",
+          "page": 5
+        }
+      ],
+      "resources": [
+        {
+          "title": "Codehelp DSA Playlist",
+          "url": null,
+          "description": "All the Topics Except for Graph, DP",
+          "topic": "DSA",
+          "page": 6
+        },
+        {
+          "title": "Striver For Graph and DP",
+          "url": null,
+          "description": null,
+          "topic": "DSA",
+          "page": 6
+        },
+        {
+          "title": "Priyansh Aggrawal Vivek Gupta DP playlists",
+          "url": null,
+          "description": null,
+          "topic": "DP",
+          "page": 6
+        },
+        {
+          "title": "Codeforces EDU Section",
+          "url": null,
+          "description": "Binary Search , Two Pointers and DSU",
+          "topic": "Binary Search, Two Pointers, DSU",
+          "page": 6
+        },
+        {
+          "title": "Apna College",
+          "url": null,
+          "description": "HTML CSS JavaScript",
+          "topic": "Web Development",
+          "page": 6
+        },
+        {
+          "title": "Traversy Media Codevolution",
+          "url": null,
+          "description": "React",
+          "topic": "Web Development",
+          "page": 6
+        },
+        {
+          "title": "JS mastery",
+          "url": null,
+          "description": "Projects",
+          "topic": "Web Development",
+          "page": 6
+        },
+        {
+          "title": "GFG top 100 Questions",
+          "url": null,
+          "description": "For Core CS subjects",
+          "topic": "Core CS",
+          "page": 6
+        },
+        {
+          "title": "Rohit Negi",
+          "url": null,
+          "description": "OOPS",
+          "topic": "OOPS",
+          "page": 6
+        },
+        {
+          "title": "Code Help",
+          "url": null,
+          "description": "DBMS",
+          "topic": "DBMS",
+          "page": 6
+        },
+        {
+          "title": "Gate Smashers",
+          "url": null,
+          "description": "Operating System",
+          "topic": "Operating System",
+          "page": 6
+        },
+        {
+          "title": "Gate Smashers",
+          "url": null,
+          "description": "Computer Networks",
+          "topic": "Computer Networks",
+          "page": 6
+        },
+        {
+          "title": "Concept and Coding",
+          "url": null,
+          "description": "High Level Design",
+          "topic": "System Design",
+          "page": 6
+        },
+        {
+          "title": "Coder Army",
+          "url": null,
+          "description": "Low Level Design",
+          "topic": "System Design",
+          "page": 6
+        }
+      ],
+      "filename": "PhonePe_SDE_HarshPandey.pdf",
+      "source_path": "2026/PhonePe_2026/PhonePe_SDE_HarshPandey.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "content_sha256": "87d4cea17c75f95f2d9e28ed2258d89643250a990be70f297ff09448ae07afde"
+    },
+    {
+      "experience_id": "phonepe_2026-2026-3e0cf0c0-1",
+      "company": "PhonePe_2026",
+      "company_id": "phonepe_2026",
+      "year": "2026",
+      "role": "SDE",
+      "rounds": [
+        {
+          "name": "Online Assessment",
+          "category": "Online Assessment",
+          "description": "The assessment was conducted around 1hr after the ppt presentation (~4.30pm - 5pm). It was conducted on the DoSelect platform. The test contained 4 questions to be solved in 1hr 30 mins.",
+          "topics": [
+            {
+              "original": "DSU",
+              "canonical": "DSU",
+              "category": "Other"
+            },
+            {
+              "original": "connected components",
+              "canonical": "Connected Components",
+              "category": "Other"
+            },
+            {
+              "original": "2D DP",
+              "canonical": "2D DP",
+              "category": "Other"
+            },
+            {
+              "original": "sorting",
+              "canonical": "Sorting and Searching",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "2 pointers",
+              "canonical": "2 Pointers",
+              "category": "Other"
+            },
+            {
+              "original": "brute force",
+              "canonical": "Brute Force",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Find the minimum number of friendships to be added such that every person belongs to the same friend group.",
+              "kind": "coding",
+              "page": 2
+            },
+            {
+              "text": "Find the number of valid ways to assign ladoos to the unassigned positions such that each unassigned position gets a ladoo between 1 to m and the absolute difference between adjacent employees is at most k.",
+              "kind": "coding",
+              "page": 2
+            },
+            {
+              "text": "Find number of pairs(i ,j) such that value(a[i]) + value(a[j]) <= k",
+              "kind": "coding",
+              "page": 3
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "name": "Technical Round 1",
+          "category": "Technical Interview",
+          "description": null,
+          "topics": [
+            {
+              "original": "arrays",
+              "canonical": "Arrays",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "binary trie",
+              "canonical": "Binary Trie",
+              "category": "Other"
+            },
+            {
+              "original": "dfs",
+              "canonical": "Graphs",
+              "category": "DSA and coding"
+            }
+          ],
+          "questions": [
+            {
+              "text": "given an array of n integers return the maximum subarray sum of a subarray where the first element and last element is the same.",
+              "kind": "coding",
+              "page": 4
+            },
+            {
+              "text": "given a tree with all unique elements and queries of the form [currnode, value], you are supposed to output the maximum of (value xor node) over all nodes from root to currnode.",
+              "kind": "coding",
+              "page": 4
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            4
+          ]
+        },
+        {
+          "name": "Hiring Manager Round",
+          "category": "Managerial Interview",
+          "description": "This was a resume round, typical HR questions were asked. Conflicts with coworkers? How did you resolve it? Your weaknesses? How would you learn fintech?.",
+          "topics": [
+            {
+              "original": "resume",
+              "canonical": "Resume",
+              "category": "Other"
+            },
+            {
+              "original": "system design",
+              "canonical": "System Design",
+              "category": "System design"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Conflicts with coworkers? How did you resolve it?",
+              "kind": "hr",
+              "page": 4
+            },
+            {
+              "text": "Your weaknesses?",
+              "kind": "hr",
+              "page": 4
+            },
+            {
+              "text": "How would you learn fintech?",
+              "kind": "hr",
+              "page": 4
+            },
+            {
+              "text": "Give me your favourite feature any app has made in recent years.",
+              "kind": "technical",
+              "page": 4
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            4
+          ]
+        },
+        {
+          "name": "Technical Round 2",
+          "category": "Technical Interview",
+          "description": "The format of this round was the same as the Technical Round 1. But the difficulty of the questions was high.",
+          "topics": [
+            {
+              "original": "trie",
+              "canonical": "Trie",
+              "category": "Other"
+            },
+            {
+              "original": "palindrome",
+              "canonical": "Palindrome",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "given an array of strings return true if concatenation of any two strings makes a palindrome.",
+              "kind": "coding",
+              "page": 5
+            }
+          ],
+          "difficulty": "high",
+          "pages": [
+            5
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "DSA is required 100%.",
+          "category": "Technical preparation",
+          "page": 5
+        },
+        {
+          "text": "CP is not necessary it just helps, even 2 experts were disqualified in the HM round so It is not true that if you have CP skills only you will pass, having a good resume is must.",
+          "category": "Interview strategy",
+          "page": 5
+        },
+        {
+          "text": "Do not put fake information in your resume - you will be asked about it in detail so you should know the ins and outs of it.",
+          "category": "Project preparation",
+          "page": 5
+        },
+        {
+          "text": "Have good communication skills, most of the time the interview just wants to converse with you.",
+          "category": "Interview strategy",
+          "page": 5
+        },
+        {
+          "text": "Core subjects were not asked to me, but I advise to have good knowledge of those.",
+          "category": "Technical preparation",
+          "page": 5
+        },
+        {
+          "text": "System design basics are required.",
+          "category": "Technical preparation",
+          "page": 5
+        }
+      ],
+      "resources": [
+        {
+          "title": null,
+          "url": "https://www.geeksforgeeks.org/dsa/maximum-sum-subarray-such-that-start-and-end-values-are-same/",
+          "description": null,
+          "topic": null,
+          "page": 4
+        },
+        {
+          "title": null,
+          "url": "https://codeforces.com/blog/entry/66434",
+          "description": null,
+          "topic": null,
+          "page": 4
+        },
+        {
+          "title": null,
+          "url": "https://leetcode.com/problems/palindrome-pairs/description/",
+          "description": null,
+          "topic": null,
+          "page": 5
+        },
+        {
+          "title": null,
+          "url": "https://codeforces.com/contest/1270/problem/G",
+          "description": null,
+          "topic": null,
+          "page": 5
+        }
+      ],
+      "filename": "PhonePe_SDE_SwaroopVaze.pdf",
+      "source_path": "2026/PhonePe_2026/PhonePe_SDE_SwaroopVaze.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "content_sha256": "3e0cf0c0ed0c9d84f4534c915d894023bf8d6f445c7b836b0568e38520526739"
+    },
+    {
+      "experience_id": "phonepe_2026-2026-36dae98c-1",
+      "company": "PhonePe_2026",
+      "company_id": "phonepe_2026",
+      "year": "2026",
+      "role": "SDE",
+      "rounds": [
+        {
+          "name": "Online Assessment",
+          "category": "Online Assessment",
+          "description": "4 Questions were to be solved in 1 hour 30 mins",
+          "topics": [
+            {
+              "original": "connected components",
+              "canonical": "Connected Components",
+              "category": "Other"
+            },
+            {
+              "original": "backtracking",
+              "canonical": "Recursion and Backtracking",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "Dynamic Programming",
+              "canonical": "Dynamic Programming",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "bitwise handling",
+              "canonical": "Bitwise Handling",
+              "category": "Other"
+            },
+            {
+              "original": "hashmap",
+              "canonical": "Hashing",
+              "category": "DSA and coding"
+            }
+          ],
+          "questions": [
+            {
+              "text": "You are given n people, labeled from 1 to n. There are m existing friendships represented by two arrays A and B, each of size m, where the i-th friendship is between person A[i] and person B[i]. Two people are considered friends if there is a direct or indirect connection between them (i.e., if they belong to the same connected group of friends). Your task is to determine the minimum number of new friendships that must be formed so that every person is connected directly or indirectly—in other words, so that everyone belongs to a single connected group.",
+              "kind": "coding",
+              "page": 1
+            },
+            {
+              "text": "You have N employees and are given an array P of size N, where P[i] indicates the number of ladoos the i-th employee receives. If P[i] = 0, it means the ladoos for that employee are yet to be assigned. You are also given two integers M and K: M is the maximum number of ladoos any employee can get. K is the maximum allowed difference in ladoos between adjacent employees. Your task is to determine the number of valid ways to assign ladoos to the unassigned positions such that: Each unassigned position gets a value between 1 and M. The absolute difference between the ladoos of adjacent employees is at most K.",
+              "kind": "coding",
+              "page": 2
+            },
+            {
+              "text": "You are given an integer n, an integer k, and an array arr of size n consisting of integers. For each element arr[i], convert it to its binary representation and define its value as: Sum of (bit × position) where position is 1-based from right in the binary representation. You need to find the number of pairs (i, j) such that: value(arr[i]) + value(arr[j]) == k",
+              "kind": "coding",
+              "page": 2
+            },
+            {
+              "text": "You are given: Four houses from Harry Potter: Gryffindor, Hufflepuff, Ravenclaw, and Slytherin. Two integers: n: number of students, m: maximum number of students allowed in each house. A list of friendships: pairs of integers (a, b) where student a and student b are friends and must be placed in different houses. A strings, where the i-th string contains the allowed houses for the i-th student. Your task is to determine if it is possible to assign every student to exactly one of their preferred houses such that: 1. No pair of friends is placed in the same house 2. No house has more than m students 3. Each student is assigned to one of their preferred houses. Print \"possible\" if such an assignment exists, otherwise \"impossible\".",
+              "kind": "coding",
+              "page": 3
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "name": "Technical Round 1",
+          "category": "Technical Interview",
+          "description": "Interview session lasting approximately an hour.",
+          "topics": [
+            {
+              "original": "DSA",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "Trie",
+              "canonical": "Trie",
+              "category": "Other"
+            },
+            {
+              "original": "Binary Lifting",
+              "canonical": "Binary Lifting",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Given an array of integers (which may include both positive and negative numbers), find the maximum sum of a subarray that starts and ends with the same value. If no such subarray exists, return the Integer.MIN_VALUE.",
+              "kind": "coding",
+              "page": 4
+            },
+            {
+              "text": "Given a binary tree and multiple queries, where each query was a pair (node, value)—and the same node could appear multiple times with different values. For each query, the task was to find the maximum XOR between the given value and any of the node values along the path from the root to the specified node.",
+              "kind": "coding",
+              "page": 4
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            4
+          ]
+        },
+        {
+          "name": "Hiring Managerial Round",
+          "category": "Managerial Interview",
+          "description": "Round taken by the Engineering Head at PhonePe, checking communication, soft skills, resume, and system design.",
+          "topics": [
+            {
+              "original": "System Design",
+              "canonical": "System Design",
+              "category": "System design"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Choose one of your favorite apps and design its system.",
+              "kind": "technical",
+              "page": 5
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            5
+          ]
+        },
+        {
+          "name": "Technical Round 2",
+          "category": "Technical Interview",
+          "description": "Round asking two DSA questions.",
+          "topics": [
+            {
+              "original": "DSA",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "Trie",
+              "canonical": "Trie",
+              "category": "Other"
+            },
+            {
+              "original": "DP",
+              "canonical": "Dynamic Programming",
+              "category": "DSA and coding"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Given a list of strings, return true if concatenating any two of them forms a palindrome.",
+              "kind": "coding",
+              "page": 5
+            },
+            {
+              "text": "An array problem that was mostly greedy/observational.",
+              "kind": "coding",
+              "page": 5
+            }
+          ],
+          "difficulty": "2700 on Codeforces",
+          "pages": [
+            5
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "Strong DSA skills are essential – PhonePe places heavy emphasis on problem-solving, with this year’s difficulty being higher than usual. Topics like Tries, Binary Lifting were commonly asked.",
+          "category": "Technical preparation",
+          "page": 6
+        },
+        {
+          "text": "CP is a bonus, not a requirement – Being comfortable with CP is a big plus as it improves your problem solving skills.",
+          "category": "Coding preparation",
+          "page": 6
+        },
+        {
+          "text": "Internship experience adds value – My interview started with questions about my internship. It’s important to clearly explain what you worked on and the impact you had.",
+          "category": "Project preparation",
+          "page": 6
+        },
+        {
+          "text": "Know your resume inside out – Be fully prepared to talk about everything on your resume, including freelance work, projects, and technical contributions.",
+          "category": "HR preparation",
+          "page": 6
+        },
+        {
+          "text": "Hackathon projects stand out – Projects from hackathons show real-world problem-solving and help you pitch confidently in interviews.",
+          "category": "Project preparation",
+          "page": 6
+        },
+        {
+          "text": "Good communication is crucial – Stay vocal, explain your thought process clearly, and engage with the interviewer. Many technically strong candidates were rejected due to weak soft skills.",
+          "category": "Interview strategy",
+          "page": 6
+        },
+        {
+          "text": "Be consistent, not rushed – Consistent DSA practice with concept clarity (not rote learning) made a big difference. I would say even 6-8 months of sincere dedication toward DSA can help you clear any OA.",
+          "category": "Coding preparation",
+          "page": 6
+        }
+      ],
+      "resources": [
+        {
+          "title": "Striver's A2Z DSA Sheet",
+          "url": null,
+          "description": "It's structured, beginner-friendly, and covers all essential topics and patterns.",
+          "topic": "DSA",
+          "page": 6
+        },
+        {
+          "title": "LeetCode's Top 50 SQL Questions",
+          "url": null,
+          "description": "Great for query writing and real interview problems.",
+          "topic": "SQL",
+          "page": 6
+        },
+        {
+          "title": "DBMS video",
+          "url": null,
+          "description": "It covers everything you need for interviews.",
+          "topic": "DBMS",
+          "page": 6
+        },
+        {
+          "title": "GeeksforGeeks",
+          "url": null,
+          "description": "It's sufficient for brushing up on the most asked concepts in interviews.",
+          "topic": "Core Subjects (OS, CN, OOPs)",
+          "page": 6
+        },
+        {
+          "title": "System Design Article",
+          "url": null,
+          "description": "Go through System Design Article.",
+          "topic": "System Design",
+          "page": 6
+        },
+        {
+          "title": "Tech Cheatsheet",
+          "url": null,
+          "description": "It includes useful resources across key topics.",
+          "topic": "Tech Cheatsheet",
+          "page": 6
+        }
+      ],
+      "filename": "PhonePe_SDE_TabishShaikh.pdf",
+      "source_path": "2026/PhonePe_2026/PhonePe_SDE_TabishShaikh.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "content_sha256": "36dae98c996e82534fed621e9ecee184b99d1dfcf7c2ac720da9dce04fd36c58"
+    },
+    {
+      "experience_id": "phonepe_2026-2026-c9048b57-1",
+      "company": "PhonePe_2026",
+      "company_id": "phonepe_2026",
+      "year": "2026",
+      "role": "SDE",
+      "rounds": [
+        {
+          "name": "Online Assessment",
+          "category": "Online Assessment",
+          "description": "Platform: DoSelect || Questions: 4 || Time: 1hr 30mins",
+          "topics": [
+            {
+              "original": "DSU",
+              "canonical": "DSU",
+              "category": "Other"
+            },
+            {
+              "original": "DFS",
+              "canonical": "Graphs",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "BFS",
+              "canonical": "Graphs",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "recursion",
+              "canonical": "Recursion and Backtracking",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "memoization",
+              "canonical": "Memoization",
+              "category": "Other"
+            },
+            {
+              "original": "map",
+              "canonical": "Map",
+              "category": "Other"
+            },
+            {
+              "original": "set bits",
+              "canonical": "Set Bits",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "You were given n people and 2 array A and B of size m, where each pair (A[i], B[i]) means that A[i] is a friend of B[i]. Also, friendships are transitive, so if x is a friend of y and y is friend of z, x is also friend of z. You were told to find the minimum no of new friendship such that everyone is friend is each other.",
+              "kind": "coding",
+              "page": 1
+            },
+            {
+              "text": "You were given an array A which represented the laddoos given to n employees. Each person must receive atleast 1 and atmost m laddoos. You had to assign laddoos to employed who had received 0 laddoos such that the absolute difference between two employees is not more than k. And finally, you had to print the no of valid ways distributions.",
+              "kind": "coding",
+              "page": 1
+            },
+            {
+              "text": "You had to find the count of unordered pair such that their sum is s and the total of set bits in both the number is <=k",
+              "kind": "coding",
+              "page": 1
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Technical Round 1",
+          "category": "Technical Interview",
+          "description": "All the 30 students were divided into 3 panels of 10 each. I was part of the 1st panel.",
+          "topics": [
+            {
+              "original": "binary search",
+              "canonical": "Sorting and Searching",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "2d matrix",
+              "canonical": "2D Matrix",
+              "category": "Other"
+            },
+            {
+              "original": "tree",
+              "canonical": "Trees",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "Floyd-Warshall algorithm",
+              "canonical": "Floyd-Warshall algorithm",
+              "category": "Other"
+            },
+            {
+              "original": "dfs",
+              "canonical": "Graphs",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "bfs",
+              "canonical": "Graphs",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "LCA",
+              "canonical": "LCA",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Find the peak element in a 2d matrix. Where peak element is defined as the element which is greater than its 4 adjacent neighbors.",
+              "kind": "coding",
+              "page": 2
+            },
+            {
+              "text": "You were given a tree and q queries. Each query had a start node, an end node and a destination. The task was to find the node which is at a minimum distance from destination while also being on the path from start to end node.",
+              "kind": "coding",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Technical Round 2",
+          "category": "Technical Interview",
+          "description": "My 2nd tech round happened after my HR round. And similar to 1st tech round we were asked to solve 2 questions.",
+          "topics": [
+            {
+              "original": "BFS",
+              "canonical": "Graphs",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "Dijkstra's algorithm",
+              "canonical": "Dijkstra's algorithm",
+              "category": "Other"
+            },
+            {
+              "original": "greedy",
+              "canonical": "Greedy Algorithms",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "dp",
+              "canonical": "Dynamic Programming",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "0/1 Knapsack",
+              "canonical": "0/1 Knapsack",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Given a matrix of size m*n, each element had a heat value which I gained if I landed on it, I had to return the minimum heat with which I could reach bottom right corner from top left corner under constraints.",
+              "kind": "coding",
+              "page": 3
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            3
+          ]
+        },
+        {
+          "name": "Hiring Manager Round",
+          "category": "Managerial Interview",
+          "description": "PhonePe’s HR round isn’t a typical HR round; it revolves more around the resume so be have good projects on it and (internship if any).",
+          "topics": [
+            {
+              "original": "jwt",
+              "canonical": "Jwt",
+              "category": "Other"
+            },
+            {
+              "original": "RSA algorithm",
+              "canonical": "RSA algorithm",
+              "category": "Other"
+            },
+            {
+              "original": "devOps",
+              "canonical": "devOps",
+              "category": "Other"
+            },
+            {
+              "original": "Pagination",
+              "canonical": "Pagination",
+              "category": "Other"
+            },
+            {
+              "original": "caching",
+              "canonical": "Caching",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Implement the post feature from the DB selection to the schema and optimizations (Pagination, caching, etc.).",
+              "kind": "technical",
+              "page": 4
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            4
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "I would advise you to skim through all the questions first and start with the one which seems familiar/easy.",
+          "category": "OA preparation",
+          "page": 1
+        },
+        {
+          "text": "The interviewer is more interested on how you approach the question so be open to him and read out your thoughts out loud and ask him for any hints if needed.",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "DSA is essential, you should be able to solve leetcode hard in a time constraint environment with some hints. The more questions you solve the better you will get at it.",
+          "category": "Coding preparation",
+          "page": 5
+        },
+        {
+          "text": "Have good projects on your resume which you can explain thoroughly.",
+          "category": "Project preparation",
+          "page": 5
+        },
+        {
+          "text": "Have mock interviews with your friend so as to know where you can improve",
+          "category": "Interview strategy",
+          "page": 5
+        }
+      ],
+      "resources": [
+        {
+          "title": "Strivers sheet",
+          "url": null,
+          "description": "Follow Strivers sheet for the standard problem",
+          "topic": "DSA",
+          "page": 5
+        },
+        {
+          "title": "CSES problem sheet",
+          "url": null,
+          "description": null,
+          "topic": "DSA",
+          "page": 5
+        },
+        {
+          "title": "TLE sheet",
+          "url": null,
+          "description": "for updated level wise problems",
+          "topic": "DSA",
+          "page": 5
+        },
+        {
+          "title": "USACO",
+          "url": null,
+          "description": "for getting better at CP",
+          "topic": "DSA",
+          "page": 5
+        }
+      ],
+      "filename": "PhonePe_SDE_TalhaNaik.pdf",
+      "source_path": "2026/PhonePe_2026/PhonePe_SDE_TalhaNaik.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "content_sha256": "c9048b5759476b45693ab72eacbd60f9adcfbd7aa230b1622cb1e0fb79e07148"
+    },
+    {
+      "experience_id": "phonepe_2026-2026-f8310620-1",
+      "company": "PhonePe_2026",
+      "company_id": "phonepe_2026",
+      "year": "2026",
+      "role": "SDE",
+      "rounds": [
+        {
+          "name": "Online Assessment",
+          "category": "Online Assessment",
+          "description": "4 coding questions were to be solved in 90 minutes.",
+          "topics": [
+            {
+              "original": "connected components",
+              "canonical": "Connected Components",
+              "category": "Other"
+            },
+            {
+              "original": "dsu",
+              "canonical": "Dsu",
+              "category": "Other"
+            },
+            {
+              "original": "dfs",
+              "canonical": "Graphs",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "bfs",
+              "canonical": "Graphs",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "greedy",
+              "canonical": "Greedy Algorithms",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "math",
+              "canonical": "Quantitative Aptitude",
+              "category": "Aptitude"
+            },
+            {
+              "original": "dp",
+              "canonical": "Dynamic Programming",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "backtracking",
+              "canonical": "Recursion and Backtracking",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "bitwise",
+              "canonical": "Bitwise",
+              "category": "Other"
+            },
+            {
+              "original": "input parsing",
+              "canonical": "Input Parsing",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "You are given n people, labeled from 1 to n (<=1e5). There are m existing friendships represented by two arrays A and B, each of size m, where the i-th friendship is between person A[i] and person B[i]. Two people are considered friends if there is a direct or indirect connection between them (i.e., if they belong to the same connected group of friends). Your task is to determine the minimum number of new friendships that must be formed so that every person is connected directly or indirectly—in other words, so that everyone belongs to a single connected group.",
+              "kind": "coding",
+              "page": 1
+            },
+            {
+              "text": "You are given n (<=1e4) employees, some already have been assigned ladoos and some aren't, you need to assign ladoos to the second type of employees such that the difference between ladoos assigned to adjacent employees doesn’t exceed k (<=30 i believe) and the maximum number of ladoos any employee has is m (<=200). You need to return the number of valid ways to assign ladoos.",
+              "kind": "coding",
+              "page": 1
+            },
+            {
+              "text": "You are given an integer n (<=1e3), an integer k, and an array arr of size n consisting of integers. For each element arr[i], you can find its value using the following operation: convert it to its binary representation and define its value as: Sum of (bit × position) where position is 1-based from right in the binary representation. You need to find the number of pairs (i, j) such that: value(arr[i]) + value(arr[j]) == k.",
+              "kind": "coding",
+              "page": 1
+            },
+            {
+              "text": "You are given: - Four houses from Harry Potter: Gryffindor, Hufflepuff, Ravenclaw, and Slytherin - Two integers: n: number of students m: maximum number of students allowed in each house - A list of friendships: pairs of integers (a, b) where student a and student b are friends and must be placed in different houses - A list of strings, where the i-th string contains the allowed houses for the i-th student (e.g., “[[“pref1, pref2”], [pref2]]” you had to parse the string and split them accordingly and store their preferences) Your task is to determine if it is possible to assign every student to exactly one of their preferred houses such that: 1. No pair of friends is placed in the same house 2. No house has more than m students 3. Each student is assigned to one of their preferred houses Print \"possible\" if such an assignment exists, otherwise \"impossible\"",
+              "kind": "coding",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            1,
+            2
+          ]
+        },
+        {
+          "name": "Technical Round - 1",
+          "category": "Technical Interview",
+          "description": "This round consisted of 2 coding questions which we were supposed to explain and code on pen paper. The interviewer asked for a brief introduction and then introduced himself before moving to the coding problems",
+          "topics": [
+            {
+              "original": "hashing",
+              "canonical": "Hashing",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "prefix sum",
+              "canonical": "Prefix Sum",
+              "category": "Other"
+            },
+            {
+              "original": "dfs",
+              "canonical": "Graphs",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "trie",
+              "canonical": "Trie",
+              "category": "Other"
+            },
+            {
+              "original": "bitwise",
+              "canonical": "Bitwise",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Given an array of n (<=1e5) integers lying in the range [-1e9,1e9], return the maximum sum of a subarray that starts and ends with the same number.",
+              "kind": "coding",
+              "page": 2
+            },
+            {
+              "text": "Given a parents array of size n (<=1e6) which represents a binary tree and q (<=1e6) queries where queries[i]={node,value}, For each query, the task was to find the maximum XOR between the given value and any of the node values along the path from the root to the specified node",
+              "kind": "coding",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Technical Round - 2",
+          "category": "Technical Interview",
+          "description": "This round had the same format as technical-1.",
+          "topics": [
+            {
+              "original": "dijkstra",
+              "canonical": "Dijkstra",
+              "category": "Other"
+            },
+            {
+              "original": "heap",
+              "canonical": "Heaps",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "dp",
+              "canonical": "Dynamic Programming",
+              "category": "DSA and coding"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Given a matrix of size m*n (m*n<=1e6), each element had a heat value which I gained if I landed on it, I had to return the minimum heat with which I could reach {m-1,n-1} from {0,0} under the following constraints: 1. I could move left, right, bottom or top. 2. I could not retrace my path at any point. 3. I couldn’t move the same direction more than 3 times.",
+              "kind": "coding",
+              "page": 3
+            },
+            {
+              "text": "Given 2 arrays cost and time each of size n where cost[i] and time[i] represent the cost of the ith painting and time required to paint it respectively by a paid painter. There was also a magic painter who could paint for free and painted 1 painting per unit time. But the magic painter could only work when the paid painter was busy. I had to return the minimum cost to paint all n paintings.",
+              "kind": "coding",
+              "page": 3
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            3
+          ]
+        },
+        {
+          "name": "HM - Round",
+          "category": "Managerial Interview",
+          "description": "My HM interview was taken by the Engineering Manager at PhonePe. He started off by asking for my introduction and then started questioning me based on my resume.",
+          "topics": [
+            {
+              "original": "system design",
+              "canonical": "System Design",
+              "category": "System design"
+            },
+            {
+              "original": "resume",
+              "canonical": "Resume",
+              "category": "Other"
+            },
+            {
+              "original": "internship",
+              "canonical": "Internship",
+              "category": "Other"
+            },
+            {
+              "original": "projects",
+              "canonical": "Projects",
+              "category": "Projects"
+            }
+          ],
+          "questions": [
+            {
+              "text": "How would you design instagram stories?",
+              "kind": "technical",
+              "page": 4
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            3,
+            4
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "My advice would be to not waste time on a question if it doesn’t click, solve others and come back later.",
+          "category": "Interview strategy",
+          "page": 2
+        },
+        {
+          "text": "In both of these rounds I made sure to communicate my thought process with the interviewer which is essential for them to understand how you approach a problem.",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "The key is to brush up your system design knowledge, both in general and PhonePe in specific, and be honest and expressive with your answers.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Solve a wide range of problems and emphasize on concepts like binary search, dp, graphs, dsu, tries and a few niche concepts like binary lifting afterwards. Give contests regularly without any hesitation, it’s better to underperform there than to do it in your interviews. Read editorials rather than asking llms for solutions. A good way to learn is by solving striver’s sheet and then giving contests on any platform of your choice, then practicing pyqs of companies when placements are close.",
+          "category": "Coding preparation",
+          "page": 4
+        },
+        {
+          "text": "Know your resume well and research the company you’re interviewing for on a basic level at least.",
+          "category": "Technical preparation",
+          "page": 4
+        },
+        {
+          "text": "Learn system design concepts and real world case studies. Also learn fundamentals like dbms, oops and os; they might not be directly asked all the time but will improve your understanding of development and sys design.",
+          "category": "Technical preparation",
+          "page": 4
+        }
+      ],
+      "resources": [
+        {
+          "title": "striver’s sheet",
+          "url": null,
+          "description": null,
+          "topic": null,
+          "page": 4
+        },
+        {
+          "title": "engineering digest",
+          "url": null,
+          "description": null,
+          "topic": "system design",
+          "page": 4
+        },
+        {
+          "title": "Kunal Kushwaha’s playlist",
+          "url": null,
+          "description": null,
+          "topic": "oops",
+          "page": 4
+        },
+        {
+          "title": "code help’s videos",
+          "url": null,
+          "description": null,
+          "topic": "dbms and os",
+          "page": 4
+        },
+        {
+          "title": "gfg/leetcode",
+          "url": null,
+          "description": null,
+          "topic": null,
+          "page": 4
+        }
+      ],
+      "filename": "PhonePe_SDE_VedantShah.pdf",
+      "source_path": "2026/PhonePe_2026/PhonePe_SDE_VedantShah.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "content_sha256": "f8310620d9ccd2a2393d0587b30ecd495df99a4d4b225e429333dcf153442b45"
+    },
+    {
+      "experience_id": "phonepe_2026-2026-2f10b18a-1",
+      "company": "PhonePe_2026",
+      "company_id": "phonepe_2026",
+      "year": "2026",
+      "role": "SDE",
+      "rounds": [
+        {
+          "name": "OA ( Coding Round)",
+          "category": "Online Assessment",
+          "description": "90 minutes, 4 Questions, 100 points each (Total 400 points). Platform: DoSelect.",
+          "topics": [
+            {
+              "original": "DSU",
+              "canonical": "DSU",
+              "category": "Other"
+            },
+            {
+              "original": "Union-Find",
+              "canonical": "Union-Find",
+              "category": "Other"
+            },
+            {
+              "original": "recursion",
+              "canonical": "Recursion and Backtracking",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "2 pointer",
+              "canonical": "2 Pointer",
+              "category": "Other"
+            },
+            {
+              "original": "sorting",
+              "canonical": "Sorting and Searching",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "backtracking",
+              "canonical": "Recursion and Backtracking",
+              "category": "DSA and coding"
+            }
+          ],
+          "questions": [
+            {
+              "text": "There are some n friends and needed to find components.",
+              "kind": "coding",
+              "page": 1
+            },
+            {
+              "text": "You are given an array of length n representing the number of laddoos distributed to n people standing in a line. Each person must receive at least 1 and at most m laddoos. Some people have already been assigned laddoos (represented as numbers between 1 and m), while others are yet to be assigned and are marked with a 0 in the array. Your task is to assign laddoos to the unassigned positions such that the final array satisfies the condition: for every pair of adjacent people, the absolute difference between the number of laddoos they receive is less than or equal to k. You need to determine the total number of valid ways to make these assignments such that all constraints are satisfied.",
+              "kind": "coding",
+              "page": 1
+            },
+            {
+              "text": "Given an Array of n elements have to find 2 elements whose sum is equal to m and the bit addition is <=k.",
+              "kind": "coding",
+              "page": 2
+            },
+            {
+              "text": "Sorting Hat : You are given n students and m, the maximum number of students allowed per house. There are four houses: Slytherin, Gryffindor, Hufflepuff, and Ravenclaw. Each student has a list of preferred houses they can be assigned to. Additionally, some pairs of students are friends and must be placed in different houses. Assign each student to one of their preferred houses such that no house exceeds capacity m and no friends share the same house. Determine if such an assignment is possible.",
+              "kind": "coding",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            1,
+            2
+          ]
+        },
+        {
+          "name": "Technical Interview 1",
+          "category": "Technical Interview",
+          "description": "Offline interview, 1 hour round where 2 coding questions are asked.",
+          "topics": [
+            {
+              "original": "matrix",
+              "canonical": "Matrix",
+              "category": "Other"
+            },
+            {
+              "original": "binary search",
+              "canonical": "Sorting and Searching",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "n-ary tree",
+              "canonical": "Trees",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "LCA",
+              "canonical": "LCA",
+              "category": "Other"
+            },
+            {
+              "original": "Binary Lifting",
+              "canonical": "Binary Lifting",
+              "category": "Other"
+            },
+            {
+              "original": "DFS",
+              "canonical": "Graphs",
+              "category": "DSA and coding"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Given a NxM matrix have to find the peak element.",
+              "kind": "coding",
+              "page": 3
+            },
+            {
+              "text": "Given an n-ary tree and Q queries given as [startnode, endnode, node], find the nearest node from the path of startnode to endnode.",
+              "kind": "coding",
+              "page": 3
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2,
+            3
+          ]
+        },
+        {
+          "name": "Technical Interview 2",
+          "category": "Technical Interview",
+          "description": "Two coding questions asked on paper.",
+          "topics": [
+            {
+              "original": "strings",
+              "canonical": "Strings",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "palindrome",
+              "canonical": "Palindrome",
+              "category": "Other"
+            },
+            {
+              "original": "Trie",
+              "canonical": "Trie",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Given an array of strings, check if a palindromic string exists after concatenation of 2 strings.",
+              "kind": "coding",
+              "page": 4
+            },
+            {
+              "text": "Codeforces problem 1270/G",
+              "kind": "coding",
+              "page": 4
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            4
+          ]
+        },
+        {
+          "name": "Hiring Manager Round",
+          "category": "Managerial Interview",
+          "description": "Discussed internship experiences, resume projects, teaching experience, system architecture, and system design.",
+          "topics": [
+            {
+              "original": "internship experiences",
+              "canonical": "Internship Experiences",
+              "category": "Other"
+            },
+            {
+              "original": "projects",
+              "canonical": "Projects",
+              "category": "Projects"
+            },
+            {
+              "original": "ML model",
+              "canonical": "ML model",
+              "category": "Other"
+            },
+            {
+              "original": "system architecture",
+              "canonical": "System Architecture",
+              "category": "Other"
+            },
+            {
+              "original": "authentication",
+              "canonical": "Authentication",
+              "category": "Other"
+            },
+            {
+              "original": "OAuth",
+              "canonical": "OAuth",
+              "category": "Other"
+            },
+            {
+              "original": "OTP-based verification",
+              "canonical": "OTP-based verification",
+              "category": "Other"
+            },
+            {
+              "original": "API calls",
+              "canonical": "API calls",
+              "category": "Other"
+            },
+            {
+              "original": "system design",
+              "canonical": "System Design",
+              "category": "System design"
+            },
+            {
+              "original": "YouTube Shorts",
+              "canonical": "YouTube Shorts",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Design a system for YouTube Shorts.",
+              "kind": "technical",
+              "page": 5
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            5
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "When the number of friend relations is not specified in the input, using Scanner in Java is not ideal, as it relies on knowing how many inputs to read. In such cases, BufferedReader is preferred since it allows reading input line by line until the end.",
+          "category": "Coding preparation",
+          "page": 2
+        },
+        {
+          "text": "Don’t waste time on 1 question first try the questions which are able to solve and even if able to solve partially some question its ok, Partial Marking does helps so try to increase the number of total testcases passed across all problems.",
+          "category": "Interview strategy",
+          "page": 2
+        },
+        {
+          "text": "For OA prepare all the topics. Should know all the common patterns and able to solve LeetCode medium- hard problems.",
+          "category": "OA preparation",
+          "page": 6
+        },
+        {
+          "text": "Can follow Striver’s series but I also recommend to do blind 75 questions for clearing up basics before proceeding to the advance topics.",
+          "category": "Technical preparation",
+          "page": 6
+        },
+        {
+          "text": "Stay calm and confident during Interview. Think out loud during the technical interviews. Even while coding it out keep on explaining and discussing the approach.",
+          "category": "Interview strategy",
+          "page": 6
+        },
+        {
+          "text": "Interviewers are helpful in case if not able to proceed they can give hints, after hints try to think on them as they give idea about how to proceed to a particular problem.",
+          "category": "Interview strategy",
+          "page": 6
+        },
+        {
+          "text": "Doing CP (Competitive Programming) is highly recommended as this year CP topics were asked. Participating in contests on platforms like Codeforces can significantly enhance your problem-solving skills and help you get accustomed to the pressure of live contests.",
+          "category": "Technical preparation",
+          "page": 6
+        }
+      ],
+      "resources": [
+        {
+          "title": "LeetCode 75",
+          "url": "https://leetcode.com/studyplan/leetcode-75/",
+          "description": "for clearing up basics before proceeding to the advance topics",
+          "topic": null,
+          "page": 6
+        },
+        {
+          "title": "Venisha Kalola LinkedIn",
+          "url": "https://www.linkedin.com/in/venisha-kalola-997756258/",
+          "description": null,
+          "topic": null,
+          "page": 6
+        }
+      ],
+      "filename": "PhonePe_SDE_VenishaKalola.pdf",
+      "source_path": "2026/PhonePe_2026/PhonePe_SDE_VenishaKalola.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "content_sha256": "2f10b18ad92900ed25055d4b0abd51b760a924579833146373244df1e520c7bb"
+    }
+  ]
+}

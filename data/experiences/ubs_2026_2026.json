@@ -1,0 +1,2100 @@
+{
+  "company_id": "ubs_2026",
+  "year": "2026",
+  "experiences": [
+    {
+      "experience_id": "ubs_2026-2026-80764f17-1",
+      "company": "UBS_2026",
+      "company_id": "ubs_2026",
+      "year": "2026",
+      "role": "GOTO Intern",
+      "rounds": [
+        {
+          "name": "Round 1: Online Assessment",
+          "category": "Online Assessment",
+          "description": "15 Technical Questions, 15 Aptitude Questions, and 1 Coding question conducted on Hackerrank.",
+          "topics": [
+            {
+              "original": "DBMS",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "OOPS",
+              "canonical": "Object-Oriented Programming",
+              "category": "OOPs"
+            },
+            {
+              "original": "SQL",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "Java",
+              "canonical": "Java",
+              "category": "Programming languages"
+            },
+            {
+              "original": "probability",
+              "canonical": "Probability",
+              "category": "Other"
+            },
+            {
+              "original": "profit/loss",
+              "canonical": "Profit/Loss",
+              "category": "Other"
+            },
+            {
+              "original": "sets",
+              "canonical": "Sets",
+              "category": "Other"
+            },
+            {
+              "original": "finding missing elements in series",
+              "canonical": "Finding Missing Elements In Series",
+              "category": "Other"
+            },
+            {
+              "original": "mirror images",
+              "canonical": "Mirror Images",
+              "category": "Other"
+            },
+            {
+              "original": "graphs and statistics",
+              "canonical": "Graphs",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "arrays",
+              "canonical": "Arrays",
+              "category": "DSA and coding"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Given an array of integers representing the latencies of different servers, your task is to find all pairs of latencies with the minimum absolute difference. Each pair should be returned in ascending order (i.e., [a, b] where a < b), and the final list of pairs should be sorted in lexicographical order. Return the result as a 2D array of these latency pairs.",
+              "kind": "coding",
+              "page": 1
+            }
+          ],
+          "difficulty": "easy to moderate",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Round 2: Technical Interview",
+          "category": "Technical Interview",
+          "description": "Interview covering resume walkthrough, projects, coding question on paper, puzzles, and personal background.",
+          "topics": [
+            {
+              "original": "projects",
+              "canonical": "Projects",
+              "category": "Projects"
+            },
+            {
+              "original": "programming language",
+              "canonical": "Programming Language",
+              "category": "Other"
+            },
+            {
+              "original": "coding",
+              "canonical": "Coding",
+              "category": "Other"
+            },
+            {
+              "original": "puzzles",
+              "canonical": "Logical Reasoning",
+              "category": "Aptitude"
+            },
+            {
+              "original": "Water Jug problem",
+              "canonical": "Water Jug problem",
+              "category": "Other"
+            },
+            {
+              "original": "Torch and River puzzle",
+              "canonical": "Logical Reasoning",
+              "category": "Aptitude"
+            },
+            {
+              "original": "burning candles puzzle",
+              "canonical": "Logical Reasoning",
+              "category": "Aptitude"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Tell me about yourself (walk through my journey like a story from childhood till now and talk about everything I had done or achieved)",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "Why did you choose diploma?",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "Why did you choose to build your projects, what problems did they solve, what challenges did you face, and how did you overcome them?",
+              "kind": "project",
+              "page": 2
+            },
+            {
+              "text": "What is your favorite programming language and why?",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Print all missing numbers between a given list, like [1, 3, 4, 99].",
+              "kind": "coding",
+              "page": 2
+            },
+            {
+              "text": "Water Jug problem: how to measure 4 liters using 3L and 5L jugs.",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Torch and River puzzle involving four people with different crossing speeds (1, 2, 5, 10 minutes) and a single torch.",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Burning two uneven candles to measure 45 minutes.",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Family background, including where I'm from and what my parents do.",
+              "kind": "hr",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Round 3: HR Interview",
+          "category": "HR Interview",
+          "description": "Personal interaction and background-oriented questions.",
+          "topics": [
+            {
+              "original": "family background",
+              "canonical": "Family Background",
+              "category": "Other"
+            },
+            {
+              "original": "culture fit",
+              "canonical": "Culture Fit",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Where I stay, what my parents do for a living, and about my general family environment.",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "How did your technical interview go?",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "Why didn't you continue your engineering at the same college where I completed my diploma?",
+              "kind": "hr",
+              "page": 3
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2,
+            3
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "Prepare well for generic HR questions including your strengths, passions, future plans, family background, and work preferences.",
+          "category": "HR preparation",
+          "page": 3
+        },
+        {
+          "text": "Attend the Pre-Placement Talk and take notes many HR questions indirectly relate to the company culture and role expectations discussed during the session.",
+          "category": "HR preparation",
+          "page": 3
+        },
+        {
+          "text": "Be calm, trust yourself and be confident during an interview.",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "Know your resume inside out. Thoroughly review and understand every detail listed in your resume.",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "Read about OOPS(in any language), DBMS, Computer networks and Operating systems.",
+          "category": "Technical preparation",
+          "page": 3
+        },
+        {
+          "text": "You should be able to explain your projects, your motivation behind the project, what problem is your project solving, your choice of technology stack over the other ones.",
+          "category": "Project preparation",
+          "page": 3
+        },
+        {
+          "text": "Avoid panic, nervousness and overconfidence. Even you are stuck at a challenging question, let them know what your approach is they'll give you a hint, interact with interviewers, they will definitely help you out because they spend so much of their hours, money in finding the right candidate.",
+          "category": "Interview strategy",
+          "page": 3
+        }
+      ],
+      "resources": [],
+      "filename": "UBS_GOTOIntern_ApurvaKhangal.pdf",
+      "source_path": "2026/UBS_2026/UBS_GOTOIntern_ApurvaKhangal.pdf",
+      "pages": [
+        1,
+        2,
+        3
+      ],
+      "content_sha256": "80764f17f73c0e34686ea5593b61480382c7bdfa61aa7765a7cd98a1182cb511"
+    },
+    {
+      "experience_id": "ubs_2026-2026-378a6cc8-1",
+      "company": "UBS_2026",
+      "company_id": "ubs_2026",
+      "year": "2026",
+      "role": "GOTO Intern",
+      "rounds": [
+        {
+          "name": "Round 1: Online Assessment",
+          "category": "Online Assessment",
+          "description": "It included technical MCQs focused on Computer Science fundamentals such as Data Structures & Algorithms, DBMS, and OOPs. There were also questions on error identification, output prediction, and one coding question based on DSA.",
+          "topics": [
+            {
+              "original": "Data Structures & Algorithms",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "DBMS",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "OOPs",
+              "canonical": "Object-Oriented Programming",
+              "category": "OOPs"
+            },
+            {
+              "original": "error identification",
+              "canonical": "Error Identification",
+              "category": "Other"
+            },
+            {
+              "original": "output prediction",
+              "canonical": "Output Prediction",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Coding question based on DSA",
+              "kind": "coding",
+              "page": 1
+            }
+          ],
+          "difficulty": "moderate",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Technical Interview",
+          "category": "Technical Interview",
+          "description": "They first asked me to introduce myself and to mention all the core subjects that i had till now. I mentioned the Minor course in Banking technology and they seemed interested in it. And he asked me to explain what the course contained and a discussion for 3-5 minutes. Next they moved on to core subjects, asking some questions on OS and some questions on DSA. Then he asked me about my work in the internships and this conversation lasted for 7 - 10 minutes. He asked what exactly the work was about and he asked some in-depth questions regarding different specific implementations. They asked me about my interest in Computer Engineering and why this specific field.",
+          "topics": [
+            {
+              "original": "Banking technology",
+              "canonical": "Banking technology",
+              "category": "Other"
+            },
+            {
+              "original": "OS",
+              "canonical": "Operating Systems",
+              "category": "Operating systems"
+            },
+            {
+              "original": "DSA",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "internships",
+              "canonical": "Internships",
+              "category": "Other"
+            },
+            {
+              "original": "Computer Engineering",
+              "canonical": "Computer Engineering",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Implementation of a monopoly board game in abstract terms, the classes and data structures used.",
+              "kind": "technical",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "HR Round",
+          "category": "HR Interview",
+          "description": "This was not like a formal round but more as a casual conversation. It lasted about 10 minutes. They asked some basic questions about my hobbies, how I would describe myself. And then they asked me about my hackathon experience and to describe the environment over at the campus. Then they asked some questions about my internship experience.",
+          "topics": [
+            {
+              "original": "hobbies",
+              "canonical": "Hobbies",
+              "category": "Other"
+            },
+            {
+              "original": "hackathon experience",
+              "canonical": "Hackathon Experience",
+              "category": "Other"
+            },
+            {
+              "original": "internship experience",
+              "canonical": "Internship Experience",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "How would you describe yourself?",
+              "kind": "hr",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "Practice aptitude and DSA problems regularly.",
+          "category": "Coding preparation",
+          "page": 1
+        },
+        {
+          "text": "Be comfortable with Java syntax and core concepts of OOP.",
+          "category": "Technical preparation",
+          "page": 1
+        },
+        {
+          "text": "Brush up on CS fundamentals like DBMS, OS, and basic algorithms.",
+          "category": "Technical preparation",
+          "page": 1
+        },
+        {
+          "text": "Focus on accuracy and efficiency during coding questions.",
+          "category": "Coding preparation",
+          "page": 1
+        },
+        {
+          "text": "You should know your resume completely, why and where a particular tool, framework or language was used. What was your role in the projects, What is it about and the concepts used in the project.",
+          "category": "Project preparation",
+          "page": 2
+        },
+        {
+          "text": "For OOPS : java docs and any book about OOP language that covers from the fundamentals (eg. Java programming from the ground up )",
+          "category": "Technical preparation",
+          "page": 2
+        },
+        {
+          "text": "For Data Structures : college syllabus is sufficient but Being well versed with implementations may be helpful.",
+          "category": "Technical preparation",
+          "page": 2
+        },
+        {
+          "text": "For Algorithms : The problems are doable. Having some consistency is important. You should atleast go through your implementation or the thinking with them, if a direct complete solution does not come to the mind, sometimes even they nudge you into the right direction.",
+          "category": "Technical preparation",
+          "page": 2
+        },
+        {
+          "text": "For DBMS : The questions aren't difficult and online resources are enough for it.",
+          "category": "Technical preparation",
+          "page": 2
+        },
+        {
+          "text": "The only thing I could say about the HR round is to be confident and be comfortable. Be calm.",
+          "category": "HR preparation",
+          "page": 2
+        },
+        {
+          "text": "Think before you speak. You would have heard this before but that really matters. I myself am not completely adapted to this approach. Because I myself spoke too soon once and lost my train of thought. It could affect your confidence level. So be sure to be able to pick yourself back up after it even if you slip through.",
+          "category": "Interview strategy",
+          "page": 2
+        }
+      ],
+      "resources": [
+        {
+          "title": "linkedin",
+          "url": "https://www.linkedin.com/in/heet-p-shah",
+          "description": null,
+          "topic": null,
+          "page": 3
+        }
+      ],
+      "filename": "UBS_GOTOIntern_HeetShah.pdf",
+      "source_path": "2026/UBS_2026/UBS_GOTOIntern_HeetShah.pdf",
+      "pages": [
+        1,
+        2,
+        3
+      ],
+      "content_sha256": "378a6cc8538fde4e60075a464cc9a49ba56e436434c9b22e24b4c643c85d6f3a"
+    },
+    {
+      "experience_id": "ubs_2026-2026-b54f40fa-1",
+      "company": "UBS_2026",
+      "company_id": "ubs_2026",
+      "year": "2026",
+      "role": "Graduate Trainee",
+      "rounds": [
+        {
+          "name": "Online Assessment + UBS Campus Hackathon",
+          "category": "Online Assessment",
+          "description": "It was a 50-minute test with MCQs on Java and core CS subjects like DSA, OOP, DBMS, and OS, along with one coding question. Finalists of the hackathon got direct exemption from the online assessment for campus placements.",
+          "topics": [
+            {
+              "original": "Java",
+              "canonical": "Java",
+              "category": "Programming languages"
+            },
+            {
+              "original": "DSA",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "OOP",
+              "canonical": "Object-Oriented Programming",
+              "category": "OOPs"
+            },
+            {
+              "original": "DBMS",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "OS",
+              "canonical": "Operating Systems",
+              "category": "Operating systems"
+            }
+          ],
+          "questions": [],
+          "difficulty": null,
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Technical Interview",
+          "category": "Technical Interview",
+          "description": "Conducted by a panel of 2 interviewers. Began with a basic introduction, resume walkthrough, project explanation, real-world scenarios, technical/conceptual questions, and puzzles.",
+          "topics": [
+            {
+              "original": "Projects",
+              "canonical": "Projects",
+              "category": "Projects"
+            },
+            {
+              "original": "C",
+              "canonical": "C",
+              "category": "Programming languages"
+            },
+            {
+              "original": "C++",
+              "canonical": "C++",
+              "category": "Programming languages"
+            },
+            {
+              "original": "Java",
+              "canonical": "Java",
+              "category": "Programming languages"
+            },
+            {
+              "original": "DevOps",
+              "canonical": "DevOps",
+              "category": "Other"
+            },
+            {
+              "original": "frontend frameworks",
+              "canonical": "Frontend Frameworks",
+              "category": "Other"
+            },
+            {
+              "original": "Angular",
+              "canonical": "Angular",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Is it an individual or group project?",
+              "kind": "project",
+              "page": 2
+            },
+            {
+              "text": "What was your role and contribution?",
+              "kind": "project",
+              "page": 2
+            },
+            {
+              "text": "How did you come up with the idea?",
+              "kind": "project",
+              "page": 2
+            },
+            {
+              "text": "How would you scale the project?",
+              "kind": "project",
+              "page": 2
+            },
+            {
+              "text": "Would a subscription model work for your application?",
+              "kind": "project",
+              "page": 2
+            },
+            {
+              "text": "Why would a user choose your app?",
+              "kind": "project",
+              "page": 2
+            },
+            {
+              "text": "How would you handle randomness in the generated results?",
+              "kind": "project",
+              "page": 2
+            },
+            {
+              "text": "Why did you choose this tech stack?",
+              "kind": "project",
+              "page": 2
+            },
+            {
+              "text": "If you're building a loan allocation model, how would you prevent it from being biased based on gender, age, caste, etc.?",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "If you're building an e-commerce platform, what modules would you include? What all aspects would you focus on? And how would you divide the work among a team of three?",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Minimum 5 key differences between C, C++, and Java",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "The 8-ball puzzle (find the heavier ball using minimum weighings)",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "A father-child age puzzle (when will the father be thrice the child’s age)",
+              "kind": "technical",
+              "page": 3
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2,
+            3
+          ]
+        },
+        {
+          "name": "Technical Interview",
+          "category": "Technical Interview",
+          "description": "Techno-behavioral (tech + HR) round with one interviewer. Started with a basic introduction, resume walkthrough including narrating journey as a story, discussion on hackathon wins, and analytical puzzles.",
+          "topics": [
+            {
+              "original": "Hackathons",
+              "canonical": "Hackathons",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "What did you build?",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "What was the overall journey like?",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "What challenges did you faced?",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "How many team members were involved?",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "What was your specific contribution?",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "Two candles , each take 1 hour to burn — how would you use them to measure 45 minutes?",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "Bridge puzzle — 4 people with different speeds, 1 torch, 2-person limit: how to cross with minimum total time?",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "Poisoned bottle puzzle — 1000 bottles, 1 is poisoned, you have 10 test strips: how to find the poisoned one in minimum time?",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "2 eggs, 100-floor building — from which floor will the egg not break?",
+              "kind": "technical",
+              "page": 3
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            3
+          ]
+        },
+        {
+          "name": "HR Interview",
+          "category": "HR Interview",
+          "description": "Conducted five minutes after the second technical interview. Questions were more of a background check than a deep HR evaluation.",
+          "topics": [],
+          "questions": [
+            {
+              "text": "Where I stay",
+              "kind": "hr",
+              "page": 4
+            },
+            {
+              "text": "How my technical rounds went and what kind of questions I was asked",
+              "kind": "hr",
+              "page": 4
+            },
+            {
+              "text": "Details about my internships — what I did, whether they were paid or unpaid",
+              "kind": "hr",
+              "page": 4
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            4
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "Maintain a Balance between DSA and Development Skills- It's important to have a balance between (DSA) and development skills. As Companies like UBS can ask questions from either area—or both—depending on the interviewer’s background. So, ensure that you're prepared with core CS concepts, practical development knowledge, and also practice solving logical puzzles, as these are frequently asked to assess your analytical thinking.",
+          "category": "Technical preparation",
+          "page": 4
+        },
+        {
+          "text": "Know Your Resume—But Also Know the Why- Don’t just memorize what's on your resume—be prepared to reason every line. Have solid, well-thought-out reasons for every project, internship, or achievement listed. Be ready to explain your decision-making process and choices (e.g., why you chose a particular tech stack, what your contribution was in a team project, etc.).",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Tailor your prep based on the company’s JD and recent trends. For example, during our time, everything somehow looped back to AI—so having at least one AI-anchored use case or understanding really helped. Keep an eye on what's hot in the industry and align your resume or project examples accordingly.",
+          "category": "Project preparation",
+          "page": 4
+        },
+        {
+          "text": "Ask Smart, Genuine Questions- Interviews are a two-way street. Asking insightful questions (e.g., about the interviewer’s role, company innovation, or tech culture) shows that you’re truly interested and not just trying to land a job.",
+          "category": "Interview strategy",
+          "page": 5
+        },
+        {
+          "text": "Participate in Hackathons—Especially Company-Specific Ones. General hackathons help you get comfortable with ideation, teamwork, and presenting under pressure. This will prepare you well for company-specific hackathons, which are more than just coding competitions—they're also a chance to understand the company culture, network with employees, and demonstrate your compatibility.",
+          "category": "Interview strategy",
+          "page": 5
+        },
+        {
+          "text": "Communication is the Salt- Like salt in food — unnoticed but essential. You may know everything, but if you can’t express it well, it won’t land. So practice speaking about your work, projects, and decisions. Give mock interviews. Talk to friends, mentors, and seniors. Record yourself explaining concepts. The more you speak, the more confident and structured you'll become.",
+          "category": "Interview strategy",
+          "page": 5
+        }
+      ],
+      "resources": [
+        {
+          "title": "Striver's A2Z DSA Sheet",
+          "url": null,
+          "description": null,
+          "topic": "DSA",
+          "page": 5
+        },
+        {
+          "title": "neetcode",
+          "url": null,
+          "description": null,
+          "topic": "DSA",
+          "page": 5
+        },
+        {
+          "title": "SQL 50",
+          "url": null,
+          "description": null,
+          "topic": "SQL",
+          "page": 5
+        },
+        {
+          "title": "quick one shot and GeeksforGeeks",
+          "url": null,
+          "description": null,
+          "topic": "OOPS, DBMS, CCN, OS",
+          "page": 5
+        },
+        {
+          "title": "InterviewBit, interviewKickStart , GeeksforGeeks",
+          "url": null,
+          "description": null,
+          "topic": "Puzzels",
+          "page": 5
+        }
+      ],
+      "filename": "UBS_Graduate_Trainee_Khushi_Parekh.pdf",
+      "source_path": "2026/UBS_2026/UBS_Graduate_Trainee_Khushi_Parekh.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "content_sha256": "b54f40fa6ab5b1c300f822b4894e8fd8dd248f55cfe686767e0e1ba290fdc88b"
+    },
+    {
+      "experience_id": "ubs_2026-2026-11a40580-1",
+      "company": "UBS_2026",
+      "company_id": "ubs_2026",
+      "year": "2026",
+      "role": "Graduate Trainee",
+      "rounds": [
+        {
+          "name": "Online Assessment + UBS Campus Hackathon",
+          "category": "Online Assessment",
+          "description": "Consisted of 50 minutes of multiple-choice questions and a coding problem. MCQs focused on Java and core computer science fundamentals such as data structures, OOP, operating systems, and databases. Followed by a hackathon where teams were randomly allocated to build a solution for the shortage of teachers in Zilla Parishad schools.",
+          "topics": [
+            {
+              "original": "Java",
+              "canonical": "Java",
+              "category": "Programming languages"
+            },
+            {
+              "original": "data structures",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "OOP",
+              "canonical": "Object-Oriented Programming",
+              "category": "OOPs"
+            },
+            {
+              "original": "operating systems",
+              "canonical": "Operating Systems",
+              "category": "Operating systems"
+            },
+            {
+              "original": "databases",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            }
+          ],
+          "questions": [
+            {
+              "text": "DSA problem (varied for each candidate, easier side)",
+              "kind": "coding",
+              "page": 1
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Technical Interview",
+          "category": "Technical Interview",
+          "description": "Began with an introduction, discussion on internship experience, projects, workflow automation, human-in-the-loop concept, UBS hackathon project, and AI usage in projects. Also included 10th and 12th qualifications, and three puzzles.",
+          "topics": [
+            {
+              "original": "internship",
+              "canonical": "Internship",
+              "category": "Other"
+            },
+            {
+              "original": "projects",
+              "canonical": "Projects",
+              "category": "Projects"
+            },
+            {
+              "original": "workflow automation",
+              "canonical": "Workflow Automation",
+              "category": "Other"
+            },
+            {
+              "original": "human-in-the-loop",
+              "canonical": "Human-In-The-Loop",
+              "category": "Other"
+            },
+            {
+              "original": "AI",
+              "canonical": "AI",
+              "category": "Other"
+            },
+            {
+              "original": "CS fundamentals",
+              "canonical": "CS fundamentals",
+              "category": "Other"
+            },
+            {
+              "original": "puzzles",
+              "canonical": "Logical Reasoning",
+              "category": "Aptitude"
+            }
+          ],
+          "questions": [
+            {
+              "text": "You have 2 candles and a matchbox. Each candle takes exactly 1 hour to burn. How can you measure 45 minutes?",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "You have 1000 bottles, one is poisoned. You have 10 test strips, and results take 24 hours. How can you identify the poisoned one?",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Four people need to cross a bridge. They take 1, 2, 5, and 10 minutes. Only two can cross at a time, and they need a torch to cross. What’s the minimum time to get all across?",
+              "kind": "technical",
+              "page": 3
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2,
+            3
+          ]
+        },
+        {
+          "name": "HR Interview",
+          "category": "HR Interview",
+          "description": "Short conversation discussing participation in other hackathons, the UBS hackathon experience, family background, and higher studies plans.",
+          "topics": [
+            {
+              "original": "background check",
+              "canonical": "Background Check",
+              "category": "Other"
+            },
+            {
+              "original": "hackathons",
+              "canonical": "Hackathons",
+              "category": "Other"
+            }
+          ],
+          "questions": [],
+          "difficulty": null,
+          "pages": [
+            3
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "Stay calm. Interviews can be nerve-wracking, but your ability to think clearly under pressure is just as important as your technical skills.",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "Know your projects well. Be ready to explain why you made certain decisions, not just what you did. You should be able to defend your choices confidently.",
+          "category": "Project preparation",
+          "page": 3
+        },
+        {
+          "text": "Think out loud. Don’t go completely silent while solving problems. Share your thought process; it helps keep the conversation going and shows how you approach challenges.",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "Be honest if you're stuck. It’s okay to ask for a hint or say you're not sure, what matters is how you handle the situation.",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "Strong DSA skills are crucial to clear the online assessment. The difficulty of the DSA question can vary for each company and candidate, so be well-prepared.",
+          "category": "OA preparation",
+          "page": 4
+        },
+        {
+          "text": "Know your resume inside out. Be clear about what you’ve done, why you did it, and be ready to justify your decisions, whether it’s a project, internship, or any achievement you’ve mentioned.",
+          "category": "Technical preparation",
+          "page": 4
+        },
+        {
+          "text": "Grab every opportunity that comes your way whether it’s a hackathon, competition, or learning experience. You never know which one might open the next door for you.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Keep a smile on your face. It sounds simple, but it goes a long way. Whether things are going great or feel uncertain, a smile helps you stay positive and confident and it reflects in your energy during interviews.",
+          "category": "Interview strategy",
+          "page": 4
+        }
+      ],
+      "resources": [
+        {
+          "title": "Striver's A2Z DSA Sheet",
+          "url": null,
+          "description": null,
+          "topic": "DSA",
+          "page": 4
+        },
+        {
+          "title": "SQL 50",
+          "url": null,
+          "description": null,
+          "topic": "SQL",
+          "page": 4
+        },
+        {
+          "title": "Complete DBMS in 1 Video (With Notes) || For Placement Interviews",
+          "url": null,
+          "description": null,
+          "topic": "DBMS",
+          "page": 4
+        },
+        {
+          "title": null,
+          "url": "https://whimsical.com/object-oriented-programming-7kyfM6D7AuURC6W3ESqD9t",
+          "description": null,
+          "topic": "OOPS",
+          "page": 4
+        },
+        {
+          "title": "GeeksforGeeks",
+          "url": null,
+          "description": null,
+          "topic": "OS and CN",
+          "page": 4
+        },
+        {
+          "title": "GeeksforGeeks and InterviewBit",
+          "url": null,
+          "description": null,
+          "topic": "CS fundamentals",
+          "page": 4
+        }
+      ],
+      "filename": "UBS_Graduate_Trainee_Riva_Rodrigues.pdf",
+      "source_path": "2026/UBS_2026/UBS_Graduate_Trainee_Riva_Rodrigues.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "content_sha256": "11a4058018e40cfecab1f3e296777fb016711eab0fb1bc0cd350fc0603d809ee"
+    },
+    {
+      "experience_id": "ubs_2026-2026-68a4fd91-1",
+      "company": "UBS_2026",
+      "company_id": "ubs_2026",
+      "year": "2026",
+      "role": "Graduate Trainee",
+      "rounds": [
+        {
+          "name": "Online Assessment",
+          "category": "Online Assessment",
+          "description": "Format: 15 Aptitude + 15 OOPS/Java/SQL/DSA + 1 Coding Question",
+          "topics": [
+            {
+              "original": "sets",
+              "canonical": "Sets",
+              "category": "Other"
+            },
+            {
+              "original": "probability",
+              "canonical": "Probability",
+              "category": "Other"
+            },
+            {
+              "original": "statistics",
+              "canonical": "Statistics",
+              "category": "Other"
+            },
+            {
+              "original": "OOPS",
+              "canonical": "Object-Oriented Programming",
+              "category": "OOPs"
+            },
+            {
+              "original": "Java",
+              "canonical": "Java",
+              "category": "Programming languages"
+            },
+            {
+              "original": "SQL",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "DSA",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "inorder of a given tree",
+              "canonical": "Trees",
+              "category": "DSA and coding"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Your setup is in Andheri (Mumbai) and a person accessing from USA is observing latency, what will you do?",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "How will you handle millions of users?",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "How will you handle large file responses?",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Strength and weakness?",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "How are you improving your weakness?",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "One mistake you never repeated?",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "What do you know about UBS?",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "Why do you want to work for UBS?",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "What is the latest news you have heard about UBS?",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "Family background?",
+              "kind": "hr",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            1,
+            2
+          ]
+        },
+        {
+          "name": "Technical Round",
+          "category": "Technical Interview",
+          "description": "The round started by the interviewer going through my resume in the meantime asking me to introduce myself. Then he asked me to tell me my favorite project among the projects in my resume.",
+          "topics": [
+            {
+              "original": "system design",
+              "canonical": "System Design",
+              "category": "System design"
+            },
+            {
+              "original": "SQL",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "NoSQL",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "horizontal scaling",
+              "canonical": "Horizontal Scaling",
+              "category": "Other"
+            },
+            {
+              "original": "JOIN",
+              "canonical": "JOIN",
+              "category": "Other"
+            },
+            {
+              "original": "GROUP BY",
+              "canonical": "GROUP BY",
+              "category": "Other"
+            },
+            {
+              "original": "COUNT",
+              "canonical": "COUNT",
+              "category": "Other"
+            },
+            {
+              "original": "Operating Systems",
+              "canonical": "Operating Systems",
+              "category": "Operating systems"
+            },
+            {
+              "original": "FOSIP",
+              "canonical": "FOSIP",
+              "category": "Other"
+            },
+            {
+              "original": "HashMap",
+              "canonical": "Hashing",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "sorting algorithms",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            }
+          ],
+          "questions": [],
+          "difficulty": null,
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "HR Round 1",
+          "category": "HR Interview",
+          "description": "This round was entirely based on behaviour.",
+          "topics": [],
+          "questions": [
+            {
+              "text": "Tell me about your entire life journey from place of birth, 10th school and percentage, 12th college and percentage, CET score, how I landed in SPIT?",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "What was my first preference, SPIT or VJTI?",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "Favorite thing about SPIT?",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "Do you have any internship experience?",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "Have you been to hackathons?",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "What was the problem statement?",
+              "kind": "hr",
+              "page": 3
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            3
+          ]
+        },
+        {
+          "name": "HR Round 2",
+          "category": "HR Interview",
+          "description": "This round was just a background check and behavioural of about 5 minutes.",
+          "topics": [],
+          "questions": [
+            {
+              "text": "Why Computer Science Engineering?",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "Hackathon experience?",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "Open for relocation?",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "Are parents open for relocation?",
+              "kind": "hr",
+              "page": 3
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            3
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "Nervous? Don’t worry, just go and give the interview, everything will be fine after the first round.",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "I didn’t win any hackathons but had attended some and had experience. I was asked about hackathons in each round so try to go for as many as you can and try to work in a team. Don't just make PPT but also develop something as a team.",
+          "category": "Project preparation",
+          "page": 3
+        },
+        {
+          "text": "I didn’t have any internship, I had projects but having an internship would definitely help.",
+          "category": "Project preparation",
+          "page": 3
+        },
+        {
+          "text": "I always tried to make fun and useful projects.",
+          "category": "Project preparation",
+          "page": 3
+        },
+        {
+          "text": "I used Go as my main language for development (Try it if you have time it is way more fun than Javascript).",
+          "category": "Coding preparation",
+          "page": 4
+        },
+        {
+          "text": "The core subjects, the system design for your projects and follow-up questions are must.",
+          "category": "Technical preparation",
+          "page": 4
+        },
+        {
+          "text": "Attending coding contests or virtual contests on Leetcode/Codeforces will help to solve problems under pressure.",
+          "category": "Coding preparation",
+          "page": 4
+        },
+        {
+          "text": "Of course know your resume inside out. DO NOT add anything that you don’t know properly.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "If you don’t know something don’t tell them beforehand unless asked.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "If your answer is NO just say it loud and clear as if you don’t regret it just like an army personnel or just without any hesitation but humbly. Don’t say it softly like you are scared.",
+          "category": "HR preparation",
+          "page": 4
+        },
+        {
+          "text": "I talked to a senior and my friends and fine tuned my resume accordingly.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Many candidates were multiple time hackathon winners and had internships but were still rejected, so always get your fundamentals right no matter what you have achieved.",
+          "category": "Technical preparation",
+          "page": 4
+        },
+        {
+          "text": "One final thing is whenever you contact any senior, don't just ask about how they did it, also ask about what mistakes they made and why they were rejected.",
+          "category": "Interview strategy",
+          "page": 4
+        }
+      ],
+      "resources": [
+        {
+          "title": "Neetcode",
+          "url": null,
+          "description": null,
+          "topic": "Data Structures & Algorithms",
+          "page": 4
+        },
+        {
+          "title": "Leetcode SQL 50 + Datalemur",
+          "url": null,
+          "description": null,
+          "topic": "SQL",
+          "page": 4
+        },
+        {
+          "title": "Baeldung",
+          "url": null,
+          "description": null,
+          "topic": "Object Oriented Programming + Java",
+          "page": 4
+        },
+        {
+          "title": "Operating Systems: Three Easy Pieces",
+          "url": null,
+          "description": null,
+          "topic": "Operating Systems",
+          "page": 4
+        },
+        {
+          "title": "Database Systems Concepts 7th Edition",
+          "url": null,
+          "description": null,
+          "topic": "Database Management Systems",
+          "page": 4
+        },
+        {
+          "title": "GitHub - karanpratapsingh/system-design",
+          "url": null,
+          "description": null,
+          "topic": "System Design",
+          "page": 4
+        },
+        {
+          "title": "IndiaBIX",
+          "url": null,
+          "description": null,
+          "topic": "Aptitude",
+          "page": 4
+        }
+      ],
+      "filename": "UBS_Graduate_Trainee_Sahil_Patil.pdf",
+      "source_path": "2026/UBS_2026/UBS_Graduate_Trainee_Sahil_Patil.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "content_sha256": "68a4fd91272735cdbdad68a05d965193aa818dda92e14d55bca503e02c2fb104"
+    },
+    {
+      "experience_id": "ubs_2026-2026-754ac4f1-1",
+      "company": "UBS_2026",
+      "company_id": "ubs_2026",
+      "year": "2026",
+      "role": "Graduate Trainee",
+      "rounds": [
+        {
+          "name": "Online Assessment",
+          "category": "Online Assessment",
+          "description": "There were 2 tests focusing on aptitude (verbal and visual reasoning) and UBS cultural assessment, which everyone had to take (from home). Then a hackerank test was conducted focusing on DSA and CS core which was skipped for hack participants.",
+          "topics": [
+            {
+              "original": "aptitude",
+              "canonical": "Quantitative Aptitude",
+              "category": "Aptitude"
+            },
+            {
+              "original": "verbal reasoning",
+              "canonical": "Logical Reasoning",
+              "category": "Aptitude"
+            },
+            {
+              "original": "visual reasoning",
+              "canonical": "Logical Reasoning",
+              "category": "Aptitude"
+            },
+            {
+              "original": "cultural assessment",
+              "canonical": "Cultural Assessment",
+              "category": "Other"
+            },
+            {
+              "original": "DSA",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "CS core",
+              "canonical": "CS core",
+              "category": "Other"
+            }
+          ],
+          "questions": [],
+          "difficulty": null,
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Tech Interview",
+          "category": "Technical Interview",
+          "description": "It started with my introduction, then they asked me about one of my projects. I explained it in detail, including the tech stack used (what and why) and system design. Then they asked me what changes I would make in the project.",
+          "topics": [
+            {
+              "original": "system design",
+              "canonical": "System Design",
+              "category": "System design"
+            },
+            {
+              "original": "Inner,Left,Right and Outer join",
+              "canonical": "Inner,Left,Right and Outer join",
+              "category": "Other"
+            },
+            {
+              "original": "puzzles",
+              "canonical": "Logical Reasoning",
+              "category": "Aptitude"
+            }
+          ],
+          "questions": [
+            {
+              "text": "If your friend is suggesting some other technology and you want to use something else, then what will you do?",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "If one of your team member is not giving his best, which is causing delays in deliverables, what will you do?",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "If a client has requested for some feature which does not align with the objectives of your project, what will you do?",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "What are the business opportunities of your hackathon project (which was made at UBS hack) ?",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "A variation of this ( Hats puzzle ),The conditions were not specified properly or I did not understand them properly.",
+              "kind": "other",
+              "page": 2
+            },
+            {
+              "text": "Simple jug problem",
+              "kind": "other",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            1,
+            2
+          ]
+        },
+        {
+          "name": "HR Round",
+          "category": "HR Interview",
+          "description": "This round was just for 5 minutes, HR knew me from the hackathon so it helped. This round was chill.",
+          "topics": [],
+          "questions": [
+            {
+              "text": "Family background",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "Relocation",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "Other companies which conduct hackathons (Barclays specifically) and their procedure.",
+              "kind": "hr",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "Maintain eye contact with the interviewer, a smile would be helpful. Ask for hints if required. Be well versed with your resume (projects and internship if any). If you’re explaining your project try doing it with a use case, it would show that it actually solves some problem.",
+          "category": "Interview strategy",
+          "page": 2
+        },
+        {
+          "text": "Think before answering any questions as there will be follow up questions as well. Be ready for some HR questions as well; they can be asked in tech interviews as well. Answer HR questions carefully keeping the company's interests in mind.",
+          "category": "HR preparation",
+          "page": 2
+        },
+        {
+          "text": "Start preparing beforehand, like start making your projects before the end of 6th semester, though it's never too late.",
+          "category": "Project preparation",
+          "page": 3
+        },
+        {
+          "text": "Hackathon projects are good but you should have one unique project as well.",
+          "category": "Project preparation",
+          "page": 3
+        },
+        {
+          "text": "Try using technologies which are used in big techs.",
+          "category": "Technical preparation",
+          "page": 3
+        },
+        {
+          "text": "For DSA, I did leetcode and codeforces. Gave contests regularly for getting used to the time pressure.",
+          "category": "Coding preparation",
+          "page": 3
+        },
+        {
+          "text": "CS core is important as well, DBMS and OOPS are the most important ones ( some people were asked about OS as well, so be ready)",
+          "category": "Technical preparation",
+          "page": 3
+        },
+        {
+          "text": "To practice SQL, you can use leetcode top-50 sql, it's enough I guess.",
+          "category": "Technical preparation",
+          "page": 3
+        },
+        {
+          "text": "System design, I did not do specifically but atleast know a bit about this as well (specially about your projects).",
+          "category": "Technical preparation",
+          "page": 3
+        },
+        {
+          "text": "Participate in such hackathons, Companies like UBS, HERE, Nomura and Barclays conduct such hackathons, it increases your chances of getting the opportunity significantly. Also these hackathons are a good learning experience as you get mentored by industry experts and get networking opportunities.",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "Give mock interviews for both tech and HR rounds.",
+          "category": "Interview strategy",
+          "page": 3
+        }
+      ],
+      "resources": [
+        {
+          "title": "Love-Babbar’s playlist",
+          "url": null,
+          "description": "For DBMS",
+          "topic": "DBMS",
+          "page": 3
+        },
+        {
+          "title": "Kunal Khushwaha’s playlist",
+          "url": null,
+          "description": "For OOPS and JAVA",
+          "topic": "OOPS and JAVA",
+          "page": 3
+        },
+        {
+          "title": "leetcode top-50 sql",
+          "url": null,
+          "description": "To practice SQL",
+          "topic": "SQL",
+          "page": 3
+        }
+      ],
+      "filename": "UBS_Graduate_Trainee_Zaid.pdf",
+      "source_path": "2026/UBS_2026/UBS_Graduate_Trainee_Zaid.pdf",
+      "pages": [
+        1,
+        2,
+        3
+      ],
+      "content_sha256": "754ac4f1ee37b722b6dfa88a8f4a811469abfa099393284e839809432b1ed3e1"
+    },
+    {
+      "experience_id": "ubs_2026-2026-77649f6c-1",
+      "company": "UBS_2026",
+      "company_id": "ubs_2026",
+      "year": "2026",
+      "role": "Graduate Trainee Technology",
+      "rounds": [
+        {
+          "name": "PPT and Online Assessment",
+          "category": "Online Assessment",
+          "description": "Online PPT followed by a test with 30 MCQs and 1 DSA question.",
+          "topics": [
+            {
+              "original": "OOPS",
+              "canonical": "Object-Oriented Programming",
+              "category": "OOPs"
+            },
+            {
+              "original": "Programming",
+              "canonical": "Programming",
+              "category": "Other"
+            },
+            {
+              "original": "DBMS",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "Aptitude",
+              "canonical": "Quantitative Aptitude",
+              "category": "Aptitude"
+            }
+          ],
+          "questions": [
+            {
+              "text": "1 DSA question",
+              "kind": "coding",
+              "page": 1
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Technical Interview",
+          "category": "Technical Interview",
+          "description": "Interview covering introduction, interests, goals, projects (especially AI and GenAI), Python vs Java preference, DevOps, and logical puzzles.",
+          "topics": [
+            {
+              "original": "coding",
+              "canonical": "Coding",
+              "category": "Other"
+            },
+            {
+              "original": "AI",
+              "canonical": "AI",
+              "category": "Other"
+            },
+            {
+              "original": "GenAI",
+              "canonical": "Generative AI",
+              "category": "Other"
+            },
+            {
+              "original": "Python",
+              "canonical": "Python",
+              "category": "Programming languages"
+            },
+            {
+              "original": "Java",
+              "canonical": "Java",
+              "category": "Programming languages"
+            },
+            {
+              "original": "DevOps",
+              "canonical": "DevOps",
+              "category": "Other"
+            },
+            {
+              "original": "logical puzzles",
+              "canonical": "Logical Reasoning",
+              "category": "Aptitude"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Introduction, interests beside coding, goals/aspirations",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "About the projects done, especially a project using AI and GenAI experience",
+              "kind": "project",
+              "page": 2
+            },
+            {
+              "text": "Considerations in AI, how to make sure AI is safe and efficient for banks, how would you handle different responses of AI for the same request/prompt",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "DevOps",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Logical puzzles",
+              "kind": "technical",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "HR Round",
+          "category": "HR Interview",
+          "description": "Discussion about hackathons participated in, experience, family, and location.",
+          "topics": [
+            {
+              "original": "hackathons",
+              "canonical": "Hackathons",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "About hackathons participated in and experience",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "About family, where I live and some general questions",
+              "kind": "hr",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "Know your resume perfectly, and use your introduction as well as other answers to guide the interview in the direction you want.",
+          "category": "Interview strategy",
+          "page": 2
+        },
+        {
+          "text": "Make sure your answers align with the job description and try to read up more on recent technologies and their impacts on your project/the company.",
+          "category": "Interview strategy",
+          "page": 2
+        },
+        {
+          "text": "Your introduction should be detailed but not too long, cover all main points and topics like DSA, projects, hackathons, work experience, etc. Give a brief overview of the work you did, the fields you’re interested in and how you’ve used those in your projects.",
+          "category": "HR preparation",
+          "page": 2
+        },
+        {
+          "text": "Know your projects thoroughly, not code but the core concept, the flow. You should be able to tell the interviewer why you built a project and what problem it solves or what you learnt from it",
+          "category": "Project preparation",
+          "page": 2
+        },
+        {
+          "text": "Your fundamentals should be strong, make your DSA, OOPS and DBMS strong, it helps in a lot of tests and interviews. Practice explaining your logic and answers as well. When you answer a DSA question in the interview, you should explain it so that the interviewer knows which way you’re thinking and is able to guide you if needed. For the technical interview, some students were asked a DSA question while some weren’t, so it is better to be prepared.",
+          "category": "Technical preparation",
+          "page": 2
+        },
+        {
+          "text": "Practice Strivers Sheets for DSA problems (either A to Z or the 79 sheet). Use A to Z to learn all the concepts and the 79 sheet for harder problems + revision.",
+          "category": "Coding preparation",
+          "page": 3
+        },
+        {
+          "text": "Practice aptitude questions as well as logical puzzles as some interviews require that. Use IndiaBix for aptitude tests and GFG for logical puzzles",
+          "category": "OA preparation",
+          "page": 3
+        },
+        {
+          "text": "Be confident and calm in the interview, it is okay if you don’t know a concept, they don’t expect you to know everything. But do read articles on medium/blogs/content for more knowledge so that you at least have an idea about most topics",
+          "category": "Interview strategy",
+          "page": 3
+        }
+      ],
+      "resources": [
+        {
+          "title": "Strivers Sheets",
+          "url": null,
+          "description": "Use A to Z to learn all the concepts and the 79 sheet for harder problems + revision.",
+          "topic": "DSA",
+          "page": 3
+        },
+        {
+          "title": "IndiaBix",
+          "url": null,
+          "description": "Use for aptitude tests",
+          "topic": "Aptitude",
+          "page": 3
+        },
+        {
+          "title": "GFG",
+          "url": null,
+          "description": "Use for logical puzzles",
+          "topic": "Logical puzzles",
+          "page": 3
+        }
+      ],
+      "filename": "UBS_GraduateTrainee_AditiPillai.pdf",
+      "source_path": "2026/UBS_2026/UBS_GraduateTrainee_AditiPillai.pdf",
+      "pages": [
+        1,
+        2,
+        3
+      ],
+      "content_sha256": "77649f6c4fa1f508041f72c9e7e0af162909910346934a14171cd42869e95406"
+    },
+    {
+      "experience_id": "ubs_2026-2026-094f60d9-1",
+      "company": "UBS_2026",
+      "company_id": "ubs_2026",
+      "year": "2026",
+      "role": "Graduate Trainee",
+      "rounds": [
+        {
+          "name": "Online Assessment",
+          "category": "Online Assessment",
+          "description": "Consisted of aptitude questions, MCQs on core CS fundamentals (like predicting code outputs), and one key coding problem.",
+          "topics": [
+            {
+              "original": "aptitude",
+              "canonical": "Quantitative Aptitude",
+              "category": "Aptitude"
+            },
+            {
+              "original": "core CS fundamentals",
+              "canonical": "Core CS Fundamentals",
+              "category": "Other"
+            },
+            {
+              "original": "greedy",
+              "canonical": "Greedy Algorithms",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "3D DP",
+              "canonical": "3D DP",
+              "category": "Other"
+            },
+            {
+              "original": "two-pointer",
+              "canonical": "Two-Pointer",
+              "category": "Other"
+            }
+          ],
+          "questions": [],
+          "difficulty": null,
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Technical Round -1",
+          "category": "Technical Interview",
+          "description": null,
+          "topics": [
+            {
+              "original": "LLM",
+              "canonical": "LLM",
+              "category": "Other"
+            },
+            {
+              "original": "Gemini",
+              "canonical": "Gemini",
+              "category": "Other"
+            },
+            {
+              "original": "OpenAI’s Whisper model",
+              "canonical": "OpenAI’s Whisper model",
+              "category": "Other"
+            },
+            {
+              "original": "multithreading",
+              "canonical": "Operating Systems",
+              "category": "Operating systems"
+            },
+            {
+              "original": "longest palindromic substring",
+              "canonical": "Longest Palindromic Substring",
+              "category": "Other"
+            },
+            {
+              "original": "DSA in python",
+              "canonical": "Python",
+              "category": "Programming languages"
+            },
+            {
+              "original": "backend frameworks",
+              "canonical": "Backend Frameworks",
+              "category": "Other"
+            },
+            {
+              "original": "Django",
+              "canonical": "Django",
+              "category": "Other"
+            },
+            {
+              "original": "FastAPI",
+              "canonical": "FastAPI",
+              "category": "Other"
+            },
+            {
+              "original": "AI/ML",
+              "canonical": "AI/ML",
+              "category": "Other"
+            },
+            {
+              "original": "data integrity",
+              "canonical": "Data Integrity",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "How would you ensure that the LLM gives correct answers?",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Why Gemini over other LLMs?",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "How would you reduce the latency of Whisper for a large audio file?",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Finding the longest palindromic substring",
+              "kind": "coding",
+              "page": 2
+            },
+            {
+              "text": "Why DSA in python and not other languages?",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "How I would maintain data integrity in one of my projects.",
+              "kind": "technical",
+              "page": 2
+            }
+          ],
+          "difficulty": "medium",
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "HR Round",
+          "category": "HR Interview",
+          "description": null,
+          "topics": [],
+          "questions": [
+            {
+              "text": "Simple background check about my family and whether I am fine with relocation or not.",
+              "kind": "hr",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "Participating in the hackathon not only helped us connect with amazing peers and mentors but also gave me valuable insights into real-world problem-solving and what companies like UBS look for in candidates. If you ever get such opportunities, DO NOT MISS IT.",
+          "category": "Interview strategy",
+          "page": 1
+        },
+        {
+          "text": "See, HR interviews may seem simple but you need to understand and play safe here, as this is also the round where you have a lot to lose. So don’t take it lightly and be well prepared with your answers. Stick with a genuine smile throughout the interviews, so even if you make a mistake, accepting that mistake with a smile would give a much better impression than pointlessly being fixated on that point.",
+          "category": "HR preparation",
+          "page": 2
+        },
+        {
+          "text": "You won’t necessarily face the same questions that your seniors or peers did. Your interview will mostly be based on your resume and your college journey. So it's okay if you feel you don’t know the answer to a question that was asked to someone else. Just accept it you don’t know with a smile rather than justifying it.",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "Prepare well for the OAs as these have the major eliminations. CP is recommended since competition is growing now, but you need to understand one thing, doing only CP/DSA is not enough, you need to have decent projects that you can speak hours on with the interviewer.",
+          "category": "OA preparation",
+          "page": 3
+        },
+        {
+          "text": "Have a balance on everything, with little more focus to DSA since every OA involves this as the deciding factor. Give contests every week atleast twice. LC Contests are recommended more than any other.",
+          "category": "Coding preparation",
+          "page": 3
+        },
+        {
+          "text": "If you fail to clear OAs constantly, don’t beat yourself up and keep preparing well for the up-coming opportunities. Because its not your fault, sometimes the competition is too much as well.",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "Lastly, DO NOT miss such opportunities like company hackathons, sometimes they're incredibly useful and can make a big difference during placements.",
+          "category": "Interview strategy",
+          "page": 3
+        }
+      ],
+      "resources": [
+        {
+          "title": "DSA",
+          "url": null,
+          "description": "Follow Striver's A2Z DSA Sheet",
+          "topic": "DSA",
+          "page": 3
+        },
+        {
+          "title": "SQL",
+          "url": null,
+          "description": "Practice from LeetCode's Top 50 SQL Questions",
+          "topic": "SQL",
+          "page": 3
+        },
+        {
+          "title": "DBMS interview questions",
+          "url": "https://www.interviewbit.com/dbms-interview-questions/",
+          "description": "DBMS & OOPs interview questions on interviewbit were a goldmine for last min",
+          "topic": "DBMS",
+          "page": 3
+        },
+        {
+          "title": "OOPs interview questions",
+          "url": "https://www.interviewbit.com/oops-interview-questions/",
+          "description": "DBMS & OOPs interview questions on interviewbit were a goldmine for last min",
+          "topic": "OOPs",
+          "page": 3
+        },
+        {
+          "title": "Other Core Subjects (OS, CN)",
+          "url": null,
+          "description": "refer to GFG or watch one shot videos if you did not have it in the syllabus",
+          "topic": "OS, CN",
+          "page": 3
+        }
+      ],
+      "filename": "UBS_GraduateTrainee_PiyanshuGehani.pdf",
+      "source_path": "2026/UBS_2026/UBS_GraduateTrainee_PiyanshuGehani.pdf",
+      "pages": [
+        1,
+        2,
+        3
+      ],
+      "content_sha256": "094f60d9a03015c79e796ec272433d2e24ff2d1fb5d5f7892dff63d8c569a407"
+    }
+  ]
+}

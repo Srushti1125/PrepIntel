@@ -1,0 +1,720 @@
+{
+  "company_id": "workindia_2026",
+  "year": "2026",
+  "experiences": [
+    {
+      "experience_id": "workindia_2026-2026-7afe6b4b-1",
+      "company": "WorkIndia_2026",
+      "company_id": "workindia_2026",
+      "year": "2026",
+      "role": "SDE",
+      "rounds": [
+        {
+          "name": "Rapid Fire Round",
+          "category": "Online Assessment",
+          "description": "An MCQ test containing basic technical questions on Java, Python and C++, time complexity, space complexity, and output of code snippets, basic OS and CCN like deadlocks and DNS, github commands, prefix and postfix increment operators, and basic data structure questions.",
+          "topics": [
+            {
+              "original": "Java",
+              "canonical": "Java",
+              "category": "Programming languages"
+            },
+            {
+              "original": "Python",
+              "canonical": "Python",
+              "category": "Programming languages"
+            },
+            {
+              "original": "C++",
+              "canonical": "C++",
+              "category": "Programming languages"
+            },
+            {
+              "original": "OS",
+              "canonical": "Operating Systems",
+              "category": "Operating systems"
+            },
+            {
+              "original": "CCN",
+              "canonical": "CCN",
+              "category": "Other"
+            },
+            {
+              "original": "github",
+              "canonical": "Github",
+              "category": "Other"
+            },
+            {
+              "original": "data structures",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            }
+          ],
+          "questions": [],
+          "difficulty": null,
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Debugging Round",
+          "category": "Technical Interview",
+          "description": "Debugging an existing Django codebase containing an Attendance Tracker project with instructions in a README file, fixing syntax errors, and implementing an API endpoint.",
+          "topics": [
+            {
+              "original": "Django",
+              "canonical": "Django",
+              "category": "Other"
+            },
+            {
+              "original": "NodeJS",
+              "canonical": "NodeJS",
+              "category": "Other"
+            },
+            {
+              "original": "backend framework",
+              "canonical": "Backend Framework",
+              "category": "Other"
+            },
+            {
+              "original": "API development",
+              "canonical": "API development",
+              "category": "Other"
+            }
+          ],
+          "questions": [],
+          "difficulty": null,
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "DSA Round",
+          "category": "Technical Interview",
+          "description": "Coding round conducted on Google Docs with LeetCode easy and medium difficulty questions.",
+          "topics": [
+            {
+              "original": "DSA",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "Python",
+              "canonical": "Python",
+              "category": "Programming languages"
+            },
+            {
+              "original": "C++",
+              "canonical": "C++",
+              "category": "Programming languages"
+            },
+            {
+              "original": "binary search",
+              "canonical": "Sorting and Searching",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "prefix sum",
+              "canonical": "Prefix Sum",
+              "category": "Other"
+            },
+            {
+              "original": "Moore's Voting Algorithm",
+              "canonical": "Moore's Voting Algorithm",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "You are given a positive integer N. Find X such that the sum from 1 to X-1 equals the sum from X+1 to N.",
+              "kind": "coding",
+              "page": 3
+            },
+            {
+              "text": "Majority Element (LeetCode 169)",
+              "kind": "coding",
+              "page": 3
+            },
+            {
+              "text": "Find a repeating and a missing number",
+              "kind": "coding",
+              "page": 3
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2,
+            3
+          ]
+        },
+        {
+          "name": "Schema Design Round",
+          "category": "Technical Interview",
+          "description": "Problem statement of an Ecommerce Platform on google docs along with requirements, bonus requirements of implementing coupons for orders and a referral system, and writing SQL queries.",
+          "topics": [
+            {
+              "original": "Schema Design",
+              "canonical": "System Design",
+              "category": "System design"
+            },
+            {
+              "original": "SQL",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "Ecommerce Platform",
+              "canonical": "Ecommerce Platform",
+              "category": "Other"
+            },
+            {
+              "original": "normal forms",
+              "canonical": "Normal Forms",
+              "category": "Other"
+            },
+            {
+              "original": "1NF",
+              "canonical": "1NF",
+              "category": "Other"
+            },
+            {
+              "original": "JOIN",
+              "canonical": "JOIN",
+              "category": "Other"
+            },
+            {
+              "original": "ORDER BY",
+              "canonical": "ORDER BY",
+              "category": "Other"
+            },
+            {
+              "original": "LIMIT",
+              "canonical": "LIMIT",
+              "category": "Other"
+            },
+            {
+              "original": "DATEDIFF",
+              "canonical": "DATEDIFF",
+              "category": "Other"
+            },
+            {
+              "original": "CTEs",
+              "canonical": "CTEs",
+              "category": "Other"
+            }
+          ],
+          "questions": [],
+          "difficulty": null,
+          "pages": [
+            4
+          ]
+        },
+        {
+          "name": "Culture Round",
+          "category": "HR Interview",
+          "description": "Conversation about journey, passions, values, and experiences with a friendly interviewer.",
+          "topics": [
+            {
+              "original": "values",
+              "canonical": "Values",
+              "category": "Other"
+            },
+            {
+              "original": "goals",
+              "canonical": "Goals",
+              "category": "Other"
+            },
+            {
+              "original": "journey",
+              "canonical": "Journey",
+              "category": "Other"
+            },
+            {
+              "original": "internship",
+              "canonical": "Internship",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "What got you into this field? Why engineering and not any other role?",
+              "kind": "hr",
+              "page": 5
+            },
+            {
+              "text": "Tell me about your journey so far, your internship, and what you learned from your peers.",
+              "kind": "hr",
+              "page": 5
+            },
+            {
+              "text": "Lowest point in your life and academics.",
+              "kind": "hr",
+              "page": 5
+            },
+            {
+              "text": "Your family, your interests, your short- and long-term goals.",
+              "kind": "hr",
+              "page": 5
+            },
+            {
+              "text": "What do you consider as “good work”?",
+              "kind": "hr",
+              "page": 5
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            5
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "Try to prepare yourself on API development, either Django or NodeJS/ExpressJS. Also practice SQL queries from SQL 50, and learn the basics of designing schemas.",
+          "category": "Technical preparation",
+          "page": 1
+        },
+        {
+          "text": "For the resume, follow the format of Jake’s resume, and try to keep it 1 page. Properly include your experience, projects and skills, and make sure you can speak about anything that you put in your resume.",
+          "category": "Interview strategy",
+          "page": 1
+        },
+        {
+          "text": "Make sure you have a proper introduction ready, which briefly covers your education, your internship experience and high impact projects. Also, create an introduction which aligns with the company’s principles.",
+          "category": "Interview strategy",
+          "page": 2
+        },
+        {
+          "text": "If you switch languages for DSA, be clear about your reason, it's not about which language is 'better', but what helps you learn and think better.",
+          "category": "Coding preparation",
+          "page": 3
+        },
+        {
+          "text": "Make sure that you keep properly explaining the interviewer your thought process behind each and every step, and also make sure to ask doubts on things that might not be clear in the problem statement.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Explain the cardinality of each relationship you are creating (one-one, one-many, many-many).",
+          "category": "Technical preparation",
+          "page": 4
+        },
+        {
+          "text": "I would advise learning CTEs while solving SQL 50, because they are a powerful way of dividing your SQL query into manageable and easy-to-understand sequential steps.",
+          "category": "Technical preparation",
+          "page": 5
+        },
+        {
+          "text": "Don’t prepare scripted answers. Reflect on your journey, speak from the heart, and be honest. This round isn’t about checking boxes, it’s about understanding who you are and what drives you.",
+          "category": "HR preparation",
+          "page": 6
+        },
+        {
+          "text": "Have a good idea about the companies that you have interned at. The interviewer might ask certain questions like when was the company founded, or how old was your mentor in the company, not to grill you, but to verify authenticity and see how well you know your own experiences.",
+          "category": "HR preparation",
+          "page": 6
+        },
+        {
+          "text": "Craft a solid self-introduction — it's your first impression, so make it count.",
+          "category": "Interview strategy",
+          "page": 6
+        },
+        {
+          "text": "Take notes during the pre-placement talk — they can help you frame personalized questions during the interviews.",
+          "category": "Interview strategy",
+          "page": 6
+        },
+        {
+          "text": "Practice a backend framework like Django or Express — learn to set up a server, design schemas, and build basic APIs beforehand.",
+          "category": "Technical preparation",
+          "page": 6
+        },
+        {
+          "text": "Focus on mastering fundamentals and recognizing patterns, not chasing streaks or ratings.",
+          "category": "Coding preparation",
+          "page": 6
+        },
+        {
+          "text": "Use Indiabix and GFG to revise fundamentals of DBMS, OS, OOPs and CCN. DBMS is the main priority, as the interviews revolved around being able to apply the concepts you learned in DBMS.",
+          "category": "Technical preparation",
+          "page": 6
+        },
+        {
+          "text": "LeetCode’s Top 50 SQL Questions are more than enough to get a strong grip on SQL basics and variations.",
+          "category": "Technical preparation",
+          "page": 6
+        },
+        {
+          "text": "Don’t panic in interviews — it's okay to ask for help; interviewers are usually very supportive. Think aloud throughout each interview — it helps the interviewer follow your approach and gives them a chance to guide you if needed.",
+          "category": "Interview strategy",
+          "page": 6
+        }
+      ],
+      "resources": [
+        {
+          "title": "Django Masterclass : Build 9 Real World Django Projects",
+          "url": null,
+          "description": "A Django course on Udemy",
+          "topic": "Django",
+          "page": 6
+        },
+        {
+          "title": "Neetcode 150",
+          "url": null,
+          "description": null,
+          "topic": "DSA",
+          "page": 6
+        },
+        {
+          "title": "Striver’s A2Z DSA sheet",
+          "url": null,
+          "description": null,
+          "topic": "DSA",
+          "page": 6
+        },
+        {
+          "title": "Indiabix",
+          "url": null,
+          "description": null,
+          "topic": "DBMS, OS, OOPs and CCN",
+          "page": 6
+        },
+        {
+          "title": "GFG",
+          "url": null,
+          "description": null,
+          "topic": "DBMS, OS, OOPs and CCN",
+          "page": 6
+        },
+        {
+          "title": "LeetCode’s Top 50 SQL Questions",
+          "url": null,
+          "description": null,
+          "topic": "SQL",
+          "page": 6
+        }
+      ],
+      "filename": "WorkIndia_SDE_MananKher.pdf",
+      "source_path": "2026/WorkIndia_2026/WorkIndia_SDE_MananKher.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "content_sha256": "7afe6b4b0c4b7655f1345dcce2082338ff6fdb73f22d5a3e21ea73ac4f652e96"
+    },
+    {
+      "experience_id": "workindia_2026-2026-fbbe89bc-1",
+      "company": "WorkIndia_2026",
+      "company_id": "workindia_2026",
+      "year": "2026",
+      "role": "SDE-Intern",
+      "rounds": [
+        {
+          "name": "Rapid Fire Round",
+          "category": "Other",
+          "description": "Attempt 40-50 questions in a 15 minute window where both accuracy and speed were essential. Questions included time/space complexity of code snippets, calculating expected output, fundamental coding snippets in Python, CPP, and Java, and CS fundamentals like OS, CCN, and Git commands.",
+          "topics": [
+            {
+              "original": "Time/space complexity",
+              "canonical": "Time/space complexity",
+              "category": "Other"
+            },
+            {
+              "original": "OS",
+              "canonical": "Operating Systems",
+              "category": "Operating systems"
+            },
+            {
+              "original": "CCN",
+              "canonical": "CCN",
+              "category": "Other"
+            },
+            {
+              "original": "Git",
+              "canonical": "Git",
+              "category": "Other"
+            },
+            {
+              "original": "Python",
+              "canonical": "Python",
+              "category": "Programming languages"
+            },
+            {
+              "original": "CPP",
+              "canonical": "C++",
+              "category": "Programming languages"
+            },
+            {
+              "original": "Java",
+              "canonical": "Java",
+              "category": "Programming languages"
+            }
+          ],
+          "questions": [
+            {
+              "text": "What will a++ + ++a equal to if a = 10",
+              "kind": "technical",
+              "page": 1
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Debugging Round",
+          "category": "Technical Interview",
+          "description": "Debugging a Django codebase using Google, StackOverflow, and Documentation. Specific questions related to errors and general questions related to Git or the MVC folder structure were asked.",
+          "topics": [
+            {
+              "original": "Debugging",
+              "canonical": "Debugging",
+              "category": "Other"
+            },
+            {
+              "original": "Python",
+              "canonical": "Python",
+              "category": "Programming languages"
+            },
+            {
+              "original": "Django",
+              "canonical": "Django",
+              "category": "Other"
+            },
+            {
+              "original": "Flask",
+              "canonical": "Flask",
+              "category": "Other"
+            },
+            {
+              "original": "FastAPI",
+              "canonical": "FastAPI",
+              "category": "Other"
+            },
+            {
+              "original": "Git",
+              "canonical": "Git",
+              "category": "Other"
+            },
+            {
+              "original": "MVC folder structure",
+              "canonical": "MVC folder structure",
+              "category": "Other"
+            }
+          ],
+          "questions": [],
+          "difficulty": null,
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "DSA Round",
+          "category": "Technical Interview",
+          "description": null,
+          "topics": [
+            {
+              "original": "DSA",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "Python",
+              "canonical": "Python",
+              "category": "Programming languages"
+            },
+            {
+              "original": "Sorting",
+              "canonical": "Sorting and Searching",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "Cycle Sort",
+              "canonical": "Cycle Sort",
+              "category": "Other"
+            },
+            {
+              "original": "Binary Search",
+              "canonical": "Sorting and Searching",
+              "category": "DSA and coding"
+            }
+          ],
+          "questions": [
+            {
+              "text": "In a gaming tournament unique ids are to be assigned from 1 to N to N participants, there might be some invalid ids already assigned in between and we need to assign them values acc to the next smallest valid number from 1 to N.",
+              "kind": "coding",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "DBMS Round",
+          "category": "Technical Interview",
+          "description": "Brief introduction followed by designing a schema for an E-Commerce platform with entities as Users, Products, Orders, and Reviews, handling 1 to 1, 1 to N, M to N relationships, and answering 2-3 SQL queries.",
+          "topics": [
+            {
+              "original": "DBMS",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "SQL",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "Schema Design",
+              "canonical": "System Design",
+              "category": "System design"
+            },
+            {
+              "original": "MongoDB",
+              "canonical": "MongoDB",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Design a schema for an E-Commerce platforms with entities as - Users, Products, Orders and Reviews.",
+              "kind": "technical",
+              "page": 3
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            3
+          ]
+        },
+        {
+          "name": "Culture Fit Round",
+          "category": "HR Interview",
+          "description": "Feedback on the interview process, HR questions, and technical questions asked by the CTO.",
+          "topics": [
+            {
+              "original": "HR",
+              "canonical": "HR and Behavioral Questions",
+              "category": "HR and behavioral"
+            },
+            {
+              "original": "GenAI",
+              "canonical": "Generative AI",
+              "category": "Other"
+            },
+            {
+              "original": "GPU Context Switching",
+              "canonical": "GPU Context Switching",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Why cant AI replace you",
+              "kind": "hr",
+              "page": 4
+            },
+            {
+              "text": "Explain clustering in ML",
+              "kind": "technical",
+              "page": 4
+            },
+            {
+              "text": "Ghar pe kaun kaun rehta hai ? Mom Dad kya karte hai ?",
+              "kind": "hr",
+              "page": 4
+            },
+            {
+              "text": "Do u know how LLMs work ? Explain GenAI",
+              "kind": "technical",
+              "page": 4
+            },
+            {
+              "text": "What inspired you to do Engineering and kabhi aisa laga kya ki sab chhod du",
+              "kind": "hr",
+              "page": 5
+            },
+            {
+              "text": "How would you implement context switching in a GPU",
+              "kind": "technical",
+              "page": 5
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            4,
+            5
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "Think everything out loud, explain your decisions like why did i take a Set in my initial approach",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "Be thorough with Time and Space Complexity",
+          "category": "Technical preparation",
+          "page": 3
+        },
+        {
+          "text": "Ask unique questions : As one of my project was based on Kubernetes, i asked whether WorkIndia uses Kubernetes on premise or something like Cloud supported AWS EKS",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "Get SQL fundamentals sorted, preferably build an entire project with SQL as the DB and design schema yourself not by GPT, you will learn a lot and this round will be natural to you",
+          "category": "Technical preparation",
+          "page": 4
+        },
+        {
+          "text": "Ask on-spot questions relevant to how the interview progressed",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Ask unique questions",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Some preparation for HR questions can be done but be true to yourself and answer intuitively rather than creating fake scenarios",
+          "category": "HR preparation",
+          "page": 5
+        },
+        {
+          "text": "I have no clue as to why my Culture Fit Interview was so AIML focussed, might be because of my branch so no extra preparation is required for this but be prepared for surprise questions",
+          "category": "HR preparation",
+          "page": 5
+        }
+      ],
+      "resources": [
+        {
+          "title": "LinkedIN",
+          "url": "https://www.linkedin.com/in/ninad-maadhavi/",
+          "description": null,
+          "topic": null,
+          "page": 5
+        }
+      ],
+      "filename": "WorkIndia_SDE_NinadMaadhavi.pdf",
+      "source_path": "2026/WorkIndia_2026/WorkIndia_SDE_NinadMaadhavi.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "content_sha256": "fbbe89bc63b2db0a5af47a5d85b2e873c788523630f2a6ecd47c84ae230479ce"
+    }
+  ]
+}

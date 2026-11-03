@@ -1,0 +1,1343 @@
+{
+  "company_id": "quantiphi_2026",
+  "year": "2026",
+  "experiences": [
+    {
+      "experience_id": "quantiphi_2026-2026-49143c15-1",
+      "company": "Quantiphi_2026",
+      "company_id": "quantiphi_2026",
+      "year": "2026",
+      "role": "Business Analyst",
+      "rounds": [
+        {
+          "name": "Online Assessment",
+          "category": "Online Assessment",
+          "description": "The test was held on campus on unstop with rigorous proctoring. It contained 3 sections – Aptitude, Technical MCQ, and coding. Each section had a sectional timer.",
+          "topics": [
+            {
+              "original": "html",
+              "canonical": "Html",
+              "category": "Other"
+            },
+            {
+              "original": "css",
+              "canonical": "Css",
+              "category": "Other"
+            },
+            {
+              "original": "javascript",
+              "canonical": "JavaScript",
+              "category": "Programming languages"
+            },
+            {
+              "original": "java",
+              "canonical": "Java",
+              "category": "Programming languages"
+            },
+            {
+              "original": "oop",
+              "canonical": "Object-Oriented Programming",
+              "category": "OOPs"
+            },
+            {
+              "original": "dbms",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "os",
+              "canonical": "Operating Systems",
+              "category": "Operating systems"
+            },
+            {
+              "original": "graph traversal",
+              "canonical": "Graphs",
+              "category": "DSA and coding"
+            }
+          ],
+          "questions": [
+            {
+              "text": "There were 3 coding questions I don't remember all 3 but 1 was on graph traversal. You have to write input and output coding statements also.",
+              "kind": "coding",
+              "page": 1
+            }
+          ],
+          "difficulty": "moderate",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Group Discussion",
+          "category": "Group Discussion",
+          "description": "Topic was given on the spot and every group got a different topic. Our topic was – The role of social media in shaping consumer trends.",
+          "topics": [],
+          "questions": [],
+          "difficulty": null,
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Technical Interview – Round 1",
+          "category": "Technical Interview",
+          "description": "My interview started with a basic introduction and he got very interested in asking about my startup that I worked on during my 2nd and 3rd year. Then he asked about my ml project that I have worked on in one of the hackathons.",
+          "topics": [
+            {
+              "original": "startup",
+              "canonical": "Startup",
+              "category": "Other"
+            },
+            {
+              "original": "ml project",
+              "canonical": "Projects",
+              "category": "Projects"
+            }
+          ],
+          "questions": [
+            {
+              "text": "The deadline of a project is 2 weeks but tech team is not working efficiently what will you do??",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Tell the number of users you can get of your turf booking app (my startup) in the first quarter in kolkata.",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Why Quantiphi?",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "Tell me 3 projects quantiphi is working on right now.",
+              "kind": "technical",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Technical Interview – Round 2",
+          "category": "Technical Interview",
+          "description": "It was online and pretty chill. He started by asking my introduction and he was also interested in my startup work. Then he asked many questions related to python.",
+          "topics": [
+            {
+              "original": "python",
+              "canonical": "Python",
+              "category": "Programming languages"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Tell me what does quantiphi do and 3 projects",
+              "kind": "technical",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "HR Round",
+          "category": "HR Interview",
+          "description": "It was not a typical hr round . many management case based questions and guesstimates were also asked.",
+          "topics": [],
+          "questions": [
+            {
+              "text": "Where do you live and my family background?",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "How will you pitch our insurance automation tool to a law firm?",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Guess number of ev vehicles in india.",
+              "kind": "technical",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "Always start the gd – I started the gd addressing the group clearly channelised the whole flow and told the topics that would be discussed.",
+          "category": "Interview strategy",
+          "page": 1
+        },
+        {
+          "text": "Be confident and focus on your communication and presentation skills it matters a lot.",
+          "category": "HR preparation",
+          "page": 2
+        },
+        {
+          "text": "Research everything about the company what niche they work on, what projects are ongoing , their top services and products.",
+          "category": "Interview strategy",
+          "page": 2
+        },
+        {
+          "text": "You should know your resume in and out and should be able to explain everything in it.",
+          "category": "Project preparation",
+          "page": 2
+        },
+        {
+          "text": "Many factors work except your performance so don’t overthink much just give your best , one day it will pay off and you are gonna get the offer.",
+          "category": "Interview strategy",
+          "page": 2
+        }
+      ],
+      "resources": [],
+      "filename": "Quantiphi_BA_Hardik Aneja (3).pdf",
+      "source_path": "2026/Quantiphi_2026/Quantiphi_BA_Hardik Aneja (3).pdf",
+      "pages": [
+        1,
+        2
+      ],
+      "content_sha256": "49143c1557ba47894a424c68675a45359993278a11a66b1cf73421366d062982"
+    },
+    {
+      "experience_id": "quantiphi_2026-2026-5d52c433-1",
+      "company": "Quantiphi_2026",
+      "company_id": "quantiphi_2026",
+      "year": "2026",
+      "role": "Framework Engineer",
+      "rounds": [
+        {
+          "name": "OA",
+          "category": "Online Assessment",
+          "description": "Aptitude section focused heavily on seating arrangement problems (around 5-6 questions). Coding section had 3 questions to solve in 30 minutes, including the House Robber problem.",
+          "topics": [
+            {
+              "original": "seating arrangement",
+              "canonical": "Seating Arrangement",
+              "category": "Other"
+            },
+            {
+              "original": "circular seating",
+              "canonical": "Circular Seating",
+              "category": "Other"
+            },
+            {
+              "original": "linear seating",
+              "canonical": "Linear Seating",
+              "category": "Other"
+            },
+            {
+              "original": "coding",
+              "canonical": "Coding",
+              "category": "Other"
+            },
+            {
+              "original": "House Robber",
+              "canonical": "House Robber",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "House Robber problem",
+              "kind": "coding",
+              "page": 1
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Group Discussion",
+          "category": "Group Discussion",
+          "description": "Group discussion round for candidates shortlisted for Business Analyst. Topic was 9-to-5 Job vs Startup.",
+          "topics": [
+            {
+              "original": "9-to-5 Job vs Startup",
+              "canonical": "9-to-5 Job vs Startup",
+              "category": "Other"
+            }
+          ],
+          "questions": [],
+          "difficulty": null,
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "BA Round 1",
+          "category": "Technical Interview",
+          "description": "Interview covering introduction, projects like Profit View and Legal AI, market knowledge, and role alignment.",
+          "topics": [
+            {
+              "original": "projects",
+              "canonical": "Projects",
+              "category": "Projects"
+            },
+            {
+              "original": "stock market",
+              "canonical": "Stock Market",
+              "category": "Other"
+            },
+            {
+              "original": "BERT",
+              "canonical": "BERT",
+              "category": "Other"
+            },
+            {
+              "original": "PEFT",
+              "canonical": "PEFT",
+              "category": "Other"
+            },
+            {
+              "original": "Microsoft Phi-2",
+              "canonical": "Microsoft Phi-2",
+              "category": "Other"
+            },
+            {
+              "original": "market knowledge",
+              "canonical": "Market Knowledge",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Suppose you have 8 billion customers next day — how would you handle scaling, and what would be your revenue model?",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "What is the highest stock in the Indian stock market?",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Why did you integrate AI into this project?",
+              "kind": "project",
+              "page": 2
+            },
+            {
+              "text": "Which is better: AI or human intelligence?",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "The market is bad right now, which sectors would you invest in?",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "If you’re in a 3-member team (1 stock market expert, 2 developers), and the industry stakeholder wants a new feature X that clashes with your ideas — whom will you listen to?",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "How many cases are filed daily in the Mumbai High Court?",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "Why join Quantiphi as a BA when your resume shows you’re a developer?",
+              "kind": "hr",
+              "page": 3
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2,
+            3
+          ]
+        },
+        {
+          "name": "FE Round 1",
+          "category": "Technical Interview",
+          "description": "Technical interview covering basic questions like C++ vs Java, deep dive into projects, RAG, and basic DSA and SQL.",
+          "topics": [
+            {
+              "original": "C++",
+              "canonical": "C++",
+              "category": "Programming languages"
+            },
+            {
+              "original": "Java",
+              "canonical": "Java",
+              "category": "Programming languages"
+            },
+            {
+              "original": "Profit View",
+              "canonical": "Profit View",
+              "category": "Other"
+            },
+            {
+              "original": "Mark Me",
+              "canonical": "Mark Me",
+              "category": "Other"
+            },
+            {
+              "original": "Legal AI",
+              "canonical": "Legal AI",
+              "category": "Other"
+            },
+            {
+              "original": "RAG",
+              "canonical": "RAG",
+              "category": "Other"
+            },
+            {
+              "original": "Astra DB",
+              "canonical": "Astra DB",
+              "category": "Other"
+            },
+            {
+              "original": "SQL",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "DSA",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            }
+          ],
+          "questions": [
+            {
+              "text": "What is the difference between C++ and Java?",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "Given the area of a circle, find its radius.",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "Filter names ending with 'YADAV'",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "Simple joins",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "Write code to fetch live coordinates of the user without using any reference docs",
+              "kind": "coding",
+              "page": 4
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            3,
+            4
+          ]
+        },
+        {
+          "name": "FE Round 2",
+          "category": "Technical Interview",
+          "description": "Short and casual interview focusing on projects, databases, backend technologies, and standard company questions.",
+          "topics": [
+            {
+              "original": "Profit View",
+              "canonical": "Profit View",
+              "category": "Other"
+            },
+            {
+              "original": "Mark Me",
+              "canonical": "Mark Me",
+              "category": "Other"
+            },
+            {
+              "original": "databases",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "SQL",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "NoSQL",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "backend technologies",
+              "canonical": "Backend Technologies",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "What is the difference between SQL and NoSQL?",
+              "kind": "technical",
+              "page": 4
+            },
+            {
+              "text": "Why Quantiphi? Who are Quantiphi’s competitors?",
+              "kind": "hr",
+              "page": 4
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            4
+          ]
+        },
+        {
+          "name": "HR Round",
+          "category": "HR Interview",
+          "description": "Management and stakeholder interview focusing on situational questions and project flaws without mentioning projects initially.",
+          "topics": [
+            {
+              "original": "management",
+              "canonical": "Management",
+              "category": "Other"
+            },
+            {
+              "original": "stakeholders",
+              "canonical": "Stakeholders",
+              "category": "Other"
+            },
+            {
+              "original": "situational questions",
+              "canonical": "HR and Behavioral Questions",
+              "category": "HR and behavioral"
+            }
+          ],
+          "questions": [
+            {
+              "text": "If your team members are not working, how would you tackle them?",
+              "kind": "hr",
+              "page": 4
+            },
+            {
+              "text": "How would you convince stakeholders to buy your product?",
+              "kind": "hr",
+              "page": 4
+            },
+            {
+              "text": "You are linking each question to your project — what possible flaws can you detect in the project? If you knew them, what actions did you take to overcome them, and how would you still manage to retain consumers even after those problems?",
+              "kind": "hr",
+              "page": 5
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            4,
+            5
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "For serious prep, I would strongly recommend going through R.S. Aggarwal’s aptitude book, because companies are raising the bar year by year.",
+          "category": "OA preparation",
+          "page": 1
+        },
+        {
+          "text": "The interviewer was more interested in my projects because they had practical use cases and impact.",
+          "category": "Project preparation",
+          "page": 5
+        },
+        {
+          "text": "Be prepared for DSA and SQL — even if my round was light on these (just 10 minutes), that may not be the case for everyone.",
+          "category": "Technical preparation",
+          "page": 5
+        },
+        {
+          "text": "Aptitude is the real filter. Many strong students were ruled out early, including me in 2–3 companies. The level of aptitude is rising every year.",
+          "category": "OA preparation",
+          "page": 5
+        },
+        {
+          "text": "For aptitude, prepare thoroughly from R.S. Aggarwal",
+          "category": "OA preparation",
+          "page": 5
+        },
+        {
+          "text": "Have a clear end-to-end understanding of your projects — the idea, use case, challenges, and solutions. Even if you’ve adapted a project from GitHub, know it in depth as if it’s your own.",
+          "category": "Project preparation",
+          "page": 5
+        },
+        {
+          "text": "Be thorough with every word in your resume. Some interviewers will focus heavily on projects, others may focus more on fundamentals or DSA . You need to be ready for both.",
+          "category": "Interview strategy",
+          "page": 5
+        }
+      ],
+      "resources": [
+        {
+          "title": "IndiaBix",
+          "url": null,
+          "description": null,
+          "topic": "aptitude",
+          "page": 1
+        },
+        {
+          "title": "R.S. Aggarwal’s aptitude book",
+          "url": null,
+          "description": null,
+          "topic": "aptitude",
+          "page": 1
+        }
+      ],
+      "filename": "Quantiphi_FE_DeepakKumarYadav.pdf",
+      "source_path": "2026/Quantiphi_2026/Quantiphi_FE_DeepakKumarYadav.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "content_sha256": "5d52c433439d6c9819d578f52246fdadf8ead6751fe6db439d90637cf5280e3a"
+    },
+    {
+      "experience_id": "quantiphi_2026-2026-2e844227-1",
+      "company": "Quantiphi_2026",
+      "company_id": "quantiphi_2026",
+      "year": "2026",
+      "role": "Framework Engineer",
+      "rounds": [
+        {
+          "name": "Online Assessment",
+          "category": "Online Assessment",
+          "description": "The test was held on campus via Unstop with rigorous proctoring. It contained three sections – Aptitude, Technical MCQs, and Coding. Each section had a sectional timer.",
+          "topics": [
+            {
+              "original": "Aptitude",
+              "canonical": "Quantitative Aptitude",
+              "category": "Aptitude"
+            },
+            {
+              "original": "Web Development",
+              "canonical": "Web Development",
+              "category": "Other"
+            },
+            {
+              "original": "HTML",
+              "canonical": "HTML",
+              "category": "Other"
+            },
+            {
+              "original": "JavaScript",
+              "canonical": "JavaScript",
+              "category": "Programming languages"
+            },
+            {
+              "original": "OS",
+              "canonical": "Operating Systems",
+              "category": "Operating systems"
+            },
+            {
+              "original": "DBMS",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "OOPS",
+              "canonical": "Object-Oriented Programming",
+              "category": "OOPs"
+            },
+            {
+              "original": "Dynamic Programming",
+              "canonical": "Dynamic Programming",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "Dijkstra’s Algorithm",
+              "canonical": "Dijkstra’s Algorithm",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Minimum Robbing Speed – A thief wants to rob all the houses in a village. Given an array representing the number of houses in each neighborhood and the maximum amount of time (in hours) available, find the minimum speed (houses per hour) required to rob the entire village.",
+              "kind": "coding",
+              "page": 1
+            },
+            {
+              "text": "House Robber Problem – This was the classic House Robber problem from LeetCode, solvable using a standard Dynamic Programming approach.",
+              "kind": "coding",
+              "page": 2
+            },
+            {
+              "text": "Maximum Loot on Islands – Given an undirected graph of n islands, each with a loot value, and edges representing travel paths with travel times, a pirate can start from any island and visit each island at most once. The total loot is the sum of the visited islands’ values, while the total time is the sum of the travel times along the chosen path.The task was to find the maximum loot which can be solved by direct Dijkstra’s Algorithm.",
+              "kind": "coding",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            1,
+            2
+          ]
+        },
+        {
+          "name": "Technical Interview – Round 1",
+          "category": "Technical Interview",
+          "description": "The interview started with my introduction.Then the interviewer asked me about my Major Project focusing mainly on its real-world application .Next he asked me about my Internship project at TCS and asked me to explain it in detail which I have implemented using Google Cloud Platform.Then he asked me simple programming question of Checking whether a number is pallindrome or not. I have started with brute force approach and then explained the optimal one .He also asked me questions about the other projects mentioned in my resume, focusing mainly on how I implemented specific features and the reasoning behind them .Finally I asked the interviewer a question and the interview was concluded.",
+          "topics": [
+            {
+              "original": "Major Project",
+              "canonical": "Projects",
+              "category": "Projects"
+            },
+            {
+              "original": "Google Cloud Platform",
+              "canonical": "Google Cloud Platform",
+              "category": "Other"
+            },
+            {
+              "original": "Programming",
+              "canonical": "Programming",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Checking whether a number is pallindrome or not",
+              "kind": "coding",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Technical Interview – Round 2",
+          "category": "Technical Interview",
+          "description": "This interview started with a self-introduction. Then, the interviewer asked me about my internship project. He further asked about the difference between SQL and NoSQL in DBMS, followed by a discussion on normalization. After that, he asked me to design a database schema for a company with users as students, employees, teachers, and staff. His main objective was to assess my understanding of storing data in a normalized form. Next, he asked me to write a SQL query on the schema I had designed, having GROUP BY and ORDER BY operations. After this, he asked about the difference between JWT and Cookies. He then moved on to Sockets and Polling concepts. Further, he asked some basic Python questions such as the difference between lists and tuples and how multiple inheritance works in Python. Finally, he asked me about my Major Project.",
+          "topics": [
+            {
+              "original": "SQL",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "NoSQL",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "DBMS",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "normalization",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "database schema",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "GROUP BY",
+              "canonical": "GROUP BY",
+              "category": "Other"
+            },
+            {
+              "original": "ORDER BY",
+              "canonical": "ORDER BY",
+              "category": "Other"
+            },
+            {
+              "original": "JWT",
+              "canonical": "JWT",
+              "category": "Other"
+            },
+            {
+              "original": "Cookies",
+              "canonical": "Cookies",
+              "category": "Other"
+            },
+            {
+              "original": "Sockets",
+              "canonical": "Sockets",
+              "category": "Other"
+            },
+            {
+              "original": "Polling",
+              "canonical": "Polling",
+              "category": "Other"
+            },
+            {
+              "original": "Python",
+              "canonical": "Python",
+              "category": "Programming languages"
+            },
+            {
+              "original": "lists and tuples",
+              "canonical": "Lists And Tuples",
+              "category": "Other"
+            },
+            {
+              "original": "multiple inheritance",
+              "canonical": "Object-Oriented Programming",
+              "category": "OOPs"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Design a database schema for a company with users as students, employees, teachers, and staff.",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "Write a SQL query on the schema I had designed, having GROUP BY and ORDER BY operations.",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "What is the difference between SQL and NoSQL in DBMS?",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "What is the difference between JWT and Cookies?",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "Explain Sockets and Polling concepts.",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "What is the difference between lists and tuples and how multiple inheritance works in Python?",
+              "kind": "technical",
+              "page": 3
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            3
+          ]
+        },
+        {
+          "name": "HR Round",
+          "category": "HR Interview",
+          "description": "The HR round began with my self-introduction, followed by questions about my family background and where I live. Then, the interviewer asked me to pitch one of my projects of my choice in one minute as if I were pitching it to an investor. He also asked about the challenges I faced while working on that project.Next, he moved on to behavioral questions and a guesstimate question.",
+          "topics": [
+            {
+              "original": "behavioral",
+              "canonical": "HR and Behavioral Questions",
+              "category": "HR and behavioral"
+            },
+            {
+              "original": "guesstimate",
+              "canonical": "Guesstimate",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Pitch one of my projects of my choice in one minute as if I were pitching it to an investor.",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "What are the challenges I faced while working on that project?",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "If I assign you a project about which you have no prior knowledge, how would you approach it?",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "If you are assigned three tasks with tight deadlines, how would you prioritize and work on them?",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "Estimate the number of daily users on YouTube.",
+              "kind": "hr",
+              "page": 4
+            },
+            {
+              "text": "Why do you want to join Quantiphi and where do you see yourself in the next five years?",
+              "kind": "hr",
+              "page": 4
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            3,
+            4
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "Try to answer theoretical questions with real-life use cases or examples to demonstrate a deeper understanding of the topic",
+          "category": "Technical preparation",
+          "page": 3
+        },
+        {
+          "text": "Stay Positive and Believe in Yourself : The placement process can be long and stressful.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Prepare Based on Company Patterns : Go through previous interview experiences for the company you’re targeting.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Know Your Resume Inside Out : Be prepared for questions like “Why did you build this project?” or “How would you improve it further?”.",
+          "category": "Project preparation",
+          "page": 4
+        },
+        {
+          "text": "Cover Both DSA and Fundamentals : Don’t limit yourself to DSA alone. Computer fundamentals like OS, DBMS, OOPS, and Networks are equally important.",
+          "category": "Technical preparation",
+          "page": 4
+        },
+        {
+          "text": "Stay Calm During Interviews: Interviews can be nerve-wracking. Practice mock interviews with friends or seniors.",
+          "category": "Interview strategy",
+          "page": 5
+        },
+        {
+          "text": "Trust the Process and Don’t Compare : Trust God’s plan and your own journey. Failures are an unavoidable part of growth.",
+          "category": "Interview strategy",
+          "page": 5
+        }
+      ],
+      "resources": [
+        {
+          "title": "DSA",
+          "url": null,
+          "description": "Striver Sheet",
+          "topic": "DSA",
+          "page": 5
+        },
+        {
+          "title": "OOPS",
+          "url": "https://www.youtube.com/watch?v=BSVKUk58K6U&list=PL9gnSGHSqcno1G3XjUbwzXHL8_EttOuKk",
+          "description": null,
+          "topic": "OOPS",
+          "page": 5
+        },
+        {
+          "title": "DBMS",
+          "url": "https://www.youtube.com/watch?v=dl00fOOYLOM&t=39785s",
+          "description": null,
+          "topic": "DBMS",
+          "page": 5
+        },
+        {
+          "title": "Aptitude",
+          "url": "https://www.indiabix.com/",
+          "description": null,
+          "topic": "Aptitude",
+          "page": 5
+        }
+      ],
+      "filename": "Quantiphi_FE_RonakWalinjkar.pdf",
+      "source_path": "2026/Quantiphi_2026/Quantiphi_FE_RonakWalinjkar.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "content_sha256": "2e84422744fe0ef95729ec7a34da4cc62d1d60dedbed16cf8408eaf9b70d15a5"
+    },
+    {
+      "experience_id": "quantiphi_2026-2026-c2ff54d6-1",
+      "company": "Quantiphi_2026",
+      "company_id": "quantiphi_2026",
+      "year": "2026",
+      "role": "Machine Learning Engineer",
+      "rounds": [
+        {
+          "name": "OA",
+          "category": "Online Assessment",
+          "description": "We had 3 sections: Aptitude, Logical & Verbal Reasoning, CS Fundamentals, and Coding Problems.",
+          "topics": [
+            {
+              "original": "Permutations",
+              "canonical": "Permutations",
+              "category": "Other"
+            },
+            {
+              "original": "Area and Volume calculations",
+              "canonical": "Area and Volume calculations",
+              "category": "Other"
+            },
+            {
+              "original": "OOPs",
+              "canonical": "Object-Oriented Programming",
+              "category": "OOPs"
+            },
+            {
+              "original": "DBMS",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "OS",
+              "canonical": "Operating Systems",
+              "category": "Operating systems"
+            },
+            {
+              "original": "Graphs",
+              "canonical": "Graphs",
+              "category": "DSA and coding"
+            }
+          ],
+          "questions": [
+            {
+              "text": "A thief wants to rob all the houses in a village. There is an array of the number of houses in each neighbourhood and the maximum amount of time(hours) he can take. At what minimum speed in houses per hour does he need to rob to clean the entire village?",
+              "kind": "coding",
+              "page": 2
+            },
+            {
+              "text": "A question very similar to the House Robber Problem from Leetcode. It was a basic include-exclude DP problem with one if condition.",
+              "kind": "coding",
+              "page": 2
+            },
+            {
+              "text": "You are given an undirected graph of n islands, each with a loot value, and edges representing travel paths between islands with their travel times. A pirate may start from any island, traveling along available paths, and can visit each island at most once. The total loot is the sum of the visited islands' values, while the total time is the sum of the travel times along the chosen path. Find the maximum loot the pirate can collect.",
+              "kind": "coding",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            1,
+            2
+          ]
+        },
+        {
+          "name": "Technical Interview 1",
+          "category": "Technical Interview",
+          "description": "Discussed projects and technical fundamentals including normalization, polymorphism, indexing, and SQL queries.",
+          "topics": [
+            {
+              "original": "Normalization",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "Polymorphism",
+              "canonical": "Object-Oriented Programming",
+              "category": "OOPs"
+            },
+            {
+              "original": "Indexing",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "SQL",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "Windowing functions",
+              "canonical": "Windowing functions",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Why did you use this service and not the other (Postgres vs Mongo, AWS vs Azure, etc)?",
+              "kind": "project",
+              "page": 2
+            },
+            {
+              "text": "Are there any live applications that provide this service, how does your project compare to theirs?",
+              "kind": "project",
+              "page": 2
+            },
+            {
+              "text": "What changes would you make if you wanted to serve 10k users with your project?",
+              "kind": "project",
+              "page": 2
+            },
+            {
+              "text": "What purpose does this feature resolve?",
+              "kind": "project",
+              "page": 2
+            },
+            {
+              "text": "Couldn't you have simplified things this way, your approach is very inefficient.",
+              "kind": "project",
+              "page": 2
+            },
+            {
+              "text": "Do you know about normalization? What is the difference between 1NF and 3NF normalization?",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "What is polymorphism? How do we implement it?",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Can you tell me about Indexing? What are the drawbacks of Indexing?",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Write an SQL query to remove duplicate entries from a database.",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Can you do this problem without using windowing functions?",
+              "kind": "technical",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "MLE Interview 1 & 2",
+          "category": "Technical Interview",
+          "description": "Discussion focused on ML projects, fundamentals, and knowledge of ML models.",
+          "topics": [
+            {
+              "original": "Regression",
+              "canonical": "Regression",
+              "category": "Other"
+            },
+            {
+              "original": "Classification",
+              "canonical": "Classification",
+              "category": "Other"
+            },
+            {
+              "original": "Clustering",
+              "canonical": "Clustering",
+              "category": "Other"
+            },
+            {
+              "original": "Missing values",
+              "canonical": "Missing values",
+              "category": "Other"
+            },
+            {
+              "original": "Bias vs variance tradeoff",
+              "canonical": "Bias vs variance tradeoff",
+              "category": "Other"
+            },
+            {
+              "original": "Precision and recall",
+              "canonical": "Precision and recall",
+              "category": "Other"
+            },
+            {
+              "original": "Linear Regression",
+              "canonical": "Linear Regression",
+              "category": "Other"
+            },
+            {
+              "original": "Logistic Regression",
+              "canonical": "Logistic Regression",
+              "category": "Other"
+            },
+            {
+              "original": "Decision Tree",
+              "canonical": "Trees",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "Unsupervised Learning",
+              "canonical": "Unsupervised Learning",
+              "category": "Other"
+            },
+            {
+              "original": "Ensemble model",
+              "canonical": "Ensemble model",
+              "category": "Other"
+            },
+            {
+              "original": "NLP",
+              "canonical": "NLP",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "What is regression? How do you differentiate between it and classification?",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "What do you mean by clustering?",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "What will you do if your dataset has a lot of missing values?",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "Why do some models with good training accuracy have bad test accuracy?",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "What is bias vs variance tradeoff?",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "What are false positives and negatives?",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "What are precision and recall and when do they become useful?",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "What metrics did you use to judge your model and explain the significance of each metric?",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "What is Linear Regression? Is it related to Logistic regression?",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "Please explain how a Decision Tree works? Can you draw an example for us?",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "Why do we need Unsupervised Learning? Can you talk about any popular models Unsupervised Learning holds?",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "What is an ensemble model?",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "What will you do when faced with an Image based dataset.",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "The interviewer asked me if I had deployed any models?",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "He asked me if I had worked with NLP?",
+              "kind": "technical",
+              "page": 4
+            },
+            {
+              "text": "He presented to me a situation where I had a dataset of sentences that were classified as good and bad and we needed a model that could predict sentences in this manner.",
+              "kind": "technical",
+              "page": 4
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            3,
+            4
+          ]
+        },
+        {
+          "name": "HR Interview",
+          "category": "HR Interview",
+          "description": "Typical HR interview enquiring about the candidate.",
+          "topics": [],
+          "questions": [],
+          "difficulty": null,
+          "pages": [
+            4
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "Attempt the first section in multiple iterations, solving the easiest questions in the first one, then the next and so on. Time is a huge constraint here so manage it well.",
+          "category": "OA preparation",
+          "page": 1
+        },
+        {
+          "text": "DSA is extremely important but I feel like the amount of proficiency needed there is oversold. Having completed a popular problem roadmap like Strivers' SDE or Neetcode 150 will take you pretty far too.",
+          "category": "Coding preparation",
+          "page": 4
+        },
+        {
+          "text": "Try to balance out your prep: Try to allocate your time wisely and try to revise CS Fundamentals and Projects alongside DSA.",
+          "category": "Technical preparation",
+          "page": 4
+        },
+        {
+          "text": "Little buffs are fine but don’t lie and don’t write things you can’t explain in your resume.",
+          "category": "HR preparation",
+          "page": 4
+        },
+        {
+          "text": "Read Interview Experiences: You'll get to know how important which topic is for which company.",
+          "category": "Interview strategy",
+          "page": 5
+        },
+        {
+          "text": "If you’re interested in ML, try your best to work on projects and learn as much as possible. But don’t depend on college for a placement in ML. Keep trying off campus too!",
+          "category": "Project preparation",
+          "page": 5
+        },
+        {
+          "text": "Always stay calm: Never argue with the interviewer to defend your points. Always stay calm.",
+          "category": "Interview strategy",
+          "page": 5
+        },
+        {
+          "text": "Rejections: They are a part of life and you’ll face them from time to time. Don’t get disheartened.",
+          "category": "Interview strategy",
+          "page": 5
+        }
+      ],
+      "resources": [],
+      "filename": "Quantiphi_MLE_HarshDugar.pdf",
+      "source_path": "2026/Quantiphi_2026/Quantiphi_MLE_HarshDugar.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "content_sha256": "c2ff54d6e5af95118493a03e3efd0264583e94c3d7ec65b26e2862c863013328"
+    }
+  ]
+}

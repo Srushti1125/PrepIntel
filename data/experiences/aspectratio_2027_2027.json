@@ -1,0 +1,299 @@
+{
+  "company_id": "aspectratio_2027",
+  "year": "2027",
+  "experiences": [
+    {
+      "experience_id": "aspectratio_2027-2027-a5ee80f6-1",
+      "company": "AspectRatio_2027",
+      "company_id": "aspectratio_2027",
+      "year": "2027",
+      "role": "Analyst",
+      "rounds": [
+        {
+          "name": "Pen Paper Test",
+          "category": "Online Assessment",
+          "description": "The test had 2 main sections. The First section consisted of MCQs, with negative marking, involving English comprehension & puzzles. The second section was descriptive, covering percentages, ratio and proportion, time and work, clock-based questions and puzzles.",
+          "topics": [
+            {
+              "original": "English comprehension",
+              "canonical": "Verbal Ability",
+              "category": "Aptitude"
+            },
+            {
+              "original": "puzzles",
+              "canonical": "Logical Reasoning",
+              "category": "Aptitude"
+            },
+            {
+              "original": "percentages",
+              "canonical": "Percentages",
+              "category": "Other"
+            },
+            {
+              "original": "ratio and proportion",
+              "canonical": "Ratio And Proportion",
+              "category": "Other"
+            },
+            {
+              "original": "time and work",
+              "canonical": "Time And Work",
+              "category": "Other"
+            },
+            {
+              "original": "clock-based questions",
+              "canonical": "Clock-Based Questions",
+              "category": "Other"
+            }
+          ],
+          "questions": [],
+          "difficulty": "difficult",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Interview Round 1",
+          "category": "Technical Interview",
+          "description": "General questions about projects, Combinatorics and Probability, puzzles, and a guesstimate.",
+          "topics": [
+            {
+              "original": "projects",
+              "canonical": "Projects",
+              "category": "Projects"
+            },
+            {
+              "original": "Combinatorics",
+              "canonical": "Combinatorics",
+              "category": "Other"
+            },
+            {
+              "original": "Probability",
+              "canonical": "Probability",
+              "category": "Other"
+            },
+            {
+              "original": "puzzles",
+              "canonical": "Logical Reasoning",
+              "category": "Aptitude"
+            },
+            {
+              "original": "guesstimate",
+              "canonical": "Guesstimate",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "What is the probability that the sum of every row and every column in a 3x3 grid is odd? Only numbers 1-9 can be used and each number can be used exactly once",
+              "kind": "technical",
+              "page": 1
+            },
+            {
+              "text": "What would be the monthly revenue earned by a salon in Mumbai",
+              "kind": "technical",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            1,
+            2
+          ]
+        },
+        {
+          "name": "Interview Round 2",
+          "category": "Technical Interview",
+          "description": "Resume discussion, ML, Truth Table and Boolean circuit, DSA, and case study problem.",
+          "topics": [
+            {
+              "original": "unsupervised learning",
+              "canonical": "Unsupervised Learning",
+              "category": "Other"
+            },
+            {
+              "original": "K-means clustering",
+              "canonical": "K-means clustering",
+              "category": "Other"
+            },
+            {
+              "original": "Truth Table",
+              "canonical": "Truth Table",
+              "category": "Other"
+            },
+            {
+              "original": "Boolean circuit",
+              "canonical": "Boolean circuit",
+              "category": "Other"
+            },
+            {
+              "original": "logic gates",
+              "canonical": "Logic Gates",
+              "category": "Other"
+            },
+            {
+              "original": "Karnaugh Maps",
+              "canonical": "Karnaugh Maps",
+              "category": "Other"
+            },
+            {
+              "original": "data structures and algorithms",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "linear programming",
+              "canonical": "Linear Programming",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Given an array of integers, move all the zeroes to the right end while maintaining the relative order of the other elements.",
+              "kind": "coding",
+              "page": 2
+            },
+            {
+              "text": "Why this company?",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "Where do you stay in Mumbai?",
+              "kind": "hr",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "Instead of leaving a question completely blank, make sure to write down your thought process or whatever logic you believe is correct.",
+          "category": "OA preparation",
+          "page": 1
+        },
+        {
+          "text": "Spending too much time on one question is not advisable as the time available is limited.",
+          "category": "Interview strategy",
+          "page": 1
+        },
+        {
+          "text": "Waiting for an interview can be an anxious experience, so try talking to your friends to stay calm and relaxed.",
+          "category": "Interview strategy",
+          "page": 1
+        },
+        {
+          "text": "Thinking loud is the key. Constantly speak and explain to the interviewer your thought process for a problem.",
+          "category": "Interview strategy",
+          "page": 2
+        },
+        {
+          "text": "Focusing on the interview is more important than thinking about the results.",
+          "category": "Interview strategy",
+          "page": 2
+        },
+        {
+          "text": "Never think that a few questions gone wrong will end your chances. Take every question in its stride and try to stay in the present part of the interview.",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "Revising mathematics and aptitude is also important.",
+          "category": "Technical preparation",
+          "page": 3
+        },
+        {
+          "text": "Starting preparation early is always better.",
+          "category": "Coding preparation",
+          "page": 3
+        },
+        {
+          "text": "Maintaining a CGPA above 8 is advisable and it will make you eligible to apply for most of the opportunities.",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "Regular revision in topics you learn is important.",
+          "category": "Technical preparation",
+          "page": 3
+        }
+      ],
+      "resources": [
+        {
+          "title": "IndiaBix",
+          "url": null,
+          "description": null,
+          "topic": "aptitude",
+          "page": 3
+        },
+        {
+          "title": "GeeksForGeeks",
+          "url": null,
+          "description": null,
+          "topic": "aptitude",
+          "page": 3
+        },
+        {
+          "title": "Neetcode150",
+          "url": null,
+          "description": null,
+          "topic": "DSA",
+          "page": 3
+        },
+        {
+          "title": "striver's sheet",
+          "url": null,
+          "description": null,
+          "topic": "DSA",
+          "page": 3
+        },
+        {
+          "title": "GeeksforGeeks",
+          "url": null,
+          "description": null,
+          "topic": "puzzles",
+          "page": 3
+        },
+        {
+          "title": "SQL50 on Leetcode",
+          "url": null,
+          "description": null,
+          "topic": "SQL",
+          "page": 3
+        },
+        {
+          "title": "Hackerrank",
+          "url": null,
+          "description": null,
+          "topic": "SQL",
+          "page": 3
+        },
+        {
+          "title": "YT videos and online articles",
+          "url": null,
+          "description": null,
+          "topic": "CS Fundamentals",
+          "page": 3
+        },
+        {
+          "title": "DSM course in 1st year college",
+          "url": null,
+          "description": null,
+          "topic": "Digital systems",
+          "page": 3
+        }
+      ],
+      "filename": "AspectRatio_Analyst_Anirudh.pdf",
+      "source_path": "2027/Interview_Experience_2027/AspectRatio_2027/AspectRatio_Analyst_Anirudh.pdf",
+      "pages": [
+        1,
+        2,
+        3
+      ],
+      "content_sha256": "a5ee80f69040be2075c4ce41f5b06bd1070e718574ecdf0740ffd39ce02c30f4"
+    }
+  ]
+}

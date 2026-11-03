@@ -2619,6 +2619,263 @@
         4
       ],
       "content_sha256": "4704f510d7c6651ef3474349ac9126a9bef19d42f4597b68fc173710fc9f7e88"
+    },
+    {
+      "experience_id": "ofss_2026-2026-94c18160-1",
+      "company": "OFSS_2026",
+      "company_id": "ofss_2026",
+      "year": "2026",
+      "role": "Associate Consultant",
+      "rounds": [
+        {
+          "name": "Open Assessment",
+          "category": "Online Assessment",
+          "description": "Conducted on HackerRank, consisted of questions from Data Structures & Algorithms, Computer Science Fundamentals, and Aptitude & Reasoning.",
+          "topics": [
+            {
+              "original": "Arrays",
+              "canonical": "Arrays",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "Trees",
+              "canonical": "Trees",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "Computer Networks",
+              "canonical": "Computer Networks",
+              "category": "Computer networks"
+            },
+            {
+              "original": "Operating Systems",
+              "canonical": "Operating Systems",
+              "category": "Operating systems"
+            },
+            {
+              "original": "SQL",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "Logical reasoning",
+              "canonical": "Logical Reasoning",
+              "category": "Aptitude"
+            },
+            {
+              "original": "quantitative aptitude",
+              "canonical": "Quantitative Aptitude",
+              "category": "Aptitude"
+            },
+            {
+              "original": "Analytical puzzles",
+              "canonical": "Logical Reasoning",
+              "category": "Aptitude"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Based on Arrays - Easy difficulty",
+              "kind": "coding",
+              "page": 1
+            },
+            {
+              "text": "Based on Trees - Moderate difficulty",
+              "kind": "coding",
+              "page": 1
+            }
+          ],
+          "difficulty": "easy",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Technical Interview - 1",
+          "category": "Technical Interview",
+          "description": "Discussion on projects, resume skills, database design, SQL, JavaScript, Android SDK, Git, linked lists, Fibonacci numbers, Linux commands, Tableau, and certifications.",
+          "topics": [
+            {
+              "original": "Machine Learning",
+              "canonical": "Machine Learning",
+              "category": "Other"
+            },
+            {
+              "original": "Python",
+              "canonical": "Python",
+              "category": "Programming languages"
+            },
+            {
+              "original": "Java",
+              "canonical": "Java",
+              "category": "Programming languages"
+            },
+            {
+              "original": "SQL",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "Database design",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "JavaScript",
+              "canonical": "JavaScript",
+              "category": "Programming languages"
+            },
+            {
+              "original": "Android SDK",
+              "canonical": "Android SDK",
+              "category": "Other"
+            },
+            {
+              "original": "Git",
+              "canonical": "Git",
+              "category": "Other"
+            },
+            {
+              "original": "Data Structures",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "Linux",
+              "canonical": "Linux",
+              "category": "Other"
+            },
+            {
+              "original": "Tableau",
+              "canonical": "Tableau",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Why not Java?",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Why many companies still prefer Java?",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Write a function to calculate the first n Fibonacci numbers",
+              "kind": "coding",
+              "page": 2
+            },
+            {
+              "text": "Why Tableau and not Power BI?",
+              "kind": "technical",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Technical Interview - 2",
+          "category": "Technical Interview",
+          "description": "Detailed project discussion, SQL query writing with aggregate functions and GROUP BY, Python questions, and resume review.",
+          "topics": [
+            {
+              "original": "SQL",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "GROUP BY",
+              "canonical": "GROUP BY",
+              "category": "Other"
+            },
+            {
+              "original": "Python",
+              "canonical": "Python",
+              "category": "Programming languages"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Write a query involving aggregate functions and GROUP BY",
+              "kind": "technical",
+              "page": 3
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            3
+          ]
+        },
+        {
+          "name": "HR Interview",
+          "category": "HR Interview",
+          "description": "Short interview covering nationality, role details, compensation, relocation, higher studies plans, and other offers.",
+          "topics": [],
+          "questions": [
+            {
+              "text": "Confirming nationality",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "Would you be comfortable relocating to any of the mentioned work locations?",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "Are you planning to pursue higher studies?",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "Do you have any current offers or PPOs from other companies?",
+              "kind": "hr",
+              "page": 3
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            3
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "Maintain at least a 7.5 CGPA, as that tends to be the minimum eligibility criterion for most companies during campus placements.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Start preparation early and consistently to avoid unnecessary pressure toward the end.",
+          "category": "Technical preparation",
+          "page": 4
+        },
+        {
+          "text": "Show structured thinking and confidence in your answers.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Stay calm, honest, and well-versed with every little detail mentioned in your resume.",
+          "category": "Interview strategy",
+          "page": 3
+        }
+      ],
+      "resources": [],
+      "filename": "OFSS_AssociateConsultant_YashKambli.pdf",
+      "source_path": "2026/OFSS_2026/OFSS_AssociateConsultant_YashKambli.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "content_sha256": "94c18160e5677a7bbdd5581423bd3447173a58e9737e0c860c6d4faeac451bf1"
     }
   ]
 }

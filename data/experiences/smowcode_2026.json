@@ -1,0 +1,153 @@
+{
+  "company_id": "smowcode",
+  "year": "2026",
+  "experiences": [
+    {
+      "experience_id": "smowcode-2026-c71f5571-1",
+      "company": "Smowcode",
+      "company_id": "smowcode",
+      "year": "2026",
+      "role": "Business Development Executive",
+      "rounds": [
+        {
+          "name": "Resume Shortlisting",
+          "category": "Other",
+          "description": "The resume shortlisting round was conducted through a Google Form in which candidates were required to fill in details about their previous experiences, including committee involvement, internships, and key learnings.",
+          "topics": [],
+          "questions": [],
+          "difficulty": null,
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Online Interview",
+          "category": "Technical Interview",
+          "description": "An online interview conducted by the founder, conversational in nature, aiming to understand background, motivation, and alignment with the company and role.",
+          "topics": [],
+          "questions": [
+            {
+              "text": "Why were you opting for a non-technical role?",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "What did you learn from your previous internship experience?",
+              "kind": "project",
+              "page": 2
+            },
+            {
+              "text": "Where is your place of stay and when will you be able to join if selected?",
+              "kind": "hr",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            1,
+            2
+          ]
+        },
+        {
+          "name": "Offline Interview",
+          "category": "Technical Interview",
+          "description": "An in-depth and practical offline interview focusing on handling pressure, managing multiple responsibilities, and performing in a sales-oriented role.",
+          "topics": [],
+          "questions": [
+            {
+              "text": "How do you handle pressure and manage multiple responsibilities?",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "Pitch the company's product to the founder as if I were convincing a potential client.",
+              "kind": "technical",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "Prepare a strong explanation of why you are choosing the role/domain, especially if it is non-technical.",
+          "category": "HR preparation",
+          "page": 3
+        },
+        {
+          "text": "Research the company, product, and target market thoroughly.",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "Always prepare at least one suggestion or improvement idea related to the product.",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "Practice a basic sales or product pitch before the interview.",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "Be ready to discuss how you manage pressure and prioritize tasks.",
+          "category": "HR preparation",
+          "page": 4
+        },
+        {
+          "text": "Stay calm and confident during the interview.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Listen carefully to the questions before answering.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Be honest about challenges and explain how you handled them.",
+          "category": "HR preparation",
+          "page": 4
+        },
+        {
+          "text": "Ask at least one meaningful question at the end of the interview.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Maintain positive body language and clear communication.",
+          "category": "Interview strategy",
+          "page": 4
+        }
+      ],
+      "resources": [
+        {
+          "title": "Business Development",
+          "url": null,
+          "description": null,
+          "topic": "Business Development",
+          "page": 4
+        },
+        {
+          "title": "Product Management 101",
+          "url": null,
+          "description": null,
+          "topic": "Product Management",
+          "page": 4
+        }
+      ],
+      "filename": "Smowcode_BDE_Vivek_Interview_experience.pdf",
+      "source_path": "2026/Smowcode/Smowcode_BDE_Vivek_Interview_experience.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "content_sha256": "c71f55715a469a12270362c864e5d6c622e2fc05b0b1b49f244f6438654e468a"
+    }
+  ]
+}

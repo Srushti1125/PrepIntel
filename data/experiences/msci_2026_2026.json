@@ -989,6 +989,682 @@
         7
       ],
       "content_sha256": "446638039d2f594380cacfce7ffac91fb1e592b8a6d00d22eef2f47aac5bd224"
+    },
+    {
+      "experience_id": "msci_2026-2026-e557c6b5-1",
+      "company": "MSCI_2026",
+      "company_id": "msci_2026",
+      "year": "2026",
+      "role": "Technology and Data Operations Intern",
+      "rounds": [
+        {
+          "name": "Online Assessment",
+          "category": "Online Assessment",
+          "description": "On-campus online assessment conducted on HackerRank, consisting of three questions: two DSA-based and one SQL.",
+          "topics": [
+            {
+              "original": "DSA",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "SQL",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Slowest Key – LeetCode: Given a list of keypress logs as pairs (key, time), where key is an integer from 1 to 26 representing lowercase letters (1 → 'a', 2 → 'b', ..., 26 → 'z') and time is the cumulative time (in seconds) when the key was released, determine which key took the longest to press. The time taken for the first key is time[0], and for each subsequent key is time[i] - time[i-1]. Return the character that took the maximum time. It is guaranteed that this key is unique.",
+              "kind": "coding",
+              "page": 1
+            },
+            {
+              "text": "Distance Between \"programmer\" Substrings: Given a string containing exactly two non-overlapping occurrences of the word \"programmer\", possibly separated by arbitrary characters, determine the number of characters strictly between the first full \"programmer\" from the left and the last full \"programmer\" from the right.",
+              "kind": "coding",
+              "page": 1
+            },
+            {
+              "text": "Time and Amount Aggregation with Joins: The question involved 2–3 tables and tested a strong understanding of JOINs, GROUP BY, and aggregations. It required summing durations in seconds and converting them to HH:MM:SS format using functions like SEC_TO_TIME, as well as converting cumulative amounts into billions.",
+              "kind": "coding",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            1,
+            2
+          ]
+        },
+        {
+          "name": "Offline Technical Round 1",
+          "category": "Technical Interview",
+          "description": null,
+          "topics": [
+            {
+              "original": "SQL",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "DSA",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "databases",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Find user IDs of users who have ordered products from more than one category.",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "For each category, find the product that was sold the most (by total quantity ordered).",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "First Non-Repeating Character",
+              "kind": "coding",
+              "page": 4
+            },
+            {
+              "text": "Climbing Stairs",
+              "kind": "coding",
+              "page": 4
+            },
+            {
+              "text": "Encapsulation in OOP",
+              "kind": "technical",
+              "page": 4
+            },
+            {
+              "text": "Indexing in databases",
+              "kind": "technical",
+              "page": 4
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            3,
+            4
+          ]
+        },
+        {
+          "name": "Offline Technical Round 2",
+          "category": "Technical Interview",
+          "description": null,
+          "topics": [
+            {
+              "original": "generative AI",
+              "canonical": "Generative AI",
+              "category": "Other"
+            },
+            {
+              "original": "MongoDB",
+              "canonical": "MongoDB",
+              "category": "Other"
+            },
+            {
+              "original": "SQL",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "vector database",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "Qdrant",
+              "canonical": "Qdrant",
+              "category": "Other"
+            },
+            {
+              "original": "databases",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "data warehouse",
+              "canonical": "Data Warehouse",
+              "category": "Other"
+            },
+            {
+              "original": "alternate key",
+              "canonical": "Alternate Key",
+              "category": "Other"
+            },
+            {
+              "original": "time complexity",
+              "canonical": "Time Complexity",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "With AI advancing rapidly, what is the role of a developer today?",
+              "kind": "technical",
+              "page": 4
+            },
+            {
+              "text": "Difference between a database and a data warehouse",
+              "kind": "technical",
+              "page": 5
+            },
+            {
+              "text": "What an alternate key is",
+              "kind": "technical",
+              "page": 5
+            },
+            {
+              "text": "Would you choose expensive infrastructure to reduce server load time, or stick to a budget and accept slower performance?",
+              "kind": "technical",
+              "page": 5
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            4,
+            5
+          ]
+        },
+        {
+          "name": "Online HR Round",
+          "category": "HR Interview",
+          "description": null,
+          "topics": [
+            {
+              "original": "Data Science",
+              "canonical": "Data Science",
+              "category": "Other"
+            },
+            {
+              "original": "generative AI",
+              "canonical": "Generative AI",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "What I knew about MSCI",
+              "kind": "hr",
+              "page": 5
+            },
+            {
+              "text": "Whether I'd be open to working in a different domain or department",
+              "kind": "hr",
+              "page": 5
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            5
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "A strong intro is important—it sets the tone and flow of the interview. Practice it in front of someone beforehand, to make it smooth and confident.",
+          "category": "Interview strategy",
+          "page": 2
+        },
+        {
+          "text": "In college or hackathon projects, we often neglect the feasibility and scalability aspects. It's still important to have a basic theoretical understanding of these, even if you don’t have practical experience",
+          "category": "Project preparation",
+          "page": 5
+        },
+        {
+          "text": "Don’t overlook the HR round. Be well-prepared with common HR questions and think through different scenarios in advance. You won’t have much time to recollect answers during the conversation, as this round often tests your spontaneity and presence of mind",
+          "category": "HR preparation",
+          "page": 6
+        },
+        {
+          "text": "Placement is 30% luck, 70% smart work. Focus on what you can control—be well-prepared when the opportunity comes.",
+          "category": "Interview strategy",
+          "page": 6
+        },
+        {
+          "text": "Give contests and mock interviews even if you feel underprepared. They help you assess your level and improve.",
+          "category": "Interview strategy",
+          "page": 6
+        },
+        {
+          "text": "Don’t fear early failures; better to fail in practice than in interviews.",
+          "category": "Interview strategy",
+          "page": 6
+        },
+        {
+          "text": "Focus on one company at a time, give your best, and if it doesn’t work out—learn, move on, and stay resilient.",
+          "category": "Interview strategy",
+          "page": 6
+        },
+        {
+          "text": "Research the company thoroughly—memorize key facts & values but also understand their meaning and relevance to your profile.",
+          "category": "Interview strategy",
+          "page": 6
+        },
+        {
+          "text": "Soft skills are crucial. Even if my answers weren’t perfect, I spoke with confidence, used technical terms, and explained with clear, relatable examples.",
+          "category": "Interview strategy",
+          "page": 6
+        },
+        {
+          "text": "For almost a month, I reviewed past interview experiences and practiced answering questions out loud, refining them for clarity and impact",
+          "category": "Interview strategy",
+          "page": 6
+        }
+      ],
+      "resources": [
+        {
+          "title": "IndiaBix",
+          "url": null,
+          "description": "Questions are straightforward and frequently repeated. Focus on revising formulas and practicing key topics (percentages, ratios, time-distance).",
+          "topic": "OA - Aptitude",
+          "page": 7
+        },
+        {
+          "title": "Striver’s A2Z DSA Sheet",
+          "url": null,
+          "description": "Prioritize understanding patterns and logic over memorization. Covers almost all major company patterns and builds strong problem-solving skills.",
+          "topic": "DSA",
+          "page": 7
+        },
+        {
+          "title": "Pick any YouTube Lectures & GFG Notes",
+          "url": null,
+          "description": "Watch one shot, complete-topic lectures for efficient learning and take handwritten notes. Use GFG's Last Minute Notes for quick revision.",
+          "topic": "Core Subjects",
+          "page": 7
+        },
+        {
+          "title": "GFG DBMS Notes",
+          "url": null,
+          "description": "Supplement lecture notes with these for fast review.",
+          "topic": "DBMS",
+          "page": 7
+        },
+        {
+          "title": "GFG CN Notes",
+          "url": null,
+          "description": "Supplement lecture notes with these for fast review.",
+          "topic": "CN",
+          "page": 7
+        },
+        {
+          "title": "GFG OS Notes",
+          "url": null,
+          "description": "Supplement lecture notes with these for fast review.",
+          "topic": "OS",
+          "page": 7
+        },
+        {
+          "title": "Gemini",
+          "url": null,
+          "description": "Use its voice assistant feature to simulate quick mock interviews on technical topics for active recall practice.",
+          "topic": "AI Tools",
+          "page": 7
+        },
+        {
+          "title": "Perplexity",
+          "url": null,
+          "description": "A fast, reliable tool for researching company backgrounds, recent news, tech stacks, and interview experiences.",
+          "topic": "AI Tools",
+          "page": 7
+        }
+      ],
+      "filename": "MSCI_Technology&DataOperationIntern_Shubham_Karampure.pdf",
+      "source_path": "2026/MSCI_2026/MSCI_Technology&DataOperationIntern_Shubham_Karampure.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "content_sha256": "e557c6b55d66b0bd9c496a13b8bdca0b79994f77cc3a0331e6f10a2a9e308ffb"
+    },
+    {
+      "experience_id": "msci_2026-2026-9387f078-1",
+      "company": "MSCI_2026",
+      "company_id": "msci_2026",
+      "year": "2026",
+      "role": "Technology & Data Operations Intern",
+      "rounds": [
+        {
+          "name": "Online Assessment",
+          "category": "Online Assessment",
+          "description": null,
+          "topics": [
+            {
+              "original": "DSA",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "SQL",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Q1 : Given an array of integers, find the sum of elements of all possible subarrays of the array. For example, if the input array is [1, 2, 3], then the sum of all possible subarrays is 20. The subarrays are: [1], [2], [3], [1, 2], [2, 3], [1, 2, 3] Sum = 1 + 2 + 3 + 3 + 5 + 6 = 20",
+              "kind": "coding",
+              "page": 1
+            },
+            {
+              "text": "Q2 : Given an array of integers, the task was to reach the end of the array while maximizing the score based on allowed jumps. There were two jump conditions: 1. I could take one step to the immediate right, i.e., i → i+1 2. I could take a jump of length p such that p is a prime number ending with 3 (e.g., 3, 13, 23, etc.).",
+              "kind": "coding",
+              "page": 1
+            },
+            {
+              "text": "Q3: This was a SQL question involving two tables related to voter information. The goal was to return a summary of each state, showing the names of voters who voted in that state along with the number of times each voter voted. ... The question was supposed to be solved using GROUP_CONCAT()",
+              "kind": "technical",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            1,
+            2
+          ]
+        },
+        {
+          "name": "Technical Interview 1",
+          "category": "Technical Interview",
+          "description": null,
+          "topics": [
+            {
+              "original": "DSA",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "JWT",
+              "canonical": "JWT",
+              "category": "Other"
+            },
+            {
+              "original": "Authentication",
+              "canonical": "Authentication",
+              "category": "Other"
+            },
+            {
+              "original": "SQL",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Q1: Vertical Sum of a Binary Tree : The question was based on binary trees. I was asked to compute the sum of all elements in the tree that lie along the same vertical line, and return an array of sums for each vertical line.",
+              "kind": "coding",
+              "page": 2
+            },
+            {
+              "text": "Q2 : Detecting a cycle in a directed graph using Depth First Search (DFS) with two boolean arrays for visited nodes and recursion path.",
+              "kind": "coding",
+              "page": 3
+            },
+            {
+              "text": "Q1 : What is present in the JWT header structure?",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "Q2 : What is the complete authentication flow, how the token is generated, returned to the client, stored, sent in subsequent requests, and how token expiry (token window) is handled?",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "Q3 : How can we implement role-based access control?",
+              "kind": "technical",
+              "page": 3
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2,
+            3
+          ]
+        },
+        {
+          "name": "Technical Interview 2",
+          "category": "Technical Interview",
+          "description": null,
+          "topics": [
+            {
+              "original": "Graphs",
+              "canonical": "Graphs",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "Heaps",
+              "canonical": "Heaps",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "SQL",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "React",
+              "canonical": "React",
+              "category": "Other"
+            },
+            {
+              "original": "OOP",
+              "canonical": "Object-Oriented Programming",
+              "category": "OOPs"
+            }
+          ],
+          "questions": [
+            {
+              "text": "A variation of Dijkstra’s algorithm: code the solution on paper, explain why heaps are used, initialization, and overall structure.",
+              "kind": "coding",
+              "page": 3
+            },
+            {
+              "text": "SQL queries involving joins on student, subject, and department tables (medium-level and follow‑up queries).",
+              "kind": "technical",
+              "page": 4
+            },
+            {
+              "text": "React component structure, useState and useEffect hooks, Virtual DOM working and efficiency improvements.",
+              "kind": "technical",
+              "page": 4
+            },
+            {
+              "text": "OOP concepts: static keyword, singleton implementation, encapsulation, interfaces.",
+              "kind": "technical",
+              "page": 4
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            3,
+            4
+          ]
+        },
+        {
+          "name": "HR Round",
+          "category": "HR Interview",
+          "description": null,
+          "topics": [],
+          "questions": [
+            {
+              "text": "Introduce yourself",
+              "kind": "hr",
+              "page": 4
+            },
+            {
+              "text": "Mention something interesting that is not in your resume",
+              "kind": "hr",
+              "page": 4
+            },
+            {
+              "text": "What do you like to do besides tech?",
+              "kind": "hr",
+              "page": 4
+            },
+            {
+              "text": "Explain two of your projects",
+              "kind": "hr",
+              "page": 4
+            },
+            {
+              "text": "Describe a time you worked in a team",
+              "kind": "hr",
+              "page": 4
+            },
+            {
+              "text": "Do you prefer working individually or in a team?",
+              "kind": "hr",
+              "page": 4
+            },
+            {
+              "text": "Where do you see yourself in 5 years?",
+              "kind": "hr",
+              "page": 4
+            },
+            {
+              "text": "Are you planning for higher studies?",
+              "kind": "hr",
+              "page": 5
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            4,
+            5
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "Start DSA preparation early on. Try to consistently practice at least 1–2 questions every day. I personally followed Striver’s SDE Sheet, which is very well-structured and covers most interview-relevant topics.",
+          "category": "OA preparation",
+          "page": 5
+        },
+        {
+          "text": "Always try to solve questions yourself first. If you're stuck, watch the video explanation but make sure to code it yourself afterwards. Keep revising important questions and try to identify and remember common problem patterns across topics.",
+          "category": "OA preparation",
+          "page": 5
+        },
+        {
+          "text": "I started with the basics of Java. Here's a link I referred to: https://youtu.be/eIrMbAQSU34?si=_Vq7MalRpZaXJsO9",
+          "category": "Technical preparation",
+          "page": 5
+        },
+        {
+          "text": "For OOPs concepts, I followed Kunal Kushwaha’s playlist, which explains everything in a beginner-friendly manner. Additionally, I read articles on GeeksforGeeks, which helped reinforce key concepts like encapsulation, inheritance, polymorphism, and abstraction.",
+          "category": "Technical preparation",
+          "page": 5
+        },
+        {
+          "text": "For RDBMS, I watched CodeHelp by Love Babbar’s one-shot video. It covers almost all the concepts required for interviews.",
+          "category": "Technical preparation",
+          "page": 5
+        },
+        {
+          "text": "I learned the basics from W3Schools and practiced extensively on LeetCode. I completed all 50 questions from the SQL 50 list and also solved 10–15 additional medium/hard-level questions to get more comfortable.",
+          "category": "Technical preparation",
+          "page": 5
+        },
+        {
+          "text": "For OS and Computer Networks, basic articles from GeeksforGeeks are more than enough. Focus on understanding concepts like process/thread, scheduling, memory management, TCP/IP, and HTTP.",
+          "category": "Technical preparation",
+          "page": 6
+        },
+        {
+          "text": "In some interviews, you're asked to design systems like a Library Management System, Parking Lot, or ATM Machine using OOPs concepts. So, be prepared to design small-scale systems applying classes, objects, inheritance, and design principles. Practice dry-running a few systems beforehand.",
+          "category": "Technical preparation",
+          "page": 6
+        },
+        {
+          "text": "Before every interview, research the company, their culture, products, and latest updates. This not only helps you frame better answers but also helps you ask relevant questions at the end of the interview, which leaves a strong impression. Prepare an introduction which basically summarizes your resume. Know your projects and your resume very thoroughly.",
+          "category": "Interview strategy",
+          "page": 6
+        }
+      ],
+      "resources": [
+        {
+          "title": "Striver’s A2Z DSA Course Sheet",
+          "url": "https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2",
+          "description": null,
+          "topic": null,
+          "page": 5
+        },
+        {
+          "title": "Java Basics Video",
+          "url": "https://youtu.be/eIrMbAQSU34?si=_Vq7MalRpZaXJsO9",
+          "description": null,
+          "topic": null,
+          "page": 5
+        },
+        {
+          "title": "Kunal Kushwaha OOPs Playlist",
+          "url": "https://youtu.be/BSVKUk58K6U?si=NQVHOYRXLAgVkir6",
+          "description": null,
+          "topic": null,
+          "page": 5
+        },
+        {
+          "title": "GeeksforGeeks OOPs Article",
+          "url": "https://www.geeksforgeeks.org/java/object-oriented-programming-oops-concept-in-java/",
+          "description": null,
+          "topic": null,
+          "page": 5
+        },
+        {
+          "title": "CodeHelp by Love Babbar RDBMS Video",
+          "url": "https://youtu.be/dl00fOOYLOM?si=IE8ak_4YztXdYTOf",
+          "description": null,
+          "topic": null,
+          "page": 5
+        },
+        {
+          "title": null,
+          "url": "https://www.w3schools.com/sql/default.asp",
+          "description": null,
+          "topic": null,
+          "page": 6
+        },
+        {
+          "title": null,
+          "url": "https://leetcode.com/studyplan/top-sql-50/",
+          "description": null,
+          "topic": null,
+          "page": 6
+        },
+        {
+          "title": "SQL Video Explanation",
+          "url": "https://youtu.be/OT1RErkfLNQ?si=1Ctjw2Ud6hQRm-X-",
+          "description": null,
+          "topic": null,
+          "page": 6
+        }
+      ],
+      "filename": "MSCI_TechnologyIntern_TanviPatil.pdf",
+      "source_path": "2026/MSCI_2026/MSCI_TechnologyIntern_TanviPatil.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "content_sha256": "9387f078adf1a2d81750e0d94aaad16239d4fe974ba628883441a6ea9e0bcca3"
     }
   ]
 }

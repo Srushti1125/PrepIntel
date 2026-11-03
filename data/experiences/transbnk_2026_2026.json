@@ -1,0 +1,476 @@
+{
+  "company_id": "transbnk_2026",
+  "year": "2026",
+  "experiences": [
+    {
+      "experience_id": "transbnk_2026-2026-0d4438a8-1",
+      "company": "TransBnk_2026",
+      "company_id": "transbnk_2026",
+      "year": "2026",
+      "role": "Software Developer (SDE)",
+      "rounds": [
+        {
+          "name": "Technical Interview",
+          "category": "Technical Interview",
+          "description": "Interview conducted by two senior developers. Covered resume, projects, internships, JWT, Java multithreading, AWS, and problem-solving questions.",
+          "topics": [
+            {
+              "original": "JWT",
+              "canonical": "JWT",
+              "category": "Other"
+            },
+            {
+              "original": "Session",
+              "canonical": "Session",
+              "category": "Other"
+            },
+            {
+              "original": "Java",
+              "canonical": "Java",
+              "category": "Programming languages"
+            },
+            {
+              "original": "multithreading",
+              "canonical": "Operating Systems",
+              "category": "Operating systems"
+            },
+            {
+              "original": "AWS",
+              "canonical": "AWS",
+              "category": "Other"
+            },
+            {
+              "original": "Missing and Repeating Number",
+              "canonical": "Missing and Repeating Number",
+              "category": "Other"
+            },
+            {
+              "original": "external merge sort",
+              "canonical": "External Merge Sort",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Explain JWT, its working, and format.",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "What is the difference between JWT and Session?",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Explain Java multithreading, its types, and working.",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Explain AWS, its services, use cases, and overall working.",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Missing and Repeating Number",
+              "kind": "coding",
+              "page": 2
+            },
+            {
+              "text": "How would you sort a file containing numbers of size 8GB when you only have 6GB RAM?",
+              "kind": "technical",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "HR Interview",
+          "category": "HR Interview",
+          "description": "Interview with the HR representative. Covered introduction, projects, internships, future goals, and behavioral questions.",
+          "topics": [
+            {
+              "original": "projects",
+              "canonical": "Projects",
+              "category": "Projects"
+            },
+            {
+              "original": "internships",
+              "canonical": "Internships",
+              "category": "Other"
+            },
+            {
+              "original": "future goals",
+              "canonical": "Future Goals",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Would you start your own venture if you had the right resources and people?",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "Why did you choose engineering and why did you pursue a diploma instead of HSC?",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "Share something that wasn’t mentioned on your resume.",
+              "kind": "hr",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "Showcase your skills on your resume and know your resume inside out. Design your resume on latex, use this template - Jake's Resume Here’s my resume for Reference - Mohit-Tech-Resume",
+          "category": "Technical preparation",
+          "page": 3
+        },
+        {
+          "text": "Maintain Good cgpa, this was one of the issues i faced a lot during placement season as i was not able to apply for around 6 companies due to low cgpa. Later when cgpa was updated after 6th sem, i was able to sit for all further companies. 8+ cgpa is completely safe but 7.5 will also allow you to sit for 90% of the companies.",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "Practice DSA way before placement starts and when placements come close, you can focus on your revision more rather than learning new skills.",
+          "category": "Coding preparation",
+          "page": 3
+        },
+        {
+          "text": "Be strong at CS-Core fundamentals and build projects which make some impact, it will surely impress interviewers.",
+          "category": "Project preparation",
+          "page": 3
+        },
+        {
+          "text": "Don't forget to attend PPTs of companies which you apply, it helps a lott to know about the company and also if you interact with presenters, they will surely remember your face during the interview.",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "Practice Guestimates ,Puzzles and Aptitude Questions beforehand.",
+          "category": "OA preparation",
+          "page": 3
+        },
+        {
+          "text": "Prepare common HR questions in advance. I had created a sheet of possible questions with my own answers, which helped me a lot. I also requested my already-placed friends to conduct mock interviews—this gave me valuable feedback and helped me self-reflect and improve.",
+          "category": "HR preparation",
+          "page": 3
+        },
+        {
+          "text": "Have Patience During Placements, If you have worked hard on your skills, you will surely get selected. Placements also involve a great deal of luck.",
+          "category": "Interview strategy",
+          "page": 3
+        }
+      ],
+      "resources": [
+        {
+          "title": "Aptitude - IndiaBix and CarrerRide",
+          "url": null,
+          "description": null,
+          "topic": "Aptitude",
+          "page": 3
+        },
+        {
+          "title": "Guestimate Playlist - Most Asked Guestimates",
+          "url": null,
+          "description": null,
+          "topic": "Guestimate",
+          "page": 3
+        },
+        {
+          "title": "Puzzles Playlist - Most Asked Puzzles",
+          "url": null,
+          "description": null,
+          "topic": "Puzzles",
+          "page": 3
+        }
+      ],
+      "filename": "TransBnk_SDE_Mohit_Jangale.pdf",
+      "source_path": "2026/TransBnk_2026/TransBnk_SDE_Mohit_Jangale.pdf",
+      "pages": [
+        2,
+        3
+      ],
+      "content_sha256": "0d4438a8f0ff0b3c7994ea5b23dfd4ed37761d6428f1668c0a85f0473999608c"
+    },
+    {
+      "experience_id": "transbnk_2026-2026-df825c2e-1",
+      "company": "TransBnk_2026",
+      "company_id": "transbnk_2026",
+      "year": "2026",
+      "role": "Software Developer",
+      "rounds": [
+        {
+          "name": "Technical Interview",
+          "category": "Technical Interview",
+          "description": "The first round was taken by a panel consisting of two interviewers and lasted around 45 minutes to 1 hour.",
+          "topics": [
+            {
+              "original": "RabbitMQ",
+              "canonical": "RabbitMQ",
+              "category": "Other"
+            },
+            {
+              "original": "OOP concepts",
+              "canonical": "Object-Oriented Programming",
+              "category": "OOPs"
+            },
+            {
+              "original": "Java",
+              "canonical": "Java",
+              "category": "Programming languages"
+            },
+            {
+              "original": "method overloading",
+              "canonical": "Method Overloading",
+              "category": "Other"
+            },
+            {
+              "original": "method overriding",
+              "canonical": "Method Overriding",
+              "category": "Other"
+            },
+            {
+              "original": "SQL",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "NoSQL databases",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "Spring Boot",
+              "canonical": "Spring Boot",
+              "category": "Other"
+            },
+            {
+              "original": "React hooks",
+              "canonical": "React hooks",
+              "category": "Other"
+            },
+            {
+              "original": "DSA",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Introduce yourself",
+              "kind": "technical",
+              "page": 1
+            },
+            {
+              "text": "Set Matrix Zeroes",
+              "kind": "coding",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            1,
+            2
+          ]
+        },
+        {
+          "name": "HR Interview",
+          "category": "HR Interview",
+          "description": "The HR round lasted around 15 to 20 minutes and mainly focused on understanding my personality, motivation, and alignment with the company culture.",
+          "topics": [],
+          "questions": [
+            {
+              "text": "Introduce yourself",
+              "kind": "hr",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Prank Round",
+          "category": "Other",
+          "description": "After the HR round, there was a funny prank round.",
+          "topics": [],
+          "questions": [],
+          "difficulty": null,
+          "pages": [
+            2
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "For project-related discussions, it’s really helpful to use the STAR method—first explain the situation your project was solving, then your role or task, the actions you took (technologies, code, concepts used), and finally the result or outcome.",
+          "category": "Project preparation",
+          "page": 2
+        },
+        {
+          "text": "Make sure to be thorough with your resume and the skills you have mentioned, because interviewers often dive deep into whatever is listed.",
+          "category": "Technical preparation",
+          "page": 2
+        },
+        {
+          "text": "When discussing projects, including details about the code and how it works can make your explanation more clear and convincing.",
+          "category": "Project preparation",
+          "page": 2
+        },
+        {
+          "text": "Be well-prepared with common HR questions, as most companies ask similar questions.",
+          "category": "HR preparation",
+          "page": 2
+        },
+        {
+          "text": "Always ask a question at the end of the interview—it shows that you are genuinely interested in learning more about the company and its culture.",
+          "category": "Interview strategy",
+          "page": 2
+        },
+        {
+          "text": "Be confident while answering; do not appear hesitant or unsure.",
+          "category": "Interview strategy",
+          "page": 2
+        },
+        {
+          "text": "Maintain a positive attitude and always have a smile on your face throughout the interview.",
+          "category": "Interview strategy",
+          "page": 2
+        },
+        {
+          "text": "Start preparing at least one month before placements to build confidence and speed.",
+          "category": "OA preparation",
+          "page": 3
+        },
+        {
+          "text": "Speak clearly and confidently during interviews. Avoid filler words and maintain a steady pace.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "While solving coding or technical problems, explain your thought process aloud.",
+          "category": "Coding preparation",
+          "page": 4
+        },
+        {
+          "text": "Pay attention to the interviewer’s questions and respond accordingly. Don’t interrupt; it shows respect and good listening skills.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Trust that everything happens for a reason. Stay calm and positive throughout the preparation and interview process.",
+          "category": "Interview strategy",
+          "page": 4
+        }
+      ],
+      "resources": [
+        {
+          "title": "IndiaBix",
+          "url": null,
+          "description": null,
+          "topic": "Aptitude",
+          "page": 3
+        },
+        {
+          "title": "FreshCareers",
+          "url": null,
+          "description": null,
+          "topic": "Aptitude",
+          "page": 3
+        },
+        {
+          "title": "Imran Sir Maths",
+          "url": null,
+          "description": null,
+          "topic": "Aptitude",
+          "page": 3
+        },
+        {
+          "title": "Last Moment Tuitions",
+          "url": null,
+          "description": null,
+          "topic": "Aptitude",
+          "page": 3
+        },
+        {
+          "title": "Striver's A2Z DSA Sheet",
+          "url": null,
+          "description": "Covers all important DSA topics systematically.",
+          "topic": "DSA",
+          "page": 3
+        },
+        {
+          "title": "Aditya Verma",
+          "url": null,
+          "description": "Offers detailed explanations and tutorials on various DSA concepts.",
+          "topic": "DSA",
+          "page": 3
+        },
+        {
+          "title": "GeeksforGeeks: Mapping from ER Model to Relational Model",
+          "url": null,
+          "description": null,
+          "topic": "SQL / Database",
+          "page": 3
+        },
+        {
+          "title": "CodeChef: ER Diagrams to Tables Practice Problems",
+          "url": null,
+          "description": null,
+          "topic": "SQL / Database",
+          "page": 3
+        },
+        {
+          "title": "DBMS Concept",
+          "url": null,
+          "description": "For Concept Revision",
+          "topic": "SQL / Database",
+          "page": 4
+        },
+        {
+          "title": "Javascript",
+          "url": null,
+          "description": null,
+          "topic": "Javascript",
+          "page": 4
+        },
+        {
+          "title": "Complete Java Programming Course",
+          "url": null,
+          "description": null,
+          "topic": "Java",
+          "page": 4
+        },
+        {
+          "title": "Geeks for Geeks",
+          "url": null,
+          "description": null,
+          "topic": "Output Guess Questions",
+          "page": 4
+        }
+      ],
+      "filename": "TransBnk_SDE_Sheeba_Shaikh.pdf",
+      "source_path": "2026/TransBnk_2026/TransBnk_SDE_Sheeba_Shaikh.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "content_sha256": "df825c2e2939eff247c1047c62567bca8a119552f8190151e5ee37fb22ced4bd"
+    }
+  ]
+}

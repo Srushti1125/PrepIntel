@@ -1,0 +1,2194 @@
+{
+  "company_id": "auxo_2027",
+  "year": "2027",
+  "experiences": [
+    {
+      "experience_id": "auxo_2027-2027-cc551b24-1",
+      "company": "Auxo_2027",
+      "company_id": "auxo_2027",
+      "year": "2027",
+      "role": "AI Engineer",
+      "rounds": [
+        {
+          "name": "Resume Shortlisting",
+          "category": "Other",
+          "description": "Application submitted via Superset job profile including resume tailored to the JD.",
+          "topics": [],
+          "questions": [],
+          "difficulty": null,
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Online Assessment",
+          "category": "Online Assessment",
+          "description": "Conducted online on campus through CodeChef platform, consisting of 28 questions (3 coding questions and 25 MCQs of Aptitude and AI/ML) in 90 minutes.",
+          "topics": [
+            {
+              "original": "Quantization",
+              "canonical": "Quantization",
+              "category": "Other"
+            },
+            {
+              "original": "GGUF",
+              "canonical": "GGUF",
+              "category": "Other"
+            },
+            {
+              "original": "Hallucinations",
+              "canonical": "Hallucinations",
+              "category": "Other"
+            },
+            {
+              "original": "Finding the Time Complexity",
+              "canonical": "Finding the Time Complexity",
+              "category": "Other"
+            },
+            {
+              "original": "Prompting",
+              "canonical": "Prompting",
+              "category": "Other"
+            },
+            {
+              "original": "Overfitting, Underfitting, Bias/Variance",
+              "canonical": "Overfitting, Underfitting, Bias/Variance",
+              "category": "Other"
+            },
+            {
+              "original": "Types of ML and their identification, like Supervised Learning, Unsupervised Learning, etc.",
+              "canonical": "Types of ML and their identification, like Supervised Learning, Unsupervised Learning, etc.",
+              "category": "Other"
+            },
+            {
+              "original": "GCD",
+              "canonical": "GCD",
+              "category": "Other"
+            },
+            {
+              "original": "Context Window",
+              "canonical": "Context Window",
+              "category": "Other"
+            },
+            {
+              "original": "percentages",
+              "canonical": "Percentages",
+              "category": "Other"
+            },
+            {
+              "original": "puzzles",
+              "canonical": "Logical Reasoning",
+              "category": "Aptitude"
+            },
+            {
+              "original": "ratio questions",
+              "canonical": "Ratio Questions",
+              "category": "Other"
+            },
+            {
+              "original": "finding missing numbers",
+              "canonical": "Finding Missing Numbers",
+              "category": "Other"
+            },
+            {
+              "original": "comprehension-based questions",
+              "canonical": "Verbal Ability",
+              "category": "Aptitude"
+            },
+            {
+              "original": "logical flow",
+              "canonical": "Logical Reasoning",
+              "category": "Aptitude"
+            }
+          ],
+          "questions": [
+            {
+              "text": "If TIGER is written as QDFHS, then what would be the code for FISH?",
+              "kind": "aptitude",
+              "page": 3
+            },
+            {
+              "text": "Given a string S (of length N) and an integer K, find all the unique characters that appeared in the string at least K times (frequency >= K) sorted in ascending ASCII order.",
+              "kind": "coding",
+              "page": 4
+            },
+            {
+              "text": "Chef loves shopping and wants to buy oranges. He has only K rubles. Given N oranges with cost_i and weight_i, find the combination of oranges that maximizes the total weight without exceeding budget K for multiple test cases.",
+              "kind": "coding",
+              "page": 4
+            },
+            {
+              "text": "Reconstruct the original order of the journey from a shuffled set of travel itinerary cards containing source city, destination city, and travel cost, and calculate the total cost.",
+              "kind": "coding",
+              "page": 5
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "name": "Technical Interview 1",
+          "category": "Technical Interview",
+          "description": "Resume-intensive round focusing on internship experience, projects, and core subjects like DBMS, AI, ML, Distributed Systems, and DevOps.",
+          "topics": [
+            {
+              "original": "DBMS",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "AI",
+              "canonical": "AI",
+              "category": "Other"
+            },
+            {
+              "original": "ML",
+              "canonical": "Machine Learning",
+              "category": "Other"
+            },
+            {
+              "original": "Distributed Systems",
+              "canonical": "Distributed Systems",
+              "category": "Other"
+            },
+            {
+              "original": "DevOps",
+              "canonical": "DevOps",
+              "category": "Other"
+            },
+            {
+              "original": "Normalization",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "ACID properties",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "JOIN queries",
+              "canonical": "JOIN queries",
+              "category": "Other"
+            },
+            {
+              "original": "LangChain",
+              "canonical": "LangChain",
+              "category": "Other"
+            },
+            {
+              "original": "LangGraph",
+              "canonical": "LangGraph",
+              "category": "Other"
+            },
+            {
+              "original": "Vector Embeddings",
+              "canonical": "Vector Embeddings",
+              "category": "Other"
+            },
+            {
+              "original": "Chunking",
+              "canonical": "Chunking",
+              "category": "Other"
+            },
+            {
+              "original": "Cosine Similarity",
+              "canonical": "Cosine Similarity",
+              "category": "Other"
+            },
+            {
+              "original": "BM25",
+              "canonical": "BM25",
+              "category": "Other"
+            },
+            {
+              "original": "Reciprocal Rank Fusion (RRF)",
+              "canonical": "Reciprocal Rank Fusion (RRF)",
+              "category": "Other"
+            },
+            {
+              "original": "LLM Hallucinations",
+              "canonical": "LLM Hallucinations",
+              "category": "Other"
+            },
+            {
+              "original": "RAG and its drawbacks",
+              "canonical": "RAG and its drawbacks",
+              "category": "Other"
+            },
+            {
+              "original": "AI Personas",
+              "canonical": "AI Personas",
+              "category": "Other"
+            },
+            {
+              "original": "Context Window",
+              "canonical": "Context Window",
+              "category": "Other"
+            },
+            {
+              "original": "Agentic Workflows",
+              "canonical": "Agentic Workflows",
+              "category": "Other"
+            },
+            {
+              "original": "LLMs",
+              "canonical": "LLM",
+              "category": "Other"
+            },
+            {
+              "original": "Shared state vs separate state in LangGraph",
+              "canonical": "Shared state vs separate state in LangGraph",
+              "category": "Other"
+            },
+            {
+              "original": "Prompting",
+              "canonical": "Prompting",
+              "category": "Other"
+            },
+            {
+              "original": "Terraform",
+              "canonical": "Terraform",
+              "category": "Other"
+            },
+            {
+              "original": "CI/CD",
+              "canonical": "CI/CD",
+              "category": "Other"
+            },
+            {
+              "original": "Jenkins",
+              "canonical": "Jenkins",
+              "category": "Other"
+            },
+            {
+              "original": "Kubernetes",
+              "canonical": "Kubernetes",
+              "category": "Other"
+            },
+            {
+              "original": "SonarQube",
+              "canonical": "SonarQube",
+              "category": "Other"
+            },
+            {
+              "original": "Webhooks",
+              "canonical": "Webhooks",
+              "category": "Other"
+            },
+            {
+              "original": "Infrastructure as Code (IaC)",
+              "canonical": "Infrastructure as Code (IaC)",
+              "category": "Other"
+            },
+            {
+              "original": "Microservices vs Monolithic Architecture",
+              "canonical": "Microservices vs Monolithic Architecture",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Design a database schema and normalize it up to 3NF.",
+              "kind": "technical",
+              "page": 6
+            },
+            {
+              "text": "Explain each Normal Form.",
+              "kind": "technical",
+              "page": 6
+            },
+            {
+              "text": "What happens if we over-normalize a database? When should we stop normalizing?",
+              "kind": "technical",
+              "page": 6
+            },
+            {
+              "text": "Explain the ACID properties in detail with examples.",
+              "kind": "technical",
+              "page": 6
+            },
+            {
+              "text": "Suppose the engineer forgot to declare the Primary Key while creating the table. How would you find the Primary Key?",
+              "kind": "technical",
+              "page": 6
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            6
+          ]
+        },
+        {
+          "name": "Technical Interview 2",
+          "category": "Technical Interview",
+          "description": "Deep dive into resume and projects, distributed systems, machine learning fundamentals, and business case studies.",
+          "topics": [
+            {
+              "original": "Lamport Logical Clock",
+              "canonical": "Logical Reasoning",
+              "category": "Aptitude"
+            },
+            {
+              "original": "Ring Election Algorithm",
+              "canonical": "Ring Election Algorithm",
+              "category": "Other"
+            },
+            {
+              "original": "Leader Election Algorithm",
+              "canonical": "Leader Election Algorithm",
+              "category": "Other"
+            },
+            {
+              "original": "Load Balancing - Round Robin and other algorithms",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "Proxy Gateway",
+              "canonical": "Proxy Gateway",
+              "category": "Other"
+            },
+            {
+              "original": "Precision",
+              "canonical": "Precision",
+              "category": "Other"
+            },
+            {
+              "original": "Recall",
+              "canonical": "Recall",
+              "category": "Other"
+            },
+            {
+              "original": "True Positives",
+              "canonical": "True Positives",
+              "category": "Other"
+            },
+            {
+              "original": "False Positives",
+              "canonical": "False Positives",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Why did you choose 0.85 as the cosine similarity threshold in your project?",
+              "kind": "technical",
+              "page": 9
+            },
+            {
+              "text": "Calculate whether a new city launched by Zomato is profitable or not based on daily order volume, average order value, restaurant commission, delivery partner payout, and marketing cost.",
+              "kind": "technical",
+              "page": 10
+            },
+            {
+              "text": "How would you make this new city profitable?",
+              "kind": "technical",
+              "page": 10
+            },
+            {
+              "text": "A restaurant changed its target from Indian families to younger generations with fast-food items, but revenue started dropping. What could be the possible reasons?",
+              "kind": "technical",
+              "page": 11
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            9,
+            10,
+            11
+          ]
+        },
+        {
+          "name": "HR Round",
+          "category": "HR Interview",
+          "description": "A relaxed round with general interaction, discussing the interview process, experience, and CTC breakdown.",
+          "topics": [],
+          "questions": [],
+          "difficulty": null,
+          "pages": [
+            14
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "Tailor your resume according to the JD and try to include relevant keywords, as they help improve ATS matching.",
+          "category": "Project preparation",
+          "page": 1
+        },
+        {
+          "text": "Include relevant projects. Since this was an AI Engineer role, try to highlight AI/ML-related projects.",
+          "category": "Project preparation",
+          "page": 1
+        },
+        {
+          "text": "Do not add unnecessary jargon or mention topics that you are not completely aware of.",
+          "category": "Interview strategy",
+          "page": 1
+        },
+        {
+          "text": "Be authentic and do not add even a single false or misleading statement to your resume.",
+          "category": "Interview strategy",
+          "page": 1
+        },
+        {
+          "text": "Use Jake's resume template from Overleaf, as it is the standard resume template that is generally followed.",
+          "category": "Interview strategy",
+          "page": 1
+        },
+        {
+          "text": "If you are planning to apply for this role in the future, I would definitely recommend choosing AI as your Program Elective.",
+          "category": "Technical preparation",
+          "page": 2
+        },
+        {
+          "text": "Practice enough aptitude questions from IndiaBix.",
+          "category": "OA preparation",
+          "page": 3
+        },
+        {
+          "text": "Time management in an OA is very important, and you need to maintain a balance between solving difficult questions and moving ahead.",
+          "category": "OA preparation",
+          "page": 3
+        },
+        {
+          "text": "Dry-run the problem, write the brute-force solution if that's all you can think of, and try to pass as many test cases as possible. Partial points are always better than scoring zero.",
+          "category": "Coding preparation",
+          "page": 3
+        },
+        {
+          "text": "Read previous interview experiences, but don't assume the process or interface will be exactly the same.",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "Always read the constraints carefully before deciding on an approach.",
+          "category": "Coding preparation",
+          "page": 4
+        },
+        {
+          "text": "Know your projects inside out. Be prepared to justify every design decision because interviewers can dive really deep.",
+          "category": "Project preparation",
+          "page": 7
+        },
+        {
+          "text": "During case study interviews, you should always think aloud. Even if your initial direction is not completely correct, the interviewer can guide you.",
+          "category": "Interview strategy",
+          "page": 13
+        },
+        {
+          "text": "In HR interviews, you should generally avoid saying that you don't have any questions. You can always ask something simple related to the company, role, team, or your transition.",
+          "category": "HR preparation",
+          "page": 13
+        },
+        {
+          "text": "Keep Parkinson's Law in mind to help you make more efficient progress.",
+          "category": "Interview strategy",
+          "page": 14
+        },
+        {
+          "text": "Always do proper research. Maintain a sheet where you track companies, job roles, eligibility criteria, and your preferences.",
+          "category": "Interview strategy",
+          "page": 15
+        },
+        {
+          "text": "Do not just apply everywhere because the package looks good. Look at the role, your interests, and your long-term goals.",
+          "category": "Interview strategy",
+          "page": 15
+        },
+        {
+          "text": "Always stay optimistic. Every setback teaches you something. Keep improving yourself, keep learning, and keep moving forward.",
+          "category": "Interview strategy",
+          "page": 15
+        }
+      ],
+      "resources": [
+        {
+          "title": "NeetCode",
+          "url": "https://neetcode.io/",
+          "description": null,
+          "topic": "DSA",
+          "page": 16
+        },
+        {
+          "title": "Striver's A2Z DSA Sheet",
+          "url": "https://takeuforward.org/dsa/strivers-a2z-sheet-learn-dsa-a-to-z/",
+          "description": null,
+          "topic": "DSA",
+          "page": 16
+        },
+        {
+          "title": "LeetCode Top SQL 50",
+          "url": "https://leetcode.com/studyplan/top-sql-50/",
+          "description": null,
+          "topic": "SQL",
+          "page": 16
+        },
+        {
+          "title": "Roadmap.sh",
+          "url": "https://roadmap.sh/",
+          "description": null,
+          "topic": "Roadmaps for Different Topics",
+          "page": 16
+        },
+        {
+          "title": "IndiaBix",
+          "url": "https://www.indiabix.com/",
+          "description": null,
+          "topic": "Aptitude",
+          "page": 16
+        },
+        {
+          "title": null,
+          "url": "https://www.youtube.com/@FeelFreetoLearn",
+          "description": null,
+          "topic": "Aptitude",
+          "page": 16
+        },
+        {
+          "title": "GeeksforGeeks Top 100 Puzzles Asked in Interviews",
+          "url": "https://www.geeksforgeeks.org/aptitude/top-100-puzzles-asked-in-interviews/",
+          "description": null,
+          "topic": "Puzzles",
+          "page": 16
+        }
+      ],
+      "filename": "AUXO_AI_DEV_RAI.pdf",
+      "source_path": "2027/Interview_Experience_2027/Auxo_2027/AUXO_AI_DEV_RAI.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        13,
+        14,
+        15,
+        16
+      ],
+      "content_sha256": "cc551b245a0ef09d9994c2b655977c09bac2a5496df90f5849a348090db7657b"
+    },
+    {
+      "experience_id": "auxo_2027-2027-73468d6b-1",
+      "company": "Auxo_2027",
+      "company_id": "auxo_2027",
+      "year": "2027",
+      "role": "AI Engineer",
+      "rounds": [
+        {
+          "name": "Resume Shortlisting",
+          "category": "Other",
+          "description": "Resume-based shortlisting",
+          "topics": [],
+          "questions": [],
+          "difficulty": null,
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "OA",
+          "category": "Online Assessment",
+          "description": "Online Assessment consisting of 25 MCQs and 3 coding questions.",
+          "topics": [
+            {
+              "original": "overfitting",
+              "canonical": "Overfitting",
+              "category": "Other"
+            },
+            {
+              "original": "tokens",
+              "canonical": "Tokens",
+              "category": "Other"
+            },
+            {
+              "original": "embeddings",
+              "canonical": "Embeddings",
+              "category": "Other"
+            },
+            {
+              "original": "strings",
+              "canonical": "Strings",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "frequency",
+              "canonical": "Frequency",
+              "category": "Other"
+            },
+            {
+              "original": "0/1 knapsack",
+              "canonical": "0/1 Knapsack",
+              "category": "Other"
+            },
+            {
+              "original": "topological sort",
+              "canonical": "Topological Sort",
+              "category": "Other"
+            },
+            {
+              "original": "BFS/DFS",
+              "canonical": "BFS/DFS",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Given a string and an integer k, we had to return only the characters whose frequency was greater than or equal to k, arranged in decreasing order of frequency. Characters with the same frequency had to be sorted lexicographically and it also contained both upper and lower case characters.",
+              "kind": "coding",
+              "page": 1
+            },
+            {
+              "text": "You are given a budget of k kibbles and an array of oranges. Each orange is represented by a pair (cost, weight), where cost is the price of the orange and weight is its weight. Find the maximum possible total weight of oranges that can be bought without the total cost exceeding k.",
+              "kind": "coding",
+              "page": 2
+            },
+            {
+              "text": "The question was based on a person who had planned a trip to different cities and made postcards for each place, but the postcards got jumbled. We had to find the correct order in which the cities were to be visited, given that no city was visited twice. A travel cost was also given between two cities.",
+              "kind": "coding",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            1,
+            2
+          ]
+        },
+        {
+          "name": "Interview 1",
+          "category": "Technical Interview",
+          "description": "Discussion on projects, internships, and fundamental technical concepts in ML, NLP, DL, and SQL/DBMS.",
+          "topics": [
+            {
+              "original": "RAG",
+              "canonical": "RAG",
+              "category": "Other"
+            },
+            {
+              "original": "Lasso and Ridge Regression",
+              "canonical": "Lasso and Ridge Regression",
+              "category": "Other"
+            },
+            {
+              "original": "Ensemble Learning",
+              "canonical": "Ensemble Learning",
+              "category": "Other"
+            },
+            {
+              "original": "Random Forest",
+              "canonical": "Random Forest",
+              "category": "Other"
+            },
+            {
+              "original": "validation and testing",
+              "canonical": "Validation And Testing",
+              "category": "Other"
+            },
+            {
+              "original": "K-Fold Cross Validation",
+              "canonical": "K-Fold Cross Validation",
+              "category": "Other"
+            },
+            {
+              "original": "tokens",
+              "canonical": "Tokens",
+              "category": "Other"
+            },
+            {
+              "original": "embeddings",
+              "canonical": "Embeddings",
+              "category": "Other"
+            },
+            {
+              "original": "RNN",
+              "canonical": "RNN",
+              "category": "Other"
+            },
+            {
+              "original": "LSTM",
+              "canonical": "LSTM",
+              "category": "Other"
+            },
+            {
+              "original": "GRU",
+              "canonical": "GRU",
+              "category": "Other"
+            },
+            {
+              "original": "Transformers",
+              "canonical": "Transformers",
+              "category": "Other"
+            },
+            {
+              "original": "Attention Mechanism",
+              "canonical": "Attention Mechanism",
+              "category": "Other"
+            },
+            {
+              "original": "SQL",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "DBMS",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "joins",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "primary and foreign keys",
+              "canonical": "Primary And Foreign Keys",
+              "category": "Other"
+            },
+            {
+              "original": "CTEs",
+              "canonical": "CTEs",
+              "category": "Other"
+            },
+            {
+              "original": "normalization",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            }
+          ],
+          "questions": [],
+          "difficulty": null,
+          "pages": [
+            3
+          ]
+        },
+        {
+          "name": "Interview 2",
+          "category": "Technical Interview",
+          "description": "Technical interview including project discussions, TF-IDF, knowledge graphs, and case studies.",
+          "topics": [
+            {
+              "original": "TF-IDF",
+              "canonical": "TF-IDF",
+              "category": "Other"
+            },
+            {
+              "original": "knowledge graphs",
+              "canonical": "Graphs",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "case studies",
+              "canonical": "Case Studies",
+              "category": "Other"
+            },
+            {
+              "original": "problem-solving",
+              "canonical": "Problem Solving",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Explain TF-IDF",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "Zomato entering a new Tier-2 city profitability case study.",
+              "kind": "technical",
+              "page": 4
+            },
+            {
+              "text": "A company's profit margin had suddenly decreased, even though it had been gradually increasing before. Identify possible reasons for the sudden drop.",
+              "kind": "technical",
+              "page": 4
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            3,
+            4
+          ]
+        },
+        {
+          "name": "HR Round",
+          "category": "HR Interview",
+          "description": "Phone call informing selection for internship and full-time offer, compensation breakdown, and details.",
+          "topics": [],
+          "questions": [],
+          "difficulty": null,
+          "pages": [
+            4
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "Try to maintain a CGPA of 8.5+, as academics are an important factor in shortlisting.",
+          "category": "Interview strategy",
+          "page": 1
+        },
+        {
+          "text": "For interview know your resume well. Be prepared for any type of questions here. They will not leave any topic from your resume.",
+          "category": "Technical preparation",
+          "page": 3
+        },
+        {
+          "text": "Placement is based on a combination of luck and preparation. Work hard at the right time and stay positive throughout the placement season.",
+          "category": "Interview strategy",
+          "page": 5
+        },
+        {
+          "text": "Try to give your best in every interview. Do not get discouraged if you get rejected. Instead, judge yourself based on whether you were satisfied with your interview.",
+          "category": "Interview strategy",
+          "page": 5
+        },
+        {
+          "text": "OA: It is more about smart work than hard work. The right approach and good time management can help you clear the OA and reach the interview rounds.",
+          "category": "OA preparation",
+          "page": 5
+        },
+        {
+          "text": "Interviews: Try to make the interviewer understand and agree with your approach. Even if your final answer is not perfect, explaining your thought process clearly helps.",
+          "category": "Interview strategy",
+          "page": 5
+        },
+        {
+          "text": "DSA: Follow the Striver A-Z Sheet. Make notes for revision and keep daily targets so that you can finish the sheet fast, leaving enough time for revision. Also solve the daily LeetCode problem, and if you want to try harder questions, solve problems from CSES.",
+          "category": "Coding preparation",
+          "page": 5
+        },
+        {
+          "text": "DBMS: Solve the LeetCode SQL 50 problems. For SQL syntax and quick revision, ChatGPT can save a lot of time. For theory, watch Knowledge Gate videos or read questions on GeeksforGeeks.",
+          "category": "Technical preparation",
+          "page": 5
+        },
+        {
+          "text": "OS: A small revision is enough. You can watch a one-shot video from Knowledge Gate or revise commonly asked questions from GeeksforGeeks.",
+          "category": "Technical preparation",
+          "page": 5
+        },
+        {
+          "text": "ML/DL/NLP: Follow Krish Naik. His Udemy courses are well structured and include both theory and coding with projects.",
+          "category": "Technical preparation",
+          "page": 5
+        },
+        {
+          "text": "C++: For language-specific interview questions, follow GeeksforGeeks. Revise the concepts multiple times.",
+          "category": "Coding preparation",
+          "page": 5
+        },
+        {
+          "text": "System Design: Start with a one-shot video to understand the basics, revise the concepts using ChatGPT, and then move on to application-based system design.",
+          "category": "Technical preparation",
+          "page": 5
+        },
+        {
+          "text": "Refer to some guestimates sheet, these were asked in interviews also.",
+          "category": "Interview strategy",
+          "page": 5
+        },
+        {
+          "text": "Try to have a wide range of knowledge. If you hear about a new technology, concept, or topic, spend some time understanding it.",
+          "category": "Interview strategy",
+          "page": 5
+        }
+      ],
+      "resources": [
+        {
+          "title": "Striver A-Z Sheet",
+          "url": null,
+          "description": "Covers standard interview problems",
+          "topic": "DSA",
+          "page": 5
+        },
+        {
+          "title": "LeetCode",
+          "url": null,
+          "description": "Daily LeetCode problem and SQL 50 problems",
+          "topic": "DSA/SQL",
+          "page": 5
+        },
+        {
+          "title": "CSES",
+          "url": null,
+          "description": "For harder coding questions",
+          "topic": "DSA",
+          "page": 5
+        },
+        {
+          "title": "ChatGPT",
+          "url": null,
+          "description": "For SQL syntax, quick revision, and system design concepts",
+          "topic": "SQL/System Design",
+          "page": 5
+        },
+        {
+          "title": "Knowledge Gate",
+          "url": null,
+          "description": "Videos for DBMS theory and OS one-shot",
+          "topic": "DBMS/OS",
+          "page": 5
+        },
+        {
+          "title": "GeeksforGeeks",
+          "url": null,
+          "description": "For DBMS theory, OS questions, and C++ language-specific interview questions",
+          "topic": "DBMS/OS/C++",
+          "page": 5
+        },
+        {
+          "title": "Krish Naik",
+          "url": null,
+          "description": "YouTube channel and Udemy courses for ML/DL/NLP",
+          "topic": "ML/DL/NLP",
+          "page": 5
+        },
+        {
+          "title": "InterviewWithBunny",
+          "url": null,
+          "description": "Playlist as a structured place to start system design",
+          "topic": "System Design",
+          "page": 5
+        },
+        {
+          "title": "Piyush Garg's videos",
+          "url": null,
+          "description": "Videos explaining concepts in a simple and easy-to-understand manner",
+          "topic": null,
+          "page": 5
+        }
+      ],
+      "filename": "AUXO_AI_Harsh_Zaveri.pdf",
+      "source_path": "2027/Interview_Experience_2027/Auxo_2027/AUXO_AI_Harsh_Zaveri.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "content_sha256": "73468d6bfb32a2fbb09c22dd2c43004ffe83e7a32b1baf404afc8b183940200a"
+    },
+    {
+      "experience_id": "auxo_2027-2027-254215f3-1",
+      "company": "Auxo_2027",
+      "company_id": "auxo_2027",
+      "year": "2027",
+      "role": "AI Engineer",
+      "rounds": [
+        {
+          "name": "Online Assessment",
+          "category": "Online Assessment",
+          "description": "90 minutes duration, consisting of 25 MCQs and 3 Coding Questions. Conducted offline on CodeChef.",
+          "topics": [
+            {
+              "original": "Machine Learning",
+              "canonical": "Machine Learning",
+              "category": "Other"
+            },
+            {
+              "original": "LLMs",
+              "canonical": "LLM",
+              "category": "Other"
+            },
+            {
+              "original": "Aptitude",
+              "canonical": "Quantitative Aptitude",
+              "category": "Aptitude"
+            },
+            {
+              "original": "Analogies",
+              "canonical": "Analogies",
+              "category": "Other"
+            },
+            {
+              "original": "Coding-Decoding",
+              "canonical": "Coding-Decoding",
+              "category": "Other"
+            },
+            {
+              "original": "Ratio & Proportion",
+              "canonical": "Ratio & Proportion",
+              "category": "Other"
+            },
+            {
+              "original": "Basic logical reasoning",
+              "canonical": "Logical Reasoning",
+              "category": "Aptitude"
+            },
+            {
+              "original": "TreeMap",
+              "canonical": "TreeMap",
+              "category": "Other"
+            },
+            {
+              "original": "HashMap",
+              "canonical": "Hashing",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "2D Dynamic Programming",
+              "canonical": "Dynamic Programming",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "0/1 Knapsack",
+              "canonical": "0/1 Knapsack",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "What is a token?",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Context window/context size",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "Overfitting",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "Supervised vs Unsupervised Learning",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "General AI concepts",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "Frequency-Based String Filtering: You are given a string and an integer k. Return a new string containing only the characters whose frequency is greater than or equal to k, arranged in sorted order.",
+              "kind": "coding",
+              "page": 3
+            },
+            {
+              "text": "Maximum Weight within Budget: A person has k kibbles to spend, and you're given an array of (cost, weight) pairs for oranges. Find the maximum total weight of oranges that could be purchased without exceeding the budget.",
+              "kind": "coding",
+              "page": 3
+            },
+            {
+              "text": "Reconstruct Travel Route: Reconstruct the correct travel sequence from shuffled notes and calculate the total travel cost.",
+              "kind": "coding",
+              "page": 3
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2,
+            3
+          ]
+        },
+        {
+          "name": "Technical Interview Round 1",
+          "category": "Technical Interview",
+          "description": "40-45 mins. Started with a brief introduction and resume/project discussion (Federated Learning, Reinforcement Learning, SDE project, Small Language Model project, and internship experiences), followed by SQL questions and a guesstimate.",
+          "topics": [
+            {
+              "original": "Federated Learning",
+              "canonical": "Federated Learning",
+              "category": "Other"
+            },
+            {
+              "original": "Reinforcement Learning",
+              "canonical": "Reinforcement Learning",
+              "category": "Other"
+            },
+            {
+              "original": "Redis",
+              "canonical": "Redis",
+              "category": "Other"
+            },
+            {
+              "original": "Docker",
+              "canonical": "Docker",
+              "category": "Other"
+            },
+            {
+              "original": "Virtual Machines",
+              "canonical": "Virtual Machines",
+              "category": "Other"
+            },
+            {
+              "original": "Kubernetes",
+              "canonical": "Kubernetes",
+              "category": "Other"
+            },
+            {
+              "original": "Perplexity",
+              "canonical": "Perplexity",
+              "category": "Other"
+            },
+            {
+              "original": "Mixed Precision Training",
+              "canonical": "Mixed Precision Training",
+              "category": "Other"
+            },
+            {
+              "original": "SQL",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "JOINs",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "Primary Key vs Foreign Key",
+              "canonical": "Primary Key vs Foreign Key",
+              "category": "Other"
+            },
+            {
+              "original": "GROUP BY",
+              "canonical": "GROUP BY",
+              "category": "Other"
+            },
+            {
+              "original": "PARTITION BY",
+              "canonical": "PARTITION BY",
+              "category": "Other"
+            },
+            {
+              "original": "Guesstimates",
+              "canonical": "Guesstimates",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Why did you use Reinforcement Learning?",
+              "kind": "technical",
+              "page": 4
+            },
+            {
+              "text": "How does the RL agent work?",
+              "kind": "technical",
+              "page": 5
+            },
+            {
+              "text": "Explain the complete RL loop used in the project.",
+              "kind": "technical",
+              "page": 5
+            },
+            {
+              "text": "How does the agent improve over time?",
+              "kind": "technical",
+              "page": 5
+            },
+            {
+              "text": "Role of Redis in my project",
+              "kind": "technical",
+              "page": 5
+            },
+            {
+              "text": "Difference between Docker and Virtual Machines",
+              "kind": "technical",
+              "page": 5
+            },
+            {
+              "text": "Working of Kubernetes",
+              "kind": "technical",
+              "page": 5
+            },
+            {
+              "text": "What was the dataset format?",
+              "kind": "project",
+              "page": 5
+            },
+            {
+              "text": "Which model did you use?",
+              "kind": "project",
+              "page": 5
+            },
+            {
+              "text": "Number of model parameters",
+              "kind": "project",
+              "page": 5
+            },
+            {
+              "text": "Overall training pipeline",
+              "kind": "project",
+              "page": 5
+            },
+            {
+              "text": "What is Perplexity?",
+              "kind": "technical",
+              "page": 5
+            },
+            {
+              "text": "Why did I use Mixed Precision Training?",
+              "kind": "technical",
+              "page": 5
+            },
+            {
+              "text": "Types of JOINs",
+              "kind": "technical",
+              "page": 5
+            },
+            {
+              "text": "Primary Key vs Foreign Key",
+              "kind": "technical",
+              "page": 5
+            },
+            {
+              "text": "GROUP BY",
+              "kind": "technical",
+              "page": 5
+            },
+            {
+              "text": "PARTITION BY",
+              "kind": "technical",
+              "page": 5
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            4,
+            5
+          ]
+        },
+        {
+          "name": "Technical + Business Round",
+          "category": "Technical Interview",
+          "description": "30-40 mins. Deep dive into AI Engineering internship project, design choices, fallback mechanisms, challenges, ML projects, SLM model architecture (positional embeddings, transformer flow, training pipeline), and a business case study/guesstimate.",
+          "topics": [
+            {
+              "original": "AI Engineering",
+              "canonical": "AI Engineering",
+              "category": "Other"
+            },
+            {
+              "original": "Architecture",
+              "canonical": "Architecture",
+              "category": "Other"
+            },
+            {
+              "original": "Fallback mechanisms",
+              "canonical": "Fallback mechanisms",
+              "category": "Other"
+            },
+            {
+              "original": "Optimization technique",
+              "canonical": "Optimization technique",
+              "category": "Other"
+            },
+            {
+              "original": "Loss function",
+              "canonical": "Loss function",
+              "category": "Other"
+            },
+            {
+              "original": "Positional embeddings",
+              "canonical": "Positional embeddings",
+              "category": "Other"
+            },
+            {
+              "original": "Transformer flow",
+              "canonical": "Transformer flow",
+              "category": "Other"
+            },
+            {
+              "original": "Training pipeline",
+              "canonical": "Training pipeline",
+              "category": "Other"
+            },
+            {
+              "original": "Business case study",
+              "canonical": "Business case study",
+              "category": "Other"
+            },
+            {
+              "original": "Guesstimate",
+              "canonical": "Guesstimate",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "The complete end-to-end workflow of the system.",
+              "kind": "project",
+              "page": 7
+            },
+            {
+              "text": "Why I designed the architecture the way I did.",
+              "kind": "project",
+              "page": 7
+            },
+            {
+              "text": "What fallback mechanisms I had implemented if one component failed.",
+              "kind": "project",
+              "page": 7
+            },
+            {
+              "text": "The major challenges I faced while building the system.",
+              "kind": "project",
+              "page": 7
+            },
+            {
+              "text": "How I identified those issues and the approach I took to solve them.",
+              "kind": "project",
+              "page": 7
+            },
+            {
+              "text": "How positional embeddings are added.",
+              "kind": "technical",
+              "page": 7
+            },
+            {
+              "text": "Where were the positional embeddings introduced in the model.",
+              "kind": "technical",
+              "page": 7
+            },
+            {
+              "text": "What are positional embeddings initialized as in the pipeline",
+              "kind": "technical",
+              "page": 7
+            },
+            {
+              "text": "Overall transformer flow.",
+              "kind": "technical",
+              "page": 7
+            },
+            {
+              "text": "Training pipeline.",
+              "kind": "technical",
+              "page": 7
+            },
+            {
+              "text": "Suppose you are the founder of Uber. You want to introduce a new pricing model where every driver is paid ₹X per kilometre. How would you determine the value of X such that existing Uber drivers are satisfied with their earnings while also making the platform attractive enough for drivers working with competing companies to switch to Uber?",
+              "kind": "technical",
+              "page": 7
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            7
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "During the months of June-July, I used to pick one topic each day and revise all the problems from Striver's Sheet under that topic. ( Try not to look at the solution immediately. First, come up with brute-force, then improve ).",
+          "category": "Coding preparation",
+          "page": 1
+        },
+        {
+          "text": "If you're starting your preparation late, don't panic. Focus on giving your best instead of worrying about the time left. Divide your day into DSA, core subjects (DBMS, OS, CN, OOPs, SQL, etc.), and aptitude.",
+          "category": "Interview strategy",
+          "page": 1
+        },
+        {
+          "text": "Use AI or YouTube to find important problems under each topic, and then make sure you solve those problems completely by yourself. For remaining questions, reading the solution or watching an explanation is fine.",
+          "category": "Coding preparation",
+          "page": 1
+        },
+        {
+          "text": "Internships definitely help, but if you don't have one, make sure your projects are strong enough to demonstrate your technical skills and problem-solving ability.",
+          "category": "Project preparation",
+          "page": 1
+        },
+        {
+          "text": "Prepare concise notes in advance. Make short revision notes for every subject before the placement season starts.",
+          "category": "Technical preparation",
+          "page": 1
+        },
+        {
+          "text": "Maintain a separate aptitude formula sheet. Keep all important formulas and commonly used concepts in one place.",
+          "category": "OA preparation",
+          "page": 1
+        },
+        {
+          "text": "For SDE projects, Be prepared to explain: Database schema, REST APIs and their purpose, Why you chose your tech stack, Why you selected a particular database, Challenges faced during development, Fallback mechanisms and error handling, Possible improvements if you had to redesign the system",
+          "category": "Project preparation",
+          "page": 2
+        },
+        {
+          "text": "For ML projects : Be prepared to explain your dataset, model architecture, training pipeline, loss function, optimizer, evaluation metrics, hyperparameters, and why you chose your approach over alternative methods.",
+          "category": "Project preparation",
+          "page": 2
+        },
+        {
+          "text": "Tailor your resume according to the job description. Prioritize AI/ML based projects on your resume if you're applying for this role. Make sure your ATS score is at least 70 and add quantifiable metrics.",
+          "category": "Interview strategy",
+          "page": 2
+        },
+        {
+          "text": "Attempt the assessment on Google Chrome. Check the network connectivity beforehand.",
+          "category": "OA preparation",
+          "page": 4
+        },
+        {
+          "text": "Be prepared to justify every single technology, model, library, and term you mention on your resume.",
+          "category": "Interview strategy",
+          "page": 6
+        }
+      ],
+      "resources": [
+        {
+          "title": "SQL 50",
+          "url": null,
+          "description": "Practiced SQL 50 on leetcode",
+          "topic": "SQL",
+          "page": 8
+        },
+        {
+          "title": "Apna College's SQL One Shot",
+          "url": null,
+          "description": "For revising SQL concepts quickly",
+          "topic": "SQL",
+          "page": 8
+        },
+        {
+          "title": "Striver's DSA Sheet",
+          "url": null,
+          "description": "Primarily used for DSA preparation",
+          "topic": "DSA",
+          "page": 8
+        },
+        {
+          "title": "NeetCode",
+          "url": null,
+          "description": "Great supplementary resource for additional practice and explanations",
+          "topic": "DSA",
+          "page": 8
+        },
+        {
+          "title": "IndiaBix",
+          "url": null,
+          "description": "Practiced aptitude",
+          "topic": "Aptitude",
+          "page": 8
+        },
+        {
+          "title": "Code Step By Step YT channel",
+          "url": null,
+          "description": "Practiced aptitude",
+          "topic": "Aptitude",
+          "page": 8
+        },
+        {
+          "title": "GeeksforGeeks Machine Learning",
+          "url": "https://www.geeksforgeeks.org/machine-learning/machine-learning/",
+          "description": "For ML preparation",
+          "topic": "ML",
+          "page": 8
+        },
+        {
+          "title": "Medium blogs",
+          "url": null,
+          "description": "For reading in detail about transformers and all",
+          "topic": "ML",
+          "page": 8
+        }
+      ],
+      "filename": "AUXO_AI_Namrata_Dalvi.pdf",
+      "source_path": "2027/Interview_Experience_2027/Auxo_2027/AUXO_AI_Namrata_Dalvi.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "content_sha256": "254215f362a9818e26d9132129bac6137d088805df3da64980c21cc1e4ba9c7d"
+    },
+    {
+      "experience_id": "auxo_2027-2027-9b4a175d-1",
+      "company": "Auxo_2027",
+      "company_id": "auxo_2027",
+      "year": "2027",
+      "role": "AI Engineer",
+      "rounds": [
+        {
+          "name": "Resume Shortlisting",
+          "category": "Other",
+          "description": "Resume Shortlisting - (approx 200 students appeared)",
+          "topics": [],
+          "questions": [],
+          "difficulty": null,
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Online Assessment",
+          "category": "Online Assessment",
+          "description": "The OA was conducted on Codechef and consisted of 28 questions covering DSA, Machine Learning, and Aptitude.",
+          "topics": [
+            {
+              "original": "DSA",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "Machine Learning",
+              "canonical": "Machine Learning",
+              "category": "Other"
+            },
+            {
+              "original": "Aptitude",
+              "canonical": "Quantitative Aptitude",
+              "category": "Aptitude"
+            }
+          ],
+          "questions": [
+            {
+              "text": "A graph based question. Given a jumbled list of edges (city1,city2,cost). Each city can only be visited once. We needed to find the order of travel and also the total cost.",
+              "kind": "coding",
+              "page": 2
+            },
+            {
+              "text": "A classic 0/1 Knapsack-style DP problem.",
+              "kind": "coding",
+              "page": 2
+            },
+            {
+              "text": "Frequency related String question.",
+              "kind": "coding",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            1,
+            2
+          ]
+        },
+        {
+          "name": "Technical Round 1",
+          "category": "Technical Interview",
+          "description": "The interview began with a brief self-introduction, followed by a discussion on one of the projects mentioned in my resume, specifically my multi-agent project.",
+          "topics": [
+            {
+              "original": "Generative AI",
+              "canonical": "Generative AI",
+              "category": "Other"
+            },
+            {
+              "original": "Agentic AI",
+              "canonical": "Agentic AI",
+              "category": "Other"
+            },
+            {
+              "original": "OOPS",
+              "canonical": "Object-Oriented Programming",
+              "category": "OOPs"
+            },
+            {
+              "original": "DBMS",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            }
+          ],
+          "questions": [
+            {
+              "text": "If we give a Generative AI model access to an MCP server, does it become Agentic AI?",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Whether Agentic AI is stateful?",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "What is temperature?",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "Case study based on Zomato's business model: Determine whether the company was making a profit or a loss based on provided revenue, commission, and cost details, and suggest strategies to improve profitability.",
+              "kind": "technical",
+              "page": 3
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2,
+            3
+          ]
+        },
+        {
+          "name": "Technical Round 2",
+          "category": "Technical Interview",
+          "description": "In-depth technical round focusing on architecture, workflow, scalability, security, system design, and RAG.",
+          "topics": [
+            {
+              "original": "system design",
+              "canonical": "System Design",
+              "category": "System design"
+            },
+            {
+              "original": "RAG",
+              "canonical": "RAG",
+              "category": "Other"
+            },
+            {
+              "original": "LLM",
+              "canonical": "LLM",
+              "category": "Other"
+            },
+            {
+              "original": "backend architecture",
+              "canonical": "Backend Architecture",
+              "category": "Other"
+            },
+            {
+              "original": "scalability",
+              "canonical": "Scalability",
+              "category": "Other"
+            },
+            {
+              "original": "security",
+              "canonical": "Security",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Suppose you have a million documents. How would you efficiently retrieve the relevant information?",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "What is CI/CD?",
+              "kind": "technical",
+              "page": 4
+            },
+            {
+              "text": "What is Pydantic?",
+              "kind": "technical",
+              "page": 4
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            3,
+            4
+          ]
+        },
+        {
+          "name": "HR Round",
+          "category": "HR Interview",
+          "description": "Phone call informing selection and explaining compensation breakdown and other details.",
+          "topics": [],
+          "questions": [],
+          "difficulty": null,
+          "pages": [
+            4
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "Be patient. Be calm. Placements involve luck, and not everything is in your hands. Believe in yourself and don't let rejections dishearten you.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "During an interview, if you have any doubts or don’t understand something, don’t hesitate to ask the interviewer to clarify or repeat it.",
+          "category": "Interview strategy",
+          "page": 5
+        },
+        {
+          "text": "Be confident in your skills and study your resume thoroughly.",
+          "category": "Interview strategy",
+          "page": 5
+        },
+        {
+          "text": "For ML concepts, I would recommend the CampusX YouTube channel—it covers the fundamentals really well. Also Andrew Ng’s ML specialization certificate on Coursera is a good add-on.",
+          "category": "Technical preparation",
+          "page": 5
+        },
+        {
+          "text": "Auxo doesn’t generally ask very difficult DSA questions, but you should be comfortable with the basics. I would recommend going through Striver’s A2Z DSA Sheet and making sure you can solve the basic problems confidently. For more practice , CSES, CP31 are very good choices.",
+          "category": "Coding preparation",
+          "page": 5
+        },
+        {
+          "text": "I believe LeetCode SQL 50 is more than enough for the kind of SQL questions you’re likely to encounter.",
+          "category": "Technical preparation",
+          "page": 5
+        },
+        {
+          "text": "IndiaBix is a very good resource for aptitude preparation. You can practice questions topic-wise and get a good idea of the kind of questions commonly asked.",
+          "category": "OA preparation",
+          "page": 5
+        },
+        {
+          "text": "For system design, you can refer to YouTube channels like Gaurav Sen and ByteByteGo. They’re great for understanding the fundamentals as well as how to approach system design problems in interviews.",
+          "category": "Technical preparation",
+          "page": 5
+        }
+      ],
+      "resources": [
+        {
+          "title": "GeeksforGeeks Machine Learning MCQs",
+          "url": null,
+          "description": null,
+          "topic": "Machine Learning",
+          "page": 2
+        },
+        {
+          "title": "IndiaBix",
+          "url": null,
+          "description": null,
+          "topic": "Aptitude",
+          "page": 2
+        },
+        {
+          "title": "CampusX YouTube channel",
+          "url": null,
+          "description": null,
+          "topic": "Machine Learning",
+          "page": 5
+        },
+        {
+          "title": "Andrew Ng’s ML specialization certificate on Coursera",
+          "url": null,
+          "description": null,
+          "topic": "Machine Learning",
+          "page": 5
+        },
+        {
+          "title": "Striver’s A2Z DSA Sheet",
+          "url": null,
+          "description": null,
+          "topic": "DSA",
+          "page": 5
+        },
+        {
+          "title": "CSES",
+          "url": null,
+          "description": null,
+          "topic": "DSA",
+          "page": 5
+        },
+        {
+          "title": "CP31",
+          "url": null,
+          "description": null,
+          "topic": "DSA",
+          "page": 5
+        },
+        {
+          "title": "LeetCode SQL 50",
+          "url": null,
+          "description": null,
+          "topic": "SQL",
+          "page": 5
+        },
+        {
+          "title": "IndiaBix",
+          "url": null,
+          "description": null,
+          "topic": "Aptitude",
+          "page": 5
+        },
+        {
+          "title": "Gaurav Sen YouTube channel",
+          "url": null,
+          "description": null,
+          "topic": "System Design",
+          "page": 5
+        },
+        {
+          "title": "ByteByteGo YouTube channel",
+          "url": null,
+          "description": null,
+          "topic": "System Design",
+          "page": 5
+        }
+      ],
+      "filename": "AUXO_AI_Viraj_Salunke.pdf",
+      "source_path": "2027/Interview_Experience_2027/Auxo_2027/AUXO_AI_Viraj_Salunke.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "content_sha256": "9b4a175db91c33a6e8f7e1fb6d53802c9530134573caf4f81da83f11a9656054"
+    },
+    {
+      "experience_id": "auxo_2027-2027-a632319a-1",
+      "company": "Auxo_2027",
+      "company_id": "auxo_2027",
+      "year": "2027",
+      "role": "AI Engineer",
+      "rounds": [
+        {
+          "name": "Resume Shortlisting",
+          "category": "Other",
+          "description": "Resume shortlisting based on alignment with the job description.",
+          "topics": [],
+          "questions": [],
+          "difficulty": null,
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Online Assessment",
+          "category": "Online Assessment",
+          "description": "Conducted on campus, lasting 90 minutes. Consisted of 25 MCQs and 3 DSA coding questions.",
+          "topics": [
+            {
+              "original": "Supervised vs. Unsupervised Learning",
+              "canonical": "Supervised vs. Unsupervised Learning",
+              "category": "Other"
+            },
+            {
+              "original": "Overfitting",
+              "canonical": "Overfitting",
+              "category": "Other"
+            },
+            {
+              "original": "Tokens in LLMs",
+              "canonical": "Tokens in LLMs",
+              "category": "Other"
+            },
+            {
+              "original": "Context Window",
+              "canonical": "Context Window",
+              "category": "Other"
+            },
+            {
+              "original": "Model weight storage formats",
+              "canonical": "Model weight storage formats",
+              "category": "Other"
+            },
+            {
+              "original": "Analogies",
+              "canonical": "Analogies",
+              "category": "Other"
+            },
+            {
+              "original": "Coding-Decoding",
+              "canonical": "Coding-Decoding",
+              "category": "Other"
+            },
+            {
+              "original": "Ratio & Proportion",
+              "canonical": "Ratio & Proportion",
+              "category": "Other"
+            },
+            {
+              "original": "Basic Logical Reasoning",
+              "canonical": "Logical Reasoning",
+              "category": "Aptitude"
+            },
+            {
+              "original": "Basic String Sorting",
+              "canonical": "Sorting and Searching",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "Maximum weight within Budget",
+              "canonical": "Maximum weight within Budget",
+              "category": "Other"
+            },
+            {
+              "original": "Reconstruct Travel Route",
+              "canonical": "Reconstruct Travel Route",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Basic String Sorting: Given a string and you have to return a new string where the characters are sorted based on their frequency.",
+              "kind": "coding",
+              "page": 2
+            },
+            {
+              "text": "Maximum weight within Budget: You were given an array of (cost,weights) pairs representing oranges. The task was to find the maximum total weight of oranges that could be purchased without exceeding the given budget. This was a standard 0/1 Knapsack problem.",
+              "kind": "coding",
+              "page": 2
+            },
+            {
+              "text": "Reconstruct Travel Route: You were given shuffled travel records in the format: Mumbai Goa 500 Goa Bangalore 600 Bangalore Chennai 400. The task was to reconstruct the correct travel route and calculate the total travel cost.",
+              "kind": "coding",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            1,
+            2
+          ]
+        },
+        {
+          "name": "Technical Interview Round 1",
+          "category": "Technical Interview",
+          "description": "Started with introduction, followed by discussion on agentic AI projects, RAG implementation, optimization approaches, and handling hallucinations.",
+          "topics": [
+            {
+              "original": "agentic AI",
+              "canonical": "agentic AI",
+              "category": "Other"
+            },
+            {
+              "original": "API endpoints",
+              "canonical": "API endpoints",
+              "category": "Other"
+            },
+            {
+              "original": "RAG pipeline",
+              "canonical": "RAG pipeline",
+              "category": "Other"
+            },
+            {
+              "original": "chunk size",
+              "canonical": "Chunk Size",
+              "category": "Other"
+            },
+            {
+              "original": "vector database",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "reranking",
+              "canonical": "Reranking",
+              "category": "Other"
+            },
+            {
+              "original": "metadata filtering",
+              "canonical": "Metadata Filtering",
+              "category": "Other"
+            },
+            {
+              "original": "retrievers",
+              "canonical": "Retrievers",
+              "category": "Other"
+            },
+            {
+              "original": "LangChain",
+              "canonical": "LangChain",
+              "category": "Other"
+            },
+            {
+              "original": "hallucinations",
+              "canonical": "Hallucinations",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Explain your agentic AI project, the role of each agent, what tools you were using, the API endpoints, and how you had implemented one of the core functionalities.",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "How can you optimize that implementation?",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "How were you collecting data for the RAG pipeline, how had you implemented it, how would you decide the right chunk size, and how were you retrieving context from the vector database for the LLM?",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "How can you optimize the RAG pipeline?",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "How would you actually implement those optimizations and how libraries like LangChain handle them internally?",
+              "kind": "technical",
+              "page": 3
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2,
+            3
+          ]
+        },
+        {
+          "name": "Technical + Business Round",
+          "category": "Technical Interview",
+          "description": "Conducted by an interviewer from a consulting background. Focused on projects, tech stacks, challenges, and a case study about a restaurant.",
+          "topics": [
+            {
+              "original": "tech stack",
+              "canonical": "Stacks and Queues",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "business case study",
+              "canonical": "Business Case Study",
+              "category": "Other"
+            },
+            {
+              "original": "revenue analysis",
+              "canonical": "Revenue Analysis",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Why did you choose that particular tech stack, what functionalities the project had, and what challenges you faced while building it?",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "Case study scenario: A restaurant outside your college originally served Indian food. The owner's son took over and completely changed the menu to fast food. Students loved the new menu, there was a long queue outside the restaurant, but surprisingly, the restaurant's revenue had started decreasing. Analyze the situation and explain how you would increase the restaurant's revenue.",
+              "kind": "technical",
+              "page": 3
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            3
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "Include the skills, tools, and programming languages mentioned in the JD to improve your chances of getting shortlisted.",
+          "category": "Interview strategy",
+          "page": 1
+        },
+        {
+          "text": "Have AI/ML-related projects on your resume.",
+          "category": "Interview strategy",
+          "page": 1
+        },
+        {
+          "text": "Try to include your model accuracy, performance metrics for your projects.",
+          "category": "Interview strategy",
+          "page": 1
+        },
+        {
+          "text": "Complete an internship before the placement season begins if possible.",
+          "category": "Interview strategy",
+          "page": 1
+        },
+        {
+          "text": "Be confident while answering your questions.",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "If you don't know something, it's completely fine to say you don't know, then share how you would approach the problem instead of making up an answer.",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "Whatever technologies you mention on your resume, make sure you know them well because most of the questions will come from your own projects and tech stack.",
+          "category": "Technical preparation",
+          "page": 3
+        },
+        {
+          "text": "A smaller resume that you can confidently defend is much better than a long one where you struggle to answer questions.",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "Highlight your strengths instead, and even in your introduction, focus on the areas you're most comfortable with.",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "DSA should be your top priority. Practice DSA every single day and participate in as many contests as you can.",
+          "category": "Coding preparation",
+          "page": 4
+        },
+        {
+          "text": "Before your interviews, prepare your introduction and project explanations really well. Focus on your strengths and use the breadcrumb strategy while answering questions.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Don't give generic interview answers. Research about the company and the role beforehand.",
+          "category": "HR preparation",
+          "page": 4
+        },
+        {
+          "text": "Keep your CGPA above 8.",
+          "category": "Interview strategy",
+          "page": 4
+        }
+      ],
+      "resources": [
+        {
+          "title": "Striver's content",
+          "url": null,
+          "description": null,
+          "topic": "DSA",
+          "page": 4
+        },
+        {
+          "title": "TLE Eliminators course",
+          "url": null,
+          "description": null,
+          "topic": "DSA",
+          "page": 4
+        },
+        {
+          "title": "Telegram",
+          "url": null,
+          "description": "Platform to find courses for free",
+          "topic": null,
+          "page": 4
+        },
+        {
+          "title": "LeetCode",
+          "url": null,
+          "description": null,
+          "topic": "DSA",
+          "page": 4
+        },
+        {
+          "title": "CodeChef",
+          "url": null,
+          "description": null,
+          "topic": "DSA",
+          "page": 4
+        },
+        {
+          "title": "Codeforces",
+          "url": null,
+          "description": null,
+          "topic": "DSA",
+          "page": 4
+        }
+      ],
+      "filename": "AuxoAI_Nitin_Gawde.pdf",
+      "source_path": "2027/Interview_Experience_2027/Auxo_2027/AuxoAI_Nitin_Gawde.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "content_sha256": "a632319af22be1fd4a9fecbad616dcc0fd1c31367070618faa9d82b26914fc25"
+    }
+  ]
+}

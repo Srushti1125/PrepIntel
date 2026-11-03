@@ -1,0 +1,1842 @@
+{
+  "company_id": "transunion_2026",
+  "year": "2026",
+  "experiences": [
+    {
+      "experience_id": "transunion_2026-2026-1cc65d44-1",
+      "company": "TransUnion_2026",
+      "company_id": "transunion_2026",
+      "year": "2026",
+      "role": "IT Developer/ Quality Engineer",
+      "rounds": [
+        {
+          "name": "Online Assessment",
+          "category": "Online Assessment",
+          "description": "The round consisted of four sections: Logical Aptitude, Quantitative Aptitude, Coding, and a Verbal Section. Everyone received two different coding questions, and the difficulty level was quite random.",
+          "topics": [
+            {
+              "original": "Coding",
+              "canonical": "Coding",
+              "category": "Other"
+            },
+            {
+              "original": "HashSets",
+              "canonical": "HashSets",
+              "category": "Other"
+            },
+            {
+              "original": "HashMaps",
+              "canonical": "Hashing",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "Dynamic Programming",
+              "canonical": "Dynamic Programming",
+              "category": "DSA and coding"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Remove duplicate elements from an array and return the unique elements.",
+              "kind": "coding",
+              "page": 1
+            },
+            {
+              "text": "Count the frequency of each character in a string.",
+              "kind": "coding",
+              "page": 1
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Technical Interview",
+          "category": "Technical Interview",
+          "description": "The technical interview was unique, depending on the panel assigned. It started with general preparation questions, followed by project explanations, edge cases, handling large amounts of data, Git conflicts, and Docker.",
+          "topics": [
+            {
+              "original": "projects",
+              "canonical": "Projects",
+              "category": "Projects"
+            },
+            {
+              "original": "Git",
+              "canonical": "Git",
+              "category": "Other"
+            },
+            {
+              "original": "Docker",
+              "canonical": "Docker",
+              "category": "Other"
+            },
+            {
+              "original": "cloud computing",
+              "canonical": "Cloud Computing",
+              "category": "Other"
+            },
+            {
+              "original": "hackathon",
+              "canonical": "Hackathon",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "How is your preparation going, how did you prepare for TransUnion, when did you start, and have you spoken with any seniors from your college who work at the company?",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Explain your projects.",
+              "kind": "project",
+              "page": 2
+            },
+            {
+              "text": "How would you handle a large amount of data and improve execution time?",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "How would you handle a Git conflict and what prompt would you give to ChatGPT to help resolve it?",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "How would you run the project on another system?",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Why did your team place in the top 10 and not first in the hackathon, what went wrong, and what did you learn from the experience?",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Explain Docker to a layman with no technical knowledge.",
+              "kind": "technical",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "HR Interview",
+          "category": "HR Interview",
+          "description": "Started with small talk, an introduction focusing on aspects not mentioned in the resume, project storytelling, family background, relocation issues, why they should hire the candidate, and master's degree plans.",
+          "topics": [
+            {
+              "original": "family background",
+              "canonical": "Family Background",
+              "category": "Other"
+            },
+            {
+              "original": "relocation",
+              "canonical": "Relocation",
+              "category": "Other"
+            },
+            {
+              "original": "master's degree",
+              "canonical": "Master'S Degree",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Introduce yourself, focusing on aspects not mentioned in your resume.",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "Explain your project.",
+              "kind": "project",
+              "page": 3
+            },
+            {
+              "text": "Do you have any issues with relocation?",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "Why should we hire you?",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "Do you have plans for a master's degree?",
+              "kind": "hr",
+              "page": 3
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            3
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "Practicing aptitude questions from IndiaBix and GeeksforGeeks (GFG) is sufficient. Just remember the patterns and formulas to solve similar types of problems.",
+          "category": "OA preparation",
+          "page": 1
+        },
+        {
+          "text": "These patterns are repetitive in every Online Assessment, just presented in different forms.",
+          "category": "OA preparation",
+          "page": 1
+        },
+        {
+          "text": "For Data Structures and Algorithms (DSA), start practicing as soon as possible.",
+          "category": "Coding preparation",
+          "page": 1
+        },
+        {
+          "text": "When you enter the room, greet them with a smile and a handshake.",
+          "category": "Interview strategy",
+          "page": 2
+        },
+        {
+          "text": "Give your introduction confidently because the first impression is the last impression.",
+          "category": "Interview strategy",
+          "page": 2
+        },
+        {
+          "text": "You should know the in-depth meaning of every word on your resume. It's not about the number of technologies you list, but how well you know them.",
+          "category": "Project preparation",
+          "page": 2
+        },
+        {
+          "text": "There are standard questions asked about projects, such as: how you would handle a large amount of data, how you would scale the system, why you used a specific technology, and how you would improve performance.",
+          "category": "Project preparation",
+          "page": 2
+        },
+        {
+          "text": "You are the driver of the interview, so the conversation will likely follow the direction you set with your answers.",
+          "category": "Interview strategy",
+          "page": 2
+        },
+        {
+          "text": "If there are two interviewers, try to maintain eye contact with both. Keep a smile on your face to show confidence.",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "They often prioritize motivation and a positive mindset over just technical expertise.",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "Ask for their names at the end if they didn't introduce themselves at the beginning.",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "Try to improve your English fluency. Try to speak confidently, even if you make a few grammatical mistakes.",
+          "category": "HR preparation",
+          "page": 3
+        },
+        {
+          "text": "Always smile during the interview.",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "I feel that the HR interview is about engaging the interviewers with your communication skills, like telling a story about your projects and your learnings. Don't dive deep into technical terms.",
+          "category": "HR preparation",
+          "page": 3
+        },
+        {
+          "text": "Try to show them what a good team player you are.",
+          "category": "HR preparation",
+          "page": 3
+        },
+        {
+          "text": "Confidence, a smile, and honesty are the keys to succeeding in the HR interview.",
+          "category": "HR preparation",
+          "page": 3
+        },
+        {
+          "text": "Don't take the placement process lightly.",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "Prepare well for placements, especially for the Online Assessment. For DSA, I recommend following only one resource instead of multiple.",
+          "category": "OA preparation",
+          "page": 3
+        },
+        {
+          "text": "Have at least 1-2 strong projects; it's fine if your other projects are simpler.",
+          "category": "Project preparation",
+          "page": 3
+        }
+      ],
+      "resources": [
+        {
+          "title": "IndiaBix",
+          "url": null,
+          "description": null,
+          "topic": "aptitude",
+          "page": 1
+        },
+        {
+          "title": "GeeksforGeeks",
+          "url": null,
+          "description": null,
+          "topic": "aptitude",
+          "page": 1
+        },
+        {
+          "title": "Striver's problem sheet",
+          "url": null,
+          "description": null,
+          "topic": "DSA",
+          "page": 3
+        },
+        {
+          "title": "NeetCode's problem sheet",
+          "url": null,
+          "description": null,
+          "topic": "DSA",
+          "page": 3
+        },
+        {
+          "title": "LinkedIn",
+          "url": null,
+          "description": null,
+          "topic": null,
+          "page": 4
+        }
+      ],
+      "filename": "TransUnion_Aarya_Deshmukh.pdf",
+      "source_path": "2026/TransUnion_2026/TransUnion_Aarya_Deshmukh.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "content_sha256": "1cc65d443186dd9ee1a3b0fa6bcdc40ef4575465e3ee47240b99cbda14567bb3"
+    },
+    {
+      "experience_id": "transunion_2026-2026-7608d466-1",
+      "company": "TransUnion_2026",
+      "company_id": "transunion_2026",
+      "year": "2026",
+      "role": "Developer/Quality Engineer",
+      "rounds": [
+        {
+          "name": "Online Assessment",
+          "category": "Online Assessment",
+          "description": "The round consisted of 4 sections: Logical Aptitude, Quantitative Aptitude, Coding and Verbal Section. Everyone had 2 different coding questions. The difficulty was random; some got easy hashset/hashmap questions and some got hard DP questions.",
+          "topics": [
+            {
+              "original": "arrays",
+              "canonical": "Arrays",
+              "category": "DSA and coding"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Simple array question where I had to add the elements from alternate indexes.",
+              "kind": "coding",
+              "page": 1
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Technical Round 1",
+          "category": "Technical Interview",
+          "description": "Two interviewers. Discussed projects, OOPs, Java specifics, coding tasks, AI/ML/DL, SQL, and a puzzle.",
+          "topics": [
+            {
+              "original": "OOPs",
+              "canonical": "Object-Oriented Programming",
+              "category": "OOPs"
+            },
+            {
+              "original": "Java",
+              "canonical": "Java",
+              "category": "Programming languages"
+            },
+            {
+              "original": "method overriding",
+              "canonical": "Method Overriding",
+              "category": "Other"
+            },
+            {
+              "original": "final",
+              "canonical": "Final",
+              "category": "Other"
+            },
+            {
+              "original": "finally",
+              "canonical": "Finally",
+              "category": "Other"
+            },
+            {
+              "original": "finalize",
+              "canonical": "Finalize",
+              "category": "Other"
+            },
+            {
+              "original": "prime numbers",
+              "canonical": "Prime Numbers",
+              "category": "Other"
+            },
+            {
+              "original": "AI",
+              "canonical": "AI",
+              "category": "Other"
+            },
+            {
+              "original": "ML",
+              "canonical": "Machine Learning",
+              "category": "Other"
+            },
+            {
+              "original": "DL",
+              "canonical": "DL",
+              "category": "Other"
+            },
+            {
+              "original": "chatbot",
+              "canonical": "Chatbot",
+              "category": "Other"
+            },
+            {
+              "original": "SQL",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "normalization",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "joins",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "top 10 query",
+              "canonical": "Top 10 Query",
+              "category": "Other"
+            },
+            {
+              "original": "puzzle",
+              "canonical": "Logical Reasoning",
+              "category": "Aptitude"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Introduce myself and discuss my projects, focusing on idea and features.",
+              "kind": "project",
+              "page": 1
+            },
+            {
+              "text": "Explain OOPs, encapsulation, polymorphism, and write code for method overriding.",
+              "kind": "technical",
+              "page": 1
+            },
+            {
+              "text": "Difference between final, finally and finalize in Java.",
+              "kind": "technical",
+              "page": 1
+            },
+            {
+              "text": "Write code to print prime numbers from 1 to 100.",
+              "kind": "coding",
+              "page": 1
+            },
+            {
+              "text": "Discuss AI, ML, DL and how to build a chatbot for student queries.",
+              "kind": "technical",
+              "page": 1
+            },
+            {
+              "text": "Rate myself in SQL, explain normalization (created a table and applied 1NF).",
+              "kind": "technical",
+              "page": 1
+            },
+            {
+              "text": "Write a query to find the top 10 students with the highest marks.",
+              "kind": "coding",
+              "page": 1
+            },
+            {
+              "text": "Solve the Lion, Goat, and Grass puzzle.",
+              "kind": "aptitude",
+              "page": 1
+            },
+            {
+              "text": "Describe a challenge faced in my major project and how I resolved it.",
+              "kind": "project",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            1,
+            2
+          ]
+        },
+        {
+          "name": "HR round",
+          "category": "HR Interview",
+          "description": "Two interviewers. Discussed projects, technologies, cloud basics, knowledge about TransUnion, family background, relocation, challenges in college, team projects and conflicts, and candidate questions.",
+          "topics": [],
+          "questions": [
+            {
+              "text": "Introduce myself and explain my projects (idea and features).",
+              "kind": "project",
+              "page": 2
+            },
+            {
+              "text": "What technologies am I familiar with and do I have cloud experience?",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "What do I know about TransUnion?",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "Family background and willingness to relocate.",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "Challenges faced in college and experience with team projects/conflicts.",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "Ask the interviewers about learning resources and certification budget.",
+              "kind": "hr",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "Don’t shoehorn technologies you’re barely familiar with into your resume; keep it simple and honest.",
+          "category": "Interview strategy",
+          "page": 2
+        },
+        {
+          "text": "Don’t just answer—explain. For example, when asked about foreign keys, give definition, usage, and an example.",
+          "category": "Interview strategy",
+          "page": 2
+        },
+        {
+          "text": "When explaining a project, start with what it does and its features before diving into technical jargon.",
+          "category": "Interview strategy",
+          "page": 2
+        },
+        {
+          "text": "Speak slowly and clearly; practice mock interviews to avoid speaking too fast.",
+          "category": "Interview strategy",
+          "page": 2
+        },
+        {
+          "text": "GFG is good for all core subjects; check out top 20 puzzles on GFG as many companies ask them.",
+          "category": "Technical preparation",
+          "page": 2
+        }
+      ],
+      "resources": [
+        {
+          "title": "Maximum Number of Weeks for which you can Work",
+          "url": null,
+          "description": null,
+          "topic": null,
+          "page": 1
+        }
+      ],
+      "filename": "TransUnion_Dev-QE_PraveenVishwakarma.pdf",
+      "source_path": "2026/TransUnion_2026/TransUnion_Dev-QE_PraveenVishwakarma.pdf",
+      "pages": [
+        1,
+        2
+      ],
+      "content_sha256": "7608d466409a76b6909dcbbe414fc9d34407e2c76da486f8db00febf6ca53c71"
+    },
+    {
+      "experience_id": "transunion_2026-2026-4d6367d4-1",
+      "company": "TransUnion_2026",
+      "company_id": "transunion_2026",
+      "year": "2026",
+      "role": "IT Developer/ Quality Engineer",
+      "rounds": [
+        {
+          "name": "Online Assessment",
+          "category": "Online Assessment",
+          "description": "The test was conducted on SHL and calculators were allowed. There were 4 sections in the test: Mathematical Aptitude, Puzzle and Pattern based Aptitude, Coding section, English Vocabulary and Grammar section.",
+          "topics": [
+            {
+              "original": "ratios",
+              "canonical": "Ratios",
+              "category": "Other"
+            },
+            {
+              "original": "proportion",
+              "canonical": "Proportion",
+              "category": "Other"
+            },
+            {
+              "original": "simple interest",
+              "canonical": "Simple Interest",
+              "category": "Other"
+            },
+            {
+              "original": "time",
+              "canonical": "Time",
+              "category": "Other"
+            },
+            {
+              "original": "odd one out",
+              "canonical": "Odd One Out",
+              "category": "Other"
+            },
+            {
+              "original": "number series",
+              "canonical": "Number Series",
+              "category": "Other"
+            },
+            {
+              "original": "English Vocabulary",
+              "canonical": "Verbal Ability",
+              "category": "Aptitude"
+            },
+            {
+              "original": "Grammar",
+              "canonical": "Grammar",
+              "category": "Other"
+            },
+            {
+              "original": "arrays",
+              "canonical": "Arrays",
+              "category": "DSA and coding"
+            }
+          ],
+          "questions": [
+            {
+              "text": "If a train travels 120 km in 2 hours, how long will it take to travel 300 km at the same speed?",
+              "kind": "aptitude",
+              "page": 1
+            },
+            {
+              "text": "Divide ₹720 among A, B, and C in the ratio 2:3:4.",
+              "kind": "aptitude",
+              "page": 1
+            },
+            {
+              "text": "Find the odd one out: 121, 144, 169, 196, 225, 242",
+              "kind": "aptitude",
+              "page": 1
+            },
+            {
+              "text": "What comes next in the series: 2, 4, 8, 16, ?",
+              "kind": "aptitude",
+              "page": 1
+            },
+            {
+              "text": "Choose the grammatically correct sentence: A) He don't like playing cricket. B) He doesn't likes playing cricket. C) He doesn't like playing cricket.",
+              "kind": "aptitude",
+              "page": 1
+            },
+            {
+              "text": "From the given passage, what is the main idea the author is trying to convey?",
+              "kind": "aptitude",
+              "page": 2
+            },
+            {
+              "text": "You are given an array of orders. Find the Order ID of every order in the array.",
+              "kind": "coding",
+              "page": 2
+            },
+            {
+              "text": "You are given a 1-indexed array of people with labels 1 to n. For the next m turns, you have to swap the people with specified labels. After m swaps, return the person at kth index.",
+              "kind": "coding",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            1,
+            2
+          ]
+        },
+        {
+          "name": "Technical Interview",
+          "category": "Technical Interview",
+          "description": "There were 3 panels, with each containing 2 people who would interview you at the same time. The interview lasted only 15-20 minutes.",
+          "topics": [
+            {
+              "original": "projects",
+              "canonical": "Projects",
+              "category": "Projects"
+            },
+            {
+              "original": "programming languages",
+              "canonical": "Programming Languages",
+              "category": "Other"
+            },
+            {
+              "original": "frameworks",
+              "canonical": "Frameworks",
+              "category": "Other"
+            },
+            {
+              "original": "ML model",
+              "canonical": "ML model",
+              "category": "Other"
+            },
+            {
+              "original": "OCR",
+              "canonical": "OCR",
+              "category": "Other"
+            },
+            {
+              "original": "DSA",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "hashmap",
+              "canonical": "Hashing",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "frequency counter",
+              "canonical": "Frequency Counter",
+              "category": "Other"
+            },
+            {
+              "original": "Object-Oriented Programming",
+              "canonical": "Object-Oriented Programming",
+              "category": "OOPs"
+            },
+            {
+              "original": "Java",
+              "canonical": "Java",
+              "category": "Programming languages"
+            },
+            {
+              "original": "Python",
+              "canonical": "Python",
+              "category": "Programming languages"
+            },
+            {
+              "original": "pointers",
+              "canonical": "Pointers",
+              "category": "Other"
+            },
+            {
+              "original": "Byte vs byte",
+              "canonical": "Byte vs byte",
+              "category": "Other"
+            },
+            {
+              "original": "SQL",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "indexing",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Who was the last person you argued with?",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "What ML model did you use in your project?",
+              "kind": "project",
+              "page": 2
+            },
+            {
+              "text": "What is the full-form of OCR?",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "You have an array containing elements. Find all of the duplicate elements. Eg: Input: [1,2,3,6,1,1,4,2,2,2,9], Output: [1,2]",
+              "kind": "coding",
+              "page": 2
+            },
+            {
+              "text": "What are pointers?",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "What is the difference between Byte and byte in Java?",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "We have a table, and we want to delete records containing email of a certain value. Write the SQL query.",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "How do SQL tables reduce query runtimes in case of extremely large tables?",
+              "kind": "technical",
+              "page": 3
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2,
+            3
+          ]
+        },
+        {
+          "name": "HR Round",
+          "category": "HR Interview",
+          "description": "Basic HR questions, project discussion, limitations, and personal background.",
+          "topics": [
+            {
+              "original": "projects",
+              "canonical": "Projects",
+              "category": "Projects"
+            },
+            {
+              "original": "family",
+              "canonical": "Family",
+              "category": "Other"
+            },
+            {
+              "original": "relocation",
+              "canonical": "Relocation",
+              "category": "Other"
+            },
+            {
+              "original": "strengths",
+              "canonical": "Strengths",
+              "category": "Other"
+            },
+            {
+              "original": "AIML",
+              "canonical": "AI/ML",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "What did you consider before implementing features in your projects?",
+              "kind": "project",
+              "page": 3
+            },
+            {
+              "text": "What are general limitations that could arise in your project and how would you deal with them?",
+              "kind": "project",
+              "page": 3
+            },
+            {
+              "text": "Why do you want to work at TransUnion?",
+              "kind": "hr",
+              "page": 4
+            },
+            {
+              "text": "What is your greatest strength and how did you become good at it?",
+              "kind": "hr",
+              "page": 4
+            },
+            {
+              "text": "Why did you choose AIML in engineering?",
+              "kind": "hr",
+              "page": 4
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            3,
+            4
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "For the Online Assessments, I would suggest doing timed practice of aptitude questions and coding questions too. Be sure to practice CodeForces questions as their style (the way they accept inputs and return outputs) can be quite different from LeetCode questions.",
+          "category": "OA preparation",
+          "page": 2
+        },
+        {
+          "text": "Be confident and explain everything clearly. To explain your projects in detail without going on for too long, preferably use an established method like the STAR method.",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "If you don’t know something, DO NOT go on a long-winded, vague explanation in hopes that it will be correct. Just say you don’t know it, or you have done it, but forgotten, and the interviewers will move on to the next question.",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "The above point also applies to answers you are unsure about. Be confident and stick with some answer. Interviewers test your conviction and willpower, they don’t expect you to know everything they ask anyway.",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "Know your resume in and out. Explain your projects properly and clearly, without sounding too vague. Do not fake anything in it.",
+          "category": "Project preparation",
+          "page": 3
+        },
+        {
+          "text": "When explaining your DSA question’s solution, state and explain your thought process as if it were a tutorial of some sort, rather than going silent completely. Start with the brute force-approach and then provide an optimised solution if prompted.",
+          "category": "Technical preparation",
+          "page": 3
+        },
+        {
+          "text": "Be attentive during the pre-placement talk. Take notes if need be. You MUST remain familiar with what the company does, their values, and what they expect from the average applicant, be it technical skills or soft skills.",
+          "category": "HR preparation",
+          "page": 4
+        },
+        {
+          "text": "Work on your communication skills. Even if you have good knowledge, how you convey it might make the difference. Take part in mock interviews and mock speeches to reduce nervousness.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Using all of these for preparation as early as possible is important. Start at most 6 months before the placement period begins. Ensure you know every single programming language and framework on your resume as much as possible.",
+          "category": "Technical preparation",
+          "page": 4
+        },
+        {
+          "text": "Add good projects to your resumes. Ones that solve real-world problems, and are innovative and unique. Ensure they are uploaded to your Github account or, even better, deployed on a public URL. Doing an internship before the placement period is also recommended.",
+          "category": "Project preparation",
+          "page": 4
+        }
+      ],
+      "resources": [
+        {
+          "title": "Striver’s A2Z DSA course",
+          "url": "https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/",
+          "description": null,
+          "topic": "DSA",
+          "page": 4
+        },
+        {
+          "title": "GeeksforGeeks",
+          "url": "https://www.geeksforgeeks.org/",
+          "description": null,
+          "topic": "OOPS, DBMS, OS",
+          "page": 4
+        },
+        {
+          "title": "Kunal Kushwaha’s videos",
+          "url": "https://www.youtube.com/@KunalKushwaha",
+          "description": null,
+          "topic": "Git/Github and Computer Networks",
+          "page": 4
+        },
+        {
+          "title": "IndiaBIX",
+          "url": "https://www.indiabix.com/",
+          "description": null,
+          "topic": "Aptitude",
+          "page": 5
+        },
+        {
+          "title": "SQL 50 from Leetcode / SQLBolt",
+          "url": null,
+          "description": "SQL 50 from Leetcode and SQLBolt is a good resource for beginners.",
+          "topic": "SQL",
+          "page": 5
+        },
+        {
+          "title": "Gaurav Sen’s videos",
+          "url": "https://www.youtube.com/watch?v=SqcXvc3ZmRU&list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX&ab_channel=GauravSen",
+          "description": null,
+          "topic": "System Design",
+          "page": 5
+        }
+      ],
+      "filename": "TransUnion_ITD-QE_DhruvBaljekar.pdf",
+      "source_path": "2026/TransUnion_2026/TransUnion_ITD-QE_DhruvBaljekar.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "content_sha256": "4d6367d4d50c64083071bc87e6a78b153cdf070b9bc262ee56fb20e3b22cfe2a"
+    },
+    {
+      "experience_id": "transunion_2026-2026-34b14e32-1",
+      "company": "TransUnion_2026",
+      "company_id": "transunion_2026",
+      "year": "2026",
+      "role": "Engineering - Web / Software",
+      "rounds": [
+        {
+          "name": "Pre-Placement Talk (PPT)",
+          "category": "Other",
+          "description": "The PPT was conducted offline and began a little late as all the company team members had not yet arrived. During this time, the HR ma'am interacted with us informally and invited five volunteers to perform a short skit.",
+          "topics": [],
+          "questions": [],
+          "difficulty": null,
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Online Assessment",
+          "category": "Online Assessment",
+          "description": "The test was hosted on SHL, and calculators were allowed. It consisted of four sections: Logical Aptitude, Quantitative Aptitude, Coding Section, and Verbal/English Section.",
+          "topics": [
+            {
+              "original": "Logical Aptitude",
+              "canonical": "Quantitative Aptitude",
+              "category": "Aptitude"
+            },
+            {
+              "original": "Quantitative Aptitude",
+              "canonical": "Quantitative Aptitude",
+              "category": "Aptitude"
+            },
+            {
+              "original": "Coding Section",
+              "canonical": "Coding Section",
+              "category": "Other"
+            },
+            {
+              "original": "Verbal/English Section",
+              "canonical": "Verbal/English Section",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Find the odd one out: 121, 144, 169, 196, 225, 242",
+              "kind": "aptitude",
+              "page": 1
+            },
+            {
+              "text": "What comes next in the series: 2, 4, 8, 16, ?",
+              "kind": "aptitude",
+              "page": 1
+            },
+            {
+              "text": "If a train travels 120 km in 2 hours, how long will it take to travel 300 km at the same speed?",
+              "kind": "aptitude",
+              "page": 2
+            },
+            {
+              "text": "Divide ₹720 among A, B, and C in the ratio 2:3:4",
+              "kind": "aptitude",
+              "page": 2
+            },
+            {
+              "text": "Count the frequency of special characters in a string.",
+              "kind": "coding",
+              "page": 2
+            },
+            {
+              "text": "Count the frequency of numbers in a given number.",
+              "kind": "coding",
+              "page": 2
+            },
+            {
+              "text": "Choose the grammatically correct sentence.",
+              "kind": "aptitude",
+              "page": 2
+            },
+            {
+              "text": "Understand the main idea conveyed in a passage.",
+              "kind": "aptitude",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            1,
+            2
+          ]
+        },
+        {
+          "name": "Technical Round",
+          "category": "Technical Interview",
+          "description": "The main technical discussion focused on my Java project, Core Java Questions, Memory Management in Java, Data Structures (Scenario-Based), Coding and Problem Solving (Palindrome), and SQL Query.",
+          "topics": [
+            {
+              "original": "Introduction and Projects",
+              "canonical": "Projects",
+              "category": "Projects"
+            },
+            {
+              "original": "Java and C++ Deep Dive",
+              "canonical": "Java",
+              "category": "Programming languages"
+            },
+            {
+              "original": "Data Structures",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "Coding and Problem Solving",
+              "canonical": "Coding and Problem Solving",
+              "category": "Other"
+            },
+            {
+              "original": "SQL Query",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Why I chose Java for the project.",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Key differences between Java and C++.",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "How Java achieves platform independence.",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Which file is generated upon Java code execution.",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "The role of JVM and JRE in making Java platform-independent.",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Types of memory in Java.",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Which data structure would you use to efficiently store and retrieve stock market prices throughout the day, and why?",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "How would you retrieve the previous signature in a digital signature application? Which data structure would you use and why?",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "Check if a given string is a palindrome.",
+              "kind": "coding",
+              "page": 3
+            },
+            {
+              "text": "Write a SQL query using Joins and GROUP BY for sales data tables.",
+              "kind": "technical",
+              "page": 3
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2,
+            3
+          ]
+        },
+        {
+          "name": "Techno HR Round",
+          "category": "HR Interview",
+          "description": "The interview began with my introduction, projects, achievements, hackathons, previous interview experiences, reasons for joining TransUnion, positions and responsibilities, certifications, switch from Electronics to Tech, weaknesses, residence, family, and career aspirations.",
+          "topics": [
+            {
+              "original": "Introduction",
+              "canonical": "Introduction",
+              "category": "Other"
+            },
+            {
+              "original": "Projects",
+              "canonical": "Projects",
+              "category": "Projects"
+            },
+            {
+              "original": "Achievements",
+              "canonical": "Achievements",
+              "category": "Other"
+            },
+            {
+              "original": "Certifications",
+              "canonical": "Certifications",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Why were you not selected in previous interview attempts?",
+              "kind": "hr",
+              "page": 4
+            },
+            {
+              "text": "Why did you choose TransUnion and why do you want to join?",
+              "kind": "hr",
+              "page": 4
+            },
+            {
+              "text": "Why are you switching from Electronics to Tech?",
+              "kind": "hr",
+              "page": 4
+            },
+            {
+              "text": "Where do you see yourself in the next five years?",
+              "kind": "hr",
+              "page": 4
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            4
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "Actively participating in activities during PPT showcases confidence, helps during the HR rounds, and leave a positive impression on the recruiters.",
+          "category": "HR preparation",
+          "page": 1
+        },
+        {
+          "text": "Ask relevant doubts and clarifying queries during the PPT, as it demonstrates genuine interest in the company and further strengthens your impression.",
+          "category": "Interview strategy",
+          "page": 1
+        },
+        {
+          "text": "Start practicing aptitude questions well before placements, as most companies include them in their selection process.",
+          "category": "OA preparation",
+          "page": 2
+        },
+        {
+          "text": "Regularly practice Data Structures and Algorithms (DSA) to handle coding sections efficiently.",
+          "category": "Coding preparation",
+          "page": 2
+        },
+        {
+          "text": "Maintain a Good CGPA: Keep your CGPA above 7.5–8, as it helps meet eligibility criteria and creates a strong first impression.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Use a standard, professional template (e.g., Overleaf Resume Template). Make it ATS-friendly; check your score on Resumeworded (aim for 60+). Be truthful—only include skills, projects, and achievements you can confidently discuss. Prepare 4–5 points for each.",
+          "category": "Project preparation",
+          "page": 4
+        },
+        {
+          "text": "Understand the company's work, culture, and role requirements. Prepare relevant questions to ask the interviewer—it shows interest and preparation. Read the job description carefully and incorporate keywords into your answers.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Prepare for standard HR questions in advance to stay confident. Keep answers authentic and personal; avoid over-reliance on AI for this.",
+          "category": "HR preparation",
+          "page": 4
+        },
+        {
+          "text": "Focus on understanding questions thoroughly rather than just solving many. Solve standard problems first; daily practice on platforms like LeetCode or GeeksforGeeks helps. Participate in contests to improve time management, an essential skill for coding rounds. Always check constraints; write brute-force solutions first if optimal solutions are not obvious.",
+          "category": "Coding preparation",
+          "page": 4
+        },
+        {
+          "text": "Prioritize important subjects like DBMS and CCN—often asked in technical interviews. Choose open electives wisely (e.g., DBMS) to strengthen placement-related knowledge.",
+          "category": "Technical preparation",
+          "page": 4
+        },
+        {
+          "text": "Master your primary language's basics. Be confident discussing syntax, concepts, and memory management. Practice explaining your approach during coding rounds; interviewers often guide you if stuck.",
+          "category": "Technical preparation",
+          "page": 4
+        },
+        {
+          "text": "Collaborate with peers with similar goals. Motivate each other, take progress follow-ups, and push to stay on track.",
+          "category": "Interview strategy",
+          "page": 5
+        },
+        {
+          "text": "Treat rejections as learning opportunities. Focus on areas you can improve. Placement success also involves timing and luck, stay confident and persistent.",
+          "category": "Interview strategy",
+          "page": 5
+        },
+        {
+          "text": "Develop puzzle-solving and critical thinking through platforms like GeeksforGeeks. Practice guesstimates to improve analytical reasoning. Participate in mock interviews to enhance confidence, communication, and interview stamina",
+          "category": "Interview strategy",
+          "page": 5
+        }
+      ],
+      "resources": [
+        {
+          "title": "Striver A2Z DSA",
+          "url": null,
+          "description": null,
+          "topic": "DSA",
+          "page": 5
+        },
+        {
+          "title": "YouTube DBMS Playlist",
+          "url": null,
+          "description": null,
+          "topic": "DBMS",
+          "page": 5
+        },
+        {
+          "title": "InterviewBit DBMS Qs",
+          "url": null,
+          "description": null,
+          "topic": "DBMS",
+          "page": 5
+        },
+        {
+          "title": "GeeksforGeeks DBMS Qs",
+          "url": null,
+          "description": null,
+          "topic": "DBMS",
+          "page": 5
+        },
+        {
+          "title": "YouTube OS Playlist",
+          "url": null,
+          "description": null,
+          "topic": "OS",
+          "page": 5
+        },
+        {
+          "title": "C++ OOPS",
+          "url": null,
+          "description": null,
+          "topic": "C++ & OOPS",
+          "page": 5
+        },
+        {
+          "title": "Java OOPS",
+          "url": null,
+          "description": null,
+          "topic": "C++ & OOPS",
+          "page": 5
+        },
+        {
+          "title": "GeeksforGeeks OOPS",
+          "url": null,
+          "description": null,
+          "topic": "C++ & OOPS",
+          "page": 5
+        },
+        {
+          "title": "Aptitude Playlist",
+          "url": null,
+          "description": null,
+          "topic": "Aptitude",
+          "page": 5
+        },
+        {
+          "title": "IndiaBix",
+          "url": null,
+          "description": null,
+          "topic": "Aptitude",
+          "page": 5
+        },
+        {
+          "title": "practice problems on HackerRank and LeetCode",
+          "url": null,
+          "description": null,
+          "topic": "SQL",
+          "page": 5
+        },
+        {
+          "title": "Do SQL top 50 from leetcode",
+          "url": null,
+          "description": null,
+          "topic": "SQL",
+          "page": 5
+        },
+        {
+          "title": "LinkedIn",
+          "url": null,
+          "description": null,
+          "topic": null,
+          "page": 5
+        }
+      ],
+      "filename": "TransUnion_softwareEngineer_Jagdish_Aade.pdf",
+      "source_path": "2026/TransUnion_2026/TransUnion_softwareEngineer_Jagdish_Aade.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "content_sha256": "34b14e32ab573f391e5afbb81767e0a2a4511aaa8cba4d81c20b43a18b7dbc70"
+    },
+    {
+      "experience_id": "transunion_2026-2026-1158f6cb-1",
+      "company": "TransUnion_2026",
+      "company_id": "transunion_2026",
+      "year": "2026",
+      "role": "Software Engineer",
+      "rounds": [
+        {
+          "name": "Online Assessment",
+          "category": "Online Assessment",
+          "description": "The Round Consisted of 4 Sections including Logical Aptitude, Quantitative Aptitude, Coding Section, and Verbal Section.",
+          "topics": [
+            {
+              "original": "Logical Aptitude",
+              "canonical": "Quantitative Aptitude",
+              "category": "Aptitude"
+            },
+            {
+              "original": "Quantitative Aptitude",
+              "canonical": "Quantitative Aptitude",
+              "category": "Aptitude"
+            },
+            {
+              "original": "Coding",
+              "canonical": "Coding",
+              "category": "Other"
+            },
+            {
+              "original": "Verbal Section",
+              "canonical": "Verbal Ability",
+              "category": "Aptitude"
+            }
+          ],
+          "questions": [],
+          "difficulty": null,
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Technical Round 1",
+          "category": "Technical Interview",
+          "description": "Each panel consisted of two interviewers. Began with OOPs questions, followed by project discussion, ML/AI/DL differences, coding questions on paper, database queries, internship discussion, puzzles, and basic questions about TransUnion.",
+          "topics": [
+            {
+              "original": "Object-Oriented Programming (OOPs)",
+              "canonical": "Object-Oriented Programming",
+              "category": "OOPs"
+            },
+            {
+              "original": "Machine Learning (ML)",
+              "canonical": "Machine Learning (ML)",
+              "category": "Other"
+            },
+            {
+              "original": "Artificial Intelligence (AI)",
+              "canonical": "Artificial Intelligence (AI)",
+              "category": "Other"
+            },
+            {
+              "original": "Deep Learning (DL)",
+              "canonical": "Deep Learning (DL)",
+              "category": "Other"
+            },
+            {
+              "original": "MongoDB",
+              "canonical": "MongoDB",
+              "category": "Other"
+            },
+            {
+              "original": "SQL",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "GROUP BY",
+              "canonical": "GROUP BY",
+              "category": "Other"
+            },
+            {
+              "original": "JOIN",
+              "canonical": "JOIN",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "explain the four pillars of OOPs and provide two examples for each pillar",
+              "kind": "technical",
+              "page": 1
+            },
+            {
+              "text": "explain the differences between Machine Learning (ML), Artificial Intelligence (AI), and Deep Learning (DL)",
+              "kind": "technical",
+              "page": 1
+            },
+            {
+              "text": "Solve balanced parenthesis Question on Paper",
+              "kind": "coding",
+              "page": 1
+            },
+            {
+              "text": "Fibonacci series recursively as well as Iteratively",
+              "kind": "coding",
+              "page": 1
+            },
+            {
+              "text": "write queries involving GROUP BY and JOIN operations",
+              "kind": "technical",
+              "page": 1
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "HR round",
+          "category": "HR Interview",
+          "description": "Conducted by HR and Operations Head. Discussed company PPT, company functioning, role flexibility, passion project, extracurricular activities, family background, past education, hackathons, and location preferences.",
+          "topics": [
+            {
+              "original": "company PPT",
+              "canonical": "company PPT",
+              "category": "Other"
+            },
+            {
+              "original": "passion project",
+              "canonical": "Projects",
+              "category": "Projects"
+            },
+            {
+              "original": "extracurricular activities",
+              "canonical": "Extracurricular Activities",
+              "category": "Other"
+            },
+            {
+              "original": "family background",
+              "canonical": "Family Background",
+              "category": "Other"
+            },
+            {
+              "original": "hackathons",
+              "canonical": "Hackathons",
+              "category": "Other"
+            },
+            {
+              "original": "location preferences",
+              "canonical": "Location Preferences",
+              "category": "Other"
+            }
+          ],
+          "questions": [],
+          "difficulty": null,
+          "pages": [
+            2
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "Be Confident with DSA & SQL : These are the backbone of most technical interviews. Revise key concepts, patterns, and practice problem-solving regularly.",
+          "category": "Technical preparation",
+          "page": 2
+        },
+        {
+          "text": "Know Your Resume Inside-Out : Be absolutely clear about every project, internship, and skill mentioned. Don’t lie or exaggerate—be real and authentic.",
+          "category": "Project preparation",
+          "page": 2
+        },
+        {
+          "text": "Present Yourself Confidently : Communication matters as much as technical knowledge. Speak clearly, structure your answers, and show enthusiasm.",
+          "category": "HR preparation",
+          "page": 2
+        },
+        {
+          "text": "Be Mentally Ready for Rejections : Rejections are part of the journey. Before this interview, I had already faced 3 HR round rejections. Each rejection is just redirection—learn from it and keep moving forward.",
+          "category": "Interview strategy",
+          "page": 2
+        },
+        {
+          "text": "Keep Applying & Keep Fighting : Consistency is the key. Don’t let one rejection stop you from trying for the next opportunity.",
+          "category": "Interview strategy",
+          "page": 2
+        },
+        {
+          "text": "Know the Company : Read about the company’s services, products, and culture. A few lines showing genuine interest can create a positive impression.",
+          "category": "HR preparation",
+          "page": 2
+        },
+        {
+          "text": "Stay Calm in Puzzles & HR Questions : HR and puzzles are often about testing your attitude, logical thinking, and composure—don’t rush, just stay logical and calm.",
+          "category": "HR preparation",
+          "page": 2
+        }
+      ],
+      "resources": [],
+      "filename": "TransUnion_Soham_Vichare_InterviewExp.pdf",
+      "source_path": "2026/TransUnion_2026/TransUnion_Soham_Vichare_InterviewExp.pdf",
+      "pages": [
+        1,
+        2
+      ],
+      "content_sha256": "1158f6cbc32dd83fe8a34a636c784830cfbfe446d1bbc6a5e85fe6b19dacaf37"
+    },
+    {
+      "experience_id": "transunion_2026-2026-c5353acf-1",
+      "company": "TransUnion_2026",
+      "company_id": "transunion_2026",
+      "year": "2026",
+      "role": "Quality/Developer",
+      "rounds": [
+        {
+          "name": "Online Assessment",
+          "category": "Online Assessment",
+          "description": "The round consisted of 4 sections: Logical Aptitude, Quantitative Aptitude, Coding Section, and Verbal Section.",
+          "topics": [
+            {
+              "original": "Logical Aptitude",
+              "canonical": "Quantitative Aptitude",
+              "category": "Aptitude"
+            },
+            {
+              "original": "Quantitative Aptitude",
+              "canonical": "Quantitative Aptitude",
+              "category": "Aptitude"
+            },
+            {
+              "original": "Coding",
+              "canonical": "Coding",
+              "category": "Other"
+            },
+            {
+              "original": "Verbal Section",
+              "canonical": "Verbal Ability",
+              "category": "Aptitude"
+            }
+          ],
+          "questions": [],
+          "difficulty": null,
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Technical Round 1",
+          "category": "Technical Interview",
+          "description": null,
+          "topics": [
+            {
+              "original": "ACID properties",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "polymorphism",
+              "canonical": "Object-Oriented Programming",
+              "category": "OOPs"
+            },
+            {
+              "original": "programming",
+              "canonical": "Programming",
+              "category": "Other"
+            },
+            {
+              "original": "SQL query",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Tell me about yourself.",
+              "kind": "hr",
+              "page": 1
+            },
+            {
+              "text": "What are the ACID properties?",
+              "kind": "technical",
+              "page": 1
+            },
+            {
+              "text": "What is polymorphism? Explain with a real-life example, code, difference between compile-time and runtime polymorphism, and internal working.",
+              "kind": "technical",
+              "page": 1
+            },
+            {
+              "text": "Write a program to check if a number is prime and explain the logic.",
+              "kind": "coding",
+              "page": 1
+            },
+            {
+              "text": "Explain a project you worked on. Why did you choose that tech stack over others?",
+              "kind": "project",
+              "page": 1
+            },
+            {
+              "text": "Write an SQL query to find the average salary of departments with more than 5 employees.",
+              "kind": "technical",
+              "page": 1
+            },
+            {
+              "text": "Do you have any questions?",
+              "kind": "hr",
+              "page": 1
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "HR Round",
+          "category": "HR Interview",
+          "description": null,
+          "topics": [
+            {
+              "original": "HR",
+              "canonical": "HR and Behavioral Questions",
+              "category": "HR and behavioral"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Tell me about yourself.",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "Why do you want to join TransUnion?",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "What difficulties have you faced during your engineering life, and how did you overcome them?",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "Where do you see yourself in 5 years?",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "How do you plan to keep yourself updated with the latest technologies?",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "Explain one of your projects.",
+              "kind": "project",
+              "page": 2
+            },
+            {
+              "text": "Why did you choose this project?",
+              "kind": "project",
+              "page": 2
+            },
+            {
+              "text": "Do you have any questions for us?",
+              "kind": "hr",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "DSA: Easy to medium level is enough for moderate companies. Companies like PhonePe may ask graphs, trees, DP, and advanced problems.",
+          "category": "Coding preparation",
+          "page": 2
+        },
+        {
+          "text": "SQL: Asked in almost every interview — know all commands, query execution, differences, and internal workings.",
+          "category": "Technical preparation",
+          "page": 2
+        },
+        {
+          "text": "In SQL editors, you can test and debug queries, but in interviews, you won’t have that. Practice writing queries on pen and paper and predicting outputs carefully.",
+          "category": "Technical preparation",
+          "page": 2
+        },
+        {
+          "text": "Communication: It’s not just about what you know, but how you answer. Maintain eye contact, stay confident, and avoid pauses or stammering.",
+          "category": "Interview strategy",
+          "page": 2
+        },
+        {
+          "text": "OOPs: Prepare in detail with real-life examples and references to your projects/code.",
+          "category": "Technical preparation",
+          "page": 2
+        },
+        {
+          "text": "Core Subjects: Basics of OS, DBMS, and Computer Networks are usually sufficient.",
+          "category": "Technical preparation",
+          "page": 2
+        },
+        {
+          "text": "System Design: Asked only in specific companies like IDFC, not everywhere.",
+          "category": "Technical preparation",
+          "page": 2
+        },
+        {
+          "text": "Know your projects thoroughly — tech stack, challenges faced, standout features, and future improvements.",
+          "category": "Project preparation",
+          "page": 2
+        },
+        {
+          "text": "Be ready to explain why you chose the project and why that tech stack.",
+          "category": "Project preparation",
+          "page": 2
+        },
+        {
+          "text": "Prepare basic HR questions (strengths, weaknesses, goals) and practice puzzles from GeeksforGeeks (GFG).",
+          "category": "HR preparation",
+          "page": 2
+        }
+      ],
+      "resources": [
+        {
+          "title": "LinkedIn",
+          "url": null,
+          "description": "Reach out for further questions",
+          "topic": null,
+          "page": 2
+        }
+      ],
+      "filename": "TransUnion_Varsha_Bojja.pdf",
+      "source_path": "2026/TransUnion_2026/TransUnion_Varsha_Bojja.pdf",
+      "pages": [
+        1,
+        2
+      ],
+      "content_sha256": "c5353acfa0d42aba272eae2f882d640f63e746b268a1d6147b07387f597035f5"
+    }
+  ]
+}
