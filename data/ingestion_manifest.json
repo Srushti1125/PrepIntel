@@ -734,7 +734,7 @@
       "pages": 2,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793656573.1506965,
+      "processed_at": 1793701676.0147462,
       "status": "failed",
       "error": "no extractable text"
     },
@@ -1035,13 +1035,12 @@
       "pages": 7,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793657019.239928,
+      "processed_at": 1793701676.7193623,
       "text_sha256": "083fe82cd430df6e2ba3b5f4b068a571410f3878701b552d0c39b67883375fc1",
       "status": "indexed",
       "chunks": 31,
-      "insights": false,
-      "experiences": 0,
-      "insights_error": "structured extraction failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m34ktp7dehwajs9h9xxjwwy8` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199006, Requested 5940. Please try again in 35m36.672s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      "insights": true,
+      "experiences": 1
     },
     "2026/ISS_2026/ISS-Stoxx_STE_RashiLodha.pdf": {
       "sha256": "4d8863e729e19331e6d6ea9d14efd47fb99e0454bd599a231bf0f9463fe598b1",
@@ -1052,13 +1051,12 @@
       "pages": 5,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793657210.0114937,
+      "processed_at": 1793701705.1795833,
       "text_sha256": "3fcc585fb9236aae5d64df2dade012e330b7e782166cd7404e3cb89638b7b5f2",
       "status": "indexed",
       "chunks": 14,
-      "insights": false,
-      "experiences": 0,
-      "insights_error": "structured extraction failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m34ktp7dehwajs9h9xxjwwy8` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198574, Requested 3305. Please try again in 13m31.728s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      "insights": true,
+      "experiences": 1
     },
     "2026/ISS_2026/ISS_STOXX_SE_AlphaRane.pdf": {
       "sha256": "5a819b64a4b55f671126ad40e1b99d91dc7dbacc2df228de67e0bdc3bd7d20b3",
@@ -1069,13 +1067,12 @@
       "pages": 4,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793657396.4198616,
+      "processed_at": 1793701718.9298024,
       "text_sha256": "9f4b2710d612ed1aad61d9cc220e96ceb479ffe32cc4596d40d90b56ef331b6a",
       "status": "indexed",
       "chunks": 10,
-      "insights": false,
-      "experiences": 0,
-      "insights_error": "structured extraction failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m34ktp7dehwajs9h9xxjwwy8` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198136, Requested 3004. Please try again in 8m12.48s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+      "insights": true,
+      "experiences": 1
     },
     "2026/ISS_2026/ISS_STOXX_SE_MohitKarande (2).pdf": {
       "sha256": "b08cbecca915d777a7b378472452b5144dc521d099bd8e7ea4b7874f81a5ebff",
@@ -1086,13 +1083,12 @@
       "pages": 3,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793657585.7238784,
+      "processed_at": 1793701741.6638098,
       "text_sha256": "6c827b084a994ab603290f5359858dbab196da193035892ca86fb5f728d4d904",
       "status": "indexed",
       "chunks": 9,
-      "insights": false,
-      "experiences": 0,
-      "insights_error": "structured extraction failed: Error code: 400 - {'error': {'message': \"Tool call validation failed: tool call validation failed: attempted to call tool 'L\\u200bLMExtraction' which was not in request.tools\", 'type': 'invalid_request_error', 'code': 'tool_use_failed', 'failed_generation': '{\"name\": \"L\\u200bLMExtraction\", \"arguments\": {\\n  \"experiences\": [\\n    {\\n      \"role\": \"Software Engineer\",\\n      \"rounds\": [\\n        {\\n          \"name\": \"Online Aptitude Test\",\\n          \"category\": \"Online Assessment\",\\n          \"pages\": [1],\\n          \"difficulty\": null,\\n          \"questions\": [],\\n          \"topics\": [\\n            \"Java\",\\n            \"Python\",\\n            \"SQL\",\\n            \"Quantitative Aptitude\"\\n          ]\\n        },\\n        {\\n          \"name\": \"Technical Interview\",\\n          \"category\": \"Technical Interview\",\\n          \"pages\": [2],\\n          \"difficulty\": null,\\n          \"questions\": [\\n            {\\n              \"kind\": \"technical\",\\n              \"page\": 2,\\n              \"text\": \"What do you know about the Collection framework?\"\\n            },\\n            {\\n              \"kind\": \"coding\",\\n              \"page\": 2,\\n              \"text\": \"Explain the code snippet from the aptitude test related to encapsulation and its functionality and output.\"\\n            },\\n            {\\n              \"kind\": \"technical\",\\n              \"page\": 2,\\n              \"text\": \"How would you initialize a variable without using a setter method?\"\\n            },\\n            {\\n              \"kind\": \"technical\",\\n              \"page\": 2,\\n              \"text\": \"How would you make the class immutable?\"\\n            },\\n            {\\n              \"kind\": \"coding\",\\n              \"page\": 2,\\n              \"text\": \"Explain the output of a code snippet that uses a Map and a List when using HashMap, HashSet, TreeSet, and LinkedHashSet for a specific input.\"\\n            }\\n          ],\\n          \"topics\": [\\n            \"Java Collections Framework\",\\n            \"OOPs\",\\n            \"Data Structures\",\\n            \"Map\",\\n            \"List\",\\n            \"HashMap\",\\n            \"HashSet\",\\n            \"TreeSet\",\\n            \"LinkedHashSet\"\\n          ]\\n        },\\n        {\\n          \"name\": \"HR Interview\",\\n          \"category\": \"HR Interview\",\\n          \"pages\": [3],\\n          \"difficulty\": null,\\n          \"questions\": [\\n            {\\n              \"kind\": \"hr\",\\n              \"page\": 3,\\n              \"text\": \"Introduce yourself and detail your educational journey starting from 10th grade.\"\\n            },\\n            {\\n              \"kind\": \"hr\",\\n              \"page\": 3,\\n              \"text\": \"Personal details: residence, family members, knowledge of company location and travel to office.\"\\n            },\\n            {\\n              \"kind\": \"hr\",\\n              \"page\": 3,\\n              \"text\": \"Discuss your project: what you liked about it and parts that were difficult to implement.\"\\n            },\\n            {\\n              \"kind\": \"hr\",\\n              \"page\": 3,\\n              \"text\": \"Explain the technologies you are comfortable with and go through your projects in detail.\"\\n            },\\n            {\\n              \"kind\": \"hr\",\\n              \"page\": 3,\\n              \"text\": \"What kind of role are you looking for (backend, frontend, etc.) and your flexibility.\"\\n            }\\n          ],\\n          \"topics\": []\\n        }\\n      ],\\n      \"tips\": [\\n        {\\n          \"category\": \"Technical preparation\",\\n          \"page\": 2,\\n          \"text\": \"Be Thorough with OOPS concept in java or python\"\\n        },\\n        {\\n          \"category\": \"Interview strategy\",\\n          \"page\": 2,\\n          \"text\": \"It is acceptable to admit when you don\\'t know an answer, as interviewers don\\'t expect you to know everything.\"\\n        },\\n        {\\n          \"category\": \"Technical preparation\",\\n          \"page\": 3,\\n          \"text\": \"Practice DSA properly, Even Though I was not Asked to code anything I was well prepared for DSA questions.\"\\n        },\\n        {\\n          \"category\": \"Technical preparation\",\\n          \"page\": 3,\\n          \"text\": \"Be Thorough with the Basics of the Courses you have mentioned in your resume.\"\\n        },\\n        {\\n          \"category\": \"Technical preparation\",\\n          \"page\": 3,\\n          \"text\": \"Be Thorough with your projects.\"\\n        }\\n      ],\\n      \"resources\": []\\n    }\\n  ]\\n}}'}}"
+      "insights": true,
+      "experiences": 1
     },
     "2026/JPMC_2026/CIB - AtharvaDahegaonkar (2).pdf": {
       "sha256": "6359e680155917ce45d16e33121f847c1a40b405e8cc5cfe2b7f0d0cc3472a7a",
@@ -1103,13 +1099,12 @@
       "pages": 3,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793657802.192231,
+      "processed_at": 1793701771.6464615,
       "text_sha256": "47f6456dffe734f4bbb554dd3cf36424bac729e25483063bcbdf8bf73a5a6c14",
       "status": "indexed",
       "chunks": 10,
-      "insights": false,
-      "experiences": 0,
-      "insights_error": "structured extraction failed: Error calling model 'gemini-2.5-flash' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://ai.google.dev/gemini-api/docs/rate-limits.\\nPlease retry in 9h40m10.719951014s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'description': 'Generate content requests per day limit exceeded on Free Tier. See https://ai.google.dev/gemini-api/docs/rate-limits.', 'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '34810s'}]}}"
+      "insights": true,
+      "experiences": 1
     },
     "2026/KPMG_2026/KPMG_Digital-enablement_Amogh Mathpati.pdf": {
       "sha256": "46b5f412b06e75b8e54a8e6fea0564103e77dc95036f9a8ae663e1f9ba506dc4",
@@ -1120,13 +1115,12 @@
       "pages": 3,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793657991.1311364,
+      "processed_at": 1793701795.402702,
       "text_sha256": "7e54f39dac7ee4a7f91bb46bb4333d6b2ed14b59d4b75633ba0a0c8e4ece3dbe",
       "status": "indexed",
       "chunks": 10,
-      "insights": false,
-      "experiences": 0,
-      "insights_error": "structured extraction failed: Error calling model 'gemini-2.5-flash' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://ai.google.dev/gemini-api/docs/rate-limits.\\nPlease retry in 9h37m2.589692053s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'description': 'Generate content requests per day limit exceeded on Free Tier. See https://ai.google.dev/gemini-api/docs/rate-limits.', 'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '34622s'}]}}"
+      "insights": true,
+      "experiences": 1
     },
     "2026/KPMG_2026/KPMG_Digital_Tech_Enablemnet_Parnika_Das.pdf": {
       "sha256": "620f6a18cdf30c4016265859bb4fc7311620279cf583a422febd355bcd3fcd5d",
@@ -1137,13 +1131,12 @@
       "pages": 5,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793658179.5081637,
+      "processed_at": 1793701800.1375089,
       "text_sha256": "8130b011c513ff4d767d2677208261873470db084436c63dc325ebf99d1c34ea",
       "status": "indexed",
       "chunks": 20,
-      "insights": false,
-      "experiences": 0,
-      "insights_error": "structured extraction failed: Error calling model 'gemini-2.5-flash' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://ai.google.dev/gemini-api/docs/rate-limits.\\nPlease retry in 9h33m51.496009064s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'description': 'Generate content requests per day limit exceeded on Free Tier. See https://ai.google.dev/gemini-api/docs/rate-limits.', 'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '34431s'}]}}"
+      "insights": true,
+      "experiences": 1
     },
     "2026/Mahindra_Finance_2026/Akshata_MahindraFinance_CT.pdf": {
       "sha256": "f1f7e153e18cf85b91169f091afb1c85f29f7d621699c2a7e0fcda8c6171c0b2",
@@ -1154,13 +1147,12 @@
       "pages": 4,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793658370.3173707,
+      "processed_at": 1793701828.9056354,
       "text_sha256": "6110c552b31c8d0fecf144d6f6005fc75097a729c5278039ac8ec42390eaba91",
       "status": "indexed",
       "chunks": 23,
-      "insights": false,
-      "experiences": 0,
-      "insights_error": "structured extraction failed: Error calling model 'gemini-2.5-flash' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://ai.google.dev/gemini-api/docs/rate-limits.\\nPlease retry in 9h30m41.244337035s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'description': 'Generate content requests per day limit exceeded on Free Tier. See https://ai.google.dev/gemini-api/docs/rate-limits.', 'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '34241s'}]}}"
+      "insights": true,
+      "experiences": 1
     },
     "2026/Mahindra_Finance_2026/kanishka_mahindra_finance_experience.pdf": {
       "sha256": "10ade4522ec57fe3e01bf5cbad1aae3a6e3b19d832cc6383de336ce0c35c6c4c",
@@ -1171,13 +1163,12 @@
       "pages": 4,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793658560.9098601,
+      "processed_at": 1793701837.372938,
       "text_sha256": "49ac561a3e6922d3798f4f0cfab37aae62a56d04128a8dfbbd46a9f8799159d2",
       "status": "indexed",
       "chunks": 13,
-      "insights": false,
-      "experiences": 0,
-      "insights_error": "structured extraction failed: Error calling model 'gemini-2.5-flash' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://ai.google.dev/gemini-api/docs/rate-limits.\\nPlease retry in 9h27m29.951536302s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'description': 'Generate content requests per day limit exceeded on Free Tier. See https://ai.google.dev/gemini-api/docs/rate-limits.', 'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '34049s'}]}}"
+      "insights": true,
+      "experiences": 1
     },
     "2026/MasterCard/MasterCard_Software Engineer 1_ Riya Patil.pdf": {
       "sha256": "602f834da1cb74e2c8b79663f569ce0d2759295abaf66da97b8c887882f752f7",
@@ -1188,13 +1179,12 @@
       "pages": 4,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793658751.9132898,
+      "processed_at": 1793701861.567321,
       "text_sha256": "b812dd3f00f720b80148d625f35479b32b1c86704b0386019731eed0f2523b60",
       "status": "indexed",
       "chunks": 9,
-      "insights": false,
-      "experiences": 0,
-      "insights_error": "structured extraction failed: Error code: 400 - {'error': {'message': 'Failed to parse tool call arguments as JSON', 'type': 'invalid_request_error', 'code': 'tool_use_failed', 'failed_generation': '{\"name\": \"LLMExtraction\", \"arguments\": {\\n  \"experiences\": [\\n    {\\n      \"role\": \"Software Engineer I\",\\n      \"rounds\": [\\n        {\\n          \"name\": \"Online Assessment\",\\n          \"category\": \"Online Assessment\",\\n          \"pages\": [1],\\n          \"difficulty\": \"easy\",\\n          \"questions\": [\\n            {\\n              \"kind\": \"coding\",\\n              \"page\": 1,\\n              \"text\": \"Encryption & Decryption Program – Based on ASCII values and bit manipulation\"\\n            },\\n            {\\n              \"kind\": \"coding\",\\n              \"page\": 1,\\n              \"text\": \"Pattern-Based Question – Print the mirror image and water image of a given pattern\"\\n            }\\n          ],\\n          \"topics\": [\\n            \"Encryption & Decryption Program\",\\n            \"Pattern-Based Question\"\\n          ]\\n        },\\n        {\\n          \"name\": \"Technical Interview – 1\",\\n          \"category\": \"Technical Interview\",\\n          \"pages\": [2],\\n          \"questions\": [\\n            {\\n              \"kind\": \"other\",\\n              \"page\": 2,\\n              \"text\": \"Asked to briefly introduce myself.\"\\n            },\\n            {\\n              \"kind\": \"technical\",\\n              \"page\": 2,\\n              \"text\": \"Difference between JVM, JDK, and JRE\"\\n            },\\n            {\\n              \"kind\": \"technical\",\\n              \"page\": 2,\\n              \"text\": \"Why Java is called “Write Once, Run Everywhere (WORE)”\"\\n            },\\n            {\\n              \"kind\": \"project\",\\n              \"page\": 2,\\n              \"text\": \"Explain how I develop a project from scratch\"\\n            },\\n            {\\n              \"kind\": \"technical\",\\n              \"page\": 2,\\n              \"text\": \"Explain Machine Learning as if explaining it to a 5-year-old\"\\n            },\\n            {\\n              \"kind\": \"coding\",\\n              \"page\": 2,\\n              \"text\": \"Reverse a string (clarify whether it should be in-place)\"\\n            },\\n            {\\n              \"kind\": \"coding\",\\n              \"page\": 2,\\n              \"text\": \"Complete a number series\"\\n            },\\n            {\\n              \"kind\": \"coding\",\\n              \"page\": 2,\\n              \"text\": \"Write pseudo-code for a pattern\"\\n            },\\n            {\\n              \"kind\": \"other\",\\n              \"page\": 2,\\n              \"text\": \"Would you work on a simple or less popular technology even if it may not be useful in the long term?\"\\n            }\\n          ],\\n          \"topics\": [\\n            \"Core Java Concepts\",\\n            \"Project Discussion\",\\n            \"Machine Learning\",\\n            \"Reverse a string\",\\n            \"Number series\",\\n            \"Pattern pseudo-code\",\\n            \"Scenario-Based\"\\n          ]\\n        },\\n        {\\n          \"name\": \"Technical Interview – 2\",\\n          \"category\": \"Technical Interview\",\\n          \"pages\": [3],\\n          \"questions\": [\\n            {\\n              \"kind\": \"technical\",\\n              \"page\": 3,\\n              \"text\": \"Design class hierarchy for an employee scenario using appropriate data structures\"\\n            },\\n            {\\n              \"kind\": \"coding\",\\n              \"page\": 3,\\n              \"text\": \"Add, fetch, and delete employees based on conditions\"\\n            },\\n            {\\n              \"kind\": \"coding\",\\n              \"page\": 3,\\n              \"text\": \"Find employee with highest salary; if salaries are same, return the employee who joined most recently\"\\n            },\\n            {\\n              \"kind\": \"technical\",\\n              \"page\": 3,\\n              \"text\": \"Design an ER diagram for the employee system\"\\n            },\\n            {\\n              \"kind\": \"coding\",\\n              \"page\": 3,\\n              \"text\": \"Write 4–5 SQL queries\"\\n            },\\n            {\\n              \"kind\": \"technical\",\\n              \"page\": 3,\\n              \"text\": \"Explain differences between SQL and NoSQL\"\\n            },\\n            {\\n              \"kind\": \"technical\",\\n              \"page\": 3,\\n              \"text\": \"Given scenarios, decide which database to use and why\"\\n            },\\n            {\\n              \"kind\": \"coding\",\\n              \"page\": 3,\\n              \"text\": \"Code to find the meeting point of two linked lists\"\\n            },\\n            {\\n              \"kind\": \"technical\",\\n              \"page\": 3,\\n              \"text\": \"Why Kafka instead of simple APIs\"\\n            },\\n            {\\n              \"kind\": \"technical\",\\n              \"page\": 3,\\n              \"text\": \"How Kafka improved efficiency and scalability\"\\n            },\\n            {\\n              \"kind\": \"technical\",\\n              \"page\": 3,\\n              \"text\": \"Where Kafka was used in the project\"\\n            },\\n            {\\n              \"kind\": \"project\",\\n              \"page\": 3,\\n              \"text\": \"Detailed discussion on projects mentioned in my resume\"\\n            }\\n          ],\\n          \"topics\": [\\n            \"Object-Oriented Design\",\\n            \"Employee scenario\",\\n            \"SQL queries\",\\n            \"SQL vs NoSQL\",\\n            \"Linked lists\",\\n            \"Kafka\",\\n            \"Project discussion\"\\n          ]\\n        },\\n        {\\n         \"}'}}"
+      "insights": true,
+      "experiences": 1
     },
     "2026/MSCI_2026/MSCI_Technology&DataOperationIntern_Shubham_Karampure.pdf": {
       "sha256": "e557c6b55d66b0bd9c496a13b8bdca0b79994f77cc3a0331e6f10a2a9e308ffb",
@@ -1205,12 +1195,13 @@
       "pages": 7,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793394298.5513723,
+      "processed_at": 1793701883.990435,
       "text_sha256": "d1a56ce485106b119cf7731eb6577029180fe7f05b7f81c2757f8a49866779db",
       "status": "indexed",
       "chunks": 19,
       "insights": false,
-      "experiences": 0
+      "experiences": 0,
+      "insights_error": "structured extraction failed: Error code: 400 - {'error': {'message': 'Tool choice is required, but model did not call a tool', 'type': 'invalid_request_error', 'code': 'tool_use_failed', 'failed_generation': '{\\n  \"experiences\": [\\n    {\\n      \"role\": \"Technology and Data Operations Intern\",\\n      \"rounds\": [\\n        {\\n          \"name\": \"Online Assessment\",\\n          \"category\": \"Online Assessment\",\\n          \"description\": \"75‑minute assessment on HackerRank with three questions: two DSA‑based and one SQL. Questions were randomly selected from a pool, with most being LeetCode easy to medium level.\",\\n          \"difficulty\": null,\\n          \"pages\": [1],\\n          \"questions\": [\\n            {\\n              \"kind\": \"coding\",\\n              \"page\": 1,\\n              \"text\": \"DSA Q1: Slowest Key – LeetCode – Given a list of keypress logs as pairs (key, time), determine which key took the longest to press.\"\\n            },\\n            {\\n              \"kind\": \"coding\",\\n              \"page\": 1,\\n              \"text\": \"DSA Q2: Distance Between \\\\\"programmer\\\\\" Substrings – Given a string containing exactly two non‑overlapping occurrences of the word \\\\\"programmer\\\\\", determine the number of characters strictly between the first full \\\\\"programmer\\\\\" from the left and the last full \\\\\"programmer\\\\\" from the right.\"\\n            },\\n            {\\n              \"kind\": \"technical\",\\n              \"page\": 2,\\n              \"text\": \"SQL Q3: Time and Amount Aggregation with Joins – Involved 2–3 tables testing JOINs, GROUP BY, aggregations, summing durations and converting to HH:MM:SS using SEC_TO_TIME, and converting cumulative amounts into billions.\"\\n            }\\n          ],\\n          \"topics\": [\"DSA\", \"SQL\"]\\n        },\\n        {\\n          \"name\": \"Offline Technical Round 1\",\\n          \"category\": \"Technical Interview\",\\n          \"description\": \"30‑minute interview. Started with an introduction, discussion of three projects, then two SQL questions followed by two easy DSA questions and a few theory questions.\",\\n          \"difficulty\": null,\\n          \"pages\": [2, 3, 4],\\n          \"questions\": [\\n            {\\n              \"kind\": \"technical\",\\n              \"page\": 3,\\n              \"text\": \"Q.1 Find user IDs of users who have ordered products from more than one category – Use GROUP BY user_id and HAVING COUNT(DISTINCT category) > 1.\"\\n            },\\n            {\\n              \"kind\": \"technical\",\\n              \"page\": 3,\\n              \"text\": \"Q.2 For each category, find the product that was sold the most (by total quantity ordered) – Use a window function to rank products within each category and filter the top‑ranked product.\"\\n            },\\n            {\\n              \"kind\": \"coding\",\\n              \"page\": 4,\\n              \"text\": \"Q1. First Non‑Repeating Character – LeetCode – Brute‑force two‑loop approach, then optimized using a frequency vector.\"\\n            },\\n            {\\n              \"kind\": \"coding\",\\n              \"page\": 4,\\n              \"text\": \"Q2. Climbing Stairs – LeetCode – Explained recursive and DP approaches, implemented space‑optimized solution using two variables.\"\\n            },\\n            {\\n              \"kind\": \"technical\",\\n              \"page\": 4,\\n              \"text\": \"Theory question on encapsulation in OOP.\"\\n            },\\n            {\\n              \"kind\": \"technical\",\\n              \"page\": 4,\\n              \"text\": \"Theory question on indexing in databases.\"\\n            }\\n          ],\\n          \"topics\": [\"SQL\", \"DSA\", \"OOP\", \"Databases\"]\\n        },\\n        {\\n          \"name\": \"Offline Technical Round 2\",\\n          \"category\": \"Technical Interview\",\\n          \"description\": \"45‑minute interview focusing on practical developer thinking, future plans, AI role, deep dive into projects, technical decisions (MongoDB vs SQL, vector database Qdrant), theoretical questions (difference between database and data warehouse, alternate key), and time‑complexity discussion.\",\\n          \"difficulty\": null,\\n          \"pages\": [4, 5],\\n          \"questions\": [],\\n          \"topics\": [\"AI\", \"MongoDB\", \"Qdrant\", \"Databases\", \"Data Warehouse\", \"Alternate Key\", \"Time Complexity\"]\\n        },\\n        {\\n          \"name\": \"Online HR Round\",\\n          \"category\": \"HR Interview\",\\n          \"description\": \"15‑minute relaxed conversation about personality, family background, hobbies, knowledge of MSCI, willingness to work in different domains, and questions about learning scope and growth opportunities.\",\\n          \"difficulty\": null,\\n          \"pages\": [5, 6],\\n          \"questions\": [],\\n          \"topics\": []\\n        }\\n      ],\\n      \"tips\": [\\n        {\\n          \"category\": \"Interview strategy\",\\n          \"page\": 2,\\n          \"text\": \"A strong intro is important—it sets the tone and flow of the interview. Practice it in front of someone beforehand, to make it smooth and confident.\"\\n        },\\n        {\\n          \"category\": \"Interview strategy\",\\n          \"page\": 5,\\n          \"text\": \"In college or hackathon projects, we often neglect the feasibility and scalability aspects. It\\'s still important to have a basic theoretical understanding of these, even if you don’t have practical experience.\"\\n        },\\n        {\\n          \"category\": \"HR preparation\",\\n          \"page\": 6,\\n          \"text\": \"Don’t overlook the HR round. Be well‑prepared with common HR questions and think through different scenarios in advance.\"\\n        },\\n        {\\n          \"category\": \"Interview strategy\",\\n          \"page\": 6,\\n          \"text\": \"Placement is 30% luck, 70% smart work. Focus on what you can control—be well‑prepared when the opportunity comes.\"\\n        },\\n        {\\n          \"category\": \"Interview strategy\",\\n          \"page\": 6,\\n          \"text\": \"Give contests and mock interviews even if you feel underprepared. They help you assess your level and improve.\"\\n        },\\n        {\\n          \"category\": \"Interview strategy\",\\n          \"page\": 6,\\n          \"text\": \"Don’t fear early failures; better to fail in practice than in interviews.\"\\n        },\\n        {\\n          \"category\": \"Interview strategy\",\\n          \"page\": 6,\\n          \"text\": \"Focus on one company at a time, give your best, and if it doesn’t work out—learn, move on, and stay resilient.\"\\n        },\\n        {\\n          \"category\": \"Interview strategy\",\\n          \"page\": 7,\\n          \"text\": \"Research the company thoroughly—memorize key facts & values but also understand their meaning and relevance to your profile.\"\\n        },\\n        {\\n          \"category\": \"Interview strategy\",\\n          \"page\": 7,\\n          \"text\": \"Soft skills are crucial. Even if my answers weren’t perfect, I spoke with confidence, used technical terms, and explained with clear, relatable examples.\"\\n        },\\n        {\\n          \"category\": \"Interview strategy\",\\n          \"page\": 7,\\n          \"text\": \"For almost a month, I reviewed past interview experiences and practiced answering questions out loud, refining them for clarity and impact.\"\\n        }\\n      ],\\n      \"resources\": [\\n        {\\n          \"title\": \"IndiaBix\",\\n          \"description\": \"OA - Aptitude: Questions are straightforward and frequently repeated. Focus on revising formulas and practicing key topics (percentages, ratios, time‑distance).\",\\n          \"page\": 7,\\n          \"url\": null\\n        },\\n        {\\n          \"title\": \"Striver’s A2Z DSA Sheet\",\\n          \"description\": \"DSA: Prioritize understanding patterns and logic over memorization. Covers almost all major company patterns and builds strong problem‑solving skills.\",\\n          \"page\": 7,\\n          \"url\": null\\n        },\\n        {\\n          \"title\": \"Pick any YouTube Lectures & GFG Notes\",\\n          \"description\": \"Core Subjects: Watch one‑shot, complete‑topic lectures for efficient learning and take handwritten notes. Use GFG\\'s Last Minute Notes for quick revision.\",\\n          \"page\": 7,\\n          \"url\": null\\n        },\\n        {\\n          \"title\": \"GFG DBMS Notes\",\\n          \"description\": \"DBMS: Supplement lecture notes with these for fast review.\",\\n          \"page\": 7,\\n          \"url\": null\\n        },\\n        {\\n          \"title\": \"GFG CN Notes\",\\n          \"description\": \"CN: Supplement lecture notes with these for fast review.\",\\n          \"page\": 7,\\n          \"url\": null\\n        },\\n        {\\n          \"title\": \"GFG OS Notes\",\\n          \"description\": \"OS: Supplement lecture notes with these for fast review.\",\\n          \"page\": 7,\\n          \"url\": null\\n        },\\n        {\\n          \"title\": \"Gemini\",\\n          \"description\": \"AI Tools – Recall: Use its voice assistant feature to simulate quick mock interviews on technical topics for active recall practice.\",\\n          \"page\": 7,\\n          \"url\": null\\n        },\\n        {\\n          \"title\": \"Perplexity\",\\n          \"description\": \"AI Tools – Research: A fast, reliable tool for researching company backgrounds, recent news, tech stacks, and interview experiences.\",\\n          \"page\": 7,\\n          \"url\": null\\n        },\\n        {\\n          \"title\": \"LinkedIn Profile\",\\n          \"description\": \"Feel free to reach out to me on LinkedIn if you have any questions or need any help—I’ll be happy to support you.\",\\n          \"page\": 7,\\n          \"url\": \"https://in.linkedin.com/in/shubham-karampure\"\\n        }\\n      ]\\n    }\\n  ]\\n}'}}"
     },
     "2026/MSCI_2026/MSCI_Technology&DataOpsIntern_ Aroosh.pdf": {
       "sha256": "8f5bd6e98c7b8075a097f6dc467accd9f45416576fa05abe39390b8535c163a9",
@@ -1221,12 +1212,12 @@
       "pages": 7,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793394302.602295,
+      "processed_at": 1793702014.8754125,
       "text_sha256": "c5618f9936910e339bf9cac2d95667e525fe24ef087f5aae325221a8a040d421",
       "status": "indexed",
       "chunks": 23,
-      "insights": false,
-      "experiences": 0
+      "insights": true,
+      "experiences": 1
     },
     "2026/MSCI_2026/MSCI_Technology&DataOpsIntern_PulkitDwivedi.pdf": {
       "sha256": "446638039d2f594380cacfce7ffac91fb1e592b8a6d00d22eef2f47aac5bd224",
@@ -1237,12 +1228,12 @@
       "pages": 7,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793394306.955216,
+      "processed_at": 1793702179.6818147,
       "text_sha256": "b3e14bb45e6ddd3302a76c6a32f03a9ef11cd488d17015a16c843b8f78e40905",
       "status": "indexed",
       "chunks": 29,
-      "insights": false,
-      "experiences": 0
+      "insights": true,
+      "experiences": 1
     },
     "2026/MSCI_2026/MSCI_TechnologyIntern_TanviPatil.pdf": {
       "sha256": "9387f078adf1a2d81750e0d94aaad16239d4fe974ba628883441a6ea9e0bcca3",
@@ -1253,12 +1244,13 @@
       "pages": 6,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793394311.7819583,
+      "processed_at": 1793702287.3727891,
       "text_sha256": "c385ee300860987e84cc209fb20ab0272259596e78072401696dd9c4687ff431",
       "status": "indexed",
       "chunks": 18,
       "insights": false,
-      "experiences": 0
+      "experiences": 0,
+      "insights_error": "structured extraction failed: Error code: 400 - {'error': {'message': 'Failed to parse tool call arguments as JSON', 'type': 'invalid_request_error', 'code': 'tool_use_failed', 'failed_generation': '{\"name\": \"LLMExtraction\", \"arguments\": {\\n  \"experiences\": [\\n    {\\n      \"role\": \"Technology & Data Operations Intern\",\\n      \"rounds\": [\\n        {\\n          \"name\": \"Online Assessment\",\\n          \"category\": \"Online Assessment\",\\n          \"pages\": [1],\\n          \"questions\": [\\n            {\\n              \"text\": \"Given an array of integers, find the sum of elements of all possible subarrays of the array.\",\\n              \"kind\": \"coding\",\\n              \"page\": 1\\n            },\\n            {\\n              \"text\": \"Given an array of integers, the task was to reach the end of the array while\"}'}}"
     },
     "2026/Nomura_2026/Nomura_CDO_Aashay_Jadhav.pdf": {
       "sha256": "01b2f126e176ed4fae43147d454cdadac3c7c5b6400186025de697c336f45b6b",
@@ -1269,12 +1261,12 @@
       "pages": 6,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793394315.5845308,
+      "processed_at": 1793702410.8137188,
       "text_sha256": "ab522762a566396358bf6eaa7b46e076e0865a40ca185cb1830c31980902c7b8",
       "status": "indexed",
       "chunks": 24,
-      "insights": false,
-      "experiences": 0
+      "insights": true,
+      "experiences": 1
     },
     "2026/Nomura_2026/Nomura_CDO_AnushkaShendge.pdf": {
       "sha256": "6c3bd088672d86453bf25c9505a575861244d61b136df3b8e0b002002bc1b278",
@@ -1285,12 +1277,12 @@
       "pages": 6,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793394319.311157,
+      "processed_at": 1793702455.5245888,
       "text_sha256": "82ef6462cb9e44ec4223839639df4148fbac2eda288acb774626521ad63ef9f4",
       "status": "indexed",
       "chunks": 13,
-      "insights": false,
-      "experiences": 0
+      "insights": true,
+      "experiences": 1
     },
     "2026/Nomura_2026/Nomura_GM_AmanKanojia.pdf": {
       "sha256": "60e86617e91d008eb4f4ef166a7d71ebb070098a5717472004594e1f0c038a64",
@@ -1301,12 +1293,12 @@
       "pages": 8,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793394322.2776835,
+      "processed_at": 1793702460.5292168,
       "text_sha256": "b79dad9a45281e329144014e7b03600baa0608b0042c611dd543b9ae8902e14b",
       "status": "indexed",
       "chunks": 33,
-      "insights": false,
-      "experiences": 0
+      "insights": true,
+      "experiences": 1
     },
     "2026/Nomura_2026/Nomura_GM_SohamParekh.pdf": {
       "sha256": "67ce4d0cbec374229fdd3bebf9cfc8b8f530809592c7ceda7449ff42706d6524",
@@ -1317,12 +1309,12 @@
       "pages": 4,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793394325.8377502,
+      "processed_at": 1793702511.9478455,
       "text_sha256": "c4703b9b7b1935731a921024269e40f00873b0706f456bf8ac68c594bc8af2fd",
       "status": "indexed",
       "chunks": 14,
-      "insights": false,
-      "experiences": 0
+      "insights": true,
+      "experiences": 1
     },
     "2026/Nomura_2026/Nomura_ITD_Iffat_Patel .pdf": {
       "sha256": "13b3df7140e9ca088e81c34b1793f534618e897ee578a302ff9af55b9be1cde1",
@@ -1333,12 +1325,12 @@
       "pages": 5,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793394327.9367738,
+      "processed_at": 1793702527.06222,
       "text_sha256": "398422779935f799420baab1eaf82e56cab2418a870347efef87dc2605bc3b0c",
       "status": "indexed",
       "chunks": 16,
-      "insights": false,
-      "experiences": 0
+      "insights": true,
+      "experiences": 1
     },
     "2026/Nomura_2026/Nomura_ITD_ShardulMahindrakar.pdf": {
       "sha256": "c725bd1d5be2a0a8b36ecdefb658acfc2a7546819408d1c830912b34806448a1",
@@ -1349,12 +1341,12 @@
       "pages": 4,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793394330.266123,
+      "processed_at": 1793702551.9776313,
       "text_sha256": "a7cb94baa753ce521c7dbb865ead9435ed814074df40494f628dee94732cf16c",
       "status": "indexed",
       "chunks": 13,
-      "insights": false,
-      "experiences": 0
+      "insights": true,
+      "experiences": 1
     },
     "2026/Nomura_2026/Nomura_ITD_Soham_Karmarkar.pdf": {
       "sha256": "efb00aaa42df70b0429f31d02f4d848c18c1283a9214b5c67a8e844f503900c1",
@@ -1367,7 +1359,7 @@
         4
       ],
       "ocr_used": false,
-      "processed_at": 1793394332.5481632,
+      "processed_at": 1793702584.4042716,
       "status": "failed",
       "error": "no extractable text (scanned/image-only pages detected; enable OCR with --ocr)"
     },
@@ -1380,12 +1372,12 @@
       "pages": 3,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793394332.6367543,
+      "processed_at": 1793702584.4638426,
       "text_sha256": "1683e6db4a23e90c82f6124c5c4b2a8eb6918af6ffc583ddaff9b773da730524",
       "status": "indexed",
       "chunks": 10,
-      "insights": false,
-      "experiences": 0
+      "insights": true,
+      "experiences": 1
     },
     "2026/OFSS_2026/OFSS_AAD_(Vihaan S Shinde).pdf": {
       "sha256": "a5792e957918a69e1c2fe6177a924931c12b01960e00f25ec44d161f0869d36e",
@@ -1396,12 +1388,12 @@
       "pages": 7,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793394335.2413204,
+      "processed_at": 1793702622.254064,
       "text_sha256": "d809079086d0ace1bd59dca4fdb762ab208170ab5a6feaa25c11ea9752776083",
       "status": "indexed",
       "chunks": 15,
-      "insights": false,
-      "experiences": 0
+      "insights": true,
+      "experiences": 1
     },
     "2026/OFSS_2026/OFSS_AAD_AdithyaNair.pdf": {
       "sha256": "899a5d505ad282495cb1a40617b9b30d5fe8bea760f386e222fe8662f6220e6b",
@@ -1412,12 +1404,12 @@
       "pages": 3,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793394339.3292933,
+      "processed_at": 1793702640.8246682,
       "text_sha256": "92791be78495c9ac446636bec52abbdd281a9cef53c6308e062b16ab2f0d5257",
       "status": "indexed",
       "chunks": 8,
-      "insights": false,
-      "experiences": 0
+      "insights": true,
+      "experiences": 1
     },
     "2026/OFSS_2026/OFSS_ApplicationDev_JheelParikh.pdf": {
       "sha256": "8f44cac202fe4eabdabb8a28262062f6d85b35ad394b4543a8ab3402b8cf3f75",
@@ -1428,12 +1420,12 @@
       "pages": 3,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793394340.571816,
+      "processed_at": 1793702659.8517501,
       "text_sha256": "6ae7a5625828e491473a6758f8fa8149451106562985d218a7df811daed9580f",
       "status": "indexed",
       "chunks": 8,
-      "insights": false,
-      "experiences": 0
+      "insights": true,
+      "experiences": 1
     },
     "2026/OFSS_2026/OFSS_Associate_Application_Developer_Dhruv_Hogade.pdf": {
       "sha256": "fd0bd0dc357a5240ede5fffe7cf70b73559d88aa45ada10f2537ee4658b76dd3",
@@ -1444,12 +1436,12 @@
       "pages": 6,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793394342.1581547,
+      "processed_at": 1793702678.4281633,
       "text_sha256": "09555d0162d8aec81f468afb01abd8bc68fbd73860d0007975f99b1799ad0984",
       "status": "indexed",
       "chunks": 18,
-      "insights": false,
-      "experiences": 0
+      "insights": true,
+      "experiences": 1
     },
     "2026/OFSS_2026/OFSS_Associate_consultant_Pranav_Nair.pdf": {
       "sha256": "4704f510d7c6651ef3474349ac9126a9bef19d42f4597b68fc173710fc9f7e88",
@@ -1460,12 +1452,12 @@
       "pages": 4,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793394345.3498142,
+      "processed_at": 1793702703.359986,
       "text_sha256": "0804eca3753bf8babb0aeac7997b6f96e91a7608c48e478cb04490ebf1766272",
       "status": "indexed",
       "chunks": 12,
-      "insights": false,
-      "experiences": 0
+      "insights": true,
+      "experiences": 1
     },
     "2026/OFSS_2026/OFSS_AssociateConsultant_YashKambli.pdf": {
       "sha256": "94c18160e5677a7bbdd5581423bd3447173a58e9737e0c860c6d4faeac451bf1",
@@ -1476,12 +1468,13 @@
       "pages": 4,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793394346.5578864,
+      "processed_at": 1793702720.2368522,
       "text_sha256": "1c35280786af5d251977c0ed1c407c5756e7ee866592b418ac2f0e0bd4a97d63",
       "status": "indexed",
       "chunks": 14,
       "insights": false,
-      "experiences": 0
+      "experiences": 0,
+      "insights_error": "structured extraction failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m34ktp7dehwajs9h9xxjwwy8` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198935, Requested 2923. Please try again in 13m22.656s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
     },
     "2026/PhonePe_2026/PhonePe_SDE_Aditya_Tiwari.pdf": {
       "sha256": "3184fb3893c84c2fbe4456c4ac05e3f0c54f772bc66b997a384aa0140c951ea5",
@@ -1492,12 +1485,13 @@
       "pages": 11,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793394349.5388062,
+      "processed_at": 1793702915.3405402,
       "text_sha256": "8928b537e9e704d9d965d6034fb021af1f40b9ed248cdbde4e3e16a01699cca9",
       "status": "indexed",
       "chunks": 36,
       "insights": false,
-      "experiences": 0
+      "experiences": 0,
+      "insights_error": "structured extraction failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m34ktp7dehwajs9h9xxjwwy8` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198484, Requested 6189. Please try again in 33m38.736s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
     },
     "2026/PhonePe_2026/PhonePe_SDE_HarshPandey.pdf": {
       "sha256": "87d4cea17c75f95f2d9e28ed2258d89643250a990be70f297ff09448ae07afde",
@@ -1508,12 +1502,13 @@
       "pages": 6,
       "scanned_pages": [],
       "ocr_used": false,
-      "processed_at": 1793394353.3028545,
+      "processed_at": 1793703108.4983168,
       "text_sha256": "dffed61d2dd2083b38ed57126f93ebe7b758ca3ac57fec44cbff99265631f3e4",
       "status": "indexed",
       "chunks": 23,
       "insights": false,
-      "experiences": 0
+      "experiences": 0,
+      "insights_error": "structured extraction failed: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m34ktp7dehwajs9h9xxjwwy8` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198039, Requested 4810. Please try again in 20m30.768s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
     },
     "2026/PhonePe_2026/PhonePe_SDE_SwaroopVaze.pdf": {
       "sha256": "3e0cf0c0ed0c9d84f4534c915d894023bf8d6f445c7b836b0568e38520526739",

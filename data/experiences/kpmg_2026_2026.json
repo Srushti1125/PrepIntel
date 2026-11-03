@@ -1,0 +1,660 @@
+{
+  "company_id": "kpmg_2026",
+  "year": "2026",
+  "experiences": [
+    {
+      "experience_id": "kpmg_2026-2026-46b5f412-1",
+      "company": "KPMG_2026",
+      "company_id": "kpmg_2026",
+      "year": "2026",
+      "role": "Analyst - Digital Enablement",
+      "rounds": [
+        {
+          "name": "OA test",
+          "category": "Online Assessment",
+          "description": "Simple aptitude test of 45 minutes with 55 questions across Aptitude, Quantitative analysis and verbal ability. Test was fairly easy and cutoff was low.",
+          "topics": [
+            {
+              "original": "Aptitude",
+              "canonical": "Quantitative Aptitude",
+              "category": "Aptitude"
+            },
+            {
+              "original": "Quantitative analysis",
+              "canonical": "Quantitative Aptitude",
+              "category": "Aptitude"
+            },
+            {
+              "original": "verbal ability",
+              "canonical": "Verbal Ability",
+              "category": "Aptitude"
+            }
+          ],
+          "questions": [],
+          "difficulty": "easy",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Technical round 1",
+          "category": "Technical Interview",
+          "description": "Interview included introduction, discussion of remote internship, three projects (ML based, AI hackathon, GCP), questions on technologies used, genAI, basic CS fundamentals and basic DSA (sorting algorithms, time complexity).",
+          "topics": [
+            {
+              "original": "ML",
+              "canonical": "Machine Learning",
+              "category": "Other"
+            },
+            {
+              "original": "AI",
+              "canonical": "AI",
+              "category": "Other"
+            },
+            {
+              "original": "Google cloud platform",
+              "canonical": "Google cloud platform",
+              "category": "Other"
+            },
+            {
+              "original": "genAI",
+              "canonical": "Generative AI",
+              "category": "Other"
+            },
+            {
+              "original": "basic CS fundamentals",
+              "canonical": "basic CS fundamentals",
+              "category": "Other"
+            },
+            {
+              "original": "basic DSA",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "sorting algorithms",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "time complexity",
+              "canonical": "Time Complexity",
+              "category": "Other"
+            }
+          ],
+          "questions": [],
+          "difficulty": null,
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Technical round 2",
+          "category": "Technical Interview",
+          "description": "Interviewer asked about internship details and location preference. Interview lasted less than 10 minutes.",
+          "topics": [
+            {
+              "original": "internship",
+              "canonical": "Internship",
+              "category": "Other"
+            },
+            {
+              "original": "location preference",
+              "canonical": "Location Preference",
+              "category": "Other"
+            }
+          ],
+          "questions": [],
+          "difficulty": null,
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "HR round",
+          "category": "HR Interview",
+          "description": "HR asked basic behavioural questions and location preference, and checked mental readiness.",
+          "topics": [
+            {
+              "original": "behavioural",
+              "canonical": "HR and Behavioral Questions",
+              "category": "HR and behavioral"
+            }
+          ],
+          "questions": [
+            {
+              "text": "How would you deal with conflict between two team members?",
+              "kind": "hr",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "Primary step is to practise DSA and CS fundamentals! No matter what company, they will always expect this from you.",
+          "category": "Technical preparation",
+          "page": 2
+        },
+        {
+          "text": "What I feel is, communication is important. If you are able to communicate with the interviewer properly, you have an edge over other candidates.",
+          "category": "Interview strategy",
+          "page": 2
+        },
+        {
+          "text": "For companies like KPMG, practices Quantitative analysis and aptitude from websites like geeks for geeks.",
+          "category": "OA preparation",
+          "page": 1
+        },
+        {
+          "text": "For resume, follow standard practices like using LaTeX resume templates (like Jake’s resume), keep good ATS score (use resume worded website, get a score of about 50-60 and it’s good to go in resume shortlisting). Be precise and give 3 points per project and quantify results.",
+          "category": "Interview strategy",
+          "page": 2
+        },
+        {
+          "text": "It was my personal observation here, that all selected candidates in technical round 2 had some kind of internship experience, so maybe the interviewers desired previous experience, but this is only my speculation. I would still suggest doing summer internships and part time internships to gain real world experience.",
+          "category": "Technical preparation",
+          "page": 3
+        }
+      ],
+      "resources": [
+        {
+          "title": "geeks for geeks",
+          "url": null,
+          "description": "practice Quantitative analysis and aptitude",
+          "topic": null,
+          "page": 2
+        },
+        {
+          "title": "Jake’s resume",
+          "url": null,
+          "description": "LaTeX resume template",
+          "topic": null,
+          "page": 2
+        },
+        {
+          "title": "resume worded website",
+          "url": null,
+          "description": "check ATS score",
+          "topic": null,
+          "page": 2
+        }
+      ],
+      "filename": "KPMG_Digital-enablement_Amogh Mathpati.pdf",
+      "source_path": "2026/KPMG_2026/KPMG_Digital-enablement_Amogh Mathpati.pdf",
+      "pages": [
+        1,
+        2,
+        3
+      ],
+      "content_sha256": "46b5f412b06e75b8e54a8e6fea0564103e77dc95036f9a8ae663e1f9ba506dc4"
+    },
+    {
+      "experience_id": "kpmg_2026-2026-620f6a18-1",
+      "company": "KPMG_2026",
+      "company_id": "kpmg_2026",
+      "year": "2026",
+      "role": "Analyst – Tech Enablement",
+      "rounds": [
+        {
+          "name": "Online Assessment Test",
+          "category": "Online Assessment",
+          "description": "The Online Assessment (OA) was held on 8th September 2025 and was of easy to medium difficulty. It mainly focused on Quantitative Analysis, along with other aptitude-based questions. It consisted of 55 questions with 3 sections being Aptitude, Quantitative Analysis and Verbal Ability. The test was for 40 minutes only. It was proctored with camera access and full-screen mode enabled, ensuring a monitored and fair evaluation environment. Each question required proper calculations, logical thinking, and step-by-step solving; there were no simple one-word or direct MCQ-type questions. It required quick problem-solving skills as the time limit was quite tight. Both speed and accuracy played a crucial role in performing well in the assessment.",
+          "topics": [
+            {
+              "original": "Quantitative Analysis",
+              "canonical": "Quantitative Aptitude",
+              "category": "Aptitude"
+            },
+            {
+              "original": "aptitude-based questions",
+              "canonical": "Quantitative Aptitude",
+              "category": "Aptitude"
+            },
+            {
+              "original": "Aptitude",
+              "canonical": "Quantitative Aptitude",
+              "category": "Aptitude"
+            },
+            {
+              "original": "Verbal Ability",
+              "canonical": "Verbal Ability",
+              "category": "Aptitude"
+            }
+          ],
+          "questions": [],
+          "difficulty": "easy to medium",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Technical round 1",
+          "category": "Technical Interview",
+          "description": "The interviewer began the conversation in a friendly manner by asking how I was doing, which helped ease the initial nervousness. He then asked me to introduce myself, following which he requested me to give a brief overview of my work experiences. Since I had three prior work experiences, including one at Amazon India, he showed particular interest in understanding the kind of projects I had worked on. He went in-depth about my responsibilities, the technologies I was introduced to, and how I managed and contributed to each project. We discussed the challenges I faced, the problem-solving approaches I used, and the overall learning outcomes from each role. My interview didn’t follow the typical question-answer format; instead, it felt more like an engaging discussion about my experiences and professional journey. The interviewer seemed genuinely interested in understanding how I applied my knowledge in real-world scenarios, which made the interaction quite comfortable. After discussing my work experiences, the interviewer moved on to ask about my academic background. He asked me what subjects I had learned during my computer engineering course and what I was currently exploring. I mentioned that I was learning about emerging technologies like Cloud Computing and Blockchain, which naturally led to a deeper conversation about new advancements in technology. He seemed interested and asked me which of the latest technologies fascinated me the most and why, along with a few related follow-up questions. After that, he shifted the focus toward Computer Science fundamentals. He asked me about the different sorting algorithms I had explored and specifically questioned me on the difference between Bubble Sort and Merge Sort, discussing their time complexities and use cases. He also asked me to tell him the pseudo-code of the merge sort algorithm briefly. He then moved to Data Structures and Algorithms (DSA), asking me to explain the fundamentals, such as stacks and queues, along with their real-life applications. For instance, he gave examples like the undo-redo functionality in applications and how it relates to stack operations. He also asked me some OOPs fundamentals as well but not so much in depth. The discussion was quite interactive, as he appreciated the logical reasoning behind my answers and encouraged me to explain concepts in my own words. Towards the end of the interview, he asked me if I had any questions for him. I took the opportunity to ask about the key responsibilities I would have as an Analyst at KPMG and also inquired about the career growth opportunities within the organization. He seemed particularly impressed by the second question, appreciating my curiosity about long-term development. He then explained both aspects in great detail, describing the nature of the work, the kind of projects analysts are involved in, and the structured growth path within KPMG. It was an insightful conclusion to the interview and gave me a clearer understanding of the role and the organization’s work culture. He then ended the interview. The interview was around 45 minutes, so he didn’t get to ask much about my other skills. He didn’t ask about my projects and all. Other candidates were asked some other basic CS fundamental questions, hobbies, projects and basic DSA.",
+          "topics": [
+            {
+              "original": "Cloud Computing",
+              "canonical": "Cloud Computing",
+              "category": "Other"
+            },
+            {
+              "original": "Blockchain",
+              "canonical": "Blockchain",
+              "category": "Other"
+            },
+            {
+              "original": "Computer Science fundamentals",
+              "canonical": "Computer Science fundamentals",
+              "category": "Other"
+            },
+            {
+              "original": "sorting algorithms",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "Bubble Sort",
+              "canonical": "Bubble Sort",
+              "category": "Other"
+            },
+            {
+              "original": "Merge Sort",
+              "canonical": "Merge Sort",
+              "category": "Other"
+            },
+            {
+              "original": "time complexities",
+              "canonical": "Time Complexities",
+              "category": "Other"
+            },
+            {
+              "original": "Data Structures and Algorithms (DSA)",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "stacks",
+              "canonical": "Stacks and Queues",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "queues",
+              "canonical": "Stacks and Queues",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "OOPs fundamentals",
+              "canonical": "Object-Oriented Programming",
+              "category": "OOPs"
+            }
+          ],
+          "questions": [
+            {
+              "text": "how I was doing",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "introduce myself",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "give a brief overview of my work experiences",
+              "kind": "project",
+              "page": 2
+            },
+            {
+              "text": "kind of projects I had worked on",
+              "kind": "project",
+              "page": 2
+            },
+            {
+              "text": "responsibilities, the technologies I was introduced to, and how I managed and contributed to each project",
+              "kind": "project",
+              "page": 2
+            },
+            {
+              "text": "challenges I faced, the problem-solving approaches I used, and the overall learning outcomes from each role",
+              "kind": "project",
+              "page": 2
+            },
+            {
+              "text": "what subjects I had learned during my computer engineering course",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "what I was currently exploring",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "which of the latest technologies fascinated me the most and why",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "different sorting algorithms I had explored",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "difference between Bubble Sort and Merge Sort, discussing their time complexities and use cases",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "tell him the pseudo-code of the merge sort algorithm briefly",
+              "kind": "coding",
+              "page": 2
+            },
+            {
+              "text": "explain the fundamentals, such as stacks and queues, along with their real-life applications",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "OOPs fundamentals",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "if I had any questions for him",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "key responsibilities I would have as an Analyst at KPMG",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "career growth opportunities within the organization",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "other basic CS fundamental questions",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "hobbies",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "projects",
+              "kind": "project",
+              "page": 2
+            },
+            {
+              "text": "basic DSA",
+              "kind": "technical",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Technical round 2",
+          "category": "Technical Interview",
+          "description": "In the second round, the interviewer in my panel focused primarily on my projects rather than my internship experiences. He began by asking me to introduce myself, and then I briefly mentioned my internships. After that, he delved deeper into my latest projects, asking me about how I implemented them, the tech stacks I used, the challenges I faced, and how I resolved them. I had four projects in total, and he specifically asked about my final year project as well as my first two projects — one based on Kubernetes and the other on Machine Learning. He was keen to understand which projects were group projects and which were individual, and for the group projects, he wanted to know my specific contributions and how I coordinated with my team. The interview was relatively brief, lasting around 25 minutes, but it went well. Towards the end, he again asked if I had any questions. I asked about the kind of work an Analyst does and the typical career progression from Analyst to Associate Consultant, which he explained in detail.",
+          "topics": [
+            {
+              "original": "Kubernetes",
+              "canonical": "Kubernetes",
+              "category": "Other"
+            },
+            {
+              "original": "Machine Learning",
+              "canonical": "Machine Learning",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "introduce myself",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "briefly mentioned my internships",
+              "kind": "project",
+              "page": 3
+            },
+            {
+              "text": "how I implemented them, the tech stacks I used, the challenges I faced, and how I resolved them",
+              "kind": "project",
+              "page": 3
+            },
+            {
+              "text": "final year project",
+              "kind": "project",
+              "page": 3
+            },
+            {
+              "text": "first two projects — one based on Kubernetes and the other on Machine Learning",
+              "kind": "project",
+              "page": 3
+            },
+            {
+              "text": "which projects were group projects and which were individual",
+              "kind": "project",
+              "page": 3
+            },
+            {
+              "text": "my specific contributions and how I coordinated with my team",
+              "kind": "project",
+              "page": 3
+            },
+            {
+              "text": "if I had any questions",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "kind of work an Analyst does",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "typical career progression from Analyst to Associate Consultant",
+              "kind": "hr",
+              "page": 3
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            3
+          ]
+        },
+        {
+          "name": "HR round",
+          "category": "HR Interview",
+          "description": "The HR round was a brief 10-minute online meet that mainly covered basic HR questions. I was asked about my hobbies, strengths and weaknesses, and why they should hire me. The conversation felt largely formal in nature, serving more as a procedural step rather than a detailed interview.",
+          "topics": [],
+          "questions": [
+            {
+              "text": "my hobbies",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "strengths and weaknesses",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "why they should hire me",
+              "kind": "hr",
+              "page": 3
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            3
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "Prepare for Quantitative Analysis and Aptitude: For companies like KPMG, aptitude and quantitative analysis play an important role. Practice regularly on platforms like GeeksforGeeks, IndiaBix, or other competitive aptitude sites. Time management is crucial, so focus on both accuracy and speed.",
+          "category": "OA preparation",
+          "page": 3
+        },
+        {
+          "text": "Use a clean and professional format, such as a LaTeX template.",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "Keep your resume ATS-friendly to increase the chances of being shortlisted.",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "Be precise and impactful: describe your projects in 2–3 points each, and quantify your achievements wherever possible. Numbers and results stand out.",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "Prepare your resume thoroughly from start to finish: Make sure you are familiar with every detail, description, and word mentioned in it, so you can confidently discuss any aspect during the interview. Being well-versed with your own resume shows professionalism and helps you answer questions accurately and convincingly.",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "From my observation, candidates with some form of internship experience tend to have an advantage, especially in technical rounds. Even part-time internships or summer projects provide real-world exposure and talking points for interviews. This is not a strict rule, but it definitely helps strengthen your profile.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Prepare both the theory and coding aspects of computer science. This includes: Data Structures & Algorithms (DSA) Computer Science fundamentals like Operating Systems, DBMS, Networking, etc. Solve as many coding questions as you can. Do the questions on your own, and if you are not able to do it, learn it from any explanation video and do it by yourself. Follow the Strivers' sheet or Leetcode Top Interview 150. And for SQL, you can solve LeetCode SQL 50. Practising coding problems regularly will build confidence for technical interviews.",
+          "category": "Technical preparation",
+          "page": 4
+        },
+        {
+          "text": "Your ability to communicate effectively is often the first impression you make. Clear and confident communication can give you a significant edge over other candidates. Practice introducing yourself, explaining your projects, and discussing your experiences concisely and engagingly.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Keep a smile on your face during interviews.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Show confidence without arrogance. (Most Important)",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Put in the effort to make a strong impression on the interviewer.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "A good academic record (preferably 7.5 GPA or above) adds weight to your profile. However, academics alone are not enough - balance it with projects, internships, and skills.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Start placement preparation as early as possible.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Maintain a healthy balance between studies, skill-building, and personal life.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Consistent effort beats last-minute cramming.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Don’t lose hope. Hard days are part of the journey, and persistence is what separates success from failure. Give your 100% in every attempt, but also accept that luck plays a great role.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Put in your best effort.",
+          "category": "Interview strategy",
+          "page": 5
+        },
+        {
+          "text": "Keep improving, learning, and refining your skills.",
+          "category": "Interview strategy",
+          "page": 5
+        },
+        {
+          "text": "Stay motivated, even when facing setbacks.",
+          "category": "Interview strategy",
+          "page": 5
+        },
+        {
+          "text": "patience, consistency, preparation, and belief in oneself.",
+          "category": "Interview strategy",
+          "page": 5
+        }
+      ],
+      "resources": [
+        {
+          "title": "GeeksforGeeks",
+          "url": null,
+          "description": null,
+          "topic": "OA preparation",
+          "page": 3
+        },
+        {
+          "title": "IndiaBix",
+          "url": null,
+          "description": null,
+          "topic": "OA preparation",
+          "page": 3
+        },
+        {
+          "title": "Strivers' sheet",
+          "url": null,
+          "description": null,
+          "topic": "coding",
+          "page": 4
+        },
+        {
+          "title": "Leetcode Top Interview 150",
+          "url": null,
+          "description": null,
+          "topic": "coding",
+          "page": 4
+        },
+        {
+          "title": "LeetCode SQL 50",
+          "url": null,
+          "description": null,
+          "topic": "SQL",
+          "page": 4
+        }
+      ],
+      "filename": "KPMG_Digital_Tech_Enablemnet_Parnika_Das.pdf",
+      "source_path": "2026/KPMG_2026/KPMG_Digital_Tech_Enablemnet_Parnika_Das.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "content_sha256": "620f6a18cdf30c4016265859bb4fc7311620279cf583a422febd355bcd3fcd5d"
+    }
+  ]
+}

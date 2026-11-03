@@ -1,0 +1,994 @@
+{
+  "company_id": "msci_2026",
+  "year": "2026",
+  "experiences": [
+    {
+      "experience_id": "msci_2026-2026-8f5bd6e9-1",
+      "company": "MSCI_2026",
+      "company_id": "msci_2026",
+      "year": "2026",
+      "role": "Technology and Data Operations Intern",
+      "rounds": [
+        {
+          "name": "OA",
+          "category": "Online Assessment",
+          "description": "Online assessment of 75 minutes on Hackerrank with three questions: 2 DSA based and 1 SQL.",
+          "topics": [
+            {
+              "original": "DSA",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "SQL",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Find uncommon words from two strings, given the full sentence string separately.",
+              "kind": "coding",
+              "page": 1
+            },
+            {
+              "text": "Maximizing the OR value in an array, given you can multiply any element by 2, at most k times.",
+              "kind": "coding",
+              "page": 1
+            },
+            {
+              "text": "SQL question involving two tables related to voter information, returning a summary of each state with voter names and vote counts.",
+              "kind": "other",
+              "page": 1
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Technical Round 1",
+          "category": "Technical Interview",
+          "description": "Resume discussion focusing on GenAI project, vector databases in LangChain, cosine similarity, static/dynamic components in React, and knowledge about MSCI.",
+          "topics": [
+            {
+              "original": "GenAI",
+              "canonical": "Generative AI",
+              "category": "Other"
+            },
+            {
+              "original": "LangChain",
+              "canonical": "LangChain",
+              "category": "Other"
+            },
+            {
+              "original": "cosine similarity",
+              "canonical": "Cosine Similarity",
+              "category": "Other"
+            },
+            {
+              "original": "React",
+              "canonical": "React",
+              "category": "Other"
+            },
+            {
+              "original": "SQL",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "puzzle",
+              "canonical": "Logical Reasoning",
+              "category": "Aptitude"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Explain how vector databases work in LangChain and what cosine similarity is.",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Explain static and dynamic components in React.",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Reverse a string using OOP (create a class with a string attribute and a reversal method).",
+              "kind": "coding",
+              "page": 3
+            },
+            {
+              "text": "SQL query based on INNER, LEFT, and RIGHT JOIN where tables contain only ‘id’ as the attribute.",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "Given Products(pid, …) and Orders(pid, oid), find unsold products using LEFT JOIN where oid is NULL.",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "Puzzle: 6 balls of different weights, find the heaviest using a weighing machine the minimum number of times.",
+              "kind": "other",
+              "page": 3
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2,
+            3
+          ]
+        },
+        {
+          "name": "Technical Round 2",
+          "category": "Technical Interview",
+          "description": "Behavioral and project discussion, algorithm design, ER diagram design, project deep‑dive, puzzles and SQL concepts.",
+          "topics": [
+            {
+              "original": "algorithm design",
+              "canonical": "System Design",
+              "category": "System design"
+            },
+            {
+              "original": "ER diagram",
+              "canonical": "ER diagram",
+              "category": "Other"
+            },
+            {
+              "original": "SQL",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "puzzle",
+              "canonical": "Logical Reasoning",
+              "category": "Aptitude"
+            },
+            {
+              "original": "project",
+              "canonical": "Projects",
+              "category": "Projects"
+            },
+            {
+              "original": "data warehouses",
+              "canonical": "Data Warehouses",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "How does your typical day go?",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "What have you done in your college life overall?",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "What are your hobbies?",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "Write down an algorithm to teach someone new to the keyboard.",
+              "kind": "other",
+              "page": 4
+            },
+            {
+              "text": "Design an ER diagram based on the described schema (users, courses, courseTaken, lessons, tests).",
+              "kind": "technical",
+              "page": 4
+            },
+            {
+              "text": "Discuss the Alumni‑Connect App project, its features, and the FAISS‑based recommendation system.",
+              "kind": "project",
+              "page": 4
+            },
+            {
+              "text": "Puzzle: \"Split or Steal\" game strategy for n turns.",
+              "kind": "other",
+              "page": 4
+            },
+            {
+              "text": "Explain GROUP BY and HAVING in SQL.",
+              "kind": "technical",
+              "page": 4
+            },
+            {
+              "text": "Difference between data warehouses and relational databases.",
+              "kind": "technical",
+              "page": 5
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "name": "HR Round",
+          "category": "HR Interview",
+          "description": "Basic HR questions about introduction, ML vs Data Science, family background, knowledge of MSCI, investment plans, further education, relocation preferences.",
+          "topics": [
+            {
+              "original": "ML",
+              "canonical": "Machine Learning",
+              "category": "Other"
+            },
+            {
+              "original": "Data Science",
+              "canonical": "Data Science",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Introduce yourself professionally.",
+              "kind": "hr",
+              "page": 5
+            },
+            {
+              "text": "Difference between ML and Data Science and your interest.",
+              "kind": "hr",
+              "page": 4
+            },
+            {
+              "text": "Family background.",
+              "kind": "hr",
+              "page": 5
+            },
+            {
+              "text": "Do you know about MSCI? How do you know about it?",
+              "kind": "hr",
+              "page": 5
+            },
+            {
+              "text": "Do you invest or plan to invest?",
+              "kind": "hr",
+              "page": 5
+            },
+            {
+              "text": "Further education plans (masters/MBA).",
+              "kind": "hr",
+              "page": 5
+            },
+            {
+              "text": "Willingness to relocate / preferred location.",
+              "kind": "hr",
+              "page": 5
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            4,
+            5
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "Even if you are not super good at DSA, practice standard problems from Striver's SDE sheet or do daily LeetCode to solve at least medium questions comfortably.",
+          "category": "OA preparation",
+          "page": 6
+        },
+        {
+          "text": "Practice and complete the LeetCode SQL 50 a week before or during placement for decent SQL experience.",
+          "category": "OA preparation",
+          "page": 6
+        },
+        {
+          "text": "For System Design, refer to Piyush Garg (https://www.youtube.com/@piyushgargdev) and Arpit Bhayani (https://www.youtube.com/@AsliEngineering) on YouTube.",
+          "category": "Technical preparation",
+          "page": 6
+        },
+        {
+          "text": "For core subjects, explore different videos or GFG articles, and clarify doubts using GPT/Gemini; good resources include GateSmashers (https://www.youtube.com/@GateSmashers) and Arpit Bhayani.",
+          "category": "Technical preparation",
+          "page": 6
+        },
+        {
+          "text": "Prepare your introduction and general HR questions or project descriptions in written form; you can use AI tools to enhance this.",
+          "category": "HR preparation",
+          "page": 5
+        },
+        {
+          "text": "Read all interview experiences of the particular company before interviews to get an idea of question variety.",
+          "category": "Interview strategy",
+          "page": 5
+        },
+        {
+          "text": "Luck can play a part; focus on presenting one‑liners about projects to steer interviews toward your strengths.",
+          "category": "Interview strategy",
+          "page": 6
+        },
+        {
+          "text": "Do not juggle between two companies; stay focused on one and prepare for it.",
+          "category": "Interview strategy",
+          "page": 7
+        },
+        {
+          "text": "Do not be demotivated if rejected; keep preparing and applying to other companies.",
+          "category": "Interview strategy",
+          "page": 7
+        },
+        {
+          "text": "Feel free to connect on LinkedIn for help: https://www.linkedin.com/in/aroosh-joshi-59601524b/",
+          "category": "Interview strategy",
+          "page": 7
+        }
+      ],
+      "resources": [
+        {
+          "title": "Uncommon words from two strings (GeeksforGeeks)",
+          "url": "https://www.geeksforgeeks.org/dsa/python-program-to-find-uncommon-words-from-two-strings/",
+          "description": null,
+          "topic": null,
+          "page": 1
+        },
+        {
+          "title": "Maximum OR (LeetCode)",
+          "url": "https://leetcode.com/problems/maximum-or/description/",
+          "description": null,
+          "topic": null,
+          "page": 1
+        },
+        {
+          "title": null,
+          "url": "https://www.youtube.com/@piyushgargdev",
+          "description": null,
+          "topic": null,
+          "page": 6
+        },
+        {
+          "title": null,
+          "url": "https://www.youtube.com/@AsliEngineering",
+          "description": null,
+          "topic": null,
+          "page": 6
+        },
+        {
+          "title": null,
+          "url": "https://www.youtube.com/@GateSmashers",
+          "description": null,
+          "topic": null,
+          "page": 6
+        },
+        {
+          "title": "LinkedIn profile",
+          "url": "https://www.linkedin.com/in/aroosh-joshi-59601524b/",
+          "description": null,
+          "topic": null,
+          "page": 7
+        }
+      ],
+      "filename": "MSCI_Technology&DataOpsIntern_ Aroosh.pdf",
+      "source_path": "2026/MSCI_2026/MSCI_Technology&DataOpsIntern_ Aroosh.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "content_sha256": "8f5bd6e98c7b8075a097f6dc467accd9f45416576fa05abe39390b8535c163a9"
+    },
+    {
+      "experience_id": "msci_2026-2026-44663803-1",
+      "company": "MSCI_2026",
+      "company_id": "msci_2026",
+      "year": "2026",
+      "role": "Technology & Data Operations Intern",
+      "rounds": [
+        {
+          "name": "OA",
+          "category": "Online Assessment",
+          "description": "a coding test, 75 minutes in duration. There were 2 coding/DSA problems and an SQL problem.",
+          "topics": [
+            {
+              "original": "coding",
+              "canonical": "Coding",
+              "category": "Other"
+            },
+            {
+              "original": "DSA",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "SQL",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            }
+          ],
+          "questions": [
+            {
+              "text": "There’s a keypad. Each key takes a certain amount of time to press every time you press it. Input is a list of integer pairs like [[0,2], [1,6], [3,8], [2, 4], …]. Here, [0,2] means ‘a’ took 2 seconds to be pressed and so on. So all letters (keys) are 0 indexed starting from ‘a’. The output should be the letter of the key that had the maximum pressing time.",
+              "kind": "coding",
+              "page": 1
+            },
+            {
+              "text": "Input is a string. This string’s various substrings contain multiple permutations of the word “programmer” as subsequences. The task is to find the number of letters between the first and last such substring.",
+              "kind": "coding",
+              "page": 1
+            },
+            {
+              "text": "Given 2 tables, States, and Votes. The Votes table has the votername, state voted for. Return, for each state, a comma separated concatenated string of name of voter, and number of votes given, in the same cell.",
+              "kind": "coding",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            1,
+            2
+          ]
+        },
+        {
+          "name": "Technical Interview L1",
+          "category": "Technical Interview",
+          "description": "just DSA questions with a few introductory questions about my projects and internships.",
+          "topics": [
+            {
+              "original": "DSA",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "projects",
+              "canonical": "Projects",
+              "category": "Projects"
+            },
+            {
+              "original": "internships",
+              "canonical": "Internships",
+              "category": "Other"
+            },
+            {
+              "original": "authentication",
+              "canonical": "Authentication",
+              "category": "Other"
+            },
+            {
+              "original": "JWT",
+              "canonical": "JWT",
+              "category": "Other"
+            },
+            {
+              "original": "flexbox",
+              "canonical": "Flexbox",
+              "category": "Other"
+            },
+            {
+              "original": "CSS",
+              "canonical": "CSS",
+              "category": "Other"
+            },
+            {
+              "original": "career path",
+              "canonical": "Career Path",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "full form of MSCI",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "what problems were there in the OA",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "how to check if there are cycles in an undirected graph",
+              "kind": "coding",
+              "page": 2
+            },
+            {
+              "text": "how to get the top view of a binary tree (horizontal difference)",
+              "kind": "coding",
+              "page": 2
+            },
+            {
+              "text": "right/left view (bfs)",
+              "kind": "coding",
+              "page": 2
+            },
+            {
+              "text": "a matrix problem, a spin on the “number of ways to get from top left to bottom right cell of a matrix” problem (simple 2d dp)",
+              "kind": "coding",
+              "page": 2
+            },
+            {
+              "text": "how I handled authentication in them, and how to do it without using a third party service",
+              "kind": "project",
+              "page": 3
+            },
+            {
+              "text": "knowledge of JWT",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "whether I know what flexbox is",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "whether I’ve ever written pure CSS",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "why I want to pursue a career in software when I am from the EXTC branch",
+              "kind": "hr",
+              "page": 3
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2,
+            3
+          ]
+        },
+        {
+          "name": "Technical Interview L2",
+          "category": "Technical Interview",
+          "description": "interviews were taken by the Executive Directors of MSCI.",
+          "topics": [
+            {
+              "original": "projects",
+              "canonical": "Projects",
+              "category": "Projects"
+            },
+            {
+              "original": "database schema",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "architecture",
+              "canonical": "Architecture",
+              "category": "Other"
+            },
+            {
+              "original": "Firebase RTDB",
+              "canonical": "Firebase RTDB",
+              "category": "Other"
+            },
+            {
+              "original": "Firestore",
+              "canonical": "Firestore",
+              "category": "Other"
+            },
+            {
+              "original": "concurrency",
+              "canonical": "Concurrency",
+              "category": "Other"
+            },
+            {
+              "original": "mutex",
+              "canonical": "Mutex",
+              "category": "Other"
+            },
+            {
+              "original": "rate limiting",
+              "canonical": "Rate Limiting",
+              "category": "Other"
+            },
+            {
+              "original": "UUIDs",
+              "canonical": "UUIDs",
+              "category": "Other"
+            },
+            {
+              "original": "stock exchange engine",
+              "canonical": "Stock Exchange Engine",
+              "category": "Other"
+            },
+            {
+              "original": "data structures",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "OOP",
+              "canonical": "Object-Oriented Programming",
+              "category": "OOPs"
+            },
+            {
+              "original": "ER diagram",
+              "canonical": "ER diagram",
+              "category": "Other"
+            },
+            {
+              "original": "SQL",
+              "canonical": "SQL",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "internships",
+              "canonical": "Internships",
+              "category": "Other"
+            },
+            {
+              "original": "obstacles",
+              "canonical": "Obstacles",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "full form of MSCI",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "introduce myself",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "which project I would like to start with",
+              "kind": "project",
+              "page": 3
+            },
+            {
+              "text": "what db we used",
+              "kind": "project",
+              "page": 4
+            },
+            {
+              "text": "describe the schema and the whole architecture",
+              "kind": "project",
+              "page": 4
+            },
+            {
+              "text": "why RTDB",
+              "kind": "project",
+              "page": 4
+            },
+            {
+              "text": "So the client side application would read directly from the rtdb for some features? Isn’t that unsafe?",
+              "kind": "project",
+              "page": 4
+            },
+            {
+              "text": "Suppose I apply the freeze on a team, and at the approximately same time someone else applies the freeze on the same team. What happens?",
+              "kind": "coding",
+              "page": 4
+            },
+            {
+              "text": "write the full code",
+              "kind": "coding",
+              "page": 4
+            },
+            {
+              "text": "which other tech on my resume has the mutex functionality",
+              "kind": "technical",
+              "page": 4
+            },
+            {
+              "text": "what happens if there is a loading error and I click a powercard twice? How much of my balance will be deducted?",
+              "kind": "coding",
+              "page": 4
+            },
+            {
+              "text": "what exactly my part was in the backend",
+              "kind": "project",
+              "page": 4
+            },
+            {
+              "text": "jot down the db schema",
+              "kind": "project",
+              "page": 4
+            },
+            {
+              "text": "questions about the schema",
+              "kind": "project",
+              "page": 4
+            },
+            {
+              "text": "So no persistence? How do you process this very important data?",
+              "kind": "technical",
+              "page": 4
+            },
+            {
+              "text": "What data structures did you use?",
+              "kind": "technical",
+              "page": 4
+            },
+            {
+              "text": "Why TreeMap? What’s a TreeMap?",
+              "kind": "technical",
+              "page": 5
+            },
+            {
+              "text": "about its abstracted implementation",
+              "kind": "technical",
+              "page": 5
+            },
+            {
+              "text": "Why a doubly linked list for orders? Couldn’t you use a-",
+              "kind": "technical",
+              "page": 5
+            },
+            {
+              "text": "Sketch the OOP model",
+              "kind": "coding",
+              "page": 5
+            },
+            {
+              "text": "Tables: User (uId, uname, balance, holdings), Trades (tradeId, sellerId, buyerId, volume, price). Return the number of times I have sold and bought a set of stocks.",
+              "kind": "coding",
+              "page": 5
+            },
+            {
+              "text": "why I’ve only done ones in front-end roles",
+              "kind": "hr",
+              "page": 5
+            },
+            {
+              "text": "what the biggest obstacles had been for me on the technical and the professional side of my projects or internships, and how I’d overcome them",
+              "kind": "hr",
+              "page": 5
+            },
+            {
+              "text": "how long he’s been with the company and how his experience has been",
+              "kind": "hr",
+              "page": 5
+            },
+            {
+              "text": "what type of work could I expect to be assigned if I were in his team",
+              "kind": "hr",
+              "page": 5
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "name": "HR Interview",
+          "category": "HR Interview",
+          "description": null,
+          "topics": [
+            {
+              "original": "work hours",
+              "canonical": "Work Hours",
+              "category": "Other"
+            },
+            {
+              "original": "location preference",
+              "canonical": "Location Preference",
+              "category": "Other"
+            },
+            {
+              "original": "company rules",
+              "canonical": "Company Rules",
+              "category": "Other"
+            },
+            {
+              "original": "strengths and weaknesses",
+              "canonical": "HR and Behavioral Questions",
+              "category": "HR and behavioral"
+            }
+          ],
+          "questions": [
+            {
+              "text": "About yourself and your family. Your hobbies.",
+              "kind": "hr",
+              "page": 6
+            },
+            {
+              "text": "About yourself professionally.",
+              "kind": "hr",
+              "page": 6
+            },
+            {
+              "text": "So many technologies in your project, why not stick to one.",
+              "kind": "hr",
+              "page": 6
+            },
+            {
+              "text": "Have you worked in a team?",
+              "kind": "hr",
+              "page": 6
+            },
+            {
+              "text": "Prefer working in a team or solo.",
+              "kind": "hr",
+              "page": 6
+            },
+            {
+              "text": "Why xyz internship",
+              "kind": "hr",
+              "page": 6
+            },
+            {
+              "text": "Extra curricular activities in college life?",
+              "kind": "hr",
+              "page": 6
+            },
+            {
+              "text": "Our work hours can be off putting to some. Can you handle them?",
+              "kind": "hr",
+              "page": 6
+            },
+            {
+              "text": "Prefer Mumbai or Pune?",
+              "kind": "hr",
+              "page": 6
+            },
+            {
+              "text": "You trade, so will you be ok with the company telling you to stop because of our rules?",
+              "kind": "hr",
+              "page": 6
+            },
+            {
+              "text": "What have been your biggest strengths and weaknesses throughout your professional life.",
+              "kind": "hr",
+              "page": 6
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            6
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "Brute force almost always works.",
+          "category": "OA preparation",
+          "page": 6
+        },
+        {
+          "text": "every minute is valuable. Code up the brute force, see if it runs. Probably will.",
+          "category": "OA preparation",
+          "page": 6
+        },
+        {
+          "text": "don’t get intimidated by how many leet problems other people have done. On-campus OA’s are easy.",
+          "category": "OA preparation",
+          "page": 6
+        },
+        {
+          "text": "If you have a year before placements: do give as many cf contests as you can. They teach you how to think. I;m not saying rank push. But get yourself to a spot where you can solve div 2 A and B always, and C at least half the time.",
+          "category": "Coding preparation",
+          "page": 6
+        },
+        {
+          "text": "Or if you have very few months before placements and you don’t have a single leet problem. Do top interview 150, then some 10-20 random medium/hards, and you’re good to go tbh. But do all of them like they haven’t been solved yet. Think till you either come up with the solution or are weeping profusely.",
+          "category": "Coding preparation",
+          "page": 6
+        },
+        {
+          "text": "If I could go back in time I’d be more consistent for longer durations in my DSA journey, and wouldn’t stop giving CF contests for hackathons.",
+          "category": "Coding preparation",
+          "page": 6
+        },
+        {
+          "text": "Don’t do what your friends are doing. Pick friends that are doing what you want to do.",
+          "category": "Interview strategy",
+          "page": 6
+        },
+        {
+          "text": "Only pick the CS journey if you're passionate about it. If you’re not and you still have to pick it, then convince yourself that you’re passionate about it.",
+          "category": "HR preparation",
+          "page": 6
+        },
+        {
+          "text": "being a jack of all trades actually helped me in this round. I was able to answer any questions that came up, in terms of tech stack.",
+          "category": "Technical preparation",
+          "page": 7
+        },
+        {
+          "text": "If they aren’t in your resume, you won’t be asked about them. But if they are, and you can answer the questions, that leaves an impression because it shows your passion.",
+          "category": "Technical preparation",
+          "page": 7
+        },
+        {
+          "text": "For interviews my advice will always be to stop preparing answers. Ad lib. Improvise.",
+          "category": "Interview strategy",
+          "page": 7
+        },
+        {
+          "text": "don’t be stressed about placements. It’s better to feel less happy when you’re finally placed, than to feel more sad every time you’re rejected.",
+          "category": "Interview strategy",
+          "page": 7
+        },
+        {
+          "text": "walk into your first test assuming it’ll take 50 more of these before you’re finally placed. Make these tests/interviews feel like a chore, not a burden.",
+          "category": "Interview strategy",
+          "page": 7
+        },
+        {
+          "text": "Also get CTC out of your mind. You young as hell. Think about the work you’ll get to do, that’s way more important.",
+          "category": "Interview strategy",
+          "page": 7
+        },
+        {
+          "text": "Be genuine, and explain with thorough examples. Your aim is to convince them of your answer’s sincerity, not just tell them your answer.",
+          "category": "HR preparation",
+          "page": 6
+        },
+        {
+          "text": "smile.",
+          "category": "Interview strategy",
+          "page": 6
+        },
+        {
+          "text": "Always walk in with a bright smile and a “how are you”. Don’t be a drag and just walk in and sit. Shake their hand. Lighten up the environment. Ask them about their day.",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "developing the skill of ad libbing answers to these questions. Preparing “scripts” for intros, personal questions, even project questions kills your flow and the interview’s vibe. It’s meant to be a fun conversation. Don’t make it boring or dull for the interviewer or yourself.",
+          "category": "Interview strategy",
+          "page": 2
+        },
+        {
+          "text": "When you get something wrong, be graceful about it. Make a joke about it. Keep the interview light and always keep a classy, genuine smile up throughout.",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "If that happens, drink some water or something to give your brain time to get back to normal.",
+          "category": "Interview strategy",
+          "page": 2
+        },
+        {
+          "text": "Go through each and every single previous year experience from ‘24, ‘25 and this year’s. They’re the most efficient revision you’ll get.",
+          "category": "OA preparation",
+          "page": 2
+        },
+        {
+          "text": "Just make sure they get to know you’re truly passionate about CS.",
+          "category": "HR preparation",
+          "page": 7
+        }
+      ],
+      "resources": [
+        {
+          "title": "Previous Year Experiences",
+          "url": null,
+          "description": "Go through each and every single previous year experience from ‘24, ‘25 and this year’s. They’re the most efficient revision you’ll get.",
+          "topic": null,
+          "page": 2
+        },
+        {
+          "title": "top interview 150",
+          "url": null,
+          "description": null,
+          "topic": "coding",
+          "page": 6
+        }
+      ],
+      "filename": "MSCI_Technology&DataOpsIntern_PulkitDwivedi.pdf",
+      "source_path": "2026/MSCI_2026/MSCI_Technology&DataOpsIntern_PulkitDwivedi.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "content_sha256": "446638039d2f594380cacfce7ffac91fb1e592b8a6d00d22eef2f47aac5bd224"
+    }
+  ]
+}

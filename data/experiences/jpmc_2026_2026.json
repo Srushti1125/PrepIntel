@@ -1,0 +1,517 @@
+{
+  "company_id": "jpmc_2026",
+  "year": "2026",
+  "experiences": [
+    {
+      "experience_id": "jpmc_2026-2026-6359e680-1",
+      "company": "JPMC_2026",
+      "company_id": "jpmc_2026",
+      "year": "2026",
+      "role": "CIB Research and Analytics - Banking",
+      "rounds": [
+        {
+          "name": "Resume Screening",
+          "category": "Other",
+          "description": "Your resume is as very crucial a part of the entire selection process as any other. Building your resume is a time consuming process, so allot enough time for it. Try to tailor your resume to the role you are applying for. All resumes are screened by an ATS (Applicant Tracking System), so you can check your score on websites like “ResumeWorded”. My resume had a score of 72.",
+          "topics": [],
+          "questions": [],
+          "difficulty": null,
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Online Assesment",
+          "category": "Online Assessment",
+          "description": "The online test was conducted on campus. With a total of 45 marks, it consisted of 4 sections - Finance & Accounting (10), Market Awareness (10), Quantitative Aptitude (15), Verbal Ability and Reading Comprehension (10). The time given was 45 mins, so there is a time crunch as the quant section is tough, the VARC section is easy but time consuming.",
+          "topics": [
+            {
+              "original": "Finance & Accounting",
+              "canonical": "Finance & Accounting",
+              "category": "Other"
+            },
+            {
+              "original": "Market Awareness",
+              "canonical": "Market Awareness",
+              "category": "Other"
+            },
+            {
+              "original": "Quantitative Aptitude",
+              "canonical": "Quantitative Aptitude",
+              "category": "Aptitude"
+            },
+            {
+              "original": "Verbal Ability and Reading Comprehension",
+              "canonical": "Verbal Ability",
+              "category": "Aptitude"
+            }
+          ],
+          "questions": [
+            {
+              "text": "1 question about puttable bonds.",
+              "kind": "technical",
+              "page": 1
+            },
+            {
+              "text": "what is the exemption on taxes for investing in government pension schemes",
+              "kind": "technical",
+              "page": 1
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            1,
+            2
+          ]
+        },
+        {
+          "name": "Group Discussion",
+          "category": "Group Discussion",
+          "description": "The discussion time was 20 mins and last 10 min were for summary. We had 3 panels for GD",
+          "topics": [],
+          "questions": [
+            {
+              "text": "Central Banks' Diverging Paths Amid Geopolitical Stress - The Bank of England maintains rates at 4.25% due to global uncertainty, while Norway and Switzerland have opted for rate cuts. Explore how central banks should balance inflation control with growth risks, particularly in the context of conflicts or trade wars.",
+              "kind": "other",
+              "page": 2
+            },
+            {
+              "text": "Views on Forex reserves",
+              "kind": "other",
+              "page": 2
+            },
+            {
+              "text": "What are the impacts of having different views and policy of central banks",
+              "kind": "other",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Interview Round 1",
+          "category": "Technical Interview",
+          "description": "The round consisted of accounting questions, Corporate Finance, puzzles, mental maths, market awareness. The round lasted for 30-40 mins.",
+          "topics": [
+            {
+              "original": "accounting",
+              "canonical": "Accounting",
+              "category": "Other"
+            },
+            {
+              "original": "Corporate Finance",
+              "canonical": "Corporate Finance",
+              "category": "Other"
+            },
+            {
+              "original": "puzzles",
+              "canonical": "Logical Reasoning",
+              "category": "Aptitude"
+            },
+            {
+              "original": "mental maths",
+              "canonical": "Quantitative Aptitude",
+              "category": "Aptitude"
+            },
+            {
+              "original": "market awareness",
+              "canonical": "Market Awareness",
+              "category": "Other"
+            },
+            {
+              "original": "DCF valuation",
+              "canonical": "DCF valuation",
+              "category": "Other"
+            },
+            {
+              "original": "forage investment banking simulation course",
+              "canonical": "Forage Investment Banking Simulation Course",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "The change in depreciation and taxes and what are its effect on the financial statements.",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Latest IPO and M&A",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "What is capital restructuring and why is it done.",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "questions about DCF valuation project",
+              "kind": "project",
+              "page": 2
+            },
+            {
+              "text": "calculate 57 × 63.",
+              "kind": "aptitude",
+              "page": 2
+            },
+            {
+              "text": "values of roots i.e 2,3,10 etc.",
+              "kind": "aptitude",
+              "page": 2
+            },
+            {
+              "text": "questions on forage investment banking simulation course",
+              "kind": "project",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Interview Round 2",
+          "category": "Technical Interview",
+          "description": "This round was taken by the manager for CIB, the duration of this round was only 7-8 minutes. The round consisted of 30-35 rapid fire questions.",
+          "topics": [
+            {
+              "original": "DCF valuation model",
+              "canonical": "DCF valuation model",
+              "category": "Other"
+            },
+            {
+              "original": "WACC",
+              "canonical": "WACC",
+              "category": "Other"
+            },
+            {
+              "original": "Beta",
+              "canonical": "Beta",
+              "category": "Other"
+            },
+            {
+              "original": "Financial Ratios",
+              "canonical": "Financial Ratios",
+              "category": "Other"
+            },
+            {
+              "original": "stock",
+              "canonical": "Stock",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "explain the DCF valuation model I had made.",
+              "kind": "project",
+              "page": 3
+            },
+            {
+              "text": "questions on WACC",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "questions on Beta",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "questions on Financial Ratios",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "Talk about any stock for 30 seconds—its market capitalisation, stock value any and everything you know about it.",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "if I invested in stock",
+              "kind": "hr",
+              "page": 3
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            3
+          ]
+        },
+        {
+          "name": "HR Interview",
+          "category": "HR Interview",
+          "description": "This round was informal and relaxed, lasted for 10-15 mins.",
+          "topics": [],
+          "questions": [
+            {
+              "text": "briefly talk about my resume",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "explain one of my leadership roles",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "about my family background",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "did I know what exactly my job role is",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "how my past work and leadership experience can help me to better in the internship",
+              "kind": "hr",
+              "page": 3
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            3
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "Building your resume is a time consuming process, so allot enough time for it.",
+          "category": "Interview strategy",
+          "page": 1
+        },
+        {
+          "text": "Try to tailor your resume to the role you are applying for.",
+          "category": "Interview strategy",
+          "page": 1
+        },
+        {
+          "text": "All resumes are screened by an ATS (Applicant Tracking System), so you can check your score on websites like “ResumeWorded”.",
+          "category": "Interview strategy",
+          "page": 1
+        },
+        {
+          "text": "They should be 1 page resumes as that’s what is expected from freshers.",
+          "category": "Interview strategy",
+          "page": 1
+        },
+        {
+          "text": "Make single column resumes in Latex format.",
+          "category": "Interview strategy",
+          "page": 1
+        },
+        {
+          "text": "Try to include all relevant coursework / competition / projects / internships in your resume.",
+          "category": "Interview strategy",
+          "page": 1
+        },
+        {
+          "text": "Having 1-2 good finance projects on your resume helps.",
+          "category": "Interview strategy",
+          "page": 1
+        },
+        {
+          "text": "Participate in case study competitions.",
+          "category": "Interview strategy",
+          "page": 1
+        },
+        {
+          "text": "Do some finance certifications and add them onto your resume.",
+          "category": "Interview strategy",
+          "page": 1
+        },
+        {
+          "text": "You can make minor changes to your resume that you are taking for your interviews.",
+          "category": "Interview strategy",
+          "page": 1
+        },
+        {
+          "text": "try to segregate the sections into time slots so you can attempt as much as possible.",
+          "category": "OA preparation",
+          "page": 2
+        },
+        {
+          "text": "don’t lose heart in the process and be prepared.",
+          "category": "Interview strategy",
+          "page": 2
+        },
+        {
+          "text": "Ensure you contribute at least 3–4 meaningful qualitative points.",
+          "category": "Interview strategy",
+          "page": 2
+        },
+        {
+          "text": "Try to work as a team, acknowledge others points and add on to it.",
+          "category": "Interview strategy",
+          "page": 2
+        },
+        {
+          "text": "Make sure you speak for 45 sec - 60 sec per point so the moderator takes note of you.",
+          "category": "Interview strategy",
+          "page": 2
+        },
+        {
+          "text": "If you are not able to answer anything don’t panic makes sure you tell the thought process and approach for it.",
+          "category": "Interview strategy",
+          "page": 2
+        },
+        {
+          "text": "If you make a mistake or there is some misunderstanding in what you were supposed to answer DO NOT PANIC, —your interview isn’t over. One or two mistakes are acceptable so keep your head down and focus on answering the rest of the questions properly.",
+          "category": "Interview strategy",
+          "page": 2
+        },
+        {
+          "text": "Once the GD is done you might receive the order of interview, but always be ready there can be changes in last minute and you can be called anytime",
+          "category": "Interview strategy",
+          "page": 2
+        },
+        {
+          "text": "Make sure you are thorough with all the formulas.",
+          "category": "Technical preparation",
+          "page": 3
+        },
+        {
+          "text": "Everything happens simultaneously and can be chaotic, so be relaxed, focused and calm.",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "The core essence of the process is not about how much you know but whatever you do, how well-versed you are in it. So focus on learning things deeply rather than trying to do a lot of things.",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "During interviews, always maintain proper posture, have a smile on your face, do not panic even if you are unable to answer and at least let the interviewer know what approach you’re thinking about.",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "The entire placement cycle is very hectic and stressful but it is important to stay in the present and study without worrying about external factors like market situation, recession, etc. Believe me, it never goes to waste. If you have prepared honestly, you will get opportunities.",
+          "category": "Interview strategy",
+          "page": 3
+        }
+      ],
+      "resources": [
+        {
+          "title": "ResumeWorded",
+          "url": null,
+          "description": null,
+          "topic": null,
+          "page": 1
+        },
+        {
+          "title": "CFI courses",
+          "url": null,
+          "description": null,
+          "topic": "Accounting Fundamentals",
+          "page": 3
+        },
+        {
+          "title": "CFI courses",
+          "url": null,
+          "description": null,
+          "topic": "Corporate Finance",
+          "page": 3
+        },
+        {
+          "title": "CFI courses",
+          "url": null,
+          "description": null,
+          "topic": "Reading Financial Statements",
+          "page": 3
+        },
+        {
+          "title": "Udemy",
+          "url": null,
+          "description": "The complete investment banking 2025",
+          "topic": "investment banking",
+          "page": 3
+        },
+        {
+          "title": "Forage",
+          "url": null,
+          "description": "Jp Morgan Investment banking job simulation",
+          "topic": "investment banking simulation",
+          "page": 3
+        },
+        {
+          "title": "YouTube",
+          "url": null,
+          "description": null,
+          "topic": "DCF valuation",
+          "page": 3
+        },
+        {
+          "title": "YouTube",
+          "url": null,
+          "description": null,
+          "topic": "How are 3 financial statements linked",
+          "page": 3
+        },
+        {
+          "title": "YouTube",
+          "url": null,
+          "description": null,
+          "topic": "2008 financial crisis",
+          "page": 3
+        },
+        {
+          "title": "YouTube",
+          "url": null,
+          "description": null,
+          "topic": "SVB bank collapse",
+          "page": 3
+        },
+        {
+          "title": "YouTube",
+          "url": null,
+          "description": null,
+          "topic": "what is SENSEX AND NIFTY",
+          "page": 3
+        },
+        {
+          "title": "YouTube",
+          "url": null,
+          "description": null,
+          "topic": "how is GDP calculated",
+          "page": 3
+        },
+        {
+          "title": "YouTube",
+          "url": null,
+          "description": null,
+          "topic": "Adani-Hindenburg saga",
+          "page": 3
+        },
+        {
+          "title": "GFG 100 puzzles",
+          "url": null,
+          "description": null,
+          "topic": "puzzles",
+          "page": 3
+        },
+        {
+          "title": "IndiaBix.com",
+          "url": null,
+          "description": null,
+          "topic": "Quants",
+          "page": 3
+        }
+      ],
+      "filename": "CIB - AtharvaDahegaonkar (2).pdf",
+      "source_path": "2026/JPMC_2026/CIB - AtharvaDahegaonkar (2).pdf",
+      "pages": [
+        1,
+        2,
+        3
+      ],
+      "content_sha256": "6359e680155917ce45d16e33121f847c1a40b405e8cc5cfe2b7f0d0cc3472a7a"
+    }
+  ]
+}

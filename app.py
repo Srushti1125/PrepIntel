@@ -158,6 +158,7 @@ div[data-testid="stDataFrame"] {border:1px solid #e3e9f2;border-radius:12px;over
 .cp-round-summary {color:#263b58;line-height:1.45;}
 .cp-round-summary ul {margin:.2rem 0 .35rem;padding-left:1.25rem;}
 .cp-round-summary li {margin:.04rem 0;line-height:1.35;padding:0;}
+.st-key-round-card [data-testid="stMarkdownContainer"] li {margin-block:.02rem!important;line-height:1.3;}
 
 
 @media (max-width:700px) {.block-container{padding:1rem .8rem 3rem}.cp-title{font-size:1.65rem}}
@@ -404,7 +405,7 @@ with tab_rounds:
         for experience in experiences:
             role_groups.setdefault(canonical_role(experience.role), []).append(experience)
 
-        for role_name in sorted(role_groups):
+        for role_index, role_name in enumerate(sorted(role_groups)):
             role_experiences = role_groups[role_name]
             st.markdown(f"### {html.escape(role_name)}")
             st.caption(f"Combined from {len(role_experiences)} candidate experiences")
@@ -416,7 +417,7 @@ with tab_rounds:
             for round_number, entries in sorted(round_groups.items()):
                 unique_experiences = {experience.experience_id: experience for experience, _ in entries}
                 report_count = len(unique_experiences)
-                with st.container(border=True):
+                with st.container(border=True, key=f"round-card-{role_index}-{round_number}"):
                     st.markdown(f"#### Round {round_number}")
                     round_types = {}
                     for experience, round_info in entries:

@@ -1,0 +1,683 @@
+{
+  "company_id": "mahindra_finance_2026",
+  "year": "2026",
+  "experiences": [
+    {
+      "experience_id": "mahindra_finance_2026-2026-f1f7e153-1",
+      "company": "Mahindra_Finance_2026",
+      "company_id": "mahindra_finance_2026",
+      "year": "2026",
+      "role": "Corporate Trainee (Data Science)",
+      "rounds": [
+        {
+          "name": "Aptitude Test",
+          "category": "Online Assessment",
+          "description": "100 questions covering quants, aptitude, logical reasoning, verbal aptitude and behavioral/situation based questions; negative marking.",
+          "topics": [
+            {
+              "original": "quants",
+              "canonical": "Quants",
+              "category": "Other"
+            },
+            {
+              "original": "aptitude",
+              "canonical": "Quantitative Aptitude",
+              "category": "Aptitude"
+            },
+            {
+              "original": "logical reasoning",
+              "canonical": "Logical Reasoning",
+              "category": "Aptitude"
+            },
+            {
+              "original": "verbal aptitude",
+              "canonical": "Quantitative Aptitude",
+              "category": "Aptitude"
+            },
+            {
+              "original": "behavioral/situation based",
+              "canonical": "Behavioral/Situation Based",
+              "category": "Other"
+            },
+            {
+              "original": "speed distance and time",
+              "canonical": "Speed Distance And Time",
+              "category": "Other"
+            },
+            {
+              "original": "percentage",
+              "canonical": "Percentage",
+              "category": "Other"
+            },
+            {
+              "original": "profit loss",
+              "canonical": "Profit Loss",
+              "category": "Other"
+            },
+            {
+              "original": "discounts",
+              "canonical": "Discounts",
+              "category": "Other"
+            }
+          ],
+          "questions": [],
+          "difficulty": null,
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Coding Test",
+          "category": "Online Assessment",
+          "description": "Two sections: ~20 MCQs on basic python input/output and 3 DSA questions (Leetcode easy level) to be solved in Python.",
+          "topics": [
+            {
+              "original": "basic python input/output",
+              "canonical": "Python",
+              "category": "Programming languages"
+            },
+            {
+              "original": "DSA",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            }
+          ],
+          "questions": [],
+          "difficulty": null,
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Group Discussion",
+          "category": "Group Discussion",
+          "description": "Topic: “Technology : Boon or Bane”. Panel of 6, 9 mins discussion + 1 min conclusion.",
+          "topics": [
+            {
+              "original": "Technology : Boon or Bane",
+              "canonical": "Technology : Boon or Bane",
+              "category": "Other"
+            }
+          ],
+          "questions": [],
+          "difficulty": null,
+          "pages": [
+            3
+          ]
+        },
+        {
+          "name": "HR Interview",
+          "category": "HR Interview",
+          "description": "45‑minute interview focusing on personality, culture fit, life experiences, DE&I values, ethical scenarios.",
+          "topics": [],
+          "questions": [
+            {
+              "text": "Family background, upbringing, places visited.",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "Which project taught the most valuable life lessons and which one presented the biggest challenges?",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "Questions about DE&I framework and how you align with it.",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "Encountered any unethical practices and how you reacted.",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "Any questions you have for the interviewer about company expectations on beliefs and values.",
+              "kind": "hr",
+              "page": 4
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            3,
+            4
+          ]
+        },
+        {
+          "name": "Technical Interview",
+          "category": "Technical Interview",
+          "description": "40‑minute interview covering projects, case studies, and technical depth.",
+          "topics": [],
+          "questions": [
+            {
+              "text": "Discussion of ‘Smart Returns’ project: problem statement, solution, workflow, technology integration.",
+              "kind": "technical",
+              "page": 4
+            },
+            {
+              "text": "Case study on demand‑based shipping feature for Amazon; demand forecasting models.",
+              "kind": "technical",
+              "page": 4
+            },
+            {
+              "text": "Estimated accuracy of ML model for demand forecasting.",
+              "kind": "technical",
+              "page": 4
+            },
+            {
+              "text": "Handling the 20% inaccuracy in demand forecasting.",
+              "kind": "technical",
+              "page": 4
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            3,
+            4
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "Placements are one of the most trying yet important phases of life and you will definitely come out on the other side, a stronger and more confident person.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "ATS score checker : http://resumeworded.com/ (try to get >80)",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Python essentials : Neetcode YT playlist , Blind 75 , Python for Everybody by University of Michigan (Coursera certification). Keep revising CS fundamentals (OS, CCN, DBMS, OOPs) as they are asked in a lot of tests and interviews both.",
+          "category": "Technical preparation",
+          "page": 4
+        },
+        {
+          "text": "Aptitude : IndiaBix Start aptitude practice early on! Do not underestimate it or think “yeh toh easy hai ho hi jayega”. Speed and accuracy only comes through consistent practice and you can’t go from 0-100 in aptitude just in one night before your test.",
+          "category": "OA preparation",
+          "page": 4
+        },
+        {
+          "text": "For GDs, build your communication skills and quick thinking as they look for people who add value to the discussion by stating relevant points in a concise and articulate manner.",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "On your interview day, remain calm and composed and meditate/listen to songs/think of God (whatever works for you). Try to focus more on the process rather than the outcome to stop overthinking and believe in yourself!!!",
+          "category": "Interview strategy",
+          "page": 4
+        },
+        {
+          "text": "Luck is a huge factor in every step of the process, so don’t take failures personally and just keep trying and improving yourself every day.",
+          "category": "Interview strategy",
+          "page": 4
+        }
+      ],
+      "resources": [
+        {
+          "title": "Akshata_Mahindra_Resume.pdf",
+          "url": null,
+          "description": "Resume used for Mahindra Finance application",
+          "topic": null,
+          "page": 2
+        },
+        {
+          "title": "ResumeWorded",
+          "url": "http://resumeworded.com/",
+          "description": "ATS score checker",
+          "topic": null,
+          "page": 4
+        },
+        {
+          "title": "Neetcode YT playlist",
+          "url": null,
+          "description": null,
+          "topic": null,
+          "page": 4
+        },
+        {
+          "title": "Blind 75",
+          "url": null,
+          "description": null,
+          "topic": null,
+          "page": 4
+        },
+        {
+          "title": "Python for Everybody by University of Michigan (Coursera certification)",
+          "url": null,
+          "description": null,
+          "topic": null,
+          "page": 4
+        },
+        {
+          "title": "IndiaBix",
+          "url": null,
+          "description": "Aptitude practice platform",
+          "topic": null,
+          "page": 4
+        }
+      ],
+      "filename": "Akshata_MahindraFinance_CT.pdf",
+      "source_path": "2026/Mahindra_Finance_2026/Akshata_MahindraFinance_CT.pdf",
+      "pages": [
+        2,
+        3,
+        4
+      ],
+      "content_sha256": "f1f7e153e18cf85b91169f091afb1c85f29f7d621699c2a7e0fcda8c6171c0b2"
+    },
+    {
+      "experience_id": "mahindra_finance_2026-2026-10ade452-1",
+      "company": "Mahindra_Finance_2026",
+      "company_id": "mahindra_finance_2026",
+      "year": "2026",
+      "role": "Data Engineer",
+      "rounds": [
+        {
+          "name": "Aptitude Round",
+          "category": "Online Assessment",
+          "description": "The Aptitude Round consisted of 100 questions covering Quantitative Aptitude, Geometry, Verbal Ability, and Logical Reasoning to be solved in 1 hour. The quantitative section included problems on percentages, ratios, time and work, and geometry-based questions. The verbal section tested grammar, reading comprehension, and vocabulary, while the reasoning section focused on analytical thinking. In addition to these, there were a few behavioral and situational questions. Overall, the round focused on both technical and behavorial assessment. This round followed a +4 -1 marking scheme.",
+          "topics": [
+            {
+              "original": "Quantitative Aptitude",
+              "canonical": "Quantitative Aptitude",
+              "category": "Aptitude"
+            },
+            {
+              "original": "Geometry",
+              "canonical": "Geometry",
+              "category": "Other"
+            },
+            {
+              "original": "Verbal Ability",
+              "canonical": "Verbal Ability",
+              "category": "Aptitude"
+            },
+            {
+              "original": "Logical Reasoning",
+              "canonical": "Logical Reasoning",
+              "category": "Aptitude"
+            },
+            {
+              "original": "percentages",
+              "canonical": "Percentages",
+              "category": "Other"
+            },
+            {
+              "original": "ratios",
+              "canonical": "Ratios",
+              "category": "Other"
+            },
+            {
+              "original": "time and work",
+              "canonical": "Time And Work",
+              "category": "Other"
+            },
+            {
+              "original": "grammar",
+              "canonical": "Grammar",
+              "category": "Other"
+            },
+            {
+              "original": "reading comprehension",
+              "canonical": "Verbal Ability",
+              "category": "Aptitude"
+            },
+            {
+              "original": "vocabulary",
+              "canonical": "Vocabulary",
+              "category": "Other"
+            },
+            {
+              "original": "analytical thinking",
+              "canonical": "Analytical Thinking",
+              "category": "Other"
+            },
+            {
+              "original": "behavioral",
+              "canonical": "HR and Behavioral Questions",
+              "category": "HR and behavioral"
+            },
+            {
+              "original": "situational",
+              "canonical": "HR and Behavioral Questions",
+              "category": "HR and behavioral"
+            }
+          ],
+          "questions": [
+            {
+              "text": "If your team member isn’t contributing effectively, what would you do?",
+              "kind": "hr",
+              "page": 1
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Coding Round",
+          "category": "Online Assessment",
+          "description": "Round 2 consisted of two sections – the first focused on basic Python MCQs, while the second included easy-level coding questions similar to those found on LeetCode. The only programming language allowed was Python.",
+          "topics": [
+            {
+              "original": "Python MCQs",
+              "canonical": "Python",
+              "category": "Programming languages"
+            },
+            {
+              "original": "coding questions",
+              "canonical": "Coding Questions",
+              "category": "Other"
+            },
+            {
+              "original": "LeetCode",
+              "canonical": "LeetCode",
+              "category": "Other"
+            }
+          ],
+          "questions": [],
+          "difficulty": "easy",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Group Discussion Round",
+          "category": "Group Discussion",
+          "description": "The topic given to us was “Technology: Boon or Bane.” Candidates who expressed their points in a clear, concise, and professional manner, speaking confidently and with good articulation, were the ones selected for the next round.",
+          "topics": [],
+          "questions": [
+            {
+              "text": "Technology: Boon or Bane",
+              "kind": "other",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Technical Interview",
+          "category": "Technical Interview",
+          "description": "The interview was primarily focused on Python and Machine Learning. The interviewer was very particular about the answers and often went into detailed discussions. He began by asking me to introduce myself. Since I had researched Mahindra Finance beforehand, I knew that one of its key sectors deals with loan approval, which aligned well with my credit risk modelling project. I mentioned this connection during my introduction, which led him to ask several project-related questions. The discussion then shifted to model evaluation metrics, where he asked me to explain precision, recall, and accuracy, and to justify which metric mattered the most in my project context. After that, he presented a case study scenario. The interview concluded with me asking him three questions about Mahindra Finance’s advancements in Machine Learning and how the company is integrating AI into its operations. Overall, it was a highly engaging and technical discussion that tested both conceptual understanding and practical problem-solving.",
+          "topics": [
+            {
+              "original": "Python",
+              "canonical": "Python",
+              "category": "Programming languages"
+            },
+            {
+              "original": "Machine Learning",
+              "canonical": "Machine Learning",
+              "category": "Other"
+            },
+            {
+              "original": "credit risk modelling",
+              "canonical": "Credit Risk Modelling",
+              "category": "Other"
+            },
+            {
+              "original": "SMOTE",
+              "canonical": "SMOTE",
+              "category": "Other"
+            },
+            {
+              "original": "Random Forest",
+              "canonical": "Random Forest",
+              "category": "Other"
+            },
+            {
+              "original": "XGBoost",
+              "canonical": "XGBoost",
+              "category": "Other"
+            },
+            {
+              "original": "pandas query",
+              "canonical": "Pandas Query",
+              "category": "Other"
+            },
+            {
+              "original": "dataset types",
+              "canonical": "Dataset Types",
+              "category": "Other"
+            },
+            {
+              "original": "model evaluation metrics",
+              "canonical": "Model Evaluation Metrics",
+              "category": "Other"
+            },
+            {
+              "original": "precision",
+              "canonical": "Precision",
+              "category": "Other"
+            },
+            {
+              "original": "recall",
+              "canonical": "Recall",
+              "category": "Other"
+            },
+            {
+              "original": "accuracy",
+              "canonical": "Accuracy",
+              "category": "Other"
+            },
+            {
+              "original": "parameters",
+              "canonical": "Parameters",
+              "category": "Other"
+            },
+            {
+              "original": "features",
+              "canonical": "Features",
+              "category": "Other"
+            },
+            {
+              "original": "peak-hour timings",
+              "canonical": "Peak-Hour Timings",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "introduce myself",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "which algorithm I had used",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "explain SMOTE along with its advantages and disadvantages",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "draw and explain the working of Random Forest and justify why it performed better than XGBoost in my case",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "write the pandas query for merging them using the ID column as the key",
+              "kind": "coding",
+              "page": 2
+            },
+            {
+              "text": "detailed questions about the types of columns in my dataset and their relevance",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "explain precision, recall, and accuracy, and to justify which metric mattered the most in my project context",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "If Uber ride prices suddenly increase from ₹400 to ₹800 within 10 minutes in the same location, how would you identify and fix the bug in your ML model?",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "describe the parameters and features I would use in such a model",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "If all drivers in a certain area stop accepting Uber rides and instead take private trips, how would your model detect such behavior?",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "how I would determine peak hours without having an existing dataset",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "three questions about Mahindra Finance’s advancements in Machine Learning and how the company is integrating AI into its operations",
+              "kind": "hr",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "HR Round",
+          "category": "HR Interview",
+          "description": "The HR round surprisingly lasted for around 45 minutes, during which the HR was noting down my answers carefully. The discussion mainly revolved around situational and behavioral questions. I was given several case-based scenarios. The HR wanted to understand my thought process, decision-making, and ability to handle real-life workplace challenges. Overall, it was a situational round focused on assessing attitude, ethics, and teamwork rather than technical knowledge.",
+          "topics": [
+            {
+              "original": "situational",
+              "canonical": "HR and Behavioral Questions",
+              "category": "HR and behavioral"
+            },
+            {
+              "original": "behavioral",
+              "canonical": "HR and Behavioral Questions",
+              "category": "HR and behavioral"
+            }
+          ],
+          "questions": [
+            {
+              "text": "how I would handle a situation where a team member is not contributing effectively",
+              "kind": "hr",
+              "page": 3
+            },
+            {
+              "text": "how I would respond if I witnessed something wrong happening around me",
+              "kind": "hr",
+              "page": 3
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            3
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "Focus on your CGPA.",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "during your 6th semester, shut out the noise around you and just believe in your hard work.",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "Study everything that’s commonly asked in interviews.",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "In placements, being a jack of all trades often works better than excelling in just one domain.",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "Practicing DSA is important, of course, but relying only on it won’t help much—only 4–5 companies are heavily DSA-focused and I realized it much much later.",
+          "category": "Coding preparation",
+          "page": 3
+        },
+        {
+          "text": "The rest mostly have doable coding questions in their online assessments and give high importance to aptitude, which most students tend to ignore.",
+          "category": "OA preparation",
+          "page": 3
+        },
+        {
+          "text": "For interviews, know your resume inside out—every project, every line.",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "SQL is the underdog in placements, so make sure to practice it thoroughly beforehand.",
+          "category": "Technical preparation",
+          "page": 3
+        },
+        {
+          "text": "When it comes to projects, having a simple project that you understand deeply is far better than having an overly complex one that you can’t explain properly.",
+          "category": "Project preparation",
+          "page": 3
+        },
+        {
+          "text": "Lastly, know your OS, CN, and DBMS concepts really well—many companies ask questions from these subjects.",
+          "category": "Technical preparation",
+          "page": 3
+        },
+        {
+          "text": "End-moment preparation won’t help much here, so start early.",
+          "category": "Technical preparation",
+          "page": 3
+        }
+      ],
+      "resources": [
+        {
+          "title": "IndiaBix",
+          "url": null,
+          "description": "Practiced Quantitative, Logical, and Verbal Aptitude questions from IndiaBix, and most importantly taking their timed tests greatly helped me improve my speed and time management skills, which play a crucial role in performing well in aptitude exams.",
+          "topic": "Aptitude",
+          "page": 1
+        },
+        {
+          "title": "Striver’s sheet",
+          "url": null,
+          "description": "Practice Striver’s sheet being well versed with it will help you clear DSA coding rounds of almost all the companies.",
+          "topic": "DSA",
+          "page": 2
+        },
+        {
+          "title": "Sanfoundry",
+          "url": null,
+          "description": "practiced python mcqs from Sanfoundry(It has 1000 mcqs but to be able to be quick with mcqs that much of practice will really be worth it as you would have seen or solved all the questions in the past).",
+          "topic": "Python MCQs",
+          "page": 2
+        },
+        {
+          "title": "CodeHelp’s OS playlist",
+          "url": null,
+          "description": "I’d recommend watching CodeHelp’s OS playlist, which is around 30 hours long—it’s a time investment that’s truly worth it.",
+          "topic": "OS",
+          "page": 3
+        }
+      ],
+      "filename": "kanishka_mahindra_finance_experience.pdf",
+      "source_path": "2026/Mahindra_Finance_2026/kanishka_mahindra_finance_experience.pdf",
+      "pages": [
+        1,
+        2,
+        3
+      ],
+      "content_sha256": "10ade4522ec57fe3e01bf5cbad1aae3a6e3b19d832cc6383de336ce0c35c6c4c"
+    }
+  ]
+}

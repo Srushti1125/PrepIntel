@@ -1,0 +1,427 @@
+{
+  "company_id": "mastercard",
+  "year": "2026",
+  "experiences": [
+    {
+      "experience_id": "mastercard-2026-602f834d-1",
+      "company": "MasterCard",
+      "company_id": "mastercard",
+      "year": "2026",
+      "role": "Software Engineer I",
+      "rounds": [
+        {
+          "name": "Online Assessment",
+          "category": "Online Assessment",
+          "description": "The first round was an online proctored assessment conducted on AssessHub. The test was scheduled at 9:00 PM and conducted from home with a total duration of 1 hour. The platform was very strict regarding malpractice. Even attempting to copy–paste code (Ctrl+C / Ctrl+V) triggered alerts. Hence, all code had to be typed manually.",
+          "topics": [
+            {
+              "original": "ASCII values",
+              "canonical": "ASCII values",
+              "category": "Other"
+            },
+            {
+              "original": "bit manipulation",
+              "canonical": "Bit Manipulation",
+              "category": "Other"
+            },
+            {
+              "original": "character encoding",
+              "canonical": "Character Encoding",
+              "category": "Other"
+            },
+            {
+              "original": "logical operations",
+              "canonical": "Logical Reasoning",
+              "category": "Aptitude"
+            },
+            {
+              "original": "pattern",
+              "canonical": "Pattern",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Encryption & Decryption Program",
+              "kind": "coding",
+              "page": 1
+            },
+            {
+              "text": "Print the mirror image and water image of a given pattern",
+              "kind": "coding",
+              "page": 1
+            }
+          ],
+          "difficulty": "logically easy",
+          "pages": [
+            1
+          ]
+        },
+        {
+          "name": "Technical Interview – 1",
+          "category": "Technical Interview",
+          "description": "The interview was conducted by a Platform Engineer (Team Lead) and focused on core fundamentals, problem-solving approach, and mindset.",
+          "topics": [
+            {
+              "original": "Introduction",
+              "canonical": "Introduction",
+              "category": "Other"
+            },
+            {
+              "original": "Core Java Concepts",
+              "canonical": "Java",
+              "category": "Programming languages"
+            },
+            {
+              "original": "Project Discussion",
+              "canonical": "Projects",
+              "category": "Projects"
+            },
+            {
+              "original": "Conceptual Question",
+              "canonical": "Conceptual Question",
+              "category": "Other"
+            },
+            {
+              "original": "Coding & Logical Questions",
+              "canonical": "Logical Reasoning",
+              "category": "Aptitude"
+            },
+            {
+              "original": "Scenario-Based Question",
+              "canonical": "Scenario-Based Question",
+              "category": "Other"
+            }
+          ],
+          "questions": [
+            {
+              "text": "briefly introduce myself",
+              "kind": "hr",
+              "page": 2
+            },
+            {
+              "text": "Difference between JVM, JDK, and JRE",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Why Java is called “Write Once, Run Everywhere (WORE)”",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "explain how I develop a project from scratch",
+              "kind": "project",
+              "page": 2
+            },
+            {
+              "text": "Explained Machine Learning as if explaining it to a 5-year-old",
+              "kind": "technical",
+              "page": 2
+            },
+            {
+              "text": "Reverse a string",
+              "kind": "coding",
+              "page": 2
+            },
+            {
+              "text": "Complete a number series",
+              "kind": "coding",
+              "page": 2
+            },
+            {
+              "text": "Write pseudo-code for a pattern",
+              "kind": "coding",
+              "page": 2
+            },
+            {
+              "text": "whether I would work on a simple or less popular technology even if it may not be useful in the long term",
+              "kind": "hr",
+              "page": 2
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            2
+          ]
+        },
+        {
+          "name": "Technical Interview – 2",
+          "category": "Technical Interview",
+          "description": "This round was conducted by a Senior Developer and was deeply technical. The interviewer explicitly mentioned that he would go through each item mentioned in my resume.",
+          "topics": [
+            {
+              "original": "Object-Oriented Design",
+              "canonical": "Object-Oriented Programming",
+              "category": "OOPs"
+            },
+            {
+              "original": "Logical & Coding Questions",
+              "canonical": "Logical Reasoning",
+              "category": "Aptitude"
+            },
+            {
+              "original": "DBMS",
+              "canonical": "Database Management Systems",
+              "category": "DBMS and SQL"
+            },
+            {
+              "original": "Data Structures",
+              "canonical": "Data Structures and Algorithms",
+              "category": "DSA and coding"
+            },
+            {
+              "original": "Internship Discussion (Kafka)",
+              "canonical": "Internship Discussion (Kafka)",
+              "category": "Other"
+            },
+            {
+              "original": "Project-Based Questions",
+              "canonical": "Projects",
+              "category": "Projects"
+            }
+          ],
+          "questions": [
+            {
+              "text": "Design class hierarchy",
+              "kind": "coding",
+              "page": 3
+            },
+            {
+              "text": "Use appropriate data structures",
+              "kind": "coding",
+              "page": 3
+            },
+            {
+              "text": "Think from a production-level perspective",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "Add, fetch, and delete employees based on conditions",
+              "kind": "coding",
+              "page": 3
+            },
+            {
+              "text": "Find employee with highest salary",
+              "kind": "coding",
+              "page": 3
+            },
+            {
+              "text": "If salaries are same, return the employee who joined most recently",
+              "kind": "coding",
+              "page": 3
+            },
+            {
+              "text": "Designed an ER diagram for the employee system",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "Wrote 4–5 SQL queries",
+              "kind": "coding",
+              "page": 3
+            },
+            {
+              "text": "Differences between SQL and NoSQL",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "Given scenarios and asked which database to use and why",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "Code to find the meeting point of two linked lists",
+              "kind": "coding",
+              "page": 3
+            },
+            {
+              "text": "Why Kafka instead of simple APIs",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "How Kafka improved efficiency and scalability",
+              "kind": "technical",
+              "page": 3
+            },
+            {
+              "text": "Where Kafka was used in the project",
+              "kind": "project",
+              "page": 3
+            },
+            {
+              "text": "Detailed discussion on projects mentioned in my resume",
+              "kind": "project",
+              "page": 3
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            3
+          ]
+        },
+        {
+          "name": "HR Interview",
+          "category": "HR Interview",
+          "description": "This was a conversational round focused on personality, awareness, and fit.",
+          "topics": [],
+          "questions": [
+            {
+              "text": "Feedback on my previous two interviews",
+              "kind": "hr",
+              "page": 4
+            },
+            {
+              "text": "Names of interviewers",
+              "kind": "hr",
+              "page": 4
+            },
+            {
+              "text": "Internship experience",
+              "kind": "hr",
+              "page": 4
+            },
+            {
+              "text": "Family background",
+              "kind": "hr",
+              "page": 4
+            },
+            {
+              "text": "Willingness to relocate to Pune",
+              "kind": "hr",
+              "page": 4
+            }
+          ],
+          "difficulty": null,
+          "pages": [
+            4
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "text": "Always clarify problem statements and edge cases",
+          "category": "Interview strategy",
+          "page": 2
+        },
+        {
+          "text": "Focus on approach, not just the final answer",
+          "category": "Interview strategy",
+          "page": 2
+        },
+        {
+          "text": "Be honest but diplomatic in scenario-based questions",
+          "category": "Interview strategy",
+          "page": 2
+        },
+        {
+          "text": "Communicate clearly and confidently",
+          "category": "Interview strategy",
+          "page": 2
+        },
+        {
+          "text": "Know everything written in your resume in depth",
+          "category": "Interview strategy",
+          "page": 3
+        },
+        {
+          "text": "Practice OOP design questions",
+          "category": "Coding preparation",
+          "page": 3
+        },
+        {
+          "text": "Revise DBMS, SQL queries, and linked list problems",
+          "category": "Technical preparation",
+          "page": 3
+        },
+        {
+          "text": "Be prepared to justify technology choices",
+          "category": "Project preparation",
+          "page": 3
+        },
+        {
+          "text": "Striver’s DSA Sheet is honestly one of the best resources to practice DSA. If you’re confused about where to start, just follow the sheet consistently.",
+          "category": "Coding preparation",
+          "page": 4
+        },
+        {
+          "text": "Keep your fundamentals very clear. No matter how much you code, interviewers always test your basics.",
+          "category": "Technical preparation",
+          "page": 4
+        },
+        {
+          "text": "You should prepare SQL queries with the same seriousness as DSA coding.",
+          "category": "Technical preparation",
+          "page": 4
+        },
+        {
+          "text": "For SQL practice, SQL50 is a great place to strengthen your basics.",
+          "category": "Technical preparation",
+          "page": 4
+        },
+        {
+          "text": "Additionally, I used ChatGPT to generate scenario-based SQL questions and complex queries, which helped me think from an interview perspective.",
+          "category": "Technical preparation",
+          "page": 4
+        },
+        {
+          "text": "For Aptitude preparation, I found CareerRide to be a really good and reliable resource.",
+          "category": "OA preparation",
+          "page": 4
+        },
+        {
+          "text": "Make sure you revise DBMS and OS fundamentals, as they are frequently asked in interviews.",
+          "category": "Technical preparation",
+          "page": 4
+        },
+        {
+          "text": "And most importantly, communication skills. Even if you know the answer, you should be able to clearly explain your approach and thought process. Interviewers pay a lot of attention to this.",
+          "category": "Interview strategy",
+          "page": 4
+        }
+      ],
+      "resources": [
+        {
+          "title": "Striver’s DSA Sheet",
+          "url": null,
+          "description": null,
+          "topic": "DSA",
+          "page": 4
+        },
+        {
+          "title": "SQL50",
+          "url": null,
+          "description": "a great place to strengthen your basics",
+          "topic": "SQL practice",
+          "page": 4
+        },
+        {
+          "title": "ChatGPT",
+          "url": null,
+          "description": "to generate scenario-based SQL questions and complex queries",
+          "topic": "scenario-based SQL questions and complex queries",
+          "page": 4
+        },
+        {
+          "title": "CareerRide",
+          "url": null,
+          "description": "a really good and reliable resource",
+          "topic": "Aptitude preparation",
+          "page": 4
+        }
+      ],
+      "filename": "MasterCard_Software Engineer 1_ Riya Patil.pdf",
+      "source_path": "2026/MasterCard/MasterCard_Software Engineer 1_ Riya Patil.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "content_sha256": "602f834da1cb74e2c8b79663f569ce0d2759295abaf66da97b8c887882f752f7"
+    }
+  ]
+}

@@ -9,7 +9,7 @@ def test_dashboard_renders_and_company_switch(ingested, monkeypatch):
     monkeypatch.setenv("DATA_DIR", str(settings.data_dir))
     at = AppTest.from_file(str(__import__("pathlib").Path(__file__).resolve().parents[1] / "app.py"), default_timeout=60).run()
     assert not at.exception
-    assert [o for o in at.selectbox[0].options] == ["Acme Corp", "Globex"] or at.selectbox[0].options  # dynamic list
+    assert set(at.selectbox[0].options) == {"acme_corp", "globex"}
     metrics = {m.label: m.value for m in at.metric}
     assert metrics["Distinct experiences"] == "2"
     at.selectbox[0].select("globex").run()
