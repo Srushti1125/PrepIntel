@@ -18,6 +18,8 @@ venv/
 .idea/
 .vscode/
 
+.reports/
+
 # NOTE: chroma_db/ and data/ are intentionally NOT ignored so a prebuilt index can be
 # deployed to Streamlit Community Cloud. They contain passages copied from the PDFs.
 # If the interview material is private, uncomment the next two lines and use a hosted
