@@ -177,37 +177,53 @@ def md_safe(text: str) -> str:
     return text.replace("`", "'")
 
 def canonical_role(role: str | None) -> str:
-    """Normalize common title variants into role families across every company."""
+    """Group equivalent role title variants without merging distinct job functions."""
     raw = (role or "").strip()
     name = re.sub(r"[^a-z0-9]+", " ", raw.lower()).strip()
+    name = re.sub(r"\s+", " ", name)
     if not name or name == "role not mentioned":
         return "Role not mentioned"
 
     if re.search(r"\b(?:aladdin|alladin)\b", name) and re.search(r"\bdata\b", name):
         return "Aladdin Data"
-    if "global marketing" in name:
+    if re.search(r"\bglobal marketing\b", name):
         return "Global Marketing"
+    if re.search(r"\bglobal markets\b", name):
+        return "Global Markets"
 
-    # Normalize equivalent software development titles, seniority labels, and specializations.
+    # Collapse common software engineering acronyms, wording, and level variants.
     if re.search(r"\b(?:sde|swe)\b", name) or (
         re.search(r"\bsoftware\b", name)
         and re.search(r"\b(?:engineer|engineering|developer|development)\b", name)
     ):
         return "Software Engineer"
-    if re.search(r"\bapplication\b", name) and re.search(r"\b(?:engineer|developer)\b", name):
+    if re.search(r"\bapplication\b", name) and re.search(r"\b(?:engineer|developer|development)\b", name):
         return "Application Engineer"
+    if re.search(r"\btechnology developer\b", name) or name == "graduate trainee technology":
+        return "Technology Developer"
+    if re.search(r"\bdata engineer\b", name):
+        return "Data Engineer"
+    if re.search(r"\bdeveloper\b", name) and re.search(r"\bquality\b", name):
+        return "Developer Quality Engineer"
     if re.search(r"\bdigital technology\b", name):
         return "Digital Technology Intern" if re.search(r"\b(?:intern|internship|dti)\b", name) else "Digital Technology"
     if re.search(r"\bassociate product manager\b", name):
         return "Associate Product Manager"
-    if re.search(r"\bsummer intern(?:ship)?\b", name) or name in {"intern", "internship"}:
+    if name in {"intern", "internship", "summer intern", "summer internship"}:
         return "Intern"
+    if name in {"itd", "it developer"}:
+        return "IT Developer"
 
-    # Drop common level/employment suffixes while retaining the functional title.
-    name = re.sub(r"\b(?:internship|intern|graduate|trainee|entry level|junior|senior)\b", " ", name)
-    name = re.sub(r"\b(?:level )?\d+[a-z]?\b", " ", name)
+    # Treat conjunction and punctuation variants consistently (e.g. "&" and "and").
+    name = re.sub(r"\band\b", " ", name)
+
+    # Remove employment and level markers while preserving the functional title.
+    name = re.sub(r"\b(?:internship|intern|graduate|trainee|entry level|junior|senior|level)\b", " ", name)
+    name = re.sub(r"\b\d+[a-z]?\b", " ", name)
     name = re.sub(r"\s+", " ", name).strip()
-    return name.title() if name else "Role not mentioned"
+    if not name:
+        return "Graduate Trainee" if re.search(r"\b(?:graduate|trainee)\b", raw.lower()) else "Role not mentioned"
+    return name.title()
 
 
 
@@ -361,6 +377,7 @@ if not exps:
             "to build the dashboard.")
 else:
     ov = dash.overview(exps)
+    ov["roles"] = sorted({canonical_role(e.role) for e in exps if e.role})
     c1, c2, c3, c4, c5 = st.columns(5)
     c1.metric("Distinct experiences", ov["experiences"])
     c2.metric("Source PDFs", ov["documents"])
@@ -368,7 +385,6 @@ else:
     c4.metric("Roles identified", len(ov["roles"]))
     c5.metric("Topics extracted", ov["topics"])
     card("Reported placement procedure", dash.procedure_summary(exps))
-    st.caption("Roles: " + (", ".join(ov["roles"]) if ov["roles"] else "no role was mentioned in the source documents"))
 
 tab_rounds, tab_topics, tab_res, tab_chat = st.tabs(
     ["Rounds", "Topic Intelligence", "Resources", "Ask CampusPrep AI"]
@@ -379,116 +395,110 @@ with tab_rounds:
     if not exps:
         st.write("No structured rounds available.")
     else:
-        st.markdown('<div class="cp-note">Each round below combines reports from candidates with the same normalized role at this company. Counts show how often a topic or question appeared across those experiences.</div>', unsafe_allow_html=True)
+        st.markdown('<div class="cp-note">Each round below combines reports from all candidate roles at this company. Counts show how often a topic or question appeared across those experiences.</div>', unsafe_allow_html=True)
         experiences = sorted(exps, key=lambda x: (x.year, x.filename), reverse=True)
-        role_groups = {}
+        st.markdown("### Overall interview rounds")
+        st.caption(f"Combined from {len(experiences)} candidate experiences across all identified roles")
+        round_groups = {}
         for experience in experiences:
-            role_groups.setdefault(canonical_role(experience.role), []).append(experience)
+            for round_number, round_info in enumerate(experience.rounds, start=1):
+                round_groups.setdefault(round_number, []).append((experience, round_info))
 
-        for role_index, role_name in enumerate(sorted(role_groups)):
-            role_experiences = role_groups[role_name]
-            st.markdown(f"### {html.escape(role_name)}")
-            st.caption(f"Combined from {len(role_experiences)} candidate experiences")
-            round_groups = {}
-            for experience in role_experiences:
-                for round_number, round_info in enumerate(experience.rounds, start=1):
-                    round_groups.setdefault(round_number, []).append((experience, round_info))
+        for round_number, entries in sorted(round_groups.items()):
+            unique_experiences = {experience.experience_id: experience for experience, _ in entries}
+            report_count = len(unique_experiences)
+            with st.container(border=True, key=f"round-card-overall-{round_number}"):
+                st.markdown(f"#### Round {round_number}")
+                round_types = {}
+                for experience, round_info in entries:
+                    round_types.setdefault(round_info.category or "Other", set()).add(experience.experience_id)
+                durations = {}
+                difficulties = {}
+                topic_mentions = {}
+                topic_areas = {}
+                question_mentions = {}
+                question_kinds = {}
+                format_facts = {}
+                assessment_sections_seen = {}
 
-            for round_number, entries in sorted(round_groups.items()):
-                unique_experiences = {experience.experience_id: experience for experience, _ in entries}
-                report_count = len(unique_experiences)
-                with st.container(border=True, key=f"round-card-{role_index}-{round_number}"):
-                    st.markdown(f"#### Round {round_number}")
-                    round_types = {}
-                    for experience, round_info in entries:
-                        round_types.setdefault(round_info.category or "Other", set()).add(experience.experience_id)
-                    durations = {}
-                    difficulties = {}
-                    topic_mentions = {}
-                    topic_areas = {}
-                    question_mentions = {}
-                    question_kinds = {}
-                    format_facts = {}
-                    assessment_sections_seen = {}
+                for experience, round_info in entries:
+                    eid = experience.experience_id
+                    duration = round_duration(round_info.description)
+                    if duration:
+                        durations.setdefault(duration, set()).add(eid)
+                    difficulty = round_difficulty(round_info)
+                    if difficulty:
+                        difficulties.setdefault(difficulty, set()).add(eid)
+                    for topic in round_info.topics:
+                        topic_name = display_topic_name(topic.canonical)
+                        topic_mentions.setdefault(topic_name, set()).add(eid)
+                        topic_areas[topic_name] = topic.category or "Other"
+                    for question in round_info.questions:
+                        question_key = re.sub(r"[^a-z0-9]+", " ", question.text.lower()).strip()
+                        if question_key:
+                            question_mentions.setdefault(question_key, {"text": question.text, "experiences": set()})["experiences"].add(eid)
+                            kind = (question.kind or "other").replace("_", " ").title()
+                            question_kinds.setdefault(kind, set()).add(eid)
+                    for fact in assessment_format(round_info):
+                        fact = normalize_time_units(fact)
+                        fact_key = re.sub(r"[^a-z0-9]+", " ", fact.lower()).strip()
+                        if fact_key:
+                            format_facts.setdefault(fact_key, {"text": fact, "experiences": set()})["experiences"].add(eid)
+                    for section in assessment_sections(round_info):
+                        assessment_sections_seen.setdefault(section, set()).add(eid)
 
-                    for experience, round_info in entries:
-                        eid = experience.experience_id
-                        duration = round_duration(round_info.description)
-                        if duration:
-                            durations.setdefault(duration, set()).add(eid)
-                        difficulty = round_difficulty(round_info)
-                        if difficulty:
-                            difficulties.setdefault(difficulty, set()).add(eid)
-                        for topic in round_info.topics:
-                            topic_name = display_topic_name(topic.canonical)
-                            topic_mentions.setdefault(topic_name, set()).add(eid)
-                            topic_areas[topic_name] = topic.category or "Other"
-                        for question in round_info.questions:
-                            question_key = re.sub(r"[^a-z0-9]+", " ", question.text.lower()).strip()
-                            if question_key:
-                                question_mentions.setdefault(question_key, {"text": question.text, "experiences": set()})["experiences"].add(eid)
-                                kind = (question.kind or "other").replace("_", " ").title()
-                                question_kinds.setdefault(kind, set()).add(eid)
-                        for fact in assessment_format(round_info):
-                            fact = normalize_time_units(fact)
-                            fact_key = re.sub(r"[^a-z0-9]+", " ", fact.lower()).strip()
-                            if fact_key:
-                                format_facts.setdefault(fact_key, {"text": fact, "experiences": set()})["experiences"].add(eid)
-                        for section in assessment_sections(round_info):
-                            assessment_sections_seen.setdefault(section, set()).add(eid)
+                def frequency_label(values, limit=3):
+                    ordered = sorted(values.items(), key=lambda item: (-len(item[1]), item[0]))[:limit]
+                    return " · ".join(f"{name} ({len(ids)} reports)" for name, ids in ordered) if ordered else "Not stated"
 
-                    def frequency_label(values, limit=3):
-                        ordered = sorted(values.items(), key=lambda item: (-len(item[1]), item[0]))[:limit]
-                        return " · ".join(f"{name} ({len(ids)} reports)" for name, ids in ordered) if ordered else "Not stated"
+                st.caption(f"Round type across reports · {frequency_label(round_types)}")
+                metric_rows = [
+                    ("Experiences", str(report_count)),
+                    ("Duration", frequency_label(durations)),
+                    ("Difficulty", frequency_label(difficulties)),
+                    ("Distinct questions", str(len(question_mentions))),
+                ]
+                stat_cards = "".join(
+                    f'<div class="cp-round-stat"><div class="cp-round-stat-label">{html.escape(label)}</div>'
+                    f'<div class="cp-round-stat-value">{html.escape(value)}</div></div>'
+                    for label, value in metric_rows
+                )
+                st.markdown(f'<div class="cp-round-stats">{stat_cards}</div>', unsafe_allow_html=True)
 
-                    st.caption(f"Round type across reports · {frequency_label(round_types)}")
-                    metric_rows = [
-                        ("Experiences", str(report_count)),
-                        ("Duration", frequency_label(durations)),
-                        ("Difficulty", frequency_label(difficulties)),
-                        ("Distinct questions", str(len(question_mentions))),
-                    ]
-                    stat_cards = "".join(
-                        f'<div class="cp-round-stat"><div class="cp-round-stat-label">{html.escape(label)}</div>'
-                        f'<div class="cp-round-stat-value">{html.escape(value)}</div></div>'
-                        for label, value in metric_rows
-                    )
-                    st.markdown(f'<div class="cp-round-stats">{stat_cards}</div>', unsafe_allow_html=True)
+                ordered_topics = sorted(topic_mentions.items(), key=lambda item: (-len(item[1]), item[0]))
+                if ordered_topics:
+                    top_topics = ", ".join(f"{name} ({len(ids)} reports)" for name, ids in ordered_topics[:8])
+                    st.markdown(f"**Overall insight:** Across {report_count} reports, this round most often covered {md_safe(top_topics)}. {len(question_mentions)} distinct questions were reported.")
+                    topic_groups = {}
+                    for name, ids in ordered_topics:
+                        topic_groups.setdefault(topic_areas.get(name, "Other"), []).append((name, ids))
+                    st.markdown("**Topics by area across experiences**")
+                    for area, items in topic_groups.items():
+                        area_items = ", ".join(f"{md_safe(name)} ({len(ids)} reports)" for name, ids in items[:8])
+                        st.markdown(f"- **{md_safe(area)}:** {area_items}")
 
-                    ordered_topics = sorted(topic_mentions.items(), key=lambda item: (-len(item[1]), item[0]))
-                    if ordered_topics:
-                        top_topics = ", ".join(f"{name} ({len(ids)} reports)" for name, ids in ordered_topics[:8])
-                        st.markdown(f"**Overall insight:** Across {report_count} reports, this round most often covered {md_safe(top_topics)}. {len(question_mentions)} distinct questions were reported.")
-                        topic_groups = {}
-                        for name, ids in ordered_topics:
-                            topic_groups.setdefault(topic_areas.get(name, "Other"), []).append((name, ids))
-                        st.markdown("**Topics by area across experiences**")
-                        for area, items in topic_groups.items():
-                            area_items = ", ".join(f"{md_safe(name)} ({len(ids)} reports)" for name, ids in items[:8])
-                            st.markdown(f"- **{md_safe(area)}:** {area_items}")
+                sections = sorted(assessment_sections_seen.items(), key=lambda item: (-len(item[1]), item[0]))
+                if sections:
+                    st.markdown("**Assessment sections across reports**")
+                    st.markdown(" · ".join(f"{section} ({len(ids)} reports)" for section, ids in sections))
+                facts = sorted(format_facts.values(), key=lambda item: (-len(item["experiences"]), item["text"].lower()))
+                if facts:
+                    st.markdown("**Assessment format and rules reported**")
+                    for fact in facts[:6]:
+                        st.markdown(f"- {md_safe(fact['text'])} (reported in {len(fact['experiences'])} reports)")
 
-                    sections = sorted(assessment_sections_seen.items(), key=lambda item: (-len(item[1]), item[0]))
-                    if sections:
-                        st.markdown("**Assessment sections across reports**")
-                        st.markdown(" · ".join(f"{section} ({len(ids)} reports)" for section, ids in sections))
-                    facts = sorted(format_facts.values(), key=lambda item: (-len(item["experiences"]), item["text"].lower()))
-                    if facts:
-                        st.markdown("**Assessment format and rules reported**")
-                        for fact in facts[:6]:
-                            st.markdown(f"- {md_safe(fact['text'])} (reported in {len(fact['experiences'])} reports)")
-
-                    if question_kinds:
-                        kind_summary = " · ".join(f"{kind}: {len(ids)} experiences" for kind, ids in sorted(question_kinds.items(), key=lambda item: (-len(item[1]), item[0])))
-                        st.caption(f"Question mix · {kind_summary}")
-                    ordered_questions = sorted(question_mentions.values(), key=lambda item: (-len(item["experiences"]), item["text"].lower()))
-                    if ordered_questions:
-                        st.markdown("**Reported question examples**")
-                        for question in ordered_questions[:5]:
-                            st.markdown(f"- {md_safe(question['text'])} · reported in {len(question['experiences'])} experiences")
-                        if len(ordered_questions) > 5:
-                            with st.expander(f"Show {len(ordered_questions) - 5} more distinct questions"):
-                                for question in ordered_questions[5:]:
-                                    st.markdown(f"- {md_safe(question['text'])} · reported in {len(question['experiences'])} experiences")
+                if question_kinds:
+                    kind_summary = " · ".join(f"{kind}: {len(ids)} experiences" for kind, ids in sorted(question_kinds.items(), key=lambda item: (-len(item[1]), item[0])))
+                    st.caption(f"Question mix · {kind_summary}")
+                ordered_questions = sorted(question_mentions.values(), key=lambda item: (-len(item["experiences"]), item["text"].lower()))
+                if ordered_questions:
+                    st.markdown("**Reported question examples**")
+                    for question in ordered_questions[:5]:
+                        st.markdown(f"- {md_safe(question['text'])} · reported in {len(question['experiences'])} experiences")
+                    if len(ordered_questions) > 5:
+                        with st.expander(f"Show {len(ordered_questions) - 5} more distinct questions"):
+                            for question in ordered_questions[5:]:
+                                st.markdown(f"- {md_safe(question['text'])} · reported in {len(question['experiences'])} experiences")
 
 # ------------------------------------------------------------------------------------ topics
 with tab_topics:
