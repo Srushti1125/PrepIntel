@@ -135,7 +135,6 @@ div[data-testid="stDataFrame"] {border:1px solid #e3e9f2;border-radius:12px;over
 .cp-top-topic-rank {display:grid;place-items:center;width:1.8rem;height:1.8rem;border-radius:9px;background:#eaf1fc;color:#28588f;font-size:.82rem;font-weight:750;}
 .cp-top-topic-name {color:#203a5d;font-size:1.02rem;font-weight:750;}
 .cp-top-topic-count {color:#64748b;font-size:.82rem;font-weight:650;white-space:nowrap;}
-.cp-top-topic-subtopics {color:#566982;font-size:.88rem;line-height:1.5;margin-top:.32rem;}
 .cp-topic-group {background:#fff;border:1px solid #e2e9f2;border-radius:14px;padding:.9rem 1rem;margin:.45rem 0;box-shadow:0 3px 12px rgba(23,32,51,.025);}
 .cp-topic-group-title {font-size:1rem;font-weight:750;color:#19375e;margin-bottom:.55rem;}
 .cp-topic-item {display:flex;justify-content:space-between;gap:.6rem;align-items:center;padding:.38rem 0;border-bottom:1px solid #f0f3f7;color:#33445c;font-size:.9rem;}
@@ -511,28 +510,13 @@ with tab_topics:
         if top_topics.empty:
             st.info("No topics were extracted for this company yet.")
         else:
-            related_by_topic = {}
-            for experience in exps:
-                for round_info in experience.rounds:
-                    round_topics = list(dict.fromkeys(display_topic_name(topic.canonical) for topic in round_info.topics))
-                    for main_topic in round_topics:
-                        related = related_by_topic.setdefault(main_topic, {})
-                        for related_topic in round_topics:
-                            if related_topic != main_topic:
-                                related.setdefault(related_topic, set()).add(experience.experience_id)
             for rank, row in enumerate(top_topics.to_dict(orient="records"), start=1):
                 topic_name = str(row["Topic"])
                 topic = html.escape(topic_name)
                 count = int(row["Experiences"])
-                related = sorted(related_by_topic.get(topic_name, {}).items(), key=lambda item: (-len(item[1]), item[0]))[:5]
-                if related:
-                    subtopics = " · ".join(f"{html.escape(name)}" for name, _ in related)
-                    subtopic_line = f'<div class="cp-top-topic-subtopics"><b>Related subtopics asked:</b> {subtopics}</div>'
-                else:
-                    subtopic_line = '<div class="cp-top-topic-subtopics">No related subtopics were extracted from these rounds.</div>'
                 st.markdown(
                     f'<div class="cp-top-topic"><div class="cp-top-topic-rank">{rank}</div>'
-                    f'<div><div class="cp-top-topic-name">{topic}</div>{subtopic_line}</div>'
+                    f'<div><div class="cp-top-topic-name">{topic}</div></div>'
                     f'<div class="cp-top-topic-count">{count} experiences</div></div>',
                     unsafe_allow_html=True,
                 )

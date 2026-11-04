@@ -14,11 +14,11 @@ class MetadataError(ValueError):
 
 @dataclass(frozen=True)
 class DocMeta:
-    company: str        # original folder name, e.g. "Company_A"
-    company_id: str     # normalised id, e.g. "company_a"
+    company: str        
+    company_id: str     
     year: str
     filename: str
-    source_path: str    # posix path relative to the input root, e.g. "2025/Company_A/experience_1.pdf"
+    source_path: str    
 
 
 def extract_metadata(pdf_path: Path, root: Path) -> DocMeta:
