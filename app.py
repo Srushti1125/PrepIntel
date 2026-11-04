@@ -121,15 +121,6 @@ div[data-testid="stChatMessage"] {border:1px solid #e7edf5;border-radius:16px;pa
 div[data-testid="stChatMessage"] [data-testid="stMarkdownContainer"] {line-height:1.7;}
 div[data-testid="stChatInput"] textarea {border-radius:14px;}
 div[data-testid="stDataFrame"] {border:1px solid #e3e9f2;border-radius:12px;overflow:hidden;}
-.cp-tip-section {margin:1.4rem 0 1rem;padding:.2rem 0 .65rem;border-bottom:1px solid #e2e8f0;}
-.cp-tip-heading {display:flex;align-items:center;gap:.65rem;color:#19375e;font-size:1.18rem;font-weight:750;}
-.cp-tip-icon {display:inline-flex;align-items:center;justify-content:center;width:2rem;height:2rem;border-radius:10px;background:#eaf1fc;color:#28588f;}
-.cp-tip-count {display:inline-block;background:#e8f0fc;color:#275895;border-radius:999px;padding:.18rem .62rem;font-size:.74rem;font-weight:700;}
-.cp-tip-card {height:100%;background:#fff;border:1px solid #e2e9f2;border-radius:15px;padding:1rem 1.1rem;margin:.3rem 0 .8rem;box-shadow:0 4px 14px rgba(23,32,51,.035);}
-.cp-tip-card:before {content:"“";display:block;color:#7ba4dc;font-family:Georgia,serif;font-size:2rem;line-height:.8;margin-bottom:.45rem;}
-.cp-tip-text {color:#263b58;line-height:1.7;font-size:.97rem;}
-.cp-tip-meta {border-top:1px solid #edf1f6;margin-top:.8rem;padding-top:.65rem;color:#718096;font-size:.78rem;}
-.cp-tip-tag {display:inline-block;background:#edf6f1;color:#28734b;border-radius:999px;padding:.15rem .55rem;margin-right:.4rem;font-weight:650;}
 
 .cp-round-stats {display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:.55rem;margin:.35rem 0 .85rem;}
 .cp-round-stat {min-width:0;background:#f7f9fc;border:1px solid #e8edf4;border-radius:10px;padding:.5rem .7rem;}
@@ -173,7 +164,6 @@ EXAMPLES = [
     "What topics were asked in the online assessment?",
     "What coding questions were reported?",
     "Summarize the reported interview process.",
-    "What preparation tips did selected students share?",
     "What resources were recommended?",
     "Create a seven-day study plan based on these experiences.",
 ]
@@ -226,16 +216,6 @@ def description_points(text: str) -> list[str]:
     """Turn an extracted round narrative into readable sentence-level bullets."""
     cleaned = " ".join((text or "").split())
     return [point.strip() for point in re.split(r"(?<=[.!?])\s+(?=[A-Z0-9])", cleaned) if point.strip()]
-
-
-def brief_tip(text: str, word_limit: int = 24) -> str:
-    """Show one concise, extractive tip preview without changing its meaning."""
-    sentences = description_points(text)
-    preview = sentences[0] if sentences else " ".join((text or "").split())
-    words = preview.split()
-    if len(words) > word_limit:
-        preview = " ".join(words[:word_limit]).rstrip(" ,;:") + "…"
-    return preview
 
 
 def _canonical_duration(value: str, unit: str) -> str:
@@ -342,7 +322,7 @@ companies = [
 ]
 st.markdown('<div class="cp-hero"><div class="cp-eyebrow">Campus placement intelligence · 2026</div>'
             f'<div class="cp-title"><span class="cp-title-icon">{svg_icon("school", 32)}</span>CampusPrep AI</div>'
-            '<div class="cp-sub">Explore candidate-reported interview rounds, topics, preparation tips and resources.</div></div>',
+            '<div class="cp-sub">Explore candidate-reported interview rounds, topics and resources.</div></div>',
             unsafe_allow_html=True)
 
 with st.sidebar:
@@ -390,8 +370,8 @@ else:
     card("Reported placement procedure", dash.procedure_summary(exps))
     st.caption("Roles: " + (", ".join(ov["roles"]) if ov["roles"] else "no role was mentioned in the source documents"))
 
-tab_rounds, tab_topics, tab_tips, tab_res, tab_chat = st.tabs(
-    ["Rounds", "Topic Intelligence", "Preparation Tips", "Resources", "Ask CampusPrep AI"]
+tab_rounds, tab_topics, tab_res, tab_chat = st.tabs(
+    ["Rounds", "Topic Intelligence", "Resources", "Ask CampusPrep AI"]
 )
 
 # ------------------------------------------------------------------------------------ rounds
@@ -546,37 +526,6 @@ with tab_topics:
                     f'<div class="cp-top-topic-count">{count} experiences</div></div>',
                     unsafe_allow_html=True,
                 )
-
-# ------------------------------------------------------------------------------------ tips
-with tab_tips:
-    grouped = dash.tips_by_category(exps)
-    st.markdown('<div class="cp-note">These are preparation tips shared by candidates in the source PDFs. Browse them by interview stage; each card includes its source.</div>', unsafe_allow_html=True)
-    if not grouped:
-        st.info("No preparation tips were extracted for this company yet.")
-    icons = {
-        "OA preparation": "clipboard", "Technical preparation": "laptop",
-        "Coding preparation": "code", "Project preparation": "folder",
-        "HR preparation": "users", "Interview strategy": "target",
-    }
-    for category, tips in grouped.items():
-        st.markdown(
-            f'<div class="cp-tip-section"><div class="cp-tip-heading"><span class="cp-tip-icon">{svg_icon(icons.get(category, "lightbulb"))}</span> '
-            f'{html.escape(category)} <span class="cp-tip-count">{len(tips)} tip{"s" if len(tips) != 1 else ""}</span></div></div>',
-            unsafe_allow_html=True,
-        )
-        cols = st.columns(2, gap="medium")
-        for index, tip in enumerate(tips):
-            source = html.escape(f'{tip["year"]} · {tip["source"]}')
-            preview = html.escape(brief_tip(tip["text"]))
-            col = cols[index % 2]
-            col.markdown(
-                f'<div class="cp-tip-card"><div class="cp-tip-text">{preview}</div>'
-                f'<div class="cp-tip-meta"><span class="cp-tip-tag">Candidate-reported</span>{source}</div></div>',
-                unsafe_allow_html=True,
-            )
-            if brief_tip(tip["text"]) != " ".join(tip["text"].split()):
-                with col.expander("Read full tip"):
-                    st.write(tip["text"])
 
 # ------------------------------------------------------------------------------------ resources
 with tab_res:

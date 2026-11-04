@@ -1,6 +1,6 @@
 # 🎓 CampusPrep AI — Company Placement Intelligence
 
-Select a company → see what its historical interview experiences say (rounds, topics, questions, tips, resources) →
+Select a company → see what its historical interview experiences say (rounds, topics, questions, resources) →
 ask follow-up questions in a company-scoped RAG chat. **Every statement is traceable to a PDF filename and page.**
 
 ## Architecture
@@ -14,7 +14,7 @@ Interview_Experiences/<year>/<company>/*.pdf
         └─► Gemini/Groq structured extraction (round-robin; rate-limit fallback) ─► grounding filter ─► data/experiences/<company>_<year>.json
                                                                            data/companies.json, ingestion_manifest.json
  app.py (Streamlit)
-   ├─ dashboard  ◄── JSON only (no LLM, no vector search): overview, rounds, topics, tips, resources
+   ├─ dashboard  ◄── JSON only (no LLM, no vector search): overview, rounds, topics, resources
    └─ chat       ◄── LangGraph: classify_query → retrieve_documents → generate_answer → verify_citations
                        (retrieval filtered *inside* the Chroma query by company_id)
 ```
